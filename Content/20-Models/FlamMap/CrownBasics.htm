@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="General.QA ONLY">
+    <head>
+    </head>
+    <body>
+        <h1>Crown Fire Modeling Basics</h1>
+        <p class="comment" MadCap:conditions="General.QA ONLY">Google Doc:&#160;https://docs.google.com/document/d/1aUuYBUYiPgX-it0nbduDiaHtDudw7GpJ61yEWgQ-5Z4/edit#</p>
+        <p>A surface fire may make the transition to some form of crown fire depending on the surface intensity and crown characteristics (Van Wagner 1977, 1993, Alexander 1988). The crown characteristics that are used to compute crown fire activity are:</p>
+        <ul>
+            <li><b>crown base height</b> - Lower crown base height (including ladder fuels) facilitates ignition of the crown fuels by the surface fire and then, transition to some  form of crown fire.</li>
+            <li><b>foliar moisture  content -</b> Lower foliar moisture contents decrease the surface fire intensity needed to ignite crown fuels.</li>
+            <li><b>crown bulk density -</b> Crown bulk density is used to determine threshold values for active crown fire, which spreads much faster than a surface fire.</li>
+            <li><b>stand height -</b> Used as the upper level of the crown space for determining crown  fuel loading and the starting height for lofting embers.</li>
+        </ul>
+        <p>After determining the surface spread characteristics, the fireline intensity is compared with the intensity threshold that is critical to involving the overlying crown fuels. If the threshold is met or exceeded, some form of crown fire has occurred. To determine what "type" of crown fire, active or passive (Van Wagner 1977), the equilibrium rate of crown fire spread is computed for the current spread direction (Rothermel 1991), modified by the "crown fraction burned" (Van Wagner 1993) and compared with the critical rate of spread required for an active crown fire. If this threshold is not met or is exceeded, the crown involvement is assumed limited to torching trees (a passive crown fire), else it becomes an active crown fire.</p>
+        <p>For passive (torching) crown fire the rate of spread (ROS) is determined by Crown Fire Calculation Method selected,</p>
+        <ul>
+            <li>using the Finney (2004) method ROS remains the same as surface fire ROS, with the assumption that spot fires will increase the advance of the simulated fire perimeters,</li>
+            <li>the Scott and Reinhardt (2001) method increases the ROS in proportion with the crown fraction burned.</li>
+        </ul>
+        <p>With both Crown Fire Calculation Methods active crown fire ROS is much higher than the surface fire ROS. The fireline intensity and flame length also increase significantly for active crown fire. More details on crown fire modeling can be found in Finney (2004), Scott (2006), and Scott and Reinhardt (2001).</p>
+        <h2>Crown Fire Calculation Methods</h2>
+        <p>There are two options for calculating crown fire behavior, the original FARSITE method described in Finney (2004) and the method described  by Scott and Reinhardt (2001). Examples below attempt to show and explain the effects and differences between the two options. The examples utilize a central Idaho LandFire 40 fuel model landscape (v1.3.0), 90th percentile ERC-G live &amp; dead fuel moistures, and moderate 8 mph 20-foot southwest winds. For the MTT runs Wind Ninja generated grids were utilized.</p>
+        <p>As expected the crown fire calculation method has no effect where only surface fire is simulated due to either lack of crown fuel data or where the critical intensity value for transition to crown fire is not reached. These results are presented to help the user understand the modelling methods rather than give specific distinctions between the crown fire calculation and propagation methods.</p>
+        <p>The selected crown fire calculation method should take into consideration the landscape data source and its assumptions and limitations and how it can greatly impact modeling results. Furthermore, the effect of the selected crown fire calculation method should be considered throughout the simulation process, even on landscape creation/modifications, spotting probability settings and simulation calibration.  Simply changing the Crown Fire Calculation Method without considering all the inputs and modeling implications is a surefire way to get bizarre, inconsistent simulation outputs, and meaningless results.</p>
+        <p>More information can be found in Finney (2004), Scott and Reinhardt (2001), and Scott (2006).</p>
+        <p>Minimum Travel Time Adaptations</p>
+        <p>The Minimum Travel Time (MTT) fire growth method handles spotting using a fixed number of nodes from which a fixed number of embers are launched.</p>
+    </body>
+</html>

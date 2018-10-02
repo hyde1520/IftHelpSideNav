@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>This is a matrix of default inputs shared across the FlamMap family of models in IFTDSS. This only includes defaults the user cannot change.</p>
+        <table style="width: 100%;mc-table-style: url('../../../TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
+            <col style="width: 119px;" class="TableStyle-Standard-Column-Column1" />
+            <col style="width: 157px;" class="TableStyle-Standard-Column-Column1" />
+            <col style="width: 170px;" class="TableStyle-Standard-Column-Column1" />
+            <col style="width: 98px;" class="TableStyle-Standard-Column-Column1" />
+            <col style="width: 183px;" class="TableStyle-Standard-Column-Column1" />
+            <col class="TableStyle-Standard-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Standard-Head-Header1">
+                    <td class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Input&#160;Group</td>
+                    <td class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Input</td>
+                    <td class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Value</td>
+                    <td class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Landscape Fire Behavior</td>
+                    <td class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">MTT Fire Spread</td>
+                    <td class="TableStyle-Standard-HeadD-Column1-Header1" style="font-weight: bold;">Landscape Burn Probability</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Search Depths</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Lateral</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">6</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">x</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body1">x</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Vertical</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">4</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">x</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body2">x</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Spotting</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Spotting Delay</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">0 min</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">x</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body1">x</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Spotting Speed</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Randomly generated</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">x</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body2">x</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Ignition</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1"># Random Ignitions</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Pyrome-based</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body1">x</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Resolution of&#160;Calculations</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Based on Landscape Size and Model Dependent</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">30 m</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">
+                        <ul>
+                            <li>&lt; 1 million acres: 30m</li>
+                            <li>&gt;1 million acres: 60m</li>
+                        </ul>
+                    </td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">
+                        <ul>
+                            <li>&lt; 250K acres: 30 m</li>
+                            <li>250 K - 1 million acres: 60 m</li>
+                            <li>1 to &lt;2.5 million acres: 90 m</li>
+                            <li>2.5 - &lt;5 million acres:120 m</li>
+                            <li>&gt;5 million acres: 150 m</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">Travel Paths</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">Interval for Minimum Travel Paths</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">300 m</td>
+                    <td class="TableStyle-Standard-BodyA-Column1-Body1">&#160;</td>
+                </tr>
+            </tbody>
+        </table>
+        <p MadCap:conditions="General.Exclude" class="comment">From:&#160;https://docs.google.com/document/d/1Ve9nvSrFVwVNQLmnquWIKCbcD8ytkoHmXINNcyrg62M/edit</p>
+    </body>
+</html>

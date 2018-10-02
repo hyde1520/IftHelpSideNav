@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table style="width: 100%;mc-table-style: url('../../TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
+            <col style="width: 117px;" class="TableStyle-Standard-Column-Column1" />
+            <col style="width: 550px;" class="TableStyle-Standard-Column-Column1" />
+            <col style="width: 170px;" class="TableStyle-Standard-Column-Column1" />
+            <col class="TableStyle-Standard-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Standard-Head-Header1">
+                    <td class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Band #</td>
+                    <td class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Band Name</td>
+                    <td class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Units - GeoTiff</td>
+                    <td class="TableStyle-Standard-HeadD-Column1-Header1" style="font-weight: bold;">Units - IFTDSS (Reports)</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">1</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Elevation</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">meters</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body1">feet</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">2</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Slope</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">degrees</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body2">degrees</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">3</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Aspect</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">degrees</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body1">degrees</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">4</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Fuel Model</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">categorical</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body2">categorical</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">5</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Canopy Cover</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">%</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body1">%</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">6</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Stand Height</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">meters * 10</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body2">meters</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">7</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Canopy Base Height</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">meters * 10</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body1">meters</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">8</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Canopy Bulk Density</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">kg/m<sup>3</sup> * 100</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body2">kg/m<sup>3</sup></td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">9</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">EVT (Existing Vegetation Type)</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">categorical</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body1">N/A</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">10</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">EVC (Existing Vegetation Cover)</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">categorical</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body2">N/A</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">11</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">EVH (Existing Vegetation Height)</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">categorical</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body1">N/A</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyB-Column1-Body2">12</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body2">Zone (LANDFIRE&#160;Map Zone)</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyB-Column1-Body2">categorical</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyA-Column1-Body2">N/A</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

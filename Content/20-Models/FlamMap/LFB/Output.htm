@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../Resources/TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../../Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Landscape Fire Behavior" />
+            <MadCap:keyword term="LFB" />Landscape <MadCap:keyword term="Fire Behavior" />Fire Behavior <MadCap:keyword term="LFB" />(LFB) Outputs<MadCap:keyword term="geotiff" /></h1>
+        <p>Fire behavior outputs are displayed spatially and include:&#160;</p>
+        <table style="width: 100%;mc-table-style: url('../../../Resources/TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
+            <col class="TableStyle-Standard-Column-Column1" />
+            <col class="TableStyle-Standard-Column-Column1" />
+            <col class="TableStyle-Standard-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Standard-Head-Header1">
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1">Name</th>
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1">Units</th>
+                    <th class="TableStyle-Standard-HeadD-Column1-Header1">Brief Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">
+                        <MadCap:keyword term="Crown Fire Activity (parameter)" />Crown Fire Activity
+					</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">
+                        <p>Fire Classes:<br /><span style="font-size: 10pt;">No, Surface, passive crown, active crown</span><![CDATA[
+					]]></p>
+                    </td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">
+                        <MadCap:keyword term="surface fires:crown fires and" />A surface fire may make the transition to some form of crown fire depending on surface fire intensity and crown characteristics. The crown characteristics used to compute crown fire activity include canopy base height, stand height, canopy bulk density, and foliar moisture content.
+					</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">
+                        <MadCap:keyword term="Direction of Maximum Spread (parameter)" />Direction of Maximum Spread
+					</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Degrees
+					</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">
+                        <MadCap:keyword term="fires:heading direction;heading direction of fires" />The heading direction of a fire. Direction of maximum spread results from the algebraic combination of the wind vector and slope vector.
+					</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">
+                        <MadCap:keyword term="Fireline Intensity (parameter)" />Fireline Intensity
+					</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">BTU/ft-sec
+					</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">The rate of energy or heat release per unit length of fire front, regardless of its depth. In other words, the energy released at the flaming front of an actively burning fire.
+					</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">
+                        <MadCap:keyword term="Flame Length (parameter):IFT-FlamMap" />Flame Length
+					</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Feet					</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">The distance from the ground at the leading edge of the flame to the tip of the flame.
+					</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">
+                        <MadCap:keyword term="Heat per Unit Area (parameter):fire behavior (FlamMap)" />Heat per Unit Area
+					</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">BTU per foot<sup>2 </sup></td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Total amount of heat released per unit area as the flaming front of the fire passes.
+					</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyB-Column1-Body2">
+                        <MadCap:keyword term="Rate of Spread (parameter):IFT-FlamMap" />Rate of Spread
+					</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body2">Chains/Hour
+					</td>
+                    <td class="TableStyle-Standard-BodyA-Column1-Body2">The linear rate of advance of a fire front in the direction perpendicular to the fire front.
+					</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Users who choose to export fire behavior outputs as GeoTiff files will see additional fire behavior outputs. Those outputs, and their units, are listed in the table below:</p>
+        <table>
+            <col style="width: 128px;" />
+            <col />
+            <col />
+            <tbody>
+                <tr>
+                    <td>MTT Output</td>
+                    <td>GeoTiff download (units)</td>
+                    <td>IFTDSS Map/Reports (units)</td>
+                </tr>
+                <tr>
+                    <td>1 hr fuel moisture</td>
+                    <td>Fraction, 0-1, e.g. 0.03 = 3%</td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>10 hr fuel moisture</td>
+                    <td>Fraction, 0-1</td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>100 hr fuel moisture</td>
+                    <td>Fraction, 0-1</td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>1000 hr fuel moisture</td>
+                    <td>Fraction, 0-1</td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>Crown Fire Activity</td>
+                    <td>No units, categorical</td>
+                    <td>No units, categorical</td>
+                </tr>
+                <tr>
+                    <td>Crown Fraction Burned</td>
+                    <td>Fraction, 0-1. 0.0 is surface fire &amp;
+1.0 is active crown fire. Intermediate
+values represent a scaled value
+of passive crown fire severity.</td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>Fireline Intensity</td>
+                    <td>kW/m</td>
+                    <td>BTU/ft-sec</td>
+                </tr>
+                <tr>
+                    <td>Flame Length</td>
+                    <td>m</td>
+                    <td>Ft</td>
+                </tr>
+                <tr>
+                    <td>Heat per Unit Area</td>
+                    <td>kJ/m<sup>2</sup></td>
+                    <td>BTU/ft<sup>2</sup></td>
+                </tr>
+                <tr>
+                    <td>Horizontal Movement</td>
+                    <td>m/min</td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>Maximum Spot Direction</td>
+                    <td>degrees</td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>Maximum Spot Distance</td>
+                    <td>meters</td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>Maximum Spread Direction</td>
+                    <td>degrees</td>
+                    <td>degrees</td>
+                </tr>
+                <tr>
+                    <td>Midflame Wind Speed</td>
+                    <td>mph (wind speeds are non-metric)</td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>Rate of Spread</td>
+                    <td>m/min</td>
+                    <td>chain/Hr</td>
+                </tr>
+                <tr>
+                    <td>Solar Radiation</td>
+                    <td>W/m<sup>2</sup></td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>Wind Direction</td>
+                    <td>degrees</td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>Wind Speed</td>
+                    <td>mph (wind speeds are non-metric)</td>
+                    <td>&#160;</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

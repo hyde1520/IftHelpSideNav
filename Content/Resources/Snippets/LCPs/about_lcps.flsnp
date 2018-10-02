@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../TableStyles/IFTDSS_PatternedRowsLeft.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>A <a href="../../../10-MapStudio/Files/LCPInfo.htm" target="_blank">Landscape file (.LCP)</a> is a multi-band raster format commonly used by wildland fire behavior and fire effects models such as FARSITE and FlamMap. The bands of an .LCP file store data describing terrain, tree canopy, and fuel model (outlined in the table below). The .LCP file defines your project area and is the first input needed to run most models in <MadCap:variable name="General.ProductName" />. LCP's generated in <MadCap:variable name="General.ProductName" /> are derived from  <a href="../../../00-Concepts/LANDFIRE.htm" target="_blank">LANDFIRE</a>.</p>
+        <p>Data contained in <MadCap:variable name="General.ProductName" /> LCP files:</p>
+        <MadCap:snippetBlock src="lcp table.flsnp" />
+        <div MadCap:conditions="General.QA ONLY">
+            <h2>Buffering Around Landscapes</h2>
+            <p>Landscapes created in IFTDSS are automatically given a 4980 meter buffer, as seen below outside of the blue boundary. This buffer will be useful when future modeling capabilities are released such as: <MadCap:conditionalText MadCap:conditions="General.LaterRelease">modeling scenarios where you need to work outside of your landscape such as:</MadCap:conditionalText></p>
+            <ul>
+                <li>Minimum Travel Time Fire Spread (MTT Fire Spread) modeling where you may want to simulate an ignition that occurs outside your landscape and burns into it.</li>
+                <li>Modeling Landscape Burn Probability  requiring ignitions placed outside of a landscape so that fires can burn onto the landscape. Additionally, fires that start within the landscape must be able to burn into the buffer to avoid erroneous edge effects.</li>
+            </ul>
+            <p>
+                <img src="../../Images/MapStudio/BufferedLandscape.png" alt="landscape with a buffer visibile in all directions beyond the blue landscape boundary line" class="border" />
+            </p>
+            <p>The Landscape Extent, beyond which the boundary extends, is delineated by the blue line when viewing it in <MadCap:variable name="General.MapStudio" />. This line may be hidden by unselecting it in the <span class="UIcomponent">Layer List</span>.</p>
+            <p>Landscapes created in earlier versions of <MadCap:variable name="General.ProductName" /> <MadCap:conditionalText MadCap:conditions="General.LaterRelease">(<span style="background-color: #ffff00;">before 10/20/2018</span>)</MadCap:conditionalText> were not assigned a buffer because that feature did not exist yet. These early landscapes also have blue boundary, but lack the surrounding buffer. They are identified throughout <MadCap:variable name="General.ProductName" /> by the prefix "NB" at the end of the landscape name, or preceding the file type. "NB" indicates "No Buffer". For example, an old landscape that used to be named "Light Thin Pile Burn All" now appears as "Light Thin Pile Burn All-NB" and is identified as an "NB Landscape" in <span class="UIcomponent">MyWorkspace</span>. </p>
+            <p>
+                <img src="../../Images/MyWorkspace/NoBufferLandscapes.png" alt="Landscape names ending in 'NB' do not have a buffer around them" class="border" />
+            </p>
+            <h3>Generating Reports with Buffered Landscapes</h3>
+            <p>The buffer around your landscape (the area outside the blue landscape boundary) IS&#160;NOT included in Summary Report statistics generated in <MadCap:variable name="General.ProductName" />. Only the area inside the landscape boundary is included in reports.</p>
+            <p>
+                <img src="../../Images/MapStudio/buffer_inclusion.png" alt="only the area within the green boundary is included in reports" class="border" />
+            </p>
+            <h3>Editing Buffered Landscapes</h3>
+            <p>Edits are applied to your landscape as well as this buffer area, including landscape edits and edits constrained by a mask. However, note that Summary Reports generated for your landscape only include the area inside the blue landscape boundary. If an Area of Interest (AOI) is used in generating a landscape summary, only the region of the AOI  that intersects the landscape area is analyzed and included in the report.</p>
+            <p>
+                <img src="../../Images/MapStudio/buffering_edits_1.png" alt="series of edits behaving as described in text." class="border" />
+            </p>
+        </div>
+        <h2>About LCP files in <MadCap:variable name="General.ProductName" /></h2>
+        <p>It is important to know that canopy cover, canopy base height, canopy bulk density, stand height in <MadCap:variable name="General.ProductName" /> refer to <span class="Emphasis">Forest canopy</span> characteristics. If you are working in an area classified as shrub or grass by LANDFIRE, your cover and base height values are zero. However, when you export LCP&#160;data from <MadCap:variable name="General.ProductName" />, you have additional layers available including, the Existing Vegetation Cover (EVC) and Existing Vegetation Height (EVH) layers. These layers will reflect cover and height data for tree, shrub, and herb lifeforms.</p>
+        <p>There can still be confusing cases, as illustrated by the examples below:</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Example:&#160;No canopy cover in an area I&#160;know contains trees</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p><b>Southern New Jersey Coastal Pitch Pine Barrens:</b>
+                </p>
+                <p>In <MadCap:variable name="General.ProductName" />, the stand height for much of this area is listed as zero, why are the trees not shown? Exporting the .LCP&#160;and examining it in Arcmap, there is an EVH reporting much of the area as pine barrens. However, the EVT for much of the area is classified as a non-forested fuel type. </p>
+                <p>
+                    <img src="../../Images/GetStarted/lcp_Pinebarren_ex.jpg" class="border" />
+                </p>
+                <p>Based on the map zone, EVT, and very short tree heights, this area was classified as a shrub fuel type, which makes sense from a fire behavior perspective, but can be confusing from a vegetative perspective.</p>
+                <p>
+                    <img src="../../Images/GetStarted/lcp_Pinebarren_ex2.jpg" class="border" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Example:&#160;57 foot tall shrubs</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p><b>Blue Water Fire:</b>
+                </p>
+                <p>In <MadCap:variable name="General.ProductName" />, much of the area is mapped as Fuel Model 122, a brush fuel model. However, there are stand heights of 7.5 meters, and in some places 17.5 meters. Zooming into the imagery base layer reveals that the area does indeed have some trees with associated stand heights. However, the brush fuel model appears correct from a fire behavior standpoint.</p>
+                <p>
+                    <img src="../../Images/GetStarted/lcp_fire_ex.jpg" class="border" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>
