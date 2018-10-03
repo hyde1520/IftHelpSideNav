@@ -6,7 +6,7 @@
     <body>
         <p>A <a href="../../../10-MapStudio/Files/LCPInfo.htm" target="_blank">Landscape file (.LCP)</a> is a multi-band raster format commonly used by wildland fire behavior and fire effects models such as FARSITE and FlamMap. The bands of an .LCP file store data describing terrain, tree canopy, and fuel model (outlined in the table below). The .LCP file defines your project area and is the first input needed to run most models in <MadCap:variable name="General.ProductName" />. LCP's generated in <MadCap:variable name="General.ProductName" /> are derived from  <a href="../../../00-Concepts/LANDFIRE.htm" target="_blank">LANDFIRE</a>.</p>
         <p>Data contained in <MadCap:variable name="General.ProductName" /> LCP files:</p>
-        <MadCap:snippetBlock src="lcp table.flsnp" />
+        <MadCap:snippetBlock src="../Workspace/geotiff_lcp.flsnp" />
         <div MadCap:conditions="General.QA ONLY">
             <h2>Buffering Around Landscapes</h2>
             <p>Landscapes created in IFTDSS are automatically given a 4980 meter buffer, as seen below outside of the blue boundary. This buffer will be useful when future modeling capabilities are released such as: <MadCap:conditionalText MadCap:conditions="General.LaterRelease">modeling scenarios where you need to work outside of your landscape such as:</MadCap:conditionalText></p>

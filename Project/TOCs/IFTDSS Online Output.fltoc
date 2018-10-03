@@ -43,13 +43,13 @@
         Link="/Content/10-Workspace/MyWorkspaceAbout.htm" />
       <TocEntry
         Title="Exporting Raster Data"
-        Link="/Content/10-Workspace/LCP_export.htm"></TocEntry>
+        Link="/Content/10-Workspace/downloads/GeoTiffLCP.htm"></TocEntry>
       <TocEntry
         Title="Opening GeoTiffs"
-        Link="/Content/10-Workspace/OpenGeoTif.htm" />
+        Link="/Content/10-Workspace/downloads/GeoTiffArcOpen.htm" />
       <TocEntry
         Title="Reclassing in GeoTiffs"
-        Link="/Content/10-Workspace/geotiff_reclass.htm" />
+        Link="/Content/10-Workspace/downloads/GeoTiffArcReclass.htm" />
     </TocEntry>
     <TocEntry
       Title="Walk-throughs"
@@ -64,20 +64,59 @@
       Title="About Landscapes"
       Link="/Content/10-MapStudio/Files/LCPInfo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/10-Workspace/LCP_export.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      Title="About Shapes and Shapefiles">
+      <TocEntry
+        Title="About"
+        Link="/Content/10-MapStudio/Files/ShapefileInfo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Copy from Layers"
+        Link="/Content/10-MapStudio/Files/ShapeCopyfromRef.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Create or Edit"
+        Link="/Content/10-MapStudio/Functions/EditTools.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Creating Groups"
+        Link="/Content/10-MapStudio/Files/ShapeGroup.htm" />
+      <TocEntry
+        Title="Deleting"
+        Link="/Content/10-MapStudio/Files/DeleteShape.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Uploading"
+        Link="/Content/10-MapStudio/Functions/AddShapefile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Repairing"
+        Link="/Content/10-MapStudio/Files/ShapefileRepair.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Subsets for Treatments"
+        Link="/Content/10-MapStudio/Files/ShapefileGroup.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Spatial Extent &amp; LANDFIRE"
+        Link="/Content/10-MapStudio/Files/SpatialExtent.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
     <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/10-Workspace/OpenGeoTif.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/10-Workspace/geotiff_reclass.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    <TocEntry
-      Title="Loading GeoTiff into FlamMap 5.0"
-      Link="/Content/10-Workspace/LoadingGeoIntoFlammap.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/10-MapStudio/Files/ShapefileInfo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      Title="Downloading GeoTiffs">
+      <TocEntry
+        Title="Downloading"
+        Link="/Content/10-Workspace/downloads/GeoTiffAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="LCP GeoTiffs"
+        Link="/Content/10-Workspace/downloads/GeoTiffLCP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="LFB GeoTiffs"
+        Link="/Content/10-Workspace/downloads/GeoTiffLFBOut.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="IFTDSS GeoTiffs Outside of IFTDSS">
+        <TocEntry
+          Title="Opening in ArcMap"
+          Link="/Content/10-Workspace/downloads/GeoTiffArcOpen.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Reclassing in ArcMap"
+          Link="/Content/10-Workspace/downloads/GeoTiffArcReclass.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Loading in Flammap"
+          Link="/Content/10-Workspace/downloads/GeoTiffFlammap.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+    </TocEntry>
   </TocEntry>
   <TocEntry
     Title="Cycle">
@@ -158,7 +197,7 @@
   <TocEntry
     Title="Modeling">
     <TocEntry
-      Title="Modeling in Modeling Playground"
+      Title="Modeling Playground"
       Link="/Content/10-Playground/ModelsOverview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Landscape Fire Behavior">
@@ -335,37 +374,37 @@
         Link="/Content/30-Tasks/LndscpEdit/LandscapeEditTechTopic.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/10-Workspace/LCP_export.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/10-Workspace/downloads/GeoTiffLCP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
-      Title="Using Shapes &amp; Shapefiles">
+      Title="Using Shapes and Shapefiles">
       <TocEntry
-        Title="About Shapes &amp; Shapefiles"
+        Title="About"
         Link="/Content/10-MapStudio/Files/ShapefileInfo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="Shapefile Upload"
-        Link="/Content/10-MapStudio/Functions/AddShapefile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Shapefile Repair"
-        Link="/Content/10-MapStudio/Files/ShapefileRepair.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Shapefile Subsets for treatment groups"
-        Link="/Content/10-MapStudio/Files/ShapefileGroup.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Creating or Editing Shapes"
-        Link="/Content/10-MapStudio/Functions/EditTools.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Creating Groups of Treatments"
-        Link="/Content/10-MapStudio/Files/ShapeGroup.htm" />
-      <TocEntry
-        Title="[%=System.LinkedTitle%]"
+        Title="Copy from Layers"
         Link="/Content/10-MapStudio/Files/ShapeCopyfromRef.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/10-MapStudio/Files/SpatialExtent.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Title="Create or Edit"
+        Link="/Content/10-MapStudio/Functions/EditTools.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
+        Title="Creating Groups"
+        Link="/Content/10-MapStudio/Files/ShapeGroup.htm" />
+      <TocEntry
+        Title="Deleting"
         Link="/Content/10-MapStudio/Files/DeleteShape.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Uploading"
+        Link="/Content/10-MapStudio/Functions/AddShapefile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Repairing"
+        Link="/Content/10-MapStudio/Files/ShapefileRepair.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Subsets for Treatments"
+        Link="/Content/10-MapStudio/Files/ShapefileGroup.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Spatial Extent &amp; LANDFIRE"
+        Link="/Content/10-MapStudio/Files/SpatialExtent.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
       Title="[%=System.LinkedTitle%]"

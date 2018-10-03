@@ -163,8 +163,8 @@
     <Map Name="Roles" Link="/Content/10-FTEM/AccountsRoles/Roles_Intro.htm" />
     <Map Name="AOIsMasks" Link="/Content/10-MapStudio/Files/AOIsMasks.htm" />
     <Map Name="DeleteShape" Link="/Content/10-MapStudio/Files/DeleteShape.htm" />
-    <Map Name="LCP_export" Link="/Content/10-Workspace/LCP_export.htm" />
-    <Map Name="OpenGeoTif" Link="/Content/10-Workspace/OpenGeoTif.htm" />
+    <Map Name="LCP_export" Link="/Content/10-Workspace/downloads/GeoTiffLCP.htm" />
+    <Map Name="OpenGeoTif" Link="/Content/10-Workspace/downloads/GeoTiffArcOpen.htm" />
     <Map Name="ShapeCopyfromRef" Link="/Content/10-MapStudio/Files/ShapeCopyfromRef.htm" />
     <Map Name="ShapefileGroup" Link="/Content/10-MapStudio/Files/ShapefileGroup.htm" />
     <Map Name="ShapeGroup" Link="/Content/10-MapStudio/Files/ShapeGroup.htm" />
@@ -175,7 +175,7 @@
     <Map Name="DataUtilities" Link="/Content/10-FTEM/DataTechnical/Utilities.htm" />
     <Map Name="DataWildfires" Link="/Content/10-FTEM/DataTechnical/Wildfires.htm" />
     <Map Name="AddShapefile1" Link="/Content/10-FTEM/General/AddShapefile.htm" />
-    <Map Name="geotiff_reclass" Link="/Content/10-Workspace/geotiff_reclass.htm" />
+    <Map Name="geotiff_reclass" Link="/Content/10-Workspace/downloads/GeoTiffArcReclass.htm" />
     <Map Name="Roles_Detailed" Link="/Content/10-FTEM/AccountsRoles/Roles_Detailed.htm" />
     <Map Name="Attachments" Link="/Content/10-FTEM/General/Attachments.htm" />
     <Map Name="RepAgencySmry" Link="/Content/10-FTEM/Reports/RepAgencySmry.htm" />
@@ -184,7 +184,7 @@
     <Map Name="RepStateSmry" Link="/Content/10-FTEM/Reports/RepStateSmry.htm" />
     <Map Name="WildfireReport" Link="/Content/10-FTEM/Reports/WildfireReport.htm" />
     <Map Name="ReferenceLayers" Link="/Content/10-MapStudio/Files/ReferenceLayers.htm" />
-    <Map Name="LoadingGeoIntoFlammap" Link="/Content/10-Workspace/LoadingGeoIntoFlammap.htm" />
+    <Map Name="LoadingGeoIntoFlammap" Link="/Content/10-Workspace/downloads/GeoTiffFlammap.htm" />
     <Map Name="AOIlandscapefb" Link="/Content/20-Models/FlamMap/AOIlandscapefb.htm" />
     <Map Name="EditingUserRuleTutorial" Link="/Content/40-Tutorials/EditingUserRuleTutorial.htm" />
     <Map Name="CreatingShapes" Link="/Content/40-Tutorials/Shorts/CreatingShapes.htm" />
