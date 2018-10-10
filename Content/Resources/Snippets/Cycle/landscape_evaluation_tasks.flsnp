@@ -4,9 +4,8 @@
         <ul>
             <li>Generate a Landscape</li>
             <li>Edit or Correct a Landscape</li>
+            <li>Create an Auto-97th Landscape Summary</li>
             <li>Calculate Landscape Fire Behavior</li>
-            <li class="comingsoon">Calculate a Landscape Burn Probability</li>
-            <li class="comingsoon">Develop Project Objectives</li>
         </ul>
         <p><a href="../../../10-Cycle/LandEvalAbout.htm" target="_blank">I want more detail on the Landscape Evaluation stage</a>
         </p>

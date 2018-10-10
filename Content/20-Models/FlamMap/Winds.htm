@@ -4,22 +4,29 @@
     </head>
     <body>
         <h1>Wind Options</h1>
-        <p>When running Landscape Fire Behavior<MadCap:conditionalText MadCap:conditions="General.QA ONLY"> or Minimum Travel Time, </MadCap:conditionalText>there are multiple options for wind direction. Each option has its strength depending upon the circumstances:</p>
-        <h2>Gridded Winds</h2>
-        <p> Gridded wind direction is used to model complex terrain winds. For example, if you needed to take into account funneling in a narrow canyon.</p>
-        <p>The Gridded winds option uses WindNinja (<a href="../../41-References/ReferenceList.htm#USFS2018" target="_blank">USFS 2018</a>) to compute spatially varying wind fields for landscape model runs. Keep in mind, WindNinja does not predict wind for future times, rather it simulates the spatial variation of wind for one instant in time making it ideal for model runs in <MadCap:variable name="General.ProductName"></MadCap:variable>. WindNinja uses the wind direction and wind speed data input by <MadCap:variable name="General.ProductName"></MadCap:variable> Users during the Landscape&#160;Fire Behavior input process.</p>
-        <p>WindNinja uses information that is already part of a landscape model run. The landscape file provides elevation to simulate wind flow across your area and canopy characteristics and surface fuel model to approximate the drag effect that vegetation has on wind flow.</p>
-        <h2>Uphill or Downhill Winds</h2>
-        <p>The uphill/downhill wind direction is calculated from the aspect in the landscape file. For cells with no aspect (flat ground) the input wind direction is used.</p>
-        <p>This option would be appropriate for modeling fire behavior with simple diurnal winds. Daytime heating and nighttime cooling of along slopes lead to variations in the airflow.</p>
-        <ul>
-            <li>Downhill - At night hills cool by radiation and the air in contact with them becomes cooler and therefore denser and it blows down the slope. This is also known as katabatic wind (a.k.a mountain breeze)</li>
-            <li>Uphill - Typically, slopes of hills are warmed during the day and he air in contact with them becomes warmer and less dense and, therefore, flows up the slope. This is also known as anabatic wind (a.k.a. valley breeze).</li>
-            <li>Uphill - Uphill winds can also be used to calculate a near-maximum fire behavior characteristics.</li>
-        </ul>
+        <div MadCap:conditions="General.QA ONLY" class="comment">
+            <p class="comment">From: https://docs.google.com/document/d/1S6uUPQLpISk-UpRMvopZOMvZIvL-lPEELLl3RSlGmdk/edit</p>
+            <p class="comment">Updated: 10/9/18</p>
+        </div>
+        <p>Fire behavior in <MadCap:variable name="General.ProductName" />, driven by FlamMap, uses a 20 foot wind speed and direction at set point in time to calculate fire behavior. The calculations use midflame wind speed, which is derived from the 20 foot wind speed entered. For each cell in the landscape, a wind adjustment factor, based on canopy height and canopy cover, is applied to convert the 20 foot wind speed to a midflame wind speed.</p>
+        <p>When calculating fire behavior there are four options for wind direction. Each option has its strength depending upon the circumstances:</p>
+        <h2>Gridded Winds (a.k.a WindNinja)</h2>
+        <p>Selecting Generate Gridded Winds  (<a href="../../41-References/ReferenceList.htm#USFS2018" target="_blank">USFS 2018</a>) uses WindNinja to compute spatially varying winds across your landscape based on topographic change as well as a drag effect that vegetation has on wind flow. All of the layers within the landscape file are used to determine the wind direction for each cell.</p>
+        <p>Gridded wind direction is used to model complex terrain winds. For example, if you needed to take into account funneling in a narrow canyon.</p>
+        <p>
+            <img src="../../Resources/Images/Models/Flammap/gridded.png" alt="gridded wind lines outlining the path of wind over mountain topography" class="border" />
+        </p>
         <h2>Static Direction</h2>
-        <p>The Static Wind Direction option will set the same wind direction for every cell in the analysis area.</p>
-        <p>Static wind direction can be used to model fire behavior for a potential problem fire where the wind from a set and constant direction is desired.</p>
-        <p>Another instance where Static Direction may be sufficient to represent winds in areas that are not influenced by topography, large bodies of water, or diurnal wind shifts.</p>
+        <p>Selecting Static Direction applies the same wind direction for every cell in the analysis area. IFTDSS uses the 20 foot wind direction you provide.</p>
+        <p>This option would be most appropriate for modeling fire behavior on a flat terrain where topography and diurnal wind patterns are not a concern.</p>
+        <p>
+            <img src="../../Resources/Images/Models/Flammap/staticwind.png" alt="arrows all going in one direction across the landscape regardless of topography" class="border" />
+        </p>
+        <h2>Wind Blowing Uphill/Downhill</h2>
+        <p>Selecting Wind Blowing Uphill or Wind Blowing Downhill applies the wind direction either up or down hill based on aspect, which is part of the landscape file. Flat cells, with no aspect, use the direction you specify in the wind direction field.</p>
+        <p>This option would be appropriate for modeling the fire behavior with simple diurnal winds. Uphill winds can also be used to calculate a near-maximum fire behavior characteristics.</p>
+        <p>
+            <img src="../../Resources/Images/Models/Flammap/uphillwind.png" alt="wind direction flowing only uphill" class="border" />
+        </p>
     </body>
 </html>

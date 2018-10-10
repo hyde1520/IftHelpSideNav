@@ -11,7 +11,9 @@
   ConditionTagExpression="exclude[General.Exclude or General.LaterRelease or &quot;General.Prod ONLY&quot;] "
   PreCompileScaledImages="false"
   MakeFileLowerCase="true"
-  TopNavTocPath="true">
+  TopNavTocPath="true"
+  OutputFile="index"
+  DisableAutoSync="true">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
