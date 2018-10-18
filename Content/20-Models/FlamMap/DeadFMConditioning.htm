@@ -6,58 +6,8 @@
         <h1>Dead Fuel Moisture Conditioning</h1>
         <div class="comment" MadCap:conditions="General.Exclude">
             <p>Google Doc:https://docs.google.com/document/d/1_e_s7a7muf7feYXSwvrbWlOvZf4FFReb-XGVXxXP0Cg/edit</p>
-            <p>Last pulled into Help: 10/9/18</p>
         </div>
-        <p>Choosing fuel moisture conditioning allows dead fuel moisture (1, 10 and 100-hr fuels) values to be adjusted based on aspect, elevation, forest canopy cover, and previous weather. Fuel conditioning options from IFTDSS are summarized below:</p>
-        <ul>
-            <li><b>Do Not Condition</b>: Uses Initial Fuel Moistures across the entire landscape, regardless of topography, aspect, or canopy cover.</li>
-            <li>
-                <p><b>Condition (Selected a Classified Weather Stream)</b>: IFTDSS will condition dead fuel moisture based on weather data from the RAWS nearest your landscape. This option exists for very dry “extreme” conditions and is available in_<span style="background-color: #ffff00;">_______________</span>.</p>
-                <div class="notificationComingSoon">
-                    <p>In future versions of IFTDSS this feature will be offered in additional modeling workflows.</p>
-                </div>
-            </li>
-            <li><b>Condition (Upload a  Weather Stream File)</b>: IFTDSS will condition dead fuel moisture based on weather data based on a weather stream (WXS) file you upload. For details and obtaining and preparing WXS data files, see the <a href="AboutWSX.htm" target="_blank">WXS Help Topic</a>.</li>
-        </ul>
-        <h2>About Fuel Moisture Conditioning</h2>
-        <p>
-            <img src="../../Resources/Images/placeholder.png" />
-        </p>
-        <p>Conditioning fuels results in IFTDSS calculating separate dead fuel moistures for each landscape cell based on the topography (elevation, slope and aspect), shading from forest canopy cover and clouds, as well as the recorded weather (precipitation, high and low temperatures and high and low relative humidity values) for up to 7 days.</p>
-        <p>Regardless of whether a RAWS is automatically selected, or a custom weather stream (WXS) file is used, the same algorithms are used to condition dead fuel moisture:</p>
-        <ul>
-            <li>
-                <p>For 1-100 hour fuels: The equation from Nelson 2000 is used to represent water moving from the environment to wood surface diffusion of water through wood over time. Here we assume fuels to be 'sticks' sitting above ground with no bark covering them.</p>
-                <p><span style="background-color: #ffff00;">[Equation]</span>
-                </p>
-            </li>
-            <li>
-                <p>For 1 hour fuels: The equation from Bradshaw et al 1984 is used to represent the fuel moisture relative to the environment around it.</p>
-                <p><span style="background-color: #ffff00;">[Equation]</span>
-                </p>
-            </li>
-        </ul>
-        <h2>Inputs for Fuel Moisture Conditioning</h2>
-        <h3>Information used from the LCP File in IFTDSS</h3>
-        <ul>
-            <li>Elevation</li>
-            <li>Aspect</li>
-            <li>Slope</li>
-            <li>Canopy Cover</li>
-            <li>Fuel Model</li>
-        </ul>
-        <h3>Information users specify if IFTDSS</h3>
-        <ul>
-            <li>Initial Fuel moistures for 1-100hr fuels (if conditioning is used these values are recalculated based on the bullet below)</li>
-            <li>RAWS or uploaded weather data representing<ul><li>Temperature</li><li>Relative Humidity</li><li>Hourly Precipitation</li><li>Wind Speed</li><li>Wind Direction</li><li>Cloud Cover</li></ul></li>
-            <li>Conditioning Period (explained below)</li>
-        </ul>
-        <h3>Conditioning period</h3>
-        <h2><span style="background-color: #ffff00;">Considerations</span>
-        </h2>
-        <p>Longer conditioning periods (more than a few hours or day) do not impact fire behavior as much because it is the 1-10 hour fuels, those influenced by short term moisture changes, that are the ones that most influence fire behavior the most..</p>
-        <p>&#160;</p>
-        <p>&#160;</p>
-        <p>&#160;</p>
+        <p class="comment">Link to AboutWXS.htm file.</p>
+        <p class="comment">Link to classifiedweather.htm</p>
     </body>
 </html>

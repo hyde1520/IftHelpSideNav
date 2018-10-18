@@ -5,8 +5,5 @@
     <body>
         <p>To create landscape from within <MadCap:variable name="General.MapStudio" /> click the <span class="UIcomponent">Landscape Tools</span> widget along the bottom of <MadCap:variable name="General.MapStudio" />. In the Landscape Tools box, make sure the <span class="UIcomponent">Create new</span> tab is selected.</p>
         <MadCap:snippetBlock src="LCPinMapstudioB.flsnp" />
-        <div class="notificationNote">
-            <p>If you have created a landscape in&#160;<MadCap:variable name="General.MapStudio" /> using the <span class="UIcomponent">Create in <MadCap:variable name="General.MapStudio" /></span> button (for example, this is an option in Landscape Summary, and other tasks) you will need to navigate back to your task to continue that process using your newly created landscape.</p>
-        </div>
     </body>
 </html>

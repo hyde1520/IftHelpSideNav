@@ -4,16 +4,21 @@
     </head>
     <body>
         <p>
-            <img src="../../Images/MapStudio/lcp_tools/mapstudio_createnew.png" class="borderlist" />
+            <img src="../../Images/MapStudio/lcp_tools/mapstudio_createnew.png" class="borderlist" alt="use the 'create new' tab to create a new landscape in map studio" />
         </p>
         <p>In the <span class="UIcomponent">Create new</span> tab specify the requirements for your landscape:</p>
         <ol style="list-style-type: upper-alpha;">
-            <li>Use the <MadCap:variable name="General.MapStudio" /> tools such as zoom, basemap layers, etc. to locate your desired area.</li>
+            <li>Use the <MadCap:variable name="General.MapStudio" /> tools such as zoom, basemap layers,and so forth to locate your desired area.</li>
             <li>
-                <p>Constrain the area of your new landscape. This can be done by:</p>
+                <p>Define the area of your new landscape by doing one of the following:</p>
                 <ul>
-                    <li>Selecting an Area of Interest from the drop-down menu (this will contain any shapes you've created or shapefiles you've uploaded).</li>
-                    <li>Click the <span class="UIcomponent">Select draw mode <img src="../../Images/MapStudio/add_graphic/addgraphic_extents.png" alt="extent button" style="width: 15px; height: 14px;" class="iftbutton" /></span>, mouse to your location on the map, hold down the left mouse key, and draw a rectangle around your desired area, releasing the button when you are finished. Clicking the black select extent button  then draw a box around your area by holding down the left mouse key, drawing, and release.</li>
+                    <li>
+                        <p>Selecting an Area of Interest from the drop-down menu (this contains any shapes you've created or shapefiles you've uploaded).</p>
+                        <div class="notificationNote">
+                            <p>Your shape or shapefile must be within your current map extent to appear in the drop-down menu, so zoom in or out in Map Studio as needed.</p>
+                        </div>
+                    </li>
+                    <li>Click <span class="UIcomponent">Select draw mode <img src="../../Images/MapStudio/add_graphic/addgraphic_extents.png" alt="extent button" style="width: 15px; height: 14px;" class="iftbutton" /></span>, mouse to your location on the map, hold down the left mouse key, and draw a rectangle around your desired area, releasing the button when you are finished. Clicking the black select extent button  then draw a box around your area by holding down the left mouse key, drawing, and release.</li>
                     <li>Enter exact coordinates rather than draw a box around your area, you may do so by entering the coordinates, in degrees, for the west, east, south, and north bounds of your desired area.</li>
                 </ul>
             </li>
@@ -23,9 +28,9 @@
                 </p>
             </div>
             <li>Choose the version of LANDFIRE data you would like to use.</li>
-            <li>Choose the fire behavior fuel model (Fuel Model 40 or Fuel Model 13) you would like included in your landscape file.</li>
-            <li>Give your landscape a descriptive name, this will be helpful as you accumulate more landscape files in <MadCap:variable name="General.ProductName" />. Spaces are allowed in names and we recommend including the LANDFIRE&#160;version and keeping the name less than 30 characters. For example, "Smith Project LF14".</li>
-            <li>Select the folder in which you would like to store your landscape file. If you do not specify an existing folder or create a new one in this step, your saved landscape will default to the "Playground" folder of <span class="UIcomponent">My Workspace</span>.</li>
+            <li>Choose the fire behavior fuel model (Fuel Model 40 or Fuel Model 13) to include in your landscape file.</li>
+            <li>Give your landscape a descriptive name, this is helpful as you accumulate more landscape files in <MadCap:variable name="General.ProductName" />. Spaces are allowed in names and we recommend including the LANDFIRE&#160;version and keeping the name less than 30 characters. For example, "Smith Project LF14".</li>
+            <li>Select the folder to store your landscape file. If needed, you may use the <span class="UIcomponent">Add new Folder <img src="../../Images/ButtonsGeneral/add_new_folder.png" alt="add new folder button" class="iftbutton" /> </span>button to create a new folder for your landscape. If you do not specify an existing folder or create a new one in this step, your saved landscape defaults to the "Playground" folder of <span class="UIcomponent">My Workspace</span>.</li>
             <li>
                 <p>Click <span class="UIcomponent">Create</span> to generate your landscape file.</p>
                 <p>
@@ -33,9 +38,11 @@
                 </p>
             </li>
         </ol>
-        <p>Once you click <span class="UIcomponent">Create</span> a message will appear at the top of the <span class="UIcomponent">Landscape Tools</span> box to confirm your landscape is being created. it may take a few minutes to generate your landscape. You may check its status by refreshing the Layer List in <MadCap:variable name="General.MapStudio" />.</p>
-        <p>
-            <img src="../../Images/MapStudio/lcp_tools/landscape_submitted_confirmation.png" alt="confirmation message that a landsape file is in the process of being downloaded" class="border" />
-        </p>
+        <p>Once you click <span class="UIcomponent">Create</span> a message appears at the top of the <span class="UIcomponent">Landscape Tools</span> box to confirm your landscape is being created. It may take a few minutes to generate your landscape. You may check its status by refreshing the Layer List in <MadCap:variable name="General.MapStudio" />.</p>
+        <img src="../../Images/MapStudio/lcp_tools/landscape_submitted_confirmation.png" alt="confirmation message that a landsape file is in the process of being downloaded" class="border" />
+        <div class="notificationTip">
+            <p>Tip:&#160;To refresh your map view, click the Add to map tab, followed by the Filter by Map Extent button to show only your new landscape area, and then click Refresh. A checkbox will appear next to your landscape when it is completed.</p>
+            <img src="../../Images/MapStudio/lcp_tools/Refresh.png" alt="filter and refresh buttons within the Landscape Tools widget." />
+        </div>
     </body>
 </html>

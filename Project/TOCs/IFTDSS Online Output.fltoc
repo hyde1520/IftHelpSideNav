@@ -271,12 +271,20 @@
             Link="/Content/20-Models/FlamMap/DeadFMConditioning.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           <TocEntry
             Title="[%=System.LinkedTitle%]"
-            Link="/Content/20-Models/FlamMap/AboutWSX.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            Link="/Content/20-Models/FlamMap/AboutWXS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
       </TocEntry>
       <TocEntry
-        Title="LFB Outputs"
-        Link="/Content/20-Models/FlamMap/LFB/Output.htm" />
+        Title="LFB Outputs">
+        <TocEntry
+          Title="LFB Outputs"
+          Link="/Content/20-Models/FlamMap/LFB/Output.htm" />
+        <TocEntry
+          Title="Flammap File"
+          Link="/Content/20-Models/FlamMap/LFB/UsingLFBFlmpInput.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="New Entry" />
+      </TocEntry>
       <TocEntry
         Title="Area of Interest workaround "
         Link="/Content/20-Models/FlamMap/AOIlandscapefb.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -314,7 +322,7 @@
             Link="/Content/20-Models/FlamMap/DeadFMConditioning.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           <TocEntry
             Title="[%=System.LinkedTitle%]"
-            Link="/Content/20-Models/FlamMap/AboutWSX.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            Link="/Content/20-Models/FlamMap/AboutWXS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
         <TocEntry
           Title="[%=System.LinkedTitle%]"

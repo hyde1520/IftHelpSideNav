@@ -22,13 +22,13 @@
                     <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">1</td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">Flame Length</td>
                     <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">meters</td>
-                    <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body1">Feet</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body1">feet</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
                     <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">2</td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">Rate of Spread</td>
                     <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">meters/min</td>
-                    <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body2">Chains/hr</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body2">chains/hr</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">3</td>
@@ -45,8 +45,8 @@
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">5</td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">Crown Fire Activity</td>
-                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">Class</td>
-                    <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body1">categorical</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">class</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body1">class</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
                     <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">6</td>
@@ -86,7 +86,7 @@
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
                     <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">12</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Wind Direction*</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Wind Direction <sup>A</sup></td>
                     <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">degrees</td>
                     <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body2">N/A</td>
                 </tr>
@@ -104,30 +104,32 @@
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">15</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">1 Hour Fuel Moisture</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">1 Hour Fuel Moisture <sup>B</sup></td>
                     <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">proportion</td>
                     <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body1">N/A</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
                     <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">16</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">10 Hour Fuel Moisture</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">10 Hour Fuel Moisture <sup>B</sup></td>
                     <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">proportion</td>
                     <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body2">N/A</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">17</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">100 Hour Fuel Moisture</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">100 Hour Fuel Moisture <sup>B</sup></td>
                     <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">proportion</td>
                     <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body1">N/A</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
                     <td style="text-align: center;" class="TableStyle-Standard-BodyB-Column1-Body2">18</td>
-                    <td class="TableStyle-Standard-BodyB-Column1-Body2">1000 Hour Fuel Moisture</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body2">1000 Hour Fuel Moisture <sup>B,C</sup></td>
                     <td style="text-align: center;" class="TableStyle-Standard-BodyB-Column1-Body2">proportion</td>
                     <td style="text-align: center;" class="TableStyle-Standard-BodyA-Column1-Body2">N/A</td>
                 </tr>
             </tbody>
         </table>
-        <p>* If Uphill or Downhill wind direction was selected during the model run, the wind direction will be displayed on the raster grid as -1 for uphill winds, -2 for downhill winds.</p>
+        <p><sup>A</sup> If Uphill or Downhill wind direction was selected during the model run, the wind direction will be displayed on the raster grid as -1 for uphill winds, -2 for downhill winds.</p>
+        <p><sup>B</sup> If fuel conditioning was not used dead fuel moistures in non-burnable fuel models will all be set to 2%.</p>
+        <p><sup>C</sup> 1000 Hour fuel moisture will always be equal to 100 Hour&#160;fuel moisture.</p>
     </body>
 </html>
