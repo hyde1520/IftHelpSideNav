@@ -718,3 +718,14 @@ mcTableFootStyle
 }
 
 
+/*Gives tables borders*/
+@media print
+{
+	table,
+	th,
+	td
+	{
+		border: 1px solid #000 !important;
+			color:#000 !important;
+	}
+}
