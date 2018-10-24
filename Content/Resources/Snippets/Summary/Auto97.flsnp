@@ -2,6 +2,8 @@
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
         <p>The Automatic 97th Percentile (Auto97th) fire behavior model run and summary are available from the <span class="UIcomponent">Landscape Evaluation</span> stage of the <span class="UIcomponent">Planning Cycle</span>, via the <span class="UIcomponent">Landscape Summary</span> task. The run, and subsequent summary report, uses the capabilities of <a href="../../../20-Models/FlamMap/LFB/About.htm" target="_blank">FlamMap</a> to model fire behavior based on the 97th percentile fire weather conditions for your landscape as determined by the Remote Automatic Weather Station (RAWS) closest to the center of your chosen Landscape. </p>
@@ -13,13 +15,13 @@
         <p>The <a href="../../../10-MapStudio/Files/LCPInfo.htm" target="_blank">landscape file</a> contains all the information needed to complete landscape fire behavior modeling in <MadCap:variable name="General.ProductName"></MadCap:variable>. The landscape consists of geospatial layers characterizing ground, surface, and canopy fuels, as well as topography. The specific components of a landscape file include:</p>
         <ul>
             <li>Fuel Model</li>
-            <li>Canopy Cover (percent)</li>
-            <li>Stand Height (meters)</li>
-            <li>Canopy Base Height (meters)</li>
-            <li>Canopy Bulk Density (kg/m<sup>3</sup>)</li>
-            <li>Aspect (degrees)</li>
-            <li>Slope (degrees)</li>
-            <li>Elevation (meters)</li>
+            <li>Canopy Cover</li>
+            <li>Stand Height</li>
+            <li>Canopy Base Height</li>
+            <li>Canopy Bulk Density</li>
+            <li>Aspect</li>
+            <li>Slope</li>
+            <li>Elevation</li>
         </ul>
         <h3>Crown Fire Method</h3>
         <p>For the Auto97th run, the crown fire calculation option is set to the Scott and Reinhardt (<a href="../../../41-References/ReferenceList.htm#ScottReinhardt2001" target="_blank">2001</a>) method, but you may also choose the Finney (<a href="../../../41-References/ReferenceList.htm#Finney1998" target="_blank">1998</a>) method. Both methods are based on the same component crown fire behavior models, although there are minor differences in implementation. These subtle differences lead to significantly more predicted crown fire activity using the Scott and Reinhardt method compared to the Finney method.</p>
@@ -36,10 +38,7 @@
             <p>The RAWS selected, and the fuel moisture and wind scenario for the automated Auto97th model, cannot be changed.  It is intended to be a starting point to understand your landscape and predicted fire behavior.  You may choose to run a <a href="../../../20-Models/FlamMap/LFB/About.htm" target="_blank">Landscape Fire Behavior</a> model run with user-input values in the <a href="../../../10-Playground/ModelsOverview.htm" target="_blank">Modeling Playground</a>.</p>
         </div>
         <p>Once a RAWS station is selected, the Energy Release Components (ERCs) are calculated for every day. ERC is related to the available energy within the flaming front at the head of a fire. The ERC is considered a composite fuel moisture index as it reflects the contribution of all live and dead fuels to potential fire intensity. The ERC has memory, each daily calculation considers the past 7 days in calculating the new number making it relatively stable indicator of fuel conditions over time.</p>
-        <p>The 97th percentile fuel moistures are calculated for dead (1hr, 10 hr, and 100 hr) and live (herbaceous and woody) fuels by averaging the values for all days where ERC is at the 97th percentile.</p>
         <p>To determine the 97th percentile wind speed and direction, the wind observations during the normal burning period (1200-2000 hours) for the peak fire season is summarized in a table. The peak fire season is determined by the month with the highest ERC, and the month immediately before and after it. The table includes the probability of wind speed and direction for set bins.</p>
-        <p>&#160;</p>
-        <p>&#160;</p>
         <table style="width: 80%;mc-table-style: url('../../TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
             <col style="width: 74px;" class="TableStyle-Standard-Column-Column1">
             </col>
@@ -196,14 +195,16 @@
             <li>the mid-point wind speed (15 mph for this example) is converted to 1 minute average using Table 1 <i>from</i><a href="../../../41-References/ReferenceList.htm#CrosbyandChandler2004" target="_blank"> Crosby and Chandler 2004</a> (20 mph for this example)</li>
             <li>the cell with the largest value for that row is used as the direction (west in this example),</li>
         </ul>
+        <h3>Dead Fuel Moisture and Conditioning</h3>
+        <p>The 97th percentile fuel moistures are calculated for dead (1hr, 10 hr, and 100 hr) and live (herbaceous and woody) fuels by averaging the values for all days where ERC is at the 97th percentile, this sets the initial fuel moisture.</p>
+        <p>The initial fuel moisture is then conditioned to account for topographical and weather changes over time by using an automatically generated Extreme weather scenario.</p>
+        <MadCap:snippetBlock src="../Models/Flammap/extreme_weather_calc.flsnp" />
         <h2>Outputs</h2>
-        <p>Outputs are displayed on a map across the landscape, as a bar chart, pie chart, and in tabular form.  The summary report will include both the inputs above and the following fire behavior outputs:</p>
-        <ul>
-            <li>Flame Length (meters)</li>
-            <li>Rate of Spread (m/min)</li>
-            <li>Intensity (kW/m)</li>
-            <li>Heat per Unit Area (kJ/m<sup>2</sup>)</li>
-            <li>Crown Fire Activity (No Fire, Surface Fire, Passive Crown Fire, and Active Crown Fire)</li>
-        </ul>
+        <p>Outputs are available as Map Studio layers, Summary Reports, and downloadable GeoTiff files.</p>
+        <h3>Landscape Outputs</h3>
+        <MadCap:snippetBlock src="../Workspace/geotiff_lcp.flsnp" />
+        <h3>&#160;</h3>
+        <h3>Auto-97th Fire Behavior Outputs</h3>
+        <MadCap:snippetBlock src="../Workspace/geotiff_LFBehavior.flsnp" />
     </body>
 </html>

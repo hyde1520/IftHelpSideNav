@@ -38,6 +38,9 @@
     <TocEntry
       Title="Walk-throughs"
       Link="/Content/00-AboutIFTDSS/Helpful topics.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/00-AboutIFTDSS/Privacy.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   </TocEntry>
   <TocEntry
     Title="My Workspace">
@@ -270,6 +273,9 @@
           <TocEntry
             Title="[%=System.LinkedTitle%]"
             Link="/Content/20-Models/FlamMap/AboutWXS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/20-Models/FlamMap/classifiedweather.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
       </TocEntry>
       <TocEntry

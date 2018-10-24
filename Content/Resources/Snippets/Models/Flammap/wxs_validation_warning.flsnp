@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <div class="notificationImportant">
+            <p>If an .wxs file is imported into <MadCap:variable name="General.ProductName" /> it must meet the following requirements to run successfully:</p>
+            <ul>
+                <li>Data must be hourly format (each row representing one hour).</li>
+                <li>Data must be in chronological order.</li>
+                <li>Data may only have gaps of 3 hours or less.</li>
+                <li>A day is defined as a 24 hour period, it doesn’t need to be midnight to midnight.</li>
+                <li>User can’t upload less than 1 day of data.</li>
+                <li>User can only upload 31 days of data.</li>
+                <li>User can condition for 1 - 7 days.</li>
+            </ul>
+        </div>
+    </body>
+</html>

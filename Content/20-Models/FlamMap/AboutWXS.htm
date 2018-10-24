@@ -3,10 +3,124 @@
     <head>
     </head>
     <body>
-        <h1>Using Weather (WXS) Files with IFTDSS</h1>
-        <div class="comment" MadCap:conditions="General.Exclude">
-            <p>Google Doc: https://docs.google.com/document/d/14O3p-5FScvkahc2ZvGAkTPd0uEGHZ1M44MAMh28TSk8/edit</p>
-            <p>Last pulled into Help:</p>
+        <h1>
+            <MadCap:keyword term="fire family plus" />
+            <MadCap:keyword term="firefamilyplus" />
+            <MadCap:keyword term="firefamily+" />
+            <MadCap:keyword term="fw13" />
+            <MadCap:keyword term="WXS" /> Creating a .WXS File for use in <MadCap:variable name="General.ProductName" /></h1>
+        <div class="comment" MadCap:conditions="General.QA ONLY">
+            <p>Google Doc: <a href="https://docs.google.com/document/d/14O3p-5FScvkahc2ZvGAkTPd0uEGHZ1M44MAMh28TSk8/edit" target="_blank">https://docs.google.com/document/d/14O3p-5FScvkahc2ZvGAkTPd0uEGHZ1M44MAMh28TSk8/edit <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+            <p>Last pulled into Help: 10/22/18</p>
         </div>
+        <p>In this tutorial we walk through the creation of a .wxs file in <MadCap:variable name="General.ProductName" /> by first downloading historical hourly weather data (FW13 file), then using FireFamilyPlus to create the .wxs.</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Models/Flammap/wxs_validation_warning.flsnp" />
+        <h2>Downloading hourly weather data</h2>
+        <p>To download historic hourly weather data, use one of the three sources below and follow the steps to download your data:</p>
+        <ul>
+            <li><a href="#KCFAST">KCFAST</a>
+            </li>
+            <li><a href="#WFAS">WFAS</a>
+            </li>
+            <li><a href="#CEFA">CEFA</a>
+            </li>
+        </ul>
+        <h3>
+            <MadCap:keyword term="KCFAST" /><a name="KCFAST"></a>KCFAST</h3>
+        <p>Available at: <a href="https://fam.nwcg.gov/fam-web/kcfast/mnmenu.htm" target="_blank">https://fam.nwcg.gov/fam-web/kcfast/mnmenu.htm <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>From the left panel, select <span class="UIcomponent">Weather</span>&gt;<span class="UIcomponent">Data Extract</span>&gt;<span class="UIcomponent">Historical</span>.</li>
+            <li>Input your Station ID and date range. If you need you look up your station ID, use the “Station Catalog” link in the left hand menu.</li>
+            <li>Select the “Hourly” radio button for <span class="UIcomponent">Observation Type</span>. Leave “Run it now” under <span class="UIcomponent">Schedule Option</span> selected.</li>
+            <li>
+                <p>Click <span class="UIcomponent">Run Extract</span> to save a copy of the data to your local machine.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Websites/KCFAST_fw13.png" alt="KCFAST webpage image showing the steps described here in text." class="borderlist" />
+                </p>
+            </li>
+        </ol>
+        <h3>
+            <MadCap:keyword term="WFAS" /><a name="WFAS"></a>WFAS</h3>
+        <p>URL: <a href="https://www.wfas.net/nfdrs2016/maps/" target="_blank">https://www.wfas.net/nfdrs2016/maps/ <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>From the map, zoom into your Area of Interest and find the location of your station.</li>
+            <li>Click the point to show the station.</li>
+            <li>
+                <p>Save the file to your local machine without opening it by right clicking the station link, select "Save link as" and save the data to your local machine.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Websites/WFAS_FW13.png" alt="web page image indicating the steps described here in text." class="borderlist" />
+                </p>
+            </li>
+        </ol>
+        <h3>
+            <MadCap:keyword term="CEFA" /><a name="CEFA"></a>CEFA</h3>
+        <p>URL: <a href="https://cefa.dri.edu/raws/" target="_blank">https://cefa.dri.edu/raws/ <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Enter the Station ID and click <span class="UIcomponent">Get FW13</span>. If needed, use the RAWS list option to look up the station ID number.</li>
+            <li>
+                <p>Right click the download link. Save the file to your local machine without opening it by clicking “Save link as” to save the file. Give the file a name, and click “OK”.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Websites/CEFA_FW13.png" alt="webpage displaying steps as described here in text." class="borderlist" />
+                </p>
+            </li>
+        </ol>
+        <h2>Create a .wxs file in Fire Family Plus</h2>
+        <p>The follow steps walk through the creation of a .wxs file using the FW13 data you have downloaded, and importing it into the Fire Family Plus 5.0 application.</p>
+        <div class="notificationImportant">
+            <p>Important: You must be using Version 5.0 or above for the step below to work:</p>
+            <ul>
+                <li>If you do not have FF+ on your local machine you may download it here [PRE-RELEASE LINK will be hidden for general users] <a href="https://www.wfas.net/tmp/FFP5Setup_21Sept2018.msi">https://www.wfas.net/tmp/FFP5Setup_21Sept2018.msi <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                <li>If you do not have FF+ on your local machine you may download it here [OFFICIAL RELEASE LINK] <a href="https://www.firelab.org/project/firefamilyplus" target="_blank">https://www.firelab.org/project/firefamilyplus <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Open Fire Family Plus, go to <span class="UIcomponent">File</span> in the top left, select <span class="UIcomponent">New</span> to create, name, and save a new Fire Family Plus (.mdb) file.</li>
+            <li>
+                <p>Go to the <span class="UIcomponent">Data</span> tab and select <span class="UIcomponent">Import</span> to import your FW13 file.</p>
+                <p>
+                    <img src="../../Resources/Images/External/FireFamilyPlus/startnewff.png" alt="start a new session from 'file' as described here in text." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Click <span class="UIcomponent">FW9/FW13 Files</span> and select your file from your local machine. If you are asked whether or not to let FF+ overwrite existing records, choose “No” and continue.</p>
+                <p>
+                    <img src="../../Resources/Images/External/FireFamilyPlus/selectfwfile.png" alt="select the 'FW9/FW13 Files' type to import." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>When your data import is complete, close the Notification and Import boxes.</p>
+                <p>
+                    <img src="../../Resources/Images/External/FireFamilyPlus/close.png" alt="click the 'close' buttons that appear when the file import is complete." class="borderlist" />
+                </p>
+            </li>
+            <li>Select your newly imported data from the <span class="UIcomponent">SIG/Station</span> drop-down menu.</li>
+            <li>Use the date fields to select up to 31 days of data.</li>
+            <li>
+                <p>Make sure <span class="UIcomponent">Analysis Period Length (Days)</span> is set to “1”.</p>
+                <p>
+                    <img src="../../Resources/Images/External/FireFamilyPlus/analysis_dates.png" alt="follow the steps outlined here in text to select up to 31 days of weather data and a analysis period length of 1 day." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Click the <span class="UIcomponent">Weather</span> tab from the top menu, hover over <span class="UIcomponent">Hourly Data Analysis</span> and click <span class="UIcomponent">Flammap/FARSITE Exports</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/External/FireFamilyPlus/exportdata.png" alt="use the weather tab as described in text to set up the export process." class="borderlist" />
+                </p>
+            </li>
+            <li>In the dialogue box that appears, select <span class="UIcomponent">Flammap/FARSITE Stream (.wxs)</span> as the file you want to create and use the <span class="UIcomponent">Ten minute avg</span> option for wind.</li>
+            <li>Click the location and select where you want to save your new file, and give it a name.</li>
+            <li>
+                <p>Click “OK".</p>
+                <p>
+                    <img src="../../Resources/Images/External/FireFamilyPlus/FlammapFarsiteoption.png" alt="Select the  'Flammap/FARSITE Stream (.wxs)' file type, use 'ten minute avg' winds, and click 'ok'." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Once your file is created you may close Fire Family Plus. The newly created .wxs is available on your local machine for use in <MadCap:variable name="General.ProductName" />.</p>
+                <p>
+                    <img src="../../Resources/Images/External/PC/wxs_file.png" alt="The wxs file will now be available for upload into IFTDSS." class="borderlist" />
+                </p>
+            </li>
+        </ol>
     </body>
 </html>

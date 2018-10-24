@@ -4,6 +4,48 @@
     </head>
     <body>
         <h1>Fuel Moisture Conditioning: Select a Classified Weather Stream</h1>
-        <p class="comment">Add from:&#160;https://docs.google.com/document/d/1BCzEH_S0qbuQ5Egk6_J-iracQc8nmWAwvdT5S2AZeoY/edit#heading=h.5iytdkd80pap </p>
+        <p class="comment">Add from:&#160;<a href="https://docs.google.com/document/d/1BCzEH_S0qbuQ5Egk6_J-iracQc8nmWAwvdT5S2AZeoY/edit" target="_blank">https://docs.google.com/document/d/1BCzEH_S0qbuQ5Egk6_J-iracQc8nmWAwvdT5S2AZeoY/edit</a></p>
+        <p class="comment">Last updated 10-22-18</p>
+        <p>The Condition (Select a Classified Weather Stream) option in <MadCap:variable name="General.ProductName" /> will condition dead fuel moisture based on set scenarios.</p>
+        <div class="notificationComingSoon">
+            <p>In this version (3.1.1) of <MadCap:variable name="General.ProductName" /> the only option is “Extreme,” which represents near-maximum or worst case conditions. Additional options will be available in future versions.</p>
+        </div>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Models/Flammap/extreme_weather_calc.flsnp" />
+        <h2>Checking a Pyrome for 'completion' with <MadCap:variable name="General.MapStudio" /> in <MadCap:variable name="General.ProductName" />:</h2>
+        <p>For those wanting to better understand the source of the classified conditioning data within <MadCap:variable name="General.ProductName" />, a reference layer within Map Studio allows you to view a map of the pyromes within the Continental US and Alaska. As shown in the map of pryrome earlier, some areas do not have pryome data. To view this layer in <MadCap:variable name="General.MapStudio" />, navigate to the approximate area in which you are working and follow these steps:</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Open the <span class="UIcomponent">Add Layers</span> widget.</li>
+            <li>
+                <p>From the <span class="UIcomponent">IFTDSS Reference Layers</span> tab, scroll down and expand the “Other Layers” section and click the box next to “Pyrome”.</p>
+                <p>
+                    <img src="../../Resources/Images/Models/FMConditioning/open_pyrome.png" alt="view pyromes in the 'add layers' tab." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>You will notice several light gray boundary lines appear on the map. To view these better, open the <span class="UIcomponent">Basemap Gallery</span> and select the "Dark Gray Canvas" option. Close the basemap gallery.</p>
+                <p>
+                    <img src="../../Resources/Images/Models/FMConditioning/adjust_basemap.png" alt="pryomes are best viewed with the 'dark gray canvas' baselayer turned on." class="borderlist" />
+                </p>
+            </li>
+            <li>Open the <span class="UIcomponent">Layer List</span> widget, expand the “pryome” layer and view more options by left-clicking the <span class="UIcomponent">More Options <img src="../../Resources/Images/ButtonsGeneral/moreoptions.png" alt="more option" class="iftbutton"></img></span> button to the right of the layer name.</li>
+            <li>
+                <p>Scroll down and select <span class="UIcomponent">Open Attribute Table</span>. The attribute table will open at the bottom of the map.</p>
+                <p>
+                    <img src="../../Resources/Images/Models/FMConditioning/open_attribute.png" alt="use the 'more options' button to open the 'attribute table'." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>With the attribute table open, you can then find the row in the table representing your area by scrolling and viewing the row names. Highlight the area for a row by single left-clicking in the gray space to the far left of that row. Keep in mind that the table is only populated by what is in your visible map extent.</p>
+                <p>
+                    <img src="../../Resources/Images/Models/FMConditioning/highlight_pyrome.png" alt="left-click next to a row in the 'attribute table' to highlight the row and map boundary for that row." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Once you find your area, highlight the row and look at the “ExtremeWXS” column.  If default conditioning information is available for that area, the field will say “Completed”.   A blank field for the row indicates the area has not default classified conditioning data available.</p>
+                <p>
+                    <img src="../../Resources/Images/Models/FMConditioning/pyrome_complete_field.png" alt="a pyrome row with the 'extremewxs' reflected a 'completed' weather stream." class="borderlist" />
+                </p>
+            </li>
+        </ol>
     </body>
 </html>

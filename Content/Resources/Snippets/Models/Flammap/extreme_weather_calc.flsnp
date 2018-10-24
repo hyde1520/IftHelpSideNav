@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>The Extreme weather stream (.wxs) data was derived from historic weather data used to model probabilistic wildfire risk components for the conterminous United States (<a href="../../../../41-References/ReferenceList.htm#Shortetal2016" target="_blank">Short et al 2016</a>). To complete this modeling the conterminous United States was divided into 128 pyromes.</p>
+        <div class="notificationNote">
+            <p>Pyromes represent areas with similar fire characteristics which are determined by the fire regime (frequency, intensity, size, season, type, and extent), vegetation, and climate  (<a href="../../../../41-References/ReferenceList.htm#Archibald_etal_2013">Archibald et al. 2013</a>).</p>
+        </div>
+        <p>For each pyrome historic data from the center point was used for the modeling. The date range to use was determined by reviewing the daily ERC-G (Energy Release Component for NFDRS Fuel Model G) indices for the past 20 years and selecting a one to two week  period where most of the days were at or above the 97th percentile.</p>
+        <p>The conditioning period is unique for each pyrome; however, it always starts at 1300, which is the time when NFDRS calculates the initial fuel moistures. The initial fuel moistures used to determine the conditioning period are the same as the Auto97th values uses in Landscape Summary. The duration of conditioning and the ending time was determined after running conditioning for several end dates and times. The dead fuel moisture grids were reviewed for site characteristics that match the RAWS location, typically cells with zero canopy cover and a similar elevation. Since 1-hour timelag fuels contribute most to fire behavior the priority was to match the 1-hour dead fuel moistures to the initial conditions. The 10-hour and 100-hour dead fuel moistures tend to be a little different from the initial conditions.</p>
+        <p>The conditioning weather stream is selected geographically based on:</p>
+        <ul>
+            <li>Identifying the center of the landscape extent.</li>
+            <li>Calculating the distance from the center to the nearest Remote Automated Weather Station (RAWS) using a horizontal/vertical (elevation) algorithm.</li>
+            <li>Ranking the stations and selecting the station which is the “closest” and has weather data requisite for running the model.</li>
+            <li>Using the Extreme .wxs for the pyrome which contains the selected RAWS.</li>
+        </ul>
+        <p>
+            <img src="../../../Images/Models/FMConditioning/pyrome_10_11_18.png" alt="pyromes across the continental us, most extreme wxs data is focused in the western us and southeast." />
+        </p>
+        <p>Not all locations will have Extreme .wxs data available.  This is because:</p>
+        <ul>
+            <li>The data is limited to the conterminous United States.</li>
+            <li>The weather stream data is under development.</li>
+            <li>Some pyromes cannot condition to the leaf-off canopy cover for the 97th percentile ERCs.</li>
+            <li>Significant non-burnable areas within pyromes negate the need for fire behavior modeling.</li>
+        </ul>
+    </body>
+</html>
