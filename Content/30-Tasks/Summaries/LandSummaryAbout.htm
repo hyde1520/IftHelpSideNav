@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
-        <link href="../../Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
-        <h1> Create Summary Reports</h1>
+        <h1> <MadCap:keyword term="Auto-97th" /><MadCap:keyword term="97th" /><MadCap:keyword term="97th Percentile" />Create Summary Reports (Auto-97th  Summaries)</h1>
         <p>Summary reports outline landscape features and predicted worst-case fire behavior (97th percentile fuel moisture and wind). These high level landscape summaries are intended as a starting point for evaluating your area as part of the fuels management planning process.</p>
         <p>Below, we discuss creating Summary reports from the Landscape Planning Cycle in <MadCap:variable name="General.ProductName" />. There is also a button that appears under selected landscapes in <span class="UIcomponent">My Workspace </span>labeled "Request a Report". That button only generates a summary of landscape features, not the additional Auto97th information that we discuss here from the Landscape Planning Cycle.</p>
         <MadCap:dropDown>
@@ -32,7 +32,7 @@
                 <MadCap:snippetBlock src="../../Resources/Snippets/Summary/GenerateLandscapeSummary.flsnp" />
             </MadCap:dropDownBody>
         </MadCap:dropDown>
-        <MadCap:dropDown>
+        <MadCap:dropDown MadCap:conditions="General.Exclude">
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Viewing a Landscape Summary</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
@@ -100,10 +100,42 @@
         </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Technical Documentation on the Auto97th Landscape Summary</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Auto97th Technical Documentation, Inputs, and Outputs</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <MadCap:snippetBlock src="../../Resources/Snippets/Summary/Auto97.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot><a name="copy_auto97_inputs"></a>Using Auto97th Outputs in Other Models to Determine Worst-Case Fuel Moistures or Create Other Runs</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Auto97th reports are useful for quickly gathering 97th Percentile fuel moistures to use in other analyses or as a baseline for additional model runs where you may want to keep most of the auto97th values but change some.</p>
+                <h3>Quickly find Auto97 Fuel Moistures</h3>
+                <ol style="list-style-type: upper-alpha;">
+                    <li>Navigate to Modeling Playground.</li>
+                    <li>Locate your Auto97 run and click on it to view file options.</li>
+                    <li>Click the <span class="UIcomponent">View Input</span> button.</li>
+                    <li>
+                        <p>A pop-up appears with all model inputs including Initial Fuel Moistures. To close the information box, click <span class="UIcomponent">OK</span> in the bottom right.</p>
+                        <p>
+                            <img src="../../Resources/Images/MyPlayground/viewing_inputs_steps.png" alt="model inputs may be viewed for each file in Modeling Playground" class="borderlist" />
+                        </p>
+                    </li>
+                </ol>
+                <h3>Copy an auto97 model run and re-run with changes</h3>
+                <ol style="list-style-type: upper-alpha;">
+                    <li>Navigate to Modeling Playground.</li>
+                    <li>Locate your Auto97 run and click on it to view file options.</li>
+                    <li>Click the <span class="UIcomponent">Copy</span> button.</li>
+                    <li>
+                        <p>A new model input screen appears pre-populated with all the inputs used for the Auto97th run. You may edit any of these inputs, give the run a new name, and save and run the model.</p>
+                        <p>
+                            <img src="../../Resources/Images/MyPlayground/copy_run.png" alt="model runs may be copied, edited, and re-run to create a new output in modeing playground." class="borderlist" />
+                        </p>
+                    </li>
+                </ol>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

@@ -21,6 +21,10 @@
         <p><MadCap:variable name="General.ProductName" /> will condition dead fuel moistures based on a weather stream (WXS) file you upload, and a conditioning period (time of day and number of days) you choose. This option may be used when you have your own weather data (wxs file) and would like to ensure that the analysis scenario you are calculating captures the influence of landscape characteristics on fuel moisture at various times of day and year. For details on creating WXS files, see the <a href="AboutWXS.htm" target="_blank">.wxs Creation Help Topic</a>.</p>
         <MadCap:snippetBlock src="../../Resources/Snippets/Models/Flammap/wxs_validation_warning.flsnp" />
         <h2>About Fuel Moisture Conditioning</h2>
+        <p>
+            <object src="https://youtu.be/FaV07P9CP2M" style="width: 560px;height: 315px;">
+            </object>
+        </p>
         <p>Conditioning results in variation of dead fuel moistures across a landscape.  In areas where canopy cover is greater than zero are greater.  Elevation also impacts fuel moisture, areas higher than the RAWS location are greater, and those below are lower.</p>
         <p>Conditioning fuels results in <MadCap:variable name="General.ProductName" /> calculating separate dead fuel moistures for each landscape cell based on the topography and shading from the forest canopy cover and clouds, as indicated in the table below:</p>
         <table style="width: 100%;mc-table-style: url('../../Resources/TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
@@ -53,9 +57,9 @@
         </table>
         <p>Regardless of your choice to use a classified weather stream, or a custom weather stream, the same algorithms are employed to condition dead fuel moisture based on fuel size. Calculations for dead fuel moistures are from FlamMap, which implements the following:</p>
         <ul>
-            <li>1 hr fuel moisture in FlamMap is obtained from a calculation involving the equilibrium moisture content (<a href="../../41-References/ReferenceList.htm#Bradshaw1983" target="_blank">Bradshaw et al. 1983</a>).</li>
-            <li>10 hr fuel moisture in FlamMap is calculated with relationships from <a href="../../41-References/ReferenceList.htm#Nelson2000" target="_blank">Nelson (2000)</a>.</li>
-            <li>100 hr fuel moistures in FlamMap are calculated with modifications by <a href="../../41-References/ReferenceList.htm#Nelson2000" target="_blank">Nelson</a>.</li>
+            <li>1 hr fuel moisture in FlamMap is obtained from a calculation involving the equilibrium moisture content (<a href="../../41-References/Citations.htm#Bradshaw1983" target="_blank">Bradshaw et al. 1983</a>).</li>
+            <li>10 hr fuel moisture in FlamMap is calculated with relationships from <a href="../../41-References/Citations.htm#Nelson2000" target="_blank">Nelson (2000)</a>.</li>
+            <li>100 hr fuel moistures in FlamMap are calculated with modifications by <a href="../../41-References/Citations.htm#Nelson2000" target="_blank">Nelson</a>.</li>
         </ul>
         <h2>Fuel Moisture Conditioning Period</h2>
         <p>The period during which fuel conditioning is applied, anywhere from 1 to 7 days. The  time of day is also required, which will have a significant influence on the fuel moistures. This is because the conditions affecting fuel moisture, such as relative humidity, can fluctuate significantly depending upon the time of day, as shown in the example below.</p>
