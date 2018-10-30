@@ -233,5 +233,5 @@
     <Map Name="Procedure3" Link="/Content/C_Procedure Topics/Procedure3.htm" />
     <Map Name="Procedures" Link="/Content/C_Procedure Topics/Procedures.htm" />
     <Map Name="File_Location" Link="/Content/Help Center Notes/File Location.htm" />
-    <Map Name="LFB_inputs" Link="/Content/Resources/Snippets/Models/Flammap/LFB/LFB inputs.htm" />
+    <Map />
 </CatapultAliasFile>

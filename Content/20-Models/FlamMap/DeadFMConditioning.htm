@@ -9,23 +9,12 @@
             <p>Google Doc:<a href="https://docs.google.com/document/d/1_e_s7a7muf7feYXSwvrbWlOvZf4FFReb-XGVXxXP0Cg/edit" target="_blank">https://docs.google.com/document/d/1_e_s7a7muf7feYXSwvrbWlOvZf4FFReb-XGVXxXP0Cg/edit</a></p>
             <p>Last Updated 10-22-18</p>
         </div>
-        <p class="comment">
-            <img src="../../Resources/Images/Models/FMConditioning/conditioning_options.png" alt="you may choose to condition or not condition dead fuel moistures in iftdss." class="border" />
-        </p>
-        <p>Choosing fuel moisture conditioning allows dead fuel moisture values for 1,10, and 100 hour fuels to be adjusted based on aspect, elevation, forest canopy cover, and weather over a set period of time. For example, you may want to conducting different LFB runs during day and night conditions. Fuel conditioning options in <MadCap:variable name="General.ProductName" /> include:</p>
-        <h2>Do Not Condition (Use Initial Fuel Moistures)</h2>
-        <p><MadCap:variable name="General.ProductName" /> does not condition fuels, rather it uses the initial fuel moistures across the entire landscape.</p>
-        <h2>Condition (Select a Classified Weather Stream)</h2>
-        <p><MadCap:variable name="General.ProductName" /> will condition dead fuel moistures using a classified weather stream. This option is available when you do not have weather data of your own to condition with. Currently, the only classified weather stream available represents near-maximum or “extreme” conditions. In the future more options will be available. For technical details on the “extreme” conditions, see the <a href="classifiedweather.htm" target="_blank">Classified Weather Stream Help Topic</a>.</p>
-        <h2>Condition (Upload a  Weather Stream File)</h2>
-        <p><MadCap:variable name="General.ProductName" /> will condition dead fuel moistures based on a weather stream (WXS) file you upload, and a conditioning period (time of day and number of days) you choose. This option may be used when you have your own weather data (wxs file) and would like to ensure that the analysis scenario you are calculating captures the influence of landscape characteristics on fuel moisture at various times of day and year. For details on creating WXS files, see the <a href="AboutWXS.htm" target="_blank">.wxs Creation Help Topic</a>.</p>
-        <MadCap:snippetBlock src="../../Resources/Snippets/Models/Flammap/wxs_validation_warning.flsnp" />
         <h2>About Fuel Moisture Conditioning</h2>
+        <p>Conditioning results in variation of dead fuel moistures across a landscape.  In areas where canopy cover is greater than zero are greater.  Elevation also impacts fuel moisture, areas higher than the RAWS location are greater, and those below are lower.</p>
         <p>
             <object src="https://youtu.be/FaV07P9CP2M" style="width: 560px;height: 315px;">
             </object>
         </p>
-        <p>Conditioning results in variation of dead fuel moistures across a landscape.  In areas where canopy cover is greater than zero are greater.  Elevation also impacts fuel moisture, areas higher than the RAWS location are greater, and those below are lower.</p>
         <p>Conditioning fuels results in <MadCap:variable name="General.ProductName" /> calculating separate dead fuel moistures for each landscape cell based on the topography and shading from the forest canopy cover and clouds, as indicated in the table below:</p>
         <table style="width: 100%;mc-table-style: url('../../Resources/TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
             <col class="TableStyle-Standard-Column-Column1" />
@@ -55,6 +44,17 @@
                 </tr>
             </tbody>
         </table>
+        <p class="comment">
+            <img src="../../Resources/Images/Models/FMConditioning/conditioning_options.png" alt="you may choose to condition or not condition dead fuel moistures in iftdss." class="border" />
+        </p>
+        <p>Choosing fuel moisture conditioning allows dead fuel moisture values for 1,10, and 100 hour fuels to be adjusted based on aspect, elevation, forest canopy cover, and weather over a set period of time. For example, you may want to conducting different LFB runs during day and night conditions. Fuel conditioning options in <MadCap:variable name="General.ProductName" /> include:</p>
+        <h2>Do Not Condition (Use Initial Fuel Moistures)</h2>
+        <p><MadCap:variable name="General.ProductName" /> does not condition fuels, rather it uses the initial fuel moistures across the entire landscape.</p>
+        <h2>Condition (Select a Classified Weather Stream)</h2>
+        <p><MadCap:variable name="General.ProductName" /> conditions dead fuel moistures using a classified weather stream. This option is available when you do not have weather data of your own to condition with. Currently, the only classified weather stream available represents near-maximum or “extreme” conditions. In the future more options will be available. For technical details on the “extreme” conditions, see the <a href="classifiedweather.htm" target="_blank">Classified Weather Stream Help Topic</a>.</p>
+        <h2>Condition (Upload a  Weather Stream File)</h2>
+        <p><MadCap:variable name="General.ProductName" /> conditions dead fuel moistures based on a weather stream (.wxs) file you upload, and a conditioning period (time of day and number of days) you choose. This option may be used when you have your own weather data (wxs file) and would like to ensure that the analysis scenario you are calculating captures the influence of landscape characteristics on fuel moisture at various times of day and year. For details on creating .wxs files, see the <a href="AboutWXS.htm" target="_blank">.wxs Creation Help Topic</a>.</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Models/Flammap/wxs_validation_warning.flsnp" />
         <p>Regardless of your choice to use a classified weather stream, or a custom weather stream, the same algorithms are employed to condition dead fuel moisture based on fuel size. Calculations for dead fuel moistures are from FlamMap, which implements the following:</p>
         <ul>
             <li>1 hr fuel moisture in FlamMap is obtained from a calculation involving the equilibrium moisture content (<a href="../../41-References/Citations.htm#Bradshaw1983" target="_blank">Bradshaw et al. 1983</a>).</li>

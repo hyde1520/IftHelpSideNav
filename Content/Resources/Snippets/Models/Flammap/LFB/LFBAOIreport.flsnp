@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Navigate to <span class="UIcomponent">My Workspace</span>.</li>
+            <li>Find the model output needed and click on it to view options.</li>
+            <li>
+                <p>Click the<span class="UIcomponent"> Request Report</span> button.</p>
+                <p>
+                    <img src="../../../../Images/MyWorkspace/Report_AOI_start.png" alt="Request a report from My Workspace" class="borderlist" />
+                </p>
+            </li>
+            <li>Select an AOI to constrain your area from the drop-down menu. Any AOI that matches your landscape extent will be displayed.</li>
+            <li>
+                <p>Click <span class="UIcomponent">Create Report</span>. you will receive a confirmation message that the report is being built.</p>
+                <p>
+                    <img src="../../../../Images/MyWorkspace/Report_AOI_select.png" alt="Select an area of interest from the drop-down menu" class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>When finished the report will show in the dialogue box as an active link, it will also now be available in My Workspace in the same folder as the model output it was created from.</p>
+                <p>
+                    <img src="../../../../Images/MyWorkspace/Report_AOI_ready.png" alt="Reports are stored in the same folder as the file (model output) they were created from." class="borderlist" />
+                </p>
+            </li>
+        </ol>
+        <p>&#160;</p>
+    </body>
+</html>

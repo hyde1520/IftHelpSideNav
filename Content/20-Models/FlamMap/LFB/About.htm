@@ -20,12 +20,9 @@
                 <li style="font-weight: bold;"><a href="TechDoc.htm" target="_blank">Landscape Fire Behavior Technical Documentation</a>
                 </li>
             </ul>
-            <div class="notificationComingSoon">
-                <p>Currently <MadCap:variable name="General.ProductName" /> runs fire behavior and generates a report for the entire landscape. If you would like to run fire behavior and generate a report only for a specific Area of Interest, see the walk-through we have developed in the <a href="../AOIlandscapefb.htm" target="_blank">AOI workaround Topic</a>. In future releases of <MadCap:variable name="General.ProductName" /> you will be able to specify an Area of Interest from a drop-down menu before running the model. </p>
-            </div>
             <MadCap:dropDown>
                 <MadCap:dropDownHead>
-                    <MadCap:dropDownHotspot>Step by Step Walkthrough</MadCap:dropDownHotspot>
+                    <MadCap:dropDownHotspot>Create a Landscape Fire Behavior Run for Geospatial Display</MadCap:dropDownHotspot>
                 </MadCap:dropDownHead>
                 <MadCap:dropDownBody>
                     <p>The Landscape Fire Behavior modeling option can be reached in <MadCap:variable name="General.ProductName"></MadCap:variable> via My Modeling Playground, or the Landscape Evaluation Stage of the Planning Cycle (which will take you to <a href="../../../10-Playground/ModelsOverview.htm" target="_blank">My Modeling Playground</a>). Once the Landscape Fire Behavior model is chosen from My Modeling Playground, follow these steps to populate and run the model:&#160;<a name="LFBPickLandscape"></a></p>
@@ -38,7 +35,7 @@
                     <p>
                         <img src="../../../Resources/Images/Models/Flammap/LFB/name_save_run.png" alt="name your run and click 'run' to generate outputs, or 'save' to save inputs and return to work later." class="border" />
                     </p>
-                    <p>Once completed, Landscape Fire Behavior run outputs are available to be viewed throughout IFTDSS in My&#160;Modeling Playground, My Workspace, Map Studio, or other drop-down menus.</p>
+                    <p>Once completed, Landscape Fire Behavior run outputs are available to be viewed in <span class="UIcomponent">Map Studio</span> using the <span class="UIcomponent">Simulation Output Tools</span> widget and clicking the model name from the list of completed model runs. You may also do this from <span class="UIcomponent">My&#160;Modeling Playground</span> and <span class="UIcomponent">My Workspace</span> by clicking on your file and selecting the <span class="UIcomponent">View on Map</span> option.</p>
                     <p>
                         <img src="../../../Resources/Images/Models/Flammap/LFB/LFB_availability.png" alt="LBF outputs are available throughout IFTDSS" class="border" />
                     </p>
@@ -49,5 +46,15 @@
                 </MadCap:dropDownBody>
             </MadCap:dropDown>
         </div>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Creating a Landscape Fire Behavior summary report for an Area of Interest</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Once you have created a Landscape Fire Behavior modeling run, you have the option of creating a summary report from <span class="UIcomponent">My Workspace</span>. Summary reports present your data in graphs and tables that may be easily copied over into your own planning documents and reports.</p>
+                <p>The steps below outline how to do this for a specific area of interest. However, if you wanted to generate a report for the entire landscape you may do so by simply leaving the AOI field in the steps below blank.</p>
+                <MadCap:snippetBlock src="../../../Resources/Snippets/Models/Flammap/LFB/LFBAOIreport.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
     </body>
 </html>
