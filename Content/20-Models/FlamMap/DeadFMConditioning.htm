@@ -7,15 +7,16 @@
         <h1>Dead Fuel Moisture Conditioning</h1>
         <div class="comment" MadCap:conditions="General.QA ONLY">
             <p>Google Doc:<a href="https://docs.google.com/document/d/1_e_s7a7muf7feYXSwvrbWlOvZf4FFReb-XGVXxXP0Cg/edit" target="_blank">https://docs.google.com/document/d/1_e_s7a7muf7feYXSwvrbWlOvZf4FFReb-XGVXxXP0Cg/edit</a></p>
-            <p>Last Updated 10-22-18</p>
+            <p>Last Updated 11-5-18</p>
         </div>
-        <h2>About Fuel Moisture Conditioning</h2>
-        <p>Conditioning results in variation of dead fuel moistures across a landscape.  In areas where canopy cover is greater than zero are greater.  Elevation also impacts fuel moisture, areas higher than the RAWS location are greater, and those below are lower.</p>
+        <h2>Why Condition Fuel Moistures</h2>
+        <p>Geospatial fire modeling systems all utilize fuel moistures in their calculations.  The Landscape Fire Behavior algorithm in <MadCap:variable name="General.ProductName" /> assumes dead and live fuel moistures remain constant during the simulation period.  For this reason, the fuel moisture input values are of critical importance as the model outputs  are very sensitive to fine fuel moisture inputs.  Conditioning can be used as a way to “correct” or “adjust” manually entered dead fuel moisture values  to capture variation in local site conditions before the model run. This can be especially important for landscapes with a lot of topographic variation resulting in a diversity of fine fuel moistures due to slope, aspect, canopy cover, and their subsequent impacts on solar radiation, wind, and precipitation penetration through the canopy.</p>
         <p>
             <object src="https://youtu.be/FaV07P9CP2M" style="width: 560px;height: 315px;">
             </object>
         </p>
-        <p>Conditioning fuels results in <MadCap:variable name="General.ProductName" /> calculating separate dead fuel moistures for each landscape cell based on the topography and shading from the forest canopy cover and clouds, as indicated in the table below:</p>
+        <h2>About Fuel Moisture Conditioning in <MadCap:variable name="General.ProductName" /></h2>
+        <p>Conditioning adjusts dead fuel moistures across a landscape based on the factors described above. Elevation impacts on fuel moisture are also applied, taking into account pixel location in relation to RAWS station or weather observation location. Portions of the landscape at higher elevation than the observations may see slightly increased fine fuel moistures whereas portions of the landscape below RAWS may adjust to slightly lower fine fuel values. Conditioning fuels in <MadCap:variable name="General.ProductName" /> is done at the pixel or cell level and each cell is calculated independently.  Live fuels are not conditioned. The table below shows the factors influencing dead fuel moistures in <MadCap:variable name="General.ProductName" />:</p>
         <table style="width: 100%;mc-table-style: url('../../Resources/TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
             <col class="TableStyle-Standard-Column-Column1" />
             <col class="TableStyle-Standard-Column-Column1" />
@@ -44,16 +45,23 @@
                 </tr>
             </tbody>
         </table>
+        <h2>Fuel Moisture Conditioning Options</h2>
         <p class="comment">
             <img src="../../Resources/Images/Models/FMConditioning/conditioning_options.png" alt="you may choose to condition or not condition dead fuel moistures in iftdss." class="border" />
         </p>
-        <p>Choosing fuel moisture conditioning allows dead fuel moisture values for 1,10, and 100 hour fuels to be adjusted based on aspect, elevation, forest canopy cover, and weather over a set period of time. For example, you may want to conducting different LFB runs during day and night conditions. Fuel conditioning options in <MadCap:variable name="General.ProductName" /> include:</p>
         <h2>Do Not Condition (Use Initial Fuel Moistures)</h2>
-        <p><MadCap:variable name="General.ProductName" /> does not condition fuels, rather it uses the initial fuel moistures across the entire landscape.</p>
+        <p><MadCap:variable name="General.ProductName" /> does not condition fuels,  it uses the initial fuel moistures across the entire landscape.  This option may be appropriate when you know the exact fuel moisture you want to use on a given portion of the landscape or on landscapes with limited variation in topography and vegetation.  It is also appropriate in areas where limited conditioning weather data is available or deciduous vegetation can confound the issue of shading at various times of year.</p>
         <h2>Condition (Select a Classified Weather Stream)</h2>
-        <p><MadCap:variable name="General.ProductName" /> conditions dead fuel moistures using a classified weather stream. This option is available when you do not have weather data of your own to condition with. Currently, the only classified weather stream available represents near-maximum or “extreme” conditions. In the future more options will be available. For technical details on the “extreme” conditions, see the <a href="classifiedweather.htm" target="_blank">Classified Weather Stream Help Topic</a>.</p>
+        <p><MadCap:variable name="General.ProductName" /> conditions dead fuel moistures using a classified weather stream. Currently, the only classified weather stream available represents near-maximum or “extreme” conditions. For technical details on the “extreme” conditions, see the <a href="classifiedweather.htm" target="_blank">Classified Weather Stream Help Topic</a>. This option may be appropriate when you want the analysis to simulate extreme or near worst conditions and you do not have the time or the expertise to build your own conditioning file. </p>
+        <div class="notificationComingSoon">
+            <p> In the future more Classified Weather Stream options, in addition to "Extreme", will be available. </p>
+            <p>Please note that these Extreme conditioning files exist for most of the Western United States but have yet to be developed for Eastern Areas.  This is in part due to complexities associated with defining a conditioning period date in areas where much of the landscape is dominated by deciduous forests.</p>
+        </div>
         <h2>Condition (Upload a  Weather Stream File)</h2>
-        <p><MadCap:variable name="General.ProductName" /> conditions dead fuel moistures based on a weather stream (.wxs) file you upload, and a conditioning period (time of day and number of days) you choose. This option may be used when you have your own weather data (wxs file) and would like to ensure that the analysis scenario you are calculating captures the influence of landscape characteristics on fuel moisture at various times of day and year. For details on creating .wxs files, see the <a href="AboutWXS.htm" target="_blank">.wxs Creation Help Topic</a>.</p>
+        <p><MadCap:variable name="General.ProductName" /> conditions dead fuel moistures based on a weather stream (.wxs) file you upload, and a conditioning period (time of day and number of days) you choose. This option may be used when you have your own weather data (.wxs file) and would like to ensure that the analysis scenario you are calculating captures the influence of landscape characteristics on fuel moisture at various times of day and year. For details on creating .wxs files, see the <a href="AboutWXS.htm" target="_blank">.wxs Creation Help Topic</a>. This option may be appropriate if you are familiar with Firefamily Plus and know the specific RAWS station and date that represents the conditions you would like to simulate.</p>
+        <div class="notificationImportant">
+            <p>The conditioned fuel moistures at the end of the uploaded conditioning period (time of day) will be the initial fuel moistures used in the calculations.</p>
+        </div>
         <MadCap:snippetBlock src="../../Resources/Snippets/Models/Flammap/wxs_validation_warning.flsnp" />
         <p>Regardless of your choice to use a classified weather stream, or a custom weather stream, the same algorithms are employed to condition dead fuel moisture based on fuel size. Calculations for dead fuel moistures are from FlamMap, which implements the following:</p>
         <ul>
