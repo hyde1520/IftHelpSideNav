@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>Start a Project &amp; Create a Landscape</h1>
+        <h2>Using Folders and Landscapes in IFTDSS</h2>
+        <p><b>Project Folders:</b> There is no formal definition of the term “Project" in IFTDSS. Instead, the term “<span class="Emphasis">Project”</span> refers to the collection of landscape files, model runs, and associated data for your specific area. Many tasks in IFTDSS relate back to these landscape files and other information, so it is recommended that you start by creating a <span class="Emphasis">Folder</span> to keep track of your files.</p>
+        <div class="notificationTip">
+            <p>Tip: Stay organized by creating a Folder each time you begin a project for analysis.  Logical naming conventions for Folders include the geographic area being analyzed.</p>
+        </div>
+        <p><b>Landscapes:</b> In IFTDSS, a landscape file refers to the spatial file that contains vegetation and fuels data.  The user defines the extent of the landscape which should be large enough to cover the entire analysis area.  IFTDSS currently generates all landscape files at 30m resolution and can accommodate large landscapes if necessary.  <MadCap:snippetText src="../../Resources/Snippets/LCPs/max_size.flsnp"></MadCap:snippetText> If you follow along with your own landscape, limit the size to under 100,000 acres to reduce the processing times.</p>
+        <p>If you do not specify a folder to store data in IFTDSS, files will be saved to the “Playground” Folder by default. Currently, files cannot be moved from one folder to another.</p>
+        <h2>Create a project folder</h2>
+        <p><span class="UIcomponent">My Workspace</span> is the file repository to store all the files you download or generate in IFTDSS. Folders can be created directly in <span class="UIcomponent">My Workspace</span>. They can also be created while working in IFTDSS whenever you create a new landscape or shapefile, just look for the <span class="UIcomponent">Add New Folder</span><img src="../../Resources/Images/ButtonsGeneral/add_new_folder.png" alt="add new folder" class="iftbutton" /> button whenever you are required to specify a folder.</p>
+        <p>
+            <img src="../../Resources/Images/GetStarted/add_folder.png" alt="you may specify which folder to store a file from many areas of IFTDSS." class="border">
+            </img>
+        </p>
+        <p>To create a new folder from <span class="UIcomponent">My Workspace</span>:</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>
+                <p>Access <span class="UIcomponent">My Workspace</span> from the top navigation menu of <MadCap:variable name="General.ProductName"></MadCap:variable> and create a folder by clicking the <span class="UIcomponent">Create Folder</span> option at the top of the <span class="UIcomponent">My Workspace</span> page.</p>
+                <p>
+                    <img src="../../Resources/Images/MyWorkspace/create_folder.png" alt="create a folder from the &quot;Create Folder&quot; option at the top of My Workspace." class="borderlist">
+                    </img>
+                </p>
+            </li>
+            <li>
+                <p>Give your folder a name and click <span class="UIcomponent">Submit</span>. <span style="background-color: #add8e6;">For this tutorial we’ll name it “Haypress Creek Project”</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/MyWorkspace/workspace_foldername04182017.png" alt="click &quot;submit&quot; to submit a new folder" class="borderlist">
+                    </img>
+                </p>
+            </li>
+        </ol>
+        <p><b>Deleting Folders</b>: You can delete a folder in My Workspace if needed, but you must make sure the folder is empty first.</p>
+        <p>To delete a folder in <span class="UIcomponent">My Workspace</span>, hover over the folder name in the left panel, a  red 'x' will appear to the right of the folder name. Click the red x and confirm your deletion when prompted.</p>
+        <p>To delete a folder with files, you must first open the folder and delete the individual files and then delete the folder. File deletions will come with a warning about any dependencies and ask for verification before deletion.</p>
+        <h2>Create a Landscape</h2>
+        <p>To create a landscape in the <MadCap:variable name="General.ProductName"></MadCap:variable> Planning Cycle:</p>
+        <ol>
+            <li>
+                <p>From the <span class="UIcomponent">Landscape Evaluation</span> stage of the cycle, and click the <span class="UIcomponent">Create Landscape</span> card. </p>
+                <p>
+                    <img src="../../Resources/Images/Cycle/LandscapeEvaluationCreateLcp.png" alt="Start creating a landscape by clicking the 'create landscape' card." class="borderlist">
+                    </img>
+                </p>
+            </li>
+            <li>
+                <p>This takes you to the <MadCap:variable name="General.MapStudio"></MadCap:variable> and automatically opens the <span class="UIcomponent">Landscape Tools</span> widget with the "Create&#160;New" tab open.  This is where you create your landscape following these steps:</p>
+                <p>
+                    <img src="../../Resources/Images/MapStudio/lcp_tools/mapstudio_createnew.png" class="borderlist" alt="use the 'create new' tab to create a new landscape in map studio" />
+                </p>
+                <p>In the <span class="UIcomponent">Create new</span> tab specify the requirements for your landscape:</p>
+                <ol style="list-style-type: upper-alpha;">
+                    <li>Use the <MadCap:variable name="General.MapStudio" /> tools such as zoom, basemap layers,and so forth to locate your desired area.</li>
+                    <li>
+                        <p>Define the area of your new landscape by doing one of the following:</p>
+                        <ul>
+                            <li>
+                                <p>Selecting an Area of Interest from the drop-down menu (this contains any shapes you've created or shapefiles you've uploaded).</p>
+                                <div class="notificationNote">
+                                    <p>Your shape or shapefile must be within your current map extent to appear in the drop-down menu, so zoom in or out in Map Studio as needed.</p>
+                                </div>
+                            </li>
+                            <li>Click <span class="UIcomponent">Select draw mode <img src="../../Resources/Images/MapStudio/add_graphic/addgraphic_extents.png" alt="extent button" style="width: 15px; height: 14px;" class="iftbutton" /></span>, mouse to your location on the map, hold down the left mouse key, and draw a rectangle around your desired area, releasing the button when you are finished. Clicking the black select extent button  then draw a box around your area by holding down the left mouse key, drawing, and release.</li>
+                            <li>Enter exact coordinates rather than draw a box around your area, you may do so by entering the coordinates, in degrees, for the west, east, south, and north bounds of your desired area.</li>
+                        </ul>
+                    </li>
+                    <div class="notificationNote">
+                        <p>
+                            <MadCap:snippetText src="../../Resources/Snippets/LCPs/max_size.flsnp" />
+                        </p>
+                    </div>
+                    <li>Choose the version of LANDFIRE data you would like to use.</li>
+                    <li>Choose the fire behavior fuel model (Fuel Model 40 or Fuel Model 13) to include in your landscape file.</li>
+                    <li>Give your landscape a descriptive name, this is helpful as you accumulate more landscape files in <MadCap:variable name="General.ProductName" />. Spaces are allowed in names and we recommend including the LANDFIRE&#160;version and keeping the name less than 30 characters. For example, "Smith Project LF14".</li>
+                    <li>Select the folder to store your landscape file. If needed, you may use the <span class="UIcomponent">Add new Folder <img src="../../Resources/Images/ButtonsGeneral/add_new_folder.png" alt="add new folder button" class="iftbutton" /></span>button to create a new folder for your landscape. If you do not specify an existing folder or create a new one in this step, your saved landscape defaults to the "Playground" folder of <span class="UIcomponent">My Workspace</span>.</li>
+                    <li>
+                        <p>Click <span class="UIcomponent">Create</span> to generate your landscape file.</p>
+                        <p>
+                            <img src="../../Resources/Images/MapStudio/lcp_tools/lcp_mapstudio_steps.png" alt="Draw and dropdown options under the 'create new' tab let you generate a landscape from within map studio." class="borderlist" />
+                        </p>
+                    </li>
+                </ol>
+                <p>Once you click <span class="UIcomponent">Create</span> a message appears at the top of the <span class="UIcomponent">Landscape Tools</span> box to confirm your landscape is being created. It may take a few minutes to generate your landscape. You may check its status by refreshing the Layer List in <MadCap:variable name="General.MapStudio" />.</p>
+                <p>
+                    <img src="../../Resources/Images/MapStudio/lcp_tools/landscape_submitted_confirmation.png" alt="confirmation message that a landsape file is in the process of being downloaded" class="border" />
+                </p>
+                <div class="notificationTip">
+                    <p>Tip:&#160;To refresh your map view, click the Add to map tab, followed by the Filter by Map Extent button to show only your new landscape area, and then click Refresh. A checkbox will appear next to your landscape when it is completed.</p>
+                    <img src="../../Resources/Images/MapStudio/lcp_tools/Refresh.png" alt="filter and refresh buttons within the Landscape Tools widget." />
+                </div>
+            </li>
+            <li>Once your landscape is created it will be available  throughout <MadCap:variable name="General.ProductName" /> in all landscape drop-drown menus, My Workspace, and the "Add to Map" tab of the <span class="UIcomponent">Landscape Tools</span> widget in <MadCap:variable name="General.MapStudio" />.</li>
+        </ol>
+    </body>
+</html>
