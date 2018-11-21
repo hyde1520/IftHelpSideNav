@@ -422,15 +422,15 @@
       Title="About FTEM"
       Link="/Content/10-FTEM/FTEMAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
-      Title="Using FTEM">
+      Title="How to Use FTEM">
       <TocEntry
-        Title="How to Use FTEM"
+        Title="FTEM Monitoring Steps"
         Link="/Content/10-FTEM/General/UsingFtem.htm" />
       <TocEntry
         Title="Symbology"
         Link="/Content/10-FTEM/General/Symbology.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="Viewing Shapefiles"
+        Title="Use Local Shapefiles"
         Link="/Content/10-FTEM/General/AddShapefile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Add and View Attachments"
@@ -438,10 +438,10 @@
       <TocEntry
         Title="Add Treatments Using Buffer"
         Link="/Content/10-FTEM/General/SearchBuffer.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Missing Fires &amp; Treatments"
-        Link="/Content/10-FTEM/General/Missing Data.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
+    <TocEntry
+      Title="Fix Missing Fires or Treatments"
+      Link="/Content/10-FTEM/General/Missing Data.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Answering Monitoring Questions">
       <TocEntry
@@ -488,22 +488,23 @@
         Link="/Content/10-FTEM/Reports/RepData.htm" />
     </TocEntry>
     <TocEntry
-      Title="Technical Documentation">
+      Title="Data Sources">
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
+        Title="Overview"
         Link="/Content/10-FTEM/DataTechnical/TechDoc.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="Data Sources for Treatments"
+        Title="For Treatments"
         Link="/Content/10-FTEM/DataTechnical/Treatments.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="Data Sources for Wildfires"
+        Title="For Wildfires"
         Link="/Content/10-FTEM/DataTechnical/Wildfires.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="Treatment Interactions and Buffers"
+        Title="Buffering"
         Link="/Content/10-FTEM/DataTechnical/Buffering.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/10-FTEM/DataTechnical/Utilities.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/10-FTEM/DataTechnical/Utilities.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        conditions="General.Exclude" />
     </TocEntry>
     <TocEntry
       Title="FTEM Administrator Help">
