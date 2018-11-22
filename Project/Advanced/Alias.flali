@@ -59,7 +59,6 @@
     <Map Name="StrategicPlanningAbout" Link="/Content/10-Cycle/StrategicPlanningAbout.htm" />
     <Map Name="TrtmtAltsCompareLndscp" Link="/Content/30-Tasks/DevTrtAlts/TrtmtAltsCompareLndscp.htm" />
     <Map Name="TrtmtAltsEditLandscp" Link="/Content/30-Tasks/DevTrtAlts/TrtmtAltsEditLandscp.htm" />
-    <Map Name="FBFMCompare" Link="/Content/00-Concepts/FBFM/FBFMCompare.htm" />
     <Map Name="LANDFIRE" Link="/Content/00-Concepts/LANDFIRE.htm" />
     <Map Name="ReferenceList" Link="/Content/41-References/Citations.htm" />
     <Map Name="icons" Link="/Content/Resources/Stylesheets/icons/icons.html" />
@@ -204,8 +203,7 @@
     <Map Name="MTTTECHDOC" Link="/Content/20-Models/FlamMap/MTT/TechDoc.htm" />
     <Map Name="LCPCreateAbout" Link="/Content/30-Tasks/CreateLCP/LCPCreateAbout.htm" />
     <Map Name="ignition_hh" Link="/Content/50-Hover/MTT/ignition_hh.htm" />
-    <Map Name="Lookup" Link="/Content/10-FTEM/General/Lookup.htm" />
-    <Map Name="SelectFires" Link="/Content/10-FTEM/General/AttributeSearch.htm" />
+    <Map Name="SelectFires" Link="/Content/10-FTEM/General/TreatmentFilters.htm" />
     <Map Name="geotiff_reclass1" Link="/Content/10-Workspace/geotiff_reclass.htm" />
     <Map Name="LCP_export1" Link="/Content/10-Workspace/LCP_export.htm" />
     <Map Name="LoadingGeoIntoFlammap1" Link="/Content/10-Workspace/LoadingGeoIntoFlammap.htm" />
@@ -233,4 +231,8 @@
     <Map Name="Procedure3" Link="/Content/C_Procedure Topics/Procedure3.htm" />
     <Map Name="Procedures" Link="/Content/C_Procedure Topics/Procedures.htm" />
     <Map Name="File_Location" Link="/Content/Help Center Notes/File Location.htm" />
+    <Map Name="FBFMCompareXLS" Link="/Content/00-Concepts/FBFM/FBFMCompareXLS.htm" />
+    <Map Name="FireFilters" Link="/Content/10-FTEM/General/FireFilters.htm" />
+    <Map Name="_0_Introduction2" Link="/Content/40-Tutorials/Merged Tutorial/0_Introduction.htm" />
+    <Map Name="_1_Create_Project_and_CLP1" Link="/Content/40-Tutorials/Merged Tutorial/1_Create_Project_and_CLP.htm" />
 </CatapultAliasFile>

@@ -58,7 +58,6 @@
 #define StrategicPlanningAbout 1108
 #define TrtmtAltsCompareLndscp 1111
 #define TrtmtAltsEditLandscp 1112
-#define FBFMCompare 1124
 #define LANDFIRE 1125
 #define ReferenceList 1126
 #define icons 1127
@@ -236,3 +235,9 @@
 #define Procedures 1201
 #define File_Location 1202
 #define LFB_inputs 1203
+#define FBFMCompareXLS 1124
+#define _0_Introduction1 1072
+#define _1_Create_Project_and_CLP 1204
+#define FireFilters 1070
+#define _0_Introduction2 1205
+#define _1_Create_Project_and_CLP1 1206

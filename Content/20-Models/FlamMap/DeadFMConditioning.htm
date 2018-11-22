@@ -5,9 +5,9 @@
     </head>
     <body>
         <h1>Dead Fuel Moisture Conditioning</h1>
-        <div class="comment" MadCap:conditions="General.QA ONLY">
+        <div class="comment" MadCap:conditions="General.Exclude">
             <p>Google Doc:<a href="https://docs.google.com/document/d/1_e_s7a7muf7feYXSwvrbWlOvZf4FFReb-XGVXxXP0Cg/edit" target="_blank">https://docs.google.com/document/d/1_e_s7a7muf7feYXSwvrbWlOvZf4FFReb-XGVXxXP0Cg/edit</a></p>
-            <p>Last Updated 11-5-18</p>
+            <p>Last Updated 11-21-18 with input from IHLP-137</p>
         </div>
         <h2>Why Condition Fuel Moistures</h2>
         <p>
@@ -61,9 +61,9 @@
             <p>Please note that these Extreme conditioning files exist for most of the Western United States but have yet to be developed for Eastern Areas.  This is in part due to complexities associated with defining a conditioning period date in areas where much of the landscape is dominated by deciduous forests.</p>
         </div>
         <h2>Condition (Upload a  Weather Stream File)</h2>
-        <p><MadCap:variable name="General.ProductName" /> conditions dead fuel moistures based on a weather stream (.wxs) file you upload, and a conditioning period (time of day and number of days) you choose. This option may be used when you have your own weather data (.wxs file) and would like to ensure that the analysis scenario you are calculating captures the influence of landscape characteristics on fuel moisture at specific times of day or year. For details on creating .wxs files, see the <a href="AboutWXS.htm" target="_blank">.wxs Creation Help Topic</a>.</p>
+        <p><MadCap:variable name="General.ProductName" /> conditions dead fuel moistures based on a weather stream (.wxs) file you upload, and a conditioning period (Start date/Time of Day plus Number of days to condition) you choose. This option may be used when you have your own weather data (.wxs file) and would like to ensure that the analysis scenario you are calculating captures the influence of landscape characteristics on fuel moisture at specific times of day or year. For details on creating .wxs files, see the <a href="AboutWXS.htm" target="_blank">.wxs Creation Help Topic</a>.</p>
         <div class="notificationImportant">
-            <p>The conditioned fuel moistures at the end of the uploaded conditioning period (time of day) will be the initial fuel moistures used in the calculations.</p>
+            <p>The conditioned fuel moistures at the end of the conditioning period (Start date/Time of Day plus Number of days to condition) will be the fuel moistures used in the fire behavior calculations.</p>
         </div>
         <MadCap:snippetBlock src="../../Resources/Snippets/Models/Flammap/wxs_validation_warning.flsnp" />
         <p>Regardless of your choice to use a classified weather stream, or a custom weather stream, the same algorithms are employed to condition dead fuel moisture based on fuel size. Calculations for dead fuel moistures are from FlamMap, which implements the following:</p>
@@ -79,7 +79,7 @@
         </p>
         <p>At the beginning of a conditioning period, the dead fuels of all size classes in each fuel model will not reflect the influences of the local site conditions. Fuels for a particular fuel model will have the initial fuel moistures you populated within <MadCap:variable name="General.ProductName" />. As the conditioning period progresses for a few hours or a day the moisture content of the finer fuels (1hr, 10hr) will increasingly reflect the local site conditions because of their short time-lag. Because the short time-lag fuels (1hr, 10hr) have the most influence on calculated fire behavior, conditioning periods longer than a few days do not change results significantly for similar weather streams. At the end of the conditioning period, the landscape will contain spatial variation in dead fuel moisture with less influence of the initial fuel moisture input conditions.</p>
         <div class="notificationNote">
-            <p>Conditioned fuel moistures represent fuel moisture variation spatially at one point in time. If you are comparing day and night conditions and using your own wxs file, you may set you conditioning period to a specific time of day</p>
+            <p>Conditioned fuel moistures represent fuel moisture variation spatially at one point in time, the end of the conditioning period. If you are comparing day and night conditions and using your own wxs file, you may set your conditioning period to a specific time of day by using the "Time of Day" field.</p>
         </div>
     </body>
 </html>
