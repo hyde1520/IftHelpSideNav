@@ -3,23 +3,24 @@
     <head>
     </head>
     <body>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>What if I don't see my treatment?</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>Treatments are pulled into FTEM&#160;nightly from FACTS and NFPORS nightly and must have the following attributes in the system of record:</p>
-                <ul>
-                    <li>A completion date after January 1 2005</li>
-                    <li>For FACTS data, it must be Hazardous Fuels Reduction treatment or non-NFP treatment (Keypoint 3 or 6)</li>
-                </ul>
-                <p>If your treatment meets the above criteria but is still not visible in FTEM:</p>
-                <ol style="list-style-type: upper-alpha;">
-                    <li>Try increasing your search buffer for interacting treatments. This is done after you select your wildfire, but using the Add Treatments button on the Treatments tab. See the <a href="../../../10-FTEM/General/SearchBuffer.htm" target="_self">Search Buffer Topic</a> for a step by step walk-though of how to do this.</li>
-                    <li>If the above criteria are met, and increasing the buffer area does not help, you may need to follow up with your <a href="../../../10-FTEM/Guidance/AgencyLeads.htm" target="_blank">FTEM&#160;Agency Administrator</a> to have your treatment entered in the system of record. Treatments may take some time to become visible and individual agencies may upload records at different intervals.</li>
-                </ol>
-                <p>For more details see the <a href="../../../10-FTEM/DataTechnical/Treatments.htm" target="_blank">FTEM Treatments Technical Topic</a>.</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
+        <p>Treatments are pulled into FTEM&#160;nightly from FACTS and NFPORS and must have the following attributes in the system of record:</p>
+        <ul>
+            <li>A completion date after January 1 2005</li>
+            <li>For NFPORS data, the treatment must be NFP&#160;(National Fire Plan), or non-NFP.</li>
+            <li>For FACTS data:</li>
+            <ul>
+                <li>A treatment must be KP 3 or KP 6.</li>
+                <li>Where duplicate SUIDs (Sub Unit ID) exist, the SUID with the most recent completion date (ActualCompletionDate) will be chosen.</li>
+                <li>If completion date (ActualCompletionDate) is also duplicated, treatments will be filtered by the the Treatment Category (treatment_category) in this order: 1-Fire, 2-Mechanical, 3-Other, 4-Preparation for Treatment.</li>
+                <li>If Treatment Category is also duplicated, treatments will be filtered by FACTS Activity Code by choosing the smallest numerical code in the remaining duplicate SUIDS.</li>
+                <li>If FACTS Activity Code is duplicated, no further filtering will be applied and remaining treatments will be brought in to FTEM.</li>
+            </ul>
+        </ul>
+        <p>If your treatment meets the above criteria but is still not visible in FTEM:</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Try increasing your search buffer for interacting treatments. This is done after you select your wildfire, but using the Add Treatments button on the Treatments tab. See the <a href="../../../10-FTEM/General/SearchBuffer.htm" target="_self">Search Buffer Topic</a> for a step by step walk-through of how to do this.</li>
+            <li>If the above criteria are met, and increasing the buffer area does not help, you may need to follow up with your <a href="../../../10-FTEM/Guidance/AgencyLeads.htm" target="_blank">FTEM&#160;Agency Administrator</a> to have your treatment entered in the system of record. Individual agencies may upload records at different intervals.</li>
+        </ol>
+        <p>For more details see the <a href="../../../10-FTEM/DataTechnical/Treatments.htm" target="_blank">FTEM Treatments Technical Topic</a>.</p>
     </body>
 </html>

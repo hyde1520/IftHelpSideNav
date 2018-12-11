@@ -79,7 +79,7 @@
                     <img src="../../Resources/Images/FTEM/att_table_options.png" alt="use the filter option to further constrain your attribute table." class="borderlist" />
                 </p>
             </li>
-            <li>Create your filter expression and click OK. In this example we use "unit_name IS Fremont-Winema National Forest".<ul><li> You can use the Protection Jurisdiction to filter your fires by individual forest, refuge, district etc. </li><li>Need to look up the jurisdiction code for your area? Use the Jurisdiction Look-up Tool.</li><li><p>Start with creating a filter set so you can include a date constraint. This is needed because once you start filtering, the automatic data filter in FTEM&#160;is disabled.</p><p>This will constrain the table to attributes that match your search results. </p></li></ul><p><img src="../../Resources/Images/FTEM/add_expression.png" alt="Use the filter to create expressions to query the attribute table." class="borderlist" /></p></li>
+            <li>Create your filter expression and click OK. In this example we use "unit_name IS Fremont-Winema National Forest".<ul><li> You can use the Protection Jurisdiction to filter your fires by individual forest, refuge, district etc. </li><li>Need to look up the jurisdiction code for your area? Download the <a href="../../Resources/Supporting/UnitIdActive.csv" target="_blank">Jurisdiction Look-up CSV</a>.</li><li><p>Start with creating a filter set so you can include a date constraint. This is needed because once you start filtering, the automatic data filter in FTEM&#160;is disabled.</p><p>This will constrain the table to attributes that match your search results. </p></li></ul><p><img src="../../Resources/Images/FTEM/add_expression.png" alt="Use the filter to create expressions to query the attribute table." class="borderlist" /></p></li>
             <li>
                 <p>To zoom to a record, select it by clicking the gray area to the left of the attribute row and use the <span class="UIcomponent">Zoom To</span> option.</p>
                 <p>
@@ -94,17 +94,7 @@
         </p>
         <h2><a name="Add"></a>Add Missing Treatments or Correct Treatment Data</h2>
         <h3>Add a Missing Treatment</h3>
-        <p>Treatments are pulled into FTEM&#160;nightly from FACTS and NFPORS nightly and must have the following attributes in the system of record:</p>
-        <ul>
-            <li>A completion date after January 1 2005</li>
-            <li>For FACTS data, it must be Hazardous Fuels Reduction treatment or non-NFP treatment (Keypoint 3 or 6)</li>
-        </ul>
-        <p>If your treatment meets the above criteria but is still not visible in FTEM:</p>
-        <ol style="list-style-type: upper-alpha;">
-            <li>Try increasing your search buffer for interacting treatments. This is done after you select your wildfire, but using the Add Treatments button on the Treatments tab. See the <a href="SearchBuffer.htm" target="_self">Search Buffer Topic</a> for a step by step walk-though of how to do this.</li>
-            <li>If the above criteria are met, and increasing the buffer area does not help, you may need to follow up with your <a href="../Guidance/AgencyLeads.htm" target="_blank">FTEM&#160;Agency Administrator</a> to have your treatment entered in the system of record. Treatments may take some time to become visible and individual agencies may upload records at different intervals.</li>
-        </ol>
-        <p>For more details see the <a href="../DataTechnical/Treatments.htm" target="_blank">FTEM Treatments Technical Topic</a>.</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/FTEM/FAQ_NoTreatment.flsnp" />
         <h3>Correct&#160;Treatment Data</h3>
         <p>Treatments are pulled into FTEM&#160;nightly from FACTS and NFPORS. If treatment data is incorrect, please work with your <a href="../Guidance/AgencyLeads.htm" target="_blank">FTEM&#160;Agency Administrator</a> to have your treatment data corrected in the appropriate system.</p>
     </body>
