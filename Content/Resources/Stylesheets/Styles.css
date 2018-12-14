@@ -266,19 +266,17 @@ h3
 img.border
 {
 	border: 1px solid black;
-	margin:5px;
-	max-width:100%;
-	height:auto;
-
+	margin: 5px;
+	max-width: 100%;
+	height: auto;
 }
 
 img.borderlist
 {
 	border: 1px solid black;
-	margin:-10px 5px 5px 5px;
-	max-width:100%;
-	height:auto;
-
+	margin: -10px 5px 5px 5px;
+	max-width: 100%;
+	height: auto;
 }
 
 img.AbsolutePosition
@@ -289,7 +287,7 @@ img.AbsolutePosition
 img.iftbutton
 {
 	max-height: 1.3em;
-	width:auto;
+	width: auto;
 }
 
 img.Thumbnail
@@ -320,7 +318,9 @@ MadCap|dropDown
 	mc-closed-image: url('../Images/plus.png');
 	mc-open-image: url('../Images/minus.png');
 }
+
 /* The .MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage class below enlarges the dropdown to be H2 size once expanded for easy reading and better printing */
+
 .MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage
 {
 	font-size: 1.3em;
@@ -359,7 +359,6 @@ MadCap|dropDownHead
 MadCap|dropDownHotspot
 {
 	color: #404040;
-
 }
 
 MadCap|dropDownHotspot:hover
@@ -638,11 +637,13 @@ span.UIcomponent
 {
 	font-weight: bold;
 }
+
 span.code
 {
-font-family:monospace;
-font-size: 14px;	
+	font-family: monospace;
+	font-size: 14px;
 }
+
 span.ListBegin
 {
 	font-weight: bold;
@@ -709,6 +710,12 @@ html.templateTopic div.sideContent
 	display: none;
 }
 
+em
+{
+	text-decoration: underline;
+	font-style: normal;
+}
+
 @media print
 {
 	.no-print,
@@ -733,23 +740,28 @@ html.templateTopic div.sideContent
 
 	/*Keeps max width to fit on page*/
 
-
 	img.border
 	{
-    page-break-before: avoid; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
-    page-break-after: auto; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
-    page-break-inside: avoid; /* or 'auto' */
+		page-break-before: avoid;
+		/* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
+		page-break-after: auto;
+		/* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
+		page-break-inside: avoid;
+		/* or 'auto' */
 	}
 
-		img.borderlist
+	img.borderlist
 	{
-    border: 1px solid black;
-	margin:0px 5px 5px 5px;
-	max-width: 100%;
-	height:auto;
-    page-break-before: avoid; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
-    page-break-after: auto; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
-    page-break-inside: avoid; /* or 'auto' */
+		border: 1px solid black;
+		margin: 0px 5px 5px 5px;
+		max-width: 100%;
+		height: auto;
+		page-break-before: avoid;
+		/* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
+		page-break-after: auto;
+		/* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
+		page-break-inside: avoid;
+		/* or 'auto' */
 	}
 
 	div.GlossaryPageDefinition
@@ -1186,3 +1198,4 @@ p.no-print	/*Hides from printing in browser*/
 {
 	
 }
+

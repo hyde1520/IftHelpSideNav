@@ -417,8 +417,7 @@
       Link="/Content/20-Models/Modelsmoretocome.htm" />
   </TocEntry>
   <TocEntry
-    Title="FTEM"
-    conditions="General.QA ONLY">
+    Title="FTEM">
     <TocEntry
       Title="About"
       Link="/Content/10-FTEM/FTEMAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -434,6 +433,9 @@
         Title="[%=System.LinkedTitle%]"
         Link="/Content/10-FTEM/AccountsRoles/Roles_Detailed.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
+    <TocEntry
+      Title="Fix Missing Fires or Treatments"
+      Link="/Content/10-FTEM/General/Missing Data.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Monitoring">
       <TocEntry
@@ -536,7 +538,7 @@
   </TocEntry>
   <TocEntry
     Title="FTEM"
-    conditions="General.Prod ONLY">
+    conditions="General.Exclude">
     <TocEntry
       Title="About FTEM"
       Link="/Content/10-FTEM/FTEMAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />

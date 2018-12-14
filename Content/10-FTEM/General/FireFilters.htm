@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="General.QA ONLY">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
     <body>
@@ -20,7 +20,7 @@
             <li>Zooming into a specific area of the map.</li>
             <li>Pick a wildfire based on year, or agency if you are a monitor for more than one agency.</li>
             <li>Use the search box and enter the wildfire name.</li>
-            <li>If you need to zoom to a fire on the map, use the <span class="UIcomponent">Zoom To</span> button under the fire name.</li>
+            <li>If you need to zoom to a fire on the map, click the <span class="UIcomponent">Zoom To</span> button under the fire name.</li>
             <div class="notificationTip">
                 <p>Need to de-select your fire? Move the mouse cursor to the <span class="UIcomponent">Wildfire</span> tab and click the black X to the left of the wildfire name.</p>
             </div>
@@ -29,20 +29,20 @@
             <img src="../../Resources/Images/FTEM/wildfire_picks.png" alt="choose a fire by agency, year, zooming, or search for a fire name." class="border" />
         </p>
         <h2><a name="Filter"></a>Filter or Get More Information from the Fire List</h2>
-        <p>To filter fires by status or to see the full metadata for a fire, view the wildfires tab in full screen view. This is done by using the <span class="UIcomponent">Hide map</span> button in the top center of the screen. Note that you can also filter the columns within the fire in descending or ascending order by single left-clicking the column title.</p>
+        <p>To filter fires by status or to see the full metadata for a fire, view the wildfires tab in full screen view. This is done by clicking the <span class="UIcomponent">Hide map</span> button in the top center of the screen. Note that you can also filter the columns within the fire in descending or ascending order by single left-clicking the column title.</p>
         <p>
             <img src="../../Resources/Images/FTEM/RHP_fires.png" alt="use the full list view to see more data about your fire" />
         </p>
         <h2><a name="Filter2"></a>Filter or Get More Information from the Map</h2>
         <p>Once you have zoomed into your area, you may want to further constrain the results with a specific filter term, or use some of the available FTEM&#160;Reference layers to aid in your monitoring. We'll cover these option here:</p>
         <div class="notificationImportant">
-            <p>Note: Constraining the attribute table does not change list that populates on the right of the screen until you use the "Zoom To" option to change the map extent. </p>
+            <p>Note: Constraining the attribute table does not change the list that populates on the right of the screen until you use the "Zoom To" option to change the map extent. </p>
         </div>
         <h3>Using a Filter in Attribute Table</h3>
         <p>For this example we will search for fire polygons with a point of origin jurisdiction of Nez Perce - Clearwater National Forest:</p>
         <ol style="list-style-type: upper-alpha;">
             <li>
-                <p>Click the <span class="UIcomponent">Attribute Table</span> button in the bottom right of the map.</p>
+                <p>Click <span class="UIcomponent">Attribute Table</span> button in the bottom right of the map.</p>
                 <p>
                     <img src="../../Resources/Images/FTEM/Attribute_Table.png" alt="The 'Attribute Table' button on the bottom right of the map." class="borderlist" />
                     <br />
@@ -56,7 +56,7 @@
                     <img src="../../Resources/Images/FTEM/attribute_table_firepoly.png" alt="use the filter option to further constrain your attribute table." class="borderlist" />
                 </p>
             </li>
-            <li>Create your filter expression and click OK. In this example we use "poo_jurisdiction is IDNCF", for querying the table for Point Of Origin Jurisdiction of Nez Perce - Clearwater National Forest (IDNCF).<ul><li>Need to look up the jurisdiction code for your area? Download the <a href="../../Resources/Supporting/UnitIdActive.csv" target="_blank">Jurisdiction Look-up CSV</a>.</li><li><p>Start with creating a filter set so you can include a date constraint. This is needed because once you start filtering, the automatic data filter in FTEM&#160;is disabled.</p><p>This will constrain the table to attributes that match your search results. </p></li></ul><p><img src="../../Resources/Images/FTEM/wildfire_filter_query.png" alt="Use the filter to create expressions to query the attribute table." class="borderlist" /></p></li>
+            <li>Create your filter expression and click <span class="UIcomponent">OK</span>. In this example we use "poo_jurisdiction is IDNCF", for querying the table for Point Of Origin Jurisdiction of Nez Perce - Clearwater National Forest (IDNCF).<ul><li>Need to look up the jurisdiction code for your area? Download the <a href="../../Resources/Supporting/UnitIdActive.csv" target="_blank">Jurisdiction Look-up CSV</a>.</li><li><p>Start with creating a filter set so you can include a date constraint. This is needed because once you start filtering, the automatic data filter in FTEM&#160;is disabled.</p><p>This constrains the table to attributes that match your search results. </p></li></ul><p><img src="../../Resources/Images/FTEM/wildfire_filter_query.png" alt="Use the filter to create expressions to query the attribute table." class="borderlist" /></p></li>
             <li>
                 <p>To zoom to a record, select it by clicking the gray area to the left of the attribute row and use the <span class="UIcomponent">Zoom To</span> option.</p>
                 <p>
@@ -65,7 +65,7 @@
             </li>
         </ol>
         <h3>Viewing Fires using Add Layers</h3>
-        <p>Using the <span class="UIcomponent">Add Layers</span> widget, you can turn on Active or Inactive fire perimeters from GeoMac. This will add them to the <span class="UIcomponent">Layer List</span> and make the easier to see on the map. In the example below "Inactive Fire Perimeters from GeoMac" is selected in <span class="UIcomponent">Add Layers</span>, and is displayed in <span class="UIcomponent">Layer List</span>. You can see the purple polygon outlined on the map. Note that you may have to turn off the other layers in <span class="UIcomponent">Layer List </span>to more clearly see the selected polygons.</p>
+        <p>Using the <span class="UIcomponent">Add Layers</span> widget, you can turn on Active or Inactive fire perimeters from GeoMac. This adds them to the <span class="UIcomponent">Layer List</span> and make the easier to see on the map. In the example below "Inactive Fire Perimeters from GeoMac" is selected in <span class="UIcomponent">Add Layers</span>, and is displayed in <span class="UIcomponent">Layer List</span>. You can see the purple polygon outlined on the map. Note that you may have to turn off the other layers in <span class="UIcomponent">Layer List </span>to more clearly see the selected polygons.</p>
         <p>
             <img src="../../Resources/Images/FTEM/addlayer_inactive_fire_polys.png" alt="added polygons showing in purple against the rest of the map." class="border" />
         </p>
@@ -74,7 +74,7 @@
         <p> Wildfire data is pulled into the FTEM&#160;system nightly from IRWIN and GEOMAC.</p>
         <p>The most common reason a wildfire is not visible in FTEM&#160;is a lack of Control Date, Containment Date, or Out Date in the system of record.</p>
         <ol style="list-style-type: upper-alpha;">
-            <li>If this date remains blank, it will not become visible in FTEM&#160;until 45 days after the start date.</li>
+            <li>If this date remains blank, it is not visible in FTEM&#160;until 45 days after the start date.</li>
             <li>For those familiar with WFDSS who have the proper permissions, they could update those date fields, and the wildfire would be pulled into FTEM the following day.</li>
             <li>Alternatively, an FTEM user could contact their <a href="../Guidance/AgencyLeads.htm" target="_blank">FTEM&#160;Agency Administrator</a> to let them know the fire is not appearing, and to check for this issue in the system of record.</li>
         </ol>
