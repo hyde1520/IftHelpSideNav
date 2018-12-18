@@ -357,6 +357,58 @@
         Link="/Content/20-Models/FlamMap/LFB/TechDoc.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
+      Title="Burn Probability"
+      conditions="General.QA ONLY">
+      <TocEntry
+        Title="BP Overview"
+        Link="/Content/20-Models/FlamMap/BurnProb/BurnProbAbout.htm" />
+      <TocEntry
+        Title="Inputs">
+        <TocEntry
+          Title="Inputs Overview"
+          Link="/Content/20-Models/FlamMap/BurnProb/BPInputsOverview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/20-Models/FlamMap/Winds.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Crown Fire Modeling"
+          Link="/Content/20-Models/FlamMap/CrownMethods.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Initial and Foliar Moisture"
+          Link="/Content/00-Concepts/EstimatingFuelMoistures.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Fuel Moisture Conditioning">
+          <TocEntry
+            Title="About Conditioning"
+            Link="/Content/20-Models/FlamMap/DeadFMConditioning.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="IFTDSS Classified Weather Streams"
+            Link="/Content/20-Models/FlamMap/classifiedweather.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Create your own .wxs file"
+            Link="/Content/20-Models/FlamMap/AboutWXS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="Simulation Time"
+          Link="/Content/20-Models/FlamMap/MTT/SimTimes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/20-Models/FlamMap/MTT/Spot.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="Outputs">
+        <TocEntry
+          Title="Outputs Overview"
+          Link="/Content/20-Models/FlamMap/BurnProb/BPOutputs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Outputs in IFTDSS"
+          Link="/Content/20-Models/FlamMap/BurnProb/BPOutputsDownload.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Downloading Outputs"
+          Link="/Content/20-Models/FlamMap/BurnProb/BPOutputsIFTDSS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
       Title="MTT Fire Spread"
       conditions="General.QA ONLY">
       <TocEntry

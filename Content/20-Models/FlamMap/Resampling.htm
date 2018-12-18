@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>Resampling in IFTDSS</h1>
+        <p>&#160;</p>
+        <p><a href="https://docs.google.com/document/d/1YpKf3FvSAnzyQfc34E2oXcLjTqiY2x1_fWlKyRNOZRY/edit?ts=5c19374a#" target="_blank">https://docs.google.com/document/d/1YpKf3FvSAnzyQfc34E2oXcLjTqiY2x1_fWlKyRNOZRY/edit?ts=5c19374a#</a>
+        </p>
+        <p>Resampling is the process of interpolating the pixel values while transforming your raster dataset. In IFTDSS, resampling is conducted to adjust the resolution of your landscape to allow it to successfully run in some modeling applications.</p>
+        <h2>Why</h2>
+        <p>Resampling is necessary in IFTDSS for the computational needs of the models. Resampling prior to calling the model improves performance because the models resample the landscape on the fly. Consequently, the models need to read the entire 30m landscape even when they are running at a coarser resolution. Thus, resampling the landscape prior to calling the model reduces memory consumption as well as reduces the amount of time it takes to run the model. 
+</p>
+        <p>The resampled landscape will be made available in My Workspace so you have access to the exact resampled landscape that is running the model. This is beneficial for understanding the underlying fuels/vegetation relating to the predicted fire behavior on each pixel.</p>
+        <h2>
+When
+</h2>
+        <p>Resampling only occurs for landscapes submitted for Burn Probability runs.</p>
+        <h2>How</h2>
+        <p>
+Landscape resampling functions in essentially the same way in IFTDSS as it does in FlamMap. Specifically, the resampling algorithm does the following:</p>
+        <ul>
+            <li>Sampling starts from the upper left hand corner of the landscape.</li>
+            <li>Uses the center cell – if the center cell is at the intersection of 4 cells, it selects the cell above and to the left of the intersection.</li>
+            <li>If the center cell does not exist in the original landscape, no cell is generated for the resampled landscape. Thus, the size of the resampled landscape may be slightly larger or smaller than the original landscape.
+</li>
+            <li>Resampling resolution is based upon the size of your buffered landscape:</li>
+        </ul>
+        <table style="width: 100%;">
+            <col />
+            <col />
+            <tbody>
+                <tr>
+                    <td>Landscape Size (acres)</td>
+                    <td>Resampled Resolution</td>
+                </tr>
+                <tr>
+                    <td>&gt; 250,000</td>
+                    <td>30 meters</td>
+                </tr>
+                <tr>
+                    <td>250,000 - &lt; 1 million</td>
+                    <td>60 meters</td>
+                </tr>
+                <tr>
+                    <td>1 million - &lt; 2.5 million</td>
+                    <td>90 meters</td>
+                </tr>
+                <tr>
+                    <td>2.5 million - &lt; 5 million</td>
+                    <td>120 meters</td>
+                </tr>
+                <tr>
+                    <td><u>&gt;</u> 5 million</td>
+                    <td>1500 meters</td>
+                </tr>
+                <tr>
+                    <td>&#160;</td>
+                    <td>&#160;</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
