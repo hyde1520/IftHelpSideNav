@@ -37,16 +37,15 @@
             <MadCap:dropDownBody>
                 <p>Point data is pulled into the FTEM&#160;system nightly from IRWIN to add information that had been entered into the system since the previous pull. Information pulled includes:</p>
                 <ol style="list-style-type: lower-alpha;">
-                    <li>Valid (<span class="code">isvalid=1</span>)</li>
                     <li>Marked as wild fires <span class="code">(incidenttypecategory ='WF'</span>)</li>
                     <li>Have at least one of the three dates not null (control, contain or out date)</li>
                     <li>In the case control/out/contain are null, fires not modified in the last 45 days (using ModifiedOnDateTime from IRWIN) are pulled and an FTEM&#160;End Date is assigned.</li>
                 </ol>
-                <p>Once data has been pulled it is added to the FTEM&#160;system:</p>
+                <p>Once data has been loaded to the FTEM&#160;system:</p>
                 <ol style="list-style-type: lower-alpha;">
                     <li>New fires are added</li>
                     <li>Existing fires in FTEM&#160;are updated if a change was made</li>
-                    <li>An FTEM&#160;end date is generated. The end date is:<ul><li>Minimum between control and out date</li><li>If control or out date are null the contain date is used</li><li><p>If control/countain/out are null 45 days are added to the fire start date and that is used.</p><div class="notificationImportant"><p> The FTEM&#160;End Date is generated for all wildfires, but is only used in situations where a wildfire has no control, contain, or out date specified in IRWIN. The FTEM End Date gets updated in case any of these columns control/out/contain get updated (the update will follow same definition as above)</p></div></li></ul></li>
+                    <li>An FTEM&#160;end date is generated. The end date is:<ul><li>Minimum between control and out date</li><li>If control or out date are null the contain date is used</li><li><p>If control/countain/out are null the date following 45 days of record inactivity is used.</p><div class="notificationImportant"><p> The FTEM&#160;End Date is generated for all wildfires, but is only used in the application for quality control purposes where a wildfire has no control, contain, or out date specified in IRWIN. The FTEM End Date gets updated in case any of these columns control/out/contain get updated (the update will follow same definition as above)</p></div></li></ul></li>
                 </ol>
                 <h3>Data Retrieval Technical Details </h3>
                 <p><b>Url:</b><a href="https://irwin.doi.gov/arcgis/rest/services/Irwin/FeatureServer/0" target="_blank">https://irwin.doi.gov/arcgis/rest/services/Irwin/FeatureServer/0</a>
@@ -87,9 +86,9 @@
                 <p>Data is pulled into the FTEM&#160;system nightly from  GeoMAC for all the perimeters that have the latest flag as Y (<span class="code">latest = ‘Y’</span>). All data with the "Y" flag is pulled and data from the previous pull is discarded. This process is used because of GeoMAC limitations in distinguishing modifications within a given date range.</p>
                 <p>Once data has been pulled it is added to the FTEM&#160;system:</p>
                 <ol style="list-style-type: lower-alpha;">
-                    <li>Matching fires are identified in the FTEM&#160;database using <span class="code">IRWINID</span> field.</li>
-                    <li>If a matching fire does not yet a perimeter, the perimeter is added</li>
-                    <li>If a matching fire has an existing perimeter, it is updated to reflect the most current data.</li>
+                    <li>Matching fire point from IRWIN&#160;are identified in the FTEM&#160;database.</li>
+                    <li>If a matching fire point does not yet a perimeter, the perimeter is added.</li>
+                    <li>If a matching fire point has an existing perimeter, it is updated to reflect the most current data and the previous perimeter is removed.</li>
                 </ol>
                 <h3>Data Retrieval Technical Details</h3>
                 <p><b>Url:</b>&#160;<a href="https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_fires/FeatureServer/4" target="_blank">https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_fires/FeatureServer/4</a></p>

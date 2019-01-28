@@ -5,7 +5,6 @@
     <body>
         <p>Treatments are pulled into FTEM&#160;nightly from FACTS and NFPORS and must have the following attributes in the system of record:</p>
         <ul>
-            <li>A completion date after January 1 2005</li>
             <li>For NFPORS data, the treatment must be NFP&#160;(National Fire Plan), or non-NFP.</li>
             <li>For FACTS data:</li>
             <ul>
@@ -16,10 +15,11 @@
                 <li>If FACTS Activity Code is duplicated, no further filtering will be applied and remaining treatments will be brought in to FTEM.</li>
             </ul>
         </ul>
-        <p>If your treatment meets the above criteria but is still not visible in FTEM:</p>
+        <p>If your treatment meets the above criteria but is still not visible in the FTEM Treatment list:</p>
         <ol style="list-style-type: upper-alpha;">
             <li>Try increasing your search buffer for interacting treatments. This is done after you select your wildfire, but using the Add Treatments button on the Treatments tab. See the <a href="../../../10-FTEM/General/SearchBuffer.htm" target="_self">Search Buffer Topic</a> for a step by step walk-through of how to do this.</li>
-            <li>If the above criteria are met, and increasing the buffer area does not help, you may need to follow up with your <a href="../../../10-FTEM/Guidance/AgencyLeads.htm" target="_blank">FTEM&#160;Agency Administrator</a> to have your treatment entered in the system of record. Individual agencies may upload records at different intervals.</li>
+            <li>If the treatment is outside of the buffer area, you can <a href="../../../10-FTEM/General/AddTreatmentwMap.htm" target="_blank">add it using the Map</a>.</li>
+            <li>If the above do not resolve this issue, you may need to follow up with your <a href="../../../10-FTEM/Guidance/AgencyLeads.htm" target="_blank">FTEM&#160;Agency Administrator</a> to have your treatment entered in the system of record. Individual agencies may upload records at different intervals.</li>
         </ol>
         <p>For more details see the <a href="../../../10-FTEM/DataTechnical/Treatments.htm" target="_blank">FTEM Treatments Technical Topic</a>.</p>
     </body>
