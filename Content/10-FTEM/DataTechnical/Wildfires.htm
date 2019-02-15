@@ -86,10 +86,16 @@
                 <p>Data is pulled into the FTEM&#160;system nightly from  GeoMAC for all the perimeters that have the latest flag as Y (<span class="code">latest = ‘Y’</span>). All data with the "Y" flag is pulled and data from the previous pull is discarded. This process is used because of GeoMAC limitations in distinguishing modifications within a given date range.</p>
                 <p>Once data has been pulled it is added to the FTEM&#160;system:</p>
                 <ol style="list-style-type: lower-alpha;">
-                    <li>Matching fire point from IRWIN&#160;are identified in the FTEM&#160;database.</li>
-                    <li>If a matching fire point does not yet a perimeter, the perimeter is added.</li>
+                    <li>Matching fire points from IRWIN&#160;are identified in the FTEM&#160;database.</li>
+                    <li>If a matching fire point does not yet have a perimeter, the perimeter is added.</li>
                     <li>If a matching fire point has an existing perimeter, it is updated to reflect the most current data and the previous perimeter is removed.</li>
                 </ol>
+                <p>This data updating occurs nightly. The process will apply updates to fires based on whether or not have been monitored, as outlined below:</p>
+                <ul>
+                    <li><u>Fires designated as "Check For Interactions" or "No Interactions Detected"</u>:&#160;The Wildfire/Treatment Interaction Utility will continue to run nightly on the Wildfire as new or updated data comes in to the FTEM system. This includes updated tabular data from IRWIN and/or updated wildfire perimeters from Geomac</li>
+                    <li><u>Fires where monitoring is "In Progress" or "Complete"</u>: The Wildfire/Treatment Interaction Utility will stop running and treatments will be required to be manually added or removed from the Treatment tab by the user. </li>
+                    <li>Because of this process, "In Progress" fires that were represented by a point, then latter updated to a polygon, will not show an update in the "Interaction Acres" field. The user will need to manually populate this field, or remove the treatment from the Treatment list and manually add it back in for that field to auto populate.</li>
+                </ul>
                 <h3>Data Retrieval Technical Details</h3>
                 <p><b>Url:</b>&#160;<a href="https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_fires/FeatureServer/4" target="_blank">https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_fires/FeatureServer/4</a></p>
                 <p><b>Where Clause:</b>

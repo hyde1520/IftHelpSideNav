@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\Topicsforgdocs.flmsp');">
+    <head>
+    </head>
+    <body>
+        <h1>Number of Fires Simulated</h1>
+        <p style="background-color: #c0c0c0;text-align: center;"><b>WORK IN PROGRESS</b>
+            <br style="font-weight: bold;" />
+            <br style="font-weight: bold;" /><b>DEVELOPMENT TEAM LINK: </b><a href="https://docs.google.com/document/d/1LX-iZtX3IXRiHwVOf8P_cDSCyu6c3IsYLc0Sm-sOTrM" target="_blank" style="font-weight: bold;">https://docs.google.com/document/d/1LX-iZtX3IXRiHwVOf8P_cDSCyu6c3IsYLc0Sm-sOTrM</a>
+        </p>
+        <div MadCap:conditions="General.Exclude">
+            <p>The number of fires simulated input is controlled by the model, you do not input a value as a user.</p>
+            <p>The number of random ignitions and therefore fires simulated is determined by IFTDSS is based upon:</p>
+            <ul>
+                <li>Landscape Size. Larger landscapes often require more fires than smaller ones</li>
+                <li>Fire Behavior Fuel Models present. Landscapes with fuel models characterized by faster rates of spread will need fewer igntions than “slower” ones.</li>
+                <li>Fuel Moisture and Wind Speed. Similar to fuels, higher wind speeds and lower fuel moistures result in faster rates of spread and require fewer ignitions.</li>
+            </ul>
+            <p>For the best results, there should be minimal area within a landscape that is burnable that does not burn. Once this has been achieved increasing the number of ignitions does not significantly change the outputs but does increase processing time. Setting the correct number of ignitions to achieve this often takes a lot of trial and error.</p>
+            <p>In order to streamline this process, IFTDSS determines the number of ignitions to be used for each run. In IFTDSS, at a minimum 1,000 fires will be used.  In the case that 1,000 fires is not sufficient, IFTDSS will keep adding ignitions until at least 98% of burnable pixels on the landscape burn or there is no significant change to the percentage burned even if the 98% target is not hit.</p>
+            <p>Note:  Your landscape filename, model output filename, and report filename will all be appended with the resolution that the application assigned.  The number of random ignitions  will be available dynamically in the Right Hand Panel as the calculation progresses and in the View Inputs pop up once the model run has completed.</p>
+        </div>
+    </body>
+</html>

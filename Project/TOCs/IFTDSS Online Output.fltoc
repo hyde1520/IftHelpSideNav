@@ -357,7 +357,7 @@
         Link="/Content/20-Models/FlamMap/LFB/TechDoc.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
-      Title="Burn Probability"
+      Title="Landscape Burn Probability (LBP)"
       conditions="General.QA ONLY">
       <TocEntry
         Title="BP Overview"
@@ -367,6 +367,10 @@
         <TocEntry
           Title="Inputs Overview"
           Link="/Content/20-Models/FlamMap/BurnProb/BPInputsOverview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Landscapes for LBP"
+          Link="/Content/20-Models/FlamMap/BurnProb/Landscape.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          conditions="General.Exclude" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
           Link="/Content/20-Models/FlamMap/Winds.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -392,8 +396,14 @@
           Title="Simulation Time"
           Link="/Content/20-Models/FlamMap/MTT/SimTimes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
-          Title="[%=System.LinkedTitle%]"
+          Title="Spotting"
           Link="/Content/20-Models/FlamMap/MTT/Spot.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/20-Models/FlamMap/BurnProb/Resolution.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/20-Models/FlamMap/BurnProb/FiresSimulated.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
       <TocEntry
         Title="Outputs">
@@ -402,10 +412,10 @@
           Link="/Content/20-Models/FlamMap/BurnProb/BPOutputs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Outputs in IFTDSS"
-          Link="/Content/20-Models/FlamMap/BurnProb/BPOutputsDownload.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/20-Models/FlamMap/BurnProb/BPOutputsIFTDSS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Downloading Outputs"
-          Link="/Content/20-Models/FlamMap/BurnProb/BPOutputsIFTDSS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/20-Models/FlamMap/BurnProb/BPOutputsDownload.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
     </TocEntry>
     <TocEntry
@@ -465,6 +475,13 @@
       </TocEntry>
     </TocEntry>
     <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/20-Models/ModelStatus.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/20-Models/FlamMap/Resampling.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      conditions="General.QA ONLY" />
+    <TocEntry
       Title="More To Come"
       Link="/Content/20-Models/Modelsmoretocome.htm" />
   </TocEntry>
@@ -498,6 +515,9 @@
         <TocEntry
           Title="Select a Fire"
           Link="/Content/10-FTEM/General/FireFilters.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/10-FTEM/General/FTEMRefLayers.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Symbology"
           Link="/Content/10-FTEM/General/Symbology.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />

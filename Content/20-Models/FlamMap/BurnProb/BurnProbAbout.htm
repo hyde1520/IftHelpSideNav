@@ -1,11 +1,74 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\Topicsforgdocs.flmsp');">
     <head>
+        <link href="../../../Resources/TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
         <h1>About Burn Probability</h1>
-        <p>[Placeholder]</p>
-        <p><a href="https://docs.google.com/document/d/1E3j2QJwt5bbemNCIb1ftWfNlKLZwPbR4Iz5VLEN-Wwg/edit" target="_blank">https://docs.google.com/document/d/1E3j2QJwt5bbemNCIb1ftWfNlKLZwPbR4Iz5VLEN-Wwg/edit</a>
+        <p style="background-color: #c0c0c0;text-align: center;"><b>WORK IN PROGRESS</b>
+            <br style="font-weight: bold;" />
+            <br style="font-weight: bold;" /><b>DEVELOPMENT TEAM LINK: <a href="https://docs.google.com/document/d/1E3j2QJwt5bbemNCIb1ftWfNlKLZwPbR4Iz5VLEN-Wwg" target="_blank">https://docs.google.com/document/d/1E3j2QJwt5bbemNCIb1ftWfNlKLZwPbR4Iz5VLEN-Wwg</a></b>
         </p>
+        <p>&#160;</p>
+        <div MadCap:conditions="General.Exclude">
+            <p>Landscape Burn probability is part of the wildfire risk assessment process (Scott et al 2013) to quantify risk posed by wildfire to specific resources and assets. Outputs can be utilized as an independent product or be combined with information on resource susceptibility to perform a more thorough quantitative wildfire risk assessment. IFTDSS burn probability outputs include metrics on burn probability and conditional flame length.</p>
+            <div class="notificationComingSoon">
+                <p>Currently, IFTDSS provides Landscape Burn Probability as an independent model in the Modeling Playground. Future versions will offer it as part of an Integrated Hazard Assessment and Quantitative Risk Assessment (both currently under development).</p>
+            </div>
+            <h2>Why Model Landscape Burn Probability</h2>
+            <p>Landscape Burn Probability (LBP) outputs differ from other fire behavior models (e.g. Landscape Fire Behavior) and fire spread models (e.g. Minimum Travel Time) outputs in that they are not absolute.  Landscape Burn Probability outputs are classified to describe the relative frequency at which different portions of the landscape would burn under a given set of conditions.  In the example below, you can see that while individual pixels across a landscape may show high rates of spread or flame lengths, the relative likelihood of those areas actually burning may be very low.  This information can be very useful for both fuels treatment planning and active fire management response planning in terms of understanding the likely distribution and frequency of fire impacting different portions of the landscape in relation to one another.</p>
+            <p>
+                <img src="../../../Resources/Images/Models/Flammap/Risk/LFB_LBP_compare_1.png" alt="comparative landscapes showing high fire behavior but low probability" class="border" />
+            </p>
+            <div class="notificationTip">
+                <p>Landscape Burn Probability Outputs are visible in Map Studio with a color ramp scale from blue to red. Landscape Fire Behavior Model Outputs scale from green to red to help you clearly differentiate between the two model outputs.</p>
+            </div>
+            <p>Modeling Landscape Burn Probability across a landscape or area of interest provides information on the <span class="Emphasis">relative</span> likelihood that fire will burn in different areas under a fixed set of weather and fuel moisture conditions. This information can be useful to prioritize treatment types and locations on a landscape based on the relative likelihood of fire occurrence. IFTDSS maps and summary reports for this model may also be helpful in documenting the decision making process for treatment type, location, and prioritization when conducting NEPA or other analyses.</p>
+            <p>
+                <img src="../../../Resources/Images/Models/Flammap/Risk/LFB_LBP_compare_2.png" alt="landscape showing high flame lenghts but low burn probability." class="border" />
+            </p>
+            <p>Landscape Burn Probability can be used in conjunction with other model outputs to answer different fire management questions.  For example areas with high flame lengths (shown in red above) may have a low burn probability (shown in blue above). Such scenarios might include isolated shrub patches surrounded by non-burnable areas, or fuels with slower spread rates.</p>
+            <p>
+                <img src="../../../Resources/Images/Models/Flammap/Risk/fire_barriers.png" alt="patches of fuels separated by water on the left image, and a wet meadow in the right image" class="border" />
+            </p>
+            <h2>Landscape Burn Probability OR Landscape Fire Behavior?</h2>
+            <p>Whether you choose to run Landscape Burn Probability or Landscape Fire Behavior will depend upon the questions you are trying to answer.</p>
+            <table style="width: 100%;mc-table-style: url('../../../Resources/TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
+                <col class="TableStyle-Standard-Column-Column1" />
+                <col class="TableStyle-Standard-Column-Column1" />
+                <tbody>
+                    <tr class="TableStyle-Standard-Body-Body1">
+                        <td style="font-weight: bold;" class="TableStyle-Standard-BodyE-Column1-Body1">Landscape Burn Probability </td>
+                        <td style="font-weight: bold;" class="TableStyle-Standard-BodyD-Column1-Body1">Landscape Fire Behavior</td>
+                    </tr>
+                    <tr class="TableStyle-Standard-Body-Body2">
+                        <td class="TableStyle-Standard-BodyE-Column1-Body2">Which areas on the landscape are more likely to burn than others?</td>
+                        <td class="TableStyle-Standard-BodyD-Column1-Body2">Which areas will burn with the highest intensity and severity? </td>
+                    </tr>
+                    <tr class="TableStyle-Standard-Body-Body1">
+                        <td class="TableStyle-Standard-BodyE-Column1-Body1">How likely are fires on my ownership as compared to those on immediately adjacent ownerships and inholdings?</td>
+                        <td class="TableStyle-Standard-BodyD-Column1-Body1">Which areas have the fastest spreading fuels? </td>
+                    </tr>
+                    <tr class="TableStyle-Standard-Body-Body2">
+                        <td colspan="2" class="TableStyle-Standard-BodyA-Column1-Body2">Which areas on this landscape would benefit from treatments with objectives of reducing fire intensity in areas that are most likely to burn?</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="notificationImportant">
+                <p>Burn Probability outputs cannot be compared between landscapes.  The model outputs are scaled to show relative distribution within each specific analysis landscape.</p>
+            </div>
+            <p>The most important thing to remember when using burn probability outputs is that they are relative within the landscape or area of interest.  Outputs must be viewed within the context of the landscape they are generated in. For example, a red pixel in one analysis still may be a much lower burn probability than a yellow or blue pixel in another analysis with a different landscape, different weather, or different fuel moisture inputs.  You cannot compare two landscapes that have had burn probably run on them individually, each case is unique.</p>
+            <p>A visual example of how unique LBP outputs can be is displayed in the run comparison below. This comparison was done on the same landscape, weather, and fuel moisture parameters, wind direction was the only parameter changed. The first output was run with a Southeast wind and the second with a Northwest wind.  You can see that the burnable area SE of the larger lake to the west did not even burn under a NW wind direction.</p>
+            <p>
+                <img src="../../../Resources/Images/Models/Flammap/Risk/LFB_LBP_compare_3.png" alt="in the landscape with SE winds most of the area burned, in the landscape with NW winds, there are patches of unburned area" class="border" />
+            </p>
+            <h2>How is Burn Probability Calculated?</h2>
+            <p>In IFTDSS, users specify a worst-case weather scenario for a landscape, and the system will run the Minimum Travel Time (MTT)  algorithm (Finney 2002) across the landscape, potentially thousands of times, until 98% of the burnable landscape has burned. MTT runs with weather inputs and fuel moistures held constant. Each MTT calculation is simulated on an identical  unbured copy of the landscape, thus individual fire simulations do not interact or influence each other.</p>
+            <p>MTT does takes into account heading, flanking, and backing fires, as well as both surface and crown fire spread.  While each MTT run is independent, fire spread within each MTT simulation does take into account fire spread characteristics so individual pixels may be influenced by adjacent pixels within each of the thousands of MTT runs.</p>
+            <p>Landscape Burn probability is:</p>
+            <p style="text-align: center;"><i>The number of times a pixel burns / total number of fires simulated</i>
+            </p>
+            <p>Landscape Burn probability will display the likelihood of a pixel burning relative to other pixels in the analysis area extent. For example, if the model ran 17,000 fire simulations, and a pixel burned 17,000 times, it would have burn probability of 1.0, (17,000/17,000=1.0). If a pixel never burned during those 17,000 fire simulations, it would have a burn probability of 0 (0/17,000=0).</p>
+        </div>
     </body>
 </html>

@@ -2277,16 +2277,6 @@ NOTE: Risk has also been defined by the International Organization for Standardi
       Link="">Flame lengths are divided into classes, low, medium, high, and very high, based on flame length classifications specified by the user.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
-    glossTerm="Glossary.Term94"
-    Stem=""
-    IgnoreCase="false">
-    <Terms>
-      <Term>Values at Risk</Term>
-    </Terms>
-    <Definition
-      Link="">Include property, structures, physical improvements, natural and cultural resources, community infrastructure, and economic, environmental, and social values, that may be a risk of being impacted by wildfire.</Definition>
-  </GlossaryEntry>
-  <GlossaryEntry
     glossTerm="Glossary.Term95"
     Stem=""
     IgnoreCase="false">
@@ -2779,7 +2769,7 @@ Gridded weather data provides more complete weather data coverage than from fixe
       <Term>Value Change</Term>
     </Terms>
     <Definition
-      Link="">The value change of a resource or asset arising from an event such as a wildfire</Definition>
+      Link="">The value change of a resource or asset arising from an event such as a wildfire.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term143"

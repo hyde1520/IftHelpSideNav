@@ -235,4 +235,17 @@
     <Map Name="FireFilters" Link="/Content/10-FTEM/General/FireFilters.htm" />
     <Map Name="_0_Introduction2" Link="/Content/40-Tutorials/Merged Tutorial/0_Introduction.htm" />
     <Map Name="_1_Create_Project_and_CLP1" Link="/Content/40-Tutorials/Merged Tutorial/1_Create_Project_and_CLP.htm" />
+    <Map Name="AddTreatmentwMap" Link="/Content/10-FTEM/General/AddTreatmentwMap.htm" />
+    <Map Name="Resampling" Link="/Content/20-Models/Resampling.htm" />
+    <Map Name="Resampling1" Link="/Content/20-Models/FlamMap/Resampling.htm" />
+    <Map Name="BPInputsOverview" Link="/Content/20-Models/FlamMap/BurnProb/BPInputsOverview.htm" />
+    <Map Name="BPOutputs" Link="/Content/20-Models/FlamMap/BurnProb/BPOutputs.htm" />
+    <Map Name="BPOutputsDownload" Link="/Content/20-Models/FlamMap/BurnProb/BPOutputsDownload.htm" />
+    <Map Name="BPOutputsIFTDSS" Link="/Content/20-Models/FlamMap/BurnProb/BPOutputsIFTDSS.htm" />
+    <Map Name="BPTechDoc" Link="/Content/20-Models/FlamMap/BurnProb/BPTechDoc.htm" />
+    <Map Name="BurnProbAbout" Link="/Content/20-Models/FlamMap/BurnProb/BurnProbAbout.htm" />
+    <Map Name="FiresSimulated" Link="/Content/20-Models/FlamMap/BurnProb/FiresSimulated.htm" />
+    <Map Name="Landscape" Link="/Content/20-Models/FlamMap/BurnProb/Landscape.htm" />
+    <Map Name="Resolution" Link="/Content/20-Models/FlamMap/BurnProb/Resolution.htm" />
+    <Map Name="FTEMRefLayers" Link="/Content/10-FTEM/General/FTEMRefLayers.htm" />
 </CatapultAliasFile>

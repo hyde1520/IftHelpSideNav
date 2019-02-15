@@ -11,7 +11,7 @@
   ConditionTagExpression="include[General.PDF or &quot;General.Prod ONLY&quot;] exclude[General.DeveloperNotes or General.Exclude or General.LaterRelease or &quot;General.QA ONLY&quot;] "
   PreCompileScaledImages="false"
   MakeFileLowerCase="true"
-  TopNavTocPath="true"
+  TopNavTocPath="false"
   OutputFile="index">
   <PrintedOutput
     CollapseMargins="true"

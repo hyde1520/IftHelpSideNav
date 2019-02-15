@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <ul>
+            <li><b>Not Submitted</b>: Data saved, model not run.</li>
+            <li><b>Submitted</b>: Data submitted to be run.</li>
+            <li><b>Running</b>: Model Running.</li>
+            <li><b>Post-processing</b>: Model calculations have completed, outputs are being generated. Currently displays only for Landscape Burn Probability.</li>
+            <li><b>Completed</b>: Model completed, all results available.</li>
+            <li><b>Failed</b>: Model did not successfully complete, no results available.</li>
+        </ul>
+    </body>
+</html>

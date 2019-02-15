@@ -241,3 +241,16 @@
 #define FireFilters 1070
 #define _0_Introduction2 1205
 #define _1_Create_Project_and_CLP1 1206
+#define AddTreatmentwMap 1207
+#define Resampling 1208
+#define Resampling1 1209
+#define BPInputsOverview 1210
+#define BPOutputs 1211
+#define BPOutputsDownload 1212
+#define BPOutputsIFTDSS 1213
+#define BPTechDoc 1214
+#define BurnProbAbout 1215
+#define FiresSimulated 1216
+#define Landscape 1217
+#define Resolution 1218
+#define FTEMRefLayers 1219

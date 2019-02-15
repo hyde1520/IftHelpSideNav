@@ -1,11 +1,115 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\Topicsforgdocs.flmsp');">
     <head>
     </head>
     <body>
         <h1>Burn Probability Outputs</h1>
-        <p>[placeholder]</p>
-        <p><a href="https://docs.google.com/document/d/1fFrmdt4Iv3pBUL3mwG-Y2Xpi5EWgjzYBSnTA_mMU0lE/edit" target="_blank">https://docs.google.com/document/d/1fFrmdt4Iv3pBUL3mwG-Y2Xpi5EWgjzYBSnTA_mMU0lE/edit</a>
+        <p style="background-color: #c0c0c0;text-align: center;"><b>WORK IN PROGRESS</b>
+            <br style="font-weight: bold;" />
+            <br style="font-weight: bold;" /><b>DEVELOPMENT TEAM LINK: <a href="https://docs.google.com/document/d/1fFrmdt4Iv3pBUL3mwG-Y2Xpi5EWgjzYBSnTA_mMU0lE" target="_blank">https://docs.google.com/document/d/1fFrmdt4Iv3pBUL3mwG-Y2Xpi5EWgjzYBSnTA_mMU0lE</a></b>
         </p>
+        <div MadCap:conditions="General.Exclude">
+            <div class="notificationImportant">
+                <p>After running Burn Probability, note that:</p>
+                <ul>
+                    <li>Outputs are relative within each landscape and CANNOT be compared across landscapes.</li>
+                    <li>Conditional Flame Length is an output of the burn probability model useful for hazard and risk calculations. It represents a weighted average of the flame length in each pixel over multiple simulations rather than an absolute output from one simulation.  It is therefore nearly always lower than a single model run flame length output using the same input values.</li>
+                </ul>
+            </div>
+            <p>Landscape Burn Probability outputs may be analysed within IFTDSS, or exported for use in other applications. Specific information for each option is presented in its own Help Center Topic:</p>
+            <ul>
+                <li><a href="BPOutputsIFTDSS.htm" target="_blank">LBP Outputs within IFTDSS (Map and Report)</a>
+                </li>
+                <li><a href="BPOutputsDownload.htm" target="_blank">LBP Outputs for export outside of IFTDSS</a>
+                </li>
+            </ul>
+            <p>Both output approaches will provide burn probability and conditional flame length information.</p>
+            <h2>Burn Probability</h2>
+            <p>Burn probabilities represent the likelihood of a given location on your landscape burning. Burn probabilities are related to the sizes of fires that occur on a given landscape. Large fires produce higher probabilities than small fires. Since fire size is a function of both the rate of spread, and the duration of a fire, treatments or weather conditions  that reduce the spread rate will lower the burn probability.</p>
+            <p>Within Landscape Burn Probability, randomly located ignition points are used to simulate fires. The number of ignitions is determined by IFTDSS to most efficiently produce outputs for the user. See the Ignitions topic for details.</p>
+            <p>Burn Probability is the fraction of the number of fires that burned each burnable pixel (0.0 to 1.0). It is calculated as:</p>
+            <p style="text-align: center;"><i>Burn Probability = # times burned / total number of ignitions</i>
+            </p>
+            <p>Burn probability value of 0 indicates the pixel was never burned and a value of 1 indicates it was always burned.</p>
+            <p>A value of 1 indicates that the pixel burned for all fires simulated.  Where 0 indicates that fire did not burn the pixel. This can be because a fire never reached the pixel, or a fire reached the pixel or started within the pixel but it was unable to burn out of the pixel because the fire spread rate was too slow.</p>
+            <p>When an ignition is placed on non-burnable fuels, it is removed from the simulation and replaced by one that is placed on burnable fuels. In IFTDSS, rather than having these locations on the landscape be 9 (never burns) we have added an additional</p>
+            <h2>Conditional Flame Length</h2>
+            <p>Conditional Flame length represents the flame length (fire intensity) of each pixel, as a composite of all the simulated  fires burned on any given pixel. It relies on the proportion of all simulated MTT run outputs and the midpoint flame length. For example, if flame lengths on a pixel were 4-6 feet in 92% of the simulations, 2-4 feet in 6% of simulation, and 6-8 2%  of the time, its conditional flame length would be calculated as follows:</p>
+            <table style="width: 100%;">
+                <col />
+                <col />
+                <col />
+                <col />
+                <col />
+                <col />
+                <tbody>
+                    <tr>
+                        <td>Flame Length</td>
+                        <td>Mid Point FL</td>
+                        <td>&#160;</td>
+                        <td>Proportion of Flame Length</td>
+                        <td>&#160;</td>
+                        <td>Mid point * proportion</td>
+                    </tr>
+                    <tr>
+                        <td>0-2 ft</td>
+                        <td>1</td>
+                        <td>x</td>
+                        <td>0</td>
+                        <td>=</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>2-4 ft</td>
+                        <td>3</td>
+                        <td>x</td>
+                        <td>0.06</td>
+                        <td>=</td>
+                        <td>0.12</td>
+                    </tr>
+                    <tr>
+                        <td>4-6 ft</td>
+                        <td>5</td>
+                        <td>x</td>
+                        <td>0.92</td>
+                        <td>=</td>
+                        <td>4.6</td>
+                    </tr>
+                    <tr>
+                        <td>6-8 ft</td>
+                        <td>7</td>
+                        <td>x</td>
+                        <td>0.02</td>
+                        <td>=</td>
+                        <td>0.14</td>
+                    </tr>
+                    <tr>
+                        <td>8-12 ft</td>
+                        <td>10</td>
+                        <td>x</td>
+                        <td>0</td>
+                        <td>=</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>&gt;12 ft</td>
+                        <td>25</td>
+                        <td>x</td>
+                        <td>0</td>
+                        <td>=</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>&#160;</td>
+                        <td>&#160;</td>
+                        <td>&#160;</td>
+                        <td>1.0</td>
+                        <td>&#160;</td>
+                        <td><span style="background-color: #ff0000;">4.8600 CFL</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </body>
 </html>

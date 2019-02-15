@@ -1,41 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\Topicsforgdocs.flmsp');">
     <head>
     </head>
     <body>
+        <h1>&#160;</h1>
         <h1>Spotting</h1>
-        <p class="comment" MadCap:conditions="General.QA ONLY">Google Doc:&#160;https://docs.google.com/document/d/1_HASqodxyQQ6z42xTqnake6j0wL2gNHJ0hg0T51jLdk/edit#</p>
-        <p>Spotting in MTT  is intended to compute the maximum spotting distance from a given point on a fire front if torching occurs. Spotting is simulated  from torching trees (Albini 1979) when passive and active crown fire are modeled. Independent crown fire is not modeled, and spotting is not intended to simulate the numbers of embers, exact locations embers would land, or locations of resulting spot fires. Maximum spot distances from burning slash piles (Albini 1981), and line surface fires (Albini 1983a, 1983b, Morris 1987) are not calculated.</p>
-        <p>
-            <img src="../../../Resources/Images/Models/Flammap/MTT/Spotting.jpg" alt="spotting as described in text" class="border" />
+        <p style="background-color: #c0c0c0;text-align: center;"><b>WORK IN PROGRESS</b>
+            <br style="font-weight: bold;" />
+            <br style="font-weight: bold;" /><b>DEVELOPMENT TEAM LINK: </b><a href="https://docs.google.com/document/d/128NZTSaOrrTD3cgMjbY8CO5YflZhtUs8k-j5ATHpQBg" target="_blank" style="font-weight: bold;">https://docs.google.com/document/d/128NZTSaOrrTD3cgMjbY8CO5YflZhtUs8k-j5ATHpQBg</a>
         </p>
-        <p>
-            <img src="../../../Resources/Images/Models/Flammap/MTT/NTFB Spotting.png" alt="example fire front showing no spots occuring in the first 50 meters ahead of the fire front." class="border" />
-        </p>
-        <p>In the above example, on a 30 meter landscape with a 50 meter minimum spotting distance, no spots occur in the first 50 meters from the current perimeter. Any viable embers that land beyond 50 meters can produce spot fires with the limitation that only the first spot ignition in each Background Spotting Grid cell is allowed to burn.</p>
-        <h2>Basic Maximum Spot Themes</h2>
-        <p>Fire behavior is calculated for each landscape node, nodes are a fixed grid equal to the landscape or MTT spatial resolution. For each node on the landscape that experiences active or passive crown fire during fire behavior modeling, 16 incrementally-sized embers are lofted and followed to determine the maximum spotting distance and direction.</p>
-        <p>Crown Fraction Burned and Canopy Cover are used to determine the number of torching trees (1-10) that determine firebrand lofting height. Maximum spotting distance and azimuth are calculated using canopy cover, crown fraction burned, elevation, and wind information, including gridded wind if available. The Maximum Spot themes are created from this information.</p>
-        <h2>MTT Outputs</h2>
-        <p>For Runs utilizing the MTT fire growth model the Maximum Spot themes are created as described above. As each node in MTT burns it checks for Maximum Spot data for that location. If it encounters Maximum Spot data at a node, MTT then draws a random number (0.0 – 1.0). If the random number is greater-than the user entered spotting probability, the location is discarded and no spotting occurs from that node during that time frame. Otherwise, MTT then calculates a flight distance for the ember as follows:</p>
-        <p>distance =  –log( r ) * Maximum Spot Distance / 5</p>
-        <p>Where:</p>
-        <p>r is a random number (0.0 – 1.0)</p>
-        <p>MTT then calculates the landing node for the ember using the calculated distance and the direction from the Maximum Spot Direction theme. If the node is non-burnable or already burning, the ember is discarded and spotting does not occur from the source node. Otherwise the node is set as an ignition with initial start time of the current simulation time.</p>
-        <p>The spotting distance used to determine the landing node for an ember will never be greater than the Maximum Spot Distance value at the source node. More embers will be lofted at finer landscape resolutions. Faster rate of spread (ROS) will encounter more nodes, but the absolute number of nodes is static.</p>
-        <h2>Limitations and Assumptions</h2>
-        <ul>
-            <li>Spotting only occurs when passive or active crown fire is modeled. Finney (2004) or Scott &amp; Reinhardt (2001) crown fire methods are options set by the user. Each method calculates Crown Fraction Burned (CFB) differently (Scott 2006).</li>
-            <li>At present, all embers burning at impact ignite spot fires. The probability of ignition (Bradshaw et al. 1984) is not utilized.</li>
-            <li>A Spot Probability of zero will prevent any spot fires from occurring, effectively disabling the spotting feature.</li>
-        </ul>
-        <p class="comment" MadCap:conditions="General.QA ONLY">References to add to when this gets accepted:</p>
-        <p class="comment" MadCap:conditions="General.QA ONLY">Albini, F.A. 1979. Spot fire distance from burning trees- a predictive model. USDA For. Serv. Gen. Tech. Rep. INT-56.</p>
-        <p class="comment" MadCap:conditions="General.QA ONLY">Albini, F.A. 1981. Spot fire distance from isolated sources -- extensions of a predictive model. USDA For. Serv. Res. Note INT-309.</p>
-        <p class="comment" MadCap:conditions="General.QA ONLY">Albini, F.A. 1983a. Transport of firebrands by line thermals. Comb. Sci. Tech. 32:277-288</p>
-        <p class="comment" MadCap:conditions="General.QA ONLY">Albini, F.A. 1983b. Potential spotting distance from wind-driven surface fires. USDA For. Serv. Res. Pap INT-309.</p>
-        <p class="comment" MadCap:conditions="General.QA ONLY">Bradshaw, L.S, J.E. Deeming, R.E. Burgan, and J.D. Cohen. 1984. The 1978 National Fire-Danger rating system: Technical Documentation. USDA For. Serv. Gen. Tech. Rep. INT-169.</p>
-        <p class="comment" MadCap:conditions="General.QA ONLY">Finney, M.A. 2004, revised. FARSITE: Fire Area Simulator - Model Development and Evaluation. USDA For. Serv. Research Paper RMRS-RP4 Revised.</p>
-        <p class="comment" MadCap:conditions="General.QA ONLY">Morris, G.A. 1987. A simple method for computing spotting distance from wind-driven surface fires. USDA For. Serv. Res. Note INT-374.</p>
+        <div MadCap:conditions="General.Exclude">
+            <p class="comment" MadCap:conditions="General.QA ONLY">Google Doc:&#160;https://docs.google.com/document/d/1_HASqodxyQQ6z42xTqnake6j0wL2gNHJ0hg0T51jLdk/edit#</p>
+            <p>Spotting in MTT  is intended to compute the maximum spotting distance from a given point on a fire front if torching occurs. Spotting is simulated  from torching trees (Albini 1979) when passive and active crown fire are modeled. Independent crown fire is not modeled, and spotting is not intended to simulate the numbers of embers, exact locations embers would land, or locations of resulting spot fires. Maximum spot distances from burning slash piles (Albini 1981), and line surface fires (Albini 1983a, 1983b, Morris 1987) are not calculated.</p>
+            <p>
+                <img src="../../../Resources/Images/Models/Flammap/MTT/Spotting.jpg" alt="spotting as described in text" class="border" />
+            </p>
+            <p>
+                <img src="../../../Resources/Images/Models/Flammap/MTT/NTFB Spotting.png" alt="example fire front showing no spots occuring in the first 50 meters ahead of the fire front." class="border" />
+            </p>
+            <p>In the above example, on a 30 meter landscape with a 50 meter minimum spotting distance, no spots occur in the first 50 meters from the current perimeter. Any viable embers that land beyond 50 meters can produce spot fires with the limitation that only the first spot ignition in each Background Spotting Grid cell is allowed to burn.</p>
+            <h2>Basic Maximum Spot Themes</h2>
+            <p>Fire behavior is calculated for each landscape node, nodes are a fixed grid equal to the landscape or MTT spatial resolution. For each node on the landscape that experiences active or passive crown fire during fire behavior modeling, 16 incrementally-sized embers are lofted and followed to determine the maximum spotting distance and direction.</p>
+            <p>Crown Fraction Burned and Canopy Cover are used to determine the number of torching trees (1-10) that determine firebrand lofting height. Maximum spotting distance and azimuth are calculated using canopy cover, crown fraction burned, elevation, and wind information, including gridded wind if available. The Maximum Spot themes are created from this information.</p>
+            <h2>MTT Outputs</h2>
+            <p>For Runs utilizing the MTT fire growth model the Maximum Spot themes are created as described above. As each node in MTT burns it checks for Maximum Spot data for that location. If it encounters Maximum Spot data at a node, MTT then draws a random number (0.0 – 1.0). If the random number is greater-than the user entered spotting probability, the location is discarded and no spotting occurs from that node during that time frame. Otherwise, MTT then calculates a flight distance for the ember as follows:</p>
+            <p>distance =  –log( r ) * Maximum Spot Distance / 5</p>
+            <p>Where:</p>
+            <p>r is a random number (0.0 – 1.0)</p>
+            <p>MTT then calculates the landing node for the ember using the calculated distance and the direction from the Maximum Spot Direction theme. If the node is non-burnable or already burning, the ember is discarded and spotting does not occur from the source node. Otherwise the node is set as an ignition with initial start time of the current simulation time.</p>
+            <p>The spotting distance used to determine the landing node for an ember will never be greater than the Maximum Spot Distance value at the source node. More embers will be lofted at finer landscape resolutions. Faster rate of spread (ROS) will encounter more nodes, but the absolute number of nodes is static.</p>
+            <h2>Limitations and Assumptions</h2>
+            <ul>
+                <li>Spotting only occurs when passive or active crown fire is modeled. Finney (2004) or Scott &amp; Reinhardt (2001) crown fire methods are options set by the user. Each method calculates Crown Fraction Burned (CFB) differently (Scott 2006).</li>
+                <li>At present, all embers burning at impact ignite spot fires. The probability of ignition (Bradshaw et al. 1984) is not utilized.</li>
+                <li>A Spot Probability of zero will prevent any spot fires from occurring, effectively disabling the spotting feature.</li>
+            </ul>
+            <p class="comment" MadCap:conditions="General.QA ONLY">References to add to when this gets accepted:</p>
+            <p class="comment" MadCap:conditions="General.QA ONLY">Albini, F.A. 1979. Spot fire distance from burning trees- a predictive model. USDA For. Serv. Gen. Tech. Rep. INT-56.</p>
+            <p class="comment" MadCap:conditions="General.QA ONLY">Albini, F.A. 1981. Spot fire distance from isolated sources -- extensions of a predictive model. USDA For. Serv. Res. Note INT-309.</p>
+            <p class="comment" MadCap:conditions="General.QA ONLY">Albini, F.A. 1983a. Transport of firebrands by line thermals. Comb. Sci. Tech. 32:277-288</p>
+            <p class="comment" MadCap:conditions="General.QA ONLY">Albini, F.A. 1983b. Potential spotting distance from wind-driven surface fires. USDA For. Serv. Res. Pap INT-309.</p>
+            <p class="comment" MadCap:conditions="General.QA ONLY">Bradshaw, L.S, J.E. Deeming, R.E. Burgan, and J.D. Cohen. 1984. The 1978 National Fire-Danger rating system: Technical Documentation. USDA For. Serv. Gen. Tech. Rep. INT-169.</p>
+            <p class="comment" MadCap:conditions="General.QA ONLY">Finney, M.A. 2004, revised. FARSITE: Fire Area Simulator - Model Development and Evaluation. USDA For. Serv. Research Paper RMRS-RP4 Revised.</p>
+            <p class="comment" MadCap:conditions="General.QA ONLY">Morris, G.A. 1987. A simple method for computing spotting distance from wind-driven surface fires. USDA For. Serv. Res. Note INT-374.</p>
+        </div>
     </body>
 </html>
