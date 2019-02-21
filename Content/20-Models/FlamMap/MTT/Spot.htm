@@ -3,38 +3,37 @@
     <head>
     </head>
     <body>
-        <h1>&#160;</h1>
-        <h1>Spotting</h1>
-        <p style="background-color: #c0c0c0;text-align: center;"><b>WORK IN PROGRESS</b>
-            <br style="font-weight: bold;" />
-            <br style="font-weight: bold;" /><b>DEVELOPMENT TEAM LINK: </b><a href="https://docs.google.com/document/d/128NZTSaOrrTD3cgMjbY8CO5YflZhtUs8k-j5ATHpQBg" target="_blank" style="font-weight: bold;">https://docs.google.com/document/d/128NZTSaOrrTD3cgMjbY8CO5YflZhtUs8k-j5ATHpQBg</a>
+        <h1>Spotting Probability</h1>
+        <div class="notificationImportant">
+            <p>Spotting Probability is treated differently by IFTDSS than in WFDSS NTFB / FARSITE.</p>
+        </div>
+        <p>Spotting, the launching of embers and spread of resulting spot fires, is included within models that incorporate fire spread. In IFTDSS, spotting is part of the Landscape Burn Probability model. Spotting only occur in trees where active or passive crown fire is initiated, it does not occur in surface fire or slash pile burning.</p>
+        <p>
+            <img src="../../../Resources/Images/Models/Flammap/MTT/spotting.png" alt="spotting input field from IFTDSS" class="borderlist" />
+        </p>
+        <p>The Spotting Probability input (0-100%) controls how many of the pixels, where crown fire is initiated, actually launch embers which can “spot” to start new fires. Entering 100% means that all points on the landscape where crown fire is initiated will launch embers.  A value of 0% in essence turns off spotting. Spotting Probability of  20% is the recommended input and the default in IFTDSS. For details about how far embers go and how many result in spot fires, see the Spotting Technical Detail section below.</p>
+        <p>Spotting Probability is used by LBP to determine if embers are launched and whether launched embers will land. It is not synonymous with probability of ignition (PIG), which</p>
+        <p>addresses the likelihood that they launched embers land on receptive fuels and ignite.</p>
+        <p>Landscape Fire Behavior does not include spotting. However, it can predict the distance (Maximum Spot Distance) and direction (Maximum Spot Direction) of embers from torching trees. These <a href="../BurnProb/BPOutputs.htm" target="_blank">outputs</a> are available only in the download package.</p>
+        <h2>Spotting Technical Detail</h2>
+        <p>The spotting algorithm is intended to compute the maximum spotting distance from a given point on a fire front if torching or crown fire occurs. In pixels where active or passive crown fire is initiated (<a href="../../../41-References/Citations.htm#Albini1979">Albini 1979</a>), a total of 16 embers are launched. They are each “followed” to determine the maximum spotting distance and direction. Ember lofting height is determined using the crown fraction burned and canopy cover. Maximum spotting distance and maximum spotting direction are determined based on canopy cover, crown fraction burned, elevation, and wind direction and speed.</p>
+        <p>
+            <img src="../../../Resources/Images/Models/Flammap/MTT/Spotting.jpg" alt="spotting as described in text" class="border" />
+        </p>
+        <p>Once the maximum spotting distance and direction are determined from the originally 16 embers, only one ember per cell is used to simulate spotting. Below details how it is determined if an ember lands, and where it lands if it does.</p>
+        <p>The Spotting Probability (0-100%) value entered in the LBP model run page, is used by the model to determine if an ember lands and results in a spot fire:</p>
+        <ul>
+            <li>First, the spotting probability value determines the percentage of cells where crown fire is initiated and embers are launched. When 0% is chosen no embers are launched, in essence turning off spotting even when crown fire is present. When 100% is chosen all possible cells where crown fire is initiated loft an ember. If something in between, say 25%, is input for spotting probability, 25% of the cells where crown fire is initiated are chosen at random to loft an ember.</li>
+            <li>Second, to determine if the launched ember lands, a random number (between 0 and 100) is generated for each cell that launched an ember. If that random number is lower than the spotting probability, the ember lands and results in a spot fire; if it is higher, the ember is discarded and no spotting occurs from that cell. Again, let us assume the spotting probability is 25%. If the random number generator chooses 16, then the ember lands and creates a spot fire. If the random number generator chooses 84, the ember does not land and does not result in a spot fire.</li>
+        </ul>
+        <p>The direction the ember travels is the same as the maximum spotting direction determined from the original 16 embers “followed.” The maximum spotting direction is used.  The distance the ember travels before landing is determined using the random number generated for the cell and the maximum spotting distance.</p>
+        <p style="text-align: center;"><i>Spot distance =  –log(random number) * Maximum Spot Distance / 5</i>
+        </p>
+        <p>If an ember lands within the fire perimeter (already burned) or on non-burnable fuels the ember is discarded and spotting does not occur.</p>
+        <p>Spotting delay is the time delay (0 to 60 minutes) between when a ember lands and it begins to spread. Shorter delays are associated with drier conditions. Because Landscape Burn Probability within IFTDSS is intended for ‘worst case scenario’ or ‘problem fire’ conditions, we have set this to 0 minutes.</p>
+        <p style="text-align: center;"><b>Comments may be made in Google Directly at: </b><a href="https://docs.google.com/document/d/128NZTSaOrrTD3cgMjbY8CO5YflZhtUs8k-j5ATHpQBg/edit?usp=sharing" target="_blank" style="font-weight: bold;">https://docs.google.com/document/d/128NZTSaOrrTD3cgMjbY8CO5YflZhtUs8k-j5ATHpQBg/edit?usp=sharing</a>
         </p>
         <div MadCap:conditions="General.Exclude">
-            <p class="comment" MadCap:conditions="General.QA ONLY">Google Doc:&#160;https://docs.google.com/document/d/1_HASqodxyQQ6z42xTqnake6j0wL2gNHJ0hg0T51jLdk/edit#</p>
-            <p>Spotting in MTT  is intended to compute the maximum spotting distance from a given point on a fire front if torching occurs. Spotting is simulated  from torching trees (Albini 1979) when passive and active crown fire are modeled. Independent crown fire is not modeled, and spotting is not intended to simulate the numbers of embers, exact locations embers would land, or locations of resulting spot fires. Maximum spot distances from burning slash piles (Albini 1981), and line surface fires (Albini 1983a, 1983b, Morris 1987) are not calculated.</p>
-            <p>
-                <img src="../../../Resources/Images/Models/Flammap/MTT/Spotting.jpg" alt="spotting as described in text" class="border" />
-            </p>
-            <p>
-                <img src="../../../Resources/Images/Models/Flammap/MTT/NTFB Spotting.png" alt="example fire front showing no spots occuring in the first 50 meters ahead of the fire front." class="border" />
-            </p>
-            <p>In the above example, on a 30 meter landscape with a 50 meter minimum spotting distance, no spots occur in the first 50 meters from the current perimeter. Any viable embers that land beyond 50 meters can produce spot fires with the limitation that only the first spot ignition in each Background Spotting Grid cell is allowed to burn.</p>
-            <h2>Basic Maximum Spot Themes</h2>
-            <p>Fire behavior is calculated for each landscape node, nodes are a fixed grid equal to the landscape or MTT spatial resolution. For each node on the landscape that experiences active or passive crown fire during fire behavior modeling, 16 incrementally-sized embers are lofted and followed to determine the maximum spotting distance and direction.</p>
-            <p>Crown Fraction Burned and Canopy Cover are used to determine the number of torching trees (1-10) that determine firebrand lofting height. Maximum spotting distance and azimuth are calculated using canopy cover, crown fraction burned, elevation, and wind information, including gridded wind if available. The Maximum Spot themes are created from this information.</p>
-            <h2>MTT Outputs</h2>
-            <p>For Runs utilizing the MTT fire growth model the Maximum Spot themes are created as described above. As each node in MTT burns it checks for Maximum Spot data for that location. If it encounters Maximum Spot data at a node, MTT then draws a random number (0.0 – 1.0). If the random number is greater-than the user entered spotting probability, the location is discarded and no spotting occurs from that node during that time frame. Otherwise, MTT then calculates a flight distance for the ember as follows:</p>
-            <p>distance =  –log( r ) * Maximum Spot Distance / 5</p>
-            <p>Where:</p>
-            <p>r is a random number (0.0 – 1.0)</p>
-            <p>MTT then calculates the landing node for the ember using the calculated distance and the direction from the Maximum Spot Direction theme. If the node is non-burnable or already burning, the ember is discarded and spotting does not occur from the source node. Otherwise the node is set as an ignition with initial start time of the current simulation time.</p>
-            <p>The spotting distance used to determine the landing node for an ember will never be greater than the Maximum Spot Distance value at the source node. More embers will be lofted at finer landscape resolutions. Faster rate of spread (ROS) will encounter more nodes, but the absolute number of nodes is static.</p>
-            <h2>Limitations and Assumptions</h2>
-            <ul>
-                <li>Spotting only occurs when passive or active crown fire is modeled. Finney (2004) or Scott &amp; Reinhardt (2001) crown fire methods are options set by the user. Each method calculates Crown Fraction Burned (CFB) differently (Scott 2006).</li>
-                <li>At present, all embers burning at impact ignite spot fires. The probability of ignition (Bradshaw et al. 1984) is not utilized.</li>
-                <li>A Spot Probability of zero will prevent any spot fires from occurring, effectively disabling the spotting feature.</li>
-            </ul>
             <p class="comment" MadCap:conditions="General.QA ONLY">References to add to when this gets accepted:</p>
             <p class="comment" MadCap:conditions="General.QA ONLY">Albini, F.A. 1979. Spot fire distance from burning trees- a predictive model. USDA For. Serv. Gen. Tech. Rep. INT-56.</p>
             <p class="comment" MadCap:conditions="General.QA ONLY">Albini, F.A. 1981. Spot fire distance from isolated sources -- extensions of a predictive model. USDA For. Serv. Res. Note INT-309.</p>

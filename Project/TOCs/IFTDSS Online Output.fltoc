@@ -558,7 +558,8 @@
       <TocEntry
         Title="Step 4: Complete Monitoring">
         <TocEntry
-          Title="New Entry" />
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/10-FTEM/General/Completion.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
       <TocEntry
         Title="Data Sources">
