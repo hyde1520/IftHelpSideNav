@@ -14,7 +14,7 @@
         <p>The Spotting Probability input (0-100%) controls how many of the pixels, where crown fire is initiated, actually launch embers which can “spot” to start new fires. Entering 100% means that all points on the landscape where crown fire is initiated will launch embers.  A value of 0% in essence turns off spotting. Spotting Probability of  20% is the recommended input and the default in IFTDSS. For details about how far embers go and how many result in spot fires, see the Spotting Technical Detail section below.</p>
         <p>Spotting Probability is used by LBP to determine if embers are launched and whether launched embers will land. It is not synonymous with probability of ignition (PIG), which</p>
         <p>addresses the likelihood that they launched embers land on receptive fuels and ignite.</p>
-        <p>Landscape Fire Behavior does not include spotting. However, it can predict the distance (Maximum Spot Distance) and direction (Maximum Spot Direction) of embers from torching trees. These <a href="../BurnProb/BPOutputs.htm" target="_blank">outputs</a> are available only in the download package.</p>
+        <p>Landscape Fire Behavior does not include spotting. However, it can predict the distance (Maximum Spot Distance) and direction (Maximum Spot Direction) of embers from torching trees. These <a href="../BurnProb/OutOverview.htm" target="_blank">outputs</a> are available only in the download package.</p>
         <h2>Spotting Technical Detail</h2>
         <p>The spotting algorithm is intended to compute the maximum spotting distance from a given point on a fire front if torching or crown fire occurs. In pixels where active or passive crown fire is initiated (<a href="../../../41-References/Citations.htm#Albini1979">Albini 1979</a>), a total of 16 embers are launched. They are each “followed” to determine the maximum spotting distance and direction. Ember lofting height is determined using the crown fraction burned and canopy cover. Maximum spotting distance and maximum spotting direction are determined based on canopy cover, crown fraction burned, elevation, and wind direction and speed.</p>
         <p>
@@ -31,7 +31,7 @@
         </p>
         <p>If an ember lands within the fire perimeter (already burned) or on non-burnable fuels the ember is discarded and spotting does not occur.</p>
         <p>Spotting delay is the time delay (0 to 60 minutes) between when a ember lands and it begins to spread. Shorter delays are associated with drier conditions. Because Landscape Burn Probability within IFTDSS is intended for ‘worst case scenario’ or ‘problem fire’ conditions, we have set this to 0 minutes.</p>
-        <p style="text-align: center;"><b>Comments may be made in Google Directly at: </b><a href="https://docs.google.com/document/d/128NZTSaOrrTD3cgMjbY8CO5YflZhtUs8k-j5ATHpQBg/edit?usp=sharing" target="_blank" style="font-weight: bold;">https://docs.google.com/document/d/128NZTSaOrrTD3cgMjbY8CO5YflZhtUs8k-j5ATHpQBg/edit?usp=sharing</a>
+        <p style="text-align: center;"><b>Comments may be made directly in Google Doc: </b><a href="https://docs.google.com/document/d/128NZTSaOrrTD3cgMjbY8CO5YflZhtUs8k-j5ATHpQBg/edit?usp=sharing" target="_blank" style="font-weight: bold;">https://docs.google.com/document/d/128NZTSaOrrTD3cgMjbY8CO5YflZhtUs8k-j5ATHpQBg/edit?usp=sharing</a>
         </p>
         <div MadCap:conditions="General.Exclude">
             <p class="comment" MadCap:conditions="General.QA ONLY">References to add to when this gets accepted:</p>

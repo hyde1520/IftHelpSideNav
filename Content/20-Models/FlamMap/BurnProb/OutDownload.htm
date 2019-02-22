@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\Topicsforgdocs.flmsp');">
+    <head>
+        <link href="../../../Resources/TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Landscape Burn Probability Outputs Available for Download</h1>
+        <p>LBP Outputs included in the download package:</p>
+        <table style="width: 100%;mc-table-style: url('../../../Resources/TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
+            <col class="TableStyle-Standard-Column-Column1" />
+            <col class="TableStyle-Standard-Column-Column1" />
+            <col class="TableStyle-Standard-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1" style="font-weight: bold;">File Type</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1" style="font-weight: bold;">Output</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1" style="font-weight: bold;">Brief Description</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">.xml</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">XML</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">XML file that names the bands in the GeoTiff for use with ArcMap</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">.ovr</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">OCR</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">OVR file that is used along with the GeoTiff for use with ArcMap</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">.txt</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Fire Size List</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">File including the location and final fire size (acres) for each ignition. This can be converted to a shapefile for viewing in ArcMap. See the <a href="OutFireSizeList.htm" target="_blank">Fire Size List Topic</a> for more details.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">.input</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">Input File</td>
+                    <td class="TableStyle-Standard-BodyA-Column1-Body1">This file includes the inputs and selected outputs needed to replicate your run in FlamMap6 desktop. See the <a href="OutFlammapInputFile.htm" target="_blank">FlamMap Input File Topic</a> for more details.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Landscape Burn Probability outputs can be downloaded for use outside of IFTDSS. This can be done from either My Workspace or My Modeling Playground by clicking on the model output to expand the menu then clicking the Download button.</p>
+        <p>
+            <img src="../../../Resources/Images/Models/Flammap/Risk/lbp_n_myworkspace.png" class="border" />
+        </p>
+        <p>When the File Download window opens, by default the folder will have the same Run Name you selected when running LBP. You can change the Run Name at this point if you choose for your download, but it will not change the name in IFTDSS.</p>
+        <p>
+            <img src="../../../Resources/Images/Models/Flammap/Risk/file_download.png" class="border" />
+        </p>
+        <p>The individual files within the downloaded zip folder are prefixed with the original or modified &lt;Run Name&gt;. Once extracted, the folder includes:</p>
+        <ul>
+            <li>Multiband GeoTiff file (&lt;Run Name&gt;.tif, for use ArcMap)</li>
+            <li>Metadata files for the GeoTiff (&lt;Run Name&gt;.xml and &lt;Run Name&gt;.ovr, for use in ArcMap)</li>
+            <li>Inputs file (&lt;Run Name&gt;.input file, for use in FlamMap 6.0)</li>
+            <li>Fire Size List file (&lt;Run Name&gt;_FIRESIZELIST.txt, for use in Excel, NotePad or ArcMap)</li>
+        </ul>
+        <p>
+            <img src="../../../Resources/Images/Models/Flammap/Risk/zipped_files_folder.png" class="border" />
+        </p>
+        <p>Example of the files in the download zip folder for a Landscape Burn Probability model output. In the image the &lt;Run Name&gt; was Sisters RD Conditioning.</p>
+        <p>Layers (a.k.a bands) included in the GeoTiff are listed in the table below.</p>
+        <table style="width: 100%;mc-table-style: url('../../../Resources/TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
+            <col class="TableStyle-Standard-Column-Column1" />
+            <col class="TableStyle-Standard-Column-Column1" />
+            <col class="TableStyle-Standard-Column-Column1" />
+            <col class="TableStyle-Standard-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1" style="font-weight: bold;">Band #</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1" style="font-weight: bold;">Output</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1" style="font-weight: bold;">Units</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1" style="font-weight: bold;">Brief Description</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">1</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">1-hr Fuel Moisture</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Percent</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Moisture content of 1-hour fuel (dead woody fuel 0 to ¼ inch or 0 to 6.4 mm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">2</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">10-hr Fuel Moisture</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Percent</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Moisture content of 10-hour fuel (dead woody fuel ¼ to 1 inch or 0.6 to 2.5 cm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">3</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">100-hr Fuel Moisture</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Percent</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Moisture content of 100-hour fuel (dead woody fuel 1 to 3 inches or 2.5 to 7.6 cm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">4</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Mid-Flame Wind Speed</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Miles per Hour</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Wind velocity at the mid-flame height.  Calculated using wind adjustment factors based on stand height and canopy cover and the Wind Speed.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">5</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Wind Speed</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Miles per Hour</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Wind velocity measured 20 feet (6 m) above the top of the tree or shrub canopy, or above the ground if canopy is absent.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">6</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Wind Direction</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Degrees</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Wind direction is the direction from which the wind is blowing, specified in degrees increasing clockwise from north (which is zero degrees).</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">7</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Burn Probability</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Unitless</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">The likelihood that a fire will burn a given point on the landscape. See the <a href="OutBurnProb.htm" target="_blank">Burn Probability Topic</a> for more details. </td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">8</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Conditional Flame Length</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Feet</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">The mean flame length of all the fires that burn a given point on the landscape. See the <a href="OutConditionalFL.htm" target="_blank">Conditional Flame Length Topic</a> for more details.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">9</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Proportion of Flame Lengths 0-2 ft</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Unitless</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">The probability of fire burning with a flame length between &gt;0 and 2 ft. See the Flame Length Probability Topic for more details.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">11</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Proportion of Flame Lengths 2-4 ft</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Unitless</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">The probability of fire burning with a flame length between &gt;4 and 6 ft. See the Flame Length Probability Topic for more details.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">12</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Proportion of Flame Lengths 4-6 ft</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Unitless</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">The probability of fire burning with a flame length between &gt;4 and 6 ft. See the Flame Length Probability Topic for more details.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">13</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Proportion of Flame Lengths 6-8 ft</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Unitless</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">The probability of fire burning with a flame length between &gt;6 and 8 ft. See the Flame Length Probability Topic for more details.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">14</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Proportion of Flame Lengths 8-12 ft</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Unitless</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">The probability of fire burning with a flame length between &gt;8 and 12 ft. See the Flame Length Probability Topic for more details.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">10</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">Proportion of Flame Lengths &gt;12 ft</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">Unitless</td>
+                    <td class="TableStyle-Standard-BodyA-Column1-Body1">The probability of fire burning with a flame length between &gt;12 ft. See the Flame Length Probability Topic for more details.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p style="text-align: center;"><b>Comments may be made directly in Google Doc: <a href="https://docs.google.com/document/d/1fFrmdt4Iv3pBUL3mwG-Y2Xpi5EWgjzYBSnTA_mMU0lE/edit#heading=h.b6j0qg9uffhy" target="_blank">https://docs.google.com/document/d/1fFrmdt4Iv3pBUL3mwG-Y2Xpi5EWgjzYBSnTA_mMU0lE/edit#heading=h.b6j0qg9uffhy</a></b>
+        </p>
+    </body>
+</html>

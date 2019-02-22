@@ -238,14 +238,23 @@
     <Map Name="AddTreatmentwMap" Link="/Content/10-FTEM/General/AddTreatmentwMap.htm" />
     <Map Name="Resampling" Link="/Content/20-Models/Resampling.htm" />
     <Map Name="Resampling1" Link="/Content/20-Models/FlamMap/Resampling.htm" />
-    <Map Name="BPInputsOverview" Link="/Content/20-Models/FlamMap/BurnProb/BPInputsOverview.htm" />
-    <Map Name="BPOutputs" Link="/Content/20-Models/FlamMap/BurnProb/BPOutputs.htm" />
-    <Map Name="BPOutputsDownload" Link="/Content/20-Models/FlamMap/BurnProb/BPOutputsDownload.htm" />
-    <Map Name="BPOutputsIFTDSS" Link="/Content/20-Models/FlamMap/BurnProb/BPOutputsIFTDSS.htm" />
-    <Map Name="BPTechDoc" Link="/Content/20-Models/FlamMap/BurnProb/BPTechDoc.htm" />
-    <Map Name="BurnProbAbout" Link="/Content/20-Models/FlamMap/BurnProb/BurnProbAbout.htm" />
-    <Map Name="FiresSimulated" Link="/Content/20-Models/FlamMap/BurnProb/FiresSimulated.htm" />
+    <Map Name="BPInputsOverview" Link="/Content/20-Models/FlamMap/BurnProb/InOverview.htm" />
+    <Map Name="BPOutputs" Link="/Content/20-Models/FlamMap/BurnProb/OutOverview.htm" />
+    <Map Name="BPOutputsDownload" Link="/Content/20-Models/FlamMap/BurnProb/OutDownload.htm" />
+    <Map Name="BPOutputsIFTDSS" Link="/Content/20-Models/FlamMap/BurnProb/OutViewIFTDSS.htm" />
+    <Map Name="BPTechDoc" Link="/Content/20-Models/FlamMap/BurnProb/TechDoc.htm" />
+    <Map Name="BurnProbAbout" Link="/Content/20-Models/FlamMap/BurnProb/About.htm" />
+    <Map Name="FiresSimulated" Link="/Content/20-Models/FlamMap/BurnProb/InFiresSimulated.htm" />
     <Map Name="Landscape" Link="/Content/20-Models/FlamMap/BurnProb/Landscape.htm" />
-    <Map Name="Resolution" Link="/Content/20-Models/FlamMap/BurnProb/Resolution.htm" />
+    <Map Name="Resolution" Link="/Content/20-Models/FlamMap/BurnProb/InResolution.htm" />
     <Map Name="FTEMRefLayers" Link="/Content/10-FTEM/General/FTEMRefLayers.htm" />
+    <Map Name="Completion" Link="/Content/10-FTEM/General/Completion.htm" />
+    <Map Name="ModelStatus" Link="/Content/20-Models/ModelStatus.htm" />
+    <Map Name="OutBurnProb" Link="/Content/20-Models/FlamMap/BurnProb/OutBurnProb.htm" />
+    <Map Name="OutConditionalFL" Link="/Content/20-Models/FlamMap/BurnProb/OutConditionalFL.htm" />
+    <Map Name="OutFireIntensityLev" Link="/Content/20-Models/FlamMap/BurnProb/OutFireIntensityLev.htm" />
+    <Map Name="OutFireSizeList" Link="/Content/20-Models/FlamMap/BurnProb/OutFireSizeList.htm" />
+    <Map Name="OutFlammapInputFile" Link="/Content/20-Models/FlamMap/BurnProb/OutFlammapInputFile.htm" />
+    <Map Name="OutFuelMoisture" Link="/Content/20-Models/FlamMap/BurnProb/OutFuelMoisture.htm" />
+    <Map Name="OutMidflameWindSpd" Link="/Content/20-Models/FlamMap/BurnProb/OutMidflameWindSpd.htm" />
 </CatapultAliasFile>

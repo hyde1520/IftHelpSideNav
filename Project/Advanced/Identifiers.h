@@ -254,3 +254,12 @@
 #define Landscape 1217
 #define Resolution 1218
 #define FTEMRefLayers 1219
+#define Completion 1220
+#define ModelStatus 1221
+#define OutBurnProb 1222
+#define OutConditionalFL 1223
+#define OutFireIntensityLev 1224
+#define OutFireSizeList 1225
+#define OutFlammapInputFile 1226
+#define OutFuelMoisture 1227
+#define OutMidflameWindSpd 1228
