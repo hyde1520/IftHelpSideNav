@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\Topicsforgdocs.flmsp');">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../Resources/MasterPages/Topicsforgdocs.flmsp');" MadCap:conditions="General.QA ONLY">
     <head>
     </head>
     <body>
@@ -9,16 +9,15 @@
         </div>
         <p>Spotting, the launching of embers and spread of resulting spot fires, is included within models that incorporate fire spread. In IFTDSS, spotting is part of the Landscape Burn Probability model. Spotting only occur in trees where active or passive crown fire is initiated, it does not occur in surface fire or slash pile burning.</p>
         <p>
-            <img src="../../../Resources/Images/Models/Flammap/MTT/spotting.png" alt="spotting input field from IFTDSS" class="borderlist" />
+            <img src="../../Resources/Images/Models/Flammap/MTT/spotting.png" alt="spotting input field from IFTDSS" class="borderlist" />
         </p>
         <p>The Spotting Probability input (0-100%) controls how many of the pixels, where crown fire is initiated, actually launch embers which can “spot” to start new fires. Entering 100% means that all points on the landscape where crown fire is initiated will launch embers.  A value of 0% in essence turns off spotting. Spotting Probability of  20% is the recommended input and the default in IFTDSS. For details about how far embers go and how many result in spot fires, see the Spotting Technical Detail section below.</p>
-        <p>Spotting Probability is used by LBP to determine if embers are launched and whether launched embers will land. It is not synonymous with probability of ignition (PIG), which</p>
-        <p>addresses the likelihood that they launched embers land on receptive fuels and ignite.</p>
-        <p>Landscape Fire Behavior does not include spotting. However, it can predict the distance (Maximum Spot Distance) and direction (Maximum Spot Direction) of embers from torching trees. These <a href="../BurnProb/OutOverview.htm" target="_blank">outputs</a> are available only in the download package.</p>
+        <p>Spotting Probability is used by LBP to determine if embers are launched and whether launched embers will land. It is not synonymous with probability of ignition (PIG), which addresses the likelihood that they launched embers land on receptive fuels and ignite.</p>
+        <p>Landscape Fire Behavior does not include spotting. However, it can predict the distance (Maximum Spot Distance) and direction (Maximum Spot Direction) of embers from torching trees. These <a href="BurnProb/OutOverview.htm" target="_blank">outputs</a> are available only in the download package.</p>
         <h2>Spotting Technical Detail</h2>
-        <p>The spotting algorithm is intended to compute the maximum spotting distance from a given point on a fire front if torching or crown fire occurs. In pixels where active or passive crown fire is initiated (<a href="../../../41-References/Citations.htm#Albini1979">Albini 1979</a>), a total of 16 embers are launched. They are each “followed” to determine the maximum spotting distance and direction. Ember lofting height is determined using the crown fraction burned and canopy cover. Maximum spotting distance and maximum spotting direction are determined based on canopy cover, crown fraction burned, elevation, and wind direction and speed.</p>
+        <p>The spotting algorithm is intended to compute the maximum spotting distance from a given point on a fire front if torching or crown fire occurs. In pixels where active or passive crown fire is initiated (<a href="../../41-References/Citations.htm#Albini1979">Albini 1979</a>), a total of 16 embers are launched. They are each “followed” to determine the maximum spotting distance and direction. Ember lofting height is determined using the crown fraction burned and canopy cover. Maximum spotting distance and maximum spotting direction are determined based on canopy cover, crown fraction burned, elevation, and wind direction and speed.</p>
         <p>
-            <img src="../../../Resources/Images/Models/Flammap/MTT/Spotting.jpg" alt="spotting as described in text" class="border" />
+            <img src="../../Resources/Images/Models/Flammap/MTT/Spotting.jpg" alt="spotting as described in text" class="border" />
         </p>
         <p>Once the maximum spotting distance and direction are determined from the originally 16 embers, only one ember per cell is used to simulate spotting. Below details how it is determined if an ember lands, and where it lands if it does.</p>
         <p>The Spotting Probability (0-100%) value entered in the LBP model run page, is used by the model to determine if an ember lands and results in a spot fire:</p>

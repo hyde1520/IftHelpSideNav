@@ -368,9 +368,8 @@
           Title="Inputs Overview"
           Link="/Content/20-Models/FlamMap/BurnProb/InOverview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
-          Title="Landscapes for LBP"
-          Link="/Content/20-Models/FlamMap/BurnProb/Landscape.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-          conditions="General.Exclude" />
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/20-Models/FlamMap/BurnProb/InLandscape.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
           Link="/Content/20-Models/FlamMap/Winds.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -394,10 +393,10 @@
         </TocEntry>
         <TocEntry
           Title="Simulation Time"
-          Link="/Content/20-Models/FlamMap/MTT/SimTimes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/20-Models/FlamMap/SimTimes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Spotting"
-          Link="/Content/20-Models/FlamMap/MTT/Spot.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/20-Models/FlamMap/Spot.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
           Link="/Content/20-Models/FlamMap/BurnProb/InResolution.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -438,6 +437,9 @@
           Title="FlamMap Input File"
           Link="/Content/20-Models/FlamMap/BurnProb/OutFlammapInputFile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/20-Models/FlamMap/BurnProb/RunConsiderations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
       Title="MTT Fire Spread"
@@ -476,10 +478,10 @@
           Link="/Content/20-Models/FlamMap/MTT/Ignition.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/20-Models/FlamMap/MTT/SimTimes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/20-Models/FlamMap/SimTimes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/20-Models/FlamMap/MTT/Spot.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/20-Models/FlamMap/Spot.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
       <TocEntry
         Title="MTT Outputs"

@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>LBP Model Run Considerations</h1>
+        <p>Because burn probability is used in risk assessment and shares some of the same inputs as Landscape Fire Behavior, it is important to know how various inputs will affect the model output.</p>
+        <table style="width: 100%;">
+            <col style="width: 360px;" />
+            <col style="width: 621px;" />
+            <tbody>
+                <tr>
+                    <td>Parameter</td>
+                    <td>Consideration</td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">Inputs</td>
+                </tr>
+                <tr>
+                    <td>Landscape</td>
+                    <td>Should be large enough to make comparisons within</td>
+                </tr>
+                <tr>
+                    <td>Weather and Fuel Moisture</td>
+                    <td>Near worst case conditions</td>
+                </tr>
+                <tr>
+                    <td>Simulation Time</td>
+                    <td>Burn period duration on high fire growth days</td>
+                </tr>
+                <tr>
+                    <td>Spotting</td>
+                    <td>Change with caution</td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">Outputs</td>
+                </tr>
+                <tr>
+                    <td>Interpreting Outputs</td>
+                    <td>Be aware of Scaled Output Extent - note maximum value and compare only within the same model run if looking at other extents</td>
+                </tr>
+                <tr>
+                    <td>Analysis Extent Maximum Value</td>
+                    <td>If max value as a decimal is confusing to you, you can move the decimal point two places to the left, and think of it as the percent of times the pixel that burned the most actually burned on that analysis extent. 
+E.g.  0.19237 implies that  the maximum any pixel on that extent burned was in 19% of the total simulated fires during in that particular analysis scenario.
+</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Inputs</h2>
+        <p>To use LBP effectively choose your inputs based on the following guidelines:</p>
+        <h3>Selecting a Landscape</h3>
+        <p>Use a landscape that includes the entire area for which you may want to compare results. In most cases this would be a project area boundary but in some cases could be larger to encompass an entire ownership area (district or park).</p>
+        <div class="notificationNote">
+            <p>When choosing a landscape for LBP, only those landscapes with a buffer and unaltered resolution are available from the drop-down menu. (Landscapes with the suffix “NB” or “Xm” will not run with LBP).</p>
+        </div>
+        <h3>Wind, Crown Fire, Initial Fuel Moisture, Fuel Moisture Conditioning</h3>
+        <p>LBP is intended to be used to gauge fuel treatment effectiveness, integrated hazard and/or wildfire risk. Inputs should represent the “worst case scenario” or “problem fire” conditions. Potential sources of initial fuel moistures, wind speed and wind direction could include:</p>
+        <ul>
+            <li>Initial fuel moistures, wind speed and wind direction calculated in Fire Family Plus from a local RAWS using historic weather from the past 10 to 20 years representing 90-97th percentile conditions.</li>
+            <li>Initial fuel moistures, wind speed and wind direction from a known ‘problem fire’ on a day of maximal growth.</li>
+            <li>Predefined initial fuel moistures for very dry or dry conditions (<a href="" target="_blank">Scott and Burgan 2005</a>) in combination with known or predicted worst case scenario wind speed and wind direction.</li>
+        </ul>
+        <h3>Simulation Time</h3>
+        <p>Simulation time, or Burn Period Length, can range from 4-12 hours. Longer burn periods result in larger fires because fuel moisture and wind conditions are held constant.</p>
+        <p>Because inputs should represent the “worst case scenario” or “problem fire” conditions the duration of the burn period should reflect the active burning period of wildfires for your area under extreme conditions.</p>
+        <h3>Spotting</h3>
+        <p>Spotting probability is not the probability of ignition, it is used by the model to determine if embers are launched and whether launched embers will land. Spotting Probability is treated differently by IFTDSS than in WFDSS NTFB / FARSITE.</p>
+        <p>Spotting Probability of  20% is the recommended input and the default in IFTDSS, however it can be changed if needed. Entering 100% means that all points on the landscape where crown fire is initiated will launch embers.  A value of 0% in essence turns off spotting.</p>
+        <h2>Outputs</h2>
+        <div class="notificationImportant">
+            <p>Outputs are uniquely scaled for each analysis or Area of Interest</p>
+        </div>
+        <p>The most important thing to remember when using burn probability outputs is that they are <span class="Emphasis">relative within the landscape or area of interest</span>.  Outputs must be viewed within the context of the landscape they are generated in. For example, a red pixel in one analysis still may be a much lower burn probability than a yellow or blue pixel in another analysis with a different landscape, different weather, or different fuel moisture inputs.  You cannot compare two landscapes that have had burn probably run on them individually, each case is unique.</p>
+        <p>The outputs should be evaluated in the context of the management questions being asked and keeping model inputs in mind, especially wind speed and direction.</p>
+        <h3>Outputs should be evaluated together</h3>
+        <p>In the fuel treatment prioritization below, treatments “A” and “B” are being compared. While treatment B is located in a area with a higher likelihood of burning (burn probability) than Treatment A, Treatment A area is more likely to experience higher flame lengths.</p>
+        <p>
+            <img src="../../../Resources/Images/Models/Flammap/Risk/treatmentABcompare.png" class="border" />
+        </p>
+        <h3>Burn Probability Classes are Scaled, use the Identify Widget for more detail</h3>
+        <p>The legend in the Landscape Burn probability lists the “Analysis Maximum” for that analysis, the colored classes in the legend are scaled based on this value. The colored classes are not evenly distributed but rather are all in relation to the analysis maximum.  As a result some analysis outputs may be heavily skewed to just one or two classes depending on the range of results.  Each pixel has a unique burn probability which can be determined by using the Identify tool.</p>
+        <p>
+            <img src="../../../Resources/Images/Models/Flammap/Risk/ID_tool_BP.png" class="border" />
+        </p>
+        <h3>Use the Identify Tool to get more information on Conditional Flame Lengths</h3>
+        <p>Conditional Flame Length is mean flame length of all the calculation simulated fires that burn a given point on the landscape during the landscape burn probability calculations. Using the identify tool in map studio shows this mean value while also listing the percentage of times that all simulated fires had flame lengths in other classes.</p>
+        <p>
+            <img src="../../../Resources/Images/Models/Flammap/Risk/conditional_fl_idtool.png" class="border" />
+        </p>
+        <h3>LBP Conditional Flame Length</h3>
+        <p>Conditional flame length should not be compared directly flame length outputs from Landscape Fire Behavior.</p>
+        <ul>
+            <li>Understanding that a conditional flame length may vary significantly within a probability run or that it is close to the “edge” of a classification breakpoint may be useful for interpretation.</li>
+            <li>Inputs such as wind direction or landscape features may affect outputs in unusual ways.</li>
+        </ul>
+        <p>In some model outputs you may encounter areas with high conditional flame lengths and low burn probabilities. Causes for this can  include fuels that are located in difficult locations for fire to spread to, such as highly flammable but patchy fuels. Some examples of this are high elevation timber pockets, or shrub islands surrounded by non-burnable fuels (pictured below).</p>
+        <p>
+            <img src="../../../Resources/Images/Models/Flammap/Risk/fire_barriers.png" class="border" />
+        </p>
+        <p>Another cause of low burn probability in seemingly volatile fuels can be slow spreading or non-burnable fuels upwind depending on the wind direction specified in the analysis.</p>
+        <p>A visual example of how unique LBP outputs can be based on wind direction is displayed in the run comparison below. This comparison was done on the same landscape, with the same wind speed, spotting probability and fuel moisture parameters.  Wind direction was the only parameter changed. The first output was run with a Southeast wind and the second with a Northwest wind.  You can see that the burnable area SE of the larger lake to the west did not even burn under a NW wind direction.</p>
+        <p>
+            <img src="../../../Resources/Images/Models/Flammap/Risk/SEwindNEwindLBP.png" class="border" />
+        </p>
+        <p>There are also scenarios that may be associated with high burn probabilities and low conditional flame length. These can include continuous grass or shrub fuels especially when wind and moisture inputs conducive to rapid spread.</p>
+    </body>
+</html>

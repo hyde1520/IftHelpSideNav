@@ -609,7 +609,8 @@ p.TOCHeading
 
 span.Emphasis
 {
-	font-weight: bold;
+	font-style: italic;
+	font-weight:600;
 }
 
 span.UIcomponent

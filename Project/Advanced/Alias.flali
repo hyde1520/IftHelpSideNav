@@ -6,7 +6,7 @@
     <Map Name="FBFMFuelMoistures" Link="/Content/00-Concepts/FBFM/FBFMFuelMoistures.htm" />
     <Map Name="UsingMyData" Link="/Content/00-Concepts/UsingMyData.htm" />
     <Map Name="UnitsofMeasure" Link="/Content/00-Concepts/UnitsofMeasure.htm" />
-    <Map Name="EstLiveFuelMoisture" Link="/Content/00-Concepts/EstLiveFuelMoisture.htm" />
+    <Map Name="EstLiveFuelMoisture" Link="/Content/00-Concepts/FuelMoistureTables.htm" />
     <Map Name="IFTDSSInputs" Link="/Content/00-Concepts/IFTDSSInputs.htm" />
     <Map Name="DeveloperTools" Link="/Content/00-AboutIFTDSS/Developers/DeveloperTools.htm" />
     <Map Name="SystemAdmin" Link="/Content/00-AboutIFTDSS/Developers/SystemAdmin.htm" />
@@ -217,8 +217,8 @@
     <Map Name="UsingLFBFlmpInput" Link="/Content/20-Models/FlamMap/LFB/UsingLFBFlmpInput.htm" />
     <Map Name="Ignition" Link="/Content/20-Models/FlamMap/MTT/Ignition.htm" />
     <Map Name="MTTFlowPaths" Link="/Content/20-Models/FlamMap/MTT/MTTFlowPaths.htm" />
-    <Map Name="SimTimes" Link="/Content/20-Models/FlamMap/MTT/SimTimes.htm" />
-    <Map Name="Spot" Link="/Content/20-Models/FlamMap/MTT/Spot.htm" />
+    <Map Name="SimTimes" Link="/Content/20-Models/FlamMap/SimTimes.htm" />
+    <Map Name="Spot" Link="/Content/20-Models/FlamMap/Spot.htm" />
     <Map Name="GettingStarted" Link="/Content/A_Introduction Topics/GettingStarted.htm" />
     <Map Name="MoreInformation" Link="/Content/A_Introduction Topics/MoreInformation.htm" />
     <Map Name="WhatsNew" Link="/Content/A_Introduction Topics/WhatsNew.htm" />
@@ -245,7 +245,6 @@
     <Map Name="BPTechDoc" Link="/Content/20-Models/FlamMap/BurnProb/TechDoc.htm" />
     <Map Name="BurnProbAbout" Link="/Content/20-Models/FlamMap/BurnProb/About.htm" />
     <Map Name="FiresSimulated" Link="/Content/20-Models/FlamMap/BurnProb/InFiresSimulated.htm" />
-    <Map Name="Landscape" Link="/Content/20-Models/FlamMap/BurnProb/Landscape.htm" />
     <Map Name="Resolution" Link="/Content/20-Models/FlamMap/BurnProb/InResolution.htm" />
     <Map Name="FTEMRefLayers" Link="/Content/10-FTEM/General/FTEMRefLayers.htm" />
     <Map Name="Completion" Link="/Content/10-FTEM/General/Completion.htm" />

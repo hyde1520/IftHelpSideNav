@@ -4,11 +4,14 @@
     </head>
     <body>
         <h1>Number of Fires Simulated</h1>
+        <div class="notificationImportant">
+            <p>This input is set automatically in IFTDSS, users cannot set this input.</p>
+        </div>
         <p>The Landscape Burn Probability model uses thousands of randomly located ignitions that are allowed to spread into fires for the specified Burn Period Length. Only, ignitions that are placed on burnable fuels are kept and recorded. If an ignition randomly lands on non-burnable fuel model it is removed from the simulation and does not count toward the total count. Each ignition is placed on a unburned landscape, prior ignitions do not alter fuels, weather conditions are held constant for the duration of the burn period, and it is the same for every fire.</p>
         <p>The number of random ignitions and therefore fires simulated is determined by IFTDSS and is based upon:</p>
         <ul>
-            <li>Landscape Size. Larger landscapes often require more fires than smaller ones</li>
-            <li>Fire Behavior Fuel Models present. Landscapes with fuel models characterized by faster rates of spread will need fewer igntions than “slower” ones.</li>
+            <li>Landscape Size. Larger landscapes often require more fires than smaller ones.</li>
+            <li>Fire Behavior Fuel Models present. Landscapes with fuel models characterized by faster rates of spread will need fewer ignitions than “slower” ones.</li>
             <li>Fuel Moisture and Wind Speed. Similar to fuels, higher wind speeds and lower fuel moistures result in faster rates of spread and require fewer ignitions.</li>
         </ul>
         <p>For the best results, there should be minimal area within a landscape that is burnable that does not burn. Once this has been achieved increasing the number of ignitions does not significantly change the outputs but does increase processing time. Setting the correct number of ignitions to achieve this often takes a lot of trial and error.</p>
