@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../Resources/TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Conditional Flame Length</h1>
+        <p>Conditional Flame Length is viewable in Map Studio, in Reports, and available in the download package. Conditional Flame Length is an estimate of the mean flame length for all the fires that burn a given point on the landscape. Conditional flame length from Landscape Burn Probability is typically lower than flame length coming from Landscape Fire Behavior. This is because fire is spread across the landscape it includes heading, flanking and backing fire in Landscape Burn Probability, whereas fire is not spread across the landscape and only head fire is considered in Landscape Fire Behavior. Head fire typically has higher flame lengths. In addition, conditional flame length is the mean of all fires burning a pixel versus a singular condition and can only have a maximum value of 25 feet (see the calculations section below for details).</p>
+        <p>Image of Flame Length from a Landscape Fire Behavior model run completed with Auto97th inputs.</p>
+        <p>
+            <img src="../../../Resources/Images/Models/Flammap/Risk/conditional_fl_1.png" class="border" />
+        </p>
+        <p>Image of Conditional Flame Length from a Landscape Burn Probability model run using the same Auto97th inputs where they overlap, 20% spotting and 8 hr burn period length. Looking at the general patterns, the areas of highest and lowest flame lengths and conditional flame lengths are consistent between the two model outputs.</p>
+        <p>
+            <img src="../../../Resources/Images/Models/Flammap/Risk/conditional_fl_2.png" class="border" />
+        </p>
+        <p>Image of the Identify widget showing the results for the above mentioned model outputs. A point on the map was selected from the north central section of the map that was represented by the highest flame length and conditional flame length categories respectively. Notice that the flame length from the Landscape Fire Behavior run is 54.6 ft versus 15.2 ft for conditional flame length from a Landscape Burn Probability run.</p>
+        <p>
+            <img src="../../../Resources/Images/Models/Flammap/Risk/image23.png" class="border" style="width: 306px;height: 435px;" />
+        </p>
+        <p>In the Map Studio and Reports in IFTDSS conditional flame length is displayed with 8 distinct classes. The first two are for pixels that did not burn. Non-burnable means that that pixels has a non-burnable fuel model and cannot burn. Burnable but did not burn means that that pixel has burnable fuels but did not burn. This can be because a fire never reached the pixel, or a fire reached the pixel or started within the pixel but it was unable to burn out of the pixel because the fire spread rate was too slow. The remaining 6 classes match those of the fire intensity levels.</p>
+        <p>
+            <img src="../../../Resources/Images/Models/Flammap/Risk/image16.png" class="border" />
+        </p>
+        <p>If you are interested in the exact conditional flame length value of a point on the map, the Identify widget can be used in Map Studio.</p>
+        <p>In the download package, conditional flame length is one of the bands in the GeoTiff. It has the continuous values in feet. Where non-burnable pixels exist, the value is -1, and where burnable but not burned pixels exist the value is 0.</p>
+        <h2>Conditional Flame Length Calculation</h2>
+        <p>Conditional flame length is the sum product of the the flame lengths across the six fire intensity levels.</p>
+        <p>&#160;</p>
+        <p>
+            <img src="../../../Resources/Images/Models/Flammap/Risk/cfl_equation.png" style="width: 372px;height: 60px;" />
+        </p>
+        <p>Where FLPi is the probability of fire at a given intensity, and FLi is the mid-point of the given intensity level. Because 25 ft is used as the midpoint value for the highest fire intensity level, conditional flame length has a maximum possible value of 25 ft. The table below show an example of how the calculation is completed.</p>
+        <table style="width: 811px;mc-table-style: url('../../../Resources/TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
+            <col class="TableStyle-Standard-Column-Column1" />
+            <col class="TableStyle-Standard-Column-Column1" />
+            <col class="TableStyle-Standard-Column-Column1" />
+            <col class="TableStyle-Standard-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Fire Intensity level flame length range (ft)</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Mid-point flame length (ft) (FL<sub>i</sub>)</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Proportion of Flame&#160;Length (FLP<sub>i</sub>)</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">FL<sub>i</sub> * FLP<sub>i</sub></td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">0-2 ft</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">1</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">0</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">0</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">2-4 ft</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">3</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">0.077</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">0.231</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">4-6 ft</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">5</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">0.292</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">1.46</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">6-8 ft</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">7</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">0.542</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">3.794</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">8-12 ft</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">10</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">0.089</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">0.89</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&gt;12 ft</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">25</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">0</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">0</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td colspan="3" style="text-align: right;" class="TableStyle-Standard-BodyB-Column1-Body2">Conditional Flame Length (sum of FL<sub>i</sub> * FLP<sub>i</sub>)</td>
+                    <td class="TableStyle-Standard-BodyA-Column1-Body2">6.4</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>The conditional flame length and the proportion of flame lengths values are available with the Identify widget in Map Studio. Below is the same example as shown in the table above.</p>
+        <p>
+            <img src="../../../Resources/Images/Models/Flammap/Risk/image8.png" class="border" style="width: 356px;height: 381px;" />
+        </p>
+        <div class="notificationNote">
+            <p>Places on the landscape can be unburned for three reasons: 1) the location has a non-burnable fuel model,  2) fire never reached that location, or 3) an ignition started but did not burn out of the current pixel. These cases are presented differently in Map Studio and reports versus the GeoTiff available for download. Non-burnable locations are denoted as such, “Non-burnable” in Map Studio and Reports, and are -1 in the GeoTiff. Locations that the fire never reached or didn’t spread out of are “Burnable but not burned” in Map Studio and Reports, and are 0 in the GeoTiff.</p>
+        </div>
+    </body>
+</html>

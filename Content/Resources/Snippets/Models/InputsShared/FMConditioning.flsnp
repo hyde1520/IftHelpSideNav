@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <div class="comment" MadCap:conditions="General.Exclude">
+            <p>Google Doc:<a href="https://docs.google.com/document/d/1_e_s7a7muf7feYXSwvrbWlOvZf4FFReb-XGVXxXP0Cg/edit" target="_blank">https://docs.google.com/document/d/1_e_s7a7muf7feYXSwvrbWlOvZf4FFReb-XGVXxXP0Cg/edit</a></p>
+            <p>Last Updated 11-21-18 with input from IHLP-137</p>
+        </div>
+        <h2>Why Condition Fuel Moistures</h2>
+        <p>
+            <object src="https://youtu.be/FaV07P9CP2M" style="width: 560px;height: 315px;">
+            </object>
+        </p>
+        <p>Fire behavior modeling systems all utilize fuel moistures in their calculations.    Fuel moisture input values are of critical importance as the model outputs  are sensitive to them.  Conditioning can be used as a way to “correct” or “adjust” initial dead fuel moisture values  to capture variation in local site conditions before a model run. This can be especially important for landscapes with a lot of topographic or canopy variation resulting in a diversity of fine fuel moistures due to slope, aspect, canopy cover, and their subsequent impacts on solar radiation, wind, and precipitation penetration through the canopy.</p>
+        <p>
+            <img src="../../../Images/Models/FMConditioning/fm con slide.png" alt="trees on a mountain with sun shining behind them" class="border" />
+        </p>
+        <h2>About Fuel Moisture Conditioning in <MadCap:variable name="General.ProductName" /></h2>
+        <p>Conditioning adjusts dead fuel moistures across a landscape based on the factors described above. Elevation impacts on fuel moisture are also applied, taking into account cell or pixel location in relation to RAWS station or weather observation location. Portions of the landscape at higher elevation than the observations may see slightly increased fine fuel moistures whereas portions of the landscape below may adjust to slightly lower fine fuel moistures. Conditioning fuels in <MadCap:variable name="General.ProductName" /> is done at the pixel or cell level and each cell is calculated independently.  Live fuels are not conditioned. The table below shows the factors influencing dead fuel moistures in <MadCap:variable name="General.ProductName" />:</p>
+        <table style="width: 100%;mc-table-style: url('../../../TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
+            <col class="TableStyle-Standard-Column-Column1" />
+            <col class="TableStyle-Standard-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Standard-Head-Header1">
+                    <td class="TableStyle-Standard-HeadE-Column1-Header1">Inputs used from <MadCap:variable name="General.ProductName" /> landscape file</td>
+                    <td class="TableStyle-Standard-HeadD-Column1-Header1">Inputs used from weather stream</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Slope</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Temperature</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Aspect</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Relative Humidity</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Elevation</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Cloud Cover</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyB-Column1-Body2">Canopy Cover</td>
+                    <td class="TableStyle-Standard-BodyA-Column1-Body2">Hourly Precipitation</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Fuel Moisture Conditioning Options</h2>
+        <p class="comment">
+            <img src="../../../Images/Models/FMConditioning/conditioning_options.png" alt="you may choose to condition or not condition dead fuel moistures in iftdss." class="border" />
+        </p>
+        <h2>Do Not Condition (Use Initial Fuel Moistures)</h2>
+        <p><MadCap:variable name="General.ProductName" /> does not condition fuels,  it uses the initial fuel moistures across the entire landscape.  This option may be appropriate when you know the exact fuel moisture you want to use on a given portion of the landscape or on landscapes with limited variation in topography and vegetation.  It is also appropriate in areas where limited conditioning weather data is available or deciduous vegetation can confound selection of a representative date for desired simulation conditions.</p>
+        <h2>Condition (Select a Classified Weather Stream)</h2>
+        <p><MadCap:variable name="General.ProductName" /> conditions dead fuel moistures using a classified weather stream. Currently, the only classified weather stream available represents near-maximum or “extreme” conditions. For technical details on the “extreme” conditions, see the <a href="../../../../20-Models/FlamMap/classifiedweather.htm" target="_blank">Classified Weather Stream Help Topic</a>. This option may be appropriate when you want the analysis to simulate extreme or near worst conditions and you do not have the time or the expertise to build your own conditioning file. </p>
+        <div class="notificationComingSoon">
+            <p> In the future more Classified Weather Stream options, in addition to "Extreme", will be available. </p>
+            <p>Please note that these Extreme conditioning files exist for most of the Western United States but have yet to be developed for Eastern Areas.  This is in part due to complexities associated with defining a conditioning period date in areas where much of the landscape is dominated by deciduous forests.</p>
+        </div>
+        <h2>Condition (Upload a  Weather Stream File)</h2>
+        <p><MadCap:variable name="General.ProductName" /> conditions dead fuel moistures based on a weather stream (.wxs) file you upload, and a conditioning period (Start date/Time of Day plus Number of days to condition) you choose. This option may be used when you have your own weather data (.wxs file) and would like to ensure that the analysis scenario you are calculating captures the influence of landscape characteristics on fuel moisture at specific times of day or year. For details on creating .wxs files, see the <a href="../../../../20-Models/FlamMap/AboutWXS.htm" target="_blank">.wxs Creation Help Topic</a>.</p>
+        <div class="notificationImportant">
+            <p>The conditioned fuel moistures at the end of the conditioning period (Start date/Time of Day plus Number of days to condition) will be the fuel moistures used in the fire behavior calculations.</p>
+        </div>
+        <MadCap:snippetBlock src="../Flammap/wxs_validation_warning.flsnp" />
+        <p>Regardless of your choice to use a classified weather stream, or a custom weather stream, the same algorithms are employed to condition dead fuel moisture based on fuel size. Calculations for dead fuel moistures are from FlamMap, which implements the following:</p>
+        <ul>
+            <li>1 hr fuel moisture in FlamMap is obtained from a calculation involving the equilibrium moisture content (<a href="../../../../41-References/Citations.htm#Bradshaw1983" target="_blank">Bradshaw et al. 1983</a>).</li>
+            <li>10 hr fuel moisture in FlamMap is calculated with relationships from <a href="../../../../41-References/Citations.htm#Nelson2000" target="_blank">Nelson (2000)</a>.</li>
+            <li>100 hr fuel moistures in FlamMap are calculated with modifications by <a href="../../../../41-References/Citations.htm#Nelson2000" target="_blank">Nelson</a>.</li>
+        </ul>
+        <h2>Fuel Moisture Conditioning Period</h2>
+        <p>The period during which fuel conditioning is applied, anywhere from 1 to 7 days. The  time of day is also required, which will have a significant influence on the fuel moistures. This is because the conditions affecting fuel moisture, such as relative humidity, can fluctuate significantly depending upon the time of day, as shown in the example below.</p>
+        <p>
+            <img src="../../../Images/Models/FMConditioning/hourly_fm_example.png" alt="fuel moisture graph showing daily flucations over several days, then zooming in to show fluctuations up and down throughout a 24 hour period." class="border" />
+        </p>
+        <p>At the beginning of a conditioning period, the dead fuels of all size classes in each fuel model will not reflect the influences of the local site conditions. Fuels for a particular fuel model will have the initial fuel moistures you populated within <MadCap:variable name="General.ProductName" />. As the conditioning period progresses for a few hours or a day the moisture content of the finer fuels (1hr, 10hr) will increasingly reflect the local site conditions because of their short time-lag. Because the short time-lag fuels (1hr, 10hr) have the most influence on calculated fire behavior, conditioning periods longer than a few days do not change results significantly for similar weather streams. At the end of the conditioning period, the landscape will contain spatial variation in dead fuel moisture with less influence of the initial fuel moisture input conditions.</p>
+        <div class="notificationNote">
+            <p>Conditioned fuel moistures represent fuel moisture variation spatially at one point in time, the end of the conditioning period. If you are comparing day and night conditions and using your own wxs file, you may set your conditioning period to a specific time of day by using the "Time of Day" field.</p>
+        </div>
+    </body>
+</html>

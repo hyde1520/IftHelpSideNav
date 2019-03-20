@@ -118,6 +118,18 @@
                 <p>(Reported August of 2018)</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Multipart shapes from outside the landscape boundary can appear in drop-down menus</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Multipart shapes that lie in close proximity to a landscape may appear in drop-down menus for landscape tasks such as summarizing or modeling. While IFTDSS automatically filters these drop-down menus to show only shapes that intersect the landscape in question, these multipart shapes may be included if their extent intersects the landscape, regardless of whether the individual polygons that make up the shape do. In the example below, the multipart shape would appear in the drop-down because its extent, roughly indicated with a dotted line, intersects the landscape, even though neither polygon does. If a report were generated for the landscape using that multipart shape area of interest, the landscape features and/or model outputs would all be 0.</p>
+                <p>
+                    <img src="../Resources/Images/ErrorsIssues/overlapping_shape_extent.png" alt="a multipart shape with two polygons, its extent overlaps the landscape but neither individual polygon does" class="border" />
+                </p>
+                <p>(Reported February 2019)</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
         <MadCap:dropDown MadCap:conditions="General.Exclude">
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>On some DOI computers - FTEM reports are blocked from appearing in a new tab when clicking 'Generate Report'</MadCap:dropDownHotspot>

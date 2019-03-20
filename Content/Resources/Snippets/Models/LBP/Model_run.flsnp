@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h2>Select the model</h2>
+        <p>From the <span class="UIcomponent">Modeling Playground</span>, select <span class="UIcomponent">Landscape Burn Probability</span> from the drop-down menu and click <span class="UIcomponent">Create Run</span>.</p>
+        <h2>Choose or Create a Landscape</h2>
+        <MadCap:snippetBlock src="../Flammap/ChooseLCP.flsnp" />
+        <h2>Populate the Model Parameters and Run</h2>
+        <MadCap:snippetBlock src="../LFB/LFBInputs.flsnp" />
+        <ol start="5" style="list-style-type: upper-alpha;">
+            <li>
+                <p>Specify a Simulation Time (Burn Period Length), from 4-12 hours.</p>
+                <p>
+                    <img src="../../../Images/Models/Flammap/Risk/simulation_time.png" alt="simulation time field in IFTDSS" class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Choose to either leave the Spotting Probability as the default 20% or adjust it as needed.</p>
+                <p>
+                    <img src="../../../Images/Models/Flammap/Risk/spotting_default.png" alt="spotting probability field in iftdss" class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Choose a descriptive run name and click <span class="UIcomponent">Run</span>.</p>
+            </li>
+        </ol>
+        <p>&#160;</p>
+    </body>
+</html>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../Resources/TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Midflame Wind Speed</h1>
+        <p>Midflame Wind Speed is viewable in Map Studio (image below) and available in the download package. Midflame wind speed is calculated by applying a wind adjustment factor to the 20 ft wind speed entered in the inputs form of a model run. The wind adjustment factor for each pixels is calculated from stand height and canopy cover in the landscape file.</p>
+        <p>In Map Studio the midflame wind speed is classified based on a modified Beaufort Scale (table below). In the output the data is continuous. In both instances, pixels with non-burnable fuel models have a value of 0.</p>
+        <p>
+            <img src="../../../Resources/Images/Models/Flammap/Risk/image15.png" class="border" />
+        </p>
+        <p>Modified Beaufort Scale (visual surface (20ft) wind estimate) used in IFTDSS to classify midflame wind speed in Map Studio.</p>
+        <table style="width: 100%;mc-table-style: url('../../../Resources/TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
+            <col class="TableStyle-Standard-Column-Column1" />
+            <col class="TableStyle-Standard-Column-Column1" />
+            <col class="TableStyle-Standard-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Wind Speed (mph)</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Description </td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Specifications</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&lt;2</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Extremely Light</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Smoke rises nearly vertically. Very little movement of vegetation.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&gt;2-4</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Very Light</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Smoke rises nearly vertically. Leaves of quaking aspen in constant motion; small branches of bushes sway; slender branchlets and twigs of trees move gently; tall grasses and weeds sway and bend with wind; wind barely moves.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&gt;4-8</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Light</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Trees of pole size in the open sway gently; wind felt distinctly on the face; loose scraps of paper move; wind flutters small flag.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&gt;8-13</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Gentle Breeze</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Trees of pole size in the open sway very noticeably; large branches of pole sized trees in the open toss; tops of trees in dense stands sway; wind extends small flag; a few crested waves form on lakes.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&gt;13-19</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Moderate Breeze</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Trees of pole size in the open sway violently; whoe trees in dense stands sway noticeably; dust is raised in the road.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&gt;19-25</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Fresh</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Branchlets are broken from trees; inconvenience is fel in walking against wind.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&gt;25-32</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Strong</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Tree damage increases with occasional breaking of exposed tops and branges; progress  impeded when walking against wind; light structural damage.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&gt;32-39</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Moderate Gale</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Severe damage to tree tops; very difficult to walk into wind; significant structural damage occurs.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyB-Column1-Body2">&gt;39</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body2">Fresh Gale</td>
+                    <td class="TableStyle-Standard-BodyA-Column1-Body2">Surfaces string Santa Ana; intense stress on all exposed objects, vegetation, buildings; canopy offers virtually no protection; wind flow is systematic in disturbing everything in its path.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>If you are interested in the exact midflame wind speed value of a point on the map, the Identify widget can be used in Map Studio.</p>
+        <p>
+            <img src="../../../Resources/Images/Models/Flammap/Risk/image19.png" class="border" />
+        </p>
+        <p>In the download package, midflame wind speed is one of the bands in the GeoTiff. It has the continuous values in miles per hour. Where non-burnable pixels exist, the value is 0.</p>
+    </body>
+</html>

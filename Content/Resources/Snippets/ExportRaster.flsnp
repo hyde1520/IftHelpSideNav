@@ -3,7 +3,6 @@
     <head>
     </head>
     <body>
-        <p>Landscape data and Landscape Fire Behavior Model outputs can be downloaded as a Geo Tiff (.tif) raster dataset for use in other applications such as ArcMap. To download a raster dataset from <MadCap:variable name="General.ProductName"></MadCap:variable>:</p>
         <ol style="list-style-type: upper-alpha;">
             <li>You may export from file lists in <span class="UIcomponent">My Workspace</span> or <span class="UIcomponent">My Modeling Playground</span>.</li>
             <li>Select the file you would like to download.</li>
@@ -21,19 +20,6 @@
                 <p>
                     <img src="../Images/MyWorkspace/raster_save_confirm.png" alt="click &quot;Download&quot; to download your file." class="borderlist">
                     </img>
-                </p>
-            </li>
-            <li>
-                <p>From your local machine, you may locate and copy the zip file, extract the contents, and store where needed.</p>
-                <p>
-                    <img src="../Images/External/PC/raster_local_save.png" alt="uzip the file on your local computer" class="borderlist">
-                    </img>
-                </p>
-            </li>
-            <li>
-                <p>Once extracted, the file will be a GeoTif (.tif) with separate bands for each landscape feature or model output. (See the Topic on <a href="../../10-Workspace/downloads/GeoTiffArcOpen.htm" target="_blank">Opening <MadCap:variable name="General.ProductName" /> rasters in ArcMap</a> for more details if needed)</p>
-                <p>
-                    <img src="../Images/External/Arc/raster_use.png" alt="the file will be in .tif format with a band for each landscape feature or model output." class="borderlist" />
                 </p>
             </li>
         </ol>

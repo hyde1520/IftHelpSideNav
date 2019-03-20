@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../Resources/TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>MTT Outputs<span style="background-color: #ffff00;"> - Placeholder</span></h1>
+        <p>The output grids are calculated at the cell size specified in the <span class="Code-Command">Resolution of calculations</span> spin box described 
+ above. The MTT method produces output similar to that produced by the 
+ <span style="font-style: italic;">FARSITE</span> fire growth models with 
+ the addition of data on the routes taken by fire spreading from one node 
+ to the other.</p>
+        <table style="width: 100%;mc-table-style: url('../../Resources/TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
+            <col class="TableStyle-Standard-Column-Column1" />
+            <col class="TableStyle-Standard-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Standard-Head-Header1">
+                    <td class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">
+                        <p style="text-align: center;font-family: Arial;">MTT Output Theme</p>
+                    </td>
+                    <td class="TableStyle-Standard-HeadD-Column1-Header1" style="font-weight: bold;">
+                        <p style="text-align: center;font-family: 'Arial Black', sans-serif;"><span style="font-family: Arial;">Description</span>
+                        </p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">
+                        <p>MTT Rate 
+		 of Spread Grid</p>
+                    </td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">
+                        <p class="Table">Spread rate of the fire as it encountered each 
+		 node along the minimum travel time path. These are different values 
+		 from the rate of spread grid calculated on the <a href="../../../../../../Desktop/Flare_tests/Flammap/Content/Runs/Fire_Behavior_Options_Tab.htm"><span class="Code-Command">Fire Behavior Outputs</span> tab</a>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">
+                        <p>MTT Influence 
+		 Grid</p>
+                    </td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">
+                        <p class="Table">Logarithm of the number of nodes burning as 
+		 a result of burning through that particular node. The log-transform 
+		 is required because the node counts can range over 4 or 5 orders 
+		 of magnitude (e.g. from 1-10000) making the details difficult 
+		 to visualize if the scale remains linear.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">
+                        <p>MTT Arrival 
+		 Time Grid</p>
+                    </td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">
+                        <p class="Table">The elapsed time when the fire arrived at each 
+		 node. A default contour of this grid is also displayed. You can 
+		 also <a href="../../../../../../Desktop/Flare_tests/Flammap/Content/FileTypes/PU_Grid_Files.htm#ContourAuxGrid">create 
+		 contours</a> of this grid at any desired interval.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">
+                        <p>MTT Fireline 
+		 Intensity Grid</p>
+                    </td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">
+                        <p class="Table">Fireline intensity of each node burned by the 
+		 fire as it follows the minimum travel time path. These are different 
+		 values from the fireline intensity grid calculated on the <a href="../../../../../../Desktop/Flare_tests/Flammap/Content/Runs/Fire_Behavior_Options_Tab.htm"><span class="Code-Command">Fire Behavior Outputs</span> tab</a>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">
+                        <p>MTT Flow 
+		 Paths vector theme</p>
+                    </td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">
+                        <p class="Table">Minimum travel time pathways among all nodes. 
+		 This theme can be very cluttered at small node resolutions and 
+		 is better viewed by <a href="../../../../../../Desktop/Flare_tests/Flammap/Content/DisplayCMDs/RH_View_Menu.htm#ZoomIn">zooming 
+		 in</a>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">
+                        <p>MTT Major 
+		 Paths vector theme</p>
+                    </td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">
+                        <p class="Table">Major paths identified at the user-specified 
+		 <span class="Code-Command">Interval for Minimum Travel Paths</span> 
+		 described above in the <span class="Code-Command">Inputs</span> 
+		 section.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">
+                        <p>MTT 
+		 Arrival Time Contour</p>
+                    </td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">
+                        <p class="Table">A contour representation of the MTT Arrival 
+		 Time grid. The default contour interval is the maximum value of 
+		 the MTT Arrival Time grid divided by 10.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">
+                        <p>MTT 
+		 Ignition Grid</p>
+                    </td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">
+                        <p class="Table">The raster interpretation of the ignition and 
+		 barrier vectors by the MTT model.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">
+                        <p>Ember 
+		 Landing Locations</p>
+                    </td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">
+                        <p class="Table">point shapefile</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyB-Column1-Body2">
+                        <p>Ember 
+		 List</p>
+                    </td>
+                    <td class="TableStyle-Standard-BodyA-Column1-Body2">
+                        <p class="Table">Comma separated value file (CSV) with launch 
+		 coordinates, landing coordinates, launch time, and landing time. 
+		 </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>When burn probabilities are calculated from either <span class="Code-Command"><a href="#RandomIgnitions">Random</a></span> ignitions or <span class="Code-Command"><a href="#From_Fire_List_File">From Fire List File</a></span> the following 
+ outputs are &#160;available.</p>
+        <table style="width: 100%;mc-table-style: url('../../Resources/TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
+            <col class="TableStyle-Standard-Column-Column1" />
+            <col class="TableStyle-Standard-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Standard-Head-Header1">
+                    <td class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">
+                        <p style="text-align: center;font-family: 'Arial Black', sans-serif;"><span style="font-family: Arial;">Burn Probability 
+		 Output Theme</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-Standard-HeadD-Column1-Header1" style="font-weight: bold;">
+                        <p style="text-align: center;font-family: 'Arial Black', sans-serif;"><span style="font-family: Arial;">Description</span>
+                        </p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">
+                        <p>Burn 
+		 Probabilities</p>
+                    </td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">
+                        <p class="Table">Single output grid that contains the fraction 
+		 of the number of fires that encountered each node (0.0 to 1.0).</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">
+                        <p>MTT 
+		 Perimeters</p>
+                    </td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">
+                        <p class="Table">Vector theme of perimeters for the modeled fires 
+		 generated by the specified random ignitions.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">
+                        <p>FLP 
+		 - 6 Bin English</p>
+                    </td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">
+                        <p class="Table">Text file with the flame length probability 
+		 in English units (feet).</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">
+                        <p>FLP 
+		 - 20 Bin Metric</p>
+                    </td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">
+                        <p class="Table">Text file with the flame length probability 
+		 in metric units (meters).</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">
+                        <p>Fire 
+		 Size List</p>
+                    </td>
+                    <td class="TableStyle-Standard-BodyA-Column1-Body1">
+                        <p class="Table">Text file containing the ignition point and 
+		 size, in acres, for each fire used in the burn probability run.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Four default grids are included in every FlamMap run, three of <a href="../../../../../../Desktop/Flare_tests/Flammap/Content/FileTypes/PU_OUT_Elliptical_Dimen.htm">Elliptical 
+ Dimensions</a> and one for <a href="../../../../../../Desktop/Flare_tests/Flammap/Content/FileTypes/PU_OUT_Max_Spread_Dir.htm">Maximum 
+ Spread Direction</a>. These are intermediate products of the MTT model 
+ and made available for research and creating unique output products.</p>
+    </body>
+</html>

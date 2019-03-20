@@ -22,10 +22,10 @@
     <Map Name="LCPInfo" Link="/Content/10-MapStudio/Files/LCPInfo.htm" />
     <Map Name="ShapefileInfo" Link="/Content/10-MapStudio/Files/ShapefileInfo.htm" />
     <Map Name="AddReferenceData" Link="/Content/10-MapStudio/Functions/AddReferenceData.htm" />
-    <Map Name="FlamMapBackground" Link="/Content/20-Models/FlamMap/LFB/TechDoc.htm" />
-    <Map Name="FlamMapCrowns" Link="/Content/20-Models/FlamMap/CrownMethods.htm" />
-    <Map Name="FlamMapInput" Link="/Content/20-Models/FlamMap/LFB/Input.htm" />
-    <Map Name="FlamMapOutput" Link="/Content/20-Models/FlamMap/LFB/Output.htm" />
+    <Map Name="FlamMapBackground" Link="/Content/20-Models/LFB/TechDoc.htm" />
+    <Map Name="FlamMapCrowns" Link="/Content/20-Models/LFB/In/CrownMethods.htm" />
+    <Map Name="FlamMapInput" Link="/Content/20-Models/LFB/In/Input.htm" />
+    <Map Name="FlamMapOutput" Link="/Content/20-Models/LFB/Out/Output.htm" />
     <Map Name="MyWorkspaceAbout" Link="/Content/10-Workspace/MyWorkspaceAbout.htm" />
     <Map Name="ImplementationPlanAbout" Link="/Content/10-Cycle/ImplementationPlanAbout.htm" />
     <Map Name="LandEvalAbout" Link="/Content/10-Cycle/LandEvalAbout.htm" />
@@ -50,7 +50,7 @@
     <Map Name="ConsumeOut" Link="/Content/20-Models/FFT/ConsumeOut.htm" />
     <Map Name="DigitalPhotoSeries" Link="/Content/20-Models/FFT/DigitalPhotoSeries.htm" />
     <Map Name="FEPS" Link="/Content/20-Models/FFT/FEPS.htm" />
-    <Map Name="FlamMapAbout" Link="/Content/20-Models/FlamMap/LFB/About.htm" />
+    <Map Name="FlamMapAbout" Link="/Content/20-Models/LFB/About.htm" />
     <Map Name="FBFMHeatValues" Link="/Content/00-Concepts/FBFM/FBFMHeatValues.htm" />
     <Map Name="KnownIssues" Link="/Content/00-AboutIFTDSS/KnownIssues.htm" />
     <Map Name="EditTools" Link="/Content/10-MapStudio/Functions/EditTools.htm" />
@@ -95,14 +95,14 @@
     <Map Name="chs_updates" Link="/Content/99-HelpProjectInfo/chs_updates.htm" />
     <Map Name="Resources" Link="/Content/41-References/Resources.htm" />
     <Map Name="myworkspace_folders_hh" Link="/Content/50-Hover/MyWorkspace/myworkspace_folders_hh.htm" />
-    <Map Name="FireBehavior" Link="/Content/20-Models/FlamMap/LFB/About.htm" />
+    <Map Name="FireBehavior" Link="/Content/20-Models/LFB/About.htm" />
     <Map Name="ModelingPlayground" Link="/Content/10-Playground/ModelsOverview.htm" />
     <Map Name="AccountSetup1" Link="/Content/10-FTEM/AccountsRoles/AccountSetup.htm" />
     <Map Name="FTEMAbout1" Link="/Content/10-FTEM/FTEMAbout.htm" />
     <Map Name="FTEMFaq" Link="/Content/10-FTEM/FAQs.htm" />
     <Map Name="MonitoringGuidance" Link="/Content/10-FTEM/Guidance/MonitoringGuidance.htm" />
     <Map Name="Reporting" Link="/Content/10-FTEM/Reports/FTEMReporting.htm" />
-    <Map Name="Symbology" Link="/Content/10-FTEM/General/Symbology.htm" />
+    <Map Name="Symbology" Link="/Content/10-FTEM/General/SymbologyFires.htm" />
     <Map Name="TechDoc" Link="/Content/10-FTEM/DataTechnical/TechDoc.htm" />
     <Map Name="UsingFtem" Link="/Content/10-FTEM/General/UsingFtem.htm" />
     <Map Name="WindAdjustment" Link="/Content/10-FTEM/General/WindAdjustment.htm" />
@@ -126,11 +126,11 @@
     <Map Name="_2_Default_Rules_hh" Link="/Content/50-Hover/LandscapeEdit/2_Default Rules_hh.htm" />
     <Map Name="_3_UserCreated_Rules_hh" Link="/Content/50-Hover/LandscapeEdit/3_UserCreated Rules_hh.htm" />
     <Map Name="_4_Name_Save_hh" Link="/Content/50-Hover/LandscapeEdit/4_Name Save_hh.htm" />
-    <Map Name="_1_runcreate_hh" Link="/Content/50-Hover/FlamMap/1_runcreate_hh.htm" />
-    <Map Name="_2_selectLCP_hh" Link="/Content/50-Hover/FlamMap/2_selectLCP_hh.htm" />
-    <Map Name="_3_wind_hh" Link="/Content/50-Hover/FlamMap/3_wind_hh.htm" />
-    <Map Name="_4_crownfire_hh" Link="/Content/50-Hover/FlamMap/4_crownfire_hh.htm" />
-    <Map Name="_5_FMs_hh" Link="/Content/50-Hover/FlamMap/5_FMs_hh.htm" />
+    <Map Name="_1_runcreate_hh" Link="/Content/50-Hover/Models/LFB/1_runcreate_hh.htm" />
+    <Map Name="_2_selectLCP_hh" Link="/Content/50-Hover/Models/LFB/2_selectLCP_hh.htm" />
+    <Map Name="_3_wind_hh" Link="/Content/50-Hover/Models/LFB/3_wind_hh.htm" />
+    <Map Name="_4_crownfire_hh" Link="/Content/50-Hover/Models/LFB/4_crownfire_hh.htm" />
+    <Map Name="_5_FMs_hh" Link="/Content/50-Hover/Models/LFB/5_FMs_hh.htm" />
     <Map Name="Estimating_Fuel_Moistures" Link="/Content/00-Concepts/EstimatingFuelMoistures.htm" />
     <Map Name="IFTDSSFAQ" Link="/Content/00-AboutIFTDSS/IFTDSSFAQ.htm" />
     <Map Name="Adding_Treatment_Interactions" Link="/Content/10-FTEM/DataTechnical/Buffering.htm" />
@@ -188,37 +188,37 @@
     <Map Name="EditingLandscapes" Link="/Content/40-Tutorials/Shorts/EditingLandscapes.htm" />
     <Map Name="RunningLFBmodels" Link="/Content/40-Tutorials/Shorts/RunningLFBmodels.htm" />
     <Map Name="ViewingOutputsMapStudio" Link="/Content/40-Tutorials/Shorts/ViewingOutputsMapStudio.htm" />
-    <Map Name="simulation_time_hh" Link="/Content/50-Hover/MTT/simulation_time_hh.htm" />
-    <Map Name="spotting_hh" Link="/Content/50-Hover/MTT/spotting_hh.htm" />
-    <Map Name="DeadFMConditioning" Link="/Content/20-Models/FlamMap/DeadFMConditioning.htm" />
-    <Map Name="FlamMapWinds" Link="/Content/20-Models/FlamMap/Winds.htm" />
-    <Map Name="MTTAbout" Link="/Content/20-Models/FlamMap/MTT/About.htm" />
-    <Map Name="MTTInputs" Link="/Content/20-Models/FlamMap/MTT/Inputs.htm" />
-    <Map Name="MTTOutputs" Link="/Content/20-Models/FlamMap/MTT/Outputs.htm" />
+    <Map Name="simulation_time_hh" Link="/Content/50-Hover/Models/MTT/simulation_time_hh.htm" />
+    <Map Name="spotting_hh" Link="/Content/50-Hover/Models/MTT/spotting_hh.htm" />
+    <Map Name="DeadFMConditioning" Link="/Content/20-Models/LFB/In/DeadFMConditioning.htm" />
+    <Map Name="FlamMapWinds" Link="/Content/20-Models/LFB/In/Winds.htm" />
+    <Map Name="MTTAbout" Link="/Content/20-Models/MTT/About.htm" />
+    <Map Name="MTTInputs" Link="/Content/20-Models/MTT/Inputs.htm" />
+    <Map Name="MTTOutputs" Link="/Content/20-Models/MTT/Outputs.htm" />
     <Map Name="LCPCreateFromButton" Link="/Content/30-Tasks/CreateLCP/LCPCreateFromButton.htm" />
-    <Map Name="template_hh" Link="/Content/50-Hover/MTT/template_hh.htm" />
-    <Map Name="FM_conditioning_hh" Link="/Content/50-Hover/FlamMap/FM_conditioning_hh.htm" />
+    <Map Name="template_hh" Link="/Content/50-Hover/Models/MTT/template_hh.htm" />
+    <Map Name="FM_conditioning_hh" Link="/Content/50-Hover/Models/LFB/FM_conditioning_hh.htm" />
     <Map Name="MISSING_DATA" Link="/Content/10-FTEM/General/Missing Data.htm" />
     <Map Name="SEARCHBUFFER" Link="/Content/10-FTEM/General/SearchBuffer.htm" />
-    <Map Name="MTTTECHDOC" Link="/Content/20-Models/FlamMap/MTT/TechDoc.htm" />
+    <Map Name="MTTTECHDOC" Link="/Content/20-Models/MTT/TechDoc.htm" />
     <Map Name="LCPCreateAbout" Link="/Content/30-Tasks/CreateLCP/LCPCreateAbout.htm" />
-    <Map Name="ignition_hh" Link="/Content/50-Hover/MTT/ignition_hh.htm" />
+    <Map Name="ignition_hh" Link="/Content/50-Hover/Models/MTT/ignition_hh.htm" />
     <Map Name="SelectFires" Link="/Content/10-FTEM/General/TreatmentFilters.htm" />
     <Map Name="geotiff_reclass1" Link="/Content/10-Workspace/geotiff_reclass.htm" />
     <Map Name="LCP_export1" Link="/Content/10-Workspace/LCP_export.htm" />
     <Map Name="LoadingGeoIntoFlammap1" Link="/Content/10-Workspace/LoadingGeoIntoFlammap.htm" />
     <Map Name="OpenGeoTif1" Link="/Content/10-Workspace/OpenGeoTif.htm" />
-    <Map Name="GeoTiffAbout" Link="/Content/10-Workspace/downloads/GeoTiffAbout.htm" />
+    <Map Name="GeoTiffAbout" Link="/Content/10-Workspace/downloads/DownloadHowTo.htm" />
     <Map Name="GeoTiffLFBOut" Link="/Content/10-Workspace/downloads/GeoTiffLFBOut.htm" />
     <Map Name="AboutWXS" Link="/Content/20-Models/FlamMap/AboutWXS.htm" />
     <Map Name="classifiedweather" Link="/Content/20-Models/FlamMap/classifiedweather.htm" />
-    <Map Name="CrownBasics" Link="/Content/20-Models/FlamMap/CrownBasics.htm" />
-    <Map Name="_input_files_for_use_in_FlamMap_6" Link="/Content/20-Models/FlamMap/LFB/.input files for use in FlamMap 6.htm" />
-    <Map Name="UsingLFBFlmpInput" Link="/Content/20-Models/FlamMap/LFB/UsingLFBFlmpInput.htm" />
-    <Map Name="Ignition" Link="/Content/20-Models/FlamMap/MTT/Ignition.htm" />
-    <Map Name="MTTFlowPaths" Link="/Content/20-Models/FlamMap/MTT/MTTFlowPaths.htm" />
-    <Map Name="SimTimes" Link="/Content/20-Models/FlamMap/SimTimes.htm" />
-    <Map Name="Spot" Link="/Content/20-Models/FlamMap/Spot.htm" />
+    <Map Name="CrownBasics" Link="/Content/20-Models/LFB/In/CrownBasics.htm" />
+    <Map Name="_input_files_for_use_in_FlamMap_6" Link="/Content/20-Models/LFB/Out/.input files for use in FlamMap 6.htm" />
+    <Map Name="UsingLFBFlmpInput" Link="/Content/20-Models/LFB/UsingLFBFlmpInput.htm" />
+    <Map Name="Ignition" Link="/Content/20-Models/MTT/Ignition.htm" />
+    <Map Name="MTTFlowPaths" Link="/Content/20-Models/MTT/MTTFlowPaths.htm" />
+    <Map Name="SimTimes" Link="/Content/20-Models/LBP/In/SimTimesLBP.htm" />
+    <Map Name="Spot" Link="/Content/20-Models/LBP/In/SpotLBP.htm" />
     <Map Name="GettingStarted" Link="/Content/A_Introduction Topics/GettingStarted.htm" />
     <Map Name="MoreInformation" Link="/Content/A_Introduction Topics/MoreInformation.htm" />
     <Map Name="WhatsNew" Link="/Content/A_Introduction Topics/WhatsNew.htm" />
@@ -237,23 +237,39 @@
     <Map Name="_1_Create_Project_and_CLP1" Link="/Content/40-Tutorials/Merged Tutorial/1_Create_Project_and_CLP.htm" />
     <Map Name="AddTreatmentwMap" Link="/Content/10-FTEM/General/AddTreatmentwMap.htm" />
     <Map Name="Resampling" Link="/Content/20-Models/Resampling.htm" />
-    <Map Name="Resampling1" Link="/Content/20-Models/FlamMap/Resampling.htm" />
-    <Map Name="BPInputsOverview" Link="/Content/20-Models/FlamMap/BurnProb/InOverview.htm" />
-    <Map Name="BPOutputs" Link="/Content/20-Models/FlamMap/BurnProb/OutOverview.htm" />
-    <Map Name="BPOutputsDownload" Link="/Content/20-Models/FlamMap/BurnProb/OutDownload.htm" />
-    <Map Name="BPOutputsIFTDSS" Link="/Content/20-Models/FlamMap/BurnProb/OutViewIFTDSS.htm" />
-    <Map Name="BPTechDoc" Link="/Content/20-Models/FlamMap/BurnProb/TechDoc.htm" />
-    <Map Name="BurnProbAbout" Link="/Content/20-Models/FlamMap/BurnProb/About.htm" />
-    <Map Name="FiresSimulated" Link="/Content/20-Models/FlamMap/BurnProb/InFiresSimulated.htm" />
-    <Map Name="Resolution" Link="/Content/20-Models/FlamMap/BurnProb/InResolution.htm" />
+    <Map Name="BPInputsOverview" Link="/Content/20-Models/LBP/In/OverviewLBP.htm" />
+    <Map Name="BPOutputs" Link="/Content/20-Models/LBP/Out/Overview.htm" />
+    <Map Name="BPOutputsDownload" Link="/Content/20-Models/LBP/Out/Download.htm" />
+    <Map Name="BPOutputsIFTDSS" Link="/Content/20-Models/LBP/Out/OutViewIFTDSS.htm" />
+    <Map Name="BPTechDoc" Link="/Content/20-Models/LBP/TechDoc.htm" />
+    <Map Name="BurnProbAbout" Link="/Content/20-Models/LBP/About.htm" />
+    <Map Name="FiresSimulated" Link="/Content/20-Models/LBP/In/NoFiresSimLBP.htm" />
+    <Map Name="Resolution" Link="/Content/20-Models/LBP/In/ResolutionLBP.htm" />
     <Map Name="FTEMRefLayers" Link="/Content/10-FTEM/General/FTEMRefLayers.htm" />
     <Map Name="Completion" Link="/Content/10-FTEM/General/Completion.htm" />
     <Map Name="ModelStatus" Link="/Content/20-Models/ModelStatus.htm" />
-    <Map Name="OutBurnProb" Link="/Content/20-Models/FlamMap/BurnProb/OutBurnProb.htm" />
-    <Map Name="OutConditionalFL" Link="/Content/20-Models/FlamMap/BurnProb/OutConditionalFL.htm" />
-    <Map Name="OutFireIntensityLev" Link="/Content/20-Models/FlamMap/BurnProb/OutFireIntensityLev.htm" />
-    <Map Name="OutFireSizeList" Link="/Content/20-Models/FlamMap/BurnProb/OutFireSizeList.htm" />
-    <Map Name="OutFlammapInputFile" Link="/Content/20-Models/FlamMap/BurnProb/OutFlammapInputFile.htm" />
-    <Map Name="OutFuelMoisture" Link="/Content/20-Models/FlamMap/BurnProb/OutFuelMoisture.htm" />
-    <Map Name="OutMidflameWindSpd" Link="/Content/20-Models/FlamMap/BurnProb/OutMidflameWindSpd.htm" />
+    <Map Name="OutBurnProb" Link="/Content/20-Models/LBP/Out/BurnProb.htm" />
+    <Map Name="OutConditionalFL" Link="/Content/20-Models/LBP/Out/ConditionalFL.htm" />
+    <Map Name="OutFireIntensityLev" Link="/Content/20-Models/LBP/Out/FireIntensityLev.htm" />
+    <Map Name="OutFireSizeList" Link="/Content/20-Models/LBP/Out/FireSizeList.htm" />
+    <Map Name="OutFlammapInputFile" Link="/Content/20-Models/LBP/Out/FlammapInputFile.htm" />
+    <Map Name="OutFuelMoisture" Link="/Content/20-Models/LBP/Out/FuelMoisture.htm" />
+    <Map Name="OutMidflameWindSpd" Link="/Content/20-Models/LBP/Out/MidflameWindSpd.htm" />
+    <Map Name="SymbologyTrtmnts" Link="/Content/10-FTEM/General/SymbologyTrtmnts.htm" />
+    <Map Name="RunConsiderations" Link="/Content/20-Models/LBP/RunConsiderations.htm" />
+    <Map Name="LandscapeLBP" Link="/Content/20-Models/LBP/In/LandscapeLBP.htm" />
+    <Map Name="OutHazard" Link="/Content/20-Models/LBP/Out/Hazard.htm" />
+    <Map Name="RiskAssessment" Link="/Content/30-Tasks/Risk/RiskAssessment.htm" />
+    <Map Name="_1_runcreate_hh1" Link="/Content/50-Hover/Models/LBP/1_runcreate_hh.htm" />
+    <Map Name="_2_wind_hh" Link="/Content/50-Hover/Models/LBP/2_wind_hh.htm" />
+    <Map Name="_3_crownfire_hh" Link="/Content/50-Hover/Models/LBP/3_crownfire_hh.htm" />
+    <Map Name="_4_FM_hh" Link="/Content/50-Hover/Models/LBP/4_FM_hh.htm" />
+    <Map Name="_5_FMcondition_hh" Link="/Content/50-Hover/Models/LBP/5_FMcondition_hh.htm" />
+    <Map Name="_6_simtime_hh" Link="/Content/50-Hover/Models/LBP/6_simtime_hh.htm" />
+    <Map Name="_7_spotting_hh" Link="/Content/50-Hover/Models/LBP/7_spotting_hh.htm" />
+    <Map Name="_1_runcreate_hh2" Link="/Content/50-Hover/Models/MTT/1_runcreate_hh.htm" />
+    <Map Name="_2_wind_hh1" Link="/Content/50-Hover/Models/MTT/2_wind_hh.htm" />
+    <Map Name="_3_crownfire_hh1" Link="/Content/50-Hover/Models/MTT/3_crownfire_hh.htm" />
+    <Map Name="_4_FM_hh1" Link="/Content/50-Hover/Models/MTT/4_FM_hh.htm" />
+    <Map Name="_5_FMcondition_hh1" Link="/Content/50-Hover/Models/MTT/5_FMcondition_hh.htm" />
 </CatapultAliasFile>

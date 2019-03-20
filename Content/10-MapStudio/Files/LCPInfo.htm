@@ -1,10 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="2282" MadCap:lastWidth="1451">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
-        <link href="../../Resources/TableStyles/IFTDSS_PatternedRowsLeft.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
         <h1>Landscape (.LCP) Files</h1>
+        <p>A <a href="LCPInfo.htm" target="_blank">Landscape file (.LCP)</a> is a multi-band raster format commonly used by wildland fire behavior and fire effects models such as FARSITE and FlamMap. The bands of an .LCP file store data describing terrain, tree canopy, and fuel model (outlined in the table below). The .LCP file defines your project area and is the first input needed to run most models in <MadCap:variable name="General.ProductName"></MadCap:variable>. LCP's generated in <MadCap:variable name="General.ProductName"></MadCap:variable> are derived from  <a href="../../00-Concepts/LANDFIRE.htm" target="_blank">LANDFIRE</a>.</p>
+        <p>Data contained in <MadCap:variable name="General.ProductName" /> LCP files:</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/LCPs/lcp table.flsnp" />
         <MadCap:snippetBlock src="../../Resources/Snippets/LCPs/about_lcps.flsnp" />
         <h2>Editing Considerations</h2>
         <p>Landscape features are not dependent upon each other when editing. When editing an LCP with User Created Edit Rules, changing one feature such as Fire Behavior Fuel Model, will not make changes to other features such as canopy height cover, etc. For example, changing a Timber Understory Fuel Model to a Grass Fuel Model will change the Fuel Model, but all the timber canopy features will remain until you edit them as well.</p>

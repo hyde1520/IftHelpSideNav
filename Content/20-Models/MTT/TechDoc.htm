@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>Minimum Travel Time (MTT) Fire Spread Technical Documentation</h1>
+        <p>Minimum travel time (MTT) Fire Spread is a two-dimensional fire growth 
+ model (<a href="../../41-References/Citations.htm#Finney2002" target="_blank">Finney, 2002</a>). MTT calculates fire growth and behavior by searching 
+ for the set of pathways with minimum fire spread times from point, line, 
+ or polygon ignition sources. In theory, the results are identical to wave-front 
+ expansion used in Farsite with the exception that all weather and fuel 
+ moisture conditions are held constant over time with MTT but are allowed 
+ to vary with time in Farsite.</p>
+        <h2>Ignition</h2>
+        <p>Specify your ignitions with an uploaded shapefile, or drawn shape from <MadCap:variable name="General.MapStudio" />. Only a single file may be selected, but that file may contain several points or lines to indicate ignition.</p>
+        <h2>Simulation Time</h2>
+        <p>This specifies the duration (in hours), and the number of burn periods you want to represent. For example:</p>
+        <ul>
+            <li>If you want to simulate a 5 hour burn period over one day, enter "5" in the Burn Period Length field, and "1" in the # Burn&#160;Periods field to represent one day. </li>
+            <li>If you want to simulate a 5 hour burn period per day, for three days, enter a "5" in the Burn Period Length field, and "3" in the # Burn&#160;Periods field to represent three days.</li>
+            <li MadCap:conditions="General.Exclude">A "0" (zero) simulation time behaves differently depending 
+ on the ignition type. Using a shapefile as the ignition indicates that 
+ you want to run the simulation until all burnable nodes on the landscape 
+ have "burned". On "slow" or large analysis areas or 
+ with moderate weather conditions this can cause very long runtimes. </li>
+        </ul>
+        <h2>Spotting</h2>
+        <h2>Barriers</h2>
+    </body>
+</html>
