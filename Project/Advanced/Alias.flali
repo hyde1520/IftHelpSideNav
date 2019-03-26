@@ -24,7 +24,7 @@
     <Map Name="AddReferenceData" Link="/Content/10-MapStudio/Functions/AddReferenceData.htm" />
     <Map Name="FlamMapBackground" Link="/Content/20-Models/LFB/TechDoc.htm" />
     <Map Name="FlamMapCrowns" Link="/Content/20-Models/LFB/In/CrownMethods.htm" />
-    <Map Name="FlamMapInput" Link="/Content/20-Models/LFB/In/Input.htm" />
+    <Map Name="FlamMapInput" Link="/Content/20-Models/LFB/In/InOverviewLFB.htm" />
     <Map Name="FlamMapOutput" Link="/Content/20-Models/LFB/Out/Output.htm" />
     <Map Name="MyWorkspaceAbout" Link="/Content/10-Workspace/MyWorkspaceAbout.htm" />
     <Map Name="ImplementationPlanAbout" Link="/Content/10-Cycle/ImplementationPlanAbout.htm" />
@@ -181,7 +181,7 @@
     <Map Name="WildfireReport" Link="/Content/10-FTEM/Reports/WildfireReport.htm" />
     <Map Name="ReferenceLayers" Link="/Content/10-MapStudio/Files/ReferenceLayers.htm" />
     <Map Name="LoadingGeoIntoFlammap" Link="/Content/10-Workspace/downloads/GeoTiffFlammap.htm" />
-    <Map Name="AOIlandscapefb" Link="/Content/20-Models/FlamMap/AOIlandscapefb.htm" />
+    <Map Name="AOIlandscapefb" Link="/Content/20-Models/LFB/AOIlandscapefb.htm" />
     <Map Name="EditingUserRuleTutorial" Link="/Content/40-Tutorials/EditingUserRuleTutorial.htm" />
     <Map Name="CreatingShapes" Link="/Content/40-Tutorials/Shorts/CreatingShapes.htm" />
     <Map Name="CreatingSummaryReports" Link="/Content/40-Tutorials/Shorts/CreatingSummaryReports.htm" />
@@ -193,8 +193,8 @@
     <Map Name="DeadFMConditioning" Link="/Content/20-Models/LFB/In/DeadFMConditioning.htm" />
     <Map Name="FlamMapWinds" Link="/Content/20-Models/LFB/In/Winds.htm" />
     <Map Name="MTTAbout" Link="/Content/20-Models/MTT/About.htm" />
-    <Map Name="MTTInputs" Link="/Content/20-Models/MTT/Inputs.htm" />
-    <Map Name="MTTOutputs" Link="/Content/20-Models/MTT/Outputs.htm" />
+    <Map Name="MTTInputs" Link="/Content/20-Models/MTT/In/InputoverviewmTT.htm" />
+    <Map Name="MTTOutputs" Link="/Content/20-Models/MTT/Out/Outputs.htm" />
     <Map Name="LCPCreateFromButton" Link="/Content/30-Tasks/CreateLCP/LCPCreateFromButton.htm" />
     <Map Name="template_hh" Link="/Content/50-Hover/Models/MTT/template_hh.htm" />
     <Map Name="FM_conditioning_hh" Link="/Content/50-Hover/Models/LFB/FM_conditioning_hh.htm" />
@@ -210,13 +210,13 @@
     <Map Name="OpenGeoTif1" Link="/Content/10-Workspace/OpenGeoTif.htm" />
     <Map Name="GeoTiffAbout" Link="/Content/10-Workspace/downloads/DownloadHowTo.htm" />
     <Map Name="GeoTiffLFBOut" Link="/Content/10-Workspace/downloads/GeoTiffLFBOut.htm" />
-    <Map Name="AboutWXS" Link="/Content/20-Models/FlamMap/AboutWXS.htm" />
-    <Map Name="classifiedweather" Link="/Content/20-Models/FlamMap/classifiedweather.htm" />
+    <Map Name="AboutWXS" Link="/Content/20-Models/ClassifiedWthr/AboutWXS.htm" />
+    <Map Name="classifiedweather" Link="/Content/20-Models/ClassifiedWthr/classifiedweather.htm" />
     <Map Name="CrownBasics" Link="/Content/20-Models/LFB/In/CrownBasics.htm" />
-    <Map Name="_input_files_for_use_in_FlamMap_6" Link="/Content/20-Models/LFB/Out/.input files for use in FlamMap 6.htm" />
+    <Map Name="_input_files_for_use_in_FlamMap_6" Link="/Content/20-Models/LFB/Out/FlammapInputFile.htm" />
     <Map Name="UsingLFBFlmpInput" Link="/Content/20-Models/LFB/UsingLFBFlmpInput.htm" />
-    <Map Name="Ignition" Link="/Content/20-Models/MTT/Ignition.htm" />
-    <Map Name="MTTFlowPaths" Link="/Content/20-Models/MTT/MTTFlowPaths.htm" />
+    <Map Name="Ignition" Link="/Content/20-Models/MTT/In/Ignition.htm" />
+    <Map Name="MTTFlowPaths" Link="/Content/20-Models/MTT/Out/MTTFlowPaths.htm" />
     <Map Name="SimTimes" Link="/Content/20-Models/LBP/In/SimTimesLBP.htm" />
     <Map Name="Spot" Link="/Content/20-Models/LBP/In/SpotLBP.htm" />
     <Map Name="GettingStarted" Link="/Content/A_Introduction Topics/GettingStarted.htm" />
@@ -272,4 +272,17 @@
     <Map Name="_3_crownfire_hh1" Link="/Content/50-Hover/Models/MTT/3_crownfire_hh.htm" />
     <Map Name="_4_FM_hh1" Link="/Content/50-Hover/Models/MTT/4_FM_hh.htm" />
     <Map Name="_5_FMcondition_hh1" Link="/Content/50-Hover/Models/MTT/5_FMcondition_hh.htm" />
+    <Map Name="lyr_file" Link="/Content/10-Workspace/downloads/lyr_file.htm" />
+    <Map Name="UseLyrLBP" Link="/Content/10-Workspace/downloads/UseLyrLBP.htm" />
+    <Map Name="UseLyrLCP" Link="/Content/10-Workspace/downloads/UseLyrLCP.htm" />
+    <Map Name="UserLyrLFB" Link="/Content/10-Workspace/downloads/UserLyrLFB.htm" />
+    <Map Name="CrownMethodsLBP" Link="/Content/20-Models/LBP/In/CrownMethodsLBP.htm" />
+    <Map Name="DeadFMConditioning1" Link="/Content/20-Models/LBP/In/DeadFMConditioning.htm" />
+    <Map Name="WindLBP" Link="/Content/20-Models/LBP/In/WindLBP.htm" />
+    <Map Name="CrownMethodsMTT" Link="/Content/20-Models/MTT/In/CrownMethodsMTT.htm" />
+    <Map Name="DeadFMConditioning2" Link="/Content/20-Models/MTT/In/DeadFMConditioning.htm" />
+    <Map Name="ResolutionMTT" Link="/Content/20-Models/MTT/In/ResolutionMTT.htm" />
+    <Map Name="SimTimesMTT" Link="/Content/20-Models/MTT/In/SimTimesMTT.htm" />
+    <Map Name="SpotMTT" Link="/Content/20-Models/MTT/In/SpotMTT.htm" />
+    <Map Name="WindMTT" Link="/Content/20-Models/MTT/In/WindMTT.htm" />
 </CatapultAliasFile>

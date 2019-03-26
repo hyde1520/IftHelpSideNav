@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="General.QA ONLY">
+    <head>
+    </head>
+    <body>
+        <h1>Importing Layer Symbology into ArcMap for Landscapes</h1>
+        <p>Lyr files define the symbology for the layers visible in Map Studio, and are useful in setting the color ramp in ArcMap to match those in IFTDSS.  For Landscapes .lyr files exist for include:</p>
+        <ul>
+            <li>Elevation</li>
+            <li>Slope</li>
+            <li>Aspect</li>
+            <li>Fuel Model</li>
+            <li>Canopy Cover</li>
+            <li>Stand Height</li>
+            <li>Canopy Base Height</li>
+            <li>Canopy Bulk Density</li>
+        </ul>
+        <div class="notificationNote">
+            <p>We have not included the files to map the Map Zone, Existing Vegetation Type, Existing Vegetation Height, and Existing Vegetation Cover because these are not viewable in Map Studio.</p>
+        </div>
+        <p>The Landscape layers include both categorical and continuous data, instructions for each of these are outlined below. In addition, Elevation is dynamic based on the values present in the landscape.</p>
+        <h2 MadCap:conditions="General.QA ONLY">Importing Symbology for Elevation</h2>
+        <p MadCap:conditions="General.QA ONLY">Coming Soon!</p>
+        <h2>Import Symbology for Fuel Model (categorical data)</h2>
+        <p>The Fuel Model layer in the Landscape GeoTiff is categorical data, the following outline how to import the symbology.</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Open an ArcMap session and add the layers you would like to map. For more information on how do add layers to ArcMap please see the <a href="../OpenGeoTif.htm" target="_blank">Opening an IFTDSS Geo Tiff file in ArcMap help topic</a>.</li>
+            <li>
+                <p>Right-click on the Fuel Model layer and click <span class="UIcomponent">Properties</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/fuellay_properties_.png" alt="Arc menu for fuel model file, properties option is highlighted" class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>In the <span class="UIcomponent">Layer Properties window</span> go to the <span class="UIcomponent">Symbology tab</span> and click on "Unique Values".  You may get a pop-up window asking if you would like to compute unique values.  Click "Yes".</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/fuellayer_uniquevalues_.png" alt="unique values window in Arc" class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Click on the <span class="UIcomponent">Folder icon</span> toward the top right. The <span class="UIcomponent">Import Symbology</span> window will open, click on the <span class="UIcomponent">Folder icon</span> and navigate to the "Fuel Models" layer file in your directory. Click <span class="UIcomponent">Add</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/fuellayer_pick_lyr.png" class="border" alt="listof lyr files with fuel model highlighted" />
+                </p>
+            </li>
+            <li>
+                <p>Click "OK" to close the <span class="UIcomponent">Import Symbology Layer</span>, then click "OK" to close the <span class="UIcomponent">Layer Properties window</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/fuellayer_closing.png" alt="import symbology dialogue box with OK button at bottom" class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Now you can see Fuel Model in ArcMap the same as it appears in IFTDSS Map Studio.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/fuellayer_colorramp_ift.png" alt="IFTDSS fuel models ini Map Studio with color legend displayed to the left" class="borderlist" />
+                </p>
+                <img src="../../Resources/Images/External/Arc/import_lyrs/fuellayer_colorramp_arc.png" alt="IFTDSS fuel models ini Arc with color legend displayed to the left" class="borderlist" />
+            </li>
+        </ol>
+        <h2>Importing Symbology for Slope, Aspect, Canopy Cover, Stand Height, Canopy Base Height, and Canopy Bulk Density (continuous data)</h2>
+        <p>The same steps are completed to import the symbology for Slope, Aspect, Canopy Cover, Stand Height, Canopy Base Height, and Canopy Bulk Density. The example below will use Canopy Base Height.</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>
+                <p>Open an ArcMap session and add the layers you would like to map. For more information on how do add layers to ArcMap please see the <a href="../OpenGeoTif.htm" target="_blank">Opening an IFTDSS Geo Tiff file in ArcMap help topic</a>.</p>
+            </li>
+            <li>
+                <p>Right-click on the Canopy Base Height layer and click <span class="UIcomponent">Properties</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/cbh_properties.png" alt="arc menu for the layer with the 'properties' option highlighted." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>In the <span class="UIcomponent">Layer Properties</span> window go to the <span class="UIcomponent">Symbology tab</span> and click on <span class="UIcomponent">Classified</span>.  Then click on the <span class="UIcomponent">Folder icon</span> toward the top right. The <span class="UIcomponent">Import Symbology window</span> will open, click on the <span class="UIcomponent">Folder icon</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/cbh_classified.png" alt="'classified' dialogue in arc, avaialble under the symbology tab." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Navigate to the Canopy Base Height layer file in your directory. Click <span class="UIcomponent">Add</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/cbh_lyr_select.png" alt="list of lyr files" class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Click <span class="UIcomponent">OK</span> to close out the<span class="UIcomponent"> Import Symbology window</span>. Click <span class="UIcomponent">OK</span> to close the <span class="UIcomponent">Layer Properties window</span>.  Now you can see Canopy Base&#160;Height in ArcMap the same as it is in Map Studio in IFTDSS.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/cbh_colorramp_ift.png" alt="IFTDSS cbh layer in map studio with color legend displayed to the left" class="borderlist" />
+                </p>
+                <img src="../../Resources/Images/External/Arc/import_lyrs/cbh_colorramp_arc.png" alt="IFTDSS cbh layer in arc with color legend displayed to the left" class="borderlist" />
+            </li>
+        </ol>
+        <div class="notificationImportant">
+            <p>The classification is completed to match the units in Map Studio, however the units in the GeoTiff are not always the same.  For example, Canopy Base Height is m *10 in the GeoTiff, and m in the legend. In the image below, the value for the pixel at the red dot is 5. Which is in the &gt;0-0.5 class in the legend (dark green).  Because the data is m * 10, it represents 0.5 m in the legend.</p>
+            <p>
+                <img src="../../Resources/Images/External/Arc/import_lyrs/cbh_units.png" alt="cbh layer in arc map" />
+            </p>
+        </div>
+    </body>
+</html>

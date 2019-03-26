@@ -13,7 +13,7 @@
                 <ol style="list-style-type: lower-alpha;">
                     <li>Click the <span class="UIcomponent">Condition (Select Classified Weather Stream</span>) button. The system will take a moment to search for available weather streams.</li>
                     <li>
-                        <p>Use the <span class="UIcomponent">Pick Weather Stream</span> drop-down menu to pick an automatically generated weather stream. See the <a href="../../../../20-Models/FlamMap/classifiedweather.htm" target="_blank">Classified Weather Stream Topic</a> for more information on how these are generated.</p>
+                        <p>Use the <span class="UIcomponent">Pick Weather Stream</span> drop-down menu to pick an automatically generated weather stream. See the <a href="../../../../20-Models/ClassifiedWthr/classifiedweather.htm" target="_blank">Classified Weather Stream Topic</a> for more information on how these are generated.</p>
                         <p>
                             <img src="../../../Images/Models/FMConditioning/classified_extreme_wxs.png" alt="the 'extreme' weather file shown in a dropdown menu." class="border" />
                         </p>
@@ -25,7 +25,7 @@
                 <p>To condition using a your own Weather Stream:</p>
                 <ol style="list-style-type: lower-alpha;">
                     <li>Click the <span class="UIcomponent">Condition (Select Classified Weather Stream</span>) button. </li>
-                    <li>Click the <span class="UIcomponent">Upload</span> button and select a .wxs file from your  local machine. See the <a href="../../../../20-Models/FlamMap/AboutWXS.htm" target="_blank">.wxs File Topic</a> for file requirements, or how to generate a new wxs. file for use in this step.</li>
+                    <li>Click the <span class="UIcomponent">Upload</span> button and select a .wxs file from your  local machine. See the <a href="../../../../20-Models/ClassifiedWthr/AboutWXS.htm" target="_blank">.wxs File Topic</a> for file requirements, or how to generate a new wxs. file for use in this step.</li>
                     <li>Select a start date from the drop-down menu on which the conditioning period begins.</li>
                     <li>Enter a time (in 24 hour hhmm format) on which to start and end conditioning.</li>
                     <li>

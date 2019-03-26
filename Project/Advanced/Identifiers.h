@@ -280,3 +280,16 @@
 #define _3_crownfire_hh1 9036
 #define _4_FM_hh1 9037
 #define _5_FMcondition_hh1 9038
+#define lyr_file 1175
+#define UseLyrLBP 1190
+#define UseLyrLCP 1234
+#define UserLyrLFB 1235
+#define CrownMethodsLBP 1236
+#define DeadFMConditioning1 1237
+#define WindLBP 1238
+#define CrownMethodsMTT 1239
+#define DeadFMConditioning2 1240
+#define ResolutionMTT 1241
+#define SimTimesMTT 1242
+#define SpotMTT 1243
+#define WindMTT 1244
