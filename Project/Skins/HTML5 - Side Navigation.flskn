@@ -18,7 +18,7 @@
         Name="Side Navigation Menu">
         <Properties>
           <Property
-            Name="BackgroundColor">#51677f</Property>
+            Name="BackgroundColor">#2e3e4e</Property>
         </Properties>
       </Style>
       <Style

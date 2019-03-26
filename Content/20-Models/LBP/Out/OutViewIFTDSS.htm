@@ -4,27 +4,72 @@
     </head>
     <body>
         <h1>Viewing Burn Probability Outputs in IFTDSS</h1>
-        <p>Select Landscape Burn Probability outputs are available as geospatial layers in Map Studio and within Reports.</p>
-        <p>The model outputs can be added to the map using the <a href="../../../10-MapStudio/Functions/SimulationTools.htm" target="_blank">Simulation Output Tools</a> widget or from Playground or Workspace by clicking the View on Map button. In Map Studio you can view:</p>
+        <p>Select Landscape Burn Probability outputs are available as geospatial layers in Map Studio and within Summary Reports.</p>
+        <p>The model outputs can be added to the map using the <a href="../../../10-MapStudio/Functions/SimulationTools.htm" target="_blank">Simulation Output Tools</a> widget or from Playground or Workspace by clicking <span class="UIcomponent">View on Map</span>. In Map Studio you can view:</p>
         <ul>
-            <li>Burn Probability</li>
-            <li>Conditional Flame Length</li>
-            <li>Midflame Wind Speed</li>
-            <li>1 hr Fuel Moisture</li>
-            <li>10 hr Fuel Moisture</li>
-            <li>100 hr Fuel Moisture</li>
+            <li><a href="BurnProb.htm" target="_blank">Burn Probability</a>
+            </li>
+            <li><a href="ConditionalFL.htm" target="_blank">Conditional Flame Length</a>
+            </li>
+            <li><a href="MidflameWindSpd.htm" target="_blank">Midflame Wind Speed</a>
+            </li>
+            <li><a href="FuelMoisture.htm" target="_blank">1 hr Fuel Moisture</a>
+            </li>
+            <li><a href="FuelMoisture.htm" target="_blank">10 hr Fuel Moisture</a>
+            </li>
+            <li><a href="FuelMoisture.htm" target="_blank">100 hr Fuel Moisture</a>
+            </li>
         </ul>
-        <p>In this example Landscape Burn Probability is shown below in Map Studio with the Layer List displaying the legend. The landscape is represented by the area within the turquoise box. The area outside the turquoise box is the buffer area that was required for the model to run.</p>
+        <h2>A First Look with Layer List</h2>
+        <p>In this example Burn Probability is shown below in Map Studio with the <span class="UIcomponent">Layer List <img src="../../../Resources/Images/MapStudio/overview/button_layerlist.png" class="iftbutton" /></span> displaying the legend. The landscape extent (non-buffered)  is represented by the area within the turquoise box. The area outside the turquoise box is the buffer area that was required for the model to run.</p>
         <p>
-            <img src="../../../Resources/Images/Models/Flammap/Risk/LBP_output_example.png" class="border" />
+            <img src="../../../Resources/Images/Models/Flammap/Risk/LBP_output_example.png" class="border" alt="landscape and buffer area showing landscape burn probability indicated in  a cool to warm color scheme." />
         </p>
-        <p>The Identify widget has additional information that is not displayed in Layer List. This includes, the proportion of flame lengths in the six fire intensity levels, 20 ft wind speed, and wind direction. Note the below example for Landscape Burn Probability where the values are shown as a continuous number, and Conditional Flame Length is assigned a percent for each class.</p>
+        <h2>More Detail with Identify</h2>
+        <p>The <span class="UIcomponent">Identify widget <img src="../../../Resources/Images/MapStudio/overview/button_identify.png" alt="identify" class="iftbutton" /></span> displays additional information not shown in <span class="UIcomponent">Layer List <img src="../../../Resources/Images/MapStudio/overview/button_layerlist.png" class="iftbutton" /></span>. This includes, the proportion of flame lengths in the six fire intensity levels, burn probability for a specific pixel, 20 ft wind speed, and wind direction. In the example below , Landscape Burn Probability values are shown as a continuous number, and Proportion of Flame Length is assigned a percent for each class.</p>
         <p>
-            <img src="../../../Resources/Images/Models/Flammap/Risk/lbp identify.png" class="border" />
+            <img src="../../../Resources/Images/Models/Flammap/Risk/lbp identify.png" class="border" alt="Using the identify widget will display additional model outputs such as protortion of flame lengths" />
         </p>
-        <p>In Reports only the Burn Probability and Conditional Flame Length outputs are included. They are displayed the same was as in Map Studio in the map image supplied.</p>
+        <h2>Landscapes and AOIs - Output Values Vary by Extent</h2>
+        <div>
+            <p>In Map Studio a mask can be applied to the Model Outputs in the <span class="UIcomponent">Layer List <img src="../../../Resources/Images/MapStudio/overview/button_layerlist.png" class="iftbutton" /></span>. Clicking the <span class="UIcomponent">More Options<img src="../../../Resources/Images/ButtonsGeneral/moreoptions.png" alt="more options" class="iftbutton" /></span> to the right of the model output name.  The mask must be applied to the entire model outputs, it is not possible to apply it to a single layer such as burn probability.</p>
+            <p>
+                <img src="../../../Resources/Images/Models/Flammap/Risk/apply mask.png" class="border" />
+            </p>
+            <p>Below are examples of the three map extents possible in Map Studio. They highlight the effect of applying a mask on the burn probability legend and symbology. The first image shows the full extent of the model output, the analysis maximum burn probability is 0.0113. You can see the areas of the Highest (80-100% of maximum) burn probabilities are outside of the landscape extent ( seen above and to the left of the non-buffered area)..</p>
+            <p>
+                <img src="../../../Resources/Images/Models/Flammap/Risk/mask_aoi_lbp_1.png" class="border" />
+            </p>
+            <p>When a mask is applied to the landscape extent (non-buffered), the analysis maximum burn probability is 0.0080. This is lower than the full model extent, therefore the legend reflects a change in the maximum value. Because the bins are based off of a new maximum value there are areas of Highest (80-100% of maximum) burn probabilities within the masked area which were not present when the mask was not applied. <span class="Emphasis">Therefore values from a masked landscape should not be compared to values from an unmasked landscape, just as a landscape from one run should not be compared to a landscape from another run.</span></p>
+            <p>
+                <img src="../../../Resources/Images/Models/Flammap/Risk/mask_aoi_lbp_2.png" class="border" />
+            </p>
+            <p>When a mask is applied to the Area Of Interest (AOI), the analysis maximum burn probability is 0.032. This is lower than both the full model extent and the landscape extent (non-buffered) masked area. Similar to the landscape extent (non-buffered) mask, the legend reflects a change in the maximum value and the bins and symbology are changed.</p>
+            <p>
+                <img src="../../../Resources/Images/Models/Flammap/Risk/mask_aoi_lbp_3.png" class="border" />
+            </p>
+            <p>If you are interested in the exact burn probability value of a point on the map, use  the <span class="UIcomponent">Identify widget</span> <img src="../../../Resources/Images/MapStudio/overview/button_identify.png" alt="identify" class="iftbutton" /> in Map Studio.</p>
+            <p>
+                <img src="../../../Resources/Images/Models/Flammap/Risk/identify_BP.png" class="border" />
+            </p>
+        </div>
+        <h2>Landscape Summary Burn Probability Reports</h2>
+        <p>In summary reports only Burn Probability and Conditional Flame Length outputs are included. Reports can be created from <span class="UIcomponent">My Workspace</span> by expanding the menu below a LBP model output and clicking <span class="UIcomponent">Request a Report</span>.</p>
         <p>
-            <img src="../../../Resources/Images/placeholder.png" />
+            <img src="../../../Resources/Images/Models/Flammap/Risk/request_LBP_report.png" alt="reports are generated from the workspace with the 'request a report' button" class="border" />
+        </p>
+        <p>In the window that opens there are two options for generating a report:</p>
+        <ul>
+            <li>Generate report for this area of interest: allows you to select an AOI from existing shapes or shapefiles that intersect the landscape extent (non-buffered).  When an AOI is used only the area within the AOI and landscape extent (non-buffered) is included in the map image and the summarized values.</li>
+            <li>Generating a report for the entire landscape extent (non-buffered). This is done by leaving field under "Generate report for this area..." blank.</li>
+        </ul>
+        <p>Below is an example report  section for Conditional Flame Length where an AOI was selected. The summarized data in the chart and table are the same as the extent viewed on the map.  This example only describes the area within the AOI.</p>
+        <p>
+            <img src="../../../Resources/Images/Models/Flammap/Risk/cfl_report_aoi.png" alt="conditional flame length report showing an area of interest" class="border" />
+        </p>
+        <p>Below is an Example of a report section for Conditional Flame Length without an AOI. The summarized data in the chart and table are the same as the extent viewed on the map. This example only describes the area within the Landscape Extent (non buffered area within the turquoise box).</p>
+        <p>
+            <img src="../../../Resources/Images/Models/Flammap/Risk/cfl_report_lcpextent.png" alt="conditional flame length report showing the non-buffered landscape extent" class="border" />
         </p>
     </body>
 </html>

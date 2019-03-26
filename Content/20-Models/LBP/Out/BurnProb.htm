@@ -1,45 +1,63 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
+        <link href="../../../Resources/TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
         <h1>Burn Probability</h1>
-        <p>Burn Probability is viewable in Map Studio, in Reports, and available in the download package. Burn probabilities represent the likelihood of a given location on your landscape burning. Burn probabilities are related to the sizes of fires that occur on a given landscape. Large fires produce higher probabilities than small fires. Since fire size is a function of both the rate of spread, and the duration of a fire, treatments or weather conditions  that reduce the spread rate will lower the burn probability.</p>
-        <p>Within Landscape Burn Probability, randomly located ignition points are used to simulate fires. Ignitions are only allowed to be placed on burnable fuels, if one is placed on a non-burnable fuel it is removed. The number of ignitions is determined by IFTDSS to most efficiently produce outputs for the user. See the Number of Fires Simulated topic for details.</p>
+        <p>Burn probability is viewable in Map Studio, in Reports, and available in the download package. Burn probabilities represent the likelihood of a given location on your landscape burning. Burn probabilities are related to the sizes of fires that occur on a given landscape. Large fires produce higher probabilities than small fires. Since fire size is a function of both the rate of spread, and the duration of a fire, treatments or weather conditions  that reduce the rate of spread will lower the burn probability.</p>
+        <h2>Calculation</h2>
+        <p>Within Landscape Burn Probability, randomly located ignition points are used to simulate fires. Ignitions are only located and retained on burnable fuels, if an ignition is located on a non-burnable fuel it is discarded. The number of ignitions is determined by IFTDSS to most efficiently produce outputs for the user. See the <a href="../In/NoFiresSimLBP.htm" target="_blank">Number of Fires Simulated topic</a> for details.</p>
         <p>Burn Probability is the fraction of the number of fires that burned each burnable pixel (0.0 to 1.0). It is calculated as:</p>
-        <p style="text-align: center;"><i>Burn Probability = # times burned / total number of ignitions</i>
-        </p>
-        <p>For example, if the model ran 17,000 fire simulations, and a pixel burned 17,000 times, it would have burn probability of 1.0, (17,000/17,000=1.0). If a pixel never burned during those 17,000 fire simulations, it would have a burn probability of 0 (0/17,000=0). If a pixel burned 1,462 times it would have burn probability of 0.086, (1,462/17,000=0.086).</p>
-        <p>In the Map Studio and Reports parts of IFTDSS burn probability is displayed with 7 distinct classes. The first two are for pixels that did not burn. Non-burnable means that that pixels has a non-burnable fuel model and cannot burn. Burnable but did not burn means that that pixel has burnable fuels but did not burn. This can be because a fire never reached the pixel, or a fire started within the pixel but it was unable to burn out of the pixel because the fire spread rate was too slow. The remaining 5 classes are dynamic based on the maximum value of burn probability (noted in the map legend) within your analysis area. They range from Lowest (0-20% of maximum) to Highest (80-100% of maximum), each representing equal interval steps of 20% of the analysis maximum burn probability. The advantage of the equal interval distribution is that it is unbiased in terms of category selection. Each category is given the same proportion of the range of values. It creates maps that are good for showing the values that are either over or under represented.</p>
-        <p>For a given area, the analysis maximum burn probability is determined based on what is displayed or reported. In IFTDSS there are three options for displaying the model outputs in Map Studio and two for Reports.</p>
+        <p style="font-style: italic;text-align: center;">Burn Probability = # times burned / total number of ignitions</p>
+        <p>For example, if the model ran 17,000 times and a pixel burned 1,462 times it would have burn probability of 0.086, (1,462/17,000=0.086). If a pixel burned 17,000 times in 17,000 fire simulations,  it would have burn probability of 1.0, (17,000/17,000=1.0). If a pixel never burned during those 17,000 fire simulations, it would have a burn probability of 0 (0/17,000=0).</p>
+        <h2>Display</h2>
+        <p>In the Map Studio and Reports parts of IFTDSS burn probability is displayed with 7 distinct classes. The first two are for pixels that did not burn:</p>
         <ul>
-            <li>Full extent of the model output, this includes the buffered area<ul><li>This is only available in Map Studio</li></ul></li>
-            <li>Landscape extent (non-buffered), represented by the area within the turquoise box in map studio or the originally non-buffered extent of the landscape created<ul><li>This is available in Map Studio and is the default for Reports</li></ul></li>
-            <li>Area of interest, a shape or shapefile representing a smaller portion of the landscape<ul><li>This is available in Map Studio and Reports</li></ul></li>
+            <li>Non-burnable means that pixels have a non-burnable fuel model and cannot burn.</li>
+            <li>
+                <p>Burnable but did not burn means that that pixel has burnable fuels but did not burn. This can be because a fire never reached the pixel, or a fire started within the pixel but it was unable to burn out of the pixel because the fire spread rate was too slow.<br /><img src="../../../Resources/Images/Models/Flammap/Risk/BP_legend.png" class="legend for LBP is displayed in the Layer List widget" style="mc-float: none;" /></p>
+            </li>
         </ul>
-        <p>In Map Studio a mask can be applied to the Model Outputs in the Layer List widget. Clicking on the <span class="UIcomponent">More Options<img src="../../../Resources/Images/ButtonsGeneral/moreoptions.png" alt="more options" class="iftbutton"></img></span> to the right of the model output name.  The mask must be applied the entire model outputs, it is not possible to do to a single layer such as burn probability.</p>
-        <p>
-            <img src="../../../Resources/Images/Models/Flammap/Risk/apply mask.png" class="border" />
-        </p>
-        <p>Below are examples of the three map extents possible in Map Studio. They highlight the effect of applying a mask on the burn probability legend and symbology. The first image shows the full extent of the model output, the analysis maximum burn probability is 0.0113. You can see the areas of the Highest (80-100% of maximum) burn probabilities are outside of the landscape extent (non-buffered).</p>
-        <p>
-            <img src="../../../Resources/Images/Models/Flammap/Risk/mask_aoi_lbp_1.png" class="border" />
-        </p>
-        <p>When a mask is applied to the landscape extent (non-buffered), the analysis maximum burn probability is 0.0080. This is lower than the full model extent, therefore the legend reflects a change in the maximum value. Because the bins are based off of a new maximum value there are areas of Highest (80-100% of maximum) burn probabilities within the masked area which were not present when the mask was not applied.</p>
-        <p>
-            <img src="../../../Resources/Images/Models/Flammap/Risk/mask_aoi_lbp_2.png" class="border" />
-        </p>
-        <p>When a mask is applied to the Area Of Interest (AOI), the analysis maximum burn probability is 0.032. This is lower than both the full model extent and the landscape extent (non-buffered) masked area. Similar to the landscape extent (non-buffered) mask, the legend reflects a change in the maximum value and the bins and symbology are changed.</p>
-        <p>
-            <img src="../../../Resources/Images/Models/Flammap/Risk/mask_aoi_lbp_3.png" class="border" />
-        </p>
-        <p>If you are interested in the exact burn probability value of a point on the map, the Identify widget can be used in Map Studio.</p>
-        <p>
-            <img src="../../../Resources/Images/Models/Flammap/Risk/identify_BP.png" class="border" />
-        </p>
-        <p>In the download package, burn probability is one of the bands in the GeoTiff. It has continuous values as a proportion. Where non-burnable pixels exist, the value is -1, and where burnable but not burned pixels exist the value is 0.</p>
         <div class="notificationNote">
             <p>Places on the landscape can be unburned for three reasons: 1) the location has a non-burnable fuel model,  2) fire never reached that location, or 3) an ignition started but did not burn out of the current pixel. These cases are presented differently in Map Studio and reports versus the GeoTiff available for download. Non-burnable locations are denoted as such, “Non-burnable” in Map Studio and Reports, and are -1 in the GeoTiff. Locations that the fire never reached or didn’t spread out of are “Burnable but not burned” in Map Studio and Reports, and are 0 in the GeoTiff.</p>
         </div>
+        <p>The remaining 5 classes are dynamic based on the maximum value of burn probability (noted in the map legend) within your analysis area. They include:</p>
+        <ul>
+            <li>Lowest (0-20% of maximum)</li>
+            <li>Lower (20-40% of maximum)</li>
+            <li>Middle (40-60% of maximum)</li>
+            <li>High (60-80% of maximum)</li>
+            <li>Highest (80-100% of maximum)</li>
+        </ul>
+        <p>Each class represents equal interval steps of 20% of the analysis maximum burn probability. The advantage of this equal interval distribution is that it is unbiased in terms of category selection. Each category is given the same proportion of the range of values. It creates maps that are good for showing the values that are either over or under represented.</p>
+        <p>For a given area, the analysis maximum burn probability is determined based on what is displayed or reported. In IFTDSS there are three options for displaying the model outputs in Map Studio and two for Reports.</p>
+        <table style="width: 100%;mc-table-style: url('../../../Resources/TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
+            <col class="TableStyle-Standard-Column-Column1" />
+            <col class="TableStyle-Standard-Column-Column1" />
+            <col class="TableStyle-Standard-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1" style="font-weight: bold;">Display Option</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1" style="font-weight: bold;">Map Studio</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1" style="font-weight: bold;">Report</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Full extent of the model output, this includes the buffered area.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">X</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">&#160;</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Landscape extent (non-buffered), represented by the area within the turquoise box in map studio or the originally non-buffered extent of the landscape created (Default option for reports).</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">X</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">X</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyB-Column1-Body2">Area of interest, a shape or shapefile representing a smaller portion of the landscape.</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body2">X</td>
+                    <td class="TableStyle-Standard-BodyA-Column1-Body2">X</td>
+                </tr>
+            </tbody>
+        </table>
     </body>
 </html>

@@ -8,7 +8,7 @@
         <p>In IFTDSS, resampling is conducted to adjust the resolution of your landscape to allow it to successfully run in some modeling applications.</p>
         <h2>Why</h2>
         <p>Resampling is necessary in IFTDSS in order to meet the intensive computational needs of the models. If you run a model that requires resampling by IFTDSS, such as LBP, you will notice the resampled landscape is generated and made available even before the model starts running. In short, this is done to allow the model to run faster.</p>
-        <p>The resampled landscape will be made available in My Workspace. This is beneficial for understanding the underlying fuels/vegetation relating to the predicted fire behavior on each pixel.</p>
+        <p>The resampled landscape is available in <span class="UIcomponent">My Workspac</span>e. This is beneficial for understanding the underlying fuels/vegetation relating to the predicted fire behavior on each pixel.</p>
         <h2>When</h2>
         <p>Resampling only occurs for landscapes submitted for Landscape Burn Probability runs when the the landscape and the buffered area surrounding it exceeds 250,000 acres.</p>
         <table style="width: 100%;mc-table-style: url('../Resources/TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
@@ -48,7 +48,7 @@
         <div class="notificationImportant">
             <p>The Right Hand Panel displays acreages for your landscape that do not include the buffered area surrounding it. This may generate confusion as this buffered area is included in the landscape size used for resampling in IFTDSS.</p>
         </div>
-        <p>Landscapes that have been resampled are easily identified in IFTDSS by the landscape name, which will have the resolution automatically added to the end. Those at the native 30m resolution will not have anything appended to the landscape name. For example, “BLM Grants Pass-120m” indicates that file has been resampled to a 120m resolution. And “BLM Grants Pass” is at the original 30m resolution. Landscape resolutions are also displayed in the Right Hand Panel when the landscape is selected.</p>
+        <p>Landscapes that have been resampled are easily identified in IFTDSS by the landscape name, which has the resolution automatically added to the end. Those at the native 30m resolution do not have anything appended to the landscape name. For example, “BLM Grants Pass-120m” indicates that file has been resampled to a 120m resolution. And “BLM Grants Pass” is at the original 30m resolution. Landscape resolutions are also displayed in the Right Hand Panel when the landscape is selected.</p>
         <p>
             <img src="../Resources/Images/Models/Flammap/Risk/lcp_buffer_example.png" alt="resampled landscapes end with the resolution, such as 120m" class="border" />
         </p>
@@ -57,16 +57,17 @@
         <p>Specifically, resampling:</p>
         <ul>
             <li>Starts from the upper left hand corner of the landscape.</li>
-            <li>Uses the center cell – if the center cell is at the intersection of 4 cells, it selects the cell above and to the left of the intersection.</li>
-            <li>If the center cell does not exist in the original landscape, no cell is generated for the resampled landscape. Thus, the size of the resampled landscape may be slightly larger or smaller than the original landscape.</li>
+            <li>
+                <p>Uses the center cell – if the center cell is at the intersection of 4 cells, it selects the cell above and to the left of the intersection.</p>
+            </li>
+            <li>
+                <p>If the selecting cell does not exist in the original landscape, no cell is generated for the resampled landscape. Thus, the size of the resampled landscape may be slightly larger or smaller than the original landscape.</p>
+            </li>
         </ul>
-        <h2>Center Cell Method</h2>
-        <p>Resampling the same 30 m landscape to a 90 m landscape uses the center cell in each of the red boxes.  However the final foot print is different because of how the resampling works, because there is a cell in the center, even though there are not enough cells to cover the full area a new cell is created along the bottom and right edges.
-</p>
+        <p>Resampling the same 30 m landscape to a 90 m landscape uses the center cell in each of the red boxes.  However the final foot print is different because of how the resampling works, because there is a cell in the center, even though there are not enough cells to cover the full area a new cell is created along the bottom and right edges.</p>
         <p>
             <img src="../Resources/Images/Models/Flammap/Risk/resampling_ex_30_90.png" alt="left, 30 m raster grid overlaid with 90 m lines, right, 90 meter rasters grid" class="border" />
         </p>
-        <h2>No Center Cell Method</h2>
         <p>Below is an example of how resampling from 30 m to 60m resolution works. The red boxes are the outline of the new cell area. Because there is not a center cell in the new landscape, the upper left hand cell from the midpoint is used to create the resampled landscape.</p>
         <p>
             <img src="../Resources/Images/Models/Flammap/Risk/resampling_ex_30_60.png" alt="left, 30 m raster grid overlaid with 60 m lines, right, 60 meter rasters grid" class="border" />

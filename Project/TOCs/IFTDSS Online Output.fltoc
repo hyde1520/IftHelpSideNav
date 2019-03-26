@@ -420,6 +420,10 @@
           Title="Conditional Flame Length"
           Link="/Content/20-Models/LBP/Out/ConditionalFL.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/20-Models/LBP/Out/Hazard.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          conditions="General.Exclude" />
+        <TocEntry
           Title="Fire Intensity Level"
           Link="/Content/20-Models/LBP/Out/FireIntensityLev.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
