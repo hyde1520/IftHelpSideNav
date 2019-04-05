@@ -16,7 +16,7 @@
         <ul>
             <li>Non-burnable means that pixels have a non-burnable fuel model and cannot burn.</li>
             <li>
-                <p>Burnable but did not burn means that that pixel has burnable fuels but did not burn. This can be because a fire never reached the pixel, or a fire started within the pixel but it was unable to burn out of the pixel because the fire spread rate was too slow.<br /><img src="../../../Resources/Images/Models/Flammap/Risk/BP_legend.png" class="legend for LBP is displayed in the Layer List widget" style="mc-float: none;" /></p>
+                <p>Burnable but did not burn means the pixel has burnable fuels but did not burn. This can be because a fire never reached the pixel, or a fire started within the pixel but it was unable to burn out of the pixel because the fire spread rate was too slow.<br /><img src="../../../Resources/Images/Models/Flammap/Risk/BP_legend.png" class="legend for LBP is displayed in the Layer List widget" style="mc-float: none;" alt="burn probability classes listed in Layer List, along with the color associated with each." /></p>
             </li>
         </ul>
         <div class="notificationNote">
@@ -27,7 +27,7 @@
             <li>Lowest (0-20% of maximum)</li>
             <li>Lower (20-40% of maximum)</li>
             <li>Middle (40-60% of maximum)</li>
-            <li>High (60-80% of maximum)</li>
+            <li>Higher (60-80% of maximum)</li>
             <li>Highest (80-100% of maximum)</li>
         </ul>
         <p>Each class represents equal interval steps of 20% of the analysis maximum burn probability. The advantage of this equal interval distribution is that it is unbiased in terms of category selection. Each category is given the same proportion of the range of values. It creates maps that are good for showing the values that are either over or under represented.</p>
@@ -36,26 +36,28 @@
             <col class="TableStyle-Standard-Column-Column1" />
             <col class="TableStyle-Standard-Column-Column1" />
             <col class="TableStyle-Standard-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Standard-Head-Header1">
+                    <td class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Display Option</td>
+                    <td class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Map Studio</td>
+                    <td class="TableStyle-Standard-HeadD-Column1-Header1" style="font-weight: bold;">Report</td>
+                </tr>
+            </thead>
             <tbody>
                 <tr class="TableStyle-Standard-Body-Body1">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1" style="font-weight: bold;">Display Option</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1" style="font-weight: bold;">Map Studio</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1" style="font-weight: bold;">Report</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Full extent of the model output, this includes the buffered area.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">X</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">&#160;</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Full extent of the model output, this includes the buffered area.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Landscape extent (non-buffered), represented by the area within the turquoise box in map studio or the originally non-buffered extent of the landscape created (Default option for reports).</td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">X</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body2">&#160;</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">X</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Landscape extent (non-buffered), represented by the area within the turquoise box in map studio or the originally non-buffered extent of the landscape created (Default option for reports).</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">X</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">X</td>
-                </tr>
-                <tr class="TableStyle-Standard-Body-Body2">
-                    <td class="TableStyle-Standard-BodyB-Column1-Body2">Area of interest, a shape or shapefile representing a smaller portion of the landscape.</td>
-                    <td class="TableStyle-Standard-BodyB-Column1-Body2">X</td>
-                    <td class="TableStyle-Standard-BodyA-Column1-Body2">X</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">Area of interest, a shape or shapefile representing a smaller portion of the landscape.</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">X</td>
+                    <td class="TableStyle-Standard-BodyA-Column1-Body1">X</td>
                 </tr>
             </tbody>
         </table>
