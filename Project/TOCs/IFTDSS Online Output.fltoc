@@ -86,7 +86,7 @@
       <TocEntry
         Title="LBP Outputs"
         Link="/Content/20-Models/LBP/Out/Download.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-        conditions="General.QA ONLY" />
+        conditions="General.Exclude" />
       <TocEntry
         Title="LCP GeoTiffs"
         Link="/Content/10-Workspace/downloads/GeoTiffLCP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -95,7 +95,8 @@
         Link="/Content/10-Workspace/downloads/GeoTiffLFBOut.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="LYR Files for Symbology"
-        Link="/Content/10-Workspace/downloads/lyr_file.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/10-Workspace/downloads/lyr_file.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        conditions="General.Prod ONLY" />
       <TocEntry
         Title="Using Downloads in Other Apps">
         <TocEntry
@@ -107,6 +108,19 @@
         <TocEntry
           Title="Reclassing in ArcMap"
           Link="/Content/10-Workspace/downloads/GeoTiffArcReclass.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Set Symbology"
+          conditions="General.QA ONLY">
+          <TocEntry
+            Title="Smbology file overview"
+            Link="/Content/10-Workspace/downloads/lyr_file.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Import Landscape Symbology"
+            Link="/Content/10-Workspace/downloads/UseLyrLCP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Import LFB Symbology"
+            Link="/Content/10-Workspace/downloads/UserLyrLFB.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
         <TocEntry
           Title="Loading in Flammap"
           Link="/Content/10-Workspace/downloads/GeoTiffFlammap.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -421,8 +435,7 @@
           Link="/Content/20-Models/LBP/Out/ConditionalFL.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/20-Models/LBP/Out/Hazard.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-          conditions="General.Exclude" />
+          Link="/Content/20-Models/LBP/Out/Hazard.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Fire Intensity Level"
           Link="/Content/20-Models/LBP/Out/FireIntensityLev.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />

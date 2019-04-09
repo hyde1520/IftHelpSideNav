@@ -3,7 +3,7 @@
     <head>
     </head>
     <body>
-        <p>Simulation Time (burn period length) describes duration of worst case fire growth, in hours, for each fire simulated during a Landscape Fire Behavior run. Each fire simulated is modeled for the simulation time (burn period) you specify here. For each fire, weather,  fuel moisture, and wind conditions you enter in the other input fields are held constant. Longer burn period lengths result in larger fires given all other conditions are unchanged.</p>
+        <p>Simulation Time (burn period length) describes duration of worst case fire growth, in hours, for each fire simulated during a Landscape Fire Behavior run. Each fire simulated is modeled for the simulation time (burn period length) you specify here. For each fire, wind conditions, fuel moistures, and spotting probability you enter in the other input fields are held constant. Longer burn period lengths result in larger fires given all other conditions are unchanged.</p>
         <p>Because inputs should represent the “worst case scenario” or “problem fire” conditions <span class="Emphasis">the duration of the burn period should reflect the active burning period of wildfires for your area under extreme conditions</span>.</p>
         <p>In <MadCap:variable name="General.ProductName" />, the Burn Period Length selected can be 4 to 12 hours long.</p>
         <p>
