@@ -8,7 +8,7 @@
             <li>Navigate away from <MadCap:variable name="General.MapStudio"></MadCap:variable> and click on <span class="UIcomponent">My Workspace</span> at the top of the screen.</li>
             <li>Because the Landscape was assigned to the Granite Creek  folder when you&#160;first created it, the model output and Summary Report will also be stored there by default. Select the "Granite Creek Treatments" folder from the panel on the left of the screen. As you&#160;navigate  you'll notice  the information in the right-hand panel changes too, updating as you move through different screens. </li>
             <li>
-                <p>Select the "Granite Creek LF2012 unedited - Auto97th" report file and click the <span class="UIcomponent">View Summary</span> button. The report will open in a new browser tab.</p>
+                <p>Select the "Granite Creek LF2014 unedited - Auto97th" report file and click the <span class="UIcomponent">View Summary</span> button. The report will open in a new browser tab.</p>
                 <p>
                     <img src="../../Images/MyWorkspace/view_summary.png" alt="click the 'view summary' button to review reports" class="borderlist">
                     </img>
