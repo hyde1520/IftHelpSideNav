@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../Resources/TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Modeling Landscape Burn Probability versus Landscape Fire Behavior [<b style="color: #ff0000;">UNDER DEVELOPMENT</b>]</h1>
+        <p>Whether you choose to run Landscape Burn Probability or Landscape Fire Behavior will depend upon the questions you are trying to answer. In the table below, some questions are better addressed by one model, others are answered by both models.</p>
+        <table style="width: 100%;mc-table-style: url('../../Resources/TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
+            <col class="TableStyle-Standard-Column-Column1" style="width: 400px;" />
+            <col class="TableStyle-Standard-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Standard-Head-Header1">
+                    <td class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Landscape Burn Probability</td>
+                    <td class="TableStyle-Standard-HeadD-Column1-Header1" style="font-weight: bold;">Landscape Fire&#160;Behavior</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Which areas on the landscape are more likely to burn than others?</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Which areas on my landscape are more likely to experience crown fire vs. surface fire?</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">How likely are fires on my ownership as compared the likelihood of fires on immediately adjacent ownerships and inholdings?</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Which areas have the fastest spreading fuels? </td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1" colspan="2">Which areas will burn with the highest intensity and severity?</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyA-Column1-Body2" colspan="2">Which areas on this landscape would benefit from treatments with objectives of reducing fire intensity in areas that are most likely to burn?</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Different Modeling Approaches</h2>
+        <p>The two models also approach fire behavior modeling differently. Landscape Fire Behavior models head fire only and each pixel is assigned fire spread independently. This results in higher fire intensity. Landscape Burn Probability takes into account backing and flanking fire, as well as the influence of neighboring pixels which can result in lower intensity.</p>
+        <p>Landscape Burn Probability (LBP) model outputs differ from Landscape Fire Behavior (LFB) model outputs in a number of ways:</p>
+        <ol>
+            <li>LFB outputs are deterministic - the same set of inputs will produce the same set of outputs each time.</li>
+            <li>LBP outputs are probabilistic, the calculations include some randomization for ignitions and spotting, meaning that the results are not necessarily repeatable each time. LBP outputs are relative only to the geographic extent of a particular analysis.</li>
+            <li>LBP outputs are specifically classified to describe the relative frequency at which different portions of the landscape would burn under a given set of conditions.</li>
+        </ol>
+        <table style="width: 100%;mc-table-style: url('../../Resources/TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
+            <col class="TableStyle-Standard-Column-Column1" style="width: 400px;" />
+            <col class="TableStyle-Standard-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Standard-Head-Header1">
+                    <td class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Landscape Burn Probability</td>
+                    <td class="TableStyle-Standard-HeadD-Column1-Header1" style="font-weight: bold;">Landscape Fire&#160;Behavior</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Models head, flanking and backing fire</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Only models head fire</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Fire spread is modeled across pixels based on Minimum Travel Time algorithm</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Fire behavior calculated independently for each pixel</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">probabilistic - randomness in ignitions and spotting means results may vary slightly given the same inputs.</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">deterministic - same inputs will always yield the same outputs</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyB-Column1-Body2">Outputs depend on the scale of the landscape</td>
+                    <td class="TableStyle-Standard-BodyA-Column1-Body2">Landscape scale does not change affect outputs.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>The legends in the image below show the absolute nature of the Landscape Fire Behavior outputs (e.g. feet, chains/hour) and the percentage classes for Landscape Burn Probability outputs (e.g. 0-20% of maximum).</p>
+        <p>
+            <img src="../../Resources/Images/Models/Flammap/Risk/LBPvsLFB.png" alt="geospatial model outputs for LFB Flame length left, LFB rate of spread center, and LBP burn probability right." class="border" />
+        </p>
+        <div class="notificationTip">
+            <p>Landscape Burn Probability Model Outputs are visible in Map Studio with a color ramp scale from blue to red. Landscape Fire Behavior Model Outputs scale from green to red to help you clearly differentiate between the two model outputs.</p>
+        </div>
+        <p>It is important to note the distinction between LFB Flame Length and LBP Conditional Flame Length.  In LFB flame length for a given pixel is always the same value based on a single head fire calculation.  LPB conditional flame length is the mean of the full spectrum of heading, backing, and flanking simulated fires run in the burn probability calculation. Understanding that a conditional flame length may vary significantly within a probability run or that it is close to the “edge” of a classification breakpoint may be useful for interpretation.</p>
+        <p>&#160;</p>
+    </body>
+</html>

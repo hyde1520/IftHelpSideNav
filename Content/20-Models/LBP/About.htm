@@ -4,26 +4,64 @@
         <link href="../../Resources/TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
-        <h1>About Burn Probability [<b style="color: #ff0000;">UNDER DEVELOPMENT</b>]</h1>
+        <h1>About Landscape Burn Probability [<b style="color: #ff0000;">UNDER DEVELOPMENT</b>]</h1>
         <div class="notificationComingSoon">
-            <p>IFTDSS Landscape Burn Probability is an independent model in Playground. It is the first in a series of version updates in 2019 that will conclude with a framework to conduct a full Quantitative Wildland Fire Risk Assessment.</p>
+            <p>IFTDSS Landscape Burn Probability is an independent model in Playground. It is the first in a series of version updates in 2019 that will conclude with a framework to conduct a full <a href="../../30-Tasks/Risk/RiskAssessment.htm" target="_blank">Quantitative Wildland Fire Risk Assessment</a>.</p>
         </div>
-        <p>Landscape Burn Probability (LBP) quantifies the likelihood of fire occurring and the intensity at which fire occurs, it is part of the <a href="../../30-Tasks/Risk/RiskAssessment.htm" target="_blank">wildfire risk assessment process</a> (<a href="../../41-References/Citations.htm#Scott_etal_2013" target="_blank">Scott and others 2013</a>). Outputs can be utilized as an independent product or be combined with information on the susceptibility of resources and assets to fire to perform a more thorough integrated hazard or quantitative wildfire risk assessment. IFTDSS <a href="Out/Overview.htm" target="_blank">Landscape Burn Probability model outputs</a> include the following outputs:</p>
-        <h2>Burn Probability</h2>
-        <p>The relative likelihood that fire will burn in different areas across a landscape or area of interest under a fixed set of weather and fuel moisture conditions.</p>
-        <p>
-            <img src="../../Resources/Images/Models/Flammap/Risk/AboutLBP_LBP.png" class="border" />
-        </p>
-        <h2>Conditional Flame Length</h2>
-        <p>The mean flame length of all the calculation simulated fires that burn a given point on the landscape during the burn probability calculations.</p>
-        <p src="../../Resources/Images/Models/Flammap/Risk/AboutLBP_CFL.png">
-            <img src="../../Resources/Images/Models/Flammap/Risk/AboutLBP_CFL.png" class="border" />
-        </p>
-        <h2>Integrated Hazard</h2>
-        <p>Wildfire hazard at a given location on the landscape is quantified as: (1) burn probability and (2) conditional wildfire intensity given that a fire does occur. Those two characteristics can be combined into a single spatially resolved measure of wildfire hazard: integrated wildfire hazard.</p>
-        <p>
-            <img src="../../Resources/Images/Models/Flammap/Risk/Integrated_Hazard_diagram.png" class="border" />
-        </p>
+        <p>Landscape Burn Probability (LBP) quantifies the likelihood of fire occurring and the intensity at which fire occurs, it is part of the wildfire risk assessment process (<a href="../../41-References/Citations.htm#Scott_etal_2013" target="_blank">Scott and others 2013</a>). Outputs can be utilized as an independent product or be combined with information on the susceptibility of resources and assets to fire to perform a more thorough integrated hazard or quantitative wildfire risk assessment. IFTDSS <a href="Out/Overview.htm" target="_blank">Landscape Burn Probability model outputs</a> include burn probability, conditional flame length, and integrated hazard.</p>
+        <p>Burn probability can help identify where on your landscape fire is most likely, as well as which areas would burn with the highest intensities and severity.</p>
+        <p>Landscape Burn Probability is different from the Landscape Fire Behavior model founds elsewhere in IFTDSS. Here is a brief outline of those differences, highlight in more detail in a <a href="LBPvLFB.htm" target="_blank">separate topic page</a>:</p>
+        <table style="width: 100%;mc-table-style: url('../../Resources/TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
+            <col class="TableStyle-Standard-Column-Column1" style="width: 400px;" />
+            <col class="TableStyle-Standard-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Standard-Head-Header1">
+                    <td class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Landscape Burn Probability</td>
+                    <td class="TableStyle-Standard-HeadD-Column1-Header1" style="font-weight: bold;">Landscape Fire&#160;Behavior</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Models head, flanking and backing fire</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Only models head fire</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Fire spread is modeled across pixels based on Minimum Travel Time algorithm</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Fire behavior calculated independently for each pixel</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">probabilistic - randomness in ignitions and spotting means results may vary slightly given the same inputs.</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">deterministic - same inputs will always yield the same outputs</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyB-Column1-Body2">Outputs depend on the scale of the landscape</td>
+                    <td class="TableStyle-Standard-BodyA-Column1-Body2">Landscape scale does not change affect outputs.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How IFTDSS defines Burn Probability, Conditional Flame Length, and Integrated Hazard</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <h2>Burn Probability</h2>
+                <p>The relative likelihood that fire will burn in different areas across a landscape or area of interest under a fixed set of weather and fuel moisture conditions.</p>
+                <p>
+                    <img src="../../Resources/Images/Models/Flammap/Risk/AboutLBP_LBP.png" class="border" />
+                </p>
+                <h2>Conditional Flame Length</h2>
+                <p>The mean flame length of all the calculation simulated fires that burn a given point on the landscape during the burn probability calculations.</p>
+                <p src="../../Resources/Images/Models/Flammap/Risk/AboutLBP_CFL.png">
+                    <img src="../../Resources/Images/Models/Flammap/Risk/AboutLBP_CFL.png" class="border" />
+                </p>
+                <h2>Integrated Hazard</h2>
+                <p>Wildfire hazard at a given location on the landscape is quantified as: (1) burn probability and (2) conditional wildfire intensity given that a fire does occur. Those two characteristics can be combined into a single spatially resolved measure of wildfire hazard: integrated wildfire hazard.</p>
+                <p>
+                    <img src="../../Resources/Images/Models/Flammap/Risk/Integrated_Hazard_diagram.png" class="border" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>How to Run LBP</MadCap:dropDownHotspot>
