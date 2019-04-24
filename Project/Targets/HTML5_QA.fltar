@@ -13,7 +13,8 @@
   MakeFileLowerCase="true"
   TopNavTocPath="true"
   OutputFile="index"
-  DisableAutoSync="true">
+  DisableAutoSync="true"
+  Skin="/Project/Skins/QA HTML5 - Side Navigation.flskn">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"

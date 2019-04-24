@@ -11,7 +11,7 @@ a,
 a:link,
 a:visited
 {
-	color: #2d82dc;
+	color: #2200c1;
 }
 
 a:hover
@@ -118,13 +118,13 @@ notification divs */
 .notificationNote
 {
 	background-color: #D5EEF8;
-	color: #2183A5;
+	color: #0c2f3c;
 }
 
 .notificationTip
 {
 	background-color: #DDEFD7;
-	color: #308935;
+	color: #17441a;
 }
 
 .notificationCase
@@ -136,7 +136,7 @@ notification divs */
 .notificationImportant
 {
 	background-color: #F2DEDB;
-	color: #992222;
+	color: #5f0303;
 }
 
 .notificationComingSoon

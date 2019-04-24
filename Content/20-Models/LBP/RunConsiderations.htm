@@ -1,15 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="General.QA ONLY">
     <head>
-        <link href="../../Resources/TableStylesheets/Copy of Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
-        <h1>LBP Model Run Considerations [<b style="color: #ff0000;">UNDER DEVELOPMENT</b>]</h1>
-        <p>Burn Probability is likely a new fire behavior model for many users. Although most of the inputs are similar to Landscape Fire Behavior the outputs are quite different. The information laid out below is very important and will help provide a better understanding of the nuances of the way the model works as well as what you need to know about selecting inputs and interpreting the outputs.</p>
+        <h1>LBP Model Run Considerations and Interpretation<MadCap:snippetText src="../../Resources/Snippets/Development.flsnp" /></h1>
+        <p>Burn Probability is likely a new fire behavior model for many users. Although most of the inputs are similar to Landscape Fire Behavior the outputs are quite different. The information laid out below is very important and will help provide a better understanding of the nuances of selecting inputs, running the model, and interpreting the outputs.</p>
         <p> 
-This table summarizes the key information about the Inputs and the outputs. Click on the links for more in depth information about each item.
-</p>
-        <table style="width: 100%;mc-table-style: url('../../Resources/TableStylesheets/Copy of Standard.css');" class="TableStyle-Standard" cellspacing="3">
+The table below outlines key considerations as you select your landscape, choose inputs for the model, and interpret model outputs.</p>
+        <table style="width: 100%;mc-table-style: url('../../Resources/TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
             <col style="width: 400px;" class="TableStyle-Standard-Column-Column1" />
             <col style="width: 1080px;" class="TableStyle-Standard-Column-Column1" />
             <thead>
@@ -24,83 +23,71 @@ This table summarizes the key information about the Inputs and the outputs. Clic
                     </td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Choosing a Landscape Extent</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Choose a Landscape size that encompasses the entire area that you want to compare results. You cannot compare results from individual  that the model has been run on separately. If you want to do this, you must export the outputs and adjust the legends based on the Analysis Maximum (see comparing results using ArcMap)</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2"><a href="In/LandscapeLBP.htm" target="_blank">Choosing a Landscape Extent</a>
+                    </td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">
+                        <p>Choose a Landscape area large enough to encompasses the entire area within which you want to compare results. You cannot compare results that have been generated in separate model runs with individual landscapes. If you want to do this, you must export the outputs and adjust the legends based on the Analysis Maximum (see comparing results using ArcMap).</p>
+                    </td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Weather and Fuel Moisture (link to inputs)</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Near “Worst Case”:  97th Percentile or “problem fire” scenario for your area</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Choosing <a href="In/WindLBP.htm" target="_blank">Wind</a> and <a href="In/DeadFMConditioning.htm" target="_blank">Fuel Moisture</a></td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Input near “Worst Case” ( 97th Percentile or “problem fire” scenario) conditions for your area.</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Simulation Time (link to inputs)</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2"><a href="In/SimTimesLBP.htm" target="_blank">Simulation Time</a>
+                    </td>
                     <td class="TableStyle-Standard-BodyD-Column1-Body2">That period of time each day (Burn Period) you would expect active fire growth with the selected weather.</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Spotting (link to Spotting and model comparisons)</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">See Help Topic for detailed information  - Change this parameter with Caution - default is 20% and is a good place to start</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1"><a href="In/SpotLBP.htm" target="_blank">Spotting</a>
+                    </td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">The default of 20% is a good starting value for most cases. You can change this if needed, see the <a href="In/SpotLBP.htm" target="_blank">Spotting help topic for more detail</a>.</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
                     <td colspan="2" style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body2"><b>Outputs</b>
                     </td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">General Interpretation of Outputs (link to outputs</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Be aware of Scaled Output Extent (Landscape Cell Resolution) - note maximum value and compare pixel values only within the same model run if looking at other extents</td>
+                    <td style="text-align: left;" class="TableStyle-Standard-BodyE-Column1-Body1"><a href="#CFL">Conditional Flame Length ≠ Flame Length</a>
+                    </td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Conditional flame length should not be compared directly flame length outputs from Landscape Fire Behavior</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Analysis Extent Maximum Value</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body2">If max value as a decimal is confusing to you, you can move the decimal point two places to the left, and think of it as the percent of times the pixel that burned the most actually burned on that analysis extent. 
-E.g.  0.19237 implies that the maximum any pixel on that extent burned was in 19% of the total simulated fires during in that particular analysis scenario.
-</td>
+                    <td style="text-align: left;" class="TableStyle-Standard-BodyE-Column1-Body2"><a href="#Affects_of_landscape_features_and_wind">Landscape Features and Wind</a>
+                    </td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Inputs such as wind direction or landscape features may affect outputs in unusual ways.</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
-                    <td class="TableStyle-Standard-BodyB-Column1-Body1">Integrated Hazard</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1"><a href="#Scale">Landscape Scale</a>
+                    </td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Be aware of Scaled Output Extent (Landscape Cell Resolution) - note maximum value and compare pixel values only within the same model run if looking at other extents.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2"><a href="Out/BurnProb.htm" target="_blank">Analysis Extent Maximum Value</a>
+                    </td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">
+                        <p>If you find reading burn probability maximum value as a decimal confusing, move the decimal point two places to the left and think of it as the percent. The percent of times the most frequently burned pixel experienced fire in the modeling scenario at that analysis extent. For example, an extent maximum value of 0.19237 implies that the maximum any pixel on that extent burned was in 19% of the total simulated fires during that particular analysis scenario.
+</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1"><a href="Out/Hazard.htm" target="_blank">Integrated Hazard</a>
+                    </td>
                     <td class="TableStyle-Standard-BodyA-Column1-Body1">A combination of Conditional Flame Length and Burn Probability. It is important to note that since the definition of risk in the wildfire context is expanded to include beneficial as well as negative effects, the consideration of hazard should be expanded as well.</td>
                 </tr>
             </tbody>
         </table>
-        <h2>Inputs</h2>
-        <p>To use LBP effectively choose your inputs based on the following guidelines:</p>
-        <h3>Selecting a Landscape</h3>
-        <p>Use a landscape that includes the entire area for which you may want to compare results. In most cases this would be a project area boundary but in some cases could be larger to encompass an entire ownership area (district or park).  </p>
-        <div class="notificationNote">
-            <p>When choosing a landscape for LBP, only those landscapes with a buffer and unaltered resolution are available from the drop-down menu. (Landscapes with the suffix “NB” or “Xm” will not run with LBP).</p>
-        </div>
-        <h3>Wind, Crown Fire, Initial Fuel Moisture, Fuel Moisture Conditioning</h3>
-        <p>LBP is intended to be used to gauge fuel treatment effectiveness, integrated hazard and/or wildfire risk. Inputs should represent the “worst case scenario” or “problem fire” conditions. Potential sources of initial fuel moistures, wind speed and wind direction could include:</p>
-        <ul>
-            <li>Initial fuel moistures, wind speed and wind direction calculated in Fire Family Plus from a local RAWS using historic weather from the past 10 to 20 years representing 90-97th percentile conditions.</li>
-            <li>Initial fuel moistures, wind speed and wind direction from a known ‘problem fire’ on a day of maximal growth.</li>
-            <li>Predefined initial fuel moistures for very dry or dry conditions (<a href="" target="_blank">Scott and Burgan 2005</a>) in combination with known or predicted worst case scenario wind speed and wind direction.</li>
-        </ul>
-        <h3>Simulation Time</h3>
-        <p>Simulation time, or Burn Period Length, can range from 4-12 hours. Longer burn periods result in larger fires because fuel moisture and wind conditions are held constant.</p>
-        <p>Because inputs should represent the “worst case scenario” or “problem fire” conditions the duration of the burn period should reflect the active buring period of wildfires for your area under extreme conditions.</p>
-        <h3>Spotting</h3>
-        <p>Spotting probability is not the probability of ignition, it is used by the model to determine if embers are launched and whether launched embers will land. Spotting Probability is treated differently by IFTDSS than in WFDSS NTFB / FARSITE.</p>
-        <p>Spotting Probability of  20% is the recommended input and the default in IFTDSS, however it can be changed if needed. Entering 100% means that all points on the landscape where crown fire is initiated will launch embers.  A value of 0% in essence turns off spotting.</p>
-        <h2>Outputs</h2>
+        <h2><a name="Scale"></a>Scale</h2>
         <div class="notificationImportant">
-            <p>Outputs are uniquely scaled for each analysis or Area of Interest</p>
+            <p>Outputs are uniquely scaled for each analysis or Area of Interest.</p>
         </div>
-        <p>The most important thing to remember when using burn probability outputs is that they are <span class="Emphasis">relative within the landscape or area of interest</span>.  Outputs must be viewed within the context of the landscape they are generated in. For example, a red pixel in one analysis still may be a much lower burn probability than a yellow or blue pixel in another analysis with a different landscape, different weather, or different fuel moisture inputs.  You cannot compare two landscapes that have had burn probably run on them individually, each case is unique.</p>
+        <p>The most important thing to remember when using burn probability outputs is that they are <span class="Emphasis">relative within the landscape or area of interest</span>.  Outputs must be viewed within the context of the landscape they are generated in. For example, a red pixel in one analysis still may be a much lower burn probability than a yellow or blue pixel in another analysis with a different landscape, different weather, or different fuel moisture inputs. A prime example of this can be seen when comparing the various example images in the <a href="Out/OutViewIFTDSS.htm#Viewing_w_masks" target="_blank">Viewing outputs with masks topic</a>. You cannot compare two landscapes that have had burn probably run on them individually, each case is unique.</p>
         <p>The outputs should be evaluated in the context of the management questions being asked and keeping model inputs in mind, especially wind speed and direction.</p>
-        <h3>Burn Probability Classes are Scaled, use the Identify Widget for more detail</h3>
-        <p>The legend in the Landscape Burn probability lists the “Analysis Maximum” for that analysis, the colored classes in the legend are scaled based on this value. The colored classes are not evenly distributed but rather are all in relation to the analysis maximum.  As a result some analysis outputs may be heavily skewed to just one or two classes depending on the range of results.  Each pixel has a unique burn probability which can be determined by using the Identify tool.</p>
-        <p>
-            <img src="../../Resources/Images/Models/Flammap/Risk/ID_tool_BP.png" class="border" />
+        <h2><a name="CFL"></a>LBP Conditional Flame Length</h2>
+        <p>Conditional flame length should not be compared directly flame length outputs from Landscape Fire Behavior. In addition to being calculated differently, conditional flame length may vary significantly within a probability run or that it is close to the “edge” of a classification breakpoint may be useful for interpretation.</p>
+        <p><a name="Affects_of_landscape_features_and_wind"></a>
         </p>
-        <h3>Use the Identify Tool to get more information on Conditional Flame Lengths</h3>
-        <p>Conditional Flame Length is mean flame length of all the calculation simulated fires that burn a given point on the landscape during the landscape burn probability calculations. Using the identify tool in map studio shows this mean value while also listing the percentage of times that all simulated fires had flame lengths in other classes.</p>
-        <p>
-            <img src="../../Resources/Images/Models/Flammap/Risk/conditional_fl_idtool.png" class="border" />
-        </p>
-        <h3>LBP Conditional Flame Length</h3>
-        <p>Conditional flame length should not be compared directly flame length outputs from Landscape Fire Behavior.</p>
-        <ul>
-            <li>Understanding that a conditional flame length may vary significantly within a probability run or that it is close to the “edge” of a classification breakpoint may be useful for interpretation.</li>
-            <li>Inputs such as wind direction or landscape features may affect outputs in unusual ways.</li>
-        </ul>
+        <h2>Affects of landscape features and wind</h2>
         <p>In some model outputs you may encounter areas with high conditional flame lengths and low burn probabilities. Causes for this can  include fuels that are located in difficult locations for fire to spread to, such as highly flammable but patchy fuels. Some examples of this are high elevation timber pockets, or shrub islands surrounded by non-burnable fuels (pictured below).</p>
         <p>
             <img src="../../Resources/Images/Models/Flammap/Risk/fire_barriers.png" class="border" />

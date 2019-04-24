@@ -172,17 +172,20 @@
       Title="Strategic Planning"
       Link="/Content/10-Cycle/StrategicPlanningAbout.htm">
       <TocEntry
-        Title="Comparing Landscapes to Develop Treatement Alternatives"
-        Link="/Content/30-Tasks/DevTrtAlts/TrtmtAltsCompareLndscp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Title="Develop Treatment Alternatives">
+        <TocEntry
+          Title="Comparing Landscapes to Develop Treatement Alternatives"
+          Link="/Content/30-Tasks/DevTrtAlts/TrtmtAltsCompareLndscp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Editing a Landscape to Develop Treatment Alternatives"
+          Link="/Content/30-Tasks/DevTrtAlts/TrtmtAltsEditLandscp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="About Edit Rules"
+          Link="/Content/30-Tasks/LndscpEdit/RuleOrdering.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
       <TocEntry
-        Title="Editing a Landscape to Develop Treatment Alternatives"
-        Link="/Content/30-Tasks/DevTrtAlts/TrtmtAltsEditLandscp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="About Edit Rules"
-        Link="/Content/30-Tasks/LndscpEdit/RuleOrdering.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Quantitative Risk Assessment"
-        conditions="General.LaterRelease" />
+        Title="Quantitative Wildland Fire Risk Assessment"
+        Link="/Content/30-Tasks/Risk/RiskAssessment.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Prioritize Treatments"
         conditions="General.LaterRelease" />
@@ -370,14 +373,15 @@
     </TocEntry>
     <TocEntry
       Title="Landscape Burn Probability (LBP)"
-      conditions="General.QA ONLY">
+      ComputeToc="false"
+      ReplaceMergeNode="false">
       <TocEntry
-        Title="LBP Overview"
+        Title="LBP Overview [UNDER DEVELOPMENT]"
         Link="/Content/20-Models/LBP/About.htm" />
       <TocEntry
         Title="Inputs">
         <TocEntry
-          Title="Overview"
+          Title="Overview [UNDER DEVELOPMENT]"
           Link="/Content/20-Models/LBP/In/OverviewLBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
@@ -404,10 +408,10 @@
             Link="/Content/20-Models/ClassifiedWthr/AboutWXS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
         <TocEntry
-          Title="Simulation Time"
+          Title="Simulation Time [UNDER DEVELOPMENT]"
           Link="/Content/20-Models/LBP/In/SimTimesLBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
-          Title="Spotting"
+          Title="Spotting [UNDER DEVELOPMNET]"
           Link="/Content/20-Models/LBP/In/SpotLBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
@@ -419,42 +423,47 @@
       <TocEntry
         Title="Outputs">
         <TocEntry
-          Title="Outputs Overview"
+          Title="Outputs Overview [UNDER DEVELOPMENT]"
           Link="/Content/20-Models/LBP/Out/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
-          Title="View in IFTDSS"
+          Title="View in IFTDSS [UNDER DEVELOPMENT]"
           Link="/Content/20-Models/LBP/Out/OutViewIFTDSS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
-          Title="Downloading"
+          Title="Downloading [UNDER DEVELOPMENT]"
           Link="/Content/20-Models/LBP/Out/Download.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
           Link="/Content/20-Models/LBP/Out/BurnProb.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
-          Title="Conditional Flame Length"
+          Title="Conditional Flame Length [UNDER DEVELOPMENT]"
           Link="/Content/20-Models/LBP/Out/ConditionalFL.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
           Link="/Content/20-Models/LBP/Out/Hazard.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
-          Title="Fire Intensity Level"
+          Title="Fire Intensity Level [UNDER DEVELOPMENT]"
           Link="/Content/20-Models/LBP/Out/FireIntensityLev.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
-          Title="Midflame Wind Speed"
+          Title="Midflame Wind Speed [UNDER DEVELOPMENT]"
           Link="/Content/20-Models/LBP/Out/MidflameWindSpd.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
-          Title="Fuel Moisture"
+          Title="Fuel Moisture [UNDER DEVELOPMENT]"
           Link="/Content/20-Models/LBP/Out/FuelMoisture.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
-          Title="Fire Size List"
+          Title="Fire Size List [UNDER DEVELOPMENT]"
           Link="/Content/20-Models/LBP/Out/FireSizeList.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
-          Title="FlamMap Input File"
+          Title="FlamMap Input File [UNDER DEVELOPMENT]"
           Link="/Content/20-Models/LBP/Out/FlammapInputFile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/20-Models/LBP/RunConsiderations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Title="LBP Run Considerations [UNDER DEVELOPMENT]"
+        Link="/Content/20-Models/LBP/RunConsiderations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        conditions="General.QA ONLY" />
+      <TocEntry
+        Title="LBP vs. LFB [UNDER DEVELOPMENT]"
+        Link="/Content/20-Models/LBP/LBPvLFB.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        conditions="General.QA ONLY" />
     </TocEntry>
     <TocEntry
       Title="MTT Fire Spread"

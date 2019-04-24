@@ -4,7 +4,7 @@
         <link href="../../../Resources/TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
-        <h1>Burn Probability</h1>
+        <h1>Burn Probability<MadCap:snippetText src="../../../Resources/Snippets/Development.flsnp" /></h1>
         <p>Burn probability is viewable in Map Studio, in Reports, and available in the download package. Burn probabilities represent the likelihood of a given location on your landscape burning. Burn probabilities are related to the sizes of fires that occur on a given landscape. Large fires produce higher probabilities than small fires. Since fire size is a function of both the rate of spread, and the duration of a fire, treatments or weather conditions  that reduce the rate of spread will lower the burn probability.</p>
         <h2>Calculation</h2>
         <p>Within Landscape Burn Probability, randomly located ignition points are used to simulate fires. Ignitions are only located and retained on burnable fuels, if an ignition is located on a non-burnable fuel it is discarded. The number of ignitions is determined by IFTDSS to most efficiently produce outputs for the user. See the <a href="../In/NoFiresSimLBP.htm" target="_blank">Number of Fires Simulated topic</a> for details.</p>
@@ -61,5 +61,10 @@
                 </tr>
             </tbody>
         </table>
+        <h2><a name="scale"></a>Burn Probability Classes are Scaled, use the Identify Widget for more detail</h2>
+        <p>The legend in the Landscape Burn probability lists the “Analysis Maximum” for that analysis, the colored classes in the legend are scaled based on this value. The colored classes are not evenly distributed but rather are all in relation to the analysis maximum.  As a result some analysis outputs may be heavily skewed to just one or two classes depending on the range of results.  Each pixel has a unique burn probability which can be determined by using the Identify tool.</p>
+        <p>
+            <img src="../../../Resources/Images/Models/Flammap/Risk/ID_tool_BP.png" class="border" />
+        </p>
     </body>
 </html>
