@@ -7,44 +7,151 @@
         <h1>Importing Layer Symbology into ArcMap for Landscape Burn Probability outputs</h1>
         <div class="notificationNote">
             <p>The symbology was designed to match the units in Map Studio; however, the units in GeoTIFF are not always the same  For example, 1 Hour Fuel Moisture is a proportion in the GeoTIFF, and percent in the legend. In the image below, the value for the pixel at the black dot is 0.027283. This is 2.7283 % and is in the &gt;2 - 3 class in the legend (orange).</p>
+            <p>
+                <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/LBP_callout.png" alt="arc legend on the left displaying classes, arc map 'more info' box on the right showing an exact number value rather than a class." class="border" />
+            </p>
             <p>See the Landscape <a href="../../20-Models/LBP/Out/BurnProb.htm" target="_blank">Burn Probability Outputs</a> help topic for the units in Map Studio versus the GeoTIFF.</p>
         </div>
         <p>In the Landscape Fire Behavior download package available in IFTDSS, we have included ArcGIS Layer (.lyr) files to define the symbology for most of the layers visible in Map Studio. In the GeoTIFF, the Landscape Burn Probability layers are both categorical and continuous data, therefore importing the symbology is slightly different for the two types.</p>
+        <p>
+            <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/LBP_file_list.png" alt="files available in the Landscape Burn Probability download package.  They include the ArcGIS Layer (*.lyr) files to define the symbology for most of the bands in the GeoTIFF (*.TIF, *.XML, *.OVR)" class="border" />
+        </p>
         <p>Although Burn Probability is visible in Map Studio, we have not included an ArcGIS Layer file because the  bins are dynamically derived on the Analysis Maximum and it is not possible to create a file for individual model outputs. We have included the steps required to change the symbology within ArcMap manually.</p>
         <p>In addition, we have not included ArcGIS Layers files for layers included in the Landscape Burn Probability GeoTIFF not shown in Map Studio.  This includes the six Proportion of Flame Length layers.</p>
         <h2>Importing symbology for Integrated Hazard</h2>
         <p>The Integrated Hazard layer in the Landscape Fire Behavior GeoTIFF is categorical data.  The following steps outline how to import the symbology for categorical data.</p>
         <ol style="list-style-type: upper-alpha;">
             <li>Open ArcMap session and add the layers you would like to map. For more information on how do add layers to ArcMap please see the <a href="GeoTiffArcOpen.htm" target="_blank">Opening an IFTDSS Geo Tiff file in ArcMap</a> help topic.</li>
-            <li>Right-click on the “Integrated Hazard” layer and click <span class="UIcomponent">Properties</span>.</li>
-            <li>In the <span class="UIcomponent">Layer Properties window</span> go to the <span class="UIcomponent">Symbology tab</span> and select <span class="UIcomponent">Unique Values</span>.  You may get a pop-up window asking if you would like to compute unique values.  Click <span class="UIcomponent">Yes</span>.</li>
-            <li>Click on the <span class="UIcomponent">Folder icon</span> <img src="../../Resources/Images/External/Arc/import_lyrs/landscapes/foldericon.png" alt="folder" class="iftbutton" /> toward the top right of the <span class="UIcomponent">Layer Properties window</span>. In the <span class="UIcomponent">Import Symbology window</span> that opens, click on the <span class="UIcomponent">Folder icon</span> <img src="../../Resources/Images/External/Arc/import_lyrs/landscapes/foldericon.png" alt="folder" class="iftbutton" />. This opens the <span class="UIcomponent">Browse window</span>.  Select the “Integrated Hazard.lyr” file in the Browse window and click <span class="UIcomponent">Add</span>.</li>
-            <li>Click <span class="UIcomponent">OK</span> to close the <span class="UIcomponent">Import Symbology window</span>, and <span class="UIcomponent">OK</span> in the bottom of the <span class="UIcomponent">Layer Properties window</span> to apply the symbology.</li>
-            <li>Now you can see Integrated Hazard in ArcMap (top image) the same as it is in Map Studio in IFTDSS (bottom image).</li>
+            <li>
+                <p>Right-click on the “Integrated Hazard” layer and click <span class="UIcomponent">Properties</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/IH_properties.png" alt="&quot;Properties&quot; menu option that becomes available when right clicking on the layer in arcmap" class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>In the <span class="UIcomponent">Layer Properties window</span> go to the <span class="UIcomponent">Symbology tab</span> and select <span class="UIcomponent">Unique Values</span>.  You may get a pop-up window asking if you would like to compute unique values.  Click <span class="UIcomponent">Yes</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/IH_prop_sym1.png" alt="Click 'yes' in the 'compute unique values' box to proceed." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Click on the <span class="UIcomponent">Folder icon</span> <img src="../../Resources/Images/External/Arc/import_lyrs/landscapes/foldericon.png" alt="folder" class="iftbutton" /> toward the top right of the <span class="UIcomponent">Layer Properties window</span>. In the <span class="UIcomponent">Import Symbology window</span> that opens, click on the <span class="UIcomponent">Folder icon</span> <img src="../../Resources/Images/External/Arc/import_lyrs/landscapes/foldericon.png" alt="folder" class="iftbutton" />. This opens the <span class="UIcomponent">Browse window</span>.  Select the “Integrated Hazard.lyr” file in the Browse window and click <span class="UIcomponent">Add</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/IH_add_lyr.png" alt="'Import Symbology' box opened via 'layer properties'." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Click <span class="UIcomponent">OK</span> to close the <span class="UIcomponent">Import Symbology window</span>, and <span class="UIcomponent">OK</span> in the bottom of the <span class="UIcomponent">Layer Properties window</span> to apply the symbology.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/IH_close_lyr.png" alt="Click &quot;ok&quot; in the &quot;import symbology&quot; box, and &quot;ok&quot; in the &quot;Layer Properties&quot; box to proceed." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Now you can see Integrated Hazard in ArcMap (top image) the same as it is in Map Studio in IFTDSS (bottom image).</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/IH_Arc.png" alt="Integrated Hazard Layer displayed in ArcMap with the same symbology as displayed in IFTDSS" class="borderlist" />
+                </p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/IH_MapStudio.png" alt="Integrated Hazard Layer displayed in IFTDSS" class="borderlist" />
+                </p>
+            </li>
         </ol>
         <h2>Applying symbology for 1, 10, and 100 Hour Fuel Moisture, Conditional Flame Length, and Midflame Wind Speed</h2>
         <p>The same steps are completed to import the symbology for 1, 10, and 100 Hour Fuel Moistures, Conditional Flame Length, and Midflame Wind Speed. These data sources are continuous data that are classified into distinct bins.  The following steps outline how to import the symbology for continuous data. The example below will use Conditional Flame Length; however, the same steps are applied to the remaining layers.</p>
         <ol style="list-style-type: upper-alpha;">
             <li>Open ArcMap session and add the layers you would like to map. For more information on how do add layers to ArcMap please see the Opening an IFTDSS Geo Tiff file in ArcMap help topic.</li>
-            <li>Right-click on the “Conditional Flame Length” layer and click <span class="UIcomponent">Properties</span>.</li>
-            <li>In the <span class="UIcomponent">Layer Properties window</span> go to the <span class="UIcomponent">Symbology tab</span> and select “Classified”.</li>
-            <li>Click on the <span class="UIcomponent">Folder icon</span> <img src="../../Resources/Images/External/Arc/import_lyrs/landscapes/foldericon.png" alt="folder" class="iftbutton" /> toward the top right of the<span class="UIcomponent"> Layer Properties window</span>. In the <span class="UIcomponent">Import Symbology window</span> that opens, click on the <span class="UIcomponent">Folder icon</span> <img src="../../Resources/Images/External/Arc/import_lyrs/landscapes/foldericon.png" alt="folder" class="iftbutton" />. This opens the <span class="UIcomponent">Browse window</span>.  Select the “Conditional Flame Length (ft).lyr” file in the Browse window and click <span class="UIcomponent">Add</span>.</li>
-            <li>Click <span class="UIcomponent">OK</span> to close the <span class="UIcomponent">Import Symbology window</span>, and <span class="UIcomponent">OK</span> in the bottom of the <span class="UIcomponent">Layer Property window</span> to apply the symbology.</li>
-            <li>Now you can see Conditional Flame Length in ArcMap (top image) the same as it is in Map Studio in IFTDSS (bottom image).</li>
+            <li>
+                <p>Right-click on the “Conditional Flame Length” layer and click <span class="UIcomponent">Properties</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/CFL_properties.png" alt="&quot;Properties&quot; menu option that becomes available when right clicking on the layer in arcmap" class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>In the <span class="UIcomponent">Layer Properties window</span> go to the <span class="UIcomponent">Symbology tab</span> and select “Classified”.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/Layer_Prop_Classified.png" alt="The &quot;Layer Properties&quot; box with &quot;Classified&quot; selected." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Click on the <span class="UIcomponent">Folder icon</span> <img src="../../Resources/Images/External/Arc/import_lyrs/landscapes/foldericon.png" alt="folder" class="iftbutton" /> toward the top right of the<span class="UIcomponent"> Layer Properties window</span>. In the <span class="UIcomponent">Import Symbology window</span> that opens, click on the <span class="UIcomponent">Folder icon</span> <img src="../../Resources/Images/External/Arc/import_lyrs/landscapes/foldericon.png" alt="folder" class="iftbutton" />. This opens the <span class="UIcomponent">Browse window</span>.  Select the “Conditional Flame Length (ft).lyr” file in the Browse window and click <span class="UIcomponent">Add</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/CFL_layer.png" alt="&quot;Browse&quot; window open with &quot;Conditional Flame Length&quot; selected." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Click <span class="UIcomponent">OK</span> to close the <span class="UIcomponent">Import Symbology window</span>, and <span class="UIcomponent">OK</span> in the bottom of the <span class="UIcomponent">Layer Property window</span> to apply the symbology.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/CFL_close_lyr.png" alt="Click &quot;OK&quot; in the &quot;Import Symbology&quot; and &quot;Layer Properties&quot; to close." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Now you can see Conditional Flame Length in ArcMap (top image) the same as it is in Map Studio in IFTDSS (bottom image).</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/CFL_Arc.png" alt="Conditional Flame Length layer displayed in ArcMap" class="borderlist" />
+                </p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/CFL_MapStudio.png" alt="Conditional Flame Length layer displayed in IFTDSS" class="borderlist" />
+                </p>
+            </li>
         </ol>
         <h2>Applying symbology for Burn Probability</h2>
         <p>For Burn Probability, because the legend is dynamically applied to each model output based on the analysis maximum burn probability value there is not an ArcGIS Layer file included in the download package.</p>
         <ol style="list-style-type: upper-alpha;">
             <li>Open ArcMap session and add the layers you would like to map. For more information on how do add layers to ArcMap please see the <a href="GeoTiffArcOpen.htm" target="_blank">Opening an IFTDSS Geo Tiff file in ArcMap</a> help topic.</li>
-            <li>Right-click on the "Burn Probability" layer and click <span class="UIcomponent">Properties</span>.</li>
-            <li>To determine the break values for the classification, in the <span class="UIcomponent">Layer Property window</span>, go to the <span class="UIcomponent">Symbology tab</span>, select <span class="UIcomponent">Classified</span>, then click the <span class="UIcomponent">Classify</span> button.</li>
-            <li>In the Classification window, change the Method to “Equal Interval” and the Classes to “5”. Click the Exclusion.. button.  In the Data Exclusion Properties window, enter “-1;0” and click OK.</li>
-            <li>In the <span class="UIcomponent">Classification window</span>, click the % button to the right of the Break Values. Click each value and change the values to 20, 40, 60, 80, and 100 if they are not already set.</li>
-            <li>Click the % button again. The Break Values represent the 20% of maximum classes seen in Map Studio for Burn Probability.  Note the values or take a screen capture, you will need them in the next step.</li>
-            <li>To create the classification including the “Non-burnable” and “Burnable but Not Burned” classes, click <span class="UIcomponent">Exclusions...</span>, delete the values, and click <span class="UIcomponent">OK</span>.</li>
-            <li>Change the <span class="UIcomponent">Method</span> to anything other than "Manual", in our example we’ll use “Equal Interval”. Set the <span class="UIcomponent">Classes</span> to be 7. In the Break Values section, starting at the largest value (bottom of the list) update the last 5 values to match those in step F.  Then change the first two to be -1 and 0, respectively. When you are done, click <span class="UIcomponent">OK</span>.</li>
-            <li>To update the legend in the ArcMap Table of contents, in the <span class="UIcomponent">Layer Properties window</span> type the correct names under <span class="UIcomponent">Label</span>. Click <span class="UIcomponent">OK</span> when you are done.</li>
-            <li>Double-click on the symbol next to the "-1" value (-1 represents Non-burnable pixels) . When the <span class="UIcomponent">Color Selector window</span> opens, click <span class="UIcomponent">More Colors…</span>, then set the the color to “RBG” from the drop-down menu, enter the values R = 156 , G = 156, B = 156, and click <span class="UIcomponent">OK</span>.</li>
+            <li>
+                <p>Right-click on the "Burn Probability" layer and click <span class="UIcomponent">Properties</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/BP_properties.png" alt="The &quot;properties&quot; option displayed in ArcMap after right-clicking on the Burn Probability layer." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>To determine the break values for the classification, in the <span class="UIcomponent">Layer Property window</span>, go to the <span class="UIcomponent">Symbology tab</span>, select <span class="UIcomponent">Classified</span>, then click the <span class="UIcomponent">Classify</span> button.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/BP_classify1.png" alt="&quot;Layer Properties&quot; box with the &quot;Classified&quot; option selected." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>In the <span class="UIcomponent">Classification window</span>, change the <span class="UIcomponent">Method</span> to “Equal Interval” and the <span class="UIcomponent">Classes</span> to “5”. Click the <span class="UIcomponent">Exclusion.. button</span>.  In the <span class="UIcomponent">Data Exclusion Properties window</span>, enter “-1;0” and click <span class="UIcomponent">OK</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/BP_classify2.png" alt="&quot;Data Exclusion Properties&quot; box with &quot;-1;0&quot; entered into the &quot;Excluded Value&quot; field." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>In the <span class="UIcomponent">Classification window</span>, click the % button to the right of the <span class="UIcomponent">Break Values</span>. Click each value and change the values to 20, 40, 60, 80, and 100 if they are not already set.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/BP_classify3.png" alt="Classification box showing break values of 20,40,60,80, and 100." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Click the <span class="UIcomponent">% button</span> again. The Break Values represent the 20% of maximum classes seen in Map Studio for Burn Probability.  Note the values or take a screen capture, you will need them in the next step.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/BP_classify4.png" alt="Classification box with Break Values shown." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>To create the classification including the “Non-burnable” and “Burnable but Not Burned” classes, click <span class="UIcomponent">Exclusions...</span>, delete the values, and click <span class="UIcomponent">OK</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/Data_Exlusion_properties.png" alt="&quot;Data Exclusion Box&quot; with &quot;Excluded values&quot; field blank." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Change the <span class="UIcomponent">Method</span> to anything other than "Manual", in our example we’ll use “Equal Interval”. Set the <span class="UIcomponent">Classes</span> to be 7. In the Break Values section, starting at the largest value (bottom of the list) update the last 5 values to match those in step F.  Then change the first two to be -1 and 0, respectively. When you are done, click <span class="UIcomponent">OK</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/BP_classify5.png" alt="Classification box showing 7 break values" class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>To update the legend in the ArcMap Table of contents, in the <span class="UIcomponent">Layer Properties window</span> type the correct names under <span class="UIcomponent">Label</span>. Click <span class="UIcomponent">OK</span> when you are done.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/BP_classify6.png" alt="&quot;Classify&quot; box with Labels filled in to match those in IFTDSS." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Double-click on the symbol next to the "-1" value (-1 represents Non-burnable pixels) . When the <span class="UIcomponent">Color Selector window</span> opens, click <span class="UIcomponent">More Colors…</span>, then set the  color to “RBG” from the drop-down menu, enter the values R = 156 , G = 156, B = 156, and click <span class="UIcomponent">OK</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/BP_classify7.png" alt="color selection menu" class="borderlist" />
+                </p>
+            </li>
             <li>
                 <p>Repeat the process for the remaining classes using the table below.</p>
                 <table style="width: 100%;mc-table-style: url('../../Resources/TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
@@ -52,62 +159,70 @@
                     <col class="TableStyle-Standard-Column-Column1" />
                     <col class="TableStyle-Standard-Column-Column1" />
                     <col class="TableStyle-Standard-Column-Column1" />
+                    <thead>
+                        <tr class="TableStyle-Standard-Head-Header1">
+                            <td class="TableStyle-Standard-HeadE-Column1-Header1">Value</td>
+                            <td class="TableStyle-Standard-HeadE-Column1-Header1">R</td>
+                            <td class="TableStyle-Standard-HeadE-Column1-Header1">G</td>
+                            <td class="TableStyle-Standard-HeadD-Column1-Header1">B</td>
+                        </tr>
+                    </thead>
                     <tbody>
                         <tr class="TableStyle-Standard-Body-Body1">
-                            <td class="TableStyle-Standard-BodyE-Column1-Body1">Value</td>
-                            <td class="TableStyle-Standard-BodyE-Column1-Body1">R</td>
-                            <td class="TableStyle-Standard-BodyE-Column1-Body1">G</td>
-                            <td class="TableStyle-Standard-BodyD-Column1-Body1">B</td>
+                            <td class="TableStyle-Standard-BodyE-Column1-Body1">-1 (Non burnable)</td>
+                            <td class="TableStyle-Standard-BodyE-Column1-Body1">156</td>
+                            <td class="TableStyle-Standard-BodyE-Column1-Body1">156</td>
+                            <td class="TableStyle-Standard-BodyD-Column1-Body1">156</td>
                         </tr>
                         <tr class="TableStyle-Standard-Body-Body2">
-                            <td class="TableStyle-Standard-BodyE-Column1-Body2">-1 (Non burnable)</td>
-                            <td class="TableStyle-Standard-BodyE-Column1-Body2">156</td>
-                            <td class="TableStyle-Standard-BodyE-Column1-Body2">156</td>
-                            <td class="TableStyle-Standard-BodyD-Column1-Body2">156</td>
+                            <td class="TableStyle-Standard-BodyE-Column1-Body2">0 (Burnable but not Burned)</td>
+                            <td class="TableStyle-Standard-BodyE-Column1-Body2">0</td>
+                            <td class="TableStyle-Standard-BodyE-Column1-Body2">0</td>
+                            <td class="TableStyle-Standard-BodyD-Column1-Body2">0</td>
                         </tr>
                         <tr class="TableStyle-Standard-Body-Body1">
-                            <td class="TableStyle-Standard-BodyE-Column1-Body1">0 (Burnable but not Burned)</td>
-                            <td class="TableStyle-Standard-BodyE-Column1-Body1">0</td>
-                            <td class="TableStyle-Standard-BodyE-Column1-Body1">0</td>
-                            <td class="TableStyle-Standard-BodyD-Column1-Body1">0</td>
+                            <td class="TableStyle-Standard-BodyE-Column1-Body1">Lowest (0-20% of maximum)</td>
+                            <td class="TableStyle-Standard-BodyE-Column1-Body1">41</td>
+                            <td class="TableStyle-Standard-BodyE-Column1-Body1">219</td>
+                            <td class="TableStyle-Standard-BodyD-Column1-Body1">255</td>
                         </tr>
                         <tr class="TableStyle-Standard-Body-Body2">
-                            <td class="TableStyle-Standard-BodyE-Column1-Body2">Lowest (0-20% of maximum)</td>
-                            <td class="TableStyle-Standard-BodyE-Column1-Body2">41</td>
-                            <td class="TableStyle-Standard-BodyE-Column1-Body2">219</td>
-                            <td class="TableStyle-Standard-BodyD-Column1-Body2">255</td>
+                            <td class="TableStyle-Standard-BodyE-Column1-Body2">Lower (20-40% of maximum)</td>
+                            <td class="TableStyle-Standard-BodyE-Column1-Body2">135</td>
+                            <td class="TableStyle-Standard-BodyE-Column1-Body2">255</td>
+                            <td class="TableStyle-Standard-BodyD-Column1-Body2">187</td>
                         </tr>
                         <tr class="TableStyle-Standard-Body-Body1">
-                            <td class="TableStyle-Standard-BodyE-Column1-Body1">Lower (20-40% of maximum)</td>
-                            <td class="TableStyle-Standard-BodyE-Column1-Body1">135</td>
-                            <td class="TableStyle-Standard-BodyE-Column1-Body1">255</td>
-                            <td class="TableStyle-Standard-BodyD-Column1-Body1">187</td>
-                        </tr>
-                        <tr class="TableStyle-Standard-Body-Body2">
-                            <td class="TableStyle-Standard-BodyE-Column1-Body2">Middle (40-60% of maximum)</td>
-                            <td class="TableStyle-Standard-BodyE-Column1-Body2">250</td>
-                            <td class="TableStyle-Standard-BodyE-Column1-Body2">250</td>
-                            <td class="TableStyle-Standard-BodyD-Column1-Body2">100</td>
-                        </tr>
-                        <tr class="TableStyle-Standard-Body-Body1">
-                            <td class="TableStyle-Standard-BodyE-Column1-Body1">Higher (60-80% of maximum)</td>
+                            <td class="TableStyle-Standard-BodyE-Column1-Body1">Middle (40-60% of maximum)</td>
                             <td class="TableStyle-Standard-BodyE-Column1-Body1">250</td>
-                            <td class="TableStyle-Standard-BodyE-Column1-Body1">138</td>
-                            <td class="TableStyle-Standard-BodyD-Column1-Body1">52</td>
+                            <td class="TableStyle-Standard-BodyE-Column1-Body1">250</td>
+                            <td class="TableStyle-Standard-BodyD-Column1-Body1">100</td>
                         </tr>
                         <tr class="TableStyle-Standard-Body-Body2">
-                            <td class="TableStyle-Standard-BodyB-Column1-Body2">Highest (80-100% of maximum)</td>
-                            <td class="TableStyle-Standard-BodyB-Column1-Body2">232</td>
-                            <td class="TableStyle-Standard-BodyB-Column1-Body2">16</td>
-                            <td class="TableStyle-Standard-BodyA-Column1-Body2">20</td>
+                            <td class="TableStyle-Standard-BodyE-Column1-Body2">Higher (60-80% of maximum)</td>
+                            <td class="TableStyle-Standard-BodyE-Column1-Body2">250</td>
+                            <td class="TableStyle-Standard-BodyE-Column1-Body2">138</td>
+                            <td class="TableStyle-Standard-BodyD-Column1-Body2">52</td>
+                        </tr>
+                        <tr class="TableStyle-Standard-Body-Body1">
+                            <td class="TableStyle-Standard-BodyB-Column1-Body1">Highest (80-100% of maximum)</td>
+                            <td class="TableStyle-Standard-BodyB-Column1-Body1">232</td>
+                            <td class="TableStyle-Standard-BodyB-Column1-Body1">16</td>
+                            <td class="TableStyle-Standard-BodyA-Column1-Body1">20</td>
                         </tr>
                     </tbody>
                 </table>
             </li>
             <li>Click <span class="UIcomponent">OK</span> in the bottom of the<span class="UIcomponent"> Layer Property window</span> to apply the symbology.</li>
-            <li>Now you can see Burn Probability in ArcMap (top image) the same as it is in Map Studio in IFTDSS (bottom image).</li>
+            <li>
+                <p>Now you can see Burn Probability in ArcMap (top image) the same as it is in Map Studio in IFTDSS (bottom image).</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/BP_Arc.png" alt="Burn Probability displayed in ArcMap" class="borderlist" />
+                </p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/BP_MapStudio.png" alt="Burn Probability displayed in IFTDSS" class="borderlist" />
+                </p>
+            </li>
         </ol>
-        <p>&#160;</p>
-        <p>&#160;</p>
     </body>
 </html>
