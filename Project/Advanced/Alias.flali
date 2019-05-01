@@ -250,7 +250,7 @@
     <Map Name="ModelStatus" Link="/Content/20-Models/ModelStatus.htm" />
     <Map Name="OutBurnProb" Link="/Content/20-Models/LBP/Out/BurnProb.htm" />
     <Map Name="OutConditionalFL" Link="/Content/20-Models/LBP/Out/ConditionalFL.htm" />
-    <Map Name="OutFireIntensityLev" Link="/Content/20-Models/LBP/Out/FireIntensityLev.htm" />
+    <Map Name="OutFireIntensityLev" Link="/Content/20-Models/LBP/Out/PropFlameLength.htm" />
     <Map Name="OutFireSizeList" Link="/Content/20-Models/LBP/Out/FireSizeList.htm" />
     <Map Name="OutFlammapInputFile" Link="/Content/20-Models/LBP/Out/FlammapInputFile.htm" />
     <Map Name="OutFuelMoisture" Link="/Content/20-Models/LBP/Out/FuelMoisture.htm" />

@@ -21,6 +21,7 @@
             <li>Metadata files for the GeoTiff (&lt;Run Name&gt;.xml and &lt;Run Name&gt;.ovr, for use in ArcMap)</li>
             <li>Inputs file (&lt;Run Name&gt;_FlamMap6.input file, for use in FlamMap 6.0) - See the <a href="FlammapInputFile.htm" target="_blank">FlamMap Inputs topic</a> for more details.</li>
             <li>Fire Size List file (&lt;Run Name&gt;_FIRESIZELIST.txt, for use in Excel, NotePad or ArcMap) - See the <a href="FireSizeList.htm" target="_blank">Fire Size List topic</a> for more details.</li>
+            <li>Arc .Lyr symbology file for setting colors in ArcMap that match those used in <MadCap:variable name="General.ProductName" />.</li>
         </ul>
         <p>The screenshot below shows an example of  files in the download zip folder for a Landscape Burn Probability model output. In the image the &lt;Run Name&gt; was Sisters RD Conditioning.</p>
         <p>
@@ -46,32 +47,32 @@
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">Proportion of Flame Lengths 0-2 ft</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">The probability of fire burning with a flame length between &gt;0 and 2 ft. More detail in the <a href="FireIntensityLev.htm" target="_blank">Flame Length Probability topic</a>.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">The probability of fire burning with a flame length between &gt;0 and 2 ft. More detail in the <a href="PropFlameLength.htm" target="_blank">Flame Length Probability topic</a>.</td>
                     <td class="TableStyle-Standard-BodyD-Column1-Body2">2</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">Proportion of Flame Lengths 2-4 ft</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">The probability of fire burning with a flame length between &gt;2 and 4 ft. More detail in the <a href="FireIntensityLev.htm" target="_blank">Flame Length Probability topic</a>.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">The probability of fire burning with a flame length between &gt;2 and 4 ft. More detail in the <a href="PropFlameLength.htm" target="_blank">Flame Length Probability topic</a>.</td>
                     <td class="TableStyle-Standard-BodyD-Column1-Body1">3</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">Proportion of Flame Lengths 4-6 ft</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">The probability of fire burning with a flame length between &gt;4 and 6 ft.  More detail in the <a href="FireIntensityLev.htm" target="_blank">Flame Length Probability topic</a>.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">The probability of fire burning with a flame length between &gt;4 and 6 ft.  More detail in the <a href="PropFlameLength.htm" target="_blank">Flame Length Probability topic</a>.</td>
                     <td class="TableStyle-Standard-BodyD-Column1-Body2">4</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">Proportion of Flame Lengths 6-8 ft</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">The probability of fire burning with a flame length between &gt;6 and 8 ft. More detail in the <a href="FireIntensityLev.htm" target="_blank">Flame Length Probability topic</a>.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">The probability of fire burning with a flame length between &gt;6 and 8 ft. More detail in the <a href="PropFlameLength.htm" target="_blank">Flame Length Probability topic</a>.</td>
                     <td class="TableStyle-Standard-BodyD-Column1-Body1">5</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">Proportion of Flame Lengths 8-12 ft</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">The probability of fire burning with a flame length between &gt;8 and 12 ft. More detail in the <a href="FireIntensityLev.htm" target="_blank">Flame Length Probability topic</a>.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">The probability of fire burning with a flame length between &gt;8 and 12 ft. More detail in the <a href="PropFlameLength.htm" target="_blank">Flame Length Probability topic</a>.</td>
                     <td class="TableStyle-Standard-BodyD-Column1-Body2">6</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">Proportion of Flame Lengths &gt;12 ft</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">The probability of fire burning with a flame length between &gt;12 ft (0 to 1). If a pixel is represented by non-burnable fuels, the value is -1. More detail in the <a href="FireIntensityLev.htm" target="_blank">Flame Length Probability topic</a>.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">The probability of fire burning with a flame length between &gt;12 ft (0 to 1). If a pixel is represented by non-burnable fuels, the value is -1. More detail in the <a href="PropFlameLength.htm" target="_blank">Flame Length Probability topic</a>.</td>
                     <td class="TableStyle-Standard-BodyD-Column1-Body1">7</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
@@ -111,7 +112,7 @@
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td class="TableStyle-Standard-BodyB-Column1-Body1">Integrated Hazard</td>
-                    <td class="TableStyle-Standard-BodyB-Column1-Body1">The combination of Burn Probability and Conditional Flame Length ranging from lowest probably/lowest conditional flame lengths to highest probability/highest conditional flame lengths</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">The combination of Burn Probability and Conditional Flame Length ranging from lowest probably/lowest conditional flame lengths to highest probability/highest conditional flame lengths. More detail in the <a href="Hazard.htm" target="_blank">Integrated Hazard</a> topic.</td>
                     <td class="TableStyle-Standard-BodyA-Column1-Body1">15</td>
                 </tr>
             </tbody>

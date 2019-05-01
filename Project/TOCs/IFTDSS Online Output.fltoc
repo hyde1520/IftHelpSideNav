@@ -441,8 +441,8 @@
           Title="[%=System.LinkedTitle%]"
           Link="/Content/20-Models/LBP/Out/Hazard.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
-          Title="Fire Intensity Level [UNDER DEVELOPMENT]"
-          Link="/Content/20-Models/LBP/Out/FireIntensityLev.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Title="Proportion of Flame Lengths [UNDER DEVELOPMENT]"
+          Link="/Content/20-Models/LBP/Out/PropFlameLength.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Midflame Wind Speed [UNDER DEVELOPMENT]"
           Link="/Content/20-Models/LBP/Out/MidflameWindSpd.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
