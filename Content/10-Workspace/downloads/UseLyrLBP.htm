@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="General.Exclude">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../Resources/TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -12,16 +12,16 @@
             </p>
             <p>See the Landscape <a href="../../20-Models/LBP/Out/BurnProb.htm" target="_blank">Burn Probability Outputs</a> help topic for the units in Map Studio versus the GeoTIFF.</p>
         </div>
-        <p>In the Landscape Fire Behavior download package available in IFTDSS, we have included ArcGIS Layer (.lyr) files to define the symbology for most of the layers visible in Map Studio. In the GeoTIFF, the Landscape Burn Probability layers are both categorical and continuous data, therefore importing the symbology is slightly different for the two types.</p>
+        <p>In the Landscape Burn Probability (LBP) download package available in IFTDSS, we have included ArcGIS Layer (.lyr) files to define the symbology for most of the layers visible in Map Studio. In the GeoTIFF, the LBP layers are both categorical and continuous data, therefore importing the symbology is slightly different for the two types.</p>
         <p>
             <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/LBP_file_list.png" alt="files available in the Landscape Burn Probability download package.  They include the ArcGIS Layer (*.lyr) files to define the symbology for most of the bands in the GeoTIFF (*.TIF, *.XML, *.OVR)" class="border" />
         </p>
         <p>Although Burn Probability is visible in Map Studio, we have not included an ArcGIS Layer file because the  bins are dynamically derived on the Analysis Maximum and it is not possible to create a file for individual model outputs. We have included the steps required to change the symbology within ArcMap manually.</p>
-        <p>In addition, we have not included ArcGIS Layers files for layers included in the Landscape Burn Probability GeoTIFF not shown in Map Studio.  This includes the six Proportion of Flame Length layers.</p>
+        <p>In addition, we have not included ArcGIS Layers files for layers included in the LBP GeoTIFF not shown in Map Studio.  This includes the six Proportion of Flame Length layers.</p>
         <h2>Importing symbology for Integrated Hazard</h2>
-        <p>The Integrated Hazard layer in the Landscape Fire Behavior GeoTIFF is categorical data.  The following steps outline how to import the symbology for categorical data.</p>
+        <p>The Integrated Hazard layer in the LBP GeoTIFF is categorical data.  The following steps outline how to import the symbology for categorical data.</p>
         <ol style="list-style-type: upper-alpha;">
-            <li>Open ArcMap session and add the layers you would like to map. For more information on how do add layers to ArcMap please see the <a href="GeoTiffArcOpen.htm" target="_blank">Opening an IFTDSS Geo Tiff file in ArcMap</a> help topic.</li>
+            <li>Open ArcMap session and add the layers you would like to map. For more information on how do add layers to ArcMap  see the <a href="GeoTiffArcOpen.htm" target="_blank">Opening an IFTDSS Geo Tiff file in ArcMap</a> help topic.</li>
             <li>
                 <p>Right-click on the “Integrated Hazard” layer and click <span class="UIcomponent">Properties</span>.</p>
                 <p>
@@ -35,7 +35,7 @@
                 </p>
             </li>
             <li>
-                <p>Click on the <span class="UIcomponent">Folder icon</span> <img src="../../Resources/Images/External/Arc/import_lyrs/landscapes/foldericon.png" alt="folder" class="iftbutton" /> toward the top right of the <span class="UIcomponent">Layer Properties window</span>. In the <span class="UIcomponent">Import Symbology window</span> that opens, click on the <span class="UIcomponent">Folder icon</span> <img src="../../Resources/Images/External/Arc/import_lyrs/landscapes/foldericon.png" alt="folder" class="iftbutton" />. This opens the <span class="UIcomponent">Browse window</span>.  Select the “Integrated Hazard.lyr” file in the Browse window and click <span class="UIcomponent">Add</span>.</p>
+                <p>Click the <span class="UIcomponent">Folder icon</span> <img src="../../Resources/Images/External/Arc/import_lyrs/landscapes/foldericon.png" alt="folder" class="iftbutton" /> toward the top right of the <span class="UIcomponent">Layer Properties window</span>. In the <span class="UIcomponent">Import Symbology window</span> that opens, click on the <span class="UIcomponent">Folder icon</span> <img src="../../Resources/Images/External/Arc/import_lyrs/landscapes/foldericon.png" alt="folder" class="iftbutton" />. This opens the <span class="UIcomponent">Browse window</span>.  Select the “Integrated Hazard.lyr” file in the Browse window and click <span class="UIcomponent">Add</span>.</p>
                 <p>
                     <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/IH_add_lyr.png" alt="'Import Symbology' box opened via 'layer properties'." class="borderlist" />
                 </p>
@@ -47,7 +47,7 @@
                 </p>
             </li>
             <li>
-                <p>Now you can see Integrated Hazard in ArcMap (top image) the same as it is in Map Studio in IFTDSS (bottom image).</p>
+                <p>Now you can see the Integrated Hazard layer in ArcMap (top image) the same as it is in Map Studio in IFTDSS (bottom image).</p>
                 <p>
                     <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/IH_Arc.png" alt="Integrated Hazard Layer displayed in ArcMap with the same symbology as displayed in IFTDSS" class="borderlist" />
                 </p>
@@ -61,7 +61,7 @@
         <ol style="list-style-type: upper-alpha;">
             <li>Open ArcMap session and add the layers you would like to map. For more information on how do add layers to ArcMap please see the Opening an IFTDSS Geo Tiff file in ArcMap help topic.</li>
             <li>
-                <p>Right-click on the “Conditional Flame Length” layer and click <span class="UIcomponent">Properties</span>.</p>
+                <p>Right-click the “Conditional Flame Length” layer and click <span class="UIcomponent">Properties</span>.</p>
                 <p>
                     <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/CFL_properties.png" alt="&quot;Properties&quot; menu option that becomes available when right clicking on the layer in arcmap" class="borderlist" />
                 </p>
@@ -73,7 +73,7 @@
                 </p>
             </li>
             <li>
-                <p>Click on the <span class="UIcomponent">Folder icon</span> <img src="../../Resources/Images/External/Arc/import_lyrs/landscapes/foldericon.png" alt="folder" class="iftbutton" /> toward the top right of the<span class="UIcomponent"> Layer Properties window</span>. In the <span class="UIcomponent">Import Symbology window</span> that opens, click on the <span class="UIcomponent">Folder icon</span> <img src="../../Resources/Images/External/Arc/import_lyrs/landscapes/foldericon.png" alt="folder" class="iftbutton" />. This opens the <span class="UIcomponent">Browse window</span>.  Select the “Conditional Flame Length (ft).lyr” file in the Browse window and click <span class="UIcomponent">Add</span>.</p>
+                <p>Click on the <span class="UIcomponent">Folder icon</span> <img src="../../Resources/Images/External/Arc/import_lyrs/landscapes/foldericon.png" alt="folder" class="iftbutton" /> toward the top right of the<span class="UIcomponent"> Layer Properties window</span>. In the <span class="UIcomponent">Import Symbology window</span> that opens, click the <span class="UIcomponent">Folder icon</span> <img src="../../Resources/Images/External/Arc/import_lyrs/landscapes/foldericon.png" alt="folder" class="iftbutton" />. This opens the <span class="UIcomponent">Browse window</span>.  Select the “Conditional Flame Length (ft).lyr” file in the Browse window and click <span class="UIcomponent">Add</span>.</p>
                 <p>
                     <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/CFL_layer.png" alt="&quot;Browse&quot; window open with &quot;Conditional Flame Length&quot; selected." class="borderlist" />
                 </p>
@@ -95,7 +95,7 @@
             </li>
         </ol>
         <h2>Applying symbology for Burn Probability</h2>
-        <p>For Burn Probability, because the legend is dynamically applied to each model output based on the analysis maximum burn probability value there is not an ArcGIS Layer file included in the download package.</p>
+        <p>For Burn Probability, because the legend is dynamically applied to each model output based on the analysis maximum burn probability value there is not an ArcGIS Layer file included in the download package. The steps below walk-through the process of classifying your Burn Probability in Arcmap using the same break values used in IFTDSS, and setting the color ramp to the same values for those classifications.</p>
         <ol style="list-style-type: upper-alpha;">
             <li>Open ArcMap session and add the layers you would like to map. For more information on how do add layers to ArcMap please see the <a href="GeoTiffArcOpen.htm" target="_blank">Opening an IFTDSS Geo Tiff file in ArcMap</a> help topic.</li>
             <li>
@@ -105,7 +105,7 @@
                 </p>
             </li>
             <li>
-                <p>To determine the break values for the classification, in the <span class="UIcomponent">Layer Property window</span>, go to the <span class="UIcomponent">Symbology tab</span>, select <span class="UIcomponent">Classified</span>, then click the <span class="UIcomponent">Classify</span> button.</p>
+                <p>To determine the break values for the classification, in the <span class="UIcomponent">Layer Property window</span>, go to the <span class="UIcomponent">Symbology tab</span>, select "Classified", then click the <span class="UIcomponent">Classify</span> button.</p>
                 <p>
                     <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/BP_classify1.png" alt="&quot;Layer Properties&quot; box with the &quot;Classified&quot; option selected." class="borderlist" />
                 </p>
@@ -123,7 +123,7 @@
                 </p>
             </li>
             <li>
-                <p>Click the <span class="UIcomponent">% button</span> again. The Break Values represent the 20% of maximum classes seen in Map Studio for Burn Probability.  Note the values or take a screen capture, you will need them in the next step.</p>
+                <p>Click the <span class="UIcomponent">% button</span> again. The Break Values represent the 20% of maximum classes seen in Map Studio for Burn Probability.  Note the values or take a screen capture, you  need them in the next step.</p>
                 <p>
                     <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/BP_classify4.png" alt="Classification box with Break Values shown." class="borderlist" />
                 </p>
@@ -147,7 +147,7 @@
                 </p>
             </li>
             <li>
-                <p>Double-click on the symbol next to the "-1" value (-1 represents Non-burnable pixels) . When the <span class="UIcomponent">Color Selector window</span> opens, click <span class="UIcomponent">More Colors…</span>, then set the  color to “RBG” from the drop-down menu, enter the values R = 156 , G = 156, B = 156, and click <span class="UIcomponent">OK</span>.</p>
+                <p>Double-click the symbol next to the "-1" value (-1 represents Non-burnable pixels) . When the <span class="UIcomponent">Color Selector window</span> opens, click <span class="UIcomponent">More Colors…</span>, then set the  color to “RBG” from the drop-down menu, enter the values R = 156 , G = 156, B = 156, and click <span class="UIcomponent">OK</span>.</p>
                 <p>
                     <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/BP_classify7.png" alt="color selection menu" class="borderlist" />
                 </p>
@@ -215,7 +215,7 @@
             </li>
             <li>Click <span class="UIcomponent">OK</span> in the bottom of the<span class="UIcomponent"> Layer Property window</span> to apply the symbology.</li>
             <li>
-                <p>Now you can see Burn Probability in ArcMap (top image) the same as it is in Map Studio in IFTDSS (bottom image).</p>
+                <p>Now you can see the Burn Probability layer in ArcMap (top image) appears the same as it is in Map Studio in IFTDSS (bottom image).</p>
                 <p>
                     <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/BP_Arc.png" alt="Burn Probability displayed in ArcMap" class="borderlist" />
                 </p>

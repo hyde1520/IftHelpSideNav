@@ -2034,10 +2034,10 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>Mid-Flame Windspeed</Term>
+      <Term>Midflame Windspeed</Term>
     </Terms>
     <Definition
-      Link="">The speed of the wind measured at the midpoint of the flames, considered to be most representative of the speed of the wind that is affecting fire behavior. Fire behavior models calculate mid-flame windspeed from 20 foot winds using a wind reduction factor.</Definition>
+      Link="">The speed of the wind measured at the midpoint of the flames, considered to be most representative of the speed of the wind that is affecting fire behavior. Fire behavior models calculate midflame windspeed from 20 foot winds using a wind reduction factor.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term69"

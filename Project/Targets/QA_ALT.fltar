@@ -7,11 +7,11 @@
   GlossaryTermConversion="marked"
   MasterPage="/Content/Resources/MasterPages/OtherTopics.flmsp"
   DefaultUrl="/Content/Home.htm"
-  MasterToc="/Project/TOCs/TestIFTDSS.fltoc"
+  MasterToc="/Project/TOCs/IFTDSS Online Output.fltoc"
   ConditionTagExpression="exclude[General.Exclude or General.LaterRelease or &quot;General.Prod ONLY&quot;] "
   PreCompileScaledImages="false"
   MakeFileLowerCase="true"
-  TopNavTocPath="true"
+  TopNavTocPath="false"
   OutputFile="index"
   DisableAutoSync="true"
   Skin="/Project/Skins/QA HTML5 - Side Navigation.flskn">

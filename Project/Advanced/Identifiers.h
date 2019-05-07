@@ -293,3 +293,8 @@
 #define SimTimesMTT 1242
 #define SpotMTT 1243
 #define WindMTT 1244
+#define LBPvLFB 1245
+#define EstFuelMoisturesLBP 1246
+#define Scale 1247
+#define EstFuelMoisturesLFB 1248
+#define EstFuelMoisturesMTT 1249
