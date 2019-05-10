@@ -8,12 +8,17 @@
             <MadCap:keyword term="symbology" />
             <MadCap:keyword term="download" />
             <MadCap:keyword term="arcmap" />Importing Layer Symbology into ArcMap for Landscapes</h1>
+        <p>IFTDSS uses a specific color scheme for Map Studio and report figures. When you download IFTDSS files for use in Arcmap, you can duplicate this color scheme using our .lyr file. The .lyr file contains all the color specifications used by IFTDSS.</p>
+        <p>Lyr files are included in each IFTDSS download.</p>
+        <div class="notificationImportant">
+            <p>Elevation is dynamic and varies by file, so these two may not apply to your specific download.</p>
+        </div>
         <div class="notificationNote">
             <p>Symbology in IFTDSS downloads does not always match the units in Map Studio.  For example, Canopy Base Height displays in Map Studio in meters, but in the downloadable GeoTiff it displays in  meters *10. In the image below, the value for the pixel at the red dot is 5. This is 0.5 m and is in the &gt;0-0.5 class in the legend (darkest green). </p>
             <p>
                 <img src="../../Resources/Images/External/Arc/import_lyrs/landscapes/cbh_units.png" alt="Canopy base heights in the geotiff indicated with a pixel value of 5, and canopy base height of 0.5" class="border" />
             </p>
-            <p>See the <a href="GeoTiffLCP.htm" target="_blank">Landscape (LCP) GeoTiffs from IFTDSS help topic</a> for the units in Map Studio versus the GeoTIFF.</p>
+            <p>See the <a href="DownloadPkgLCP.htm" target="_blank">Landscape (LCP) GeoTiffs from IFTDSS help topic</a> for the units in Map Studio versus the GeoTIFF.</p>
         </div>
         <p>In the Landscape download package available in IFTDSS, we include ArcGIS Layer (.lyr) files to define the symbology for most of the layers visible in Map Studio for use in ArcMap, as shown in the file list below for a downloaded landscape.</p>
         <p>
@@ -29,7 +34,7 @@
         <h2>Import Symbology for Fuel Model (categorical data)</h2>
         <p>The Fuel Model layer in the Landscape GeoTIFF is categorical data.  The following steps outline how to import the symbology for categorical data.</p>
         <ol style="list-style-type: upper-alpha;">
-            <li>Open ArcMap session and add the layers you would like to map. For more information on how to add layers to ArcMap please see the <a href="../OpenGeoTif.htm" target="_blank">Opening an IFTDSS GeoTiff file in ArcMap help topic</a>.</li>
+            <li>Open ArcMap session and add the layers you would like to map. For more information on how to add layers to ArcMap please see the <a href="ArcGeoTiffOpen.htm" target="_blank">Opening an IFTDSS GeoTiff file in ArcMap help topic</a>.</li>
             <li>
                 <p>Right-click on the "Fuel Model" layer and click <span class="UIcomponent">Properties</span>.</p>
                 <p>
@@ -68,7 +73,7 @@
         <p>The same steps are completed to import the symbology for Slope, Aspect, Canopy Cover, Stand Height, Canopy Base Height, and Canopy Bulk Density. These data sources are continuous data that are classified into distinct bins.  The following steps outline how to import the symbology for continuous data. The example below will use Canopy Base Height; however, the same steps are applied to the remaining layers.</p>
         <ol style="list-style-type: upper-alpha;">
             <li>
-                <p>Open ArcMap session and add the layers you would like to map. For more information on how do add layers to ArcMap please see the <a href="../OpenGeoTif.htm" target="_blank">Opening an IFTDSS Geo Tiff file in ArcMap help topic</a>.</p>
+                <p>Open ArcMap session and add the layers you would like to map. For more information on how do add layers to ArcMap please see the <a href="ArcGeoTiffOpen.htm" target="_blank">Opening an IFTDSS Geo Tiff file in ArcMap help topic</a>.</p>
             </li>
             <li>
                 <p>Right-click on the "Canopy Base Height" layer and click <span class="UIcomponent">Properties</span>.</p>

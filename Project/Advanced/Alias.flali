@@ -159,8 +159,8 @@
     <Map Name="Roles" Link="/Content/10-FTEM/AccountsRoles/Roles_Intro.htm" />
     <Map Name="AOIsMasks" Link="/Content/10-MapStudio/Files/AOIsMasks.htm" />
     <Map Name="DeleteShape" Link="/Content/10-MapStudio/Files/DeleteShape.htm" />
-    <Map Name="LCP_export" Link="/Content/10-Workspace/downloads/GeoTiffLCP.htm" />
-    <Map Name="OpenGeoTif" Link="/Content/10-Workspace/downloads/GeoTiffArcOpen.htm" />
+    <Map Name="LCP_export" Link="/Content/10-Workspace/downloads/DownloadPkgLCP.htm" />
+    <Map Name="OpenGeoTif" Link="/Content/10-Workspace/downloads/ArcGeoTiffOpen.htm" />
     <Map Name="ShapeCopyfromRef" Link="/Content/10-MapStudio/Files/ShapeCopyfromRef.htm" />
     <Map Name="ShapefileGroup" Link="/Content/10-MapStudio/Files/ShapefileGroup.htm" />
     <Map Name="ShapeGroup" Link="/Content/10-MapStudio/Files/ShapeGroup.htm" />
@@ -171,7 +171,7 @@
     <Map Name="DataUtilities" Link="/Content/10-FTEM/DataTechnical/Utilities.htm" />
     <Map Name="DataWildfires" Link="/Content/10-FTEM/DataTechnical/Wildfires.htm" />
     <Map Name="AddShapefile1" Link="/Content/10-FTEM/General/AddShapefile.htm" />
-    <Map Name="geotiff_reclass" Link="/Content/10-Workspace/downloads/GeoTiffArcReclass.htm" />
+    <Map Name="geotiff_reclass" Link="/Content/10-Workspace/downloads/ArcGeoTiffReclss.htm" />
     <Map Name="Roles_Detailed" Link="/Content/10-FTEM/AccountsRoles/Roles_Detailed.htm" />
     <Map Name="Attachments" Link="/Content/10-FTEM/General/Attachments.htm" />
     <Map Name="RepAgencySmry" Link="/Content/10-FTEM/Reports/RepAgencySmry.htm" />
@@ -180,7 +180,7 @@
     <Map Name="RepStateSmry" Link="/Content/10-FTEM/Reports/RepStateSmry.htm" />
     <Map Name="WildfireReport" Link="/Content/10-FTEM/Reports/WildfireReport.htm" />
     <Map Name="ReferenceLayers" Link="/Content/10-MapStudio/Files/ReferenceLayers.htm" />
-    <Map Name="LoadingGeoIntoFlammap" Link="/Content/10-Workspace/downloads/GeoTiffFlammap.htm" />
+    <Map Name="LoadingGeoIntoFlammap" Link="/Content/10-Workspace/downloads/FlmmpGeoTiffLoad.htm" />
     <Map Name="AOIlandscapefb" Link="/Content/20-Models/LFB/AOIlandscapefb.htm" />
     <Map Name="EditingUserRuleTutorial" Link="/Content/40-Tutorials/EditingUserRuleTutorial.htm" />
     <Map Name="CreatingShapes" Link="/Content/40-Tutorials/Shorts/CreatingShapes.htm" />
@@ -204,12 +204,10 @@
     <Map Name="LCPCreateAbout" Link="/Content/30-Tasks/CreateLCP/LCPCreateAbout.htm" />
     <Map Name="ignition_hh" Link="/Content/50-Hover/Models/MTT/ignition_hh.htm" />
     <Map Name="SelectFires" Link="/Content/10-FTEM/General/TreatmentFilters.htm" />
-    <Map Name="geotiff_reclass1" Link="/Content/10-Workspace/geotiff_reclass.htm" />
-    <Map Name="LCP_export1" Link="/Content/10-Workspace/LCP_export.htm" />
-    <Map Name="LoadingGeoIntoFlammap1" Link="/Content/10-Workspace/LoadingGeoIntoFlammap.htm" />
-    <Map Name="OpenGeoTif1" Link="/Content/10-Workspace/OpenGeoTif.htm" />
+    <Map Name="LCP_export1" Link="/Content/10-Workspace/downloads/LCPGeoTiff.htm" />
+    <Map />
     <Map Name="GeoTiffAbout" Link="/Content/10-Workspace/downloads/DownloadHowTo.htm" />
-    <Map Name="GeoTiffLFBOut" Link="/Content/10-Workspace/downloads/GeoTiffLFBOut.htm" />
+    <Map Name="GeoTiffLFBOut" Link="/Content/10-Workspace/downloads/LFBGeoTiff.htm" />
     <Map Name="AboutWXS" Link="/Content/20-Models/ClassifiedWthr/AboutWXS.htm" />
     <Map Name="classifiedweather" Link="/Content/20-Models/ClassifiedWthr/classifiedweather.htm" />
     <Map Name="CrownBasics" Link="/Content/20-Models/LFB/In/CrownBasics.htm" />
@@ -272,10 +270,9 @@
     <Map Name="_3_crownfire_hh1" Link="/Content/50-Hover/Models/MTT/3_crownfire_hh.htm" />
     <Map Name="_4_FM_hh1" Link="/Content/50-Hover/Models/MTT/4_FM_hh.htm" />
     <Map Name="_5_FMcondition_hh1" Link="/Content/50-Hover/Models/MTT/5_FMcondition_hh.htm" />
-    <Map Name="lyr_file" Link="/Content/10-Workspace/downloads/lyr_file.htm" />
-    <Map Name="UseLyrLBP" Link="/Content/10-Workspace/downloads/UseLyrLBP.htm" />
-    <Map Name="UseLyrLCP" Link="/Content/10-Workspace/downloads/UseLyrLCP.htm" />
-    <Map Name="UserLyrLFB" Link="/Content/10-Workspace/downloads/UserLyrLFB.htm" />
+    <Map Name="UseLyrLBP" Link="/Content/10-Workspace/downloads/LBPArcLyr.htm" />
+    <Map Name="UseLyrLCP" Link="/Content/10-Workspace/downloads/LCPArcLyr.htm" />
+    <Map Name="UserLyrLFB" Link="/Content/10-Workspace/downloads/LFBArcLyr.htm" />
     <Map Name="CrownMethodsLBP" Link="/Content/20-Models/LBP/In/CrownMethodsLBP.htm" />
     <Map Name="DeadFMConditioning1" Link="/Content/20-Models/LBP/In/DeadFMConditioning.htm" />
     <Map Name="WindLBP" Link="/Content/20-Models/LBP/In/WindLBP.htm" />
@@ -290,4 +287,70 @@
     <Map Name="Scale" Link="/Content/20-Models/LBP/Out/Scale.htm" />
     <Map Name="EstFuelMoisturesLFB" Link="/Content/20-Models/LFB/In/EstFuelMoisturesLFB.htm" />
     <Map Name="EstFuelMoisturesMTT" Link="/Content/20-Models/MTT/In/EstFuelMoisturesMTT.htm" />
+    <Map Name="HVRAAbout" Link="/Content/30-Tasks/QWFRA/HVRAAbout.htm" />
+    <Map Name="HVRACreate" Link="/Content/30-Tasks/QWFRA/HVRACreate.htm" />
+    <Map Name="HistoricFuelTreatment_m" Link="/Content/10-MapStudio/RefLayerMetadata/DistHistory/HistFuelTrtPoly_m.htm" />
+    <Map Name="MTBS" Link="/Content/10-MapStudio/Files/ReferenceLayers.htm" />
+    <Map Name="FireHistpre1980" Link="/Content/10-MapStudio/RefLayerMetadata/DistHistory/FireHist_m.htm" />
+    <Map Name="FireHist19801990" Link="/Content/10-MapStudio/RefLayerMetadata/DistHistory/FireHist_m.htm" />
+    <Map Name="FireHist19901999" Link="/Content/10-MapStudio/RefLayerMetadata/DistHistory/FireHist_m.htm" />
+    <Map Name="FireHist2000-2009" Link="/Content/10-MapStudio/RefLayerMetadata/DistHistory/FireHist_m.htm" />
+    <Map Name="FireHist2010-2016" Link="/Content/10-MapStudio/RefLayerMetadata/DistHistory/FireHist_m.htm" />
+    <Map Name="FireHist2017" Link="/Content/10-MapStudio/Files/ReferenceLayers.htm" />
+    <Map Name="BLMBuild_m" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/BLMBuild_m.htm" />
+    <Map Name="NPSBuild_m" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/NPSBuild_m.htm" />
+    <Map Name="USFSBuild_m" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/USFSBuild_m.htm" />
+    <Map Name="Campground_m" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/Campground_m.htm" />
+    <Map Name="EnergyInfra_mines_m" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/EnergyInfra.htm" />
+    <Map Name="EnergyInfra_elecsubstns_m" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/EnergyInfra.htm" />
+    <Map Name="EnergyInfra_pwrplnts_m" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/EnergyInfra.htm" />
+    <Map Name="EnergyInfra_trnsline_m" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/EnergyInfra.htm" />
+    <Map Name="EnergyInfra5_oilgas_m" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/EnergyInfra.htm" />
+    <Map Name="CommTwr_m" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/CommTwr_m.htm" />
+    <Map Name="wilderness_m" Link="/Content/10-MapStudio/RefLayerMetadata/DesignatedAreas/wilderness_m.htm" />
+    <Map Name="BLMGrazing_m" Link="/Content/10-MapStudio/RefLayerMetadata/DesignatedAreas/BLMGrazing_m.htm" />
+    <Map Name="BLMEquus_m" Link="/Content/10-MapStudio/RefLayerMetadata/DesignatedAreas/BLMEquus_m.htm" />
+    <Map Name="potentialwild_m" Link="/Content/10-MapStudio/RefLayerMetadata/DesignatedAreas/potentialwild_m.htm" />
+    <Map Name="potentialwild_study_m" Link="/Content/10-MapStudio/RefLayerMetadata/DesignatedAreas/potentialwild_m.htm" />
+    <Map Name="SplDesArea_recarea_m" Link="/Content/10-MapStudio/RefLayerMetadata/SplDesArea/SplDesArea_m.htm" />
+    <Map Name="SplDesArea_histtrl_m" Link="/Content/10-MapStudio/RefLayerMetadata/SplDesArea/SplDesArea_m.htm" />
+    <Map Name="SplDesArea_rectrl_m" Link="/Content/10-MapStudio/RefLayerMetadata/SplDesArea/SplDesArea_m.htm" />
+    <Map Name="SplDesArea_byways_m" Link="/Content/10-MapStudio/RefLayerMetadata/SplDesArea/SplDesArea_m.htm" />
+    <Map Name="SplDesArea_sctrls_m" Link="/Content/10-MapStudio/RefLayerMetadata/SplDesArea/SplDesArea_m.htm" />
+    <Map Name="OthrDesAreas_m" Link="/Content/10-MapStudio/RefLayerMetadata/SplDesArea/OthrDesAreas_m.htm" />
+    <Map Name="RespAgncy_m" Link="/Content/10-MapStudio/RefLayerMetadata/Boundary/RespAgncy_m.htm" />
+    <Map Name="TNC_m" Link="/Content/10-MapStudio/RefLayerMetadata/Boundary/TNC_m.htm" />
+    <Map Name="Jurisdtn_m" Link="/Content/10-MapStudio/RefLayerMetadata/Boundary/Jurisdtn_m.htm" />
+    <Map Name="County_m" Link="/Content/10-MapStudio/RefLayerMetadata/Boundary/County_m.htm" />
+    <Map Name="USFWSAdmin_m" Link="/Content/10-MapStudio/RefLayerMetadata/Boundary/USFWSAdmin_m.htm" />
+    <Map Name="BLMAdmin_m" Link="/Content/10-MapStudio/RefLayerMetadata/Boundary/BLMAdmin_m.htm" />
+    <Map Name="USFSAdmin_m" Link="/Content/10-MapStudio/RefLayerMetadata/Boundary/USFSAdmin_m.htm" />
+    <Map Name="NPSAdmin_m" Link="/Content/10-MapStudio/RefLayerMetadata/Boundary/NPSAdmin_m.htm" />
+    <Map Name="BIAAdmin_m" Link="/Content/10-MapStudio/RefLayerMetadata/Boundary/BIAAdmin_m.htm" />
+    <Map Name="CritHabLine_m" Link="/Content/10-MapStudio/RefLayerMetadata/NatCltr/CritHabLine_m.htm" />
+    <Map Name="CritHabPoly_m" Link="/Content/10-MapStudio/RefLayerMetadata/NatCltr/CritHabPoly_m.htm" />
+    <Map Name="SageGrs_m" Link="/Content/10-MapStudio/RefLayerMetadata/NatCltr/SageGrs_m.htm" />
+    <Map Name="CritAQ_class1_m" Link="/Content/10-MapStudio/RefLayerMetadata/NatCltr/CritAQ_m.htm" />
+    <Map Name="CritAQ_NAAO3_m" Link="/Content/10-MapStudio/RefLayerMetadata/NatCltr/CritAQ_m.htm" />
+    <Map Name="CritAQ_NAAPM_m" Link="/Content/10-MapStudio/RefLayerMetadata/NatCltr/CritAQ_m.htm" />
+    <Map Name="USFSWStrails_m" Link="/Content/10-MapStudio/Files/ReferenceLayers.htm" />
+    <Map Name="AqtcAvoid_m" Link="/Content/10-MapStudio/RefLayerMetadata/FireEnv/AqtcAvoid_m.htm" />
+    <Map Name="TerrAvoid_m" Link="/Content/10-MapStudio/Files/ReferenceLayers.htm" />
+    <Map Name="FTEMPolyUSFWS_m" Link="/Content/10-MapStudio/RefLayerMetadata/FTEM/FTEM_m.htm" />
+    <Map Name="FTEMPointAll_m" Link="/Content/10-MapStudio/RefLayerMetadata/FTEM/FTEM_m.htm" />
+    <Map Name="FTEMPointBIA_m" Link="/Content/10-MapStudio/RefLayerMetadata/FTEM/FTEM_m.htm" />
+    <Map Name="FTEMPointBLM_m" Link="/Content/10-MapStudio/RefLayerMetadata/FTEM/FTEM_m.htm" />
+    <Map Name="FTEMPointNPS_m" Link="/Content/10-MapStudio/RefLayerMetadata/FTEM/FTEM_m.htm" />
+    <Map Name="FTEMPointUSFS_m" Link="/Content/10-MapStudio/RefLayerMetadata/FTEM/FTEM_m.htm" />
+    <Map Name="FTEMPointUSFWS_m" Link="/Content/10-MapStudio/RefLayerMetadata/FTEM/FTEM_m.htm" />
+    <Map Name="FTEMPolyAll_m" Link="/Content/10-MapStudio/RefLayerMetadata/FTEM/FTEM_m.htm" />
+    <Map Name="FTEMPolyBIA_m" Link="/Content/10-MapStudio/RefLayerMetadata/FTEM/FTEM_m.htm" />
+    <Map Name="FTEMPolyBLM_m" Link="/Content/10-MapStudio/RefLayerMetadata/FTEM/FTEM_m.htm" />
+    <Map Name="FTEMPolyNPS_m" Link="/Content/10-MapStudio/RefLayerMetadata/FTEM/FTEM_m.htm" />
+    <Map Name="FTEMPolyUSFS_m" Link="/Content/10-MapStudio/RefLayerMetadata/FTEM/FTEM_m.htm" />
+    <Map Name="SILVISWUI_m" Link="/Content/10-MapStudio/Files/ReferenceLayers.htm" />
+    <Map Name="GEOMAC_m" Link="/Content/10-MapStudio/Files/ReferenceLayers.htm" />
+    <Map Name="SSURGO_m" Link="/Content/10-MapStudio/Files/ReferenceLayers.htm" />
+    <Map Name="HVRA_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/HVRA_m.htm" />
+    <Map Name="Pyrome_m" Link="/Content/10-MapStudio/RefLayerMetadata/Other/Pyrome_m.htm" />
 </CatapultAliasFile>

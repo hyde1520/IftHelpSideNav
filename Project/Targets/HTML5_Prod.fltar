@@ -7,12 +7,12 @@
   GlossaryTermConversion="marked"
   MasterPage="/Content/Resources/MasterPages/OtherTopics.flmsp"
   DefaultUrl="/Content/Home.htm"
-  MasterToc="/Project/TOCs/IFTDSS Online Output.fltoc"
   ConditionTagExpression="include[General.PDF or &quot;General.Prod ONLY&quot;] exclude[General.DeveloperNotes or General.Exclude or General.LaterRelease or &quot;General.QA ONLY&quot;] "
   PreCompileScaledImages="false"
   MakeFileLowerCase="true"
   TopNavTocPath="false"
-  OutputFile="index">
+  OutputFile="index"
+  MasterToc="/Project/TOCs/IFTDSS Online.fltoc">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"

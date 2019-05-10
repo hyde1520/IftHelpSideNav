@@ -43,9 +43,6 @@
       Title="[%=System.LinkedTitle%]"
       Link="/Content/10-Workspace/MyWorkspaceAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
-      Title="About Landscapes"
-      Link="/Content/00-Concepts/AboutLandscapesinIFTDSS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    <TocEntry
       Title="About Shapes and Shapefiles">
       <TocEntry
         Title="About"
@@ -76,54 +73,54 @@
         Link="/Content/10-MapStudio/Files/SpatialExtent.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
-      Title="Fire Behavior Fuel Models"
-      Link="/Content/10-MapStudio/Files/FBFMInfo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      Title="About Landscape Files">
+      <TocEntry
+        Title="About Landscapes"
+        Link="/Content/00-Concepts/AboutLandscapesinIFTDSS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/10-Workspace/downloads/LCPGeoTiff.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="LCP Symbology"
+        Link="/Content/10-Workspace/downloads/LCPArcLyr.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/10-MapStudio/Files/LCPCreate.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
     <TocEntry
       Title="Downloads">
       <TocEntry
         Title="How To Download"
         Link="/Content/10-Workspace/downloads/DownloadHowTo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="LBP Outputs"
-        Link="/Content/20-Models/LBP/Out/Download.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-        conditions="General.Exclude" />
+        Title="Downloads Available in IFTDSS"
+        Link="/Content/10-Workspace/downloads/DownloadPkgs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="LCP GeoTiffs"
-        Link="/Content/10-Workspace/downloads/GeoTiffLCP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="LFB GeoTiffs"
-        Link="/Content/10-Workspace/downloads/GeoTiffLFBOut.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="LYR Files for Symbology"
-        Link="/Content/10-Workspace/downloads/lyr_file.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-        conditions="General.Prod ONLY" />
-      <TocEntry
-        Title="Using Downloads in Other Apps">
+        Title="Use in ArcMap">
         <TocEntry
-          Title="Opening in ArcMap"
-          Link="/Content/10-Workspace/downloads/GeoTiffArcOpen.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Title="Open GeoTiff in ArcMap"
+          Link="/Content/10-Workspace/downloads/ArcGeoTiffOpen.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
-          Title="Setting Symbology in ArcMap"
-          Link="/Content/10-Workspace/downloads/UseLyrLCP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Title="Reclassing GeoTiff in ArcMap"
+          Link="/Content/10-Workspace/downloads/ArcGeoTiffReclss.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
-          Title="Reclassing in ArcMap"
-          Link="/Content/10-Workspace/downloads/GeoTiffArcReclass.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="Set Symbology"
-          conditions="General.QA ONLY">
+          Title="Set Symbology">
           <TocEntry
-            Title="Smbology file overview"
-            Link="/Content/10-Workspace/downloads/lyr_file.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-          <TocEntry
-            Title="Import Landscape Symbology"
-            Link="/Content/10-Workspace/downloads/UseLyrLCP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            Title="Import LCP Symbology"
+            Link="/Content/10-Workspace/downloads/LCPArcLyr.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           <TocEntry
             Title="Import LFB Symbology"
-            Link="/Content/10-Workspace/downloads/UserLyrLFB.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            Link="/Content/10-Workspace/downloads/LFBArcLyr.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Import LBP Symbology"
+            Link="/Content/10-Workspace/downloads/LBPArcLyr.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="Use in FlamMap">
         <TocEntry
-          Title="Loading in Flammap"
-          Link="/Content/10-Workspace/downloads/GeoTiffFlammap.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Title="Load LCP in Flammap"
+          Link="/Content/10-Workspace/downloads/FlmmpGeoTiffLoad.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
     </TocEntry>
   </TocEntry>
@@ -267,7 +264,7 @@
         Link="/Content/30-Tasks/LndscpEdit/LandscapeEditTechTopic.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/10-Workspace/downloads/GeoTiffLCP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/10-Workspace/downloads/DownloadPkgLCP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/00-Concepts/LANDFIRE.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -350,20 +347,23 @@
         </TocEntry>
       </TocEntry>
       <TocEntry
-        Title="Outputs"
-        conditions="General.LaterRelease">
+        Title="Outputs">
         <TocEntry
           Title="LFB Outputs"
-          Link="/Content/20-Models/LFB/Out/Output.htm"
-          conditions="General.LaterRelease" />
+          Link="/Content/20-Models/LFB/Out/Output.htm" />
+        <TocEntry
+          Title="LFB GeoTiff"
+          Link="/Content/10-Workspace/downloads/LFBGeoTiff.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Flammap File"
-          Link="/Content/20-Models/LFB/UsingLFBFlmpInput.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-          conditions="General.LaterRelease" />
+          Link="/Content/20-Models/LFB/UsingLFBFlmpInput.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Lyr Symbology in ArcMap"
+          Link="/Content/10-Workspace/downloads/LFBArcLyr.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Reclass GeoTiff in ArcMap"
+          Link="/Content/10-Workspace/downloads/ArcGeoTiffReclss.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
-      <TocEntry
-        Title="Outputs"
-        Link="/Content/20-Models/LFB/Out/Output.htm" />
       <TocEntry
         Title="Run LFB with an AOI"
         Link="/Content/20-Models/LFB/AOIlandscapefb.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -427,8 +427,14 @@
           Title="View in IFTDSS [UNDER DEVELOPMENT]"
           Link="/Content/20-Models/LBP/Out/OutViewIFTDSS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
-          Title="Downloading [UNDER DEVELOPMENT]"
-          Link="/Content/20-Models/LBP/Out/Download.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Title="Downloading">
+          <TocEntry
+            Title="Downloading [UNDER DEVELOPMENT]"
+            Link="/Content/20-Models/LBP/Out/Download.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Lyr Symbology"
+            Link="/Content/10-Workspace/downloads/LBPArcLyr.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
         <TocEntry
           Title="[%=System.LinkedTitle%]"
           Link="/Content/20-Models/LBP/Out/BurnProb.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -519,13 +525,13 @@
           Link="/Content/20-Models/MTT/Out/MTTFlowPaths.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
     </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/20-Models/ModelStatus.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="More To Come"
+      Link="/Content/20-Models/Modelsmoretocome.htm" />
   </TocEntry>
-  <TocEntry
-    Title="[%=System.LinkedTitle%]"
-    Link="/Content/20-Models/ModelStatus.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-  <TocEntry
-    Title="More To Come"
-    Link="/Content/20-Models/Modelsmoretocome.htm" />
   <TocEntry
     Title="FTEM">
     <TocEntry

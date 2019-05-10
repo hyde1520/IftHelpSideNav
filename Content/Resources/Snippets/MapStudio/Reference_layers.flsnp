@@ -19,10 +19,9 @@
             </li>
             <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=080b03ef45a748ec86a5d13314567a8b" target="_blank">Fire Perimeters 2000-2009 <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
-            <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=080b03ef45a748ec86a5d13314567a8b" target="_blank">Fire Perimeters 2010-2016 <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=080b03ef45a748ec86a5d13314567a8b" target="_blank">Fire Perimeters 2010-2014 <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
-            <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=080b03ef45a748ec86a5d13314567a8b" target="_blank">Fire Perimeters 2017 <i class="fa fa-external-link" aria-hidden="true"></i></a>
-            </li>
+            <li>Fire Perimeters 2015-2017 <i class="fa fa-external-link" aria-hidden="true"></i></li>
         </ul>
         <h3>Infrastructure - Facilities</h3>
         <ul>
@@ -139,6 +138,36 @@
             </li>
             <li>Terrestrial Retardant Avoidance</li>
         </ul>
+        <h3>FTEM&#160;Treatment Points</h3>
+        <ul>
+            <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=acdb4a650c824c91ba7efd51d3f9f008" target="_blank">All FTEM Treatment Points <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=acdb4a650c824c91ba7efd51d3f9f008" target="_blank">BIA FTEM Treatment Points <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=acdb4a650c824c91ba7efd51d3f9f008" target="_blank">BLM FTEM Treatment Points <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=acdb4a650c824c91ba7efd51d3f9f008" target="_blank">NPS FTEM Treatment Points <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=acdb4a650c824c91ba7efd51d3f9f008" target="_blank">USFS FTEM Treatment Points <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=acdb4a650c824c91ba7efd51d3f9f008" target="_blank">USFWS FTEM Treatment Points <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+        <h3>FTEM&#160;Treatment Polys</h3>
+        <ul>
+            <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=acdb4a650c824c91ba7efd51d3f9f008" target="_blank">All FTEM Treatment Polys <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=acdb4a650c824c91ba7efd51d3f9f008" target="_blank">BIA FTEM Treatment Polys <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=acdb4a650c824c91ba7efd51d3f9f008" target="_blank">BLM FTEM Treatment Polys <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=acdb4a650c824c91ba7efd51d3f9f008" target="_blank">NPS FTEM Treatment Polys <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=acdb4a650c824c91ba7efd51d3f9f008" target="_blank">USFS FTEM Treatment Polys <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=acdb4a650c824c91ba7efd51d3f9f008" target="_blank">USFWS FTEM Treatment Polys <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </li>
+        </ul>
         <h3>Other Layers</h3>
         <ul>
             <li>SILVIS Wildland Urban Interface</li>
@@ -147,5 +176,8 @@
             <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=50d97e69c8c14888988551830fcb9677#overview" target="_blank">Pyrome <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
         </ul>
+        <h3 MadCap:conditions="General.QA ONLY">HVRAs</h3>
+        <p MadCap:conditions="General.QA ONLY"><a href="https://doildt.maps.arcgis.com/home/item.html?id=5e0ef8619451420e9394265f7eea6803" target="_blank">RDPA Communities Tiles <i class="fa fa-external-link" aria-hidden="true"></i></a>
+        </p>
     </body>
 </html>

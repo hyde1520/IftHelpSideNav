@@ -4,7 +4,16 @@
         <link href="../../Resources/TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
-        <h1>Importing Layer Symbology into ArcMap for Landscape Burn Probability outputs</h1>
+        <h1>
+            <MadCap:keyword term=".lyr" />
+            <MadCap:keyword term="symbology" />
+            <MadCap:keyword term="download" />
+            <MadCap:keyword term="arcmap" />Importing Layer Symbology into ArcMap for Landscape Burn Probability outputs</h1>
+        <p>IFTDSS uses a specific color scheme for Map Studio and report figures. When you download IFTDSS files for use in Arcmap, you can duplicate this color scheme using our .lyr file. The .lyr file contains all the color specifications used by IFTDSS.</p>
+        <p>Lyr files are included in each IFTDSS download.</p>
+        <div class="notificationImportant">
+            <p> Burn Probability is dynamic and varies by file, see the <a href="#Applying">BP steps below</a> for details and setting symbology for it..</p>
+        </div>
         <div class="notificationNote">
             <p>The symbology was designed to match the units in Map Studio; however, the units in GeoTIFF are not always the same  For example, 1 Hour Fuel Moisture is a proportion in the GeoTIFF, and percent in the legend. In the image below, the value for the pixel at the black dot is 0.027283. This is 2.7283 % and is in the &gt;2 - 3 class in the legend (orange).</p>
             <p>
@@ -21,7 +30,7 @@
         <h2>Importing symbology for Integrated Hazard</h2>
         <p>The Integrated Hazard layer in the LBP GeoTIFF is categorical data.  The following steps outline how to import the symbology for categorical data.</p>
         <ol style="list-style-type: upper-alpha;">
-            <li>Open ArcMap session and add the layers you would like to map. For more information on how do add layers to ArcMap  see the <a href="GeoTiffArcOpen.htm" target="_blank">Opening an IFTDSS Geo Tiff file in ArcMap</a> help topic.</li>
+            <li>Open ArcMap session and add the layers you would like to map. For more information on how do add layers to ArcMap  see the <a href="ArcGeoTiffOpen.htm" target="_blank">Opening an IFTDSS Geo Tiff file in ArcMap</a> help topic.</li>
             <li>
                 <p>Right-click on the “Integrated Hazard” layer and click <span class="UIcomponent">Properties</span>.</p>
                 <p>
@@ -94,10 +103,10 @@
                 </p>
             </li>
         </ol>
-        <h2>Applying symbology for Burn Probability</h2>
+        <h2><a name="Applying"></a>Applying symbology for Burn Probability</h2>
         <p>For Burn Probability, because the legend is dynamically applied to each model output based on the analysis maximum burn probability value there is not an ArcGIS Layer file included in the download package. The steps below walk-through the process of classifying your Burn Probability in Arcmap using the same break values used in IFTDSS, and setting the color ramp to the same values for those classifications.</p>
         <ol style="list-style-type: upper-alpha;">
-            <li>Open ArcMap session and add the layers you would like to map. For more information on how do add layers to ArcMap please see the <a href="GeoTiffArcOpen.htm" target="_blank">Opening an IFTDSS Geo Tiff file in ArcMap</a> help topic.</li>
+            <li>Open ArcMap session and add the layers you would like to map. For more information on how do add layers to ArcMap please see the <a href="ArcGeoTiffOpen.htm" target="_blank">Opening an IFTDSS Geo Tiff file in ArcMap</a> help topic.</li>
             <li>
                 <p>Right-click on the "Burn Probability" layer and click <span class="UIcomponent">Properties</span>.</p>
                 <p>
