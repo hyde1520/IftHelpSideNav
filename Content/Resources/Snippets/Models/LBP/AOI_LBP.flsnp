@@ -9,25 +9,25 @@
             <li>
                 <p>Select  the <span class="UIcomponent">Apply Mask</span>&#160;option.</p>
                 <p>
-                    <img src="../../../Images/Models/Flammap/Risk/AOI_applymask.png" alt="click the more option button and select the 'apply mask' option to begin selecting your mask area" class="borderlist" />
+                    <img src="../../../Images/Models/LBP/AOI_applymask.png" alt="click the more option button and select the 'apply mask' option to begin selecting your mask area" class="borderlist" />
                 </p>
             </li>
             <li>
                 <p>Select a shape from the drop-down list and click <span class="UIcomponent">Apply mask</span>.</p>
                 <p>
-                    <img src="../../../Images/Models/Flammap/Risk/AOI_selectmask.png" alt="select your shape from the dropdown menu and click 'apply mask' when done" class="borderlist" />
+                    <img src="../../../Images/Models/LBP/AOI_selectmask.png" alt="select your shape from the dropdown menu and click 'apply mask' when done" class="borderlist" />
                 </p>
             </li>
             <li>
                 <p><span class="UIcomponent">Map Studio</span> will now zoom into the shape area and the values in <span class="UIcomponent">Layer List</span> will change to reflect the burn probability and conditional flame length for the area only within the shape you selected.</p>
                 <p>
-                    <img src="../../../Images/Models/Flammap/Risk/AOI_burnprob.png" alt="burn probability only showing within the masked area." class="borderlist" />
+                    <img src="../../../Images/Models/LBP/AOI_burnprob.png" alt="burn probability only showing within the masked area." class="borderlist" />
                 </p>
             </li>
             <li>
                 <p>To go back to the full landscape view, click <span class="UIcomponent">More Options <img src="../../../Images/ButtonsGeneral/moreoptions.png" alt="more options" class="iftbutton" /></span> to the right of the LBP&#160;layer in <span class="UIcomponent">Layer List</span> and select "Remove Mask".</p>
                 <p>
-                    <img src="../../../Images/Models/Flammap/Risk/AOI_remove.png" alt="use the 'remove mask' button under 'more options' in layer list to set the burn probability back to the whole landscape." class="borderlist" />
+                    <img src="../../../Images/Models/LBP/AOI_remove.png" alt="use the 'remove mask' button under 'more options' in layer list to set the burn probability back to the whole landscape." class="borderlist" />
                 </p>
             </li>
         </ol>

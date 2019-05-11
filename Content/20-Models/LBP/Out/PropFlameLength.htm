@@ -5,7 +5,7 @@
     </head>
     <body>
         <h1>Proportion of Flame Lengths<MadCap:snippetText src="../../../Resources/Snippets/Development.flsnp" /></h1>
-        <p>Proportion of Flame Lengths are available in Map Studio with the Identify widget, and available in the download package. Flame length is classified into six standard fire intensity levels  (<a href="../../../41-References/Citations.htm#Roose_etal_2008" target="_blank">Roose and others 2008</a>) for each pixel on the landscape from a Landscape Burn Probability run, shown in the table below. The value in each class is the conditional probability of observing fire intensity for the  specified flame-length class, given a fire occurs. Because the values rely on fire occurring, the sum probability of all size classes is always 1 for any given point on the landscape. It is these proportional flame lengths that are used to determine the Conditional Flame Length.</p>
+        <p>Proportion of Flame Lengths are available in Map Studio with the Identify widget, and available in the download package. Flame length is classified into six standard fire intensity levels  (<a href="../../../41-References/Citations.htm#Roose_etal_2008" target="_blank">Roose and others 2008</a>) for each pixel on the landscape from a LBP run, shown in the table below. The value in each class is the conditional probability of observing fire intensity for the  specified flame-length class, given a fire occurs. Because the values rely on fire occurring, the sum probability of all size classes is always 1 for any given point on the landscape. It is these proportional flame lengths that are used to determine the Conditional Flame Length.</p>
         <table style="width: 811px;mc-table-style: url('../../../Resources/TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
             <col class="TableStyle-Standard-Column-Column1" />
             <col class="TableStyle-Standard-Column-Column1" />
@@ -52,14 +52,14 @@
         </table>
         <p>The Proportion of Flame Lengths outputs are available via the Identify widget in the Map Studio. The values are shown as a percentage.</p>
         <p>
-            <img src="../../../Resources/Images/Models/Flammap/Risk/image13.png" class="border" />
+            <img src="../../../Resources/Images/Models/LBP/image13.png" class="border" />
         </p>
         <p>In the download package, Proportion of Flame Lengths comprise 6 of the bands available in the GeoTiff. They have continuous values as a proportion. Where non-burnable pixels exist, the value is -1, and where burnable but not burned pixels exist the value is 0.
 
 Image created in ArcMap showing the six Proportion of Flame Lengths.  
 </p>
         <p>
-            <img src="../../../Resources/Images/Models/Flammap/Risk/proportion_of_flamelengths.png" class="border" />
+            <img src="../../../Resources/Images/Models/LBP/proportion_of_flamelengths.png" class="border" />
         </p>
         <div class="notificationNote">
             <p>Places on the landscape can be unburned for three reasons: 1) the location has a non-burnable fuel model,  2) fire never reached that location, or 3) an ignition started but did not burn out of the current pixel. These cases are presented differently in Map Studio and reports versus the GeoTiff available for download. Non-burnable locations are denoted as such, “Non-burnable” in Map Studio and Reports, and are -1 in the GeoTiff. Locations that the fire never reached or didn’t spread out of are “Burnable but not burned” in Map Studio and Reports, and are 0 in the GeoTiff.</p>

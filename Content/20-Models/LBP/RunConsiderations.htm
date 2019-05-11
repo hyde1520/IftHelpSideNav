@@ -5,7 +5,7 @@
     </head>
     <body>
         <h1>LBP Model Run Considerations and Interpretation<MadCap:snippetText src="../../Resources/Snippets/Development.flsnp" /></h1>
-        <p>Burn Probability is likely a new fire behavior model for many users. Although most of the inputs are similar to Landscape Fire Behavior the outputs are quite different. The information laid out below is very important and will help provide a better understanding of the nuances of selecting inputs, running the model, and interpreting the outputs.</p>
+        <p>Landscape Burn Probability is likely a new fire behavior model for many users. Although most of the inputs are similar to Landscape Fire Behavior the outputs are quite different. The information laid out below is very important and will help provide a better understanding of the nuances of selecting inputs, running the model, and interpreting the outputs.</p>
         <p> 
 The table below outlines key considerations as you select your landscape, choose inputs for the model, and interpret model outputs.</p>
         <table style="width: 100%;mc-table-style: url('../../Resources/TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
@@ -71,7 +71,7 @@ The table below outlines key considerations as you select your landscape, choose
                     </td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
-                    <td class="TableStyle-Standard-BodyB-Column1-Body1"><a href="Out/Hazard.htm" target="_blank">Integrated Hazard</a>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1"><a href="Out/IntHazard.htm" target="_blank">Integrated Hazard</a>
                     </td>
                     <td class="TableStyle-Standard-BodyA-Column1-Body1">A combination of Conditional Flame Length and Burn Probability. It is important to note that since the definition of risk in the wildfire context is expanded to include beneficial as well as negative effects, the consideration of hazard should be expanded as well.</td>
                 </tr>
@@ -90,12 +90,12 @@ The table below outlines key considerations as you select your landscape, choose
         <h2>Affects of landscape features and wind</h2>
         <p>In some model outputs you may encounter areas with high conditional flame lengths and low burn probabilities. Causes for this can  include fuels that are located in difficult locations for fire to spread to, such as highly flammable but patchy fuels. Some examples of this are high elevation timber pockets, or shrub islands surrounded by non-burnable fuels (pictured below).</p>
         <p>
-            <img src="../../Resources/Images/Models/Flammap/Risk/fire_barriers.png" class="border" />
+            <img src="../../Resources/Images/Models/LBP/fire_barriers.png" class="border" />
         </p>
         <p>Another cause of low burn probability in seemingly volatile fuels can be slow spreading or non-burnable fuels upwind depending on the wind direction specified in the analysis.</p>
         <p>A visual example of how unique LBP outputs can be based on wind direction is displayed in the run comparison below. This comparison was done on the same landscape, with the same wind speed, spotting probability and fuel moisture parameters.  Wind direction was the only parameter changed. The first output was run with a Southeast wind and the second with a Northwest wind.  You can see that the burnable area SE of the larger lake to the west did not even burn under a NW wind direction.</p>
         <p>
-            <img src="../../Resources/Images/Models/Flammap/Risk/SEwindNEwindLBP.png" class="border" />
+            <img src="../../Resources/Images/Models/LBP/SEwindNEwindLBP.png" class="border" />
         </p>
         <p>There are also scenarios that may be associated with high burn probabilities and low conditional flame length. These can include continuous grass or shrub fuels especially when wind and moisture inputs conducive to rapid spread.</p>
     </body>

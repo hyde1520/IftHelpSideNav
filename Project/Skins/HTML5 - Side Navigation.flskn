@@ -19,6 +19,8 @@
         <Properties>
           <Property
             Name="BackgroundColor">#2e3e4e</Property>
+          <Property
+            Name="Display">block</Property>
         </Properties>
       </Style>
       <Style
@@ -53,6 +55,15 @@
           <Property
             Name="BackgroundColor">#ffffff</Property>
         </Properties>
+        <Classes>
+          <StyleClass
+            Name="Expander Icon">
+            <Properties>
+              <Property
+                Name="ExpanderBorderColor">#2e3e4e</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
       </Style>
       <Style
         Name="Side Navigation Menu Item (selected)">
@@ -77,6 +88,13 @@
                 Name="ExpanderBorderColor">#ffffff</Property>
               <Property
                 Name="ExpanderBorderWidth">7px</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="1st Level">
+            <Properties>
+              <Property
+                Name="BorderBottom">dotted 1px #ffffff</Property>
             </Properties>
           </StyleClass>
         </Classes>

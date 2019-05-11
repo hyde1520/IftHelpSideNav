@@ -13,13 +13,13 @@
             <li>
                 <p>Specify a Simulation Time (Burn Period Length), from 4-12 hours.</p>
                 <p>
-                    <img src="../../../Images/Models/Flammap/Risk/simulation_time.png" alt="simulation time field in IFTDSS" class="borderlist" />
+                    <img src="../../../Images/Models/LBP/simulation_time.png" alt="simulation time field in IFTDSS" class="borderlist" />
                 </p>
             </li>
             <li>
                 <p>Choose to either leave the Spotting Probability as the default 20% or adjust it as needed.</p>
                 <p>
-                    <img src="../../../Images/Models/Flammap/Risk/spotting_default.png" alt="spotting probability field in iftdss" class="borderlist" />
+                    <img src="../../../Images/Models/LBP/spotting_default.png" alt="spotting probability field in iftdss" class="borderlist" />
                 </p>
             </li>
             <li>

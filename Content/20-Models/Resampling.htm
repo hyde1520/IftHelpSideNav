@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="General.QA ONLY" style="mc-master-page: url('..\Resources\MasterPages\Topicsforgdocs.flmsp');">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\Resources\MasterPages\Topicsforgdocs.flmsp');">
     <head>
         <link href="../Resources/TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -42,7 +42,7 @@
             </tbody>
         </table>
         <p>
-            <img src="../Resources/Images/Models/Flammap/Risk/landscape_resample.png" alt="landscape with highlighted border surrounding the landscape extent and the buffer around the landscape." class="border" />
+            <img src="../Resources/Images/Models/LBP/landscape_resample.png" alt="landscape with highlighted border surrounding the landscape extent and the buffer around the landscape." class="border" />
         </p>
         <p>For example, the area above would be resampled to a 60 meter resolution. Although the landscape, shown with in the turquoise boundary is 229,000 acres, the buffer surrounding it increases the overall area to 410,000 acres, putting it in the size range for 60 meter resampling (250,000-&lt;1 million acres).</p>
         <div class="notificationImportant">
@@ -50,7 +50,7 @@
         </div>
         <p>Landscapes that have been resampled are easily identified in IFTDSS by the landscape name, which has the resolution automatically added to the end. Those at the native 30m resolution do not have anything appended to the landscape name. For example, “BLM Grants Pass-120m” indicates that file has been resampled to a 120m resolution. And “BLM Grants Pass” is at the original 30m resolution. Landscape resolutions are also displayed in the Right Hand Panel when the landscape is selected.</p>
         <p>
-            <img src="../Resources/Images/Models/Flammap/Risk/lcp_buffer_example.png" alt="resampled landscapes end with the resolution, such as 120m" class="border" />
+            <img src="../Resources/Images/Models/LBP/lcp_buffer_example.png" alt="resampled landscapes end with the resolution, such as 120m" class="border" />
         </p>
         <h2>How</h2>
         <p>Landscape resampling functions the same way in IFTDSS as it does in FlamMap. A “nearest-neighbor” method is used to complete the resampling.  This ensures that widely scattered or narrow, linear elements of the fuelscape, like streams or roadways, remain represented in the re-sampled layers in proportion to their initial representation (<a href="../41-References/Citations.htm#Scott_etal_2013" target="_blank">Scott et al. 2013</a>).</p>
@@ -66,11 +66,11 @@
         </ul>
         <p>Resampling the same 30 m landscape to a 90 m landscape uses the center cell in each of the red boxes.  However the final foot print is different because of how the resampling works, because there is a cell in the center, even though there are not enough cells to cover the full area a new cell is created along the bottom and right edges.</p>
         <p>
-            <img src="../Resources/Images/Models/Flammap/Risk/resampling_ex_30_90.png" alt="left, 30 m raster grid overlaid with 90 m lines, right, 90 meter rasters grid" class="border" />
+            <img src="../Resources/Images/Models/LBP/resampling_ex_30_90.png" alt="left, 30 m raster grid overlaid with 90 m lines, right, 90 meter rasters grid" class="border" />
         </p>
         <p>Below is an example of how resampling from 30 m to 60m resolution works. The red boxes are the outline of the new cell area. Because there is not a center cell in the new landscape, the upper left hand cell from the midpoint is used to create the resampled landscape.</p>
         <p>
-            <img src="../Resources/Images/Models/Flammap/Risk/resampling_ex_30_60.png" alt="left, 30 m raster grid overlaid with 60 m lines, right, 60 meter rasters grid" class="border" />
+            <img src="../Resources/Images/Models/LBP/resampling_ex_30_60.png" alt="left, 30 m raster grid overlaid with 60 m lines, right, 60 meter rasters grid" class="border" />
         </p>
         <p><b>Comments may be made in Google Directly at: </b><a href="https://docs.google.com/document/d/1YpKf3FvSAnzyQfc34E2oXcLjTqiY2x1_fWlKyRNOZRY/edit?usp=sharing" target="_blank" style="font-weight: bold;">https://docs.google.com/document/d/1YpKf3FvSAnzyQfc34E2oXcLjTqiY2x1_fWlKyRNOZRY/edit?usp=sharing</a>
         </p>

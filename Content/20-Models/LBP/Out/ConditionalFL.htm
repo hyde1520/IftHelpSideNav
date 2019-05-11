@@ -4,12 +4,12 @@
         <link href="../../../Resources/TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
-        <h1>Conditional Flame Length<MadCap:snippetText src="../../../Resources/Snippets/Development.flsnp" /></h1>
-        <p>Conditional Flame Length (CFL) is viewable in Map Studio, in Reports, and available in the download package. Conditional Flame Length is an estimate of the mean flame length for all the fires that burn a given point on the landscape during a Landscape Burn Probability model run. Conditional flame length from Landscape Burn Probability is typically lower than flame length coming from Landscape Fire Behavior. This is because as Landscape Burn Probability spreads fire across the landscape it includes heading, flanking and backing fire, whereas with Landscape Fire Behavior, fire is not spread across the landscape and only head fire is considered. Head fire typically has higher flame lengths than flanking or backing fire. In addition, conditional flame length is the mean of all fires encountered by a pixel versus a singular condition and can only have a maximum value of 25 feet (see the calculations section below for details).</p>
+        <h1>Conditional Flame Length <MadCap:snippetText src="../../../Resources/Snippets/Development.flsnp" /></h1>
+        <p>Conditional Flame Length (CFL) is viewable in Map Studio, in Reports, and available in the download package. Conditional Flame Length is an estimate of the mean flame length for all the fires that burn a given point on the landscape during a LBP model run. Conditional flame length from LBP is typically lower than flame length coming from Landscape Fire Behavior. This is because as LBP spreads fire across the landscape it includes heading, flanking and backing fire, whereas with Landscape Fire Behavior, fire is not spread across the landscape and only head fire is considered. Head fire typically has higher flame lengths than flanking or backing fire. In addition, conditional flame length is the mean of all fires encountered by a pixel versus a singular condition and can only have a maximum value of 25 feet (see the calculations section below for details).</p>
         <h2>Calculation</h2>
         <p>Conditional flame length is the sum product of the  flame lengths across the six fire intensity levels (also known as <a href="PropFlameLength.htm" target="_blank">Proportion of Flame Lengths</a>).</p>
         <p>
-            <img src="../../../Resources/Images/Models/Flammap/Risk/cfl_equation.png" />
+            <img src="../../../Resources/Images/Models/LBP/cfl_equation.png" />
         </p>
         <p style="font-style: italic;">Where:</p>
         <p>FLPi is the probability of fire at a given intensity.</p>
@@ -74,7 +74,7 @@
         <h2>Display</h2>
         <p>Using the <span class="UIcomponent">Identify widget</span> shows the exact conditional flame length for a pixel and proportion of flame lengths. The image below shows the results for our CFL example in the above table.</p>
         <p>
-            <img src="../../../Resources/Images/Models/Flammap/Risk/image8.png" class="border" style="width: 356px;height: 381px;" alt="'Identify' box displaying conditional flame length for a pixel, followed by the proportion of flame length for each class." />
+            <img src="../../../Resources/Images/Models/LBP/image8.png" class="border" style="width: 356px;height: 381px;" alt="'Identify' box displaying conditional flame length for a pixel, followed by the proportion of flame length for each class." />
         </p>
         <p>In the Map Studio and Reports in IFTDSS conditional flame length is displayed with 8 distinct classes. The first two are for pixels that did not burn:</p>
         <ul>
@@ -94,20 +94,20 @@
             <li>&gt;12 ft</li>
         </ul>
         <p>
-            <img src="../../../Resources/Images/Models/Flammap/Risk/image16.png" class="border" alt="Map Studio display with layer list on the bottom left and conditional flame lengths shown with different colors associated with different conditional flame length classes." />
+            <img src="../../../Resources/Images/Models/LBP/image16.png" class="border" alt="Map Studio display with layer list on the bottom left and conditional flame lengths shown with different colors associated with different conditional flame length classes." />
         </p>
         <h2>Difference Compared to Flame Length from Landscape Fire Behavior</h2>
-        <p>Below, the Flame Length output from Landscape Fire Behavior completed with Auto97th inputs  (top) is displayed with Conditional Flame Length from Landscape Burn Probability run with similar Auto97th inputs, 20% spotting and an 8 hr burn period (bottom).</p>
+        <p>Below, the Flame Length output from Landscape Fire Behavior completed with Auto97th inputs  (top) is displayed with Conditional Flame Length from an LBP run with similar Auto97th inputs, 20% spotting and an 8 hr burn period (bottom).</p>
         <p>
-            <img src="../../../Resources/Images/Models/Flammap/Risk/conditional_fl_1.png" class="border" alt="Flame Length outputs produced from the Landscape Fire Behavior model." />
+            <img src="../../../Resources/Images/Models/LBP/conditional_fl_1.png" class="border" alt="Flame Length outputs produced from the Landscape Fire Behavior model." />
         </p>
         <p>
-            <img src="../../../Resources/Images/Models/Flammap/Risk/conditional_fl_2.png" class="border" alt="Conditional Flame Length outputs produced from the Landscape Burn Probability model." />
+            <img src="../../../Resources/Images/Models/LBP/conditional_fl_2.png" class="border" alt="Conditional Flame Length outputs produced from the Landscape Burn Probability model." />
         </p>
         <p>Looking at the general patterns, the areas of highest and lowest flame lengths and conditional flame lengths are consistent between the two model outputs while the output values are different.</p>
-        <p>A point  was selected from the north central section of the map that was represented by the highest flame length and conditional flame length categories respectively. Notice that the flame length from the Landscape Fire Behavior run is 54.6 ft versus 15.2 ft for conditional flame length from a Landscape Burn Probability run.</p>
+        <p>A point  was selected from the north central section of the map that was represented by the highest flame length and conditional flame length categories respectively. Notice that the flame length from the Landscape Fire Behavior run is 54.6 ft versus 15.2 ft for conditional flame length from a LBP run.</p>
         <p>
-            <img src="../../../Resources/Images/Models/Flammap/Risk/image23.png" class="border" style="width: 306px;height: 435px;" alt="'Identify' box showing flame length from a Landscape Fire Behavior run as 54.6 ft versus 15.2 ft for conditional flame length from a Landscape Burn Probability run over the same area." />
+            <img src="../../../Resources/Images/Models/LBP/image23.png" class="border" style="width: 306px;height: 435px;" alt="'Identify' box showing flame length from a Landscape Fire Behavior run as 54.6 ft versus 15.2 ft for conditional flame length from a Landscape Burn Probability run over the same area." />
         </p>
         <div class="notificationNote">
             <p>In the IFTDSS download package, Conditional Flame Length  is represented in continuous values in feet. Where non-burnable pixels exist, the value is -1.</p>

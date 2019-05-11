@@ -79,6 +79,13 @@
                 Name="ExpanderBorderWidth">7px</Property>
             </Properties>
           </StyleClass>
+          <StyleClass
+            Name="1st Level">
+            <Properties>
+              <Property
+                Name="BorderBottom">dotted 1px #ffffff</Property>
+            </Properties>
+          </StyleClass>
         </Classes>
       </Style>
       <Medium

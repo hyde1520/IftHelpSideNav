@@ -443,7 +443,7 @@
           Link="/Content/20-Models/LBP/Out/ConditionalFL.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/20-Models/LBP/Out/Hazard.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/20-Models/LBP/Out/IntHazard.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Proportion of Flame Lengths [UNDER DEVELOPMENT]"
           Link="/Content/20-Models/LBP/Out/PropFlameLength.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
