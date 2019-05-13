@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Below are examples of the three map extents possible in Map Studio. They highlight the effect of applying a mask on the burn probability legend and symbology. The first image shows the full extent of the model output, the analysis maximum burn probability is 0.0113. You can see the areas of the Highest (80-100% of maximum) burn probabilities are outside of the landscape extent (seen above and to the left of the non-buffered area).</p>
+        <p>
+            <img src="../../../Images/Models/LBP/mask_aoi_lbp_1.png" class="border" />
+        </p>
+        <p>When a mask is applied to the landscape extent (non-buffered), the analysis maximum burn probability is 0.0080. This is lower than the full model extent, therefore the legend reflects a change in the maximum value. Because the bins are based off of a new maximum value there are areas of Highest (80-100% of maximum) burn probabilities within the masked area which were not present when the mask was not applied. <span class="Emphasis">Therefore classified values from a masked landscape should not be compared to values from an unmasked landscape, just as a landscape from one run should not be compared to a landscape from another run.</span></p>
+        <p>
+            <img src="../../../Images/Models/LBP/mask_aoi_lbp_2.png" class="border" />
+        </p>
+        <p>When a mask is applied to the Area Of Interest (AOI), the analysis maximum burn probability is 0.032. This is lower than both the full model extent and the landscape extent (non-buffered) masked area. Similar to the landscape extent (non-buffered) mask, the legend reflects a change in the maximum value and the bins and symbology are changed.</p>
+        <p>
+            <img src="../../../Images/Models/LBP/mask_aoi_lbp_3.png" class="border" />
+        </p>
+    </body>
+</html>

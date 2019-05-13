@@ -459,6 +459,13 @@
         <TocEntry
           Title="FlamMap Input File [UNDER DEVELOPMENT]"
           Link="/Content/20-Models/LBP/Out/FlammapInputFile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Scale [Under Develoment]"
+          Link="/Content/20-Models/LBP/Out/Scale.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          conditions="General.QA ONLY"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
       </TocEntry>
       <TocEntry
         Title="LBP Run Considerations [UNDER DEVELOPMENT]"
