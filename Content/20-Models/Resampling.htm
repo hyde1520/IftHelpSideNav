@@ -4,40 +4,43 @@
         <link href="../Resources/TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
-        <h1>Resampling in IFTDSS</h1>
+        <h1>
+            <MadCap:keyword term="Resampling" />Resampling in IFTDSS</h1>
         <p>In IFTDSS, resampling is conducted to adjust the resolution of your landscape to allow it to successfully run in some modeling applications.</p>
         <h2>Why</h2>
         <p>Resampling is necessary in IFTDSS in order to meet the intensive computational needs of the models. If you run a model that requires resampling by IFTDSS, such as LBP, you will notice the resampled landscape is generated and made available even before the model starts running. In short, this is done to allow the model to run faster.</p>
-        <p>The resampled landscape is available in <span class="UIcomponent">My Workspac</span>e. This is beneficial for understanding the underlying fuels/vegetation relating to the predicted fire behavior on each pixel.</p>
+        <p>The resampled landscape is available in <span class="UIcomponent">My Workspace</span>. This is beneficial for understanding the underlying fuels/vegetation relating to the predicted fire behavior on each pixel.</p>
         <h2>When</h2>
         <p>Resampling only occurs for landscapes submitted for Landscape Burn Probability runs when the the landscape and the buffered area surrounding it exceeds 250,000 acres.</p>
         <table style="width: 100%;mc-table-style: url('../Resources/TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
             <col class="TableStyle-Standard-Column-Column1" />
             <col class="TableStyle-Standard-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Standard-Head-Header1">
+                    <td class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Landscape Size (acres)</td>
+                    <td class="TableStyle-Standard-HeadD-Column1-Header1" style="font-weight: bold;">Resampled Resolution</td>
+                </tr>
+            </thead>
             <tbody>
                 <tr class="TableStyle-Standard-Body-Body1">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1" style="font-weight: bold;">Landscape Size (acres)</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1" style="font-weight: bold;">Resampled Resolution</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&lt;250,000</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">30 meters</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&lt;250,000</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body2">30 meters</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">250,000 - &lt;1 million</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">60 meters</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">250,000 - &lt;1 million</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">60 meters</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">1 million - &lt;2.5 million</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">90 meters</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">1 million - &lt;2.5 million</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body2">90 meters</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">2.5 million - &lt;5 million</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">120 meters</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">2.5 million - &lt;5 million</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">120 meters</td>
-                </tr>
-                <tr class="TableStyle-Standard-Body-Body2">
-                    <td class="TableStyle-Standard-BodyB-Column1-Body2">&gt; 5 million</td>
-                    <td class="TableStyle-Standard-BodyA-Column1-Body2">150 meters</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">&gt; 5 million</td>
+                    <td class="TableStyle-Standard-BodyA-Column1-Body1">150 meters</td>
                 </tr>
             </tbody>
         </table>
@@ -71,8 +74,6 @@
         <p>Below is an example of how resampling from 30 m to 60m resolution works. The red boxes are the outline of the new cell area. Because there is not a center cell in the new landscape, the upper left hand cell from the midpoint is used to create the resampled landscape.</p>
         <p>
             <img src="../Resources/Images/Models/LBP/resampling_ex_30_60.png" alt="left, 30 m raster grid overlaid with 60 m lines, right, 60 meter rasters grid" class="border" />
-        </p>
-        <p><b>Comments may be made in Google Directly at: </b><a href="https://docs.google.com/document/d/1YpKf3FvSAnzyQfc34E2oXcLjTqiY2x1_fWlKyRNOZRY/edit?usp=sharing" target="_blank" style="font-weight: bold;">https://docs.google.com/document/d/1YpKf3FvSAnzyQfc34E2oXcLjTqiY2x1_fWlKyRNOZRY/edit?usp=sharing</a>
         </p>
     </body>
 </html>
