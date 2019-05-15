@@ -202,10 +202,7 @@
 #define LCPCreateAbout 1099
 #define ignition_hh 9193
 #define SelectFires 1102
-#define geotiff_reclass1 1163
 #define LCP_export1 1164
-#define LoadingGeoIntoFlammap1 1165
-#define OpenGeoTif1 1166
 #define GeoTiffAbout 1167
 #define GeoTiffLFBOut 1168
 #define AboutWXS 1169
@@ -353,3 +350,12 @@
 #define SSURGO_m 8061
 #define Pyrome_m 8062
 #define HVRA_m 8063
+#define USFWSTrls_m 1072
+#define DownloadPkgs 1084
+#define FlmmpInputLBP 1095
+#define FlmmpInputLFB 1098
+#define LBPGeoTiff 1101
+#define geographic_ext_hh 9039
+#define namemappedvals 9040
+#define pendingvalues_hh 9041
+#define NEWsubHVRA_hh 9042
