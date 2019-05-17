@@ -4,38 +4,46 @@
     </head>
     <body>
         <h1>Integrated Hazard<MadCap:snippetText src="../../../Resources/Snippets/Development.flsnp" /></h1>
-        <p>Hazard describes a physical situation with potential for harm to persons or damage to resources and assets. Wildfire hazard can be described qualitatively as a fire environment—fuel, weather, topography, and ignitions—with potential for causing harm or damage, or quantitatively by two characteristics:</p>
+        <p>The term "hazard" is used by the wildland fire community to define a variety of conditions or situations where damage to people or assets by fire is being evaluated.  Hazard is quantified and categorized in IFTDSS using the Landscape Burn Probability model evaluating:</p>
         <ul>
-            <li>the probability of a fire occurring at a specific point during a specified time period, and</li>
-            <li>the expected intensity given that the event does occur.</li>
+            <li>the probability of a fire occurring at a specific point under a specified set of conditions, and</li>
+            <li>the intensity at a specific point given a fire occurs.</li>
         </ul>
-        <p>Integrated Hazard combines these two important measures —burn probability and conditional flame length—into a single characteristic that can be mapped. Within IFTDSS, the classified values of <a href="BurnProb.htm" target="_blank">Burn Probability</a> and <a href="ConditionalFL.htm" target="_blank">Conditional Flame Length</a> are used to determine and map Integrated Hazard.</p>
+        <p>Integrated Hazard in IFTDSS combines two important measures —Burn Probability and Conditional Flame Length—into a single characteristic that can be mapped. Within IFTDSS, the classified values of <a href="BurnProb.htm" target="_blank">Burn Probability</a> and <a href="ConditionalFL.htm" target="_blank">Conditional Flame Length</a> are used to determine and map Integrated Hazard.</p>
         <p>
-            <img src="../../../Resources/Images/Models/LBP/IntHazTable.png" />
+            <img src="../../../Resources/Images/Models/LBP/Integrated_Hazard_diagram.png" class="border" />
         </p>
-        <p>It is important to note, because Burn Probability classes are used to calculate Integrated Hazard, it is dynamic based on the extent of the area mapped or reported on (full model outputs, Landscape extent (non-buffered) or Area of Interest).</p>
+        <p>Like Burn Probability, Integrated Hazard in IFTDSS is dynamic based on the extent at which it is mapped or reported. Extent options include full landscape, unbuffered landscape, and area of interest. See the <a href="Scale.htm" target="_blank">Scale</a> topic for an example.</p>
+        <p>For each pixel, an Integrated Hazard value is assigned based on the Burn Probability and Conditional Flame Length Class using the following table:</p>
         <p>
-            <img src="../../../Resources/Images/Models/LBP/BP_CFL_Hazard2.png" class="border" alt="comparison of burn probability, conditional flame length, and integrated hazard" />
+            <img src="../../../Resources/Images/Models/LBP/IntHazTable.png" class="border" />
         </p>
-        <h2>Display</h2>
-        <p>In the Map Studio and Reports parts of IFTDSS Integrated Hazard is displayed with 7 distinct classes. The first two are for pixels that did not burn:</p>
+        <p>For example, a pixel with a burn probability of “Highest”, and conditional flame length of &gt;8-12-ft would have an integrated hazard of “Highest”.</p>
+        <p>
+            <img src="../../../Resources/Images/Models/LBP/IH_table_demo.png" class="border" />
+        </p>
+        <p>IFTDSS Integrated Hazard is categorized with 7 distinct classes. The first two are for pixels that did not burn and the remaining 5 classes are dynamic based on the integrated hazard matrix above. They include:</p>
         <ul>
-            <li>Non-burnable means that pixels have a non-burnable fuel model and cannot burn.</li>
-            <li>Burnable, but did not burn, means that the pixel has burnable fuels but did not burn. This can be because a fire never reached the pixel, or a fire reached the pixel or started within the pixel but it was unable to burn out of the pixel because the fire spread rate was too slow.</li>
-        </ul>
-        <div class="notificationNote">
-            <p>Places on the landscape can be unburned for three reasons: 1) the location has a non-burnable fuel model,  2) fire never reached that location, or 3) an ignition started but did not burn out of the current pixel. These cases are presented differently in Map Studio and reports versus the GeoTiff available for download. Non-burnable locations are denoted as such, “Non-burnable” in Map Studio and Reports, and are -1 in the GeoTiff. Locations that the fire never reached or didn’t spread out of are “Burnable but not burned” in Map Studio and Reports, and are 0 in the GeoTiff.</p>
-        </div>
-        <p>The remaining 5 classes are dynamic based on the integrated hazard matrix above. They include:</p>
-        <ul>
+            <li>Non-burnable</li>
+            <li>Burnable but not burned</li>
             <li>Lowest hazard</li>
             <li>Lower hazard</li>
             <li>Middle Hazard</li>
             <li>Higher Hazard</li>
             <li>Highest Hazard</li>
         </ul>
-        <p>In Map Studio, you can view the Integrated Hazard matrix table by clicking the <span class="UIcomponent">More Options <img src="../../../Resources/Images/ButtonsGeneral/moreoptions.png" alt="more options" class="iftbutton"></img></span> button next to “Integrated Hazard” feature in Layer List and select the <span class="UIcomponent">Integrated Hazard Matrix</span> option.</p>
-        <img src="../../../Resources/Images/Models/LBP/IH_example_w_table.png" alt="integrated hazard matrix table appearing in the bottom right." class="border" />
+        <h2>Display</h2>
+        <p>Landscape Burn Probability model outputs in the Map Studio for each specific analysis include a layer for Integrated Hazard in the outputs legend, as well as for Burn Probability and Conditional Flame Length. Integrated Hazard outputs can be viewed on the Map in the Layers List and using the Identify tool.</p>
+        <p>
+            <img src="../../../Resources/Images/Models/LBP/Layerlist_identify.png" class="border" />
+        </p>
+        <p>
+            <img src="../../../Resources/Images/Models/LBP/BP_CFL_Hazard2.png" class="border" alt="comparison of burn probability, conditional flame length, and integrated hazard" />
+        </p>
+        <p>In Map Studio, you can view the Integrated Hazard matrix table by clicking the <span class="UIcomponent">More Options <img src="../../../Resources/Images/ButtonsGeneral/moreoptions.png" alt="more options" class="iftbutton" /> button</span> next to “Integrated Hazard” feature in the  <span class="UIcomponent">Layer List</span> and select the Integrated Hazard Matrix option.</p>
+        <div class="notificationImportant">
+            <p>Places on the landscape can be unburned for three reasons: 1) the location has a non-burnable fuel model,  2) a modeled fire never reached that location, or 3) an ignition started but did not burn out of the current pixel.</p>
+        </div>
         <p>In the download package, Integrated Hazard is classified numerically. Where non-burnable pixels exist, the value is -1. Where pixels were burnable but did not burn the value is 0. The remaining values 1 through 5 represent increasing levels of integrated hazard.</p>
     </body>
 </html>

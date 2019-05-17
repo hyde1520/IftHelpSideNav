@@ -476,20 +476,20 @@
           Title="Integrated Hazard [DRAFT]"
           Link="/Content/20-Models/LBP/Out/IntHazard.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
-          Title="Proportion of Flame Lengths [DRAFT]"
-          Link="/Content/20-Models/LBP/Out/PropFlameLength.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="Midflame Wind Speed [DRAFT]"
-          Link="/Content/20-Models/LBP/Out/MidflameWindSpd.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="Fuel Moisture [DRAFT]"
-          Link="/Content/20-Models/LBP/Out/FuelMoisture.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
           Title="Fire Size List [DRAFT]"
           Link="/Content/20-Models/LBP/Out/FireSizeList.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="FlamMap Input File [DRAFT]"
           Link="/Content/20-Models/LBP/Out/FlammapInputFile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Fuel Moisture [DRAFT]"
+          Link="/Content/20-Models/LBP/Out/FuelMoisture.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Midflame Wind Speed [DRAFT]"
+          Link="/Content/20-Models/LBP/Out/MidflameWindSpd.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Proportion of Flame Lengths [DRAFT]"
+          Link="/Content/20-Models/LBP/Out/PropFlameLength.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Scale [DRAFT]"
           Link="/Content/20-Models/LBP/Out/Scale.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
@@ -500,10 +500,6 @@
       <TocEntry
         Title="LBP Run Considerations [DRAFT]"
         Link="/Content/20-Models/LBP/RunConsiderations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-        conditions="General.QA ONLY" />
-      <TocEntry
-        Title="LBP vs. LFB [DRAFT]"
-        Link="/Content/20-Models/LBP/FBModelCompare.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
         conditions="General.QA ONLY" />
     </TocEntry>
     <TocEntry
@@ -568,6 +564,10 @@
     <TocEntry
       Title="More To Come"
       Link="/Content/20-Models/Modelsmoretocome.htm" />
+    <TocEntry
+      Title="Model Comparison [DRAFT]"
+      Link="/Content/20-Models/LBP/FBModelCompare.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      conditions="General.QA ONLY" />
   </TocEntry>
   <TocEntry
     Title="FTEM">
