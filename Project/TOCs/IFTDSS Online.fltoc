@@ -503,7 +503,7 @@
         conditions="General.QA ONLY" />
       <TocEntry
         Title="LBP vs. LFB [DRAFT]"
-        Link="/Content/20-Models/LBP/LBPvLFB.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        Link="/Content/20-Models/LBP/FBModelCompare.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
         conditions="General.QA ONLY" />
     </TocEntry>
     <TocEntry

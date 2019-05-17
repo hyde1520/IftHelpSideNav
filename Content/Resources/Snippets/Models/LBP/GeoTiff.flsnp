@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table style="mc-table-style: url('../../../TableStylesheets/Standard.css');width: 100%;" class="TableStyle-Standard" cellspacing="3">
+            <col class="TableStyle-Standard-Column-Column1" />
+            <col class="TableStyle-Standard-Column-Column1" />
+            <col class="TableStyle-Standard-Column-Column1" style="width: 2178px;" />
+            <thead>
+                <tr class="TableStyle-Standard-Head-Header1">
+                    <td class="TableStyle-Standard-HeadE-Column1-Header1">Band #</td>
+                    <td class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Output</td>
+                    <td class="TableStyle-Standard-HeadD-Column1-Header1" style="font-weight: bold;">Brief Description</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">1</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Burn Probability<sup>A, B</sup></td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">The likelihood that a fire will burn a given point on the landscape (expressed as a value between 0 and 1). More detail in the <a href="../../../../20-Models/LBP/Out/BurnProb.htm" target="_blank">Burn Probability topic</a>. </td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">2</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Proportion of Flame Lengths 0-2 ft <sup>A, B</sup></td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">The probability of fire burning with a flame length between &gt;0 and 2 ft (expressed as a value between 0 and 1). More detail in the <a href="../../../../20-Models/LBP/Out/PropFlameLength.htm" target="_blank">Flame Length Probability topic</a>.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">3</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Proportion of Flame Lengths 2-4 ft<sup>A, B</sup></td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">The probability of fire burning with a flame length between &gt;2 and 4 ft (expressed as a value between 0 and 1). More detail in the <a href="../../../../20-Models/LBP/Out/PropFlameLength.htm" target="_blank">Flame Length Probability topic</a>.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">4</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Proportion of Flame Lengths 4-6 ft<sup>A, B</sup></td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">The probability of fire burning with a flame length between &gt;4 and 6 ft (expressed as a value between 0 and 1).  More detail in the <a href="../../../../20-Models/LBP/Out/PropFlameLength.htm" target="_blank">Flame Length Probability topic</a>.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">5</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Proportion of Flame Lengths 6-8 ft<sup>A, B</sup></td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">The probability of fire burning with a flame length between &gt;6 and 8 ft (expressed as a value between 0 and 1). More detail in the <a href="../../../../20-Models/LBP/Out/PropFlameLength.htm" target="_blank">Flame Length Probability topic</a>.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">6</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Proportion of Flame Lengths 8-12 ft<sup>A, B</sup></td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">The probability of fire burning with a flame length between &gt;8 and 12 ft (expressed as a value between 0 and 1). More detail in the <a href="../../../../20-Models/LBP/Out/PropFlameLength.htm" target="_blank">Flame Length Probability topic</a>.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">7</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Proportion of Flame Lengths &gt;12 ft<sup>A, B</sup></td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">The probability of fire burning with a flame length between &gt;12 ft (expressed as a value between 0 and 1). More detail in the <a href="../../../../20-Models/LBP/Out/PropFlameLength.htm" target="_blank">Flame Length Probability topic</a>.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">8</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Conditional Flame Length<sup>A, B</sup></td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">The mean flame length of all the fires that burn a given point on the landscape. More detail in the <a href="../../../../20-Models/LBP/Out/ConditionalFL.htm" target="_blank">Conditional Flame Length topic</a>.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">9</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Midflame Wind Speed</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Wind velocity at the midflame height. Calculated using wind adjustment factors based on stand height and canopy cover and the Wind Speed.  More detail in the <a href="../../../../20-Models/LBP/Out/MidflameWindSpd.htm" target="_blank">Midflame Wind Speed topic</a>.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">10</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">20 ft Wind Speed</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Wind velocity measured 20 feet (6 m) above the top of the tree or shrub canopy, or above the ground if canopy is absent.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">11</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">20 ft Wind Direction</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Wind direction is the direction from which the wind is blowing, specified in degrees increasing clockwise from north (which is zero degrees)m Uphill or Downhill.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">12</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">1-hr Fuel Moisture <sup>A</sup></td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Moisture content of 1-hour fuel (dead woody fuel 0 to ¼ inch or 0 to 6.4 mm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass. More detail in the <a href="../../../../20-Models/LBP/Out/FuelMoisture.htm" target="_blank">Fuel Moisture topic</a>.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">13</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">10-hr Fuel Moisture <sup>A</sup></td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Moisture content of 10-hour fuel (dead woody fuel ¼ to 1 inch or 0.6 to 2.5 cm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass. More detail in the <a href="../../../../20-Models/LBP/Out/FuelMoisture.htm" target="_blank">Fuel Moisture topic</a>.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">14</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">100-hr Fuel Moisture <sup>A</sup></td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Moisture content of 100-hour fuel (dead woody fuel 1 to 3 inches or 2.5 to 7.6 cm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass. More detail in the <a href="../../../../20-Models/LBP/Out/FuelMoisture.htm" target="_blank">Fuel Moisture topic</a>.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">15</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">Integrated Hazard<sup>A, B</sup></td>
+                    <td class="TableStyle-Standard-BodyA-Column1-Body1">The combination of Burn Probability and Conditional Flame Length ranging from lowest probability/lowest conditional flame lengths to highest probability/highest conditional flame lengths. More detail in the <a href="../../../../20-Models/LBP/Out/IntHazard.htm" target="_blank">Integrated Hazard topic</a>.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><sup>A</sup> Non-burnable pixels are indicated with a value of -1.</p>
+        <p><sup>B</sup> Burnable but not burned pixels are indicated with a value of 0.</p>
+    </body>
+</html>
