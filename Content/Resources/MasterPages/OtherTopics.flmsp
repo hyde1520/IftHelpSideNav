@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="89" MadCap:lastWidth="1472">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <meta charset="utf-8" />
         <meta name="description" content="" />
@@ -45,6 +45,6 @@
             <MadCap:topicToolbarProxy />
         </div>
         <MadCap:bodyProxy />
-        <p style="font-weight: bold;text-align: center;" MadCap:conditions="General.QA ONLY"> <span style="font-size: 14pt;">Send your review comments </span><a href="https://docs.google.com/forms/d/189RQorFQSWfIsr5jvO2WxpzOrYRCc35f7bkSjLdzcCU/viewform?edit_requested=true" style="font-size: 14pt;" target="_blank"> HERE</a></p>
+        <p style="padding-top:.5em; font-style: italic; text-align: left; border-top:solid 1px #2e3e4e;"> <span style="font-size: 14pt;">Click the input link <a href="https://docs.google.com/forms/d/189RQorFQSWfIsr5jvO2WxpzOrYRCc35f7bkSjLdzcCU/viewform?edit_requested=true" target="_blank">HERE</a>&#160;to leave feedback about this page.</span></p>
     </body>
 </html>

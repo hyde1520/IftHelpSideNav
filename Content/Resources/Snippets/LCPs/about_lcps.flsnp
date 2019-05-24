@@ -16,7 +16,7 @@
                 </p>
                 <p>In <MadCap:variable name="General.ProductName" />, the stand height for much of this area is listed as zero, why are the trees not shown? Exporting the .LCP&#160;and examining it in Arcmap, there is an EVH reporting much of the area as pine barrens. However, the EVT for much of the area is classified as a non-forested fuel type. </p>
                 <p>
-                    <img src="../../Images/GetStarted/lcp_Pinebarren_ex.jpg" class="border" />
+                    <img src="../../Images/GetStarted/lcp_Pinebarren_ex.jpg" class="border" alt="EVT, EVH, and Stand Height maps shown for the same area." />
                 </p>
                 <p>Based on the map zone, EVT, and very short tree heights, this area was classified as a shrub fuel type, which makes sense from a fire behavior perspective, but can be confusing from a vegetative perspective.</p>
                 <p>

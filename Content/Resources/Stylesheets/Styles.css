@@ -822,6 +822,26 @@ em
 		line-height: 14pt;
 	}
 
+/*makes dropdowns mimic h2s*/
+.MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage
+{
+		font-size: 12pt;
+		font-weight: normal;
+		color:black;
+		padding-left:none;
+		margin-left:-6px;
+		line-height: 14pt;
+		margin-bottom: 0px;
+		margin-top: 0px;
+}
+.dropDownBody
+{
+	border-bottom: solid 0px;
+}
+	h1{
+		margin-top: 0px;
+	}
+
 	h3
 	{
 		font-size: 10pt;

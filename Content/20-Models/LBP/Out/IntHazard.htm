@@ -1,19 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
+        <link href="../../../Resources/TableStylesheets/Copy of Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
         <h1>Integrated Hazard<MadCap:snippetText src="../../../Resources/Snippets/Development.flsnp" /></h1>
-        <p>The term "hazard" is used by the wildland fire community to define a variety of conditions or situations where damage to people or assets by fire is being evaluated.  Hazard is quantified and categorized in IFTDSS using the Landscape Burn Probability model evaluating:</p>
+        <p>The term Hazard is used by the wildland fire community to define a variety of conditions or situations where damage to assets by fire is being evaluated.  Hazard is quantified and categorized in IFTDSS using the LBP model evaluating:</p>
         <ul>
             <li>the probability of a fire occurring at a specific point under a specified set of conditions, and</li>
             <li>the intensity at a specific point given a fire occurs.</li>
         </ul>
-        <p>Integrated Hazard in IFTDSS combines two important measures —Burn Probability and Conditional Flame Length—into a single characteristic that can be mapped. Within IFTDSS, the classified values of <a href="BurnProb.htm" target="_blank">Burn Probability</a> and <a href="ConditionalFL.htm" target="_blank">Conditional Flame Length</a> are used to determine and map Integrated Hazard.</p>
+        <p>Integrated Hazard in IFTDSS combines two important measures —burn probability and conditional flame length—into a single characteristic that can be mapped. Within IFTDSS, the classified values of</p>
+        <p> <a href="BurnProb.htm" target="_blank">Burn Probability</a> and <a href="ConditionalFL.htm" target="_blank">Conditional Flame Length</a> are used to determine and map Integrated Hazard.</p>
+        <div class="notificationImportant">
+            <p>Like Burn Probability, Integrated Hazard in IFTDSS is dynamic based on the extent at which it is mapped or reported. Extent options include full landscape, unbuffered landscape, and area of interest. See the <a href="DynamicMask.htm" target="_blank">Masks and Map Extent (Dynamic)</a> Topic for an example.</p>
+        </div>
         <p>
-            <img src="../../../Resources/Images/Models/LBP/Integrated_Hazard_diagram.png" class="border" />
+            <img src="../../../Resources/Images/Models/LBP/Integrated_Hazard_diagram.png" class="border" alt="conceptual box-and-arrow figure showing landscape, weather, and ignition inputs feeding into fire simulation. Fire simulation produces burn probability and conditional flame length outputs which are both used for the integrated hazard output." />
         </p>
-        <p>Like Burn Probability, Integrated Hazard in IFTDSS is dynamic based on the extent at which it is mapped or reported. Extent options include full landscape, unbuffered landscape, and area of interest. See the <a href="Scale.htm" target="_blank">Scale</a> topic for an example.</p>
         <p>For each pixel, an Integrated Hazard value is assigned based on the Burn Probability and Conditional Flame Length Class using the following table:</p>
         <p>
             <img src="../../../Resources/Images/Models/LBP/IntHazTable.png" class="border" />
@@ -22,7 +26,7 @@
         <p>
             <img src="../../../Resources/Images/Models/LBP/IH_table_demo.png" class="border" />
         </p>
-        <p>IFTDSS Integrated Hazard is categorized with 7 distinct classes. The first two are for pixels that did not burn and the remaining 5 classes are dynamic based on the integrated hazard matrix above. They include:</p>
+        <p>IFTDSS Integrated Hazard is categorized with seven distinct classes. The first two are for pixels that did not burn and the remaining five classes are dynamic based on the integrated hazard matrix above. They include:</p>
         <ul>
             <li>Non-burnable</li>
             <li>Burnable but not burned</li>
@@ -33,17 +37,58 @@
             <li>Highest Hazard</li>
         </ul>
         <h2>Display</h2>
-        <p>Landscape Burn Probability model outputs in the Map Studio for each specific analysis include a layer for Integrated Hazard in the outputs legend, as well as for Burn Probability and Conditional Flame Length. Integrated Hazard outputs can be viewed on the Map in the Layers List and using the Identify tool.</p>
+        <p>Landscape Burn Probability model outputs in the Map Studio for each specific analysis include a layer for Integrated Hazard in the outputs legend, as well as for Burn Probability and Conditional Flame Length. Integrated Hazard outputs can be viewed on the Map in the Layers List and using the Identify <img src="../../../Resources/Images/MapStudio/overview/button_identify.png" alt="identify" /> widget.</p>
         <p>
             <img src="../../../Resources/Images/Models/LBP/Layerlist_identify.png" class="border" />
         </p>
         <p>
             <img src="../../../Resources/Images/Models/LBP/BP_CFL_Hazard2.png" class="border" alt="comparison of burn probability, conditional flame length, and integrated hazard" />
         </p>
-        <p>In Map Studio, you can view the Integrated Hazard matrix table by clicking the <span class="UIcomponent">More Options <img src="../../../Resources/Images/ButtonsGeneral/moreoptions.png" alt="more options" class="iftbutton" /> button</span> next to “Integrated Hazard” feature in the  <span class="UIcomponent">Layer List</span> and select the Integrated Hazard Matrix option.</p>
+        <p>In Map Studio, you can view the Integrated Hazard matrix table by clicking the <span class="UIcomponent">More Options <img src="../../../Resources/Images/ButtonsGeneral/moreoptions.png" alt="more options" class="iftbutton" /> button</span> next to “Integrated Hazard” feature in the  <span class="UIcomponent">Layer List</span> and select the Integrated Hazard Matrix option.<img src="../../../Resources/Images/Models/LBP/IH_table_popover.png" alt="Map studio with Layer List and Integrated Hazard Matrix table both visible." class="border" /></p>
         <div class="notificationImportant">
             <p>Places on the landscape can be unburned for three reasons: 1) the location has a non-burnable fuel model,  2) a modeled fire never reached that location, or 3) an ignition started but did not burn out of the current pixel.</p>
         </div>
+        <h3>Viewing Integrated Hazard from the download package</h3>
         <p>In the download package, Integrated Hazard is classified numerically. Where non-burnable pixels exist, the value is -1. Where pixels were burnable but did not burn the value is 0. The remaining values 1 through 5 represent increasing levels of integrated hazard.</p>
+        <table style="width: 100%;mc-table-style: url('../../../Resources/TableStylesheets/Copy of Standard.css');" class="TableStyle-Standard" cellspacing="3">
+            <col class="TableStyle-Standard-Column-Column1" />
+            <col class="TableStyle-Standard-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Standard-Head-Header1">
+                    <td class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Value</td>
+                    <td class="TableStyle-Standard-HeadD-Column1-Header1" style="font-weight: bold;">Integrated Hazard Class</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">-1</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Non-burnable</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">0</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Burnable but did not burn</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">1</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Lowest Hazard</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">2</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Low Hazard</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">3</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Middle Hazard</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">4</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Higher Hazard</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">5</td>
+                    <td class="TableStyle-Standard-BodyA-Column1-Body1">Highest Hazard</td>
+                </tr>
+            </tbody>
+        </table>
     </body>
 </html>

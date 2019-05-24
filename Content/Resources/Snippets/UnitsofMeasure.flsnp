@@ -5,7 +5,8 @@
     </head>
     <body>
         <p>The following tables show the full spelling and the abbreviations for universal, standard, and metric units of measure as they appear in <MadCap:variable name="General.ProductName"></MadCap:variable></p>
-        <table>
+        <table style="caption-side: top;">
+            <caption>Universal units</caption>
             <col style="width: 30%;" class="TableStyle-Standard-Column-Column1" />
             <col style="width: 70%;" class="TableStyle-Standard-Column-Column1" />
             <thead>
@@ -82,7 +83,8 @@
         <p>&#160;</p>
         <h2>
             <MadCap:keyword term="units of measure:universal;universal units of measure" />Universal Units of Measure</h2>
-        <table style="mc-table-style: url('../TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
+        <table style="mc-table-style: url('../TableStylesheets/Standard.css');caption-side: top;" class="TableStyle-Standard" cellspacing="3">
+            <caption>Universal units of measure</caption>
             <col style="width: 30%;" class="TableStyle-Standard-Column-Column1" />
             <col style="width: 70%;" class="TableStyle-Standard-Column-Column1" />
             <thead>
@@ -156,7 +158,8 @@
         </table>
         <h2>
             <MadCap:keyword term="units of measure:standard;standard units of measure" />Standard Units of Measure</h2>
-        <table style="mc-table-style: url('../TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
+        <table style="mc-table-style: url('../TableStylesheets/Standard.css');caption-side: top;" class="TableStyle-Standard" cellspacing="3">
+            <caption>Standard units of measure.</caption>
             <col style="width: 30%;" class="TableStyle-Standard-Column-Column1" />
             <col style="width: 70%;" class="TableStyle-Standard-Column-Column1" />
             <thead>
@@ -373,7 +376,8 @@
         </table>
         <h2>
             <MadCap:keyword term="units of measure:metric;metric units of measure" />Metric Units of Measure</h2>
-        <table style="mc-table-style: url('../TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
+        <table style="mc-table-style: url('../TableStylesheets/Standard.css');caption-side: top;" class="TableStyle-Standard" cellspacing="3">
+            <caption>Metric units of measure</caption>
             <col style="width: 30%;" class="TableStyle-Standard-Column-Column1" />
             <col style="width: 70%;" class="TableStyle-Standard-Column-Column1" />
             <thead>

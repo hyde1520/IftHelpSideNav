@@ -123,12 +123,10 @@
           Link="/Content/10-Workspace/downloads/FlmmpGeoTiffLoad.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Load LFB input file in FlamMap"
-          Link="/Content/10-Workspace/downloads/FlmmpInputLFB.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-          conditions="General.QA ONLY" />
+          Link="/Content/10-Workspace/downloads/FlmmpInputLFB.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Load LBP input file in FlamMap"
-          Link="/Content/10-Workspace/downloads/FlmmpInputLBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-          conditions="General.QA ONLY" />
+          Link="/Content/10-Workspace/downloads/FlmmpInputLBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
     </TocEntry>
   </TocEntry>
@@ -382,8 +380,7 @@
           Link="/Content/20-Models/LFB/UsingLFBFlmpInput.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Load Input file in FlamMap"
-          Link="/Content/10-Workspace/downloads/FlmmpInputLFB.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-          conditions="General.QA ONLY" />
+          Link="/Content/10-Workspace/downloads/FlmmpInputLFB.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Lyr Symbology in ArcMap"
           Link="/Content/10-Workspace/downloads/LFBArcLyr.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -463,8 +460,7 @@
             Link="/Content/10-Workspace/downloads/LBPArcLyr.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           <TocEntry
             Title="Load Input file into FlamMap"
-            Link="/Content/10-Workspace/downloads/FlmmpInputLBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-            conditions="General.QA ONLY" />
+            Link="/Content/10-Workspace/downloads/FlmmpInputLBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
         <TocEntry
           Title="Burn Probability [DRAFT]"
@@ -492,7 +488,7 @@
           Link="/Content/20-Models/LBP/Out/PropFlameLength.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Scale [DRAFT]"
-          Link="/Content/20-Models/LBP/Out/Scale.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          Link="/Content/20-Models/LBP/Out/DynamicMask.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
           ChapterNumberReset="continue" />

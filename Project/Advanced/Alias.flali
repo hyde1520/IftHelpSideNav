@@ -283,7 +283,7 @@
     <Map Name="WindMTT" Link="/Content/20-Models/MTT/In/WindMTT.htm" />
     <Map Name="LBPvLFB" Link="/Content/20-Models/LBP/FBModelCompare.htm" />
     <Map Name="EstFuelMoisturesLBP" Link="/Content/20-Models/LBP/In/EstFuelMoisturesLBP.htm" />
-    <Map Name="Scale" Link="/Content/20-Models/LBP/Out/Scale.htm" />
+    <Map Name="Scale" Link="/Content/20-Models/LBP/Out/DynamicMask.htm" />
     <Map Name="EstFuelMoisturesLFB" Link="/Content/20-Models/LFB/In/EstFuelMoisturesLFB.htm" />
     <Map Name="EstFuelMoisturesMTT" Link="/Content/20-Models/MTT/In/EstFuelMoisturesMTT.htm" />
     <Map Name="HVRAAbout" Link="/Content/30-Tasks/QWFRA/HVRAAbout.htm" />

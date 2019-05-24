@@ -16,7 +16,7 @@
             <li>
                 <p>Select the AOI created earlier in <MadCap:variable name="General.MapStudio" /> (Granite Creek Proposed Treatment Areas). This will constrain the analysis to the treatment areas. If Area of Interest was left blank, the analysis would be applied to the entire landscape.</p>
                 <p>
-                    <img src="../../Images/DTA/dta_pick_landscape.png" class="borderlist">
+                    <img src="../../Images/DTA/dta_pick_landscape.png" class="borderlist" alt="drop-down menus to select an originating landscape and optional area of interest">
                     </img>
                 </p>
                 <p>Notice the Right Hand Panel has some good information regarding how to use the landscapes correctly in this task. Make it a point to read through these panels for each page, they contain really helpful information.</p>
