@@ -558,6 +558,9 @@
       Title="[%=System.LinkedTitle%]"
       Link="/Content/20-Models/ModelStatus.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
+      Title="Resampling Landscapes"
+      Link="/Content/20-Models/Resampling.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
       Title="More To Come"
       Link="/Content/20-Models/Modelsmoretocome.htm" />
     <TocEntry
