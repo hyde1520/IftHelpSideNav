@@ -20,7 +20,7 @@
                 </p>
                 <p>Based on the map zone, EVT, and very short tree heights, this area was classified as a shrub fuel type, which makes sense from a fire behavior perspective, but can be confusing from a vegetative perspective.</p>
                 <p>
-                    <img src="../../Images/GetStarted/lcp_Pinebarren_ex2.jpg" class="border" />
+                    <img src="../../Images/GetStarted/lcp_Pinebarren_ex2.jpg" class="border" alt="canFM column showing '9999'. " />
                 </p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
@@ -33,7 +33,7 @@
                 </p>
                 <p>In <MadCap:variable name="General.ProductName" />, much of the area is mapped as Fuel Model 122, a brush fuel model. However, there are stand heights of 7.5 meters, and in some places 17.5 meters. Zooming into the imagery base layer reveals that the area does indeed have some trees with associated stand heights. However, the brush fuel model appears correct from a fire behavior standpoint.</p>
                 <p>
-                    <img src="../../Images/GetStarted/lcp_fire_ex.jpg" class="border" />
+                    <img src="../../Images/GetStarted/lcp_fire_ex.jpg" class="border" alt="comparing imagery with fuel models indicates a similar pattern across the landscape in this example. " />
                 </p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>

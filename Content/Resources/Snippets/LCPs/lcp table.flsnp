@@ -9,14 +9,14 @@
             <col style="width: 550px;" class="TableStyle-Standard-Column-Column1" />
             <col style="width: 170px;" class="TableStyle-Standard-Column-Column1" />
             <col class="TableStyle-Standard-Column-Column1" />
-            <thead>
-                <tr class="TableStyle-Standard-Head-Header1">
-                    <td class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Band #</td>
-                    <td class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Band Name</td>
-                    <td class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Units - GeoTiff</td>
-                    <td class="TableStyle-Standard-HeadD-Column1-Header1" style="font-weight: bold;">Units - IFTDSS (Reports)</td>
-                </tr>
-            </thead>
+			<thead>
+				<tr class="TableStyle-Standard-Head-Header1">
+					<th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Band #</th>
+					<th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Band Name</th>
+					<th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Units - GeoTiff</th>
+					<th class="TableStyle-Standard-HeadD-Column1-Header1" style="font-weight: bold;">Units - IFTDSS (Reports)</th>
+				</tr>
+			</thead>
             <tbody>
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">1</td>

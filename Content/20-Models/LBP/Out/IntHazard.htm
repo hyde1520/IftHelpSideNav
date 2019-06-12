@@ -20,11 +20,11 @@
         </p>
         <p>For each pixel, an Integrated Hazard value is assigned based on the Burn Probability and Conditional Flame Length Class using the following table:</p>
         <p>
-            <img src="../../../Resources/Images/Models/LBP/IntHazTable.png" class="border" />
+            <img src="../../../Resources/Images/Models/LBP/IntHazTable.png" class="border" alt="integrated hazard matrix with color scale that goes from cool to warm as burn probability and conditional flame length increase." />
         </p>
         <p>For example, a pixel with a burn probability of “Highest”, and conditional flame length of &gt;8-12-ft would have an integrated hazard of “Highest”.</p>
         <p>
-            <img src="../../../Resources/Images/Models/LBP/IH_table_demo.png" class="border" />
+            <img src="../../../Resources/Images/Models/LBP/IH_table_demo.png" class="border" alt="crosswalking on the integrated hazard matrix. A conditional flame length of &gt;8-12 feet and a burn probability of 80-100% corresponds to red on the color scale." />
         </p>
         <p>IFTDSS Integrated Hazard is categorized with seven distinct classes. The first two are for pixels that did not burn and the remaining five classes are dynamic based on the integrated hazard matrix above. They include:</p>
         <ul>
@@ -39,12 +39,13 @@
         <h2>Display</h2>
         <p>Landscape Burn Probability model outputs in the Map Studio for each specific analysis include a layer for Integrated Hazard in the outputs legend, as well as for Burn Probability and Conditional Flame Length. Integrated Hazard outputs can be viewed on the Map in the Layers List and using the Identify <img src="../../../Resources/Images/MapStudio/overview/button_identify.png" alt="identify" /> widget.</p>
         <p>
-            <img src="../../../Resources/Images/Models/LBP/Layerlist_identify.png" class="border" />
+            <img src="../../../Resources/Images/Models/LBP/Layerlist_identify.png" class="border" alt="information shown in the identify widget" />
         </p>
         <p>
             <img src="../../../Resources/Images/Models/LBP/BP_CFL_Hazard2.png" class="border" alt="comparison of burn probability, conditional flame length, and integrated hazard" />
         </p>
-        <p>In Map Studio, you can view the Integrated Hazard matrix table by clicking the <span class="UIcomponent">More Options <img src="../../../Resources/Images/ButtonsGeneral/moreoptions.png" alt="more options" class="iftbutton" /> button</span> next to the “Integrated Hazard” feature in the  <span class="UIcomponent">Layer List</span> and select the Integrated Hazard Matrix option. You may click and the drag table to relocate it if needed.</p><img src="../../../Resources/Images/Models/LBP/IH_table_popover.png" alt="Map studio with Layer List and Integrated Hazard Matrix table both visible." class="border" />
+        <p>In Map Studio, you can view the Integrated Hazard matrix table by clicking the <span class="UIcomponent">More Options <img src="../../../Resources/Images/ButtonsGeneral/moreoptions.png" alt="more options" class="iftbutton" /> button</span> next to the “Integrated Hazard” feature in the  <span class="UIcomponent">Layer List</span> and select the Integrated Hazard Matrix option. You may click and the drag table to relocate it if needed.</p>
+        <img src="../../../Resources/Images/Models/LBP/IH_table_popover.png" alt="Map studio with Layer List and Integrated Hazard Matrix table both visible." class="border" />
         <div class="notificationImportant">
             <p>Places on the landscape can be unburned for three reasons: 1) the location has a non-burnable fuel model,  2) a modeled fire never reached that location, or 3) an ignition started but did not burn out of the current pixel.</p>
         </div>
@@ -55,8 +56,8 @@
             <col class="TableStyle-Standard-Column-Column1" />
             <thead>
                 <tr class="TableStyle-Standard-Head-Header1">
-                    <td class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Value</td>
-                    <td class="TableStyle-Standard-HeadD-Column1-Header1" style="font-weight: bold;">Integrated Hazard Class</td>
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Value</th>
+                    <th class="TableStyle-Standard-HeadD-Column1-Header1" style="font-weight: bold;">Integrated Hazard Class</th>
                 </tr>
             </thead>
             <tbody>

@@ -24,8 +24,8 @@
             <col class="TableStyle-Standard-Column-Column1" />
             <thead>
                 <tr class="TableStyle-Standard-Head-Header1">
-                    <td class="TableStyle-Standard-HeadE-Column1-Header1">Inputs used from <MadCap:variable name="General.ProductName" /> landscape file</td>
-                    <td class="TableStyle-Standard-HeadD-Column1-Header1">Inputs used from weather stream</td>
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1">Inputs used from <MadCap:variable name="General.ProductName" /> landscape file</th>
+                    <th class="TableStyle-Standard-HeadD-Column1-Header1">Inputs used from weather stream</th>
                 </tr>
             </thead>
             <tbody>

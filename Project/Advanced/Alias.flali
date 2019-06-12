@@ -164,7 +164,6 @@
     <Map Name="ShapeCopyfromRef" Link="/Content/10-MapStudio/Files/ShapeCopyfromRef.htm" />
     <Map Name="ShapefileGroup" Link="/Content/10-MapStudio/Files/ShapefileGroup.htm" />
     <Map Name="ShapeGroup" Link="/Content/10-MapStudio/Files/ShapeGroup.htm" />
-    <Map Name="a_StartandCreateLCP" Link="/Content/40-Tutorials/Shorts/StartandCreateLCP.htm" />
     <Map Name="Chrome" Link="/Content/00-Concepts/Chrome.htm" />
     <Map Name="AgencyLeads" Link="/Content/10-FTEM/Guidance/AgencyLeads.htm" />
     <Map Name="DataTreatments" Link="/Content/10-FTEM/DataTechnical/Treatments.htm" />
@@ -183,11 +182,6 @@
     <Map Name="LoadingGeoIntoFlammap" Link="/Content/10-Workspace/downloads/FlmmpGeoTiffLoad.htm" />
     <Map Name="AOIlandscapefb" Link="/Content/20-Models/LFB/AOIlandscapefb.htm" />
     <Map Name="EditingUserRuleTutorial" Link="/Content/40-Tutorials/EditingUserRuleTutorial.htm" />
-    <Map Name="CreatingShapes" Link="/Content/40-Tutorials/Shorts/CreatingShapes.htm" />
-    <Map Name="CreatingSummaryReports" Link="/Content/40-Tutorials/Shorts/CreatingSummaryReports.htm" />
-    <Map Name="EditingLandscapes" Link="/Content/40-Tutorials/Shorts/EditingLandscapes.htm" />
-    <Map Name="RunningLFBmodels" Link="/Content/40-Tutorials/Shorts/RunningLFBmodels.htm" />
-    <Map Name="ViewingOutputsMapStudio" Link="/Content/40-Tutorials/Shorts/ViewingOutputsMapStudio.htm" />
     <Map Name="simulation_time_hh" Link="/Content/50-Hover/Models/MTT/simulation_time_hh.htm" />
     <Map Name="spotting_hh" Link="/Content/50-Hover/Models/MTT/spotting_hh.htm" />
     <Map Name="DeadFMConditioning" Link="/Content/20-Models/LFB/In/DeadFMConditioning.htm" />
@@ -360,5 +354,5 @@
     <Map Name="geographic_ext_hh" Link="/Content/50-Hover/HVRAs/geographic_ext_hh.htm" />
     <Map Name="namemappedvals" Link="/Content/50-Hover/HVRAs/namemappedvals_hh.htm" />
     <Map Name="pendingvalues_hh" Link="/Content/50-Hover/HVRAs/pendingvalues.htm" />
-    <Map Name="NEWsubHVRA_hh" Link="/Content/50-Hover/HVRAs/subHVRA_hh.htm" />
+    <Map Name="NEWsubHVRA_hh" Link="/Content/50-Hover/HVRAs/selectHVRA_hh.htm" />
 </CatapultAliasFile>

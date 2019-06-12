@@ -11,15 +11,15 @@
             <col style="width: 171px;" class="TableStyle-Standard-Column-Column1" />
             <col style="width: 118px;" class="TableStyle-Standard-Column-Column1" />
             <col style="width: 108px;" class="TableStyle-Standard-Column-Column1" />
-            <thead>
-                <tr class="TableStyle-Standard-Head-Header1">
-                    <td style="font-weight: bold;" class="TableStyle-Standard-HeadE-Column1-Header1">Input Group</td>
-                    <td style="font-weight: bold;" class="TableStyle-Standard-HeadE-Column1-Header1">Input</td>
-                    <td style="font-weight: bold;" class="TableStyle-Standard-HeadE-Column1-Header1">Landscape Fire Behavior</td>
-                    <td style="font-weight: bold;" class="TableStyle-Standard-HeadE-Column1-Header1">MTT Fire Spread</td>
-                    <td style="font-weight: bold;" class="TableStyle-Standard-HeadD-Column1-Header1">Landscape Burn Probability</td>
-                </tr>
-            </thead>
+			<thead>
+				<tr class="TableStyle-Standard-Head-Header1">
+					<th style="font-weight: bold;" class="TableStyle-Standard-HeadE-Column1-Header1">Input Group</th>
+					<th style="font-weight: bold;" class="TableStyle-Standard-HeadE-Column1-Header1">Input</th>
+					<th style="font-weight: bold;" class="TableStyle-Standard-HeadE-Column1-Header1">Landscape Fire Behavior</th>
+					<th style="font-weight: bold;" class="TableStyle-Standard-HeadE-Column1-Header1">MTT Fire Spread</th>
+					<th style="font-weight: bold;" class="TableStyle-Standard-HeadD-Column1-Header1">Landscape Burn Probability</th>
+				</tr>
+			</thead>
             <tbody>
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">Wind</td>

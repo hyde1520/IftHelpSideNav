@@ -10,9 +10,9 @@
             <col class="TableStyle-Standard-Column-Column1" />
             <thead>
                 <tr class="TableStyle-Standard-Head-Header1">
-                    <td class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">FlamMap Output</td>
-                    <td class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">GeoTiff download (units)</td>
-                    <td class="TableStyle-Standard-HeadD-Column1-Header1" style="font-weight: bold;">IFTDSS Map/Reports (units)</td>
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">FlamMap Output</th>
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">GeoTiff download (units)</th>
+                    <th class="TableStyle-Standard-HeadD-Column1-Header1" style="font-weight: bold;">IFTDSS Map/Reports (units)</th>
                 </tr>
             </thead>
             <tbody>

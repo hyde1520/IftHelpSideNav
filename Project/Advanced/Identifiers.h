@@ -162,7 +162,6 @@
 #define ShapeCopyfromRef 1091
 #define ShapefileGroup 1092
 #define ShapeGroup 1094
-#define a_StartandCreateLCP 1096
 #define Chrome 1103
 #define AgencyLeads 1104
 #define DataTreatments 1105
@@ -181,11 +180,6 @@
 #define LoadingGeoIntoFlammap 1120
 #define AOIlandscapefb 1121
 #define EditingUserRuleTutorial 1122
-#define CreatingShapes 1123
-#define CreatingSummaryReports 1128
-#define EditingLandscapes 1129
-#define RunningLFBmodels 1130
-#define ViewingOutputsMapStudio 1131
 #define simulation_time_hh 9190
 #define spotting_hh 9191
 #define DeadFMConditioning 1139
