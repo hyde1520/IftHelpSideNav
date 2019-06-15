@@ -19,7 +19,8 @@
         </p>
         <h2>About Fuel Moisture Conditioning in <MadCap:variable name="General.ProductName" /></h2>
         <p>Conditioning adjusts dead fuel moistures across a landscape based on the factors described above. Elevation impacts on fuel moisture are also applied, taking into account cell or pixel location in relation to RAWS station or weather observation location. Portions of the landscape at higher elevation than the observations may see slightly increased fine fuel moistures whereas portions of the landscape below may adjust to slightly lower fine fuel moistures. Conditioning fuels in <MadCap:variable name="General.ProductName" /> is done at the pixel or cell level and each cell is calculated independently.  Live fuels are not conditioned. The table below shows the factors influencing dead fuel moistures in <MadCap:variable name="General.ProductName" />:</p>
-        <table style="width: 100%;mc-table-style: url('../../../TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
+        <table style="width: 100%;mc-table-style: url('../../../TableStylesheets/Standard.css');caption-side: top;" class="TableStyle-Standard" cellspacing="3">
+            <caption>Inputs used from <MadCap:variable name="General.ProductName" /> landscape files and from weather streams.</caption>
             <col class="TableStyle-Standard-Column-Column1" />
             <col class="TableStyle-Standard-Column-Column1" />
             <thead>

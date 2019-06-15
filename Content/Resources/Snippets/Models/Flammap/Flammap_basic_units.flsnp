@@ -4,7 +4,8 @@
         <link href="../../../TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
-        <table style="mc-table-style: url('../../../TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
+        <table style="mc-table-style: url('../../../TableStylesheets/Standard.css');caption-side: top;" class="TableStyle-Standard" cellspacing="3">
+            <caption>FlamMap output units.</caption>
             <col class="TableStyle-Standard-Column-Column1" />
             <col class="TableStyle-Standard-Column-Column1" />
             <col class="TableStyle-Standard-Column-Column1" />

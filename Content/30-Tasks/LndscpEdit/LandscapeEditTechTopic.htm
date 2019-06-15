@@ -26,21 +26,22 @@
         <p>The LANDFIRE Vegetation Transition is a process that is used to couple disturbance and the vegetation upon which it has occurred, along with simulation models, in order to predict and map the resulting vegetation composition and structure. In addition, these data are leveraged in order to predict and map change in fuel attributes of the vegetation and the resulting fire regime attributes of the vegetation. Information from a variety of sources was used to inform vegetation transition assignments.</p>
         <p>In forested EVTs, most of the transitions were developed using the Forest Vegetation Simulator (FVS) model, along with the Fire and Fuels Extension (FFE) model for fire simulations. These simulations were run on approximately 60,000 forested plots for all FVS variants nationwide. The plot data, contained within the Forest Vegetation Simulator (FVS) Ready Database (<a href="https://landfire.gov/reference.php" target="_blank">FVSRDB <i class="fa fa-external-link" aria-hidden="true"></i></a>) contain all attributes necessary for FVS simulations. These data also include predefined input tables used for initializing stand/plot information (StandInit and TreeInit tables) for FVS. More detailed descriptions and input data requirements can be found in the FVS User Guide <a href="../../41-References/Citations.htm#Rebain_etal_2010" target="_blank">(Rebain and others 2010)</a>. Following simulations, a database was derived from post-disturbance FVS/FFE outputs covering all FVS Variants at multiple severities and time-steps in the table below:
 		</p>
-        <table style="width: 100%;mc-table-style: url('../../Resources/TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
+        <table style="width: 100%;mc-table-style: url('../../Resources/TableStylesheets/Standard.css');caption-side: top;" class="TableStyle-Standard" cellspacing="3">
+            <caption>Disturbance type, severity, and time since disturbance.</caption>
             <col class="TableStyle-Standard-Column-Column1" />
             <col class="TableStyle-Standard-Column-Column1" />
             <col class="TableStyle-Standard-Column-Column1" />
             <col class="TableStyle-Standard-Column-Column1" />
             <col class="TableStyle-Standard-Column-Column1" />
-			<thead>
-				<tr class="TableStyle-Standard-Head-Header1">
-					<th style="font-weight: bold;" class="TableStyle-Standard-HeadE-Column1-Header1">Disturbance Type</th>
-					<th style="font-weight: bold;" class="TableStyle-Standard-HeadE-Column1-Header1">Severity</th>
-					<th style="font-weight: bold;" class="TableStyle-Standard-HeadE-Column1-Header1">Time Since Disturbance (TSD)</th>
-					<th style="font-weight: bold;" class="TableStyle-Standard-HeadE-Column1-Header1">Time Since Disturbance (TSD)</th>
-					<th style="font-weight: bold;" class="TableStyle-Standard-HeadD-Column1-Header1">Time Since Disturbance (TSD)</th>
-				</tr>
-			</thead>
+            <thead>
+                <tr class="TableStyle-Standard-Head-Header1">
+                    <th style="font-weight: bold;" class="TableStyle-Standard-HeadE-Column1-Header1">Disturbance Type</th>
+                    <th style="font-weight: bold;" class="TableStyle-Standard-HeadE-Column1-Header1">Severity</th>
+                    <th style="font-weight: bold;" class="TableStyle-Standard-HeadE-Column1-Header1">Time Since Disturbance (TSD)</th>
+                    <th style="font-weight: bold;" class="TableStyle-Standard-HeadE-Column1-Header1">Time Since Disturbance (TSD)</th>
+                    <th style="font-weight: bold;" class="TableStyle-Standard-HeadD-Column1-Header1">Time Since Disturbance (TSD)</th>
+                </tr>
+            </thead>
             <tbody>
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">Fire</td>
@@ -160,7 +161,8 @@
         </ul>
         <h2><a name="Results"></a>Results</h2>
         <p>For each disturbance type, severity, and TSD, an Excel table was constructed through a series of database queries. The table below shows the structure of those tables.</p>
-        <table style="width: 100%;mc-table-style: url('../../Resources/TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
+        <table style="width: 100%;mc-table-style: url('../../Resources/TableStylesheets/Standard.css');caption-side: top;" class="TableStyle-Standard" cellspacing="3">
+            <caption>Field names and descriptions.</caption>
             <col style="width: 137px;" class="TableStyle-Standard-Column-Column1" />
             <col class="TableStyle-Standard-Column-Column1" />
             <thead>
@@ -233,7 +235,8 @@
             </tbody>
         </table>
         <p>All in all, 27 individual tables were derived for this effort using these methods. A number of caveats exist that one should be aware of while using these data. Using each one of these 27 tables created above, another set of Excel tables was constructed through a series of database queries. The table below shows the structure of those tables:</p>
-        <table style="width: 100%;mc-table-style: url('../../Resources/TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
+        <table style="width: 100%;mc-table-style: url('../../Resources/TableStylesheets/Standard.css');caption-side: top;" class="TableStyle-Standard" cellspacing="3">
+            <caption>Field names and descriptions.</caption>
             <col style="width: 132px;" class="TableStyle-Standard-Column-Column1" />
             <col class="TableStyle-Standard-Column-Column1" />
             <thead>
@@ -309,7 +312,8 @@
         </ol>
         <h4 MadCap:conditions="General.Exclude">Default Rules as used in <MadCap:variable name="General.ProductName" /><![CDATA[
 		]]></h4>
-        <table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0" MadCap:conditions="General.Exclude">
+        <table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/PatternedRows.css');caption-side: top;" class="TableStyle-PatternedRows" cellspacing="0" MadCap:conditions="General.Exclude">
+            <caption>Default rules table.</caption>
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
@@ -323,8 +327,8 @@
                     <th class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-weight: bold;">Treatment 1</th>
                     <th class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-weight: bold;">LANDFIRE Vdist Code</th>
                 </tr>
-				</thead>
-				<tbody>
+            </thead>
+            <tbody>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Thin: Slash Removed - Light Thinning; Pile Burning</td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Understory thins all species up to an 8" diameter until 80% of the present density is achieved.</td>

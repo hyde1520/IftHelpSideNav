@@ -4,7 +4,8 @@
         <link href="../../TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
-        <table style="width: 100%;mc-table-style: url('../../TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
+        <table style="width: 100%;mc-table-style: url('../../TableStylesheets/Standard.css');caption-side: top;" class="TableStyle-Standard" cellspacing="3">
+            <caption>Band number and units for outputs within <MadCap:variable name="General.ProductName" /> and contained in output files.</caption>
             <col style="width: 117px;" class="TableStyle-Standard-Column-Column1" />
             <col style="width: 550px;" class="TableStyle-Standard-Column-Column1" />
             <col style="width: 170px;" class="TableStyle-Standard-Column-Column1" />

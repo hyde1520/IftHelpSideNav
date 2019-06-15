@@ -21,7 +21,8 @@
         <p>Calculated crown fraction burned values are much lower in Finney’s method. Therefore, Finney’s method under-predicts the likelihood a fire will transition to a crown fire with subsequent crown fire behavior activity compared to Scott and Reinhardt’s method (Scott, <a href="../../../../41-References/Citations.htm#Scott2006" target="_blank">2006</a>).  </p>
         <p>Scott and Reinhardt’s method produces CI values that are two times lower than Finney’s method (the lower the crowning index, the better chance of sustaining a crown fire). </p>
         <p>The following table gives a brief description of the differences between the two methods.</p>
-        <table style="width: 100%;mc-table-style: url('../../../TableStylesheets/Standard.css');" class="TableStyle-Standard" cellspacing="3">
+        <table style="width: 100%;mc-table-style: url('../../../TableStylesheets/Standard.css');caption-side: top;" class="TableStyle-Standard" cellspacing="3">
+            <caption>Crown fire characteristic differences between the Finney and Scott &amp;&#160;Reinhardt methods.</caption>
             <col style="width: 328px;" class="TableStyle-Standard-Column-Column1" />
             <col class="TableStyle-Standard-Column-Column1" />
             <col class="TableStyle-Standard-Column-Column1" />

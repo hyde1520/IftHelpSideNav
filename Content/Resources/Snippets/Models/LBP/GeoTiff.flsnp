@@ -4,7 +4,8 @@
         <link href="../../../TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
-        <table style="mc-table-style: url('../../../TableStylesheets/Standard.css');width: 100%;" class="TableStyle-Standard" cellspacing="3">
+        <table style="mc-table-style: url('../../../TableStylesheets/Standard.css');width: 100%;caption-side: top;" class="TableStyle-Standard" cellspacing="3">
+            <caption>Band number and output description.</caption>
             <col class="TableStyle-Standard-Column-Column1" />
             <col class="TableStyle-Standard-Column-Column1" />
             <col class="TableStyle-Standard-Column-Column1" style="width: 2178px;" />
