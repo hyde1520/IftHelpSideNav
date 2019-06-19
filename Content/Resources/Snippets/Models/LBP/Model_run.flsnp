@@ -11,13 +11,13 @@
         <MadCap:snippetBlock src="../LFB/LFBInputs.flsnp" />
         <ol start="5" style="list-style-type: upper-alpha;">
             <li>
-                <p>Specify a Simulation Time (Burn Period Length), from 4-12 hours.</p>
+                <p>Specify a Simulation Time (Burn Period Length), from 4-12 hours. Because inputs should represent “<span class="Emphasis">problem fire</span>” conditions, the duration of the burn period should reflect the active burning period of wildfires of the area under extreme conditions. </p>
                 <p>
                     <img src="../../../Images/Models/LBP/simulation_time.png" alt="simulation time field in IFTDSS" class="borderlist" />
                 </p>
             </li>
             <li>
-                <p>Choose to either leave the Spotting Probability as the default 20% or adjust it as needed.</p>
+                <p>Choose to either leave the Spotting Probability as the default 20% (recommended for many scenarios) or adjust it as needed.</p>
                 <p>
                     <img src="../../../Images/Models/LBP/spotting_default.png" alt="spotting probability field in iftdss" class="borderlist" />
                 </p>

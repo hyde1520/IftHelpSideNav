@@ -3039,4 +3039,14 @@ Gridded weather data provides more complete weather data coverage than from fixe
     <Definition
       Link="">A pixel or cell refers to the smallest unit of information on a raster map. In IFTDSS each cell represents a 30 meter square area.</Definition>
   </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term35"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Initial Fuel Moisture</Term>
+    </Terms>
+    <Definition
+      Link="">Dead and live fuel moistures in percent. A fire behevior modeling input in IFTDSS.</Definition>
+  </GlossaryEntry>
 </CatapultGlossary>

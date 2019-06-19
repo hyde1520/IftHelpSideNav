@@ -59,7 +59,7 @@
             </li>
             <li>This time,  choose the landscape with your earlier edits as the Starting Landscape: "GC14 Lt Thn Pilebrn 1yr".</li>
             <li>Select the <span class="UIcomponent">Wildfire</span> Default Rule.</li>
-            <li>Specify <span class="UIcomponent">Low severity fire</span>. As before, you&#160;can hover over this text or consult the <a href="../../../30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" target="_blank">help topic</a> page for the detailed explanation of the rule.</li>
+            <li>Specify <span class="UIcomponent">Low severity fire</span>. As before, you&#160;can hover over this text or consult <a href="../../../30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" target="_blank">Landscape Editing - Default Fuel Treatment and Disturbance</a> for the detailed explanation of the rule.</li>
             <li>Select a treatment time of 1 Year.</li>
             <li>Apply this rule to your "Granite Creek Proposed Treatment Areas" mask.</li>
             <li>

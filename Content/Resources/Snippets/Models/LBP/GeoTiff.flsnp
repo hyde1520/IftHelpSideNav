@@ -20,47 +20,47 @@
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">1</td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">Burn Probability<sup>A, B</sup></td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">The likelihood that a fire will burn a given point on the landscape (expressed as a value between 0 and 1). More detail in the <a href="../../../../20-Models/LBP/Out/BurnProb.htm" target="_blank">Burn Probability topic</a>. </td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">The likelihood that a fire will burn a given point on the landscape (expressed as a value between 0 and 1). See <a href="../../../../20-Models/LBP/Out/BurnProb.htm" target="_blank">Burn Probability</a> for more detail.</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">2</td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">Proportion of Flame Lengths 0-2 ft <sup>A, B</sup></td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body2">The probability of fire burning with a flame length between &gt;0 and 2 ft (expressed as a value between 0 and 1). More detail in the <a href="../../../../20-Models/LBP/Out/PropFlameLength.htm" target="_blank">Flame Length Probability topic</a>.</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">The probability of fire burning with a flame length between &gt;0 and 2 ft (expressed as a value between 0 and 1). See <a href="../../../../20-Models/LBP/Out/PropFlameLength.htm" target="_blank">Flame Length Probability</a> for more detail.</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">3</td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">Proportion of Flame Lengths 2-4 ft<sup>A, B</sup></td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">The probability of fire burning with a flame length between &gt;2 and 4 ft (expressed as a value between 0 and 1). More detail in the <a href="../../../../20-Models/LBP/Out/PropFlameLength.htm" target="_blank">Flame Length Probability topic</a>.</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">The probability of fire burning with a flame length between &gt;2 and 4 ft (expressed as a value between 0 and 1). See <a href="../../../../20-Models/LBP/Out/PropFlameLength.htm" target="_blank">Flame Length Probability</a> for more detail.</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">4</td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">Proportion of Flame Lengths 4-6 ft<sup>A, B</sup></td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body2">The probability of fire burning with a flame length between &gt;4 and 6 ft (expressed as a value between 0 and 1).  More detail in the <a href="../../../../20-Models/LBP/Out/PropFlameLength.htm" target="_blank">Flame Length Probability topic</a>.</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">The probability of fire burning with a flame length between &gt;4 and 6 ft (expressed as a value between 0 and 1).  See <a href="../../../../20-Models/LBP/Out/PropFlameLength.htm" target="_blank">Flame Length Probability</a> for more detail.</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">5</td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">Proportion of Flame Lengths 6-8 ft<sup>A, B</sup></td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">The probability of fire burning with a flame length between &gt;6 and 8 ft (expressed as a value between 0 and 1). More detail in the <a href="../../../../20-Models/LBP/Out/PropFlameLength.htm" target="_blank">Flame Length Probability topic</a>.</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">The probability of fire burning with a flame length between &gt;6 and 8 ft (expressed as a value between 0 and 1). See <a href="../../../../20-Models/LBP/Out/PropFlameLength.htm" target="_blank">Flame Length Probability</a> for more detail.</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">6</td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">Proportion of Flame Lengths 8-12 ft<sup>A, B</sup></td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body2">The probability of fire burning with a flame length between &gt;8 and 12 ft (expressed as a value between 0 and 1). More detail in the <a href="../../../../20-Models/LBP/Out/PropFlameLength.htm" target="_blank">Flame Length Probability topic</a>.</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">The probability of fire burning with a flame length between &gt;8 and 12 ft (expressed as a value between 0 and 1). See <a href="../../../../20-Models/LBP/Out/PropFlameLength.htm" target="_blank">Flame Length Probability</a> for more detail.</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">7</td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">Proportion of Flame Lengths &gt;12 ft<sup>A, B</sup></td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">The probability of fire burning with a flame length between &gt;12 ft (expressed as a value between 0 and 1). More detail in the <a href="../../../../20-Models/LBP/Out/PropFlameLength.htm" target="_blank">Flame Length Probability topic</a>.</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">The probability of fire burning with a flame length between &gt;12 ft (expressed as a value between 0 and 1). See <a href="../../../../20-Models/LBP/Out/PropFlameLength.htm" target="_blank">Flame Length Probability</a> for more detail.</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">8</td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">Conditional Flame Length<sup>A, B</sup></td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body2">The mean flame length of all the fires that burn a given point on the landscape. More detail in the <a href="../../../../20-Models/LBP/Out/ConditionalFL.htm" target="_blank">Conditional Flame Length topic</a>.</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">The mean flame length of all the fires that burn a given point on the landscape. See <a href="../../../../20-Models/LBP/Out/ConditionalFL.htm" target="_blank">Conditional Flame Length</a> for more detail.</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">9</td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">Midflame Wind Speed</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Wind velocity at the midflame height. Calculated using wind adjustment factors based on stand height and canopy cover and the Wind Speed.  More detail in the <a href="../../../../20-Models/LBP/Out/MidflameWindSpd.htm" target="_blank">Midflame Wind Speed topic</a>.</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Wind velocity at the midflame height. Calculated using wind adjustment factors based on stand height and canopy cover and the Wind Speed.  See <a href="../../../../20-Models/LBP/Out/MidflameWindSpd.htm" target="_blank">Midflame Wind Speed</a> for more detail.</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">10</td>
@@ -75,22 +75,22 @@
                 <tr class="TableStyle-Standard-Body-Body2">
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">12</td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">1-hr Fuel Moisture <sup>A</sup></td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Moisture content of 1-hour fuel (dead woody fuel 0 to ¼ inch or 0 to 6.4 mm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass. More detail in the <a href="../../../../20-Models/LBP/Out/FuelMoisture.htm" target="_blank">Fuel Moisture topic</a>.</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Moisture content of 1-hour fuel (dead woody fuel 0 to ¼ inch or 0 to 6.4 mm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass. See <a href="../../../../20-Models/LBP/Out/FuelMoisture.htm" target="_blank">Fuel Moisture</a> for more detail.</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">13</td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">10-hr Fuel Moisture <sup>A</sup></td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Moisture content of 10-hour fuel (dead woody fuel ¼ to 1 inch or 0.6 to 2.5 cm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass. More detail in the <a href="../../../../20-Models/LBP/Out/FuelMoisture.htm" target="_blank">Fuel Moisture topic</a>.</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Moisture content of 10-hour fuel (dead woody fuel ¼ to 1 inch or 0.6 to 2.5 cm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass. See <a href="../../../../20-Models/LBP/Out/FuelMoisture.htm" target="_blank">Fuel Moisture</a> for more detail.</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">14</td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">100-hr Fuel Moisture <sup>A</sup></td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Moisture content of 100-hour fuel (dead woody fuel 1 to 3 inches or 2.5 to 7.6 cm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass. More detail in the <a href="../../../../20-Models/LBP/Out/FuelMoisture.htm" target="_blank">Fuel Moisture topic</a>.</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Moisture content of 100-hour fuel (dead woody fuel 1 to 3 inches or 2.5 to 7.6 cm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass. See <a href="../../../../20-Models/LBP/Out/FuelMoisture.htm" target="_blank">Fuel Moisture</a> for more detail.</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td class="TableStyle-Standard-BodyB-Column1-Body1">15</td>
                     <td class="TableStyle-Standard-BodyB-Column1-Body1">Integrated Hazard<sup>A, B</sup></td>
-                    <td class="TableStyle-Standard-BodyA-Column1-Body1">The combination of Burn Probability and Conditional Flame Length ranging from lowest probability/lowest conditional flame lengths to highest probability/highest conditional flame lengths. More detail in the <a href="../../../../20-Models/LBP/Out/IntHazard.htm" target="_blank">Integrated Hazard topic</a>.</td>
+                    <td class="TableStyle-Standard-BodyA-Column1-Body1">The combination of Burn Probability and Conditional Flame Length ranging from lowest probability/lowest conditional flame lengths to highest probability/highest conditional flame lengths. See <a href="../../../../20-Models/LBP/Out/IntHazard.htm" target="_blank">Integrated Hazard</a> for more detail.</td>
                 </tr>
             </tbody>
         </table>

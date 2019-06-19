@@ -41,14 +41,14 @@
                 <p>
                     <img src="../../Images/DTA/dta_edit_0_lcp.png" alt="using the default edit rules is a quick way to simulate treatments on the landscape" class="borderlist" />
                 </p>
-                <p>This rule will mimic thinning the AOI to about 80% present density by removing understory up to 8” DBH, with subsequent pile burning of thinned material. This information appears if you&#160;hover over the "Light Thinning: Pile Burning" option described in step C above. Alternatively, the description of each default rule can be read in the <a href="../../../30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" target="_blank">Landscape Editing - Default Fuel Treatment and Disturbance Topic</a> of the Help Center.</p>
+                <p>This rule will mimic thinning the AOI to about 80% present density by removing understory up to 8” DBH, with subsequent pile burning of thinned material. This information appears if you&#160;hover over the "Light Thinning: Pile Burning" option described in step C above. Alternatively, the description of each default rule can be read in the <a href="../../../30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" target="_blank">Landscape Editing - Default Fuel Treatment and Disturbance</a> topic.</p>
             </li>
             <li>
                 <p>Your rule will be displayed at the top of the screen along with a green confirmation box. Leave this rule as-is, but know that if you had made a mistake and needed to discard the rule, it could be deleted using the <span class="UIcomponent">delete</span> <img src="../../Images/ButtonsGeneral/delete.png" alt="delete" class="iftbutton" /> button shown to the right of the rule.</p>
                 <p>
                     <img src="../../Images/Editing/dta_edit_confirmation.png" alt="a green edit confirmation box appears when a rule is added. " class="borderlist" />
                 </p>
-                <p>Later, you'll also mimic a broadcast burn after the thin and pile. While you&#160;could create a second rule that would be applied after the first (See the <a href="../../../30-Tasks/LndscpEdit/RuleOrdering.htm" target="_blank">Rule Ordering Consideration help topic</a> for more details on these), you'll apply one at a time so its easier to track the results of the rule on the landscape.  It’s always a good idea to assess your landscape after editing to ensure the rule been applied correctly and the result makes sense.</p>
+                <p>Later, you'll also mimic a broadcast burn after the thin and pile. While you&#160;could create a second rule that would be applied after the first (See <a href="../../../30-Tasks/LndscpEdit/RuleOrdering.htm" target="_blank">Rule Ordering Considerations</a> for more detail on these), you'll apply one at a time so its easier to track the results of the rule on the landscape.  It’s always a good idea to assess your landscape after editing to ensure the rule been applied correctly and the result makes sense.</p>
             </li>
             <li>
                 <p>To finalize and create your edited landscape, scroll to the bottom of the editing page, input a landscape name that is representative of the edits (GC14 Lt Thn Pilebrn 1yr), and click <span class="UIcomponent">Save New Landscape</span>.</p>

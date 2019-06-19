@@ -20,6 +20,6 @@
             <li>Try increasing your search buffer for interacting treatments. This is done after you select your wildfire, but using the Add Treatments button on the Treatments tab. See the <a href="../../../10-FTEM/General/SearchBuffer.htm" target="_self">Search Buffer Topic</a> for a step by step walk-through of how to do this. You can also <a href="../../../10-FTEM/General/AddTreatmentwMap.htm" target="_blank">add a using the Map</a>, which is especially useful if the treatment is outside of the maximum buffer area.</li>
             <li>If the above do not resolve this issue, you may need to follow up with your <a href="../../../10-FTEM/Guidance/AgencyLeads.htm" target="_blank">FTEM&#160;Agency Administrator</a> to have your treatment entered in the system of record. Individual agencies may upload records at different intervals.</li>
         </ol>
-        <p>For more details see the <a href="../../../10-FTEM/DataTechnical/Treatments.htm" target="_blank">FTEM Treatments Technical Topic</a>.</p>
+        <p>For more detail see <a href="../../../10-FTEM/DataTechnical/Treatments.htm" target="_blank">FTEM Treatments Technical Documentation</a>.</p>
     </body>
 </html>

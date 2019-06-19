@@ -3,9 +3,9 @@
     <head>
     </head>
     <body>
-        <p>The Extreme weather stream (.wxs) data was derived from historic weather data used to model probabilistic wildfire risk components for the conterminous United States (<a href="../../../../41-References/Citations.htm#Shortetal2016" target="_blank">Short et al 2016</a>). To complete this modeling the conterminous United States was divided into 128 pyromes.</p>
+        <p>The Extreme weather stream (.wxs) data was derived from historic weather data used to model probabilistic wildfire risk components for the conterminous United States (<a href="../../../../41-References/Citations.htm#Shortetal2016" target="_blank">Short and others 2016</a>). To complete this modeling the conterminous United States was divided into 128 pyromes.</p>
         <div class="notificationNote">
-            <p>Pyromes represent areas with similar fire characteristics which are determined by the fire regime (frequency, intensity, size, season, type, and extent), vegetation, and climate  (<a href="../../../../41-References/Citations.htm#Archibald_etal_2013">Archibald et al. 2013</a>).</p>
+            <p>Pyromes represent areas with similar fire characteristics which are determined by the fire regime (frequency, intensity, size, season, type, and extent), vegetation, and climate  (<a href="../../../../41-References/Citations.htm#Archibald_etal_2013">Archibald and others 2013</a>).</p>
         </div>
         <p>For each pyrome, historic RAWS data utilizing stations meeting quality assurance and currency requirements were analyzed to determine date ranges under which representative "extreme" or "near maximum worst case" conditions were encountered. The date range to use was determined by reviewing the daily ERC-G (Energy Release Component for NFDRS Fuel Model G) indices for the past 20 years and selecting a one to two week  period where most of the days were at or above the 97th percentile. Below is an example of the Fuel Moisture Conditioning inputs that a user will see for a model run that was completed using the Classified Weather Stream option, it shows Pyrome Name as well as start and end date and time.</p>
         <p>

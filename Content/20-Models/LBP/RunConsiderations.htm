@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="General.QA ONLY">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../Resources/TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -24,13 +24,12 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2"><a href="In/LandscapeLBP.htm" target="_blank">Landscape Extent</a>
-                    </td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Choose a Landscape size that encompasses the entire area within which  you want to compare results.  In most cases this will be a project area boundary but in some cases can be larger to encompass an entire ownership area such as a district or park. </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Choosing a <a href="In/LandscapeLBP.htm" target="_blank">Landscape Extent</a></td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Choose a Landscape size that encompasses the entire area within which  you want to compare results.  In most cases this will be a project area boundary but in some cases can be larger to encompass an entire ownership area such as a district or park.</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Wind Speed and Direction</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Inputs such as wind direction or landscape features may affect outputs in unusual ways. In some model outputs you may encounter areas with high conditional flame lengths and low burn probabilities. Causes for this can include fuels that are located in difficult locations for fire to spread to, such as highly flammable but patchy fuels. </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Inputs such as wind direction or landscape features may affect outputs in unusual ways (<a href="#LBPsensitivities">see sensitivities</a>)</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">In some model outputs you may encounter areas with high conditional flame lengths and low burn probabilities. Causes for this can include fuels that are located in difficult locations for fire to spread to, such as highly flammable but patchy fuels. (<a href="#LBPsensitivities">see sensitivities</a>)</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">Weather (<a href="In/WindLBP.htm" target="_blank">wind</a> and <a href="In/EstFuelMoisturesLBP.htm" target="_blank">fuel moisture</a>)</td>
@@ -39,10 +38,10 @@
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td class="TableStyle-Standard-BodyE-Column1-Body1"><a href="In/SimTimesLBP.htm" target="_blank">Simulation Time</a>
                     </td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Because inputs should represent “<span class="Emphasis">problem fire</span>” conditions, the duration of the burn period should reflect the active burning period of wildfires of the area under extreme conditions. </td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Because inputs should represent “<span class="Emphasis">problem fire</span>” conditions,  the duration of the burn period should reflect the active burning period of wildfires of the area under extreme conditions.</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2"><a href="In/SpotLBP.htm" target="_blank">Spotting</a> (See <a href="FBModelCompare.htm" target="_blank">Spotting Comparison Table</a>)</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2"><a href="In/SpotLBP.htm" target="_blank">Spotting</a> <MadCap:conditionalText MadCap:conditions="General.LaterRelease">(See <a href="FBModelCompare.htm" target="_blank">Spotting Comparison Table</a>)</MadCap:conditionalText></td>
                     <td class="TableStyle-Standard-BodyD-Column1-Body2">Spotting Probability of  20% is the recommended input and the default in IFTDSS, however it can be changed if needed. Entering 100% means that all points on the landscape where crown fire is initiated will launch embers.  A value of 0% in essence turns off spotting.</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
@@ -50,25 +49,21 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
-                    <td style="text-align: left;" class="TableStyle-Standard-BodyE-Column1-Body2">Burn Probability &amp; Integrated Hazard</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Be aware of Scaled Outputs - compare pixel values ONLY within the same analysis/model run if looking at other extents. (link to viewing LBP outputs)
+                    <td style="text-align: left;" class="TableStyle-Standard-BodyE-Column1-Body2">Burn Probability and Integrated Hazard are unique to the landscape analyzed and influenced by extent.</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Compare pixel values <em>ONLY</em> within the same analysis/model run. Additionally, keep in mind these values are dynamic, burn probability class may change if you change the extent from the full landscape to a specific area of interest.
 </td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td style="text-align: left;" class="TableStyle-Standard-BodyE-Column1-Body1">Analysis Maximum (<a href="Out/BurnProb.htm" target="_blank">Burn Probability Output</a>)</td>
                     <td class="TableStyle-Standard-BodyD-Column1-Body1">
                         <p>The legend for Burn Probability output lists the “Analysis Maximum”, the highest burn probability for that analysis and landscape extent. The colored classes in the legend are scaled based on this value. The colored classes are not evenly distributed across all runs nor landscapes. Rather,  they are classified  in relation to the analysis maximum for the specific outputs and area displayed; some analysis outputs may be heavily skewed to just one or two classes depending on the range of results.</p>
-                        <p>
-
-If seeing the analysis maximum displayed as a decimal is confusing to you, move the decimal point two places to the left and think of the value as the percent of times the most frequently burned pixel experienced fire during that analysis extent. 
-(e.g.  0.00619237 implies that the maximum any pixel on that extent burned was in 0.6 % of the total simulated fires during in that particular analysis scenario.) 
-</p>
+                        <p>If seeing the analysis maximum displayed as a decimal is confusing to you, move the decimal point two places to the left and think of the value as the percent of times the most frequently burned pixel experienced fire during that analysis extent. (e.g.  0.00619237 implies that the maximum any pixel on that extent burned was in 0.6 % of the total simulated fires during in that particular analysis scenario.)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
                     <td class="TableStyle-Standard-BodyE-Column1-Body2"><a href="Out/ConditionalFL.htm" target="_blank">Conditional Flame Length</a>
                     </td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Represents an estimate of the mean flame length for all the fires that burn a given point on the landscape during a LBP model run. Use the Identify tool in Map Studio to view this mean along with with proportion of flame lengths for each class - the percentage of times flame lengths occurred in each class throughout all simulated fires.</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Represents an estimate of the mean flame length for all the fires that burn a given point on the landscape during a LBP model run. Use the Identify tool in Map Studio to view this mean along with proportion of flame lengths for each class - the percentage of times flame lengths occurred in each class throughout all simulated fires.</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td class="TableStyle-Standard-BodyB-Column1-Body1"><a href="Out/IntHazard.htm" target="_blank">Integrated Hazard</a>
@@ -77,7 +72,7 @@ If seeing the analysis maximum displayed as a decimal is confusing to you, move 
                 </tr>
             </tbody>
         </table>
-        <h2>LBP Model Input Sensitivities</h2>
+        <h2><a name="LBPsensitivities"></a>LBP Model Input Sensitivities</h2>
         <p>Isolating on model sensitives on a particular landscape is the responsibility of the user through trial and error in the model calibration process.  It may be important to iterate on a number of model runs changing one input at a time to understand how the features and fuels on your landscape influence the model outputs. This is an important part of the model calibration process. An example of model sensitivity to wind direction and landscape features is included below.</p>
         <h3>Example: wind direction and landscape features on burn probability</h3>
         <p>Inputs such as wind direction or landscape features may affect outputs in unusual ways, such as producing areas with high conditional flame lengths but low burn probabilities. Causes for this can include fuels that are located in difficult locations for fire to spread to, such as highly flammable but patchy fuels. Some examples of this are high elevation timber pockets, or shrub islands surrounded by non-burnable fuels (pictured below).</p>
@@ -88,6 +83,6 @@ If seeing the analysis maximum displayed as a decimal is confusing to you, move 
         <p>
             <img src="../../Resources/Images/Models/LBP/LFB_LBP_compare_3.png" alt="in the landscape with SE winds most of the area burned, in the landscape with NW winds, there are patches of unburned area" class="border" />
         </p>
-        <p>The two burn probability outputs were generated with identical inputs with the exception of wind direction. The first output was run with a Southeast (SE) wind and the second with a Northwest&#160;(NW) wind.  You can see in the example with NW Wind, that the burnable area on the east end of the lake was sheltered by the water and did not burn (black polygon) whereas it did burn in the same scenario under SE winds.</p>
+        <p>The two burn probability outputs were generated with identical inputs with the exception of wind direction. The first output was run with a Southeast wind and the second with a Northwest wind.  You can see in the example with NW Wind, that the burnable area on the east end of the lake was sheltered by the water and did not burn (black polygon) whereas it did burn in the same scenario under SE winds.</p>
     </body>
 </html>
