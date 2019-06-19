@@ -1276,7 +1276,9 @@ Defined by NWCG as: A release of combustion gases and aerosols into the atmosphe
       <Term>Burn Probability</Term>
     </Terms>
     <Definition
-      Link="">The likelihood that an area will burn. In IFTDSS, this is more specifically defined as the likelihood that an area represented by a pixel will burn under specific conditions.</Definition>
+      Link="">Burn Probability (BP) quantifies the likelihood of a fire occurring under a fixed set of weather and fuel moisture conditions.
+
+BP = # times a pixel burns / total number of fires simulated</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     TermClass=""
@@ -2409,7 +2411,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
       <Term>Burn Period</Term>
     </Terms>
     <Definition
-      Link="">That part of each 24-hour period when fires spread actively. With respect to fire modeling the burn period is that period of each day that the fire has measurable spread with respect to the resolution or scale of the modeling environment.</Definition>
+      Link="">That part of each 24-hour period when fires spread most rapidly; typically from 10:00 AM to sundown (as defined by NWCG).</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term108"
@@ -2430,7 +2432,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
       <Term>CFL</Term>
     </Terms>
     <Definition
-      Link="">The average simulated flame length at a particular point on the landscape using non-heading fire spread and a full range of weather scenarios.</Definition>
+      Link="">Conditional Flame Length (CFL) is an estimate of the average flame length for all the fires that burn a given point on the landscape under a fixed set of weather and fuel moisture conditions.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term110"
@@ -2585,7 +2587,7 @@ Gridded weather data provides more complete weather data coverage than from fixe
       <Term>Hazard</Term>
     </Terms>
     <Definition
-      Link="">A physical situation with potential for harm to persons or damage to resources and assets.</Definition>
+      Link="">A physical situation with potential for harm to persons or damage to resources and assets. Wildfire hazard can be described qualitatively as a fire environment—fuel, weather, topography, and ignitions—with potential for causing harm or damage. (As defined by Scott and others 2013)</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term125"
@@ -3048,5 +3050,56 @@ Gridded weather data provides more complete weather data coverage than from fixe
     </Terms>
     <Definition
       Link="">Dead and live fuel moistures in percent. A fire behevior modeling input in IFTDSS.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term61"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Integrated Hazard</Term>
+    </Terms>
+    <Definition
+      Link="">Combines two Landscape Burn Probability model outputs—burn probability and conditional flame length—into a single characteristic that can be mapped.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term78"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Likelihood</Term>
+    </Terms>
+    <Definition
+      Link="">Non-technical synonym for probability. (As defined by Scott and Others 2013)</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term80"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Problem Fire Scenario</Term>
+    </Terms>
+    <Definition
+      Link="">Short duration events occurring during severe weather conditions. Typically a problem fire scenario is based on a past wildland fire event that exceeded suppression capabilities resulting in undesirable consequences.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term94"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Proportion of Flame Lengths</Term>
+    </Terms>
+    <Definition
+      Link="">The proportion of flame length categories (a.k.a., flame length probability, FLP)
+represent the likelihood of fire intensity for six standard fire intensity levels (Roose and others 2008) for each pixel on the landscape. The value in each class is the conditional probability of observing fire intensity for the specified flame-length class (FL), given a fire occurs. Because the values rely on fire occurring, the sum probability of all size classes is always one for any given point on the landscape. It is these proportional flame lengths that are used to determine the Conditional Flame Length.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term168"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Worst-case Scenario</Term>
+    </Terms>
+    <Definition
+      Link="">Worst-case scenario with respect to the fire environment refers to extreme weather and fuel moisture conditions. The values needed to model these conditions can be derived from recent climatological data using statistical methods (i.e., percentile conditions) or known problem fire case studies.</Definition>
   </GlossaryEntry>
 </CatapultGlossary>
