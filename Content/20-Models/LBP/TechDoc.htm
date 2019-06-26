@@ -1,12 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="General.Exclude">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
     <body>
-        <div class="notificationComingSoon">
-            <p>This topic is Under Development (as of 3/26/19)</p>
-        </div>
-        <h1>Burn Probability Technical Documentation</h1>
-        <p>[placeholder]</p>
+        <h1>Technical Documentation - Landscape Burn Probability with FlamMap 6.0</h1>
+        <p>The IFTDSS Landscape Burn Probability (LBP) model is identical to MTT-Burn Probability  in FlamMap 6.0, with some modeling inputs fixed (see <a href="#Fixedinputs">below</a> for details).</p>
+        <h2>FlamMap MTT Background</h2>
+        <p>
+            <img src="../../Resources/Images/Models/LBP/ih_example_techdoc.png" alt="integrated hazard layer over topographic features" style="float: right;" class="border" />FlamMap is a fire behavior mapping and analysis software application that computes potential fire behavior characteristics (such as spread rate, flame length, and fireline intensity) over an entire landscape under constant weather and fuel moisture conditions input by the user. FlamMap simulates surface and crown fire behavior characteristics using Rothermel’s <a href="../../41-References/Citations.htm#Rothermel1972" target="_blank">1972</a> surface fire model, Van Wagner’s <a href="../../41-References/Citations.htm#VanWagner1977" target="_blank">1977</a> crown fire initiation model, and Rothermel’s <a href="../../41-References/Citations.htm#Rothermel1991" target="_blank">1991</a> crown fire spread model.</p>
+        <p>The  Minimum Travel Time (MTT) part of FlamMap simulates fire spread across a landscape using the MTT algorithm.  MTT simulates fire spread by Huygens’ principle where the growth and behavior of the fire edge is a vector or wave front (<a href="../../41-References/Citations.htm#Richards1990" target="_blank">Richards, 1990</a>; <a href="../../41-References/Citations.htm#Finney2002" target="_blank">Finney, 2002</a>). MTT includes heading, flanking, and backing spread. Because the MTT calculations spread  under constant weather and fuel moisture conditions it enables analysis of the effects of spatial patterns in fuels and topography (<a href="../../41-References/Citations.htm#Finney2006" target="_blank">Finney, 2006</a>).</p>
+        <p>For LBP, thousands of randomly located ignitions are used and the resulting fires are spread using the MTT algorithm until 98% percent of the burnable landscape has burned.  The probability of burning and resulting fire intensity is calculated from these repeated simulations. See the <a href="Out/Overview.htm" target="_blank">Landscape Burn Probability Output Overview</a> topic for more details.</p>
+        <h2><a name="Fixedinputs"></a>Fixed inputs in IFTDSS</h2>
+        <p>Many of the model inputs are controlled by the user (see the <a href="In/OverviewLBP.htm" target="_blank">Input Overview</a> topic for more details); however some model inputs are fixed in IFTDSS LBP runs and cannot be changed by the user:</p>
+        <ul>
+            <li>Resolution of the run: Landscapes over 250,000 acres are resampled prior to model run initiation (See the <a href="../Resampling.htm" target="_blank">Resampling</a> topic for more details).</li>
+            <li>Number of fires simulated: Ignitions are randomly located, they are simulated thousands of times until 98% of the landscape has burned (see the <a href="In/NoFiresSimLBP.htm" target="_blank">Number of Fires Simulated</a> topic for more details).</li>
+            <li>Spotting delay: The time between ember landing and initiation of fire spread is set to 0 minutes.</li>
+            <li>Spotting seed: The spotting seed is randomly generated number generated for each run. The spotting seed is used to fix spotting distance and location when a Fire Size List (see the <a href="Out/FireSizeList.htm" target="_blank">Fire Size List</a> topic for more details) is used to fix ignition locations to compare between alternatives for a single landscapes.</li>
+        </ul>
     </body>
 </html>

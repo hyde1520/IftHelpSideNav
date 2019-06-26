@@ -403,7 +403,7 @@
       <TocEntry
         Title="Inputs">
         <TocEntry
-          Title="Overview [DRAFT]"
+          Title="Inputs Overview [DRAFT]"
           Link="/Content/20-Models/LBP/In/OverviewLBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Landscapes for LBP [DRAFT]"
@@ -495,8 +495,10 @@
       </TocEntry>
       <TocEntry
         Title="LBP Run Considerations [DRAFT]"
-        Link="/Content/20-Models/LBP/RunConsiderations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-        conditions="General.QA ONLY" />
+        Link="/Content/20-Models/LBP/RunConsiderations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="LBP Technical Documentation"
+        Link="/Content/20-Models/LBP/TechDoc.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
       Title="Minimum Travel Time (MTT)"

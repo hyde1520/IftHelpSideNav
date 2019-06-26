@@ -23,7 +23,7 @@
                 </p>
             </li>
             <li>
-                <p>Choose a descriptive run name and click <span class="UIcomponent">Run</span>.</p>
+                <p>Choose a descriptive run name and click <span class="UIcomponent">Run</span>. LBP&#160;may take between several minutes and several hours to complete, <MadCap:variable name="General.ProductName" /> will automatically send you an email notification when your LBP&#160;run is complete.</p>
             </li>
         </ol>
         <p>&#160;</p>
