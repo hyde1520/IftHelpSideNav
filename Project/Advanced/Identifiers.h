@@ -78,9 +78,7 @@
 #define ViewShapefileOnMap 1150
 #define TreatmentRuleBackground 1151
 #define SpatialExtent 1153
-#define Filter 1154
 #define Getting_Support 1155
-#define AboutLandscapesinIFTDSS 1156
 #define MapStudioTips 1158
 #define LocationButton 1159
 #define LandscapeEditTechTopic 1160

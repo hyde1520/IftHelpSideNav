@@ -22,7 +22,7 @@
             </li>
             <li>After clicking the <span class="UIcomponent">Add to Rules</span> button, a notification appears to confirm the rule had been added. You can continue to add rules before saving your landscape. Rules are implemented in the order you add them, for further detail see <a href="../../../../30-Tasks/LndscpEdit/RuleOrdering.htm" target="_blank">Rule Ordering Considerations.</a></li>
             <li>Once you are finished editing, scroll to the bottom of the screen, name the landscape so its easy to see what treatment it represents (e.g. GC12 Lt Thn PileRx 1yr), and click <span class="UIcomponent">Save New Landscape</span>.</li>
-            <div class="notificationTip">
+            <div class="notificationImportant">
                 <p>It is recommended to keep the landscape names around 30 characters in length for later reporting steps to run smoothly in the <MadCap:variable name="General.ProductName"></MadCap:variable> system.</p>
             </div>
             <li>

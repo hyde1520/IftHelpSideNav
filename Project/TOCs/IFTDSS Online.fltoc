@@ -2,7 +2,49 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Get Started">
+    Title="Get Started"
+    conditions="General.QA ONLY">
+    <TocEntry
+      Title="Use Google Chrome"
+      Link="/Content/00-Concepts/Chrome.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Create an Account"
+      Link="/Content/00-Concepts/Accounts/AccountSetup.htm" />
+    <TocEntry
+      Title="Reset Password"
+      Link="/Content/00-Concepts/Accounts/AccountPassword.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Edit Profile"
+      Link="/Content/00-Concepts/Accounts/AccountProfile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Navigate [%=General.ProductName%] (An Overview)"
+      Link="/Content/00-Concepts/NavigatingIFTDSS.htm"
+      StartSection="false"></TocEntry>
+    <TocEntry
+      Title="Create Your Landscape"
+      Link="/Content/00-Concepts/LandscapeCheatsheet.htm"></TocEntry>
+    <TocEntry
+      Title="Make Landscape Edits"
+      Link="/Content/00-Concepts/EditingCheatsheet.htm"></TocEntry>
+    <TocEntry
+      Title="Upload or Create Shapes"
+      Link="/Content/00-Concepts/ShapesCheatsheet.htm"></TocEntry>
+    <TocEntry
+      Title="Generate an Auto97th Summary"
+      Link="/Content/00-Concepts/Auto97thCheatsheet.htm"></TocEntry>
+    <TocEntry
+      Title="Run Models"
+      Link="/Content/00-Concepts/ModelingCheatsheet.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/00-AboutIFTDSS/KnownIssues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/00-AboutIFTDSS/Disclaimer.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+  <TocEntry
+    Title="Get Started"
+    conditions="General.Prod ONLY">
     <TocEntry
       Title="Why use [%=General.ProductName%] for Fuel Planning?"
       Link="/Content/00-Concepts/WhyIFTDSS.htm" />
@@ -75,8 +117,8 @@
     <TocEntry
       Title="About Landscape Files">
       <TocEntry
-        Title="About Landscapes"
-        Link="/Content/00-Concepts/AboutLandscapesinIFTDSS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Title="About Landscapes" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        Link="/Content/10-MapStudio/Files/LCPInfo.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/10-Workspace/downloads/LCPGeoTiff.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -256,9 +298,6 @@
       <TocEntry
         Title="Measurement"
         Link="/Content/10-MapStudio/Functions/Measurements.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Filter"
-        Link="/Content/10-MapStudio/Functions/Filter.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Attribute Table"
         Link="/Content/10-MapStudio/Functions/AttributeTable.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />

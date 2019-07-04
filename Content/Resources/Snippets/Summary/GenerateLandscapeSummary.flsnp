@@ -29,7 +29,7 @@
                     <img src="../../Images/Summary/report link confirmation box.png" alt="the report name will become a hyperlink when the report is complete" class="borderlist" />
                 </p>
             </li>
-            <div class="notificationTip">
+            <div class="notificationNote">
                 <p>Depending upon landscape size, your summary may take a few minutes to complete.</p>
             </div>
         </ol>

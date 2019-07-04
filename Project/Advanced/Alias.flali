@@ -79,9 +79,7 @@
     <Map Name="ViewShapefileOnMap" Link="/Content/10-MapStudio/Functions/ViewShapefileOnMap.htm" />
     <Map Name="TreatmentRuleBackground" Link="/Content/30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" />
     <Map Name="SpatialExtent" Link="/Content/10-MapStudio/Files/SpatialExtent.htm" />
-    <Map Name="Filter" Link="/Content/10-MapStudio/Functions/Filter.htm" />
     <Map Name="Getting_Support" Link="/Content/00-AboutIFTDSS/Getting Support.htm" />
-    <Map Name="AboutLandscapesinIFTDSS" Link="/Content/00-Concepts/AboutLandscapesinIFTDSS.htm" />
     <Map Name="MapStudioTips" Link="/Content/10-MapStudio/MapStudioTips.htm" />
     <Map Name="LocationButton" Link="/Content/10-MapStudio/Functions/LocationButton.htm" />
     <Map Name="LandscapeEditTechTopic" Link="/Content/30-Tasks/LndscpEdit/LandscapeEditTechTopic.htm" />

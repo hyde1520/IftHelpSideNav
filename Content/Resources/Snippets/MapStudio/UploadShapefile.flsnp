@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Click the <span class="UIcomponent">Upload Shapefile</span><img src="../../Images/MapStudio/overview/button_addshapefile.png" alt="orange upload shapefile button" class="iftbutton" /> widget along the bottom of <MadCap:variable name="General.MapStudio" /> to open Upload Shapefile.</li>
+            <li>
+                <p>Click Upload File. A browser box will open allowing you to search your local files. Select the desired shapefile. Shapefiles must be zipped to be uploaded and contain .shp, .shx, .dbf., and .prj files.</p>
+                <p>
+                    <img src="../../Images/MapStudio/shapefile_upload/local_shapefiles.png" alt="you may upload your own shapefiles." class="borderlist">
+                    </img>
+                </p>
+            </li>
+            <li>
+                <p>Use the checkbox to select the attributes you wish to import. You may choose up to 10.</p>
+                <p>
+                    <img src="../../Images/MapStudio/shapefile_upload/shapefile_save1.png" alt="The 'Add Shapefile' box with specific features checked to be imported" class="borderlist">
+                    </img>
+                </p>
+            </li>
+            <li>Make sure the "Save" option is checked in order to save your shapefile.</li>
+            <li>Give the shapefile a descriptive name.</li>
+            <li>Specify the folder in which to store the shapefile.</li>
+            <li>
+                <p>Click <span class="UIcomponent">Save and Add to Map</span></p>
+                <p>
+                    <img src="../../Images/MapStudio/shapefile_upload/save_shapefile.png" alt="make sure the 'save' box is checed to save your shapefile" class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>When completed, a confirmation message will appear to verify the shapefile has been uploaded.</p>
+                <p>
+                    <img src="../../Images/MapStudio/shapefile_upload/saved_shp_confirmation.png" class="borderlist" alt="confirmation message verifying your upload" />
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>
