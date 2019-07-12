@@ -5,35 +5,35 @@
     Title="Get Started"
     conditions="General.QA ONLY">
     <TocEntry
-      Title="Use Google Chrome"
+      Title="0. Use Google Chrome"
       Link="/Content/00-Concepts/Chrome.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
-      Title="Create an Account"
+      Title="1. Create an Account"
       Link="/Content/00-Concepts/Accounts/AccountSetup.htm" />
     <TocEntry
-      Title="Reset Password"
+      Title="2. Reset Password"
       Link="/Content/00-Concepts/Accounts/AccountPassword.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
-      Title="Edit Profile"
+      Title="3. Edit Profile"
       Link="/Content/00-Concepts/Accounts/AccountProfile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
-      Title="Navigate [%=General.ProductName%] (An Overview)"
+      Title="4. Navigate [%=General.ProductName%] (An Overview)"
       Link="/Content/00-Concepts/NavigatingIFTDSS.htm"
       StartSection="false"></TocEntry>
     <TocEntry
-      Title="Create Your Landscape"
+      Title="5. Create Your Landscape"
       Link="/Content/00-Concepts/LandscapeCheatsheet.htm"></TocEntry>
     <TocEntry
-      Title="Make Landscape Edits"
+      Title="6. Make Landscape Edits"
       Link="/Content/00-Concepts/EditingCheatsheet.htm"></TocEntry>
     <TocEntry
-      Title="Upload or Create Shapes"
+      Title="7. Upload or Create Shapes"
       Link="/Content/00-Concepts/ShapesCheatsheet.htm"></TocEntry>
     <TocEntry
-      Title="Generate an Auto97th Summary"
+      Title="8. Generate an Auto97th Summary"
       Link="/Content/00-Concepts/Auto97thCheatsheet.htm"></TocEntry>
     <TocEntry
-      Title="Run Models"
+      Title="9. Run Models"
       Link="/Content/00-Concepts/ModelingCheatsheet.htm" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
