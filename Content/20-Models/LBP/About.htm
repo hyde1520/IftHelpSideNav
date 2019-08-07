@@ -5,10 +5,14 @@
     </head>
     <body>
         <h1>About Landscape Burn Probability</h1>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Models/LBP/FSIM.flsnp" MadCap:conditions="General.QA ONLY" />
         <div class="notificationComingSoon">
             <p>
-				IFTDSS Landscape Burn Probability is an independent model in Playground. The model is the foundation of the <a href="../../30-Tasks/QWFRA/QWFRAAbout.htm" target="_blank">Quantitative Wildland Fire Risk Assessment</a> process (<a href="../../41-References/Citations.htm#Scott_etal_2013" target="_blank">Scott and others 2013</a>) that will be released incrementally. 
+				IFTDSS Landscape Burn Probability is an independent model in Playground. The model is the foundation of the <a href="../../30-Tasks/QWRA/QWRAAbout.htm" target="_blank">Quantitative Wildland Fire Risk Assessment</a> process (<a href="../../41-References/Citations.htm#Scott_etal_2013" target="_blank">Scott and others 2013</a>) that will be released incrementally. 
 			</p>
+        </div>
+        <div class="notificationTip">
+            <p>IFTDSS can process a limited number of LBP runs at a time. You can <a href="#lbprunqueue">check your run queue position in the Playground</a>.</p>
         </div>
         <p>Landscape Burn Probability (LBP) quantifies the relative likelihood and intensity of a fire occurring under a fixed set of weather and fuel moisture conditions. Outputs include burn probability, conditional flame length and integrated hazard.  Outputs can be utilized as an independent product or be combined with information on the fire susceptibility of highly valued resources and assets.</p>
         <p>The LBP model is not as widely known as the more common fire spread models so it may be new to you. Please read the <a href="RunConsiderations.htm" target="_blank">Modeling Considerations</a> section to better understand how to use and apply this model to your work.</p>
@@ -159,8 +163,38 @@
                 <MadCap:dropDownHotspot><a name="howtorun"></a>How to Run LBP</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <MadCap:snippetBlock src="../../Resources/Snippets/Models/LBP/Model_run.flsnp" />
+                <h2>Select the model</h2>
+                <p>From the <span class="UIcomponent">Modeling Playground</span>, select <span class="UIcomponent">Landscape Burn Probability</span> from the drop-down menu and click <span class="UIcomponent">Create Run</span>.</p>
+                <h2>Choose or Create a Landscape</h2>
+                <MadCap:snippetBlock src="../../Resources/Snippets/Models/Flammap/ChooseLCP.flsnp" />
+                <h2>Populate the Model Parameters and Run</h2>
+                <MadCap:snippetBlock src="../../Resources/Snippets/Models/LFB/LFBInputs.flsnp" />
+                <ol start="5" style="list-style-type: upper-alpha;">
+                    <li>
+                        <p>Specify a Simulation Time (Burn Period Length), from 4-12 hours. Because inputs should represent “<span class="Emphasis">problem fire</span>” conditions, the duration of the burn period should reflect the active burning period of wildfires of the area under extreme conditions. </p>
+                        <p>
+                            <img src="../../Resources/Images/Models/LBP/simulation_time.png" alt="simulation time field in IFTDSS" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Choose to either leave the Spotting Probability as the default 20% (recommended for many scenarios) or adjust it as needed.</p>
+                        <p>
+                            <img src="../../Resources/Images/Models/LBP/spotting_default.png" alt="spotting probability field in iftdss" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Choose a descriptive run name and click <span class="UIcomponent">Run</span>. LBP&#160;may take between several minutes and several hours to complete, <MadCap:variable name="General.ProductName" /> will automatically send you an email notification when your LBP&#160;run is complete.</p>
+                    </li>
+                    <li>
+                        <p><a name="lbprunqueue"></a><b>Check your run queue position:</b> You can check where <MadCap:keyword term="in line" />"in line" your run is  by clicking on the run name in <span class="UIcomponent">Playground</span>, and referring to the <MadCap:keyword term="Run Queue" />"Run Queue Position" in the right hand panel.</p>
+                        <p>
+                            <img src="../../Resources/Images/Models/LBP/runstatus.png" alt="the run status can be viewed by clicking on the run and reading the information in the right-hand panel." class="borderlist" />
+                        </p>
+                    </li>
+                </ol>
+                <p>&#160;</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
+        <p>&#160;</p>
     </body>
 </html>

@@ -12,7 +12,10 @@
   MakeFileLowerCase="true"
   TopNavTocPath="false"
   OutputFile="index"
-  MasterToc="/Project/TOCs/IFTDSS Online.fltoc">
+  MasterToc="/Project/TOCs/IFTDSS Online.fltoc"
+  TabletBreakpoint="1024"
+  MobileBreakpoint="667"
+  UseDeviceWidth="false">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"

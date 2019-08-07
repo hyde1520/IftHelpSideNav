@@ -248,7 +248,7 @@
     <Map Name="RunConsiderations" Link="/Content/20-Models/LBP/RunConsiderations.htm" />
     <Map Name="LandscapeLBP" Link="/Content/20-Models/LBP/In/LandscapeLBP.htm" />
     <Map Name="OutHazard" Link="/Content/20-Models/LBP/Out/IntHazard.htm" />
-    <Map Name="RiskAssessment" Link="/Content/30-Tasks/QWFRA/QWFRAAbout.htm" />
+    <Map Name="RiskAssessment" Link="/Content/30-Tasks/QWRA/QWRAAbout.htm" />
     <Map Name="_1_runcreate_hh1" Link="/Content/50-Hover/Models/LBP/1_runcreate_hh.htm" />
     <Map Name="_2_wind_hh" Link="/Content/50-Hover/Models/LBP/2_wind_hh.htm" />
     <Map Name="_3_crownfire_hh" Link="/Content/50-Hover/Models/LBP/3_crownfire_hh.htm" />
@@ -278,8 +278,8 @@
     <Map Name="Scale" Link="/Content/20-Models/LBP/Out/DynamicMask.htm" />
     <Map Name="EstFuelMoisturesLFB" Link="/Content/20-Models/LFB/In/EstFuelMoisturesLFB.htm" />
     <Map Name="EstFuelMoisturesMTT" Link="/Content/20-Models/MTT/In/EstFuelMoisturesMTT.htm" />
-    <Map Name="HVRAAbout" Link="/Content/30-Tasks/QWFRA/HVRAAbout.htm" />
-    <Map Name="HVRACreate" Link="/Content/30-Tasks/QWFRA/HVRACreate.htm" />
+    <Map Name="HVRAAbout" Link="/Content/30-Tasks/QWRA/HVRAAbout.htm" />
+    <Map Name="HVRACreate" Link="/Content/30-Tasks/QWRA/HVRACreate.htm" />
     <Map Name="HistoricFuelTreatment_m" Link="/Content/10-MapStudio/RefLayerMetadata/DistHistory/HistFuelTrtPoly_m.htm" />
     <Map Name="MTBS" Link="/Content/10-MapStudio/Files/ReferenceLayers.htm" />
     <Map Name="FireHistpre1980" Link="/Content/10-MapStudio/RefLayerMetadata/DistHistory/FireHist_m.htm" />
@@ -353,4 +353,12 @@
     <Map Name="namemappedvals" Link="/Content/50-Hover/HVRAs/namemappedvals_hh.htm" />
     <Map Name="pendingvalues_hh" Link="/Content/50-Hover/HVRAs/pendingvalues.htm" />
     <Map Name="NEWsubHVRA_hh" Link="/Content/50-Hover/HVRAs/selectHVRA_hh.htm" />
+    <Map Name="Auto97thCheatsheet" Link="/Content/00-Concepts/Auto97thCheatsheet.htm" />
+    <Map Name="EditingCheatsheet" Link="/Content/00-Concepts/EditingCheatsheet.htm" />
+    <Map Name="LandscapeCheatsheet" Link="/Content/00-Concepts/LandscapeCheatsheet.htm" />
+    <Map Name="ModelingCheatsheet" Link="/Content/00-Concepts/ModelingCheatsheet.htm" />
+    <Map Name="ShapesCheatsheet" Link="/Content/00-Concepts/ShapesCheatsheet.htm" />
+    <Map Name="LayerListMasks" Link="/Content/10-MapStudio/Functions/LayerListMasks.htm" />
+    <Map Name="LFB_download_differences" Link="/Content/20-Models/LFB/Out/LFB download differences.htm" />
+    <Map Name="HVRANational" Link="/Content/30-Tasks/QWRA/HVRANational.htm" />
 </CatapultAliasFile>

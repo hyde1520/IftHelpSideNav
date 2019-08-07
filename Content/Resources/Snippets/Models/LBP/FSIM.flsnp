@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <div class="notificationImportant">
+            <p>Different than FSim - IFTDSS LBP&#160;calculates burn probability and conditional flame length for a <u>fixed set</u> of weather conditions. The  Large Fire Simulation Model (FSim, <a href="../../../../41-References/Citations.htm#Finney_etal_2011" target="_blank">Finney and others 2011</a>) used in many national and regional assessments calculates results based on an entire fire season using daily variable weather inputs.</p>
+            <p>See XXX help topic for more information.</p>
+        </div>
+    </body>
+</html>

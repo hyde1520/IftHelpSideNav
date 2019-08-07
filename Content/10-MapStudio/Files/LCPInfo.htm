@@ -8,7 +8,10 @@
         <h1>
             <MadCap:keyword term="Landscape" />
             <MadCap:keyword term="LCP" />Landscape (.LCP) Files</h1>
-        <p>A <a href="LCPInfo.htm" target="_blank">Landscape file (.LCP)</a> is a multi-band raster format commonly used by wildland fire behavior and fire effects models such as FARSITE and FlamMap. The bands of an .LCP file store data describing terrain, tree canopy, and fuel model (outlined in the table below). The .LCP file defines your project area and is the first input needed to run most models in <MadCap:variable name="General.ProductName"></MadCap:variable>. LCP's generated in <MadCap:variable name="General.ProductName"></MadCap:variable> are derived from  <a href="../../00-Concepts/LANDFIRE.htm" target="_blank">LANDFIRE</a>.</p>
+        <p>A <a href="LCPInfo.htm" target="_blank">Landscape file (.LCP)</a> is a multi-band raster format commonly used by wildland fire behavior and fire effects models such as FARSITE and FlamMap. The bands of an .LCP file store data describing terrain, tree canopy, and fuel model (outlined in the table below). The .LCP file defines your project area and is the first input needed to run most models in <MadCap:variable name="General.ProductName" />. LCP's generated in <MadCap:variable name="General.ProductName" /> are derived from  <a href="../../00-Concepts/LANDFIRE.htm" target="_blank">LANDFIRE</a>.</p>
+        <div class="notificationTip">
+            <p>Need to view outputs for a specific polygon in <MadCap:variable name="General.MapStudio" />? Try the <a href="../Functions/LayerListMasks.htm" target="_blank">Add/Remove Layers</a> option in <img src="../../Resources/Images/MapStudio/overview/button_layerlist.png" alt="layer list" /><span class="UIcomponent">Layer List</span>.</p>
+        </div>
         <p>Data contained in <MadCap:variable name="General.ProductName" /> LCP files:</p>
         <MadCap:snippetBlock src="../../Resources/Snippets/LCPs/lcp table.flsnp" />
         <h2><a name="Buffering"></a>Buffering</h2>
@@ -26,12 +29,12 @@
             <img src="../../Resources/Images/MyWorkspace/NoBufferLandscapes.png" alt="Landscape names ending in 'NB' do not have a buffer around them" class="border" />
         </p>
         <h3>Buffering</h3>
-        <p>The buffer around your landscape (the area outside the blue landscape boundary) <em>IS&#160;NOT</em> included in Summary Report statistics generated in <MadCap:variable name="General.ProductName" />. Only the area inside the landscape boundary is included in reports.</p>
+        <p>The buffer around your landscape (the area outside the blue landscape boundary) <em>IS&#160;NOT</em> included in summary report statistics (such as Auto97th LFB reports) generated in <MadCap:variable name="General.ProductName" />. Only the area inside the landscape boundary is included in reports.</p>
         <p>
             <img src="../../Resources/Images/MapStudio/buffer_inclusion.png" alt="only the area within the green boundary is included in reports" class="border" />
         </p>
         <h3>Editing Buffered Landscapes</h3>
-        <p>Edits are applied to your landscape as well as this buffer area, including landscape edits and edits constrained by a mask. However, note that Summary Reports generated for your landscape only include the area inside the blue landscape boundary. If an Area of Interest (AOI) is used in generating a landscape summary, only the region of the AOI  that intersects the landscape area is analyzed and included in the report.</p>
+        <p>Edits are applied to your landscape as well as this buffer area, including landscape edits and edits constrained by a mask. However, note that reports generated for your landscape only include the area inside the blue landscape boundary. If an Area of Interest (AOI) is used in generating a report, only the region of the AOI  that intersects the landscape area is analyzed and included in the report.</p>
         <p>
             <img src="../../Resources/Images/MapStudio/buffering_edits_1.png" alt="series of edits behaving as described in text." class="border" />
         </p>

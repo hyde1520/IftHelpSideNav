@@ -6,7 +6,7 @@
         <link href="../../TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
-        <p>The Automatic 97th Percentile (Auto97th) fire behavior model run and summary are available from the <span class="UIcomponent">Landscape Evaluation</span> stage of the <span class="UIcomponent">Planning Cycle</span>, via the <span class="UIcomponent">Landscape Summary</span> task. The run, and subsequent summary report, uses the capabilities of <a href="../../../20-Models/LFB/About.htm" target="_blank">FlamMap</a> to model fire behavior based on the 97th percentile fire weather conditions for your landscape as determined by the Remote Automatic Weather Station (RAWS) closest to the center of your chosen Landscape. </p>
+        <p>The Automatic 97th Percentile Landscape Fire Behavior (Auto97th LFB) Report is available from the <span class="UIcomponent">Landscape Evaluation</span> stage of the <span class="UIcomponent">Planning Cycle</span>, via the <span class="UIcomponent">Landscape Summary</span> task. The run, and subsequent summary report, uses the capabilities of <a href="../../../20-Models/LFB/About.htm" target="_blank">FlamMap</a> to model fire behavior based on the 97th percentile fire weather conditions for your landscape as determined by the Remote Automatic Weather Station (RAWS) closest to the center of your chosen Landscape. </p>
         <div class="notificationComingSoon">
             <p>While currently the selection of RAWS is automatic, in future releases of <MadCap:variable name="General.ProductName" /> you will be able to specify the RAWS station of your choosing.</p>
         </div>
@@ -201,7 +201,7 @@
         <p>The initial fuel moisture is then conditioned to account for topographical and weather changes over time by using an automatically generated Extreme weather scenario.</p>
         <MadCap:snippetBlock src="../Models/Flammap/extreme_weather_calc.flsnp" />
         <h2>Outputs</h2>
-        <p>Outputs are available as Map Studio layers, Summary Reports, and downloadable GeoTiff files.</p>
+        <p>Outputs are available as Map Studio layers, summary reports, and downloadable GeoTiff files.</p>
         <h3>Landscape Outputs</h3>
         <MadCap:snippetBlock src="../Workspace/geotiff_lcp.flsnp" />
         <h3>&#160;</h3>

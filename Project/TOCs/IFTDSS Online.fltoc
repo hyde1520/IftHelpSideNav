@@ -228,23 +228,27 @@
           Link="/Content/30-Tasks/LndscpEdit/RuleOrdering.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
       <TocEntry
-        Title="Quantitative Wildland Fire Risk Assessment"
-        Link="/Content/30-Tasks/QWFRA/QWFRAAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Highly Valued Resources &amp; Assets"
-        conditions="General.LaterRelease">
+        Title="Map Values"
+        conditions="General.QA ONLY">
         <TocEntry
-          Title="About HVRAs"
-          Link="/Content/30-Tasks/QWFRA/HVRAAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-          conditions="General.LaterRelease"
+          Title="About Mapping HVRAs"
+          Link="/Content/30-Tasks/QWRA/HVRAAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          conditions="General.QA ONLY" />
         <TocEntry
-          Title="Map HVRAs"
-          Link="/Content/30-Tasks/QWFRA/HVRACreate.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-          conditions="General.LaterRelease" />
+          Title="Map HVRAs Tutorial"
+          Link="/Content/30-Tasks/QWRA/HVRACreate.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          conditions="General.QA ONLY" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/30-Tasks/QWRA/HVRANational.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          conditions="General.QA ONLY" />
       </TocEntry>
+      <TocEntry
+        Title="Quantitative Wildfire Risk Assessment"
+        Link="/Content/30-Tasks/QWRA/QWRAAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
       <TocEntry
         Title="Prioritize Treatments"
         conditions="General.LaterRelease" />
@@ -273,6 +277,9 @@
       <TocEntry
         Title="Layer List (legends)"
         Link="/Content/10-MapStudio/Functions/LayerList.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Layer List Apply Mask"
+        Link="/Content/10-MapStudio/Functions/LayerListMasks.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Add Layers"
         Link="/Content/10-MapStudio/Functions/AddReferenceData.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />

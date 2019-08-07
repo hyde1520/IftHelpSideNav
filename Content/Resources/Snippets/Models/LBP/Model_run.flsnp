@@ -25,6 +25,12 @@
             <li>
                 <p>Choose a descriptive run name and click <span class="UIcomponent">Run</span>. LBP&#160;may take between several minutes and several hours to complete, <MadCap:variable name="General.ProductName" /> will automatically send you an email notification when your LBP&#160;run is complete.</p>
             </li>
+            <li>
+                <p>You can check where "in line" your run is  by clicking on the run name in <span class="UIcomponent">Playground</span>, and referring to the "Run Queue Position" in the right hand panel.</p>
+                <p>
+                    <img src="../../../Images/Models/LBP/runstatus.png" alt="the run status can be viewed by clicking on the run and reading the information in the right-hand panel." class="borderlist" />
+                </p>
+            </li>
         </ol>
         <p>&#160;</p>
     </body>

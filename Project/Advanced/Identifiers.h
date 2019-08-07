@@ -351,3 +351,11 @@
 #define namemappedvals 9040
 #define pendingvalues_hh 9041
 #define NEWsubHVRA_hh 9042
+#define Auto97thCheatsheet 1096
+#define EditingCheatsheet 1123
+#define LandscapeCheatsheet 1128
+#define ModelingCheatsheet 1129
+#define ShapesCheatsheet 1130
+#define LayerListMasks 1131
+#define LFB_download_differences 1154
+#define HVRANational 1156

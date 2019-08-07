@@ -3,7 +3,7 @@
     <head>
     </head>
     <body>
-        <p>Below are examples of the three map extents possible in Map Studio. They highlight the effect of applying a mask on the burn probability legend and symbology. The first image shows the full extent of the model output, the analysis maximum burn probability is 0.0113. You can see the areas of the Highest (80-100% of maximum) burn probabilities are outside of the landscape extent (seen above and to the left of the non-buffered area).</p>
+        <p>Below are examples of the three map extents possible in Map Studio. They highlight the effect of <a href="../../../../10-MapStudio/Functions/LayerListMasks.htm" target="_blank">applying a mask</a> on the burn probability legend and symbology. The first image shows the full extent of the model output, the analysis maximum burn probability is 0.0113. You can see the areas of the Highest (80-100% of maximum) burn probabilities are outside of the landscape extent (seen above and to the left of the non-buffered area).</p>
         <p>
             <img src="../../../Images/Models/LBP/mask_aoi_lbp_1.png" class="border" alt="outputs shown across the entire landscape, including the landscape buffer area." />
         </p>
