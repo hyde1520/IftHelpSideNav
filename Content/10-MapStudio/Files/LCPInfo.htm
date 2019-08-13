@@ -20,7 +20,8 @@
             <li>Modeling Landscape Burn Probability  requiring ignitions placed outside of a landscape so that fires can burn onto the landscape. Additionally, fires that start within the landscape must be able to burn into the buffer to avoid erroneous edge effects.</li>
             <li>Minimum Travel Time Fire Spread (to be released in a future version) modeling where you may want to simulate an ignition that occurs outside your landscape and burns into it.</li>
         </ul>
-        <p>
+        <p MadCap:conditions="General.QA ONLY">The buffer is added to allow fires to freely burn into and out of the landscape Extent (non-buffered) eliminating potential edge effects where fires do not spread to their full potential, biasing the fire-size distribution and therefore burn probability.   The distance chosen (4980 m) was because Landscape Burn Probability models single burn periods, and under most fuel and weather conditions the longest axis of a fire is shorter than the buffer meaning edge effects will not impact the model outputs used in reports and subsequent analyses.</p>
+        <p style="font-weight: bold;">
             <img src="../../Resources/Images/MapStudio/BufferedLandscape.png" alt="landscape with a buffer visibile in all directions beyond the blue landscape boundary line" class="border" />
         </p>
         <p>The Landscape Extent, beyond which the boundary extends, is delineated by the blue line when viewing it in <MadCap:variable name="General.MapStudio" />. This line may be hidden by unselecting it in the <span class="UIcomponent">Layer List</span>.</p>
@@ -28,7 +29,7 @@
         <p>
             <img src="../../Resources/Images/MyWorkspace/NoBufferLandscapes.png" alt="Landscape names ending in 'NB' do not have a buffer around them" class="border" />
         </p>
-        <h3>Buffering</h3>
+        <h3>Buffering and Reports</h3>
         <p>The buffer around your landscape (the area outside the blue landscape boundary) <em>IS&#160;NOT</em> included in summary report statistics (such as Auto97th LFB reports) generated in <MadCap:variable name="General.ProductName" />. Only the area inside the landscape boundary is included in reports.</p>
         <p>
             <img src="../../Resources/Images/MapStudio/buffer_inclusion.png" alt="only the area within the green boundary is included in reports" class="border" />

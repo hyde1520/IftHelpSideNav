@@ -542,6 +542,10 @@
         Title="LBP Run Considerations"
         Link="/Content/20-Models/LBP/RunConsiderations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
+        Title="LBP vs. Other Models"
+        Link="/Content/20-Models/LBP/LBPDifferences.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        conditions="General.QA ONLY" />
+      <TocEntry
         Title="LBP Technical Documentation"
         Link="/Content/20-Models/LBP/TechDoc.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>

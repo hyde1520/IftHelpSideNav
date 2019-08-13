@@ -17,6 +17,76 @@
         </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Error message at log in:&#160;"Unexpected response code: -1-"</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>This error occurs when there is a lapse of internet connection. To resolve, ensure the internet connection has been re-established, refresh the <MadCap:variable name="General.ProductName" /> home page, and retry logging in.</p>
+                <p>
+                    <img src="../Resources/Images/ErrorsIssues/neg1_error_072919.png" alt="error in the log in box which states &quot;unexpected response code: -1-&quot;" class="border" />
+                </p>
+                <p>(Reported July 2019)</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Error message in Developing Alternatives:&#160;"There was an error saving the model run 'xyz' "</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The error message you encountered appears within Developing Treatment Alternatives Run Model tab, when you attempt to assign a run name that is already used elsewhere within your <MadCap:variable name="General.ProductName" /> account. To alleviate this error, use a new name for your run. </p>
+                <p>
+                    <img src="../Resources/Images/ErrorsIssues/Error_DTA_behaviormodel_07292019.png" alt="error message at top of interface stating: there was an error saving the model run" class="border" />
+                </p>
+                <p>(Reported 7/12/17, updated 7/29/19)</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown MadCap:conditions="General.LaterRelease">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Error message in FTEM:&#160;Error retrieving wildfire FTEM audit log BO for wildfire Id #######. null</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>This error is encountered in FTEM&#160;when a user with an Agency Admin role attempts to view the audit log for a completed wildfire. Its cause is currently being investigated</p>
+                <p>
+                    <img src="../Resources/Images/ErrorsIssues/FTEM_error_retrieving.png" alt="error message on an otherwise blank FTEM screen" class="border" />
+                </p>
+                <p>(Reported 8/13/19))</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>
+                    <MadCap:keyword term="Gaps" />Gaps or holes in <MadCap:keyword term="uploaded shapefiles" />uploaded shapefiles</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>When uploading shapefiles with multiple adjoining polygons, <MadCap:variable name="General.ProductName" /> will automatically join the polygons into a single dataset; this process may create erroneous gaps or vertices where these polygons once touched. Visit <a href="../10-MapStudio/Files/ShapefileRepair.htm">Shapefile Repair</a> for details on how to repair and edit shapefiles.</p>
+                <p>(Reported April 2017)</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>GeoTiffs from <MadCap:variable name="General.ProductName" /> that are edited outside of <MadCap:variable name="General.ProductName" /> may cause FlamMap to crash when used</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <MadCap:snippetText src="../Resources/Snippets/Workspace/FlammapWarning.flsnp" />
+                </p>
+                <p>(Reported August of 2018)</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Horizontal streaks in large landscapes</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In the Develop Treatment Alternative task, on the "compare" step, horizontal "streaking" sometimes appears in the Landscape Change layer for large landscapes. These streaks do not reflect raster changes, they are introduced due to a re-sampling issue on the ArcGIS server.</p>
+                <p><b>Fix:</b> To remove the streaks, zoom in on the map and it will automatically re-draw the layer.</p>
+                <p>
+                    <img src="../Resources/Images/Summary/map_streaks.png" alt="landscape change layer with horizontal streaks running across landscape." />
+                </p>
+                <p>(Reported 2/22/18)</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Landscape Fire Behavior modeling output is incomplete</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
@@ -30,25 +100,27 @@
         </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Horizontal streaks in large landscapes</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Landscape perimeter does not line up</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>In the Develop Treatment Alternative task, on the "compare" step, horizontal "streaking" sometimes appears in the Landscape Change layer for large landscapes. These streaks do not reflect raster changes, they are introduced due to a re-sampling issues on the ArcGIS server.</p>
-                <p><b>Fix:</b> To remove the streaks, zoom in on the map and it will automatically re-draw the layer.</p>
+                <p>For landscapes created prior to September 2018: You may notice the blue boundary around  the landscape  does not perfectly match the edge of the landscape. This does not affect your data or use of the landscape in analyses, the boundary simply marks the approximate edge of your landscape.</p>
+                <p MadCap:conditions="General.Exclude">This text may be used if IFT-2555 gets implemented. For landscapes created prior to July 2018, you may notice the blue boundary around the landscape does not perfectly match the edge of the landscape. This does not affect your data or use of the landscape in analyses. The issue occurs because the landscape data is generated using a custom Albers projection that is unique to each one, while <MadCap:variable name="General.MapStudio" /> uses a universal projection. As a result, the upper left and lower right corners of the boundary match those of the landscape, but the sides are not an exact match. </p>
                 <p>
-                    <img src="../Resources/Images/Summary/map_streaks.png" alt="landscape change layer with horizontal streaks running across landscape." />
+                    <img src="../Resources/Images/ErrorsIssues/boundary_knownissue.png" alt="landscape boundary showing boundary line which does not quite line up with the edge of the landscape." class="border" />
                 </p>
-                <p>(Reported 2/22/18)</p>
+                <p>(Reported 7/18/20)</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>
-                    <MadCap:keyword term="Gaps" />Gaps or holes in <MadCap:keyword term="uploaded shapefiles" />uploaded shapefiles</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Multipart shapes from outside the landscape boundary can appear in drop-down menus</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>When uploading shapefiles with multiple adjoining polygons, <MadCap:variable name="General.ProductName" /> will automatically join the polygons into a single dataset; this process may create erroneous gaps or vertices where these polygons once touched. Visit <a href="../10-MapStudio/Files/ShapefileRepair.htm">Shapefile Repair</a> for details on how to repair and edit shapefiles.</p>
-                <p>(Reported April 2017)</p>
+                <p>Multipart shapes that lie in close proximity to a landscape may appear in drop-down menus for landscape tasks such as summarizing or modeling. While IFTDSS automatically filters these drop-down menus to show only shapes that intersect the landscape in question, these multipart shapes may be included if their extent intersects the landscape, regardless of whether the individual polygons that make up the shape do. In the example below, the multipart shape would appear in the drop-down because its extent, roughly indicated with a dotted line, intersects the landscape, even though neither polygon does. If a report were generated for the landscape using that multipart shape area of interest, the landscape features and/or model outputs would all be 0.</p>
+                <p>
+                    <img src="../Resources/Images/ErrorsIssues/overlapping_shape_extent.png" alt="a multipart shape with two polygons, its extent overlaps the landscape but neither individual polygon does" class="border" />
+                </p>
+                <p>(Reported February 2019)</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
@@ -80,66 +152,6 @@
             <MadCap:dropDownBody>
                 <p>If you're using IFTDSS landscape extents to download additional data from the LANDFIRE&#160;Data Distribution site, you'll have to re-clip the landfire files to match the <MadCap:variable name="General.ProductName" /> if you need them to match exactly to the same extent. See <a href="../10-MapStudio/Files/SpatialExtent.htm">Spatial Extent of <MadCap:variable name="General.ProductName" /> and LANDFIRE&#160;Data</a> for more information.</p>
                 <p>(Reported April 2017)</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Landscape perimeter does not line up</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>For landscapes created prior to September 2018: You may notice the blue boundary around  the landscape  does not perfectly match the edge of the landscape. This does not affect your data or use of the landscape in analyses, the boundary simply marks the approximate edge of your landscape.</p>
-                <p MadCap:conditions="General.Exclude">This text may be used if IFT-2555 gets implemented. For landscapes created prior to July 2018, you may notice the blue boundary around the landscape does not perfectly match the edge of the landscape. This does not affect your data or use of the landscape in analyses. The issue occurs because the landscape data is generated using a custom Albers projection that is unique to each one, while <MadCap:variable name="General.MapStudio" /> uses a universal projection. As a result, the upper left and lower right corners of the boundary match those of the landscape, but the sides are not an exact match. </p>
-                <p>
-                    <img src="../Resources/Images/ErrorsIssues/boundary_knownissue.png" alt="landscape boundary showing boundary line which does not quite line up with the edge of the landscape." class="border" />
-                </p>
-                <p>(Reported 7/18/20)</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>GeoTiffs from <MadCap:variable name="General.ProductName" /> that are edited outside of <MadCap:variable name="General.ProductName" /> may cause FlamMap to crash when used</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>
-                    <MadCap:snippetText src="../Resources/Snippets/Workspace/FlammapWarning.flsnp" />
-                </p>
-                <p>(Reported August of 2018)</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Multipart shapes from outside the landscape boundary can appear in drop-down menus</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>Multipart shapes that lie in close proximity to a landscape may appear in drop-down menus for landscape tasks such as summarizing or modeling. While IFTDSS automatically filters these drop-down menus to show only shapes that intersect the landscape in question, these multipart shapes may be included if their extent intersects the landscape, regardless of whether the individual polygons that make up the shape do. In the example below, the multipart shape would appear in the drop-down because its extent, roughly indicated with a dotted line, intersects the landscape, even though neither polygon does. If a report were generated for the landscape using that multipart shape area of interest, the landscape features and/or model outputs would all be 0.</p>
-                <p>
-                    <img src="../Resources/Images/ErrorsIssues/overlapping_shape_extent.png" alt="a multipart shape with two polygons, its extent overlaps the landscape but neither individual polygon does" class="border" />
-                </p>
-                <p>(Reported February 2019)</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Error message at log in:&#160;"Unexpected response code: -1-"</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>This error occurs when there is a lapse of internet connection. To resolve, ensure the internet connection has been re-established, refresh the <MadCap:variable name="General.ProductName" /> home page, and retry logging in.</p>
-                <p>
-                    <img src="../Resources/Images/ErrorsIssues/neg1_error_072919.png" alt="error in the log in box which states &quot;unexpected response code: -1-&quot;" class="border" />
-                </p>
-                <p>(Reported July 2019)</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Error message in Developing Alternatives:&#160;"There was an error saving the model run 'xyz' "</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>The error message you encountered appears within Developing Treatment Alternatives Run Model tab, when you attempt to assign a run name that is already used elsewhere within your <MadCap:variable name="General.ProductName" /> account. To alleviate this error, use a new name for your run. </p>
-                <p>
-                    <img src="../Resources/Images/ErrorsIssues/Error_DTA_behaviormodel_07292019.png" alt="error message at top of interface stating: there was an error saving the model run" class="border" />
-                </p>
-                <p>(Reported 7/12/17, updated 7/29/19)</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown MadCap:conditions="General.Exclude">
