@@ -214,7 +214,63 @@
     </TocEntry>
     <TocEntry
       Title="Strategic Planning"
-      Link="/Content/10-Cycle/StrategicPlanningAbout.htm">
+      Link="/Content/10-Cycle/StrategicPlanningAbout.htm"
+      conditions="General.QA ONLY">
+      <TocEntry
+        Title="Develop Treatment Alternatives">
+        <TocEntry
+          Title="Comparing Landscapes to Develop Treatement Alternatives"
+          Link="/Content/30-Tasks/DevTrtAlts/TrtmtAltsCompareLndscp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Editing a Landscape to Develop Treatment Alternatives"
+          Link="/Content/30-Tasks/DevTrtAlts/TrtmtAltsEditLandscp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="About Edit Rules"
+          Link="/Content/30-Tasks/LndscpEdit/RuleOrdering.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="Map Values"
+        conditions="General.QA ONLY">
+        <TocEntry
+          Title="About Mapping HVRAs"
+          Link="/Content/30-Tasks/QWRA/HVRAAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue"
+          conditions="General.QA ONLY" />
+        <TocEntry
+          Title="Map HVRAs Tutorial"
+          Link="/Content/30-Tasks/QWRA/HVRACreate.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          conditions="General.QA ONLY" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/30-Tasks/QWRA/HVRANational.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          conditions="General.QA ONLY" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/30-Tasks/ComparisonDashbrd.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        conditions="General.QA ONLY" />
+      <TocEntry
+        Title="Hazard, Exposure, Risk">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/30-Tasks/HazardExpRisk/ModelLBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Quantitative Wildfire Risk Assessment"
+          Link="/Content/30-Tasks/QWRA/QWRAAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/30-Tasks/HazardExpRisk/ExposureAnalysis.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="Prioritize Treatments"
+        conditions="General.LaterRelease" />
+    </TocEntry>
+    <TocEntry
+      Title="Strategic Planning"
+      Link="/Content/10-Cycle/StrategicPlanningAbout.htm"
+      conditions="General.Prod ONLY">
       <TocEntry
         Title="Develop Treatment Alternatives">
         <TocEntry

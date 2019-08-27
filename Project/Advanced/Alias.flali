@@ -361,4 +361,16 @@
     <Map Name="LayerListMasks" Link="/Content/10-MapStudio/Functions/LayerListMasks.htm" />
     <Map Name="LFB_download_differences" Link="/Content/20-Models/LFB/Out/LFB download differences.htm" />
     <Map Name="HVRANational" Link="/Content/30-Tasks/QWRA/HVRANational.htm" />
+    <Map Name="LBPDifferences" Link="/Content/20-Models/LBP/LBPDifferences.htm" />
+    <Map Name="ComparisonDashbrd" Link="/Content/30-Tasks/ComparisonDashbrd.htm" />
+    <Map Name="ExposureAnalysis" Link="/Content/30-Tasks/HazardExpRisk/ExposureAnalysis.htm" />
+    <Map Name="ModelLBP" Link="/Content/30-Tasks/HazardExpRisk/ModelLBP.htm" />
+    <Map Name="AirQual_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/AirQual_m.htm" />
+    <Map Name="Communities_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/Communities_m.htm" />
+    <Map Name="EcoSysFunc_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/EcoSysFunc_m.htm" />
+    <Map Name="InfraComm" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/InfraComm.htm" />
+    <Map Name="InfraHighInv_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/InfraHighInv_m.htm" />
+    <Map Name="InfraLowModInv_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/InfraLowModInv_m.htm" />
+    <Map Name="InfraPowerL_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/InfraPowerL_m.htm" />
+    <Map Name="MunDrinking_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/MunDrinking_m.htm" />
 </CatapultAliasFile>
