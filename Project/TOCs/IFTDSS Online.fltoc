@@ -40,6 +40,10 @@
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/00-AboutIFTDSS/Disclaimer.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Support Desk"
+      conditions="General.QA ONLY"
+      Link="/Content/00-AboutIFTDSS/SupportTicket.htm" />
   </TocEntry>
   <TocEntry
     Title="Get Started"
@@ -178,7 +182,64 @@
       Link="/Content/10-Cycle/PlanningCycleAbout.htm" />
     <TocEntry
       Title="Landscape Evaluation"
-      Link="/Content/10-Cycle/LandEvalAbout.htm">
+      Link="/Content/10-Cycle/LandEvalAbout.htm"
+      conditions="General.QA ONLY">
+      <TocEntry
+        Title="Create a Landscape"
+        Link="/Content/30-Tasks/CreateLCP/LCPCreateAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Landscape Summary"
+        Link="/Content/30-Tasks/Summaries/LandSummaryAbout.htm">
+        <TocEntry
+          Title="Generate Landscape Summary" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          Link="/Content/30-Tasks/Summaries/LandSummaryAbout.htm" />
+        <TocEntry
+          Title="Auto97th Summary Technical Documentation"
+          Link="/Content/30-Tasks/Summaries/Auto97Summary.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="Edit a Landscape"
+        Link="/Content/30-Tasks/LndscpEdit/LandscapeEditAbout.htm">
+        <TocEntry
+          Title="Making Landscape Edits" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          Link="/Content/30-Tasks/LndscpEdit/LandscapeEditAbout.htm" />
+        <TocEntry
+          Title="About Default Treatment/Disturbance Rules"
+          Link="/Content/30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Applying Edit Rules"
+          Link="/Content/30-Tasks/LndscpEdit/RuleOrdering.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Edit Rule Technical Documentation"
+          Link="/Content/30-Tasks/LndscpEdit/LandscapeEditTechTopic.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="Calculate Fire Behavior"
+        Link="/Content/20-Models/LFB/About.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Map Values"
+        conditions="General.QA ONLY">
+        <TocEntry
+          Title="About Mapping HVRAs"
+          Link="/Content/30-Tasks/MapValues/HVRAAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue"
+          conditions="General.QA ONLY" />
+        <TocEntry
+          Title="Map HVRAs Tutorial"
+          Link="/Content/30-Tasks/MapValues/HVRACreate.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          conditions="General.QA ONLY" />
+        <TocEntry
+          Title="HVRA Reference Data"
+          Link="/Content/30-Tasks/MapValues/HVRANational.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          conditions="General.QA ONLY" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Landscape Evaluation"
+      Link="/Content/10-Cycle/LandEvalAbout.htm"
+      conditions="General.Prod ONLY">
       <TocEntry
         Title="Create a Landscape"
         Link="/Content/30-Tasks/CreateLCP/LCPCreateAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -233,18 +294,18 @@
         conditions="General.QA ONLY">
         <TocEntry
           Title="About Mapping HVRAs"
-          Link="/Content/30-Tasks/QWRA/HVRAAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          Link="/Content/30-Tasks/MapValues/HVRAAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
           ChapterNumberReset="continue"
           conditions="General.QA ONLY" />
         <TocEntry
           Title="Map HVRAs Tutorial"
-          Link="/Content/30-Tasks/QWRA/HVRACreate.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          Link="/Content/30-Tasks/MapValues/HVRACreate.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
           conditions="General.QA ONLY" />
         <TocEntry
-          Title="[%=System.LinkedTitle%]"
-          Link="/Content/30-Tasks/QWRA/HVRANational.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          Title="HVRA Reference Data"
+          Link="/Content/30-Tasks/MapValues/HVRANational.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
           conditions="General.QA ONLY" />
       </TocEntry>
       <TocEntry
@@ -288,18 +349,18 @@
         conditions="General.QA ONLY">
         <TocEntry
           Title="About Mapping HVRAs"
-          Link="/Content/30-Tasks/QWRA/HVRAAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          Link="/Content/30-Tasks/MapValues/HVRAAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
           ChapterNumberReset="continue"
           conditions="General.QA ONLY" />
         <TocEntry
           Title="Map HVRAs Tutorial"
-          Link="/Content/30-Tasks/QWRA/HVRACreate.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          Link="/Content/30-Tasks/MapValues/HVRACreate.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
           conditions="General.QA ONLY" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/30-Tasks/QWRA/HVRANational.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          Link="/Content/30-Tasks/MapValues/HVRANational.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
           conditions="General.QA ONLY" />
       </TocEntry>
       <TocEntry
@@ -604,6 +665,9 @@
       <TocEntry
         Title="LBP Technical Documentation"
         Link="/Content/20-Models/LBP/TechDoc.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Mosaic LBP Outputs"
+        Link="/Content/20-Models/LBP/MoscaicLBP.htm" />
     </TocEntry>
     <TocEntry
       Title="Minimum Travel Time (MTT)"
@@ -848,7 +912,12 @@
       Link="https://www.youtube.com/channel/UC-Rwe70dxm0FTbxWZnigQsQ"
       StartSection="false" />
     <TocEntry
-      Title="Support Desk">
+      Title="Support Desk"
+      conditions="General.Exclude"
+      Link="/Content/00-AboutIFTDSS/SupportTicket.htm" />
+    <TocEntry
+      Title="Support Desk"
+      conditions="General.Prod ONLY">
       <TocEntry
         Title="Forums"
         Link="https://iftdsshelp.freshdesk.com/support/discussions" />

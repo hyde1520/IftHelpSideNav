@@ -9,7 +9,7 @@
             <li>
                 <p>Use the <span class="UIcomponent">Landscape Tools</span> <img src="../../Images/MapStudio/overview/button_landscapetools.png" alt="Landscape tools button" class="iftbutton" /> widget to check the landscape under the "Add to Map" tab. This adds the landscape to the map and the map's <span class="UIcomponent">Layer List</span>.</p>
                 <p>
-                    <img src="../../Images/MapStudio/dta_show_landscape.png" alt="Landscape Tools adds landscapes to map studio" class="borderlist">
+                    <img src="../../Images/MapStudio/lcp_tools/dta_show_landscape.png" alt="Landscape Tools adds landscapes to map studio" class="borderlist">
                     </img>
                 </p>
             </li>
@@ -26,7 +26,7 @@
         <h3>Adjust Transparency</h3>
         <p>It may be helpful to adjust the transparency of the layer to better see roads, landscape characteristics, and other map features. To do this,&#160;click <span class="UIcomponent">More Options</span> <img src="../../Images/ButtonsGeneral/moreoptions.png" alt="more options" class="iftbutton" /> to the right of the Landscape name in <span class="UIcomponent">Layer List</span>. A drop-down menu of options opens. Choose <span class="UIcomponent">Transparency</span>, which opens a slider bar allowing you to adjust the transparency level for that layer. Once satisfied with the level of transparency, close the slider bar by clicking the <span class="UIcomponent">More Options</span><img src="../../Images/ButtonsGeneral/moreoptions.png" alt="more options" class="iftbutton" /> button.</p>
         <p>
-            <img src="../../Images/MapStudio/dta_transparency.png" alt="transparency can be set using the more options icon to the right of each layer" class="border">
+            <img src="../../Images/MapStudio/layer_list/dta_transparency.png" alt="transparency can be set using the more options icon to the right of each layer" class="border">
             </img>
         </p>
         <h3>Adding Reference Layers</h3>
@@ -93,7 +93,7 @@
                     <p>To move a layer group, such as Landscape, up or down in Layer List, click the More Options <img src="../../Images/ButtonsGeneral/moreoptions.png" alt=" more options" class="iftbutton" /> button to the right of the layer and choose "Move up" or "Move down".</p>
                 </div>
                 <p>
-                    <img src="../../Images/MapStudio/dta_move_up_down.png" alt="use the more options button to move layer groups up or down" class="borderlist" />
+                    <img src="../../Images/MapStudio/layer_list/dta_move_up_down.png" alt="use the more options button to move layer groups up or down" class="borderlist" />
                 </p>
             </li>
         </ol>
@@ -103,14 +103,14 @@
             <li>
                 <p>Next, specify the layers to&#160;swipe. By default, the first layer in <span class="UIcomponent">Layer List</span> will be the one displayed in the Swipe box, and will appear in the top portion of the map, the next visible layer in Layer List will be the layer displayed under it. In the example below, "Model Output: Granite Creek LF2014 unedited – Auto97th" is displayed on the top, and the Landscape layer is displayed on the bottom. Slide the bar in the middle of the screen up and down. Notice that the areas with high flame lengths correspond to areas of Fuel Model 188 (TL8) with small patches 165 (TU5).</p>
                 <p>
-                    <img src="../../Images/MapStudio/dta_swipe_pretreatment.png" alt="using the swipe tool in the top right can help evaluate our landscape" class="borderlist">
+                    <img src="../../Images/MapStudio/swipe/dta_swipe_pretreatment.png" alt="using the swipe tool in the top right can help evaluate our landscape" class="borderlist">
                     </img>
                 </p>
             </li>
         </ol>
         <p>Next you'll want to view the topography to see how it corresponds to the areas displaying more intense fire behavior. Uncheck the boxes in the <span class="UIcomponent">Layer List</span> then re-check the "Granite Creek LF2014 unedited – Auto97th" layer. This will display only that behavior layer, and allow you to see the topography underneath. If this does not occur on your map, move your mouse up to the swipe box and make sure the Model Output layer is selected (See <a href="../../../10-MapStudio/Functions/Swipe.htm" target="_blank">Swipe widget for</a> for more detail).</p>
         <p>
-            <img src="../../Images/MapStudio/dta_swipe_pretreatment2.png" alt="swipe tool showing topography below the layer" class="borderlist">
+            <img src="../../Images/MapStudio/swipe/dta_swipe_pretreatment2.png" alt="swipe tool showing topography below the layer" class="borderlist">
             </img>
         </p>
         <p>As you swipe up and down you'll notice all the areas displaying more intense fire behavior are west or northwest facing slopes. Wrapping up this analysis by repeating this process in the northern part of the landscape, you notice there appears to be several areas that would produce more intense fire behavior. Also compare other aspects of fire behavior, such as Rate of Spread and Crown Fire Activity.</p>

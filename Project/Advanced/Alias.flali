@@ -278,8 +278,8 @@
     <Map Name="Scale" Link="/Content/20-Models/LBP/Out/DynamicMask.htm" />
     <Map Name="EstFuelMoisturesLFB" Link="/Content/20-Models/LFB/In/EstFuelMoisturesLFB.htm" />
     <Map Name="EstFuelMoisturesMTT" Link="/Content/20-Models/MTT/In/EstFuelMoisturesMTT.htm" />
-    <Map Name="HVRAAbout" Link="/Content/30-Tasks/QWRA/HVRAAbout.htm" />
-    <Map Name="HVRACreate" Link="/Content/30-Tasks/QWRA/HVRACreate.htm" />
+    <Map Name="HVRAAbout" Link="/Content/30-Tasks/MapValues/HVRAAbout.htm" />
+    <Map Name="HVRACreate" Link="/Content/30-Tasks/MapValues/HVRACreate.htm" />
     <Map Name="HistoricFuelTreatment_m" Link="/Content/10-MapStudio/RefLayerMetadata/DistHistory/HistFuelTrtPoly_m.htm" />
     <Map Name="MTBS" Link="/Content/10-MapStudio/Files/ReferenceLayers.htm" />
     <Map Name="FireHistpre1980" Link="/Content/10-MapStudio/RefLayerMetadata/DistHistory/FireHist_m.htm" />
@@ -360,7 +360,7 @@
     <Map Name="ShapesCheatsheet" Link="/Content/00-Concepts/ShapesCheatsheet.htm" />
     <Map Name="LayerListMasks" Link="/Content/10-MapStudio/Functions/LayerListMasks.htm" />
     <Map Name="LFB_download_differences" Link="/Content/20-Models/LFB/Out/LFB download differences.htm" />
-    <Map Name="HVRANational" Link="/Content/30-Tasks/QWRA/HVRANational.htm" />
+    <Map Name="HVRANational" Link="/Content/30-Tasks/MapValues/HVRANational.htm" />
     <Map Name="LBPDifferences" Link="/Content/20-Models/LBP/LBPDifferences.htm" />
     <Map Name="ComparisonDashbrd" Link="/Content/30-Tasks/ComparisonDashbrd.htm" />
     <Map Name="ExposureAnalysis" Link="/Content/30-Tasks/HazardExpRisk/ExposureAnalysis.htm" />
@@ -373,4 +373,5 @@
     <Map Name="InfraLowModInv_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/InfraLowModInv_m.htm" />
     <Map Name="InfraPowerL_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/InfraPowerL_m.htm" />
     <Map Name="MunDrinking_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/MunDrinking_m.htm" />
+    <Map Name="MoscaicLBP" Link="/Content/20-Models/LBP/MoscaicLBP.htm" />
 </CatapultAliasFile>

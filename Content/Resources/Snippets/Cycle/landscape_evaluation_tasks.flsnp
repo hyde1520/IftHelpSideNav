@@ -2,10 +2,11 @@
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <body>
         <ul>
-            <li>Generate a Landscape</li>
+            <li>Create a Landscape</li>
             <li>Edit or Correct a Landscape</li>
-            <li>Create an Automatic 97th Percentile Landscape Fire Behavior (Auto97th LFB) Report</li>
-            <li>Calculate Landscape Fire Behavior</li>
+            <li>Generate an Automatic 97th Percentile Landscape Fire Behavior (Auto97th LFB) Report</li>
+            <li MadCap:conditions="General.QA ONLY">Map Values</li>
+            <li>Model Landscape Fire Behavior</li>
         </ul>
         <p><a href="../../../10-Cycle/LandEvalAbout.htm" target="_blank">I want more detail on the Landscape Evaluation stage</a>
         </p>

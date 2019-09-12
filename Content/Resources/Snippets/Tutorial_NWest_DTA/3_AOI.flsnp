@@ -25,7 +25,7 @@
             <li>
                 <p>Click <span class="UIcomponent">Create</span>. These two areas are now saved as a single shape and available in the <span class="UIcomponent">Layer List</span> in Map Studio, as well as in your "Granite Creek Treatments" folder in <span class="UIcomponent">My Workspace</span>.</p>
                 <p>
-                    <img src="../../Images/MapStudio/dta_create_treatment_polys_updated.png" alt="create shapefiles using the 'Create/Edit Shapes' option in Map Studio" class="borderlist" />
+                    <img src="../../Images/MapStudio/create_edit_shp/dta_create_treatment_polys_updated.png" alt="create shapefiles using the 'Create/Edit Shapes' option in Map Studio" class="borderlist" />
                 </p>
             </li>
         </ol>

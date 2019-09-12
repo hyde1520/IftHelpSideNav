@@ -371,3 +371,4 @@
 #define InfraLowModInv_m 8069
 #define InfraPowerL_m 8070
 #define MunDrinking_m 8071
+#define MoscaicLBP 1192

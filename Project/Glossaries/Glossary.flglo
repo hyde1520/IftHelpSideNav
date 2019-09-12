@@ -391,7 +391,7 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
       <Term>Resource</Term>
     </Terms>
     <Definition
-      Link="">1. The tools, equipment, services, supplies, and personnel available for assignment to incidents. 2. The natural resources of an area.</Definition>
+      Link="">In the context of risk and exposure analysis, resources are naturally occurring—wildlife habitat, forage, timber, etc.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     TermClass=""
@@ -1234,20 +1234,7 @@ Defined by NWCG as: A release of combustion gases and aerosols into the atmosphe
   </GlossaryEntry>
   <GlossaryEntry
     TermClass=""
-    conditions="General.Exclude"
-    Stem=""
-    IgnoreCase="false">
-    <Terms>
-      <Term>HVR</Term>
-      <Term>Highly Valued Resources</Term>
-      <Term>Values at Risk</Term>
-    </Terms>
-    <Definition
-      Link="">Features on the landscape that are influenced positively and/or negatively by fire. These features are called values at risk or highly valued resources (HVR). Examples of values at risk include archaeological sites, historic buildings, wildland urban interface, airports, highway buffers, and conifer forests.</Definition>
-  </GlossaryEntry>
-  <GlossaryEntry
-    TermClass=""
-    conditions="General.Exclude"
+    conditions="General.Exclude,General.LaterRelease"
     Stem=""
     IgnoreCase="false">
     <Terms>
@@ -1282,7 +1269,7 @@ BP = # times a pixel burns / total number of fires simulated</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     TermClass=""
-    conditions="General.Exclude"
+    conditions="General.LaterRelease"
     Stem=""
     IgnoreCase="false">
     <Terms>
@@ -1772,7 +1759,8 @@ See also: needle drape</Definition>
   <GlossaryEntry
     glossTerm="Glossary.Term47"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    conditions="General.LaterRelease">
     <Terms>
       <Term>Loss</Term>
       <Term>Fire Damage</Term>
@@ -2169,7 +2157,8 @@ See also: needle drape</Definition>
   <GlossaryEntry
     glossTerm="Glossary.Term83"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    conditions="General.LaterRelease">
     <Terms>
       <Term>Risk</Term>
     </Terms>
@@ -2381,7 +2370,9 @@ NOTE: Risk has also been defined by the International Organization for Standardi
       <Term>Asset</Term>
     </Terms>
     <Definition
-      Link="">A human-made material object such as a building, communication tower, road, etc. of use or value to its owner. By contrast a resource is naturally occurring such as wildlife habitat or timber.  A resource may or may not benefit by fire but assets generally do not.</Definition>
+      Link="">An asset is a human-made thing—a building, communication tower, road, etc.—of use or value to its owner. 
+
+(Scott, Joe H.; Thompson Matthew P.; Calkin, David E. (2013) A Wildfire Risk Assessment Framework for Land and Resource Management . General Technical Report FMRS-GTR-315. USDA Forest Service, Rocky Mountain Research Station, 83 p.)</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term105"
@@ -2509,7 +2500,8 @@ NOTE: Risk has also been defined by the International Organization for Standardi
   <GlossaryEntry
     glossTerm="Glossary.Term117"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    conditions="General.LaterRelease">
     <Terms>
       <Term>Expected Net Value Change</Term>
       <Term>ENVC</Term>
@@ -2520,7 +2512,8 @@ NOTE: Risk has also been defined by the International Organization for Standardi
   <GlossaryEntry
     glossTerm="Glossary.Term118"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    conditions="General.LaterRelease">
     <Terms>
       <Term>Expected Value</Term>
     </Terms>
@@ -2587,7 +2580,9 @@ Gridded weather data provides more complete weather data coverage than from fixe
       <Term>Hazard</Term>
     </Terms>
     <Definition
-      Link="">A physical situation with potential for harm to persons or damage to resources and assets. Wildfire hazard can be described qualitatively as a fire environment—fuel, weather, topography, and ignitions—with potential for causing harm or damage. (As defined by Scott and others 2013)</Definition>
+      Link="">A physical situation with potential for harm to persons or damage to resources and assets. Wildfire hazard can be described qualitatively as a fire environment—fuel, weather, topography, and ignitions—with potential for causing harm or damage.
+
+(Scott, Joe H.; Thompson Matthew P.; Calkin, David E. (2013) A Wildfire Risk Assessment Framework for Land and Resource Management . General Technical Report FMRS-GTR-315. USDA Forest Service, Rocky Mountain Research Station, 83 p.)</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term125"
@@ -2608,17 +2603,6 @@ Gridded weather data provides more complete weather data coverage than from fixe
     </Terms>
     <Definition
       Link="">Any treatment of living and dead fuels that reduces the potential spread or consequences of fire.</Definition>
-  </GlossaryEntry>
-  <GlossaryEntry
-    glossTerm="Glossary.Term127"
-    Stem=""
-    IgnoreCase="false">
-    <Terms>
-      <Term>Highly Valued Resource or Asset</Term>
-      <Term>HVRA</Term>
-    </Terms>
-    <Definition
-      Link="">Highly valued resources or assets (HVRAs) are t hose resources or assets having sufficient value to be considered in risk assessments. Low or moderate values may not be analyzed so that efforts can be focused on the more highly valued resources and assets.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term128"
@@ -2672,30 +2656,10 @@ Gridded weather data provides more complete weather data coverage than from fixe
       Link="">A single feature within a landscape layer, such as fuel model, canopy cover, canopy base height, etc.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
-    glossTerm="Glossary.Term133"
-    Stem=""
-    IgnoreCase="false">
-    <Terms>
-      <Term>Highly Valued Resource or Asset</Term>
-      <Term>HVRA</Term>
-    </Terms>
-    <Definition
-      Link="">Those resources or assets having sufficient value to be considered in risk assessments. Low or moderate values may not be analyzed so that efforts can be focused on the more highly valued resources and assets (HVRAs).</Definition>
-  </GlossaryEntry>
-  <GlossaryEntry
-    glossTerm="Glossary.Term134"
-    Stem=""
-    IgnoreCase="false">
-    <Terms>
-      <Term>Integrated Wildfire Hazard</Term>
-    </Terms>
-    <Definition
-      Link="">Combines two measures of wildfire -- burn probability and conditional wildfire intensity -- into a single characteristic that can be mapped.</Definition>
-  </GlossaryEntry>
-  <GlossaryEntry
     glossTerm="Glossary.Term135"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    conditions="General.LaterRelease">
     <Terms>
       <Term>Net Value Change</Term>
       <Term>NVC</Term>
@@ -2706,7 +2670,8 @@ Gridded weather data provides more complete weather data coverage than from fixe
   <GlossaryEntry
     glossTerm="Glossary.Term136"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    conditions="General.LaterRelease">
     <Terms>
       <Term>Risk Assessment</Term>
     </Terms>
@@ -2716,7 +2681,8 @@ Gridded weather data provides more complete weather data coverage than from fixe
   <GlossaryEntry
     glossTerm="Glossary.Term137"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    conditions="General.LaterRelease">
     <Terms>
       <Term>Risk Analysis</Term>
     </Terms>
@@ -2726,7 +2692,8 @@ Gridded weather data provides more complete weather data coverage than from fixe
   <GlossaryEntry
     glossTerm="Glossary.Term138"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    conditions="General.LaterRelease">
     <Terms>
       <Term>Risk Management</Term>
     </Terms>
@@ -2736,7 +2703,8 @@ Gridded weather data provides more complete weather data coverage than from fixe
   <GlossaryEntry
     glossTerm="Glossary.Term139"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    conditions="General.LaterRelease">
     <Terms>
       <Term>Susceptibility</Term>
     </Terms>
@@ -2756,7 +2724,8 @@ Gridded weather data provides more complete weather data coverage than from fixe
   <GlossaryEntry
     glossTerm="Glossary.Term141"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    conditions="General.LaterRelease">
     <Terms>
       <Term>Value</Term>
     </Terms>
@@ -2766,7 +2735,8 @@ Gridded weather data provides more complete weather data coverage than from fixe
   <GlossaryEntry
     glossTerm="Glossary.Term142"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    conditions="General.LaterRelease">
     <Terms>
       <Term>Value Change</Term>
     </Terms>
@@ -3057,6 +3027,7 @@ Gridded weather data provides more complete weather data coverage than from fixe
     IgnoreCase="false">
     <Terms>
       <Term>Integrated Hazard</Term>
+      <Term>Integrated Wildfire Hazard</Term>
     </Terms>
     <Definition
       Link="">Combines two Landscape Burn Probability model outputs—burn probability and conditional flame length—into a single characteristic that can be mapped.</Definition>
@@ -3101,5 +3072,104 @@ represent the likelihood of fire intensity for six standard fire intensity level
     </Terms>
     <Definition
       Link="">Worst-case scenario with respect to the fire environment refers to extreme weather and fuel moisture conditions. The values needed to model these conditions can be derived from recent climatological data using statistical methods (i.e., percentile conditions) or known problem fire case studies.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term169"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Expected Area Burned</Term>
+    </Terms>
+    <Definition
+      Link="">The average amount of Highly Valued Resource and Asset (HVRA) area burned in the wildfire simulations.  It is calculated as the product of the Relative Extent (RE) and the mean Burn Probability of the HVRA.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term170"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Exposure</Term>
+    </Terms>
+    <Definition
+      Link="">The spatial coincidence of wildfire likelihood and intensity with the location of a resource or asset. 
+
+(Scott, Joe H.; Thompson Matthew P.; Calkin, David E. (2013) A Wildfire Risk Assessment Framework for Land and Resource Management . General Technical Report FMRS-GTR-315. USDA Forest Service, Rocky Mountain Research Station, 83 p.)</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term171"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Exposure Analysis</Term>
+    </Terms>
+    <Definition
+      Link="">An assessment of wildfire hazard—likelihood and intensity—where resources and assets are located.
+
+(Scott, Joe H.; Thompson Matthew P.; Calkin, David E. (2013) A Wildfire Risk Assessment Framework for Land and Resource Management . General Technical Report FMRS-GTR-315. USDA Forest Service, Rocky Mountain Research Station, 83 p.)</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term172"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Highly Valued Resource or Asset</Term>
+      <Term>HVRA</Term>
+    </Terms>
+    <Definition
+      Link="">Highly Valued Resource or Asset (HVRA).  The things we care about.  Features on the landscape that are influenced positively and/or negatively by fire. Some resources have only modest value and may not be analyzed in an assessment of risk to HVRAs. Likewise, low-value assets like outbuildings are often left un-analyzed so that efforts can be focused on the more highly valued resources and assets.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term173"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>HVRA Set Extent</Term>
+    </Terms>
+    <Definition
+      Link="">The HVRA Set: Extent is the geographic extent, or rectangular bounding box, used to define the area of the mapped sub-HVRAs. In IFTDSS the HVRA Set: Extent is set in the Map Values portion of the application and is defined by a Landscape, Landscape Burn Probability model output, or an Area of Interest (AOI).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term174"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Primary HVRA Category</Term>
+    </Terms>
+    <Definition
+      Link="">Primary HVRAs are the overall categories into which the sub-HVRAs are sorted. For example, ‘Habitat’ can be the primary HVRA category, with sub-HVRAs defined as the habitat for various individual species. When calculating risk, all calculations are done at the sub-HVRA level.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term175"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Relative Extent</Term>
+      <Term>RE</Term>
+    </Terms>
+    <Definition
+      Link="">Spatial footprint of an HVRA (Highly Valued Resource or Asset). RE can be measured as acres, or number of pixels.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term176"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Sub-HVRA</Term>
+    </Terms>
+    <Definition
+      Link="">Sub-HVRA’s are the geospatial component of HVRAs (Highly Valued Resources and Assets). For example, powerlines can be considered a sub-HVRA, and Infrastructure would be the primary HVRA. Quantitatively, all calculations are done at the sub-HVRA level. The hierarchical structure is simply a convenient way to organize and summarize a long list of HVRAs.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term127"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Fire Occurrence Area</Term>
+      <Term>FOA</Term>
+    </Terms>
+    <Definition
+      Link="">A Fire Occurrence Area describes a geographic area within which contemporary large-fire occurrence characteristics can be assumed to be uniform.
+
+(Scott, JH; 2014 Summarizing contemporary large-fire occurrence for land and resource management planning. Draft. Prepared report from Pyrologix LLC)</Definition>
   </GlossaryEntry>
 </CatapultGlossary>

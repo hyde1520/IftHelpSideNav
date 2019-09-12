@@ -42,7 +42,7 @@
             <li>
                 <p>Once everything looks good, click <span class="UIcomponent">Create</span> and wait  for the landscape to process.</p>
                 <p>
-                    <img src="../../Images/MapStudio/dta_obtain_landscape.png" alt="use the 'Landscape Tools' to add a new landscape" class="borderlist">
+                    <img src="../../Images/MapStudio/lcp_tools/dta_obtain_landscape.png" alt="use the 'Landscape Tools' to add a new landscape" class="borderlist">
                     </img>
                 </p>
             </li>
