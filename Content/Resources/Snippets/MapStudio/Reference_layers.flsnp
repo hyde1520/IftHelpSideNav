@@ -130,7 +130,8 @@
         </ul>
         <h3>Natural &amp;&#160;Cultural Resources - Roads and Trails</h3>
         <ul>
-            <li>USFWS Trails</li>
+            <li><a href="https://services.arcgis.com/QVENGdaPbd4LUkLV/arcgis/rest/services/FWS_HQ_NWRS_Trails/FeatureServer" target="_blank">USFWS Trails <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </li>
         </ul>
         <h3>Fire Environment and Safety</h3>
         <ul>

@@ -324,7 +324,7 @@
     <Map Name="CritAQ_class1_m" Link="/Content/10-MapStudio/RefLayerMetadata/NatCltr/CritAQ_m.htm" />
     <Map Name="CritAQ_NAAO3_m" Link="/Content/10-MapStudio/RefLayerMetadata/NatCltr/CritAQ_m.htm" />
     <Map Name="CritAQ_NAAPM_m" Link="/Content/10-MapStudio/RefLayerMetadata/NatCltr/CritAQ_m.htm" />
-    <Map Name="USFSWStrails_m" Link="/Content/10-MapStudio/Files/ReferenceLayers.htm" />
+    <Map Name="USFSWStrails_m" Link="/Content/10-MapStudio/RefLayerMetadata/NatCltr/USFWSTrls_m.htm" />
     <Map Name="AqtcAvoid_m" Link="/Content/10-MapStudio/RefLayerMetadata/FireEnv/AqtcAvoid_m.htm" />
     <Map Name="TerrAvoid_m" Link="/Content/10-MapStudio/Files/ReferenceLayers.htm" />
     <Map Name="FTEMPolyUSFWS_m" Link="/Content/10-MapStudio/RefLayerMetadata/FTEM/FTEM_m.htm" />
@@ -374,4 +374,9 @@
     <Map Name="InfraPowerL_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/InfraPowerL_m.htm" />
     <Map Name="MunDrinking_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/MunDrinking_m.htm" />
     <Map Name="MoscaicLBP" Link="/Content/20-Models/LBP/MoscaicLBP.htm" />
+    <Map Name="SupportTicket" Link="/Content/00-AboutIFTDSS/SupportTicket.htm" />
+    <Map Name="HVRASet" Link="/Content/30-Tasks/MapValues/HVRASet.htm" />
+    <Map Name="HVRAmapstudio" Link="/Content/30-Tasks/MapValues/HVRAAbout.htm" />
+    <Map Name="HVRACritHabPoly_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/HVRACritHabPoly_m.htm" />
+    <Map Name="HVRACritHabLine_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/HVRACritHabLine_m.htm" />
 </CatapultAliasFile>

@@ -3081,7 +3081,7 @@ represent the likelihood of fire intensity for six standard fire intensity level
       <Term>Expected Area Burned</Term>
     </Terms>
     <Definition
-      Link="">The average amount of Highly Valued Resource and Asset (HVRA) area burned in the wildfire simulations.  It is calculated as the product of the Relative Extent (RE) and the mean Burn Probability of the HVRA.</Definition>
+      Link="">The average amount of Highly Valued Resource or Asset (HVRA) area burned in the wildfire simulations.  It is calculated as the product of the Relative Extent (RE) and the mean Burn Probability of the HVRA.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term170"
@@ -3116,7 +3116,7 @@ represent the likelihood of fire intensity for six standard fire intensity level
       <Term>HVRA</Term>
     </Terms>
     <Definition
-      Link="">Highly Valued Resource or Asset (HVRA).  The things we care about.  Features on the landscape that are influenced positively and/or negatively by fire. Some resources have only modest value and may not be analyzed in an assessment of risk to HVRAs. Likewise, low-value assets like outbuildings are often left un-analyzed so that efforts can be focused on the more highly valued resources and assets.</Definition>
+      Link="">Highly Valued Resource or Asset (HVRA).  The things we care about.  Features on the landscape that are influenced positively and/or negatively by fire. Some resources have only modest value and may not be analyzed in an assessment of risk to HVRAs. Likewise, low-value assets like outbuildings are often left un-analyzed so that efforts can be focused on the more highly valued resources or assets.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term173"
@@ -3126,7 +3126,7 @@ represent the likelihood of fire intensity for six standard fire intensity level
       <Term>HVRA Set Extent</Term>
     </Terms>
     <Definition
-      Link="">The HVRA Set: Extent is the geographic extent, or rectangular bounding box, used to define the area of the mapped sub-HVRAs. In IFTDSS the HVRA Set: Extent is set in the Map Values portion of the application and is defined by a Landscape, Landscape Burn Probability model output, or an Area of Interest (AOI).</Definition>
+      Link="">The HVRA Set Extent is the geographic extent, or rectangular bounding box, used to define the area of the mapped sub-HVRAs. In IFTDSS the HVRA Set Extent is set in the Map Values portion of the application and is defined by a Landscape, Landscape Burn Probability model output, or an Area of Interest (AOI).</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term174"
@@ -3171,5 +3171,15 @@ represent the likelihood of fire intensity for six standard fire intensity level
       Link="">A Fire Occurrence Area describes a geographic area within which contemporary large-fire occurrence characteristics can be assumed to be uniform.
 
 (Scott, JH; 2014 Summarizing contemporary large-fire occurrence for land and resource management planning. Draft. Prepared report from Pyrologix LLC)</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term133"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>HVRA Set</Term>
+    </Terms>
+    <Definition
+      Link="">The Highly Valued Resources or Assests (HVRA) Set refers to the set the primary HVRA categories and sub HVRAs a user creates in the Map Values portion of IFTDSS.</Definition>
   </GlossaryEntry>
 </CatapultGlossary>

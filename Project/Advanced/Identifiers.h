@@ -372,3 +372,8 @@
 #define InfraPowerL_m 8070
 #define MunDrinking_m 8071
 #define MoscaicLBP 1192
+#define SupportTicket 1203
+#define HVRASet 1204
+#define HVRAmapstudio 1253
+#define HVRACritHabPoly_m 8072
+#define HVRACritHabLine_m 8073
