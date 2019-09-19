@@ -4,7 +4,38 @@
     </head>
     <body>
         <h1>About Map Values - Highly Valued Resources or Assets (HVRAs)</h1>
-        <p><a href="#" target="_blank"><a href="https://docs.google.com/document/d/1tZpPREvoKsa2CMBVLAV_fUFCDoVWqkNHuIR8usegIJE/edit#heading=h.ka4jjlu6z63n" target="_blank">https://docs.google.com/document/d/1tZpPREvoKsa2CMBVLAV_fUFCDoVWqkNHuIR8usegIJE/edit#heading=h.ka4jjlu6z63n</a></a>
+        <h2>Introduction</h2>
+        <p>Map Values allows you to create a consolidated spatial layer that contains Highly Valued Resources or Assets (HVRAs) for your area. This spatial layer is known as an HVRA Set. This HVRA Set is then saved in your Workspace for easy retrieval and display in Map Studio.  Overlaying HVRA Sets with model outputs in Map Studio enables quick qualitative assessment of modeled fire behavior in relation to your mapped values.</p>
+        <div class="notificationComingSoon">
+            <p>Creating an HVRA Set is a prerequisite to completing an Exposure Analysis or Risk Assessment, two features that will soon be phased into IFTDSS.</p>
+        </div>
+        <h2>Defining Map Values and HVRA Sets</h2>
+        <p>Values on the landscape are things that we care about, natural resources or human-made assets for example.  In IFTDSS, the term “value” refers specifically to Highly Valued Resources or Assets (HVRAs).</p>
+        <ul>
+            <li>
+                <p><b>Highly Valued Resources or Assets (HVRAs)</b> are landscape features that are influenced positively and/or negatively by fire. <span class="Emphasis">Resources are naturally occurring, while Assets are human-made</span>. </p>
+                <p>HVRAs are categorized by Primary and Sub-HVRAs:</p>
+                <ul>
+                    <li><b>Primary HVRAs</b> are the overall categories into which the Sub-HVRAs are sorted. For example, “habitat” can be the Primary HVRA, with Sub-HVRAs defined as the habitat for individual species.</li>
+                    <li>
+                        <p><b>Sub-HVRAs</b> are the geospatial component of Primary HVRA category. For example, “powerlines” can be considered a Sub-HVRA, and “infrastructure” would be the Primary HVRA. The hierarchical structure is simply a convenient way to organize and summarize a long list of HVRAs.</p>
+                        <p>
+                            <img src="../../Resources/Images/HVRAs/primary_sub_example.png" alt="Landscape with featuers (Sub-HVRAs), that are grouped into Primary HVRA Categories." class="border" />
+                        </p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <h2>Why Create an HVRA Set?</h2>
+        <p>Map Values allows you to create a consolidated spatial layer of HVRAs (HVRA Set) consisting of the values you select. Once you build an HVRA Set in IFTDSS it is saved in your Workspace and is available throughout IFTDSS. You can quickly view HVRA Sets in Map Studio, overlaying them with different model outputs and landscapes to evaluate values against fire behavior outputs, fuels models, proposed fuel treatments, fire history, and so forth.</p>
+        <p>Future versions of IFTDSS will offer Exposure Analysis and Quantitative Wildfire Risk Assessment capability. HVRA Sets will be a required input in these processes. Users will calculate risk (an estimate of the benefits or losses) based on Landscape Burn Probability model outputs.</p>
+        <p>
+            <img src="../../Resources/Images/HVRAs/QWRA_workflow.png" alt="QWRA workflow indicating HVRA-Sets are part of the risk assessment process." class="border" />
         </p>
+        <h2>Using HVRA Sets in IFTDSS</h2>
+        <p>Follow the steps in the <a href="HVRACreate.htm" target="_blank">Map Values tutorial</a> to create and view HVRA Sets in IFTDSS. When creating sets you can specify the geographic extent from a variety sources (outlined in the section below). When selecting HVRAs, you may choose to use <a href="HVRANational.htm" target="_blank">selected IFTDSS Reference Layers, HVRA National Layers</a>, or your own shape or shapefile.</p>
+        <h3>Geographic Extent Selection Considerations</h3>
+        <MadCap:snippetBlock src="../../Resources/Snippets/HVRAsets/geographicextent.flsnp" />
+        <p>HVRA Sets are easy to create, delete, copy and edit so don’t feel restricted from exploring each of the options above.</p>
     </body>
 </html>
