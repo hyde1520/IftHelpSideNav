@@ -208,17 +208,10 @@
     <Map Name="MTTFlowPaths" Link="/Content/20-Models/MTT/Out/MTTFlowPaths.htm" />
     <Map Name="SimTimes" Link="/Content/20-Models/LBP/In/SimTimesLBP.htm" />
     <Map Name="Spot" Link="/Content/20-Models/LBP/In/SpotLBP.htm" />
-    <Map Name="GettingStarted" Link="/Content/A_Introduction Topics/GettingStarted.htm" />
-    <Map Name="MoreInformation" Link="/Content/A_Introduction Topics/MoreInformation.htm" />
-    <Map Name="WhatsNew" Link="/Content/A_Introduction Topics/WhatsNew.htm" />
-    <Map Name="Feature1" Link="/Content/B_Feature Topics/Feature1.htm" />
-    <Map Name="Feature2" Link="/Content/B_Feature Topics/Feature2.htm" />
-    <Map Name="Feature3" Link="/Content/B_Feature Topics/Feature3.htm" />
-    <Map Name="Features" Link="/Content/B_Feature Topics/Features.htm" />
-    <Map Name="Procedure1" Link="/Content/C_Procedure Topics/Procedure1.htm" />
-    <Map Name="Procedure2" Link="/Content/C_Procedure Topics/Procedure2.htm" />
-    <Map Name="Procedure3" Link="/Content/C_Procedure Topics/Procedure3.htm" />
-    <Map Name="Procedures" Link="/Content/C_Procedure Topics/Procedures.htm" />
+    <Map />
+    <Map />
+    <Map />
+    <Map />
     <Map Name="File_Location" Link="/Content/Help Center Notes/File Location.htm" />
     <Map Name="FBFMCompareXLS" Link="/Content/00-Concepts/FBFM/FBFMCompareXLS.htm" />
     <Map Name="FireFilters" Link="/Content/10-FTEM/General/FireFilters.htm" />
@@ -248,7 +241,7 @@
     <Map Name="RunConsiderations" Link="/Content/20-Models/LBP/RunConsiderations.htm" />
     <Map Name="LandscapeLBP" Link="/Content/20-Models/LBP/In/LandscapeLBP.htm" />
     <Map Name="OutHazard" Link="/Content/20-Models/LBP/Out/IntHazard.htm" />
-    <Map Name="RiskAssessment" Link="/Content/30-Tasks/QWRA/QWRAAbout.htm" />
+    <Map Name="RiskAssessment" Link="/Content/30-Tasks/QWRA_EA/QWRAAbout.htm" />
     <Map Name="_1_runcreate_hh1" Link="/Content/50-Hover/Models/LBP/1_runcreate_hh.htm" />
     <Map Name="_2_wind_hh" Link="/Content/50-Hover/Models/LBP/2_wind_hh.htm" />
     <Map Name="_3_crownfire_hh" Link="/Content/50-Hover/Models/LBP/3_crownfire_hh.htm" />
@@ -278,8 +271,8 @@
     <Map Name="Scale" Link="/Content/20-Models/LBP/Out/DynamicMask.htm" />
     <Map Name="EstFuelMoisturesLFB" Link="/Content/20-Models/LFB/In/EstFuelMoisturesLFB.htm" />
     <Map Name="EstFuelMoisturesMTT" Link="/Content/20-Models/MTT/In/EstFuelMoisturesMTT.htm" />
-    <Map Name="HVRAAbout" Link="/Content/30-Tasks/MapValues/HVRAAbout.htm" />
-    <Map Name="HVRACreate" Link="/Content/30-Tasks/MapValues/HVRACreate.htm" />
+    <Map Name="HVRAAbout" Link="/Content/30-Tasks/QWRA_EA/MapValues/HVRAAbout.htm" />
+    <Map Name="HVRACreate" Link="/Content/30-Tasks/QWRA_EA/MapValues/HVRACreate.htm" />
     <Map Name="HistoricFuelTreatment_m" Link="/Content/10-MapStudio/RefLayerMetadata/DistHistory/HistFuelTrtPoly_m.htm" />
     <Map Name="MTBS" Link="/Content/10-MapStudio/Files/ReferenceLayers.htm" />
     <Map Name="FireHistpre1980" Link="/Content/10-MapStudio/RefLayerMetadata/DistHistory/FireHist_m.htm" />
@@ -360,14 +353,13 @@
     <Map Name="ShapesCheatsheet" Link="/Content/00-Concepts/ShapesCheatsheet.htm" />
     <Map Name="LayerListMasks" Link="/Content/10-MapStudio/Functions/LayerListMasks.htm" />
     <Map Name="LFB_download_differences" Link="/Content/20-Models/LFB/Out/LFB download differences.htm" />
-    <Map Name="HVRANational" Link="/Content/30-Tasks/MapValues/HVRANational.htm" />
+    <Map Name="HVRANational" Link="/Content/30-Tasks/QWRA_EA/MapValues/HVRANational.htm" />
     <Map Name="LBPDifferences" Link="/Content/20-Models/LBP/LBPDifferences.htm" />
     <Map Name="ComparisonDashbrd" Link="/Content/30-Tasks/ComparisonDashbrd.htm" />
-    <Map Name="ExposureAnalysis" Link="/Content/30-Tasks/HazardExpRisk/ExposureAnalysis.htm" />
-    <Map Name="ModelLBP" Link="/Content/30-Tasks/HazardExpRisk/ModelLBP.htm" />
+    <Map Name="ExposureAnalysis" Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/Overview.htm" />
+    <Map Name="ModelLBP" Link="/Content/30-Tasks/QWRA_EA/ModelLBP.htm" />
     <Map Name="AirQual_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/AirQual_m.htm" />
     <Map Name="Communities_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/Communities_m.htm" />
-    <Map Name="EcoSysFunc_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/EcoSysFunc_m.htm" />
     <Map Name="InfraComm" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/InfraComm.htm" />
     <Map Name="InfraHighInv_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/InfraHighInv_m.htm" />
     <Map Name="InfraLowModInv_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/InfraLowModInv_m.htm" />
@@ -375,8 +367,10 @@
     <Map Name="MunDrinking_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/MunDrinking_m.htm" />
     <Map Name="MoscaicLBP" Link="/Content/20-Models/LBP/MoscaicLBP.htm" />
     <Map Name="SupportTicket" Link="/Content/00-AboutIFTDSS/SupportTicket.htm" />
-    <Map Name="HVRASet" Link="/Content/30-Tasks/MapValues/HVRASet.htm" />
-    <Map Name="HVRAmapstudio" Link="/Content/30-Tasks/MapValues/HVRAAbout.htm" />
-    <Map Name="HVRACritHabPoly_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/HVRACritHabPoly_m.htm" />
-    <Map Name="HVRACritHabLine_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/HVRACritHabLine_m.htm" />
+    <Map Name="HVRASet" Link="/Content/30-Tasks/QWRA_EA/MapValues/HVRASet.htm" />
+    <Map Name="HVRAmapstudio" Link="/Content/30-Tasks/QWRA_EA/MapValues/HVRAAbout.htm" />
+    <Map Name="EcoFun_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/EcoFun_m.htm" />
+    <Map Name="RefforHVRAPwrPlnts_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/RefforHVRAPwrPlnts_m.htm" />
+    <Map Name="RefforHVRAElecSubstn_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/RefforHVRAElecSubstn_m.htm" />
+    <Map Name="RefforHVRATransLns_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/RefforHVRATransLns_m.htm" />
 </CatapultAliasFile>

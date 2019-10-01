@@ -8,7 +8,7 @@
         <MadCap:snippetBlock src="../../Resources/Snippets/Models/LBP/FSIM.flsnp" MadCap:conditions="General.QA ONLY" />
         <div class="notificationComingSoon">
             <p>
-				IFTDSS Landscape Burn Probability is an independent model in Playground. The model is the foundation of the <a href="../../30-Tasks/QWRA/QWRAAbout.htm" target="_blank">Quantitative Wildland Fire Risk Assessment</a> process (<a href="../../41-References/Citations.htm#Scott_etal_2013" target="_blank">Scott and others 2013</a>) that will be released incrementally. 
+				IFTDSS Landscape Burn Probability is an independent model in Playground. The model is the foundation of the <a href="../../30-Tasks/QWRA_EA/QWRAAbout.htm" target="_blank">Quantitative Wildland Fire Risk Assessment</a> process (<a href="../../41-References/Citations.htm#Scott_etal_2013" target="_blank">Scott and others 2013</a>) that will be released incrementally. 
 			</p>
         </div>
         <div class="notificationTip">
@@ -158,43 +158,7 @@
                 </ul>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot><a name="howtorun"></a>How to Run LBP</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <h2>Select the model</h2>
-                <p>From the <span class="UIcomponent">Modeling Playground</span>, select <span class="UIcomponent">Landscape Burn Probability</span> from the drop-down menu and click <span class="UIcomponent">Create Run</span>.</p>
-                <h2>Choose or Create a Landscape</h2>
-                <MadCap:snippetBlock src="../../Resources/Snippets/Models/Flammap/ChooseLCP.flsnp" />
-                <h2>Populate the Model Parameters and Run</h2>
-                <MadCap:snippetBlock src="../../Resources/Snippets/Models/LFB/LFBInputs.flsnp" />
-                <ol start="5" style="list-style-type: upper-alpha;">
-                    <li>
-                        <p>Specify a Simulation Time (Burn Period Length), from 4-12 hours. Because inputs should represent “<span class="Emphasis">problem fire</span>” conditions, the duration of the burn period should reflect the active burning period of wildfires of the area under extreme conditions. </p>
-                        <p>
-                            <img src="../../Resources/Images/Models/LBP/simulation_time.png" alt="simulation time field in IFTDSS" class="borderlist" />
-                        </p>
-                    </li>
-                    <li>
-                        <p>Choose to either leave the Spotting Probability as the default 20% (recommended for many scenarios) or adjust it as needed.</p>
-                        <p>
-                            <img src="../../Resources/Images/Models/LBP/spotting_default.png" alt="spotting probability field in iftdss" class="borderlist" />
-                        </p>
-                    </li>
-                    <li>
-                        <p>Choose a descriptive run name and click <span class="UIcomponent">Run</span>. LBP&#160;may take between several minutes and several hours to complete, <MadCap:variable name="General.ProductName" /> will automatically send you an email notification when your LBP&#160;run is complete.</p>
-                    </li>
-                    <li>
-                        <p><a name="lbprunqueue"></a><b>Check your run queue position:</b> You can check where <MadCap:keyword term="in line" />"in line" your run is  by clicking on the run name in <span class="UIcomponent">Playground</span>, and referring to the <MadCap:keyword term="Run Queue" />"Run Queue Position" in the right hand panel.</p>
-                        <p>
-                            <img src="../../Resources/Images/Models/LBP/runstatus.png" alt="the run status can be viewed by clicking on the run and reading the information in the right-hand panel." class="borderlist" />
-                        </p>
-                    </li>
-                </ol>
-                <p>&#160;</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
+        <p><a href="LBPTutorial.htm" target="_blank">See the LBP&#160;Tutorial page for step by step instructions on running LBP</a>.</p>
         <p>&#160;</p>
     </body>
 </html>

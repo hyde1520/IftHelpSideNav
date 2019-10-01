@@ -33,7 +33,7 @@
             </li>
             <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=77f2d0c34cb849338fac047d3a709d28" target="_blank">Campgrounds (BLM and USFS) <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
-            <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=8cd5ce09f6764a48b07e64d8f7ae121c" target="_blank">Mines</a>
+            <li><a href="https://services.arcgis.com/4OV0eRKiLAYkbH2J/arcgis/rest/services/Energy_Infrastructure/FeatureServer/2" target="_blank">Mines <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
         </ul>
         <h3>Infrastructure - Communication</h3>
@@ -112,9 +112,9 @@
         </ul>
         <h3>Natural &amp;&#160;Cultural Resources</h3>
         <ul>
-            <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=c9a02ff1947d4f3cbbf6b9fcedb64c87" target="_blank">Critical Habitat (line) <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            <li><a href="https://nifc.maps.arcgis.com/home/item.html?id=5abbf8a983c1434dbfcd669db4bdab5a" target="_blank">Critical Habitat (line) <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
-            <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=b2cea007777f441e8f3b3803e4af4596" target="_blank">Critical Habitat (polygon) <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            <li><a href="https://nifc.maps.arcgis.com/home/item.html?id=51c3364aed7e48d0ad59c79bd0aa0ed0" target="_blank">Critical Habitat (polygon) <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
             <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=0f93a92359d3469b8a119582e0aaf8f6" target="_blank">Sage Grouse <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
@@ -169,6 +169,24 @@
             <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=acdb4a650c824c91ba7efd51d3f9f008" target="_blank">USFWS FTEM Treatment Polys <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
         </ul>
+        <h3 MadCap:conditions="General.QA ONLY">National HVRA Data</h3>
+        <ul>
+            <li><a href="../../../10-MapStudio/RefLayerMetadata/HVRAs/Communities_m.htm" target="_blank">Communities <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="../../../10-MapStudio/RefLayerMetadata/HVRAs/MunDrinking_m.htm" target="_blank">Municipal Drinking Water <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="../../../10-MapStudio/RefLayerMetadata/HVRAs/InfraPowerL_m.htm" target="_blank">Infrastructure - Powerlines <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="../../../10-MapStudio/RefLayerMetadata/HVRAs/InfraComm.htm" target="_blank">Infrastructure - Communication Sites <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </li>
+            <li>I<a href="../../../10-MapStudio/RefLayerMetadata/HVRAs/InfraLowModInv_m.htm" target="_blank">nfrastructure - Low/Moderate Investment Buildings and Developed Recreation Sites <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+            <li><a href="../../../10-MapStudio/RefLayerMetadata/HVRAs/InfraHighInv_m.htm" target="_blank">Infrastructure - High Investment Buildings and Developed Recreation Sites <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="../../../10-MapStudio/RefLayerMetadata/HVRAs/AirQual_m.htm" target="_blank">Air Quality <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="../../../10-MapStudio/RefLayerMetadata/HVRAs/EcoFun_m.htm" target="_blank">Ecosystem Functions</a>
+            </li>
+        </ul>
         <h3>Other Layers</h3>
         <ul>
             <li>SILVIS Wildland Urban Interface</li>
@@ -177,8 +195,5 @@
             <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=50d97e69c8c14888988551830fcb9677#overview" target="_blank">Pyrome <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
         </ul>
-        <h3 MadCap:conditions="General.QA ONLY">HVRAs</h3>
-        <p MadCap:conditions="General.QA ONLY"><a href="https://doildt.maps.arcgis.com/home/item.html?id=5e0ef8619451420e9394265f7eea6803" target="_blank">RDPA Communities Tiles <i class="fa fa-external-link" aria-hidden="true"></i></a>
-        </p>
     </body>
 </html>

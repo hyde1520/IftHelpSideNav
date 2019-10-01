@@ -365,7 +365,7 @@
 #define ModelLBP 1175
 #define AirQual_m 8064
 #define Communities_m 8065
-#define EcoSysFunc_m 8066
+#define EcoFun_m 8066
 #define InfraComm 8067
 #define InfraHighInv_m 8068
 #define InfraLowModInv_m 8069
@@ -375,5 +375,6 @@
 #define SupportTicket 1203
 #define HVRASet 1204
 #define HVRAmapstudio 1253
-#define HVRACritHabPoly_m 8072
-#define HVRACritHabLine_m 8073
+#define RefforHVRAElecSubstn_m 8074
+#define RefforHVRAPwrPlnts_m 8072
+#define RefforHVRATransLns_m 8073

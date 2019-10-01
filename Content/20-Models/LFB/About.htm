@@ -10,55 +10,20 @@
             <object title="Landscape Fire Behavior YouTube" src="https://youtu.be/PhUP3oYr9CY" style="width: 560px;height: 315px;">
             </object>
         </p>
-        <div>
-            <ul>
-                <li>
-                    <MadCap:xref href="In/InOverviewLFB.htm" target="_blank">FlamMap Fire Behavior Inputs</MadCap:xref>
-                </li>
-                <li>
-                    <MadCap:xref href="Out/Output.htm" target="_blank">FlamMap Fire Behavior Outputs</MadCap:xref>
-                </li>
-                <li>
-                    <MadCap:xref href="In/CrownMethods.htm" target="_blank">Crown Fire Calculation Options</MadCap:xref>
-                </li>
-                <li style="font-weight: bold;"><a href="TechDoc.htm" target="_blank">Landscape Fire Behavior Technical Documentation</a>
-                </li>
-            </ul>
-            <MadCap:dropDown>
-                <MadCap:dropDownHead>
-                    <MadCap:dropDownHotspot><a name="CreateLFB"></a>Create a Landscape Fire Behavior Run for Geospatial Display</MadCap:dropDownHotspot>
-                </MadCap:dropDownHead>
-                <MadCap:dropDownBody>
-                    <p>The Landscape Fire Behavior modeling option can be reached in <MadCap:variable name="General.ProductName"></MadCap:variable> via My Modeling Playground, or the Landscape Evaluation Stage of the Planning Cycle (which will take you to <a href="../../10-Playground/ModelsOverview.htm" target="_blank">My Modeling Playground</a>). Once the Landscape Fire Behavior model is chosen from My Modeling Playground, follow these steps to populate and run the model:&#160;<a name="LFBPickLandscape"></a></p>
-                    <h2>Choose or Create a Landscape<a name="walkthrough"></a></h2>
-                    <MadCap:snippetBlock src="../../Resources/Snippets/Models/Flammap/ChooseLCP.flsnp" />
-                    <h2>Populate the Model Parameters and Run</h2>
-                    <p>Once your landscape is selected, populate the model parameters:</p>
-                    <MadCap:snippetBlock src="../../Resources/Snippets/Models/LFB/LFBInputs.flsnp" />
-                    <p>To finish, give your run a descriptive name and select <span class="UIcomponent">Run</span> to run the model, or <span class="UIcomponent">Save</span> to save the inputs you've created and return to work later.</p>
-                    <p>
-                        <img src="../../Resources/Images/Models/LFB/name_save_run.png" alt="name your run and click 'run' to generate outputs, or 'save' to save inputs and return to work later." class="border" />
-                    </p>
-                    <p>Once completed, Landscape Fire Behavior run outputs are available to be viewed in <span class="UIcomponent">Map Studio</span> using the <span class="UIcomponent">Simulation Output Tools</span> widget and clicking the model name from the list of completed model runs. You may also do this from <span class="UIcomponent">My&#160;Modeling Playground</span> and <span class="UIcomponent">My Workspace</span> by clicking on your file and selecting the <span class="UIcomponent">View on Map</span> option.</p>
-                    <p>
-                        <img src="../../Resources/Images/Models/LFB/LFB_availability.png" alt="LBF outputs are available throughout IFTDSS" class="border" />
-                    </p>
-                    <div class="notificationTip">
-                        <p>All saved runs are stored in the same folder as your selected landscape, or in the "Playground folder" if a new landscape is created but no folder specified.</p>
-                    </div>
-                    <p>To see how to generate an Automatic 97th Percentile Landscape Fire Behavior (Auto97th LFB) Report for your landscape, visit <a href="../../30-Tasks/Summaries/Auto97Summary.htm" target="_blank">Automatic 97th Percentile Landscape Fire Behavior (Auto97th LFB) Report Documentation</a>.</p>
-                </MadCap:dropDownBody>
-            </MadCap:dropDown>
+        <h2>Introduction</h2>
+        <p>One of the first stages in the landscape evaluation stage of landscape planning includes running a basic fire behavior model for your area. The Landscape Fire Behavior (LFB) model will create spatial outputs viewable in <a href="../../10-MapStudio/MapStudioAbout.htm" target="_blank">Map Studio</a> as well as summary reports. You can access the LFB model from the <a href="../../10-Cycle/LandEvalAbout.htm" target="_blank">Landscape Evaluation</a> stage of the Planning Cycle, as well as from <a href="../../10-Playground/ModelsOverview.htm" target="_blank">Modeling Playground</a>. </p>
+        <div class="notificationNote">
+            <p>The LFB model is the one that is automatically run when you create an Auto97th Landscape Summary.</p>
         </div>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Creating a Landscape Fire Behavior summary report for an Area of Interest</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>Once you have created a Landscape Fire Behavior modeling run, you have the option of creating a summary report from <span class="UIcomponent">My Workspace</span>. Summary reports present your data in graphs and tables that may be easily copied over into your own planning documents and reports.</p>
-                <p>The steps below outline how to do this for a specific area of interest. However, if you wanted to generate a report for the entire landscape you may do so by simply leaving the AOI field in the steps below blank.</p>
-                <MadCap:snippetBlock src="../../Resources/Snippets/Models/LFB/LFBAOIreport.flsnp" />
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
+        <h2>Defining Landscape Fire Behavior</h2>
+        <p>Landscape Fire Behavior in <MadCap:variable name="General.ProductName" /> is <a href="TechDoc.htm" target="_blank">driven by FlamMap</a>. FlamMap  is a fire behavior mapping and analysis software application that computes potential fire behavior characteristics (<a href="Out/Output.htm" target="_blank">such as spread rate, flame length, and fireline intensity</a>) over an entire landscape under constant weather and fuel moisture conditions input by the user. </p>
+        <h2>Why Create a Landscape Fire Behavior Model (LFB) Run</h2>
+        <p>Landscape Fire Behavior outputs can be useful in prioritizing treatment areas. Model outputs can be viewed spatially in Map Studio or as summary reports. These model outputs are also used in the <a href="../../30-Tasks/DevTrtAlts/TrtmtAltsCompareLndscp.htm" target="_blank">Developing Treatment Alternatives</a> task in IFTDSS.</p>
+        <h2>Using the LFB model</h2>
+        <p>To run an LFB model you will need to have <a href="../../30-Tasks/CreateLCP/LCPCreateAbout.htm" target="_blank">created a landscape</a> in IFTDSS. You can run LFB on newly created landscapes as well as ones you've made <a href="../../30-Tasks/LndscpEdit/LandscapeEditAbout.htm" target="_blank">edits to</a>. In addition to the landscape, you will provide the model with <a href="In/InOverviewLFB.htm" target="_blank">inputs describing fuel and moisture conditions</a>.</p>
+        <div>
+            <p><a href="LFBTutorial.htm" target="_blank">See the LFB tutorial for step by step instructions on performing an LFB model run.</a>
+            </p>
+        </div>
     </body>
 </html>

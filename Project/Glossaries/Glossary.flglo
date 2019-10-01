@@ -1612,7 +1612,8 @@ See also: needle drape</Definition>
   <GlossaryEntry
     glossTerm="Glossary.Term31"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    conditions="General.LaterRelease">
     <Terms>
       <Term>Benefits</Term>
       <Term>Fire Benefits</Term>
@@ -2575,7 +2576,8 @@ Gridded weather data provides more complete weather data coverage than from fixe
   <GlossaryEntry
     glossTerm="Glossary.Term124"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    conditions="General.Exclude">
     <Terms>
       <Term>Hazard</Term>
     </Terms>
@@ -3028,6 +3030,7 @@ Gridded weather data provides more complete weather data coverage than from fixe
     <Terms>
       <Term>Integrated Hazard</Term>
       <Term>Integrated Wildfire Hazard</Term>
+      <Term>Hazard</Term>
     </Terms>
     <Definition
       Link="">Combines two Landscape Burn Probability model outputs—burn probability and conditional flame length—into a single characteristic that can be mapped.</Definition>
@@ -3076,7 +3079,8 @@ represent the likelihood of fire intensity for six standard fire intensity level
   <GlossaryEntry
     glossTerm="Glossary.Term169"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    conditions="General.LaterRelease">
     <Terms>
       <Term>Expected Area Burned</Term>
     </Terms>
@@ -3086,7 +3090,8 @@ represent the likelihood of fire intensity for six standard fire intensity level
   <GlossaryEntry
     glossTerm="Glossary.Term170"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    conditions="General.LaterRelease">
     <Terms>
       <Term>Exposure</Term>
     </Terms>
@@ -3098,7 +3103,8 @@ represent the likelihood of fire intensity for six standard fire intensity level
   <GlossaryEntry
     glossTerm="Glossary.Term171"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    conditions="General.LaterRelease">
     <Terms>
       <Term>Exposure Analysis</Term>
     </Terms>
@@ -3141,7 +3147,8 @@ represent the likelihood of fire intensity for six standard fire intensity level
   <GlossaryEntry
     glossTerm="Glossary.Term175"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    conditions="General.LaterRelease">
     <Terms>
       <Term>Relative Extent</Term>
       <Term>RE</Term>
