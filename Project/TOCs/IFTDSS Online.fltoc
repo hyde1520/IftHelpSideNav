@@ -137,6 +137,9 @@
           Link="/Content/10-Workspace/downloads/FlmmpInputLBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
     </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/10-Workspace/GeneralSummary.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   </TocEntry>
   <TocEntry
     Title="Cycle">
@@ -155,10 +158,10 @@
         Title="Landscape Summary"
         Link="/Content/30-Tasks/Summaries/LandSummaryAbout.htm">
         <TocEntry
-          Title="Generate Landscape Summary" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          Title="Generate Auto97th Landscape Fire Behavior Report" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
           Link="/Content/30-Tasks/Summaries/LandSummaryAbout.htm" />
         <TocEntry
-          Title="Auto97th Summary Technical Documentation"
+          Title="Auto97th Technical Documentation"
           Link="/Content/30-Tasks/Summaries/Auto97Summary.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
       <TocEntry
@@ -179,7 +182,7 @@
       </TocEntry>
       <TocEntry
         Title="Calculate Fire Behavior"
-        Link="/Content/20-Models/LFB/About.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/10-Cycle/LandEvalFireBehavior.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
       Title="Strategic Planning">
@@ -237,6 +240,21 @@
           <TocEntry
             Title="Tutorial"
             Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/Tutorial.htm"></TocEntry>
+          <TocEntry
+            Title="Analysis Outputs">
+            <TocEntry
+              Title="Overview"
+              Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/EAOutputOverview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry
+              Title="Viewing Outputs"
+              Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/EAOutputIFTDSSView.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry
+              Title="Reports"
+              Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/EAOutputReports.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry
+              Title="Downloading Outputs"
+              Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/EAOutputDownloads.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          </TocEntry>
           <TocEntry
             Title="Considerations"
             Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/EAConsiderations.htm" />
@@ -429,20 +447,26 @@
       <TocEntry
         Title="Outputs">
         <TocEntry
-          Title="LFB Outputs"
+          Title="LFB Outputs Overview"
           Link="/Content/20-Models/LFB/Out/Output.htm" />
         <TocEntry
-          Title="LFB GeoTiff"
-          Link="/Content/10-Workspace/downloads/LFBGeoTiff.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Title="View in IFTDSS"
+          Link="/Content/20-Models/LFB/Out/ViewingLFBIFTDSS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
-          Title="FlamMap Input File"
-          Link="/Content/20-Models/LFB/UsingLFBFlmpInput.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="Load Input file in FlamMap"
-          Link="/Content/10-Workspace/downloads/FlmmpInputLFB.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="Lyr Symbology in ArcMap"
-          Link="/Content/10-Workspace/downloads/LFBArcLyr.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Title="Downloading">
+          <TocEntry
+            Title="Downloading"
+            Link="/Content/20-Models/LFB/Out/LFBDownloadsOverview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Lyr Symbology"
+            Link="/Content/10-Workspace/downloads/LFBArcLyr.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Load Input file in FlamMap"
+            Link="/Content/10-Workspace/downloads/FlmmpInputLFB.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Non-burnable pixel value updates"
+            Link="/Content/20-Models/LFB/Out/LFB download differences.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
         <TocEntry
           Title="Reclass GeoTiff in ArcMap"
           Link="/Content/10-Workspace/downloads/ArcGeoTiffReclss.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -507,7 +531,7 @@
       <TocEntry
         Title="Outputs">
         <TocEntry
-          Title="Outputs Overview"
+          Title="LBP Outputs Overview"
           Link="/Content/20-Models/LBP/Out/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="View in IFTDSS"

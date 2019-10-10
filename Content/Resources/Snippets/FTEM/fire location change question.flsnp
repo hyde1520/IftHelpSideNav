@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>My wildfire location had to be corrected, what happens to the treatment list?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>If a wildfire point or polygon has its location changed (corrected) in the system of record, the wildfire location will update in FTEM but the treatment list for that fire will remain unchanged. In that scenario, users must remove the erroneous treatments using the <span class="UIcomponent">Remove Treatment(s)</span> button, and use the <span class="UIcomponent">Add Treatment(s)</span> button to add treatments that intersect with the new wildfire location.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

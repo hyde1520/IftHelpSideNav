@@ -208,10 +208,6 @@
     <Map Name="MTTFlowPaths" Link="/Content/20-Models/MTT/Out/MTTFlowPaths.htm" />
     <Map Name="SimTimes" Link="/Content/20-Models/LBP/In/SimTimesLBP.htm" />
     <Map Name="Spot" Link="/Content/20-Models/LBP/In/SpotLBP.htm" />
-    <Map />
-    <Map />
-    <Map />
-    <Map />
     <Map Name="File_Location" Link="/Content/Help Center Notes/File Location.htm" />
     <Map Name="FBFMCompareXLS" Link="/Content/00-Concepts/FBFM/FBFMCompareXLS.htm" />
     <Map Name="FireFilters" Link="/Content/10-FTEM/General/FireFilters.htm" />
@@ -373,4 +369,20 @@
     <Map Name="RefforHVRAPwrPlnts_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/RefforHVRAPwrPlnts_m.htm" />
     <Map Name="RefforHVRAElecSubstn_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/RefforHVRAElecSubstn_m.htm" />
     <Map Name="RefforHVRATransLns_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/RefforHVRATransLns_m.htm" />
+    <Map Name="LandEvalFireBehavior" Link="/Content/10-Cycle/LandEvalFireBehavior.htm" />
+    <Map Name="MonitoringFTEM" Link="/Content/10-Cycle/MonitoringFTEM.htm" />
+    <Map Name="ReportingFTEM" Link="/Content/10-Cycle/ReportingFTEM.htm" />
+    <Map Name="GeneralSummary" Link="/Content/10-Workspace/GeneralSummary.htm" />
+    <Map Name="LBPTutorial" Link="/Content/20-Models/LBP/LBPTutorial.htm" />
+    <Map Name="LFBTutorial" Link="/Content/20-Models/LFB/LFBTutorial.htm" />
+    <Map Name="LFBDownloadsOverview" Link="/Content/20-Models/LFB/Out/LFBDownloadsOverview.htm" />
+    <Map Name="ViewingLFBIFTDSS" Link="/Content/20-Models/LFB/Out/ViewingLFBIFTDSS.htm" />
+    <Map Name="EAConsiderations" Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/EAConsiderations.htm" />
+    <Map Name="EAOutputDownloads" Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/EAOutputDownloads.htm" />
+    <Map Name="EAOutputIFTDSSView" Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/EAOutputIFTDSSView.htm" />
+    <Map Name="EAOutputOverview" Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/EAOutputOverview.htm" />
+    <Map Name="EAOutputReports" Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/EAOutputReports.htm" />
+    <Map Name="EATechnicalDoc" Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/EATechnicalDoc.htm" />
+    <Map Name="Tutorial" Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/Tutorial.htm" />
+    <Map Name="HVRAConsiderations" Link="/Content/30-Tasks/QWRA_EA/MapValues/HVRAConsiderations.htm" />
 </CatapultAliasFile>

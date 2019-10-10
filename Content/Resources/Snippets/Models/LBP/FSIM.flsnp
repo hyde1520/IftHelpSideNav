@@ -6,7 +6,7 @@
         <div class="notificationImportant">
             <p>Different than FSim - IFTDS LBP calculates burn probability and conditional flame length for a fixed set of weather conditions for a single burn period. The Large Fire Simulation Model (FSim, <a href="../../../../41-References/Citations.htm#Finney_etal_2011" target="_blank">Finney and others 2011</a>) used in many national, regional, and unit level assessments, calculates results based on variable weather inputs for fires burning multiple days throughout an entire fire season.</p>
             <p>See the <a href="../../../../20-Models/LBP/TechDoc.htm#Comparison" target="_blank">LBP&#160;technical documentation</a> for more detail.</p>
-            <p>See the <a href="../../../../20-Models/LBP/LBPDifferences.htm" target="_blank">LBP&#160;Comparison topic</a> for more details.</p>
+            <p MadCap:conditions="General.QA ONLY">See the <a href="../../../../20-Models/LBP/LBPDifferences.htm" target="_blank">LBP&#160;Comparison topic</a> for more details.</p>
         </div>
     </body>
 </html>

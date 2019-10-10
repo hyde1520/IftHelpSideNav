@@ -2028,7 +2028,9 @@ See also: needle drape</Definition>
       <Term>Midflame Windspeed</Term>
     </Terms>
     <Definition
-      Link="">The speed of the wind measured at the midpoint of the flames, considered to be most representative of the speed of the wind that is affecting fire behavior. Fire behavior models calculate midflame windspeed from 20 foot winds using a wind reduction factor.</Definition>
+      Link="">The speed of the wind measured at the midpoint of the flames, considered to be most representative of the speed of the wind that is affecting fire behavior. Fire behavior models calculate midflame windspeed from 20 foot winds using a wind reduction factor.
+
+In IFTDSS, Landscape Fire Behavior and Landscape Burn Probability it is the wind velocity at the midflame height. Calculated using wind adjustment factors based on stand height and canopy cover and the Wind Speed.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term69"
@@ -2196,7 +2198,9 @@ NOTE: Risk has also been defined by the International Organization for Standardi
       <Term>Solar Radiation</Term>
     </Terms>
     <Definition
-      Link="">The amount of sunlight exposed to the fuels.</Definition>
+      Link="">The amount of sunlight exposed to the fuels.
+
+In Landscape Fire Behavior outputs, it is he solar radiation of each cell for the ending time of the optional fuel moisture conditioning period, only available when fuel conditioning was used.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term87"
@@ -3188,5 +3192,122 @@ represent the likelihood of fire intensity for six standard fire intensity level
     </Terms>
     <Definition
       Link="">The Highly Valued Resources or Assests (HVRA) Set refers to the set the primary HVRA categories and sub HVRAs a user creates in the Map Values portion of IFTDSS.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term134"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Horizontal Movement Rate</Term>
+    </Terms>
+    <Definition
+      Link="">The rate of fire spread (slope basis), transformed to a horizontal projection.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term177"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Maximum Spread Direction</Term>
+    </Terms>
+    <Definition
+      Link="">Direction of maximum spread in degrees.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term178"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Maximum Spot Direction</Term>
+    </Terms>
+    <Definition
+      Link="">Direction of maximum spotting, the direction the spot was lofted from, NOT the direction the spot is coming from.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term179"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Maximum Spot Distance</Term>
+    </Terms>
+    <Definition
+      Link="">Maximum spot distance in meters.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term180"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Crown Fraction Burned</Term>
+    </Terms>
+    <Definition
+      Link="">A fraction between 0 and 1 indicating the severity of a crown fire. 0.0 indicates a surface fire while 1.0 represents an active crown fire. Intermediate values represent a scaled value of passive crown fire severity.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term181">
+    <Terms>
+      <Term>MyTerm</Term>
+    </Terms>
+    <Definition></Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term182"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>20 Ft Wind Direction</Term>
+    </Terms>
+    <Definition
+      Link="">Wind direction is the direction from which the wind is blowing, specified in degrees increasing clockwise from north (which is zero degrees), Uphill or Downhill.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term183"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>20 Ft Wind Speed</Term>
+    </Terms>
+    <Definition
+      Link="">Wind velocity measured 20 feet (6 m) above the top of the tree or shrub canopy, or above the ground if canopy is absent.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term184"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>1-hr Fuel Moisture</Term>
+    </Terms>
+    <Definition
+      Link="">Moisture content of 1-hour fuel (dead woody fuel 0 to ¼ inch or 0 to 6.4 mm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term185"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>10-hr Fuel Moisture</Term>
+    </Terms>
+    <Definition
+      Link="">Moisture content of 10-hour fuel (dead woody fuel ¼ to 1 inch or 0.6 to 2.5 cm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term186"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>100-hr Fuel Moisture</Term>
+    </Terms>
+    <Definition
+      Link="">Moisture content of 100-hour fuel (dead woody fuel 1 to 3 inches or 2.5 to 7.6 cm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term187"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>1000-hr Fuel Moisture</Term>
+    </Terms>
+    <Definition
+      Link="">Moisture content of 1000-hour fuel (dead woody fuel over 3 inches or 7.6 cm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass.</Definition>
   </GlossaryEntry>
 </CatapultGlossary>

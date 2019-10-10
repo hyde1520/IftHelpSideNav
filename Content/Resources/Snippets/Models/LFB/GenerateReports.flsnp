@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol style="list-style-type: upper-alpha;">
+            <li>From <span class="UIcomponent">My Workspace</span>, click on a landscape or model output file to see the file options.</li>
+            <li>
+                <p>Click the <span class="UIcomponent">Request a Report</span> option. A report dialogue box will open.</p>
+                <p>
+                    <img src="../../../Images/MyWorkspace/Request_a_report.png" alt="The 'request a report' button listed under the file options for a landscape file." class="borderlist" />
+                </p>
+            </li>
+            <li>(Optional) Specify an area of interest to constrain the report. If you leave this blank, the report will summarize the extent of the entire landscape or output.</li>
+            <li>
+                <p>Click <span class="UIcomponent">Create Report</span>. You may use the refresh button to check whether your report is ready. Reports may take several minutes to generate depending on file size.</p>
+                <p>
+                    <img src="../../../Images/MyWorkspace/report_aoi_and_refresh.png" alt="the report dialogue box in two stages. One showing the option to select an area of interest and create a report, the other showing an option to refresh once the report creation has started" class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>When ready your report name will become an active link and also become visible as a file in <span class="UIcomponent">My&#160;Workspace</span>, stored in the same folder as the file it summarizes. Click the <span class="UIcomponent">Report name</span> to open it in a new tab.</p>
+                <p>
+                    <img src="../../../Images/MyWorkspace/report_ready.png" alt="two captures, one showing the report dialogue box with the report name underlined as a hyperlink ready to open, the other showing the new report listed in Map Studio." class="borderlist" />
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>

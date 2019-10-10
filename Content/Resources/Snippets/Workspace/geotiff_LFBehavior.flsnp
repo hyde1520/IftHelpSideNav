@@ -87,13 +87,13 @@
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
                     <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">12</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Wind Direction <sup>B</sup></td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">20 Ft Wind Direction <sup>B</sup></td>
                     <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">degrees</td>
                     <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body2">N/A</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">13</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Wind Speed</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">20 Ft Wind Speed</td>
                     <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">mph</td>
                     <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body1">N/A</td>
                 </tr>
@@ -105,25 +105,25 @@
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">15</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">1 Hour Fuel Moisture <sup>A</sup></td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">1-hr Fuel Moisture <sup>A</sup></td>
                     <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">proportion</td>
                     <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body1">N/A</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
                     <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">16</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">10 Hour Fuel Moisture <sup>A</sup></td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">10-hr Fuel Moisture <sup>A</sup></td>
                     <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">proportion</td>
                     <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body2">N/A</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">17</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">100 Hour Fuel Moisture <sup>A</sup></td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">100-hr Fuel Moisture <sup>A</sup></td>
                     <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">proportion</td>
                     <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body1">N/A</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
                     <td style="text-align: center;" class="TableStyle-Standard-BodyB-Column1-Body2">18</td>
-                    <td class="TableStyle-Standard-BodyB-Column1-Body2">1000 Hour Fuel Moisture <sup>A,C</sup></td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body2">1000-hr Fuel Moisture <sup>A,C</sup></td>
                     <td style="text-align: center;" class="TableStyle-Standard-BodyB-Column1-Body2">proportion</td>
                     <td style="text-align: center;" class="TableStyle-Standard-BodyA-Column1-Body2">N/A</td>
                 </tr>

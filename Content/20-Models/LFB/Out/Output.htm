@@ -2,60 +2,163 @@
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../../Resources/TableStylesheets/Copy of Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
-        <link href="../../../Resources/TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
         <h1>
             <MadCap:keyword term="Landscape Fire Behavior" />
             <MadCap:keyword term="LFB" />Landscape <MadCap:keyword term="Fire Behavior" />Fire Behavior <MadCap:keyword term="LFB" />(LFB) Outputs<MadCap:keyword term="geotiff" /></h1>
-        <p>Landscape Fire Behavior outputs are available as geospatial layers in Map Studio (added to the map using the <span class="UIcomponent"><a href="../../../10-MapStudio/Functions/SimulationTools.htm" target="_blank"><img src="../../../Resources/Images/MapStudio/overview/button_SimOutput.png" alt="simulation output tools" class="iftbutton" /> Simulation Output Tools</a></span> widget)</p>
-        <div class="notificationTip">
-            <p>Need to view outputs for a specific polygon in <MadCap:variable name="General.MapStudio" />? Try the <a href="../../../10-MapStudio/Functions/LayerListMasks.htm" target="_blank">Add/Remove Layers</a> option in <img src="../../../Resources/Images/MapStudio/overview/button_layerlist.png" alt="layer list" /> <span class="UIcomponent">Layer List</span>.</p>
-        </div>
-        <p>Outputs can also be downloaded for use outside of <MadCap:variable name="General.ProductName" />. The output comes as a zip file and, once extracted, includes:</p>
+        <p>Select LFB outputs are available as geospatial layers in Map Studio, displayed in IFTDSS summary reports, and available for download and use within other applications. Availability of each output is indicated below by the presence of units. If N/A is listed under the units, that output is not available in that format.</p>
         <table style="width: 100%;mc-table-style: url('../../../Resources/TableStylesheets/Copy of Standard.css');caption-side: top;" class="TableStyle-Standard" cellspacing="3">
             <caption>File type and naming conventions for each output file.</caption>
             <col class="TableStyle-Standard-Column-Column1" style="width: 15%;" />
-            <col class="TableStyle-Standard-Column-Column1" style="width: 15%;" />
-            <col class="TableStyle-Standard-Column-Column1" style="width: 20%;" />
-            <col class="TableStyle-Standard-Column-Column1" style="width: 50%;" />
+            <col class="TableStyle-Standard-Column-Column1" style="width: 55%;" />
+            <col class="TableStyle-Standard-Column-Column1" style="width: 120px;" />
+            <col class="TableStyle-Standard-Column-Column1" style="width: 10%;" />
+            <col class="TableStyle-Standard-Column-Column1" style="width: 10%;" />
             <thead>
                 <tr class="TableStyle-Standard-Head-Header1">
                     <th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Output</th>
-                    <th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">File Type</th>
-                    <th class="TableStyle-Standard-HeadE-Column1-Header1">Naming</th>
-                    <th class="TableStyle-Standard-HeadD-Column1-Header1" style="font-weight: bold;">Brief Description</th>
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1">Brief Description</th>
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">
+                        <p>Map Studio Units</p>
+                    </th>
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1">Report Units</th>
+                    <th class="TableStyle-Standard-HeadD-Column1-Header1">Download Units</th>
                 </tr>
             </thead>
             <tbody>
                 <tr class="TableStyle-Standard-Body-Body1">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Multiband GeoTiff</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">.tif</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&lt;Run Name&gt;.tif</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">LFB&#160;outputs in raster format for use in ArcMap. See the table below for more detail.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Flame Length</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">The flame length of a spreading surface fire within the flaming front is measured from midway in the active flaming combustion zone to the average tip of the flames.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">feet</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">feet</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">meters</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">metadata</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">.xml</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&lt;Run Name&gt;.xml and .ovr</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Metadata describing the GeoTiff file, for use in ArcMap</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Rate of Spread</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">The relative activity of a fire in extending its horizontal dimensions. It is expressed as rate of forward spread of the fire front. </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">chains/hr</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">chains/hr</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">meters/min</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Input File</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">.input</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&lt;Run Name&gt;_FlamMap6.input </td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">LFP inputs for use in FlamMap 6.0. See the <a href="FlammapInputFile.htm" target="_blank">FlamMap Inputs</a> topic for more detail.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Fireline Intensity</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">The heat energy released per unit time from a one-foot-wide (or one-meter-wide) section of the fuel bed extending from the front to the rear of the flaming zone.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">BTU/ft-sec</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">BTU/ft-sec</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">kW/m</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
-                    <td class="TableStyle-Standard-BodyB-Column1-Body2">Symbology</td>
-                    <td class="TableStyle-Standard-BodyB-Column1-Body2">.lyr</td>
-                    <td class="TableStyle-Standard-BodyB-Column1-Body2">&lt;outputtype&gt;.lyr</td>
-                    <td class="TableStyle-Standard-BodyA-Column1-Body2">Symbology file for setting colors in ArcMap that match those used in <MadCap:variable name="General.ProductName" />.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Heat per Unit Area</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Heat energy release per unit area (square foot or square meter) within the flaming front of the surface fuel.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">BTU/ft<sup>2</sup></td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">BTU/ft<sup>2</sup></td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">kJ/m<sup>2</sup></td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Crown Fire Activity</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">
+                        Fire activity in the forest or shrub canopy. Characterized as surface fire, passive crown fire (torching), or active crown fire.
+                    </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">class</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">class</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">class</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Midflame Wind Speed</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Wind velocity at the midflame height. Calculated using wind adjustment factors based on stand height and canopy cover and the Wind Speed.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">mph</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">N/A</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">mph</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Horizontal Movement Rate</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">The rate of fire spread (slope basis), transformed to a horizontal projection.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">N/A</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">N/A</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">meters/min</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Maximum Spread Direction</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Direction of maximum spread in degrees.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">degrees</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">N/A</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">degrees</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Maximum Spot Direction</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Direction of maximum spotting, the direction the spot was lofted from, NOT the direction the spot is coming from.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">N/A</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">N/A</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">degrees</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Maximum Spot Distance</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Maximum spot distance in meters.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">N/A</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">N/A</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">meters</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Crown Fraction Burned<sup>A</sup></td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">A fraction between 0 and 1 indicating the severity of a  crown fire. 0.0 indicates a surface fire while 1.0 represents an active crown fire. Intermediate values represent a scaled value of passive crown fire severity.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">N/A</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">N/A</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">proportion</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">20 Ft Wind Direction <sup>B</sup></td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Wind direction is the direction from which the wind is blowing, specified in degrees increasing clockwise from north (which is zero degrees), Uphill or Downhill.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">N/A</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">N/A</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">degrees</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">20 Ft Wind Speed</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Wind velocity measured 20 feet (6 m) above the top of the tree or shrub canopy, or above the ground if canopy is absent.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">N/A</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">N/A</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">mph</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Solar Radiation</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">The solar radiation of each cell for the ending time of the optional fuel moisture conditioning period, only available when fuel conditioning was used.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">N/A</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">N/A</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">W/m<sup>2</sup></td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">1-hr Fuel Moisture <sup>A</sup></td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Moisture content of 1-hour fuel (dead woody fuel 0 to ¼ inch or 0 to 6.4 mm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">proportion</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">N/A</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">proportion</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">10-hr Fuel Moisture <sup>A</sup></td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Moisture content of 10-hour fuel (dead woody fuel ¼ to 1 inch or 0.6 to 2.5 cm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">proportion</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">N/A</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">proportion</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">100-hr Fuel Moisture <sup>A</sup></td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Moisture content of 100-hour fuel (dead woody fuel 1 to 3 inches or 2.5 to 7.6 cm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">proportion</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">N/A</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">proportion</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyB-Column1-Body2">1000-hr Fuel Moisture <sup>A,C</sup></td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body2">Moisture content of 1000-hour fuel (dead woody fuel over 3 inches or 7.6 cm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass.</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body2">N/A</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body2">N/A</td>
+                    <td class="TableStyle-Standard-BodyA-Column1-Body2">proportion</td>
                 </tr>
             </tbody>
         </table>
-        <p>Information included geospatially in <MadCap:variable name="General.ProductName" /> and in the GeoTiff file is listed below:</p>
-        <MadCap:snippetBlock src="../../../Resources/Snippets/Workspace/geotiff_LFBehavior.flsnp" />
-        <p>&#160;</p>
+        <p><sup>A</sup> GeoTiff values for non-burnable pixels are 0.000000 <a href="LFB download differences.htm" target="_blank">unless the GeoTiff download was request prior to 6/24/19</a>.</p>
+        <p><sup>B</sup> If Uphill or Downhill wind direction was selected during the model run, the wind direction will be displayed on the GeoTiff raster grid as -1 for uphill winds, -2 for downhill winds.</p>
+        <p><sup>C</sup> 1000 Hour fuel moisture will always be equal to 100 Hour&#160;fuel moisture in the GeoTiff download.</p>
     </body>
 </html>
