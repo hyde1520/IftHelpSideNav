@@ -9,7 +9,7 @@
                     <img src="../../../Images/MyWorkspace/Request_a_report.png" alt="The 'request a report' button listed under the file options for a landscape file." class="borderlist" />
                 </p>
             </li>
-            <li>(Optional) Specify an area of interest to constrain the report. If you leave this blank, the report will summarize the extent of the entire landscape or output.</li>
+            <li>(Optional) Specify an area of interest to constrain the report. If you leave this blank, the report summarizes the extent of the entire landscape or output.</li>
             <li>
                 <p>Click <span class="UIcomponent">Create Report</span>. You may use the refresh button to check whether your report is ready. Reports may take several minutes to generate depending on file size.</p>
                 <p>
@@ -17,7 +17,7 @@
                 </p>
             </li>
             <li>
-                <p>When ready your report name will become an active link and also become visible as a file in <span class="UIcomponent">My&#160;Workspace</span>, stored in the same folder as the file it summarizes. Click the <span class="UIcomponent">Report name</span> to open it in a new tab.</p>
+                <p>When ready, your report name becomes an active link and becomes visible as a file in <span class="UIcomponent">My&#160;Workspace</span>, stored in the same folder as the file it summarizes. Click the <span class="UIcomponent">Report name</span> to open it in a new tab.</p>
                 <p>
                     <img src="../../../Images/MyWorkspace/report_ready.png" alt="two captures, one showing the report dialogue box with the report name underlined as a hyperlink ready to open, the other showing the new report listed in Map Studio." class="borderlist" />
                 </p>

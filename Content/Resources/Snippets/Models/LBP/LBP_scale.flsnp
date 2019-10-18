@@ -11,7 +11,7 @@
         <p>
             <img src="../../../Images/MapStudio/mask_aoi_lbp_2.png" class="border" alt="outputs shown with the landscape extent, not including the landscape buffer area. Outputs differ with the smaller extent." />
         </p>
-        <p>When a mask is applied to the Area Of Interest (AOI), the analysis maximum burn probability is 0.032. This is lower than both the full model extent and the landscape extent (non-buffered) masked area. Similar to the landscape extent (non-buffered) mask, the legend reflects a change in the maximum value and the bins and symbology are changed.</p>
+        <p>When a mask is applied to the Area Of Interest (AOI), the analysis maximum burn probability is 0.0032. This is lower than both the full model extent and the landscape extent (non-buffered) masked area. Similar to the landscape extent (non-buffered) mask, the legend reflects a change in the maximum value and the bins and symbology are changed.</p>
         <p>
             <img src="../../../Images/MapStudio/mask_aoi_lbp_3.png" class="border" alt="outputs shown only within an area of interest. Outputs differ with the smaller extent." />
         </p>
