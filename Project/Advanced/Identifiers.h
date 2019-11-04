@@ -394,3 +394,9 @@
 #define EATechnicalDoc 1264
 #define Tutorial 1265
 #define HVRAConsiderations 1266
+#define AboutWXSLBP 1267
+#define classifiedweather_LBP 1268
+#define HVRASet_Namelist_hh 9043
+#define HVRASet_select_hh 9044
+#define LBP_select_hh 9045
+#define SubmitEA_hh 9046

@@ -139,7 +139,8 @@
         <ul>
             <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=02ec460b4bf14b2c94e4528e179d97ec" target="_blank">Aquatic Retardant Avoidance <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
-            <li>Terrestrial Retardant Avoidance</li>
+            <li><a href="https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_AerialFireRetardantAvoidanceAreas_01/MapServer" target="_blank">Terrestrial Retardant Avoidance <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </li>
         </ul>
         <h3>FTEM&#160;Treatment Points</h3>
         <ul>

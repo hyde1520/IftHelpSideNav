@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p class="comment" MadCap:conditions="General.QA ONLY">Add from:&#160;<a href="https://docs.google.com/document/d/1BCzEH_S0qbuQ5Egk6_J-iracQc8nmWAwvdT5S2AZeoY/edit" target="_blank">https://docs.google.com/document/d/1BCzEH_S0qbuQ5Egk6_J-iracQc8nmWAwvdT5S2AZeoY/edit</a></p>
+        <p class="comment" MadCap:conditions="General.QA ONLY">Last updated 10-22-18</p>
+        <p>The Condition (Select a Classified Weather Stream) option in <MadCap:variable name="General.ProductName"></MadCap:variable> adjusts dead fuel moisture based on set scenarios.</p>
+        <div class="notificationComingSoon">
+            <p>In this version <MadCap:variable name="General.VersionNumber" />) of <MadCap:variable name="General.ProductName" /> the only option is “Extreme,” which represents near-maximum or worst case conditions. Additional options will be available in future versions.</p>
+        </div>
+        <MadCap:snippetBlock src="../Flammap/extreme_weather_calc.flsnp">
+        </MadCap:snippetBlock>
+        <h2>Checking a Pyrome for 'completion' with <MadCap:variable name="General.MapStudio"></MadCap:variable> in <MadCap:variable name="General.ProductName"></MadCap:variable>:</h2>
+        <p>For those wanting to better understand the source of the classified conditioning data within <MadCap:variable name="General.ProductName"></MadCap:variable>, a reference layer within Map Studio allows you to view a map of the pyromes within the Continental US and Alaska. As shown in the map of pryrome earlier, some areas do not have pryome data. To view this layer in <MadCap:variable name="General.MapStudio"></MadCap:variable>, navigate to the approximate area in which you are working and follow these steps:</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Open the <span class="UIcomponent">Add Layers</span> widget.</li>
+            <li>
+                <p>From the <span class="UIcomponent">IFTDSS Reference Layers</span> tab, scroll down and expand the “Other Layers” section and click the box next to “Pyrome”.</p>
+                <p>
+                    <img src="../../../Images/Models/FMConditioning/open_pyrome.png" alt="view pyromes in the 'add layers' tab." class="borderlist">
+                    </img>
+                </p>
+            </li>
+            <li>
+                <p>You will notice several light gray boundary lines appear on the map. To view these better, open the <span class="UIcomponent">Basemap Gallery</span> and select the "Dark Gray Canvas" option. Close the Basemap Gallery.</p>
+                <p>
+                    <img src="../../../Images/Models/FMConditioning/adjust_basemap.png" alt="pryomes are best viewed with the 'dark gray canvas' baselayer turned on." class="borderlist">
+                    </img>
+                </p>
+            </li>
+            <li>Open the <span class="UIcomponent">Identify</span> widget <img src="../../../Images/MapStudio/overview/button_identify.png" alt="identify" class="iftbutton"></img> in the top right of <span class="UIcomponent">Map Studio</span>.</li>
+            <li>
+                <p>Click on your area and examine the data that appears in the <span class="UIcomponent">Identify</span> box.</p>
+            </li>
+            <li>
+                <p>Under the pyrome layer, if pyrome data is available for the area “ExtremeWXS” will show up as “Complete”. If “ExtremeWXS” is blank, there is not yet pryome data for the area.</p>
+                <p>
+                    <img src="../../../Images/Models/FMConditioning/pyrome_information.png" alt="use the 'identify' widget to view pyrome status." class="borderlist" />
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>

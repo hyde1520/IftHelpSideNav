@@ -438,10 +438,10 @@
             Link="/Content/20-Models/LFB/In/DeadFMConditioning.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           <TocEntry
             Title="IFTDSS Classified Weather Streams"
-            Link="/Content/20-Models/ClassifiedWthr/classifiedweather.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            Link="/Content/20-Models/ClassifiedWthr/classifiedweather_LFB.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           <TocEntry
             Title="Create your own .wxs file"
-            Link="/Content/20-Models/ClassifiedWthr/AboutWXS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            Link="/Content/20-Models/ClassifiedWthr/AboutWXSLFB.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
       </TocEntry>
       <TocEntry
@@ -509,11 +509,11 @@
             Title="About Conditioning"
             Link="/Content/20-Models/LBP/In/DeadFMConditioning.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           <TocEntry
-            Title="IFTDSS Classified Weather Streams"
-            Link="/Content/20-Models/ClassifiedWthr/classifiedweather.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            Title="IFTDSS Classified Weather Streams"
+            Link="/Content/20-Models/ClassifiedWthr/classifiedweather_LBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           <TocEntry
             Title="Create your own .wxs file"
-            Link="/Content/20-Models/ClassifiedWthr/AboutWXS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            Link="/Content/20-Models/ClassifiedWthr/AboutWXSLBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
         <TocEntry
           Title="Simulation Time"
@@ -620,10 +620,10 @@
             Link="/Content/20-Models/MTT/In/DeadFMConditioning.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           <TocEntry
             Title="Dead Fuel Moisture Conditioning"
-            Link="/Content/20-Models/ClassifiedWthr/classifiedweather.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            Link="/Content/20-Models/ClassifiedWthr/classifiedweather_LFB.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           <TocEntry
             Title="Creating a .wxs file for use in IFTDSS"
-            Link="/Content/20-Models/ClassifiedWthr/AboutWXS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            Link="/Content/20-Models/ClassifiedWthr/AboutWXSLFB.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
         <TocEntry
           Title="[%=System.LinkedTitle%]"

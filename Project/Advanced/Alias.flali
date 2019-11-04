@@ -199,8 +199,8 @@
     <Map Name="LCP_export1" Link="/Content/10-Workspace/downloads/LCPGeoTiff.htm" />
     <Map Name="GeoTiffAbout" Link="/Content/10-Workspace/downloads/DownloadHowTo.htm" />
     <Map Name="GeoTiffLFBOut" Link="/Content/10-Workspace/downloads/LFBGeoTiff.htm" />
-    <Map Name="AboutWXS" Link="/Content/20-Models/ClassifiedWthr/AboutWXS.htm" />
-    <Map Name="classifiedweather" Link="/Content/20-Models/ClassifiedWthr/classifiedweather.htm" />
+    <Map Name="AboutWXS" Link="/Content/20-Models/ClassifiedWthr/AboutWXSLFB.htm" />
+    <Map Name="classifiedweather" Link="/Content/20-Models/ClassifiedWthr/classifiedweather_LFB.htm" />
     <Map Name="CrownBasics" Link="/Content/20-Models/LFB/In/CrownBasics.htm" />
     <Map Name="_input_files_for_use_in_FlamMap_6" Link="/Content/20-Models/LFB/Out/FlammapInputFile.htm" />
     <Map Name="UsingLFBFlmpInput" Link="/Content/20-Models/LFB/UsingLFBFlmpInput.htm" />
@@ -385,4 +385,10 @@
     <Map Name="EATechnicalDoc" Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/EATechnicalDoc.htm" />
     <Map Name="Tutorial" Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/Tutorial.htm" />
     <Map Name="HVRAConsiderations" Link="/Content/30-Tasks/QWRA_EA/MapValues/HVRAConsiderations.htm" />
+    <Map Name="AboutWXSLBP" Link="/Content/20-Models/ClassifiedWthr/AboutWXSLBP.htm" />
+    <Map Name="classifiedweather_LBP" Link="/Content/20-Models/ClassifiedWthr/classifiedweather_LBP.htm" />
+    <Map Name="HVRASet_Namelist_hh" Link="/Content/50-Hover/ExposureAnalysis/HVRASet_Namelist_hh.htm" />
+    <Map Name="HVRASet_select_hh" Link="/Content/50-Hover/ExposureAnalysis/HVRASet_select_hh.htm" />
+    <Map Name="LBP_select_hh" Link="/Content/50-Hover/ExposureAnalysis/LBP_select_hh.htm" />
+    <Map Name="SubmitEA_hh" Link="/Content/50-Hover/ExposureAnalysis/SubmitEA_hh.htm" />
 </CatapultAliasFile>
