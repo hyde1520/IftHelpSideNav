@@ -590,7 +590,7 @@
         Title="LBP Technical Documentation"
         Link="/Content/20-Models/LBP/TechDoc.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="Mosaic LBP Outputs"
+        Title="Combining LBP Outputs"
         Link="/Content/20-Models/LBP/MoscaicLBP.htm" />
     </TocEntry>
     <TocEntry
@@ -833,7 +833,7 @@
       Link="/Content/00-Concepts/LANDFIRE.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Videos"
-      Link="https://www.youtube.com/channel/UC-Rwe70dxm0FTbxWZnigQsQ"
+      Link="https://www.youtube.com/channel/UC-Rwe70dxm0FTbxWZnigQsQ/playlists"
       StartSection="false" />
     <TocEntry
       Title="Support Desk"
