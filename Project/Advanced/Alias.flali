@@ -19,7 +19,7 @@
     <Map Name="FBFMInfo" Link="/Content/10-MapStudio/Files/FBFMInfo.htm" />
     <Map Name="FBFMSummaries" Link="/Content/10-MapStudio/Files/FBFMSummaries.htm" />
     <Map Name="LCPCreate" Link="/Content/10-MapStudio/Files/LCPCreate.htm" />
-    <Map Name="LCPInfo" Link="/Content/10-MapStudio/Files/LCPInfo.htm" />
+    <Map Name="LCPInfo" Link="/Content/20-Landscapes/LCPInfo.htm" />
     <Map Name="ShapefileInfo" Link="/Content/10-MapStudio/Files/ShapefileInfo.htm" />
     <Map Name="AddReferenceData" Link="/Content/10-MapStudio/Functions/AddReferenceData.htm" />
     <Map Name="FlamMapBackground" Link="/Content/20-Models/LFB/TechDoc.htm" />

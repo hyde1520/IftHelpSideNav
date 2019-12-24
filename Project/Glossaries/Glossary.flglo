@@ -1508,10 +1508,10 @@ Polygon, Shape, Shapefile, Mask: These terms are used interchangeably throughout
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>Extracted Unedited Landscape (LANDFIRE)</Term>
+      <Term>Unedited Landscape (LANDFIRE)</Term>
     </Terms>
     <Definition
-      Link="">Thirty meter (30m) resolution raw “ouf of the box” landscape data extracted from LANDFIRE that have not yet been edited. This is the landscape that you first create, specifying the size and name. These are the only landscapes available to select in Develop Treatment Alternatives when you are prompted to “Pick Landscape”. IFTDSS will always retain this original version under the name you have chosen.</Definition>
+      Link="">Thirty meter (30m) resolution raw “ouf of the box” landscape data from LANDFIRE that have not yet been edited. This is the landscape that you first create, specifying the size and name. These are the only landscapes available to select in Develop Treatment Alternatives when you are prompted to “Pick Landscape”. IFTDSS will always retain this original version under the name you have chosen.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term18"
@@ -1533,7 +1533,7 @@ Polygon, Shape, Shapefile, Mask: These terms are used interchangeably throughout
       <Term>EC Landscape</Term>
     </Terms>
     <Definition
-      Link="">Existing Condition (EC) landscape is a term used specifically in the Developing Treatment Alternatives task of IFTDSS. it refers to a landscape that represents, as closely as possible, the current condition of your landscape. It may be an edited landscape, or unedited. Extracted unedited landscapes can be used to represent EC if you determine the raw LANDFIRE data is current and accurate for your analysis purposes. You will see this term used when comparing treatment alternatives in IFTDSS.</Definition>
+      Link="">Existing Condition (EC) landscape is a term used specifically in the Developing Treatment Alternatives task of IFTDSS. it refers to a landscape that represents, as closely as possible, the current condition of your landscape. It may be an edited landscape, or unedited. Unedited landscapes can be used to represent EC if you determine the raw LANDFIRE data is current and accurate for your analysis purposes. You will see this term used when comparing treatment alternatives in IFTDSS.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term20"
@@ -1543,7 +1543,7 @@ Polygon, Shape, Shapefile, Mask: These terms are used interchangeably throughout
       <Term>Originating Landscape (Zero “0” landscape)</Term>
     </Terms>
     <Definition
-      Link="">A term used specifically in Developing Treatment Alternatives, it refers to the unedited landscape you select to begin developing treatment alternatives. It will be tagged with a zero zero icon indicating 'landscape zero' as defined in the help texticon. It defines the extent of your comparison, so any landscapes that match the extent of your originating landscape will become available during Developing Treatment Alternative task.</Definition>
+      Link="">A term used specifically in Developing Treatment Alternatives, it refers to the unedited landscape you select to begin developing treatment alternatives. It will be tagged with a zero icon indicating 'landscape zero' as defined in the help texticon. It defines the extent of your comparison, so any landscapes that match the extent of your originating landscape will become available during Developing Treatment Alternative task.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term24"

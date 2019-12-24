@@ -7,7 +7,7 @@
             <li>Double check that your landscape is selected</li>
             <li>Make sure the Add Default Fuels Treatment/Disturbance Edit Rule heading is open (if not, click the arrow on the far right of the tab heading).</li>
             <div class="notificationTip">
-                <p>If you hover your mouse over the “Light Thinning; Pile Burning” it will give you the details on what the rule represents. They are also listed in the <a href="../../../../30-Tasks/LndscpEdit/TreatmentRuleBackground.htm">Treatment Rule Background</a></p>
+                <p>If you hover your mouse over the “Light Thinning; Pile Burning” it will give you the details on what the rule represents. They are also listed in the <a href="../../../../30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" target="_blank">Treatment Rule Background</a></p>
             </div>
             <li> Select a treatment or disturbance.</li>
             <li>Use the radio buttons (if applicable) to further specify treatment details.</li>

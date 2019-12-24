@@ -12,7 +12,7 @@
         </div>
         <h2>Inputs</h2>
         <h3> Landscape</h3>
-        <p>The <a href="../../../10-MapStudio/Files/LCPInfo.htm" target="_blank">landscape file</a> contains all the information needed to complete landscape fire behavior modeling in <MadCap:variable name="General.ProductName"></MadCap:variable>. The landscape consists of geospatial layers characterizing ground, surface, and canopy fuels, as well as topography. The specific components of a landscape file include:</p>
+        <p>The <a href="../../../20-Landscapes/LCPInfo.htm" target="_blank">landscape file</a> contains all the information needed to complete landscape fire behavior modeling in <MadCap:variable name="General.ProductName"></MadCap:variable>. The landscape consists of geospatial layers characterizing ground, surface, and canopy fuels, as well as topography. The specific components of a landscape file include:</p>
         <ul>
             <li>Fuel Model</li>
             <li>Canopy Cover</li>

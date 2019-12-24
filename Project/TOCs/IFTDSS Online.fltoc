@@ -46,55 +46,80 @@
       Link="/Content/00-AboutIFTDSS/SupportTicket.htm" />
   </TocEntry>
   <TocEntry
+    Title="Landscapes">
+    <TocEntry
+      Title="About Landscapes"
+      Link="/Content/20-Landscapes/LCPInfo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Landscape Features"
+      Link="/Content/20-Landscapes/LCPFeatures.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/20-Landscapes/LCPVersions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/20-Landscapes/LCPBuffering.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/20-Landscapes/LCPTerminology.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/20-Landscapes/LCPConsiderations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/10-MapStudio/Files/LCPCreate.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Edit a Landscape"
+      Link="/Content/30-Tasks/LndscpEdit/LandscapeEditAbout.htm">
+      <TocEntry
+        Title="Making Landscape Edits" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        Link="/Content/30-Tasks/LndscpEdit/LandscapeEditAbout.htm" />
+      <TocEntry
+        Title="About Default Treatment/Disturbance Rules"
+        Link="/Content/30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Applying Edit Rules"
+        Link="/Content/30-Tasks/LndscpEdit/RuleOrdering.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Edit Rule Technical Documentation"
+        Link="/Content/30-Tasks/LndscpEdit/LandscapeEditTechTopic.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Shapes and Shapefiles">
+    <TocEntry
+      Title="About"
+      Link="/Content/10-MapStudio/Files/ShapefileInfo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Copy from Layers"
+      Link="/Content/10-MapStudio/Files/ShapeCopyfromRef.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Create or Edit"
+      Link="/Content/10-MapStudio/Functions/EditTools.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Creating Groups"
+      Link="/Content/10-MapStudio/Files/ShapeGroup.htm" />
+    <TocEntry
+      Title="Deleting"
+      Link="/Content/10-MapStudio/Files/DeleteShape.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Uploading"
+      Link="/Content/10-MapStudio/Functions/AddShapefile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Repairing"
+      Link="/Content/10-MapStudio/Files/ShapefileRepair.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Subsets for Treatments"
+      Link="/Content/10-MapStudio/Files/ShapefileGroup.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Spatial Extent &amp; LANDFIRE"
+      Link="/Content/10-MapStudio/Files/SpatialExtent.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+  <TocEntry
     Title="My Workspace">
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/10-Workspace/MyWorkspaceAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    <TocEntry
-      Title="About Shapes and Shapefiles">
-      <TocEntry
-        Title="About"
-        Link="/Content/10-MapStudio/Files/ShapefileInfo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Uploading"
-        Link="/Content/10-MapStudio/Functions/AddShapefile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Create or Edit"
-        Link="/Content/10-MapStudio/Functions/EditTools.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Copy from Layers"
-        Link="/Content/10-MapStudio/Files/ShapeCopyfromRef.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Creating Groups"
-        Link="/Content/10-MapStudio/Files/ShapeGroup.htm" />
-      <TocEntry
-        Title="Deleting"
-        Link="/Content/10-MapStudio/Files/DeleteShape.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Repairing"
-        Link="/Content/10-MapStudio/Files/ShapefileRepair.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Subsets for Treatments"
-        Link="/Content/10-MapStudio/Files/ShapefileGroup.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Spatial Extent &amp; LANDFIRE"
-        Link="/Content/10-MapStudio/Files/SpatialExtent.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    </TocEntry>
-    <TocEntry
-      Title="About Landscape Files">
-      <TocEntry
-        Title="About Landscapes" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-        Link="/Content/10-MapStudio/Files/LCPInfo.htm" />
-      <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/10-Workspace/downloads/LCPGeoTiff.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="LCP Symbology"
-        Link="/Content/10-Workspace/downloads/LCPArcLyr.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
-      <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/10-MapStudio/Files/LCPCreate.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    </TocEntry>
     <TocEntry
       Title="Downloads">
       <TocEntry
@@ -338,34 +363,7 @@
         Link="/Content/10-MapStudio/Functions/AttributeTable.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
-      Title="Using Landscapes">
-      <TocEntry
-        Title="About Landscapes"
-        Link="/Content/10-MapStudio/Files/LCPInfo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/10-MapStudio/Files/LCPCreate.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Making Landscape Edits" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-        Link="/Content/30-Tasks/LndscpEdit/LandscapeEditAbout.htm" />
-      <TocEntry
-        Title="About Default Treatment/Disturbance Rules"
-        Link="/Content/30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Applying Edit Rules"
-        Link="/Content/30-Tasks/LndscpEdit/RuleOrdering.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Edit Rule Technical Documentation"
-        Link="/Content/30-Tasks/LndscpEdit/LandscapeEditTechTopic.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/10-Workspace/downloads/DownloadPkgLCP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/00-Concepts/LANDFIRE.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    </TocEntry>
-    <TocEntry
-      Title="Using Shapes and Shapefiles">
+      Title="Shapes and Shapefiles">
       <TocEntry
         Title="About"
         Link="/Content/10-MapStudio/Files/ShapefileInfo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -393,6 +391,46 @@
       <TocEntry
         Title="Spatial Extent &amp; LANDFIRE"
         Link="/Content/10-MapStudio/Files/SpatialExtent.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Landscapes">
+      <TocEntry
+        Title="About Landscapes"
+        Link="/Content/20-Landscapes/LCPInfo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Landscape Features"
+        Link="/Content/20-Landscapes/LCPFeatures.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/20-Landscapes/LCPVersions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/20-Landscapes/LCPBuffering.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/20-Landscapes/LCPTerminology.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/20-Landscapes/LCPConsiderations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/10-MapStudio/Files/LCPCreate.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Edit a Landscape"
+        Link="/Content/30-Tasks/LndscpEdit/LandscapeEditAbout.htm">
+        <TocEntry
+          Title="Making Landscape Edits" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          Link="/Content/30-Tasks/LndscpEdit/LandscapeEditAbout.htm" />
+        <TocEntry
+          Title="About Default Treatment/Disturbance Rules"
+          Link="/Content/30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Applying Edit Rules"
+          Link="/Content/30-Tasks/LndscpEdit/RuleOrdering.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Edit Rule Technical Documentation"
+          Link="/Content/30-Tasks/LndscpEdit/LandscapeEditTechTopic.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
     </TocEntry>
     <TocEntry
       Title="[%=System.LinkedTitle%]"
