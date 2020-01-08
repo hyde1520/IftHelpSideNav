@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table style="width: 100%;mc-table-style: url('../../TableStylesheets/Standard.css');caption-side: top;" class="TableStyle-Standard" cellspacing="3">
+            <caption>Band number and units for outputs within <MadCap:variable name="General.ProductName" /> and contained in output files.</caption>
+            <col style="width: 117px;" class="TableStyle-Standard-Column-Column1" />
+            <col style="width: 209px;" class="TableStyle-Standard-Column-Column1" />
+            <col class="TableStyle-Standard-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Standard-Head-Header1">
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Band #</th>
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Output</th>
+                    <th class="TableStyle-Standard-HeadD-Column1-Header1" style="font-weight: bold;">Brief Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">1</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Burn Probability <sup>A B</sup></td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body1">The likelihood that a fire will burn a given point on the landscape (expressed as a value between 0 and 1). See <a href="../../../20-Models/LBP/Out/BurnProb.htm" target="_blank">Burn Probability</a> for more detail.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">2</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Conditional Flame Length <sup>A B</sup></td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body2">The mean flame length of all the fires that burn a given point on the landscape. See <a href="../../../20-Models/LBP/Out/ConditionalFL.htm" target="_blank">Conditional Flame Length</a> for more detail.
+</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">3</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Integrated Hazard <sup>A B</sup></td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body1">The combination of Burn Probability and Conditional Flame Length ranging from lowest probability/lowest conditional flame lengths to highest probability/highest conditional flame lengths. See <a href="../../../20-Models/LBP/Out/IntHazard.htm" target="_blank">Integrated Hazard</a> for more detail.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">4</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Sub-HVRA 1</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body2">Rasterized version of Sub-HVRA, where the band name is &lt;Primary HVRA Category&gt;-&lt;Sub-HVRA Short Name&gt;. Where the Sub-HVRA is present the value is 1, where it is absent the values is NoData. See <a href="../../../30-Tasks/QWRA_EA/ExposureAnalysis/EATechnicalDoc.htm" target="_blank">Exposure Analysis Technical Documentation</a> for more detail.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyB-Column1-Body1">n</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">Sub-HVRA n...</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyA-Column1-Body1">Each subsequent Sub-HVRA you use in the analysis will have its own band, there can be up to 100 Sub-HVRAs total within a GeoTiff.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><sup>A</sup> Non-burnable pixels are indicated with a value of -1.</p>
+        <p><sup>B</sup> Burnable but not burned pixels are indicated with a value of 0.</p>
+    </body>
+</html>

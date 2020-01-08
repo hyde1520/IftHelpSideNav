@@ -2377,7 +2377,7 @@ In Landscape Fire Behavior outputs, it is he solar radiation of each cell for th
     <Definition
       Link="">An asset is a human-made thing—a building, communication tower, road, etc.—of use or value to its owner. 
 
-(Scott, Joe H.; Thompson Matthew P.; Calkin, David E. (2013) A Wildfire Risk Assessment Framework for Land and Resource Management . General Technical Report FMRS-GTR-315. USDA Forest Service, Rocky Mountain Research Station, 83 p.)</Definition>
+(Scott, Joe H.; Thompson Matthew P.; Calkin, David E. (2013) A Wildfire Risk Assessment Framework for Land and Resource Management . General Technical Report RMRS-GTR-315. USDA Forest Service, Rocky Mountain Research Station, 83 p.)</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term105"
@@ -2588,7 +2588,7 @@ Gridded weather data provides more complete weather data coverage than from fixe
     <Definition
       Link="">A physical situation with potential for harm to persons or damage to resources and assets. Wildfire hazard can be described qualitatively as a fire environment—fuel, weather, topography, and ignitions—with potential for causing harm or damage.
 
-(Scott, Joe H.; Thompson Matthew P.; Calkin, David E. (2013) A Wildfire Risk Assessment Framework for Land and Resource Management . General Technical Report FMRS-GTR-315. USDA Forest Service, Rocky Mountain Research Station, 83 p.)</Definition>
+(Scott, Joe H.; Thompson Matthew P.; Calkin, David E. (2013) A Wildfire Risk Assessment Framework for Land and Resource Management . General Technical Report RMRS-GTR-315. USDA Forest Service, Rocky Mountain Research Station, 83 p.)</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term125"
@@ -3037,7 +3037,7 @@ Gridded weather data provides more complete weather data coverage than from fixe
       <Term>Hazard</Term>
     </Terms>
     <Definition
-      Link="">Combines two Landscape Burn Probability model outputs—burn probability and conditional flame length—into a single characteristic that can be mapped.</Definition>
+      Link="">Combines two Landscape Burn Probability model outputs—burn probability and conditional flame length—into a single characteristic that can be mapped. </Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term78"
@@ -3102,7 +3102,7 @@ represent the likelihood of fire intensity for six standard fire intensity level
     <Definition
       Link="">The spatial coincidence of wildfire likelihood and intensity with the location of a resource or asset. 
 
-(Scott, Joe H.; Thompson Matthew P.; Calkin, David E. (2013) A Wildfire Risk Assessment Framework for Land and Resource Management . General Technical Report FMRS-GTR-315. USDA Forest Service, Rocky Mountain Research Station, 83 p.)</Definition>
+(Scott, Joe H.; Thompson Matthew P.; Calkin, David E. (2013) A Wildfire Risk Assessment Framework for Land and Resource Management . General Technical Report RMRS-GTR-315. USDA Forest Service, Rocky Mountain Research Station, 83 p.)</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term171"
@@ -3115,7 +3115,7 @@ represent the likelihood of fire intensity for six standard fire intensity level
     <Definition
       Link="">An assessment of wildfire hazard—likelihood and intensity—where resources and assets are located.
 
-(Scott, Joe H.; Thompson Matthew P.; Calkin, David E. (2013) A Wildfire Risk Assessment Framework for Land and Resource Management . General Technical Report FMRS-GTR-315. USDA Forest Service, Rocky Mountain Research Station, 83 p.)</Definition>
+(Scott, Joe H.; Thompson Matthew P.; Calkin, David E. (2013) A Wildfire Risk Assessment Framework for Land and Resource Management . General Technical Report RMRS-GTR-315. USDA Forest Service, Rocky Mountain Research Station, 83 p.)</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term172"
@@ -3136,7 +3136,7 @@ represent the likelihood of fire intensity for six standard fire intensity level
       <Term>HVRA Set Extent</Term>
     </Terms>
     <Definition
-      Link="">The HVRA Set Extent is the geographic extent, or rectangular bounding box, used to define the area of the mapped sub-HVRAs. In IFTDSS the HVRA Set Extent is set in the Map Values portion of the application and is defined by a Landscape, Landscape Burn Probability model output, or an Area of Interest (AOI).</Definition>
+      Link="">The HVRA Set Extent is the geographic extent, or rectangular bounding box, used to define the area of the mapped Sub-HVRAs. In IFTDSS the HVRA Set Extent is set in the Map Values portion of the application and is defined by a Landscape, Landscape Burn Probability model output, or an Area of Interest (AOI).</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term174"
@@ -3146,7 +3146,7 @@ represent the likelihood of fire intensity for six standard fire intensity level
       <Term>Primary HVRA Category</Term>
     </Terms>
     <Definition
-      Link="">Primary HVRAs are the overall categories into which the sub-HVRAs are sorted. For example, ‘Habitat’ can be the primary HVRA category, with sub-HVRAs defined as the habitat for various individual species. When calculating risk, all calculations are done at the sub-HVRA level.</Definition>
+      Link="">Primary HVRAs are the overall categories into which the Sub-HVRAs are sorted. For example, ‘Habitat’ can be the Primary HVRA category, with Sub-HVRAs defined as the habitat for various individual species. When calculating risk, all calculations are done at the Sub-HVRA level.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term175"
@@ -3168,7 +3168,7 @@ represent the likelihood of fire intensity for six standard fire intensity level
       <Term>Sub-HVRA</Term>
     </Terms>
     <Definition
-      Link="">Sub-HVRA’s are the geospatial component of HVRAs (Highly Valued Resources and Assets). For example, powerlines can be considered a sub-HVRA, and Infrastructure would be the primary HVRA. Quantitatively, all calculations are done at the sub-HVRA level. The hierarchical structure is simply a convenient way to organize and summarize a long list of HVRAs.</Definition>
+      Link="">Sub-HVRA’s are the geospatial component of HVRAs (Highly Valued Resources and Assets). For example, powerlines can be considered a Sub-HVRA, and Infrastructure would be the Primary HVRA. Quantitatively, all calculations are done at the Sub-HVRA level. The hierarchical structure is simply a convenient way to organize and summarize a long list of HVRAs.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term127"
@@ -3191,7 +3191,7 @@ represent the likelihood of fire intensity for six standard fire intensity level
       <Term>HVRA Set</Term>
     </Terms>
     <Definition
-      Link="">The Highly Valued Resources or Assests (HVRA) Set refers to the set the primary HVRA categories and sub HVRAs a user creates in the Map Values portion of IFTDSS.</Definition>
+      Link="">The Highly Valued Resources or Assests (HVRA) Set refers to the set the Primary HVRA categories and sub HVRAs a user creates in the Map Values portion of IFTDSS.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term134"
