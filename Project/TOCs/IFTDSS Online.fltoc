@@ -46,7 +46,7 @@
       Link="/Content/00-AboutIFTDSS/SupportTicket.htm" />
   </TocEntry>
   <TocEntry
-    Title="Landscapes">
+    Title="Using Landscapes">
     <TocEntry
       Title="About Landscapes"
       Link="/Content/20-Landscapes/LCPInfo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -97,7 +97,7 @@
     </TocEntry>
   </TocEntry>
   <TocEntry
-    Title="Shapes and Shapefiles">
+    Title="Using Shapes">
     <TocEntry
       Title="About"
       Link="/Content/10-MapStudio/Files/ShapefileInfo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -125,6 +125,49 @@
     <TocEntry
       Title="Spatial Extent &amp; LANDFIRE"
       Link="/Content/10-MapStudio/Files/SpatialExtent.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+  <TocEntry
+    Title="Using Downloads"
+    conditions="General.QA ONLY">
+    <TocEntry
+      Title="How To Download"
+      Link="/Content/10-Workspace/downloads/DownloadHowTo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Downloads Available in IFTDSS"
+      Link="/Content/10-Workspace/downloads/DownloadPkgs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Use in ArcMap">
+      <TocEntry
+        Title="Open GeoTiff in ArcMap"
+        Link="/Content/10-Workspace/downloads/ArcGeoTiffOpen.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Reclassing GeoTiff in ArcMap"
+        Link="/Content/10-Workspace/downloads/ArcGeoTiffReclss.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Set Symbology">
+        <TocEntry
+          Title="Import LCP Symbology"
+          Link="/Content/10-Workspace/downloads/LCPArcLyr.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Import LFB Symbology"
+          Link="/Content/10-Workspace/downloads/LFBArcLyr.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Import LBP Symbology"
+          Link="/Content/10-Workspace/downloads/LBPArcLyr.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Use in FlamMap">
+      <TocEntry
+        Title="Load LCP in FlamMap"
+        Link="/Content/10-Workspace/downloads/FlmmpGeoTiffLoad.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Load LFB input file in FlamMap"
+        Link="/Content/10-Workspace/downloads/FlmmpInputLFB.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Load LBP input file in FlamMap"
+        Link="/Content/10-Workspace/downloads/FlmmpInputLBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
   </TocEntry>
   <TocEntry
     Title="My Workspace">

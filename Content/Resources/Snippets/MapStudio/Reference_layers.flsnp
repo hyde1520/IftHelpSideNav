@@ -172,7 +172,7 @@
             <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=acdb4a650c824c91ba7efd51d3f9f008" target="_blank">USFWS FTEM Treatment Polys <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
         </ul>
-        <h3 MadCap:conditions="General.QA ONLY">National HVRA Data</h3>
+        <h3>National HVRA Data</h3>
         <ul>
             <li><a href="../../../10-MapStudio/RefLayerMetadata/HVRAs/Communities_m.htm" target="_blank">Communities <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>

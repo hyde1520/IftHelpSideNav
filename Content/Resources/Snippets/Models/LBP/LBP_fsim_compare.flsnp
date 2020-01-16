@@ -7,10 +7,8 @@
             <li>Suppression efforts</li>
         </ul>
         <h3>Weather over time</h3>
-        <p>
-            <MadCap:variable name="General.ProductName" /> and FlamMap model fire behavior with a fixed set of weather and fuel moisture that you input. Fsim models fire behavior over multiple days and takes into account that past ~20 years of historic data for forecast what the weather is likely to be when these events occur.</p>
+        <p><MadCap:variable name="General.ProductName" /> and FlamMap model fire behavior with a fixed set of weather and fuel moisture that you input. FSim models fire behavior over multiple days and takes into account that past ~20 years of historic data for forecast what the weather is likely to be when these events occur.</p>
         <h3>Suppression efforts</h3>
-        <p>
-            <MadCap:variable name="General.ProductName" /> and FlamMap model fire behavior do not take into account  fire suppression efforts. Fsim incorporates suppression events, based on the line building rates in various fuel types, when determining fire progression.</p>
+        <p><MadCap:variable name="General.ProductName" /> and FlamMap model fire behavior do not take into account  fire suppression efforts. FSim incorporates suppression events, based on the line building rates in various fuel types, when determining fire progression.</p>
     </body>
 </html>
