@@ -42,10 +42,10 @@
                             <img src="../../Resources/Images/DTA/dta_pick_landscape.png" class="borderlist" alt="drop-down menus let you select a landscape and an optional area of interest." /> </p>
                     </li>
                 </ol>
-                <h3>Originating Landscape vs. Existing Landscape?</h3>
+                <h3>Originating Landscape vs. Existing Condition Landscape?</h3>
                 <ul>
                     <li>The "Originating Landscape"&#160;is your unedited Landfire download. Any landscapes that match its extent will be available in the remaining steps, including the editing step. </li>
-                    <li>The "Existing Landscape"&#160;refers to the landscape that most closely resembles the existing condition of your analysis area. This could be your Originating Landscape (if no Landfire edits are needed), it could be a previously edited landscape that matches the Originating Landscape's extent, or it could be a landscape you create by making edits in the next step of the comparison. </li>
+                    <li>The "Existing Condition Landscape"&#160;refers to the landscape that most closely resembles the existing condition of your analysis area. This could be your Originating Landscape (if no Landfire edits are needed), it could be a previously edited landscape that matches the Originating Landscape's extent, or it could be a landscape you create by making edits in the next step of the comparison. </li>
                 </ul>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
@@ -54,6 +54,9 @@
                 <MadCap:dropDownHotspot>Edit the landscape to simulate landscape conditions and treatment scenarios</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
+                <div class="notificationImportant">
+                    <p>If you are using LANDFIRE 2016 data, or data for AK, the Default Fuels Treatment editing method will be unavailable, you must edit that data with User Created rules.</p>
+                </div>
                 <p>If you have edited versions of your Originating Landscape that were created elsewhere in <MadCap:variable name="General.ProductName"></MadCap:variable>, they will be available in subsequent steps. However, if you need to create these, or make alternate versions, you may do so in this editing step.</p>
                 <p>There are two methods for making edits to your landscape, <span class="UIcomponent">Add Default Fuels Treatment/Disturbance Edit Rule</span>, <a href="../LndscpEdit/TreatmentRuleBackground.htm" target="_blank">which relies upon the Landfire Lookup rules for various fuels treatments and times since disturbance.</a> Alternatively, use <span class="UIcomponent">User Created Edit Rules</span> to create your own editing rules.</p>
                 <MadCap:snippetBlock src="../../Resources/Snippets/Editing/EditLandscapeRules/RuleEditingWarning.flsnp">
@@ -109,13 +112,13 @@
                 <MadCap:dropDownHotspot><a name="Compare"></a>Compare model outputs for your treatment alternatives</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>To begin,  select a treatment or disturbance landscape, which will be tagged with a "1". Next, select your Existing Landscape (The landscape prior to your disturbance or treatment) our existing landscape, which will be tagged with a "2". The comparison displays the difference in landscape features and fire behavior between the two landscapes. </p>
+                <p>To begin,  select a treatment or disturbance landscape, which will be tagged with a "1". Next, select your Existing Condition Landscape (The landscape prior to your disturbance or treatment), which will be tagged with a "2". The comparison displays the difference in landscape features and fire behavior between the two landscapes. </p>
                 <p>
                     <img src="../../Resources/Images/DTA/Haypress_map_compare_numbers.png" alt="model output change resulting from model output from Landscape 2 subtracted from model output from  landscape 1." class="border">
                     </img>
                 </p>
                 <div class="notificationNote">
-                    <p>Why 2-1? The use of "1" and "2" in the comparison tool is product of how <MadCap:variable name="General.ProductName"></MadCap:variable> calculates the comparison. For example, if we are interested in the change in flame length between a Treatment and the Existing landscape, we'd select the Treatment first (it gets assigned "1") and the Existing condition landscape second (it gets assigned "2"). <MadCap:variable name="General.ProductName"></MadCap:variable> calculates landscape change as:</p>
+                    <p>Why 2-1? The use of "1" and "2" in the comparison tool is product of how <MadCap:variable name="General.ProductName" /> calculates the comparison. For example, if we are interested in the change in flame length between a Treatment and the Existing Condition Landscape, we'd select the Treatment first (it gets assigned "1") and the Existing condition landscape second (it gets assigned "2"). <MadCap:variable name="General.ProductName" /> calculates landscape change as:</p>
                     <p>1-2=landscape change</p>
                     <p>For example, if flame lengths in the treated area are 3 feet (landscape “1”) , and flame lengths in the untreated area are 8 feet (landscape “2”), the resulting comparison landscape will show a value of -5, or a reduction in flame length of 5 feet:</p>
                     <p>3ft-8ft = -5 ft.</p>
@@ -136,7 +139,7 @@
                     </img>
                 </p>
                 <p>In the pictured example above, we can see flame length and rate of spread both decreased substantially in the treatment areas, and crown fire activity also decreased.</p>
-                <p>You can use the <span class="UIcomponent">Swipe</span> widget, to swipe back and forth between layers, as pictured below. For example, you may turn off all layers except the two model outputs for a treated and existing landscape and swipe between the two to note the differences. Select the <span class="UIcomponent">Swipe</span> <img src="../../Resources/Images/MapStudio/overview/button_slider.png" alt="swipe tool button" /> widget in the top right of the map interface. If you are unfamiliar with Swipe, read more about the <a href="../../10-MapStudio/Functions/Swipe.htm" target="_blank">swipe widget</a>. </p>
+                <p>You can use the <span class="UIcomponent">Swipe</span> widget, to swipe back and forth between layers, as pictured below. For example, you may turn off all layers except the two model outputs for a treated and Existing Condition Landscape and swipe between the two to note the differences. Select the <span class="UIcomponent">Swipe</span> <img src="../../Resources/Images/MapStudio/overview/button_slider.png" alt="swipe tool button" /> widget in the top right of the map interface. If you are unfamiliar with Swipe, read more about the <a href="../../10-MapStudio/Functions/Swipe.htm" target="_blank">swipe widget</a>. </p>
                 <p>
                     <img src="../../Resources/Images/DTA/swipetool_tut.png" alt="swiping between two layers in the the map" class="border">
                     </img>

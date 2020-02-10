@@ -19,33 +19,36 @@
                 <ul>
                     <li><b>Geographic Extent</b>
                         <ul>
-                            <li><b>HVRA Set Extent</b>: turned on by default, visible as a black bounding box</li>
-                            <li><b>Landscape Extent (non-buffered)</b> turned on by default, visible as a turquoise bounding box</li>
+                            <li><b>HVRA Set Extent</b>: turned on by default, visible as a black bounding box.</li>
+                            <li><b>Landscape Extent (non-buffered)</b> turned on by default, visible as a turquoise bounding box.</li>
                         </ul>
                     </li>
-                    <li><b>Primary HVRA Categories(s)</b> -turned on by default<ul><li><b>Sub-HVRA(s)</b> - turned off by default so you can choose the ones to display</li></ul></li>
+                    <li><b>Primary HVRA Categories(s)</b> -turned on by default.<ul><li><b>Sub-HVRA(s)</b> - turned off by default so you can choose the ones to display.</li></ul></li>
                     <li><b>Landscape Burn Probability model outputs</b>
                         <ul>
-                            <li><b>Burn Probability</b> - turned on by default</li>
-                            <li><b>Conditional Flame Length</b> - turned off by default</li>
-                            <li><b>Integrated Hazard</b> - turned off by default</li>
+                            <li><b>Burn Probability</b> - turned on by default.</li>
+                            <li><b>Conditional Flame Length</b> - turned off by default.</li>
+                            <li><b>Integrated Hazard</b> - turned off by default.</li>
                         </ul>
                     </li>
                 </ul>
             </li>
         </ul>
-        <p>These tiers allow you to quickly turn on and off different layers in the map. In the example below, you can see that there are multiple primary HVRA categories and Sub-HVRAs, but only some have been turned on, others have been turned off. Turned on in the example below are: the Geographic Extent with the HVRA Set Extent and Landscape Extent (non-buffered); Primary HVRA: Communities with the Sub-HVRAs: Low density (&gt;0-28 people per square mile) and Moderate density (&gt;28-250 people per square mile); and Landscape Burn Probability with Integrated Hazard.</p>
-        <p>Collapsed, and turned off tiers, are Primary HVRA: Ecosystem Function, Primary HVRA: Infrastructure, Primary HVRA: Recreation, and Primary HVRA: Wildlife.</p>
+        <p>These tiers allow you to quickly turn on and off different layers in the map. In the example below, you can see that there are multiple Primary HVRA Categories and Sub-HVRAs, but only some have been turned on, others have been turned off. Turned on in the example below are:</p>
+        <ul>
+            <li>Exposure Analysis<ul><li>Geographic Extent<ul><li>HVRA Set Extent</li><li>Landscape Extent (non-buffered)</li></ul></li><li>Primary HVRA: Communities<ul><li>Sub-HVRA: Low density (&gt;0-28 people per square mile)</li><li>Sub-HVRA: Moderate density (&gt;28-250 people per square mile)</li></ul></li><li>Landscape Burn Probability<ul><li>Integrated Hazard</li></ul></li></ul></li>
+        </ul>
+        <p>The other primary and Sub-HVRAs have been turned off and collapsed. You may find it helpful to use the <span class="UIcomponent">Control all layers  button</span> <img src="../../../Resources/Images/ButtonsGeneral/control_all_layers.png" alt="control all layers" class="iftbutton" /> in the top right of the Layer List widget to turn on, turn off, expand, or collapse all layers.</p>
         <p>
             <img src="../../../Resources/Images/ExposureAnalysis/ExampleTOClarge.png" alt="Exposure Analysis outputs listed in Layer List as desrcribed in text" class="border" />
         </p>
         <div class="notificationImportant">
-            <p>Sub-HVRAs in Exposure Analysis are rasterized versions of the original data used to create the HVRA Set. They are the same resolution as the Landscape Burn Probability model outputs and therefore might look different at first glance. See <a href="EATechnicalDoc.htm" target="_blank">Exposure Analysis Technical Documentation</a> for more detail.</p>
+            <p>Sub-HVRA points and lines in Exposure Analysis may be very difficult to see unless you zoom in, because they are rasterized versions of the original HVRA Set data. They are the same resolution as the Landscape Burn Probability model outputs and therefore might look different at first glance. See <a href="EATechnicalDoc.htm" target="_blank">Exposure Analysis Technical Documentation</a> for more detail.</p>
         </div>
         <h2>More Detail with Identify</h2>
-        <p>The<span class="UIcomponent"> Identify <img src="../../../Resources/Images/MapStudio/overview/button_identify.png" alt="Identify" /></span> widget  displays more detailed information for the classified layers shown in the <span class="UIcomponent">Layer List <img src="../../../Resources/Images/MapStudio/overview/button_layerlist.png" alt="Layer List" class="iftbutton"></img></span>. This includes the values for burn probability and conditional flame length.</p>
+        <p>The<span class="UIcomponent"> Identify <img src="../../../Resources/Images/MapStudio/overview/button_identify.png" alt="Identify" /></span> widget  displays more detailed information for the classified layers shown in the <span class="UIcomponent">Layer List <img src="../../../Resources/Images/MapStudio/overview/button_layerlist.png" alt="Layer List" class="iftbutton" /></span>. This includes the values for burn probability, conditional flame length, integrated hazard, and Sub-HVRAs that intersect the point.</p>
         <p style="font-weight: bold;color: #ff0000;">
-            <img src="../../../Resources/Images/MapStudio/ID_tool_BP.png" class="border" alt="Landscape Burn Probability output with the probability for a specific point being listed after clicking with the &quot;Identify&quot; widget." />
+            <img src="../../../Resources/Images/MapStudio/identify/ExposureAnalysis.png" class="border" alt="Exposure Analysis output with the probability, conditional flame length, and integrated hazard for a specific point being listed after clicking with the &quot;Identify&quot; widget." />
         </p>
         <h2>Viewing Outputs Using Masks</h2>
         <p>With an Exposure Analysis, you can apply a mask, much like you can with  model outputs and landscapes.</p>
@@ -60,7 +63,7 @@
         <p>
             <img src="../../../Resources/Images/MapStudio/Exposure_analysis_subhvracompare_small.png" alt="endangered and threatened vertibrate sub-hvras compared side by side. Left is the unmasked version, right is the version where a mask has been applied and the area covered is noticably smaller due the use of masking." />
         </p>
-        <p>When you apply a mask, some Primary HVRA Categories and/or Sub-HVRAs may no longer be visible because they fall outside of the extent of the mask. If this occurs, they will remain listed in the Layer List, and will be followed by the phrase "no data in mask" in parenthesis, as seen in the image below. </p>
+        <p>When you apply a mask, some Primary HVRA Categories and/or Sub-HVRAs may no longer be visible because they completely fall outside of the extent of the mask. Although these have been masked out of the current map view, they will remain in the Layers List, and will be followed by the phrase "no data in mask" in parenthesis, as seen in the image below. </p>
         <p>
             <img src="../../../Resources/Images/MapStudio/layer_list/exposure_analysis_nodatainmask.png" alt="A Sub-HVRA shown in Layer List followed by &quot;no data in mask&quot; listed in parentheses. " class="border" />
         </p>

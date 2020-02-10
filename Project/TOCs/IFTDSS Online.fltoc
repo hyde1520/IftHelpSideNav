@@ -54,8 +54,7 @@
       Title="Landscape Features"
       Link="/Content/20-Landscapes/LCPFeatures.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
-      Title="Landscape Versions"
-      conditions="General.QA ONLY">
+      Title="Landscape Versions">
       <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/20-Landscapes/LCPVersions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -63,10 +62,6 @@
         Title="[%=System.LinkedTitle%]"
         Link="/Content/20-Landscapes/LANDFIREv2016.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/20-Landscapes/LCPVersions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      conditions="General.Prod ONLY" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/20-Landscapes/LCPBuffering.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -455,8 +450,14 @@
         Title="Landscape Features"
         Link="/Content/20-Landscapes/LCPFeatures.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/20-Landscapes/LCPVersions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Title="Landscape Versions">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/20-Landscapes/LCPVersions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/20-Landscapes/LANDFIREv2016.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
       <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/20-Landscapes/LCPBuffering.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />

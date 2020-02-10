@@ -732,6 +732,10 @@ caption
 		display: none !important;
 	}
 
+	object {
+		display: none !important;
+	}
+
 	/*The .off-canvas-content class fixes the grayed out print bug introduced from Chrome 61 */
 
 	.off-canvas-content

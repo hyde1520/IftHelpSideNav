@@ -6,7 +6,12 @@
         <p>
             <img src="../../../Images/Models/General/wind_options.png" alt="IFTDSS has choices for static winds, gridded winds, uphill winds, or downhill winds." class="border" />
         </p>
-        <p>Fire behavior in IFTDSS, driven by FlamMap, uses a 20 foot wind speed and direction at a set point in time to calculate fire behavior. The calculations use midflame wind speed, which is derived from the 20 foot wind speed entered. For each cell in the landscape, a wind adjustment factor, based on canopy height and canopy cover, is applied to convert the 20 foot wind speed to a midflame wind speed. Note that wind direction for each cell is modeled over space, the wind is not changing over time.</p>
+        <p>Fire behavior in IFTDSS, driven by FlamMap, uses the following when inputs to calculate fire behavior:</p>
+        <ul>
+            <li>Wind speed - The speed of wind, in miles per hour, 20 feet above open level ground or above the average height of vegetation.</li>
+            <li>Wind direction - The direction from which the wind is coming, expressed in degrees (for example, wind from the south would be expressed as a wind direction of 180 degrees).  </li>
+        </ul>
+        <p>The calculations use midflame wind speed, which is derived from the 20 foot wind speed entered. For each cell in the landscape, a wind adjustment factor, based on canopy height and canopy cover, is applied to convert the 20 foot wind speed to a midflame wind speed. Note that wind direction for each cell is modeled over space, the wind is not changing over time.</p>
         <p>When calculating fire behavior there are four options for wind direction. Each option has its strength depending upon the circumstances:</p>
         <h2>Gridded Winds (a.k.a WindNinja)</h2>
         <p>Selecting <span class="UIcomponent">Generate Gridded Winds</span>  (<a href="../../../../41-References/Citations.htm#USFS2018" target="_blank">USFS 2018</a>) uses WindNinja to compute spatially varying winds across your landscape based on topographic change as well as a drag effect that vegetation has on wind flow. All of the layers within the landscape file are used to determine the wind direction for each cell.</p>
