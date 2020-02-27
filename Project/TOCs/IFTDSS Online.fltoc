@@ -2,6 +2,10 @@
 <CatapultToc
   Version="1">
   <TocEntry
+    Title="COMMON TASKS"
+    Class="TOCSeparator"
+    conditions="General.Exclude" />
+  <TocEntry
     Title="Get Started">
     <TocEntry
       Title="0. Use Google Chrome"
@@ -164,6 +168,10 @@
         Link="/Content/10-Workspace/downloads/FlmmpInputLBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
   </TocEntry>
+  <TocEntry
+    Title="PARTS OF IFTDSS"
+    conditions="General.Exclude"
+    Class="TOCSeparator" />
   <TocEntry
     Title="My Workspace">
     <TocEntry
@@ -887,7 +895,8 @@
       Link="/Content/10-FTEM/FAQs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   </TocEntry>
   <TocEntry
-    Title="Additional Help">
+    Title="Additional Help"
+    StartSection="false">
     <TocEntry
       Title="Case Study Examples"
       Link="/Content/40-Tutorials/TutorialMain.htm" />

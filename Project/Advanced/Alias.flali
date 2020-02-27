@@ -391,4 +391,5 @@
     <Map Name="HVRASet_select_hh" Link="/Content/50-Hover/ExposureAnalysis/HVRASet_select_hh.htm" />
     <Map Name="LBP_select_hh" Link="/Content/50-Hover/ExposureAnalysis/LBP_select_hh.htm" />
     <Map Name="SubmitEA_hh" Link="/Content/50-Hover/ExposureAnalysis/SubmitEA_hh.htm" />
+    <Map Name="Ignitions_hh" Link="/Content/50-Hover/Models/LBP/5.5_Ignitions_hh.htm" />
 </CatapultAliasFile>

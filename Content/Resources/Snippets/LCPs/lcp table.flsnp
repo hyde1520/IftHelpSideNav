@@ -70,19 +70,19 @@
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">9</td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">EVT (Existing Vegetation Type)</td>
-                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">categorical</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">categorical <sup>A</sup></td>
                     <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body1">N/A</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
                     <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">10</td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">EVC (Existing Vegetation Cover)</td>
-                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">categorical</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">categorical <sup>A</sup></td>
                     <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body2">N/A</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">11</td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">EVH (Existing Vegetation Height)</td>
-                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">categorical</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">categorical <sup>A</sup></td>
                     <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body1">N/A</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
@@ -93,5 +93,6 @@
                 </tr>
             </tbody>
         </table>
+        <p><sup>A</sup> EVT, EVC, and EVH GeoTiff units are continuous for LANDFIRE 2016 Remap data.</p>
     </body>
 </html>

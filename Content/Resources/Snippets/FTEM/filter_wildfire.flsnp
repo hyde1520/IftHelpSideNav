@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>To filter fires by status or to see the full metadata for a fire, view the wildfires tab in full screen view. This is done by clicking the <span class="UIcomponent">Hide map</span> button in the top center of the screen. Note that you can also filter the columns within the fire in descending or ascending order by single left-clicking the column title.</p>
+        <p>
+            <img src="../../Images/FTEM/RHP_fires.png" alt="use the full list view to see more data about your fire" class="border" />
+        </p>
+    </body>
+</html>

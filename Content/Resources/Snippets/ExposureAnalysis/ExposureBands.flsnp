@@ -46,6 +46,6 @@
             </tbody>
         </table>
         <p><sup>A</sup> Non-burnable pixels are indicated with a value of -1.</p>
-        <p><sup>B</sup> Burnable but not burned pixels are indicated with a value of 0.</p>
+        <p><sup>B</sup> Burnable, but not burned pixels, are indicated with a value of 0.</p>
     </body>
 </html>

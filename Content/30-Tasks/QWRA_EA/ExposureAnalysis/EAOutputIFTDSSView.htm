@@ -19,26 +19,26 @@
                 <ul>
                     <li><b>Geographic Extent</b>
                         <ul>
-                            <li><b>HVRA Set Extent</b>: turned on by default, visible as a black bounding box.</li>
-                            <li><b>Landscape Extent (non-buffered)</b> turned on by default, visible as a turquoise bounding box.</li>
+                            <li><b>HVRA Set Extent</b>: Turned on by default, visible as a black bounding box.</li>
+                            <li><b>Landscape Extent (non-buffered)</b>: Turned on by default, visible as a turquoise bounding box.</li>
                         </ul>
                     </li>
-                    <li><b>Primary HVRA Categories(s)</b> -turned on by default.<ul><li><b>Sub-HVRA(s)</b> - turned off by default so you can choose the ones to display.</li></ul></li>
+                    <li><b>Primary HVRA Categories(s)</b>: Turned on by default.<ul><li><b>Sub-HVRA(s)</b>: Turned off by default so you can choose the ones to display.</li></ul></li>
                     <li><b>Landscape Burn Probability model outputs</b>
                         <ul>
-                            <li><b>Burn Probability</b> - turned on by default.</li>
-                            <li><b>Conditional Flame Length</b> - turned off by default.</li>
-                            <li><b>Integrated Hazard</b> - turned off by default.</li>
+                            <li><b>Burn Probability</b>: Turned on by default.</li>
+                            <li><b>Conditional Flame Length</b> Turned off by default.</li>
+                            <li><b>Integrated Hazard</b> Turned off by default.</li>
                         </ul>
                     </li>
                 </ul>
             </li>
         </ul>
-        <p>These tiers allow you to quickly turn on and off different layers in the map. In the example below, you can see that there are multiple Primary HVRA Categories and Sub-HVRAs, but only some have been turned on, others have been turned off. Turned on in the example below are:</p>
+        <p>These tiers allow you to quickly turn on and off different layers in the map. In the example below, you can see that there are multiple Primary HVRA Categories and Sub-HVRAs, but only some have been turned on, while others have been turned off. Turned on in the example below are:</p>
         <ul>
             <li>Exposure Analysis<ul><li>Geographic Extent<ul><li>HVRA Set Extent</li><li>Landscape Extent (non-buffered)</li></ul></li><li>Primary HVRA: Communities<ul><li>Sub-HVRA: Low density (&gt;0-28 people per square mile)</li><li>Sub-HVRA: Moderate density (&gt;28-250 people per square mile)</li></ul></li><li>Landscape Burn Probability<ul><li>Integrated Hazard</li></ul></li></ul></li>
         </ul>
-        <p>The other primary and Sub-HVRAs have been turned off and collapsed. You may find it helpful to use the <span class="UIcomponent">Control all layers  button</span> <img src="../../../Resources/Images/ButtonsGeneral/control_all_layers.png" alt="control all layers" class="iftbutton" /> in the top right of the Layer List widget to turn on, turn off, expand, or collapse all layers.</p>
+        <p>The other primary and Sub-HVRAs have been turned off and collapsed. You may find it helpful to click <span class="UIcomponent">Control all layers </span> <img src="../../../Resources/Images/ButtonsGeneral/control_all_layers.png" alt="control all layers" class="iftbutton" /> in the top right of the Layer List widget to turn on, turn off, expand, or collapse all layers.</p>
         <p>
             <img src="../../../Resources/Images/ExposureAnalysis/ExampleTOClarge.png" alt="Exposure Analysis outputs listed in Layer List as desrcribed in text" class="border" />
         </p>
@@ -55,7 +55,7 @@
         <p>
             <img src="../../../Resources/Images/MapStudio/layer_list/ExposureAnalysisMask.png" alt="The &quot;Apply Mask&quot; option in Layer List open, with the shape &quot;Yosemite National Park&quot; selected as the mask." class="border" />
         </p>
-        <p>As with masking Landscape Burn Probability model outputs, masking an EA will dynamically update your Burn Probability and Integrated Hazard classes based on the Analysis maximum burn probability value.  In the unmasked EA, the analysis maximum burn probability is 0.0166, whereas in Yosemite National Park, the Analysis maximum burn probability is 0.0159.</p>
+        <p>As with masking Landscape Burn Probability model outputs, masking an EA dynamically updates your Burn Probability and Integrated Hazard classes based on the Analysis maximum burn probability value.  In the unmasked EA, the analysis maximum burn probability is 0.0166, whereas in Yosemite National Park, the Analysis maximum burn probability is 0.0159.</p>
         <p>
             <img src="../../../Resources/Images/ExposureAnalysis/dynamic_bp_compare.png" alt="Two views of Exposure Analysis output. On top is the full extent with a burn probability maximum listed, on bottom is an example where that same output is masked and a different burn probability maximum is listed." class="border" />
         </p>
@@ -63,7 +63,7 @@
         <p>
             <img src="../../../Resources/Images/MapStudio/Exposure_analysis_subhvracompare_small.png" alt="endangered and threatened vertibrate sub-hvras compared side by side. Left is the unmasked version, right is the version where a mask has been applied and the area covered is noticably smaller due the use of masking." />
         </p>
-        <p>When you apply a mask, some Primary HVRA Categories and/or Sub-HVRAs may no longer be visible because they completely fall outside of the extent of the mask. Although these have been masked out of the current map view, they will remain in the Layers List, and will be followed by the phrase "no data in mask" in parenthesis, as seen in the image below. </p>
+        <p>When you apply a mask, some Primary HVRA Categories and/or Sub-HVRAs may no longer be visible because they completely fall outside of the extent of the mask. Although these have been masked out of the current map view, they remain in the Layers List, and are followed by the phrase "no data in mask" in parenthesis, as seen in the image below. </p>
         <p>
             <img src="../../../Resources/Images/MapStudio/layer_list/exposure_analysis_nodatainmask.png" alt="A Sub-HVRA shown in Layer List followed by &quot;no data in mask&quot; listed in parentheses. " class="border" />
         </p>

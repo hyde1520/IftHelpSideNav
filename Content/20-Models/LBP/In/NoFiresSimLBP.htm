@@ -3,38 +3,78 @@
     <head>
     </head>
     <body>
-        <h1>Number of Fires Simulated</h1>
-        <div class="notificationImportant">
+        <div MadCap:conditions="General.QA ONLY">
+            <h1>Ignitions</h1>
+            <div class="notificationImportant">
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Models/LBP/iftdss_set_input.flsnp" />
+                </p>
+            </div>
+            <p>The LBP model simulates thousands of randomly located ignitions that are allowed to spread into fires for the specified <a href="SimTimesLBP.htm" target="_blank">Burn Period Length</a>. Only ignitions located on burnable fuels are kept and recorded. If an ignition is located on a non-burnable fuel model it is removed from the simulation and is not recorded. During this process:</p>
+            <ul>
+                <li>Each random ignition is placed on an unburned version of the landscape.</li>
+                <li>Prior ignitions do not alter fuels.</li>
+                <li>Weather conditions are held constant for the duration of the burn period.</li>
+                <li>The same burn period is used for every fire.</li>
+            </ul>
+            <p>You can choose to either use random ignitions, or to use ignitions from a completed Landscape Burn Probability run, if one exists for the given landscape extent.</p>
+            <h2>Using Random Ignitions</h2>
+            <p>The number of random ignitions and therefore fires simulated is determined by IFTDSS and is based upon:</p>
+            <ul>
+                <li>Landscape size</li>
+                <li>Number of burnable pixels</li>
+                <li>Dead 1-hr and 10-hr fuel moisture</li>
+                <li>Live herbaceous and woody fuel moisture</li>
+                <li>Time to simulate a single fire</li>
+            </ul>
+            <p>For the best results, there should be minimal burnable area within a landscape  that does not burn. Once this has been achieved increasing the number of ignitions does not significantly change the outputs but does increase processing time. Setting the correct number of ignitions to achieve this often takes a lot of trial and error.</p>
+            <p>To streamline the above process, <MadCap:variable name="General.ProductName" /> determines the number of ignitions to be used for each run. A minimum 1,000 fires is used.  In the case that 1,000 fires is not sufficient, <MadCap:variable name="General.ProductName" /> keeps adding ignitions until at least 98% of burnable pixels on the landscape burn or there is no significant change to the percentage burned even if the 98% target is not hit.The goal of 98% of burnable pixels burned may not be achieved because of a few reasons.  One example is a landscape with many small islands of burnable fuels surrounded by non-burnable fuels. Here the chance of random ignitions landing and fire spreading in all of them is minimal, and the computing time to do this is excessive. Another example is entering conditions (e.g., wet initial fuel moistures or very slow wind speeds) where fire spread is minimal, the number of ignitions to achieve 98% of burnable fuels will take longer than is possible to model with <MadCap:variable name="General.ProductName" />.</p>
+            <h2>Use Ignitions From a Completed Run</h2>
+            <p class="comment">add more soon</p>
+            <h2>Viewing Number of Fires in <MadCap:variable name="General.ProductName" /> when Random Ignitions are Used</h2>
+            <p>You can check the status of a run as it progresses. From the Playground, hover over or click your model run name and look at the bottom of the Right Hand Panel.  Refreshing the status column updates the values allowing you to track the progress of the model.  Once the run is completed the header title to this section changes from “In Progress Fire Summary” to “Completed Fire Summary.”</p>
             <p>
-                <MadCap:snippetText src="../../../Resources/Snippets/Models/LBP/iftdss_set_input.flsnp" />
+                <img src="../../../Resources/Images/Models/LBP/CompletedFireSmmry.png" alt="completed fire summary as shown in the right hand panel." class="border" />
+            </p>
+            <p>Once a run is completed the final number of fires run, number of fires failed, and percentage of burnable cells burned are available in the right hand panel of both the Playground and the Workspace, as well as the View Inputs pop-up in the Playground (shown below). A fire can fail if the ignition lands on burnable fuels, but does not get large enough to burn onto an adjacent pixel.</p>
+            <p>
+                <img src="../../../Resources/Images/Models/LBP/completed_fire_summary.png" alt="Completed Fire Summary box indicating number of fires run" class="border" />
             </p>
         </div>
-        <p>The LBP model simulates thousands of randomly located ignitions that are allowed to spread into fires for the specified <a href="SimTimesLBP.htm" target="_blank">Burn Period Length</a>. Only ignitions located on burnable fuels are kept and recorded. If an ignition is located on a non-burnable fuel model it is removed from the simulation and is not recorded. During this process:</p>
-        <ul>
-            <li>Each random ignition is placed on a unburned version of the landscape.</li>
-            <li>Prior ignitions do not alter fuels.</li>
-            <li>Weather conditions are held constant for the duration of the burn period.</li>
-            <li>The same burn period is used for every fire.</li>
-        </ul>
-        <p>The number of random ignitions and therefore fires simulated is determined by <MadCap:variable name="General.ProductName" /> and is based upon:</p>
-        <ul>
-            <li>Landscape size</li>
-            <li>Number of burnable pixels</li>
-            <li>Dead 1-hr and 10-hr fuel moisture</li>
-            <li>Live herbaceous and woody fuel moisture</li>
-            <li>Time to simulate a single fire</li>
-        </ul>
-        <h2>IFTDSS Sets the Number of Fires Automatically</h2>
-        <p>For the best results, there should be minimal burnable area within a landscape  that does not burn. Once this has been achieved increasing the number of ignitions does not significantly change the outputs but does increase processing time. Setting the correct number of ignitions to achieve this often takes a lot of trial and error.</p>
-        <p>To streamline the above process, <MadCap:variable name="General.ProductName" /> determines the number of ignitions to be used for each run. A minimum 1,000 fires is used.  In the case that 1,000 fires is not sufficient, <MadCap:variable name="General.ProductName" /> keeps adding ignitions until at least 98% of burnable pixels on the landscape burn or there is no significant change to the percentage burned even if the 98% target is not hit.The goal of 98% of burnable pixels burned may not be achieved because of a few reasons.  One example is a landscape with many small islands of burnable fuels surrounded by non-burnable fuels. Here the chance of random ignitions landing and fire spreading in all of them is minimal, and the computing time to do this is excessive. Another example is entering conditions (e.g., wet initial fuel moistures or very slow wind speeds) where fire spread is minimal, the number of ignitions to achieve 98% of burnable fuels will take longer than is possible to model with <MadCap:variable name="General.ProductName" />.</p>
-        <h2>Viewing Number of Fires in <MadCap:variable name="General.ProductName" /></h2>
-        <p>You can check the status of a run as it progresses. From the Playground, hover over or click your model run name and look at the bottom of the Right Hand Panel.  Refreshing the status column updates the values allowing you to track the progress of the model.  Once the run is completed the header title to this section changes from “In Progress Fire Summary” to “Completed Fire Summary.”</p>
-        <p>
-            <img src="../../../Resources/Images/Models/LBP/CompletedFireSmmry.png" alt="completed fire summary as shown in the right hand panel." class="border" />
-        </p>
-        <p>Once a run is completed the final number of fires run, number of fires failed, and percentage of burnable cells burned are available in the right hand panel of both the Playground and the Workspace, as well as the View Inputs pop-up in the Playground (shown below). A fire can fail if the ignition lands on burnable fuels, but does not get large enough to burn onto an adjacent pixel.</p>
-        <p>
-            <img src="../../../Resources/Images/Models/LBP/completed_fire_summary.png" alt="Completed Fire Summary box indicating number of fires run" class="border" />
-        </p>
+        <div MadCap:conditions="General.Prod ONLY">
+            <h1>Number of Fires Simulated</h1>
+            <div class="notificationImportant">
+                <p>
+                    <MadCap:snippetText src="../../../Resources/Snippets/Models/LBP/iftdss_set_input.flsnp" />
+                </p>
+            </div>
+            <p>The LBP model simulates thousands of randomly located ignitions that are allowed to spread into fires for the specified <a href="SimTimesLBP.htm" target="_blank">Burn Period Length</a>. Only ignitions located on burnable fuels are kept and recorded. If an ignition is located on a non-burnable fuel model it is removed from the simulation and is not recorded. During this process:</p>
+            <ul>
+                <li>Each random ignition is placed on a unburned version of the landscape.</li>
+                <li>Prior ignitions do not alter fuels.</li>
+                <li>Weather conditions are held constant for the duration of the burn period.</li>
+                <li>The same burn period is used for every fire.</li>
+            </ul>
+            <p>The number of random ignitions and therefore fires simulated is determined by <MadCap:variable name="General.ProductName" /> and is based upon:</p>
+            <ul>
+                <li>Landscape size</li>
+                <li>Number of burnable pixels</li>
+                <li>Dead 1-hr and 10-hr fuel moisture</li>
+                <li>Live herbaceous and woody fuel moisture</li>
+                <li>Time to simulate a single fire</li>
+            </ul>
+            <h2>IFTDSS Sets the Number of Fires Automatically</h2>
+            <p>For the best results, there should be minimal burnable area within a landscape  that does not burn. Once this has been achieved increasing the number of ignitions does not significantly change the outputs but does increase processing time. Setting the correct number of ignitions to achieve this often takes a lot of trial and error.</p>
+            <p>To streamline the above process, <MadCap:variable name="General.ProductName" /> determines the number of ignitions to be used for each run. A minimum 1,000 fires is used.  In the case that 1,000 fires is not sufficient, <MadCap:variable name="General.ProductName" /> keeps adding ignitions until at least 98% of burnable pixels on the landscape burn or there is no significant change to the percentage burned even if the 98% target is not hit.The goal of 98% of burnable pixels burned may not be achieved because of a few reasons.  One example is a landscape with many small islands of burnable fuels surrounded by non-burnable fuels. Here the chance of random ignitions landing and fire spreading in all of them is minimal, and the computing time to do this is excessive. Another example is entering conditions (e.g., wet initial fuel moistures or very slow wind speeds) where fire spread is minimal, the number of ignitions to achieve 98% of burnable fuels will take longer than is possible to model with <MadCap:variable name="General.ProductName" />.</p>
+            <h2>Viewing Number of Fires in <MadCap:variable name="General.ProductName" /></h2>
+            <p>You can check the status of a run as it progresses. From the Playground, hover over or click your model run name and look at the bottom of the Right Hand Panel.  Refreshing the status column updates the values allowing you to track the progress of the model.  Once the run is completed the header title to this section changes from “In Progress Fire Summary” to “Completed Fire Summary.”</p>
+            <p>
+                <img src="../../../Resources/Images/Models/LBP/CompletedFireSmmry.png" alt="completed fire summary as shown in the right hand panel." class="border" />
+            </p>
+            <p>Once a run is completed the final number of fires run, number of fires failed, and percentage of burnable cells burned are available in the right hand panel of both the Playground and the Workspace, as well as the View Inputs pop-up in the Playground (shown below). A fire can fail if the ignition lands on burnable fuels, but does not get large enough to burn onto an adjacent pixel.</p>
+            <p>
+                <img src="../../../Resources/Images/Models/LBP/completed_fire_summary.png" alt="Completed Fire Summary box indicating number of fires run" class="border" />
+            </p>
+        </div>
     </body>
 </html>

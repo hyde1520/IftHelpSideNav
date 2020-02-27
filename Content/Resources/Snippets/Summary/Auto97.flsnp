@@ -40,7 +40,7 @@
         <p>Once a RAWS station is selected, the Energy Release Components (ERCs) are calculated for every day. ERC is related to the available energy within the flaming front at the head of a fire. The ERC is considered a composite fuel moisture index as it reflects the contribution of all live and dead fuels to potential fire intensity. The ERC has memory, each daily calculation considers the past 7 days in calculating the new number making it relatively stable indicator of fuel conditions over time.</p>
         <p>To determine the 97th percentile wind speed and direction, the wind observations during the normal burning period (1200-2000 hours) for the peak fire season is summarized in a table. The peak fire season is determined by the month with the highest ERC, and the month immediately before and after it. The table includes the probability of wind speed and direction for set bins.</p>
         <table style="width: 80%;mc-table-style: url('../../TableStylesheets/Standard.css');caption-side: top;" class="TableStyle-Standard" cellspacing="3">
-            <caption>Example wind speed and directionp table.</caption>
+            <caption>Example wind speed and direction table.</caption>
             <col style="width: 74px;" class="TableStyle-Standard-Column-Column1">
             </col>
             <col style="width: 80px;" class="TableStyle-Standard-Column-Column1">

@@ -33,6 +33,12 @@
         <MadCap:snippetBlock src="../../Resources/Snippets/Models/Flammap/ChooseLCP.flsnp" />
         <h2>Populate the Model Parameters and Run</h2>
         <MadCap:snippetBlock src="../../Resources/Snippets/Models/LFB/LFBInputs.flsnp" />
+        <div MadCap:conditions="General.QA ONLY">
+            <p><span class="comment">[Placeholder lettering]</span> Specify whether you want the model to simulate random ignitions (default choice), or select a set of random ignitions from a previous LBP run (useful when you're trying to re-create an LBP&#160;run to compare treatments, etc.).</p>
+            <p>
+                <img src="../../Resources/Images/Models/LBP/ignition_input.png" alt="the ignition input field contains choices to generate random ignitions, or use random ignitions from a previous LBP run." class="borderlist" />
+            </p>
+        </div>
         <ol start="5" style="list-style-type: upper-alpha;">
             <li>
                 <p>Specify a Simulation Time (Burn Period Length), from 4-12 hours. Because inputs should represent “<span class="Emphasis">problem fire</span>” conditions, the duration of the burn period should reflect the active burning period of wildfires of the area under extreme conditions. </p>

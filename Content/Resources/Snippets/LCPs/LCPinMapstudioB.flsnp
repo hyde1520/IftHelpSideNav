@@ -27,6 +27,7 @@
                     <MadCap:snippetText src="max_size.flsnp" />
                 </p>
             </div>
+            <p>Your landscape extent will be indicted by a turquoise border, and surrounded by a 4980 meter buffer indicated with a black border.</p>
             <li>Choose the version of LANDFIRE data you would like to use.</li>
             <li>Choose the fire behavior fuel model (Fuel Model 40 or Fuel Model 13) to include in your landscape file.</li>
             <li>Give your landscape a descriptive name, this is helpful as you accumulate more landscape files in <MadCap:variable name="General.ProductName" />. Spaces are allowed in names and we recommend including the LANDFIRE&#160;version and keeping the name less than 30 characters. For example, "Smith Project LF14".</li>

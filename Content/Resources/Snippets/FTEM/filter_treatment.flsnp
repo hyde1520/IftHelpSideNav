@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>You may filter a long list of treatments by toggling to full screen view for the treatment list and using a filter. To do this from the treatments tab:</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>
+                <p>Click the full screen button for the treatment list, located in the top left of the treatment list.</p>
+                <p>
+                    <img src="../../Images/FTEM/treatment_list_fullscreen.png" alt="button in the top left of the treatment list to expand the list to full screen." class="borderlist">
+                    </img>
+                </p>
+            </li>
+            <li>
+                <p>Click on a filter option displayed on the left to filter the list of treatments.</p>
+                <p>
+                    <img src="../../Images/FTEM/treatment_list_filters.png" alt="available filters for the treatment list are shown in the left column." class="borderlist" />
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>

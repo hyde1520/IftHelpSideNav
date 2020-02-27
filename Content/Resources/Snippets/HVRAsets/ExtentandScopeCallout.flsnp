@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <div class="notificationTip" MadCap:conditions="General.QA ONLY">
+            <p><b>For Exposure Analysis and Risk</b>:When identifying which HVRAs to include in your analysis, it is important to limit the list of HVRAs to those of high value. Keeping the scope limited ensures that the interpretation of the results from your analysis remains manageable.</p>
+        </div>
+    </body>
+</html>

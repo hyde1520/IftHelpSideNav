@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <div class="notificationTip" MadCap:conditions="General.Prod ONLY">
+            <p>If you intend to use the HVRA Set as part of Exposure Analysis or Risk Assessment (features to be released in IFTDSS in the future), use an LBP Model Output to set the geographic extent. See the <a href="../../../30-Tasks/QWRA_EA/MapValues/HVRAConsiderations.htm" target="_blank">Geographic Extent section</a> for more detail.</p>
+        </div>
+        <div class="notificationTip" MadCap:conditions="General.QA ONLY">
+            <p><b>For Exposure Analysis and Risk</b>:Use an LBP Model Output to set the geographic extent of your mapped values if you intend to use the resulting HVRA Set later for an Exposure Analysis or Risk Assessment. See the <a href="../../../30-Tasks/QWRA_EA/MapValues/HVRAConsiderations.htm" target="_blank">Geographic Extent section</a> for more detail.</p>
+        </div>
+    </body>
+</html>

@@ -3033,11 +3033,11 @@ Gridded weather data provides more complete weather data coverage than from fixe
     IgnoreCase="false">
     <Terms>
       <Term>Integrated Hazard</Term>
-      <Term>Integrated Wildfire Hazard</Term>
+      <Term>Fire Hazard</Term>
       <Term>Hazard</Term>
     </Terms>
     <Definition
-      Link="">Combines two Landscape Burn Probability model outputs—burn probability and conditional flame length—into a single characteristic that can be mapped. </Definition>
+      Link="">Integrated Hazard (IH) is the combination of two Landscape Burn Probability model outputs (burn probability and conditional flame length) into a single characteristic that can be mapped. IH is a term unique to IFTDSS, it characterizes an act or phenomenon with the potential to do harm.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term78"
@@ -3089,7 +3089,7 @@ represent the likelihood of fire intensity for six standard fire intensity level
       <Term>Expected Area Burned</Term>
     </Terms>
     <Definition
-      Link="">The average amount of Highly Valued Resource or Asset (HVRA) area burned in the wildfire simulations.  It is calculated as the product of the Relative Extent (RE) and the mean Burn Probability of the HVRA.</Definition>
+      Link="">The expected area of a Highly Valued Resource or Asset (HVRA) burned in the wildfire simulations. It is the product of the relative extent and the mean burn probability of the HVRA.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term170"
@@ -3100,7 +3100,7 @@ represent the likelihood of fire intensity for six standard fire intensity level
       <Term>Exposure</Term>
     </Terms>
     <Definition
-      Link="">The spatial coincidence of wildfire likelihood and intensity with the location of a resource or asset. 
+      Link="">The spatial coincidence of wildfire likelihood and intensity with a Highly Valued Resource or Asset (HVRA). 
 
 (Scott, Joe H.; Thompson Matthew P.; Calkin, David E. (2013) A Wildfire Risk Assessment Framework for Land and Resource Management . General Technical Report RMRS-GTR-315. USDA Forest Service, Rocky Mountain Research Station, 83 p.)</Definition>
   </GlossaryEntry>
@@ -3113,7 +3113,7 @@ represent the likelihood of fire intensity for six standard fire intensity level
       <Term>Exposure Analysis</Term>
     </Terms>
     <Definition
-      Link="">An assessment of wildfire hazard—likelihood and intensity—where resources and assets are located.
+      Link="">An assessment of wildfire hazard (likelihood and intensity) where Highly Valued Resources or Assets (HVRAs) are located.
 
 (Scott, Joe H.; Thompson Matthew P.; Calkin, David E. (2013) A Wildfire Risk Assessment Framework for Land and Resource Management . General Technical Report RMRS-GTR-315. USDA Forest Service, Rocky Mountain Research Station, 83 p.)</Definition>
   </GlossaryEntry>
@@ -3154,11 +3154,11 @@ represent the likelihood of fire intensity for six standard fire intensity level
     IgnoreCase="false"
     conditions="General.LaterRelease">
     <Terms>
-      <Term>Relative Extent</Term>
+      <Term>Relative Extent (RE)</Term>
       <Term>RE</Term>
     </Terms>
     <Definition
-      Link="">Spatial footprint of an HVRA (Highly Valued Resource or Asset). RE can be measured as acres, or number of pixels.</Definition>
+      Link="">Spatial footprint of an HVRA (Highly Valued Resource or Asset). Relative Extent (RE) can be measured as acres, or number of pixels.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term176"

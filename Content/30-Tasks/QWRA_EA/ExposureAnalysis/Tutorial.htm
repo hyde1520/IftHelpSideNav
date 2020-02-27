@@ -3,18 +3,7 @@
     <head>
     </head>
     <body>
-        <h1>Exposure Analysis Tutorial</h1>
-        <p><a href="https://docs.google.com/document/d/1dyNqy_VjpItky8TS0AOo4bx-8q6a_PFRZccuotIZkeI/edit" target="_blank">Edits and Comments HERE https://docs.google.com/document/d/1dyNqy_VjpItky8TS0AOo4bx-8q6a_PFRZccuotIZkeI/edit - Last Edited in Flare on 01-08-2020</a>
-        </p>
-        <p>Below are step by step instructions for running and viewing Exposure Analysis, including:</p>
-        <ul>
-            <li><a href="#Running">Running Exposure Analysis</a>
-            </li>
-            <li><a href="#Viewing">Viewing Results in Map Studio</a>
-            </li>
-            <li><a href="#[COMPLET">Creating a Summary Report</a>
-            </li>
-        </ul>
+        <h1>Exposure Analysis (EA) Tutorial</h1>
         <h2><a name="Running"></a>Running Exposure Analysis</h2>
         <ol style="list-style-type: upper-alpha;">
             <li>
@@ -24,74 +13,55 @@
                 </p>
             </li>
             <li>
-                <p>Select a Landscape Burn Probability (LBP) output from the drop-down menu. If you have not yet run the LBP model, you may navigate to that part of IFTDSS via the  <img src="../../../Resources/Images/ButtonsGeneral/lbp_create.png" alt="flame" class="iftbutton" />button located to the right of the drop-down menu. See the <a href="../../../20-Models/LBP/About.htm" target="_blank">LBP Overview</a> topic or the <a href="../../../20-Models/LBP/LBPTutorial.htm" target="_blank">LBP Tutorial</a> topic if needed.</p>
+                <p>Select a Landscape Burn Probability (LBP) output from the drop-down menu. If you have not run an LBP model, navigate to that part of IFTDSS by clicking the  <img src="../../../Resources/Images/ButtonsGeneral/lbp_create.png" alt="flame" class="iftbutton" /> button located to the right of the drop-down menu. See the <a href="../../../20-Models/LBP/About.htm" target="_blank">LBP Overview</a> topic or the <a href="../../../20-Models/LBP/LBPTutorial.htm" target="_blank">LBP Tutorial</a> topic if needed.</p>
                 <p>
                     <img src="../../../Resources/Images/ExposureAnalysis/select_LBP.png" alt="a dropdown list of available Landscape Burn Probability model outputs" class="borderlist" />
                 </p>
-            </li>
-            <li>
-                <p>Select an HVRA set from the drop-down menu. If you have not yet created an HVRA Set, you may navigate to that part of IFTDSS via the <img src="../../../Resources/Images/ButtonsGeneral/hvra_create.png" alt="Create HVRA" class="iftbutton" /> button to the right of the drop-down menu. See the <a href="../MapValues/HVRAAbout.htm" target="_blank">HVRA Overview</a> topic or the <a href="../MapValues/HVRACreate.htm" target="_blank">Map Values Tutorial</a> topic if needed.</p>
-                <div class="notificationImportant">
-                    <p>The extent of your LBP model run will dictate which HVRA Sets are available in the next step. Only HVRA sets that fully match or exceed the LBP extent are available, as full coverage is needed for Exposure Analysis calculations.<br /></p>
+                <div class="notificationTip">
+                    <p>Completed LBP outputs appear in the drop-down with a green checkmark to the right of the output name.</p>
+                    <p>LBP outputs that are still building appear in the drop-down with a red hourglass to the right of the output name.</p>
+                    <p>Completed LBP outputs, in which less than 98% of the burnable landscape burned, will produce a confirmation box requesting your approval before proceeding with other inputs. Select <span class="UIcomponent">OK</span> if you are confident the run truly represents the scenario you want to analyze. Select <span class="UIcomponent">Cancel</span> if you want to select another run or re-run your LBP model with inputs more likely to achieve the recommended target.</p>
                 </div>
-                <br>
-                </br>
-                <img src="../../../Resources/Images/ExposureAnalysis/select_HVRA.png" alt="A dropdown list of available HVRA Sets" class="borderlist" />
+                <p>The map auto-populates with the LBP model output you selected.  You can still change the LBP Model Output selection at this point.</p>
+                <div class="notificationImportant">
+                    <p>Each Exposure Analysis input field is hidden until the one above it is populated.</p>
+                </div>
             </li>
             <li>
-                <p>(Optional) If you select an HVRA Set with a greater extent than your selected LBP model output, you will be prompted to create a smaller clipped version. Click the link that appears in the yellow notification box, give the new HVRA Set a name, and click <span class="UIcomponent">Save</span>. You will not leave the Exposure Analysis interface.</p>
+                <p>Select an HVRA set from the drop-down menu. If you have not yet created an HVRA Set, navigate to that part of IFTDSS by clicking  the <img src="../../../Resources/Images/ButtonsGeneral/hvra_create.png" alt="Create HVRA" class="iftbutton" /> button to the right of the drop-down menu. See the <a href="../MapValues/HVRAAbout.htm" target="_blank">HVRA Overview</a> topic or the <a href="../MapValues/HVRACreate.htm" target="_blank">Map Values Tutorial</a> topic if needed.</p>
+                <div class="notificationImportant">
+                    <p>The extent of your LBP model run dictates which HVRA Sets are available in the next step. Only HVRA sets that fully match or exceed the LBP extent are available, as full coverage is needed for Exposure Analysis (EA) calculations.</p>
+                </div>
+                <p>
+                    <img src="../../../Resources/Images/ExposureAnalysis/select_HVRA.png" alt="A dropdown list of available HVRA Sets" class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>(Optional) If you select an HVRA Set with a greater extent than your selected LBP model output, you are prompted to create a smaller version of the HVRA Set that matches the extent of the LBP model output. Clicking the link that appears in the yellow notification box does this automatically. You are prompted to give the new HVRA Set a name and click <span class="UIcomponent">Save</span>. During this process you do not leave the Exposure Analysis interface.</p>
                 <p>
                     <img src="../../../Resources/Images/ExposureAnalysis/newHVRAsubset.png" alt="The 'Create and save New HVRA Set' link in the warning box can be cicked on to create a new smaller version of your selected HVRA set that matches the extent of you're Landscape Burn Probability output." class="border" />
                 </p>
+                <p>Once the HVRA set is selected, the system checks for intersections and populates the Map with the HVRA set information. Id defaults to have all the HVRA layers turned on.  The HVRA set and layers are shown only for visual verification that the proper HVRA set is selected, they cannot be edited in this part of the application.</p>
                 <p>
                     <img src="../../../Resources/Images/ExposureAnalysis/excluded_subhvras.png" alt="Sub-HVRAs shown in red italics are outside of the extent of the new smaller HVRA set and will not be included." class="borderlist" />
                 </p>
-                <p>Any Sub-HVRAs that are displayed in red italics during this process are outside of the LBP model extent and will not be included in the new clipped HVRA Set.</p>
+                <p>Any Sub-HVRAs displayed in red italics during this process are outside of the LBP model extent and will not be included in the new smaller HVRA Set.</p>
             </li>
             <li>
+                <div class="notificationImportant">
+                    <p>Once you click <span class="UIcomponent">Run</span>, the HVRA-Set used in EA can no longer be edited or deleted from IFTDSS as it will have a set of EA outputs depending upon it. Before clicking <span class="UIcomponent">Run</span>, you can go back and select a different LBP output to analyze, but it clears all your inputs.</p>
+                </div>
                 <p>Give your Exposure Analysis a descriptive name and click <span class="UIcomponent">Run</span>.</p>
                 <p>
-                    <img src="../../../Resources/Images/ExposureAnalysis/EA_name.png" alt="The text field to name your Exposure Analysis is seen on the bottom of the page to the left of the &quot;Run&quot; button." />
+                    <img src="../../../Resources/Images/ExposureAnalysis/EA_name.png" alt="The text field to name your Exposure Analysis is seen on the bottom of the page to the left of the &quot;Run&quot; button." class="borderlist" />
                 </p>
-            </li>
-        </ol>
-        <h2><a name="Viewing"></a>Viewing an Exposure Analysis in Map Studio</h2>
-        <p>To view and Exposure Analysis Output in Map Studio:</p>
-        <ol style="list-style-type: upper-alpha;">
-            <li>
-                <p>Navigate to <span class="UIcomponent">My Workspace</span>, locate your Exposure Analysis output, and click the file to show the file options. The Exposure Analysis output is stored in the same folder as the LBP model output you used to generate it.</p>
-                <div class="notificationTip">
-                    <p>You can use the <span class="UIcomponent">Display</span> filters in the left panel to quickly sort your Workspace content by type.</p>
-                </div>
-            </li>
-            <li>
-                <p>Click the <span class="UIcomponent">View on Map</span> button.</p>
+                <p>Once you have clicked Run you will see a pop up informing you that you’ll be redirected to My Workspace. Click <span class="UIcomponent">Yes</span> to proceed. You will be redirected to the folder in MyWorkspace in which your LBP model output, and EA output are stored.</p>
                 <p>
-                    <img src="../../../Resources/Images/MyWorkspace/View_EA_onmap.png" alt="An Exposure Analysis file in My Workspace with the &quot;View on Map&quot; file option visible." class="borderlist" />
+                    <img src="../../../Resources/Images/ExposureAnalysis/save_run_confirmation_popup.png" alt="confirmation pop up box described in text." class="borderlist" />
                 </p>
-                <div class="notificationTip">
-                    <p>Exposure Analysis creates a rasterized version of your HVRA Set for quantification - this makes point and line features difficult to view. The best visual display can be had by overlaying the original HVRA Set with LBP model outputs in Map Studio.</p>
-                </div>
-            </li>
-            <li>
-                <p>(Optional) You may constrain the Exposure Analysis Outputs to display only within an area of interest by going to <span class="UIcomponent">Layer List</span>, clicking the <span class="UIcomponent">More Options <img src="../../../Resources/Images/ButtonsGeneral/moreoptions.png" alt="more options" class="iftbutton" /></span> button for the Exposure Analysis layer, and using the "Mask" option.</p>
-                <div class="notificationImportant">
-                    <p>Masked Burn Probability and Hazard values will change based on Map Extent. See the <a href="../../../20-Models/LBP/Out/DynamicMask.htm" target="_blank">LBP Masks and Dynamic Output</a> topic for more detail.</p>
-                    <p>Sub-HVRAs that do not intersect the newly masked area will be indicated in the Layer List with “no data in mask” appearing after the Sub-HVRA name.</p>
-                </div>
+                <p>Initially the EA output has a status of “Requested”. It may take several minutes to build, during which time you may use the status refresh button to check on its status.</p>
             </li>
         </ol>
-        <h2><a name="[COMPLET"></a><span style="color: #ff0000;">[COMPLETE WHEN REPORTS ARE READY]</span> Create and view a summary report for Exposure Analysis</h2>
-        <p>To create a summary and view a summary report:</p>
-        <ol style="list-style-type: upper-alpha;">
-            <li>Navigate to <span class="UIcomponent">My Workspace</span>, locate your Exposure Analysis output, and click the file to show the file options. The Exposure Analysis output is stored in the same folder as the LBP model output you used to generate it.</li>
-            <li>
-                <p>Click the <span class="UIcomponent">Request a Summary Report</span> button.</p>
-                <p>
-                    <img src="../../../Resources/Images/MyWorkspace/create_EA_report.png" alt="An Exposure Analysis file in My Workspace with the &quot;Request a Report&quot; file option visible." class="borderlist" />
-                </p>
-            </li>
-            <li>Locate the summary report file, in the same folder as the Exposure Analysis output, and click the <span class="UIcomponent">View Summary</span> button.</li>
-        </ol>
+        <p>For instructions on viewing EA outputs, see the <a href="EAOutputIFTDSSView.htm" target="_blank">Viewing Exposure Analysis Outputs</a> topic.</p>
     </body>
 </html>

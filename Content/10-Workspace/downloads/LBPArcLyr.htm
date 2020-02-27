@@ -9,7 +9,7 @@
             <MadCap:keyword term="symbology" />
             <MadCap:keyword term="download" />
             <MadCap:keyword term="arcmap" />Importing Layer Symbology into ArcMap for Landscape Burn Probability outputs</h1>
-        <p>IFTDSS uses a specific color scheme for Map Studio and report figures. When you download IFTDSS files for use in Arcmap, you can duplicate this color scheme using our .lyr file. The .lyr file contains all the color specifications used by IFTDSS.</p>
+        <p>IFTDSS uses a specific color scheme for Map Studio and report figures. When you download IFTDSS files for use in Arcmap, you can duplicate this color scheme using our .lyr files contained in the "symbology" folder. The .lyr file contains all the color specifications used by IFTDSS.</p>
         <p>Lyr files in the Landscape Burn Probability package include:</p>
         <ul>
             <li>Conditional Flame Length (ft)</li>
@@ -29,7 +29,7 @@
             </p>
             <p>See the Landscape <a href="../../20-Models/LBP/Out/BurnProb.htm" target="_blank">Burn Probability Outputs</a> help topic for the units in Map Studio versus the GeoTIFF.</p>
         </div>
-        <p>In the Landscape Burn Probability (LBP) download package available in IFTDSS, we have included ArcGIS Layer (.lyr) files to define the symbology for most of the layers visible in Map Studio. In the GeoTIFF, the LBP layers are both categorical and continuous data, therefore importing the symbology is slightly different for the two types.</p>
+        <p>In the Landscape Burn Probability (LBP) download package available in IFTDSS, we include a folder entitled "symbology". The symbology folder contains ArcGIS Layer (.lyr) files to define the symbology for most of the layers visible in Map Studio for use in ArcMap. In the GeoTIFF, the LBP layers are both categorical and continuous data, therefore importing the symbology is slightly different for the two types.</p>
         <p>
             <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/LBP_file_list.png" alt="files available in the Landscape Burn Probability download package.  They include the ArcGIS Layer (*.lyr) files to define the symbology for most of the bands in the GeoTIFF (*.TIF, *.XML, *.OVR)" class="border" />
         </p>
@@ -111,7 +111,7 @@
                 </p>
             </li>
         </ol>
-        <h2><a name="Applying"></a>Applying symbology for Burn Probability</h2>
+        <h2><a name="Applying"></a>Applying Symbology for Burn Probability</h2>
         <p>For Burn Probability, because the legend is dynamically applied to each model output based on the analysis maximum burn probability value there is not an ArcGIS Layer file included in the download package. The steps below walk-through the process of classifying your Burn Probability in Arcmap using the same break values used in IFTDSS, and setting the color ramp to the same values for those classifications.</p>
         <ol style="list-style-type: upper-alpha;">
             <li>Open ArcMap session and add the layers you would like to map. For more information on how do add layers to ArcMap please see the <a href="ArcGeoTiffOpen.htm" target="_blank">Opening an IFTDSS Geo Tiff file in ArcMap</a> help topic.</li>
