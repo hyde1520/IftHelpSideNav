@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h2>Section 1- Previewing and Creating a Landscape using Map Studio</h2>
+        <h3>Previewing the Landscape</h3>
+        <p>The first step takes place in <span class="UIcomponent">Map Studio</span> to get a good look at the area and create a landscape to start working from. To do this:</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Access<span class="UIcomponent"> Map Studio</span> from the top navigation panel, visible on any page in IFTDSS.</li>
+            <li>Use the <span class="UIcomponent">Zoom</span> widgets, and mouse, to locate your area. The location search box at the top of Map Studio can also be helpful.</li>
+            <li>Open the <span class="UIcomponent">Basemap Gallery</span><img src="../../Images/MapStudio/overview/button_basemapglry.png" alt="basemap gallery" class="iftbutton" /> to choose a more detailed base layer.</li>
+            <li>
+                <p>Select “Imagery with Labels”.</p>
+                <p>
+                    <img src="../../Images/MapStudio/colville_basemaps.png" alt="basemap gallery open with &quot;imagery with lables&quot; highlighted" class="border" />
+                </p>
+            </li>
+        </ol>
+        <h3>Create the Landscape</h3>
+        <p>The landscape serves as a starting point for the rest of the analysis. To create a landscape:</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Click on the <span class="UIcomponent">Landscape Tools</span><img src="../../Images/MapStudio/overview/button_landscapetools.png" alt="landscape tools" class="iftbutton" /> widget at the bottom of the screen.</li>
+            <li>Select the <span class="UIcomponent">Create New</span> tab to create a new landscape.</li>
+            <li>
+                <p>Select <span class="UIcomponent">Draw Mode</span>, then drag across the area you’d like to analyze. For this example, you can follow along by inputting the coordinates below directly into the fields:</p>
+                <ul>
+                    <li>East: -117.0336</li>
+                    <li>West: -117.3879</li>
+                    <li>North: 48.9928</li>
+                    <li>South: 48.4692</li>
+                </ul>
+            </li>
+            <li>Select the version of LANDFIRE data you’re using, in this case 2014.</li>
+            <li>Select the fire behavior fuel model type (13 or 40), here Fuel Model 40 was chosen.</li>
+            <li>
+                <p>Name the new landscape “North Selkirk CFLRP LF2014 Un”. Include the name, LANDFIRE version, and it’s editing/treatment status. This makes it easy to discern this landscape from others once you start editing. </p>
+                <div class="notificationImportant">
+                    <p>Try to keep the entire name around 30 characters long to ensure it runs smoothly in future IFTDSS operations.</p>
+                </div>
+            </li>
+            <li>Choose or create a new folder for this landscape, this is where the landscape is stored in <span class="UIcomponent">My Workspace</span>. For this example, use the + button next to the folder name to add a new folder. Name it “Selkirk Fuels Project”.</li>
+            <li>
+                <p>Once everything looks good, click <span class="UIcomponent">Create</span> and wait for the landscape to process.</p>
+                <p>
+                    <img src="../../Images/MapStudio/lcp_tools/colville_create_lcp.png" alt="Landscape Tools open with landscape fields populated." class="borderlist" />
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h2>Section 4– Reviewing the Auto97th LFB Report</h2>
+        <p>Now that you’ve thoroughly reviewed the map to assess the landscape, modeled fire behavior, and areas for treatment, you’ll want to look at the corresponding landscape and fire behavior summary reports.</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Navigate away from Map Studio and click on <span class="UIcomponent">My Workspace</span> at the top of the screen.</li>
+            <li>Because the Landscape was assigned to the Selkirk Fuels Project folder when you first created it, the model output summary report will also be stored there by default. Select the “Selkirk Fuels Project” fold-er from the panel on the left of the screen. As you navigate, you’ll notice the information in the right-hand panel changes too, updating as you move through different screens.</li>
+            <li>
+                <p>Select the “North Selkirk CFLRP LF2013 Un—Auto97th” report file and click the <span class="UIcomponent">View Summary</span> button. The report will open in a new browser tab.</p>
+                <p>
+                    <img src="../../Images/Summary/colville_open_auto97th.png" alt="The View Summary button in My Workspace will open a report in a new tab." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>In the top right of the report, click the <span class="UIcomponent">Download</span> button to save a copy to your local computer, you’ll re-fer to this PDF again later in this tutorial.</p>
+                <p>
+                    <img src="../../Images/Summary/colville_report_download.png" alt="download a report using the download button in the top right." class="borderlist" />
+                </p>
+            </li>
+        </ol>
+        <p>All of the Landscape characteristics and Fire Behavior outputs you viewed in Map Studio are quantitatively displayed in several different formats in this report. You’ll find a lot of value in these reports because they break each component (Canopy Cover, Canopy Base Height, Rate of Spread, etc.) down in a way that makes it even easier, after viewing the spatial data, to assess the landscape and 97th percentile modeled fire behavior. For example, in viewing the Fuel Model map (upper left corner), you can see that there is a lot of Fuel Model TU5 on the landscape, but it’s not until you take a look at the graphs that you can really assess that, in fact 36% of this landscape is attributed to the TU5 fuel model.</p>
+        <p>
+            <img src="../../Images/colville_reportoutput/auto97th_fm.png" alt="Fuel model information shown on a map, pie chart, bar chart, and table" class="border" />
+        </p>
+        <p>Take a good look at the report in it’s entirety, including the Flame length outputs:</p>
+        <p>
+            <img src="../../Images/colville_reportoutput/auto97th_flamelength.png" alt="Flame length outputs displayed across the landscape extend with high flame lengths designated by warmer colors" class="border" />
+        </p>
+        <p>Notice the Auto97th Fire Behavior section of the report has recorded the 97th percentile weather and fuel moisture inputs used to run the fire behavior model. You’ll want to use these values when you re-run the fire behavior model a little later in this tutorial. If you have not already saved a PDF copy of the report, scroll up to the top of the report, look to the top right, and click the <span class="UIcomponent">Download</span> button to save this report as a PDF on your local machine.</p>
+        <p>Each chart also has a download button to the right so it may be downloaded individually for use in your own documents. Tables have download buttons under the table descriptions.</p>
+        <p>
+            <img src="../../Images/colville_reportoutput/auto97_fl_table.png" alt="flame length outputs displayed in table format" class="border" />
+        </p>
+        <p>Next, it’s time to develop some treatment alternatives.</p>
+    </body>
+</html>

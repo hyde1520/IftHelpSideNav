@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h2>Section 2- Summarize and Assess the Landscape</h2>
+        <h3>Displaying and Assessing the Landscape</h3>
+        <p>Start assessing the landscape in Map Studio:</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>
+                <p>Use the <span class="UIcomponent">Landscape Tools</span><img src="../../Images/MapStudio/overview/button_landscapetools.png" alt="landscape tools" class="iftbutton" /> widget  to check the landscape under the “Add to Map” tab. This adds the land-scape to the map and the map’s <span class="UIcomponent">Layer List</span><img src="../../Images/MapStudio/overview/button_layerlist.png" alt="layer list" class="iftbutton" />.</p>
+                <p>
+                    <img src="../../Images/MapStudio/lcp_tools/colville_addtomap.png" alt="check the box next to the landscape to add it to mapstudio" class="borderlist" />
+                </p>
+            </li>
+            <li>Open the <span class="UIcomponent">Layer List</span><img src="../../Images/MapStudio/overview/button_layerlist.png" alt="layer list" class="iftbutton" /> widget, ensure your landscape is checked, and view the landscape layers by clicking the drop-down arrow to the left of the check-box. You can check and uncheck the landscape layers to view. You’ll want to look at the fuel models to make sure they correspond to what you’re seeing on the ground in this area, so ensure the box is checked.</li>
+            <li>View the legend for each layer by clicking the drop-down arrow to the left of the checkbox for that layer. In this case, check the box next to “Fuel Models”, then click on the arrow to the left of the checkbox to drop-down to the Fuel Model layer legend.</li>
+            <li>
+                <p><span>Click the </span><span class="UIcomponent">Identify</span><span> widget in the upper right corner of the page to view more information for each pixel. Select the layer to view (North Selkirk CFLRP LF2014 Un), then click on the landscape in an area you’d like to know more about. The Identify dialogue populates with the landscape information for this pixel. For</span> example, by clicking you can see that the dark green pixels on the map correspond to areas of Fuel Model 165 (TU5). Continue examining various areas of interest on the landscape to learn more about what fuel-models are present and where. Notice that all of the landscape characteristics come up in the identify box when you click on the landscape with the <span class="UIcomponent">Identify</span> widget, not just the characteristic you specified in your Layer List.</p>
+                <p>
+                    <img src="../../Images/MapStudio/colville_fuelmodels.png" alt="Layer List and Identify widgets are both open in Map Studio" class="borderlist" />
+                </p>
+            </li>
+        </ol>
+        <h3>Adjust Transparency</h3>
+        <p>It may be helpful to adjust the transparency of the layer to better see roads, landscape characteristics, and other map features. To do this, click<span class="UIcomponent">More Options</span><img src="../../Images/ButtonsGeneral/moreoptions.png" alt="more options" class="iftbutton" /> to the right of the Landscape name in <span class="UIcomponent">Layer List</span><img src="../../Images/MapStudio/overview/button_layerlist.png" alt="layer list" class="iftbutton" /> . A drop-down menu of options opens. Choose <span class="UIcomponent">Transparency</span>, which opens a slider bar allowing you to adjust the transparency level for that layer. Once satisfied with the level of transparency, close the slider bar by clicking the <span class="UIcomponent">More Options</span><img src="../../Images/ButtonsGeneral/moreoptions.png" alt="more options" class="iftbutton" /> button.</p>
+        <p>
+            <img src="../../Images/MapStudio/layer_list/colville_transparency.png" alt="The transparency option visible after clicking More Options." class="border" />
+        </p>
+        <h3>Adding Reference Layers</h3>
+        <p>Before doing a full assessment of the landscape characteristics, you’ll want to view previous fires that may have occurred in this area:</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Click the Add Layers widget at the bottom of the screen and make sure the “IFTDSS Reference Layers” tab is selected. You’ll notice there are many options for additional data layers, including “Ownership” and “Critical Habitat Areas”.</li>
+            <li>For now, focus on disturbance history. Click the drop-down arrow next to “Disturbance History” and use the checkbox to select “Historic Fuel Treatment Polygons”. Next, expand the drop-down for “Disturbance History-Historic Wildfire Perimeters”, and select the perimeters for years 1980-1989, 1990-1999, 2000-2009, 2010-2016, and 2017. These appear in the <span class="UIcomponent">Layer List</span><img src="../../Images/MapStudio/overview/button_layerlist.png" alt="layer list" class="iftbutton" /> and on the map.</li>
+            <li>
+                <p>Use the Identify widget to identify the exact year of the Kaniksu Complex, Noisy Creek Fire, and North Fork Hughes Fire. Click the applicable Fire Perimeter layers on and off to compare the landscape and fuel models underneath. In this example, you see they are reflective of these fires.</p>
+                <p>
+                    <img src="../../Images/MapStudio/add_layer/colville_add_historylayers.png" alt="Fire perimeters east of lake sullivan" class="borderlist" />
+                </p>
+            </li>
+        </ol>
+        <p>Follow this same process with the Historic Fuel Treatment Polygons layer as well.</p>
+        <p>After doing an assessment of all the landscape characteristics (Elevation, Slope, Aspect, Canopy Cover, Stand Height, Canopy Base Height and Canopy Bulk Density) you determine that the LANDFIRE 2014 data in this landscape reflects existing conditions, including previous fires. If there had been a more recent disturbance since this 2014 data was produced, such as a fire or fuels treatment that you would want to represent on this landscape, it could be easily represented by creating a polygon using the <span class="UIcomponent">Create/Edit Shapes</span> widget to reflect the disturbance area, then using the Landscape Editing task in the planning cycle to make changes to that area and save them. More information on Landscape Editing.</p>
+        <p>Next, run a summary report and compare these fuel models with potential landscape fire behavior.</p>
+        <h2>Summarizing the Landscape</h2>
+        <p>Creating an Automatic 97th Percentile Landscape Fire Behavior (Auto97th LFB) Report, makes the outputs available in Map Studio and summarizes behavior and landscape features in a downloadable report with tables and charts. It also creates a model output layer that can be viewed in Map Studio. To create these:</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Click on <span class="UIcomponent">Planning Cycle</span> in the top navigation.</li>
+            <li>
+                <p>The cycle opens on the <span class="UIcomponent">Landscape Evaluation</span> stage by default, from there click the <span class="UIcomponent">Landscape Summary</span> task.</p>
+                <p>
+                    <img src="../../Images/Cycle/colville_lcpsummary1.png" alt="Landsape summary task, under the Landscape Evaluation stage of the cycle." class="borderlist" />
+                </p>
+            </li>
+            <li>In <span class="UIcomponent">Landscape Summary</span>, click the drop-down menu next to <span class="UIcomponent">Select Landscapes</span>. If the newly created land-scape doesn’t appear in the drop down, use the <span class="UIcomponent">Refresh</span> button after giving the landscape a short time to process. The landscape appears with a green check next to it (which indicates it has downloaded completely to your IFTDSS account). If you wanted to create a report just for an Area of Interest, you’d use the Area of Interest drop-down menu to select a shape or shapefile. For this example, leave Area of Interest blank in order to produce a report for the entire landscape.</li>
+            <li>Click <span class="UIcomponent">Request a Report</span>.</li>
+            <li>
+                <p>Confirm your selection by clicking <span class="UIcomponent">Create Report</span> in the box that appears. The report begins processing and may take a few moments.</p>
+                <p>
+                    <img src="../../Images/Summary/colville_auto97th.png" alt="North Selkirk is visible in the My Landscape field of Landscape Summary" class="borderlist" />
+                </p>
+                <p> To make sure the report is complete, click the <span class="UIcomponent">Refresh</span> button that appears where the <span class="UIcomponent">Create Report</span> button once was. When complete, a green checkmark appears next to the report name, which becomes a hyper-link.</p>
+                <p>
+                    <img src="../../Images/Summary/colville_auto97th_2.png" alt="when the report name appears as a hyperlink, the report is ready to view." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>For this example you are going to view the fire behavior aspect of the report in Map Studio so it can be viewed with the landscape features, so close the report box and click the <span class="UIcomponent">View in Map Studio</span> button. The report and Map Studio outputs can be viewed anytime later by accessing them in <span class="UIcomponent">My Workspace</span>, they are saved in the same folder as the landscape they describe (in this case your Granite Creek project folder).</p>
+                <p>
+                    <img src="../../Images/Summary/colville_auto97th_3.png" alt="Use the View in Map Studio button to view the summary outputs in Map Studio." class="borderlist" />
+                </p>
+            </li>
+        </ol>
+        <h2>Comparing Landscape Features and Model Outputs with the Swipe Widget</h2>
+        <p>After clicking <span class="UIcomponent">View in Map Studio</span>, the fire behavior model layer will automatically open. For future use, you can remove or add other modeling layer to Map Studio by clicking the <span class="UIcomponent">Simulation Output Tools</span><img src="../../Images/MapStudio/overview/button_SimOutput.png" alt="simulation output" class="iftbutton" /> widget on the bottom of the screen and checking or unchecking the boxes next to each modeling output.</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>If the layer did not automatically open, click the <span class="UIcomponent">Simulation Output Tools</span><img src="../../Images/MapStudio/overview/button_SimOutput.png" alt="simulation output" class="iftbutton" /> widget on the bottom of the screen.</li>
+            <li>
+                <p>Ensure the box next to “North Selkirk CFLRP LF2014 UN-Auto97th” is checked so this layer opens on the map and is visible in <span class="UIcomponent">Layer List</span><img src="../../Images/MapStudio/overview/button_layerlist.png" alt="layer list" class="iftbutton" />. Check the appropriate boxes in <span class="UIcomponent">Layer List</span><img src="../../Images/MapStudio/overview/button_layerlist.png" alt="layer list" class="iftbutton" /> to view Flame Lengths and the corresponding legend as displayed below.</p>
+                <p>Zoom into an orange/red area where you can see concentrated areas high Flame Lengths projected by the  model. Next, you’ll look at the fuel models and topography for the area of more intense fire behavior.</p>
+                <p>
+                    <img src="../../Images/MapStudio/colville_auto97th_inmapstudio.png" alt="Auto97th Report outputs shown in Map Studio" class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>To compare these model outputs with your landscape, add the North Selkirk CFLRP LF2014 Un unedited landscape back to Map Studio by opening the <span class="UIcomponent">Landscape Tools</span><img src="../../Images/MapStudio/overview/button_landscapetools.png" alt="landscape tools" class="iftbutton" /> widget , clicking the <span class="UIcomponent">Add to Map</span> tab and using the checkbox to add the “North Selkirk CFLRP LF2014 Un”. Use the drop-down arrows and check-boxes in <b>Layer List</b> to display only the landscape Fuel Model layer and the Model output Flame length layer.</p>
+                <div class="notificationTip">
+                    <p>To move a layer group, such as Landscape, up or down in Layer List, click the <span class="UIcomponent">More Options</span><img src="../../Images/ButtonsGeneral/moreoptions.png" alt="more options" class="iftbutton" />  button to the right of the layer and choose "Move up" or "Move down".</p>
+                </div>
+            </li>
+        </ol>
+        <p>
+            <img src="../../Images/MapStudio/layer_list/colville_movedown.png" alt="Move down option is visible in the More Options dropdown of Layer List." class="border" />
+        </p>
+        <p>Next you’ll compare the two using Swipe:</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Click the <span class="UIcomponent">Swipe</span><img src="../../Images/MapStudio/overview/button_slider.png" alt="swipe" class="iftbutton" /> widget in the top right of Map Studio.</li>
+            <li>
+                <p>Next, specify the layers to swipe. By default, the first layer in <span class="UIcomponent">Layer List</span><img src="../../Images/MapStudio/overview/button_layerlist.png" alt="layer list" class="iftbutton" /> will be the one displayed in the Swipe box, and will appear in the top portion of the map, the next visible layer in the Layer List will be the layer displayed under it. In the example below, “Model Output: North Selkirk CFLRP- LF2014 Un—Auto97th” is displayed on the top, and the Landscape layer is displayed on the bottom. Slide the bar in the middle of the screen up and down. Notice the areas with high flame lengths correspond to areas of Fuel Model 165 (TU5) with small patches of 122 (GS2).</p>
+                <p>
+                    <img src="../../Images/MapStudio/swipe/colville_swipe1.png" alt="Swipe widget in Map Studio showing fire behavior in the top, and fuel models on the bottom." class="borderlist" />
+                </p>
+            </li>
+        </ol>
+        <p>Next, you’ll want to view the topography to see how it corresponds to the areas displaying more intense fire behavior. Uncheck the boxes in the Layer List then re-check the “North Selkirk CFLRP- LF2014 Un—Auto97th” layer. This will display only that behavior layer, and allow you to see the topography underneath. If this does not occur on your map, move your mouse up to the swipe box and make sure the Model Output layer is selected (See <a href="../../../10-MapStudio/Functions/Swipe.htm" target="_blank">Swipe widget</a> for more detail).</p>
+        <p>
+            <img src="../../Images/MapStudio/swipe/colville_swipe2.png" alt="swipe widget in Map Studio showing fire behavior on the top, and hiding it on the bottom." class="border" />
+        </p>
+        <p>As you swipe up and down, you will notice all the areas displaying more intense fire behavior are south, southeast, and southwest facing slopes. Wrapping up this analysis by repeating this process in the northern part of the landscape, you notice there appears to be several areas that would produce more intense fire behavior. Also compare other aspects of fire behavior, such as Rate of Spread and Crown Fire Activity.</p>
+        <p>With this information, you decide to create two Areas of Interest, or areas on which you’d like to focus the analysis and treatments.</p>
+    </body>
+</html>

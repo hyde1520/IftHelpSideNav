@@ -12,8 +12,11 @@
                 <p>
                     <img src="../../Images/HVRAs/hvra_lbp_bounding.png" alt="black bounding box in the map includes LBP extent and buffered area" class="border" />
                 </p>
-                <MadCap:snippetBlock src="EA_RiskConsiderationCallout.flsnp" />
-                <MadCap:snippetBlock src="ExtentandScopeCallout.flsnp" />
+                <div class="notificationNote" MadCap:conditions="General.Prod ONLY">
+                    <p>Basing the extent on Landscape Burn Probability will be the required choice when using an HVRA Set for an Exposure Analysis or Risk Assessment (a future IFTDSS product).</p>
+                </div>
+                <MadCap:snippetBlock src="EA_RiskConsiderationCallout.flsnp" MadCap:conditions="General.QA ONLY" />
+                <MadCap:snippetBlock src="ExtentandScopeCallout.flsnp" MadCap:conditions="General.QA ONLY" />
             </li>
             <li><b>Area of Interest (AOI):</b> The HVRA Set extent will include the shape or shapefile you selected as well as a 4980 meter buffer around the rectangular extent of the shape. There is no size limitation on AOIs, these can be as large as needed. Creating an HVRA Set based on an AOI can be especially useful in designating “master” HVRA Sets over broad geographic areas (e.g. Districts, Forests, Parks, or Regions) that can be used in multiple analyses. For example, you can create a master HVRA Set for your Forest and use the set for multiple project areas or NEPA analyses.</li>
         </ul>

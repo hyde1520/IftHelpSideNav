@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h2>Section 7– Comparing Added Treatments and Concluding</h2>
+        <p>As before, select the model change layer to evaluate flame length reduction. Now compare the original untreated landscape with this new treated landscape. What you’ll really want to know is how much of an affect this added treatment of low severity wildfire, or a broadcast burn, will have compared to just the light thinning and pile burn applied earlier. You’ll need to compare the first treatment to the second one to answer this.</p>
+        <p>
+            <img src="../../Images/DTA/colville_compare_5.png" alt="Flame length change layer on the map shows a decrease in flame length within the treated area" class="border" />
+        </p>
+        <h3>Swipe between layers</h3>
+        <p>To compare these “treatments” (default disturbance edits) on the landscape, first use the <span class="UIcomponent">Swipe</span><img src="../../Images/MapStudio/overview/button_slider.png" alt="swipe" class="iftbutton" /> widget:</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Click <span class="UIcomponent">Simulation Output Tools</span><img src="../../Images/MapStudio/overview/button_SimOutput.png" alt="simulation output" class="iftbutton" /> and check the boxes next to:</li>
+            <li>“Watershed 20 Thn Pburn 10 yr” the first treatment of thinning and pile burning.</li>
+            <li>
+                <p>“Watershed 20 Thn 10 yr Rx 1 yr” the second treatment, which follows the thin with a low-severity burn.</p>
+                <p>
+                    <img src="../../Images/DTA/colville_compare_simtools_thin_rx.png" alt="Both treated landscapes are checked in the &quot;Simulation Output Tools&quot; widget" class="borderlist" />
+                </p>
+            </li>
+            <li>In Layer List, check or uncheck the layers until only your landscapes of interest are displayed. In this example, “Watershed 20 Thn Pburn 10 yr” is shown on top, and “Model Output: Watershed 20 Thn 10 yr Rx 1 yr” is shown on the bottom.</li>
+            <li> Click the <span class="UIcomponent">Swipe</span><img src="../../Images/MapStudio/overview/button_slider.png" alt="swipe" class="iftbutton" /> widget.</li>
+            <li>
+                <p>You can control the layers that appear in the <span class="UIcomponent">Swipe</span><img src="../../Images/MapStudio/overview/button_slider.png" alt="swipe" class="iftbutton" /> widget using the box in the top right of the map that appears once the <span class="UIcomponent">Swipe</span><img src="../../Images/MapStudio/overview/button_slider.png" alt="swipe" class="iftbutton" /> widget is clicked. The layer selected in this box is the layer that appears in the top half of the slider, and hidden on the bottom half.</p>
+                <p>
+                    <img src="../../Images/DTA/colville_compare_flamelength_thin_rx.png" alt="swipe widget with the fire behavior from the &quot;thin and pile&quot; landscape on top, and &quot;thin, pile, and burn&quot; landscape on the bottom" class="borderlist" />
+                </p>
+            </li>
+        </ol>
+        <p>Swipe between the layers and compare: In this example, the light thin and pile burn is shown as the top swipe layer, followed by light thin, pile burn, and low severity wildfire (broadcast burn). Sliding back and forth and looking at the legend indicates that the Flame Lengths were in fact reduced by several feet in some areas with just the addition of the Low Severity Wildfire! Next, you’ll want to see how the Fuel Models have changed with the addition of the Low Severity Wildfire.</p>
+        <p>Set the Layer List up again, this time opening:</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li><span class="UIcomponent">Landscape Tools</span>
+                <img src="../../Images/MapStudio/overview/button_landscapetools.png" alt="landscape tools" class="iftbutton" /> widget.</li>
+            <li>
+                <p>Select the two treatment layers.</p>
+                <p>
+                    <img src="../../Images/DTA/colville_lcp_tools_select.png" alt="use the Landscape Tools widget to make sure the landscape layers for both treatments appear on the map" class="borderlist" />
+                </p>
+            </li>
+            <li>Make sure these layers appear on the <span class="UIcomponent">Layer List</span><img src="../../Images/MapStudio/overview/button_layerlist.png" alt="layer list" class="iftbutton" />.</li>
+            <li>Click the <span class="UIcomponent">Swipe</span><img src="../../Images/MapStudio/overview/button_slider.png" alt="swipe" class="iftbutton" /> widget.</li>
+            <li>
+                <p>Set the layers to swipe.</p>
+                <p>
+                    <img src="../../Images/DTA/colville_two_treatments_lcpcompare.png" alt="using the swipe widget helps visualize changes to fuel models between the two treatments" class="borderlist" />
+                </p>
+            </li>
+        </ol>
+        <p>In comparing these two edited landscapes, as well as the landscape Change Map earlier, you see there was a significant shift in Fuel Model between the thinning/pile burn treatment and the addition of the low severity wildfire.</p>
+        <h3>Review Summary Reports</h3>
+        <p>Next, open the <span class="UIcomponent">Compare Summary Reports</span> to get the full picture and make a more informed decision about what treatments should be applied to achieve the preliminary objectives.</p>
+        <p>Navigate to <span class="UIcomponent">My Workspace</span> and open the Fire Behavior Summary Compare Report.</p>
+        <p>The Fire Behavior Compare Reports for a modeled Light Thin/Pile Burn/ Low Severity Broadcast Burn treatment show even more of a difference in pre– and post–treatment fire behavior.</p>
+        <p>The Flame Length bar chart shows a large increase in the post-treatment acreage for lower Flame Length bins and no post-treatment acres in the higher Flame Length bins.</p>
+        <p>The table indicates the pre– treatment percentage of pixels in the &gt;0-1 foot Flame Length bin is 36%, while post-treatment, the percentage went up to 92%. The table also indicates that the percentage of post-treatment pixels were drastically decreased for all of the Flame Length categories but the &gt;0-1 feet.</p>
+        <p>
+            <img src="../../Images/colville_reportoutput/broadcast_compare_FL1.png" alt="The table and bar chart display a shift from higher to lower flame lengths post treatment" class="border" />
+        </p>
+        <p>The Percent Difference Graph for Flame Lengths demonstrates the shift toward lower Flame Lengths post-treatment. You can see the significant positive percent difference in the &gt;0-1 foot bins, while the bins correlating to higher Flame Lengths indicate a drop in the percent difference.</p>
+        <p>The pie charts tell the same story, showing the shift to significantly lower flame lengths post-treatment.</p>
+        <p>
+            <img src="../../Images/colville_reportoutput/broadcast_compare_FL2.png" alt="the pie chart and percent different chart show a decrease in flame lengths following the treatment" class="border" />
+        </p>
+        <p>Scroll through the rest of the fire behavior model outputs in the report. Their story is the same, significantly reduced Rates of Spread, as well as almost no Crown Fire Activity post-treatment.</p>
+        <p>Next, navigate back to <span class="UIcomponent">My Workspace</span> and open the Landscape Compare Summary Report.</p>
+        <p>The Landscape Compare Reports for a modeled Light Thin/Pile Burn/Low Severity Broadcast Burn treatment show quite a change in Fuel Model pre– vs. post-treatment.</p>
+        <p>From the compare bar graph, you can tell that a significant portion of the TU5 Fuel Model (Very High Load, Dry Climate Timber-Shrub) has shifted to GS1 (Low Load, Dry Climate Grass-Shrub). The table further confirms this quantitatively, indicating that 50% of the treatment area was comprised of a TU5 Fuel Model pretreatment, while just 4% of the treatment area was a TU5 Fuel Model post-treatment. Conversely, 1% of the treatment area contained the GS1 Fuel Model pretreatment, while post-treatment, 63% of the treatment area was comprised of Fuel Model GS1.</p>
+        <p>
+            <img src="../../Images/colville_reportoutput/compare_fuelmodel_tu5_gs1.png" alt="The table and bar chart indicate more TU5 pre-treatment, and much less TU5 post treatment." class="border" />
+        </p>
+        <p>The Percent Difference chart reflects the shift in Fuel Model displayed by the bar graph and table above, clearly showing the drop in the TU5 Fuel Model, as well as the increase in the GS1 Fuel Model post-treatment.</p>
+        <p>The pie charts visually display these changes in Fuel Model as well.</p>
+        <p>
+            <img src="../../Images/colville_reportoutput/compare_fuelmodel2_tu5_gs1.png" alt="pie chart and percent difference chart showing a higher percentage of gs1 post-treatment" class="border" />
+        </p>
+        <p>Review the rest of the Landscape Compare Summary Report and note the changes in the various landscape characteristics. Pay close attention to the increase in Canopy Base Height, as well as the decrease in Canopy Cover, post-treatment. This coincides with the information you see in the rest of the report, and justifies the fact that this series of treatments will help achieve the stated objectives for this North Selkirk study area.</p>
+        <p>
+            <img src="../../Images/colville_reportoutput/cc_standheight_compare.png" alt="bar chart and percent difference charts summarizing canopy cover and stand height." class="border" />
+        </p>
+        <h2>Conclusion</h2>
+        <p>Based on Forest Plan direction and the CFLRP proposal guidelines, the preliminary results of this study show that we are meeting our objectives for the North Selkirk Project Areas, which are to:</p>
+        <ul>
+            <li>Recommend hazardous fuels treatments that can occur through this project to: Reduce the risk of uncharacteristic wildfire and/or re-establish or maintain low-severity fire regimes; reduce surface fuel loading and the overall horizontal and vertical fuel bed continuity to reduce the fire hazard to adjacent private, Tribal, and State land; and return low intensity fire to fire adapted vegetation communities.</li>
+            <li>Locate areas where our actions will be most effective.</li>
+            <li>Evaluate what type of treatment will help achieve these objectives.</li>
+            <li>Describe why the treatment acres were chosen. Why here? Why now? What risk assessment did you use to identify these areas, e.g. wildfire hazard potential map or regional risk assessment, forest-wide risk assessment, etc.</li>
+            <li>Demonstrate the need for treatment, both quantitatively and spatially, to members of your Forest Natural Resources Staff Officer and district interdisciplinary (ID) team.</li>
+        </ul>
+        <p>This study was modeling more extreme fire behavior, given 97th percentile fire weather and fuel moisture conditions used, than the low-intensity/moderate-severity fire the study area typically sees in this portion of the Colville National Forest. This will help to justify future treatments during increasingly dry and hot sea-sons predicted for the future. You have set the foundation for a good report to give to your FLT and, if necessary, can go back and test out different treatment methods, such as a heavier thinning or increased mortality from a more severe broadcast burn.</p>
+    </body>
+</html>

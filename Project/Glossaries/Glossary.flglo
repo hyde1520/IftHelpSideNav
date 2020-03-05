@@ -3244,13 +3244,6 @@ represent the likelihood of fire intensity for six standard fire intensity level
       Link="">A fraction between 0 and 1 indicating the severity of a crown fire. 0.0 indicates a surface fire while 1.0 represents an active crown fire. Intermediate values represent a scaled value of passive crown fire severity.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
-    glossTerm="Glossary.Term181">
-    <Terms>
-      <Term>MyTerm</Term>
-    </Terms>
-    <Definition></Definition>
-  </GlossaryEntry>
-  <GlossaryEntry
     glossTerm="Glossary.Term182"
     Stem=""
     IgnoreCase="false">
@@ -3309,5 +3302,15 @@ represent the likelihood of fire intensity for six standard fire intensity level
     </Terms>
     <Definition
       Link="">Moisture content of 1000-hour fuel (dead woody fuel over 3 inches or 7.6 cm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term181"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>HVRA Maximum Burn Probability value</Term>
+    </Terms>
+    <Definition
+      Link="">This value is used in Exposure Analysis. It is the maximum burn probability value amongst all burnable pixels that are within any Sub-HVRA. It is used to generate the Mean Burn Probability scale in the report charts and to determine Mean Integrated Hazard.</Definition>
   </GlossaryEntry>
 </CatapultGlossary>

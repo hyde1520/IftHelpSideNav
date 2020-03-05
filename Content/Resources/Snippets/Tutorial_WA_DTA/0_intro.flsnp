@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h2>Management Scenario</h2>
+        <p>You are a Fuels Planner on the Colville National Forest, about 47 miles northeast of Spokane, WA. In this scenario, you will use IFTDSS to plan hazardous fuels reduction projects within three main watersheds within a proposed Collaborative Forest Landscape Restoration Program (CFLRP) project area.</p>
+        <p>
+            <img src="../../Images/MapStudio/measurement/colville_distance.png" alt="Sullivan lake is approximately 46 miles north of Newport." class="border" />
+        </p>
+        <p>The new Colville National Forest Plan has just been released and includes some new direction that allows certain fuels reduction treatments within Inventoried Roadless Areas (IRAs) and the use of wildfire for re-source benefit in certain circumstances. Based on the new Forest Plan Direction, you see a need for some sort of fuels reduction treatments in the Sullivan, Slate, and Salmo Watersheds of the northeastern portion of the proposed CFLRP project area.</p>
+        <p>Based on Forest Plan direction and the CFLRP proposal guidelines, our objectives are to:</p>
+        <ul>
+            <li>Recommend hazardous fuels treatments that can occur through this project to: Reduce the risk of uncharacteristic wildfire and/or re-establish or maintain low-severity fire regimes; reduce surface fuel loading and the overall horizontal and vertical fuel bed continuity to reduce the fire hazard to adjacent private, Tribal, and State land; and return low intensity fire to fire adapted vegetation communities.</li>
+            <li>Locate areas where our actions will be most effective</li>
+            <li>Evaluate what type of treatment will help achieve these objectives</li>
+            <li>Describe why the treatment acres were chosen. Why here? Why now? What risk assessment did you use to identify these areas, e.g. wildfire hazard potential map or regional risk assessment, forest-wide risk assessment, etc.</li>
+            <li>Demonstrate the need for treatment, both quantitatively and spatially, to members of your district interdisciplinary (ID) team.</li>
+        </ul>
+        <p>You will use IFTDSS to plan a treatment around these objectives.</p>
+        <p>
+            <img src="../../Images/External/sullivan_lake.png" alt="sullivan lake with mountains visible in the background" class="border" />
+        </p>
+        <p style="font-size: 10pt;">Sullivan Lake. Photo courtesy of Daniel Brown, USFS, Colville National Forest.</p>
+    </body>
+</html>

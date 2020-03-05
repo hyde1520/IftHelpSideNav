@@ -3,8 +3,34 @@
     <head>
     </head>
     <body>
-        <h1>Exposure Analysis Technical Documentation</h1>
-        <p><a href="https://docs.google.com/document/d/1Z8LcytxmIqI86c0b31zFEuwx9Sy4H9VK2L0kdg72d3M/edit" target="_blank">https://docs.google.com/document/d/1Z8LcytxmIqI86c0b31zFEuwx9Sy4H9VK2L0kdg72d3M/edit</a>
+        <h1>Exposure Analysis (EA)Technical Documentation</h1>
+        <p MadCap:conditions="General.Exclude"><a href="https://docs.google.com/document/d/1Z8LcytxmIqI86c0b31zFEuwx9Sy4H9VK2L0kdg72d3M/edit" target="_blank">Added from Google 3-4-2020 1719: https://docs.google.com/document/d/1Z8LcytxmIqI86c0b31zFEuwx9Sy4H9VK2L0kdg72d3M/edit</a>
         </p>
+        <h2>Mapping Sub-HVRAs for Exposure Analysis</h2>
+        <p>For an Exposure Analysis (EA), the Sub-HVRA data from the HVRA Set is converted from a vector to a raster. The one exception is Ecosystem Function, which is a raster within IFTDSS.  The resolution (a.k.a. pixel or cell size) will always be the same as the Landscape Burn Probability model output used to create the Exposure Analysis.The resulting raster (seen in Map Studio and available with the Download) represents the presence of the given Sub-HVRA for a location.</p>
+        <p>The following are examples of how Sub-HVRAs are converted from the HVRA Set to the Exposure Analysis version. The original source of the Sub-HVRA data does not matter (e.g. National HVRA Data, IFTDSS Reference Data, or User Created/Uploaded Data) but the type of data does (e.g. polygon, point. line, raster).</p>
+        <h3>Converting Polygon(s) to Raster</h3>
+        <p>When converting from a polygon to a raster, the pixels where the center point intersect the polygon are retained. Keep in mind raster cells are squares, so the resulting rasters will not be an exact match to the original polygon.</p>
+        <p>
+            <img src="../../../Resources/Images/Conceptuals/Tech_Poly.jpg" alt="left shows a yellow vector, right shows a yellow raster" class="border" />
+        </p>
+        <h3>Converting Line(s) to Raster</h3>
+        <p>When converting from a line to a raster, the pixels which intersect the line are retained.</p>
+        <p>
+            <img src="../../../Resources/Images/Conceptuals/Tech_Line.jpg" alt="left a line is visible, right a raterized line is visible" class="border" />
+        </p>
+        <h3>Converting Point(s) to Raster</h3>
+        <p>When converting from a point to a raster, the pixels with points landing within them are retained.  It is possible for there to be multiple points within a pixel; however, only one pixel is created.</p>
+        <p>
+            <img src="../../../Resources/Images/Conceptuals/Tech_Point.jpg" alt="left shows a series of points, right shows a rasterized version of the same series of points" class="borderlist" />
+        </p>
+        <h3>Changing Raster Resolution</h3>
+        <p>When converting from a finer resolution raster to a courser one, the value at the centerpoint of the courser pixel is retained. In IFTDSS, the only data where this is the case is for Ecosystem Function, which is at 30 m, and Exposure Analyses can be at 30, 60, 90 or 120 m.</p>
+        <p>
+            <img src="../../../Resources/Images/Conceptuals/Tech_changeraster_sm.png" alt="left shows a fine resolution raster, while to the right the same area is represented with courser resolution rasters" class="border" />
+        </p>
+        <h2>Generating Summary Statistics for Exposure Analysis Reports</h2>
+        <p>The <a href="EAOutputReports.htm" target="_blank">Exposure Analysis Reports</a> include summary statistics calculated for both the Primary HVRA Category and for individual Sub-HVRAs grouped by Primary HVRA Category. When completing the summary statistics, only burnable pixels are used in the calculations.</p>
+        <p>The HVRA Maximum Burn Probability value, shown in the Landscape Burn Probability section of the report, is used to generate the Mean Burn Probability scale in the charts and to determine Mean Integrated Hazard. The HVRA Maximum Burn Probability is the maximum burn probability value amongst all burnable pixels that are within any Sub-HVRA. The HVRA Maximum Burn Probability may be identical to or different (always lower) than the Analysis Maximum Burn Probability depending on if the maximum value within the analysis extent is within a Sub-HVRA.</p>
     </body>
 </html>
