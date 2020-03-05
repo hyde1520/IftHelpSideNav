@@ -10,8 +10,8 @@
             <MadCap:keyword term="arcmap" />
             <MadCap:keyword term="Download" />Download Packages in <MadCap:variable name="General.ProductName" /></h1>
         <p>In <MadCap:variable name="General.ProductName" /> you may down data packages of your landscapes and model outputs for use in other applications. Download packages available may be <a href="DownloadHowTo.htm" target="_blank">downloaded from My Workspace</a> and include the following:</p>
-        <h2 MadCap:conditions="General.QA ONLY">Exposure Analysis download package</h2>
-        <MadCap:snippetBlock src="../../Resources/Snippets/ExposureAnalysis/FileDescriptions.flsnp" MadCap:conditions="General.QA ONLY" />
+        <h2>Exposure Analysis download package</h2>
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExposureAnalysis/FileDescriptions.flsnp" />
         <h2>Landscape File (LCP) download package</h2>
         <table style="width: 100%;mc-table-style: url('../../Resources/TableStylesheets/Copy of Standard.css');caption-side: top;" class="TableStyle-Standard" cellspacing="3">
             <caption>Files contained in the LCP download package.</caption>
@@ -41,23 +41,16 @@
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">&lt;Run Name&gt;.xml and .ovr</td>
                     <td class="TableStyle-Standard-BodyD-Column1-Body2">Metadata describing the GeoTiff file, for use in ArcMap.</td>
                 </tr>
-                <tr class="TableStyle-Standard-Body-Body1" MadCap:conditions="General.QA ONLY">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1"><a href="LCPArcLyr.htm" target="_blank">Symbology</a>
+                <tr class="TableStyle-Standard-Body-Body1" MadCap:conditions="">
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1"><a href="LCPArcLyr.htm" target="_blank">Symbology</a>
                     </td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">folder containing .lyr files</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&lt;output type&gt;.lyr</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Symbology file for setting colors in ArcMap that match those used in <MadCap:variable name="General.ProductName" />.</td>
-                </tr>
-                <tr class="TableStyle-Standard-Body-Body2" MadCap:conditions="General.Prod ONLY">
-                    <td class="TableStyle-Standard-BodyB-Column1-Body2"><a href="LCPArcLyr.htm" target="_blank">Symbology</a>
-                    </td>
-                    <td class="TableStyle-Standard-BodyB-Column1-Body2">.lyr</td>
-                    <td class="TableStyle-Standard-BodyB-Column1-Body2">&lt;output type&gt;.lyr</td>
-                    <td class="TableStyle-Standard-BodyA-Column1-Body2">Symbology file for setting colors in ArcMap that match those used in <MadCap:variable name="General.ProductName" />.</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">folder containing .lyr files</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">&lt;output type&gt;.lyr</td>
+                    <td class="TableStyle-Standard-BodyA-Column1-Body1">Symbology file for setting colors in ArcMap that match those used in <MadCap:variable name="General.ProductName" />.</td>
                 </tr>
             </tbody>
         </table>
-        <h2>Landscape Fire Behavior (LFB) download package</h2>
+        <h2><a name="LFBPACKAGE"></a>Landscape Fire Behavior (LFB) download package</h2>
         <table style="width: 100%;mc-table-style: url('../../Resources/TableStylesheets/Copy of Standard.css');caption-side: top;" class="TableStyle-Standard" cellspacing="3">
             <caption>Files contained in the LFB download package.</caption>
             <col class="TableStyle-Standard-Column-Column1" style="width: 15%;" />
@@ -93,23 +86,16 @@
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">&lt;Run Name&gt;_FlamMap6.input </td>
                     <td class="TableStyle-Standard-BodyD-Column1-Body1">LFP inputs for use in FlamMap 6.0. See <a href="../../20-Models/LFB/Out/FlammapInputFile.htm" target="_blank">FlamMap Inputs</a> for more detail.</td>
                 </tr>
-                <tr class="TableStyle-Standard-Body-Body2" MadCap:conditions="General.Prod ONLY">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2"><a href="LFBArcLyr.htm" target="_blank">Symbology</a>
+                <tr class="TableStyle-Standard-Body-Body2" MadCap:conditions="">
+                    <td class="TableStyle-Standard-BodyB-Column1-Body2"><a href="LFBArcLyr.htm" target="_blank">Symbology</a>
                     </td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">.lyr</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&lt;outputtype&gt;.lyr</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Symbology file for setting colors in ArcMap that match those used in <MadCap:variable name="General.ProductName" />.</td>
-                </tr>
-                <tr class="TableStyle-Standard-Body-Body1" MadCap:conditions="General.QA ONLY">
-                    <td class="TableStyle-Standard-BodyB-Column1-Body1"><a href="LFBArcLyr.htm" target="_blank">Symbology</a>
-                    </td>
-                    <td class="TableStyle-Standard-BodyB-Column1-Body1">folder containing .lyr files</td>
-                    <td class="TableStyle-Standard-BodyB-Column1-Body1">&lt;outputtype&gt;.lyr</td>
-                    <td class="TableStyle-Standard-BodyA-Column1-Body1">Symbology file for setting colors in ArcMap that match those used in <MadCap:variable name="General.ProductName" />.</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body2">folder containing .lyr files</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body2">&lt;outputtype&gt;.lyr</td>
+                    <td class="TableStyle-Standard-BodyA-Column1-Body2">Symbology file for setting colors in ArcMap that match those used in <MadCap:variable name="General.ProductName" />.</td>
                 </tr>
             </tbody>
         </table>
-        <h2>Landscape Burn Probability (LBP) download package</h2>
+        <h2><a name="LBPPACKAGE"></a>Landscape Burn Probability (LBP) download package</h2>
         <table style="width: 100%;mc-table-style: url('../../Resources/TableStylesheets/Copy of Standard.css');caption-side: top;" class="TableStyle-Standard" cellspacing="3">
             <caption>Files contained in the LBP download package.</caption>
             <col class="TableStyle-Standard-Column-Column1" style="width: 15%;" />
@@ -152,19 +138,12 @@
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">&lt;Run Name&gt;_FIRESIZELIST.txt</td>
                     <td class="TableStyle-Standard-BodyD-Column1-Body2"> Fire size list for use in Excel, NotePad or ArcMap. See <a href="../../20-Models/LBP/Out/FireSizeList.htm" target="_blank">Fire Size List</a> for more detail.</td>
                 </tr>
-                <tr class="TableStyle-Standard-Body-Body1" MadCap:conditions="General.QA ONLY">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1"><a href="LBPArcLyr.htm" target="_blank">Symbology</a>
+                <tr class="TableStyle-Standard-Body-Body1" MadCap:conditions="">
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1"><a href="LBPArcLyr.htm" target="_blank">Symbology</a>
                     </td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">folder containing .lyr files</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&lt;output type&gt;.lyr</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Symbology file for setting colors in ArcMap that match those used in <MadCap:variable name="General.ProductName" />.</td>
-                </tr>
-                <tr class="TableStyle-Standard-Body-Body2" MadCap:conditions="General.Prod ONLY">
-                    <td class="TableStyle-Standard-BodyB-Column1-Body2"><a href="LBPArcLyr.htm" target="_blank">Symbology</a>
-                    </td>
-                    <td class="TableStyle-Standard-BodyB-Column1-Body2"> .lyr</td>
-                    <td class="TableStyle-Standard-BodyB-Column1-Body2">&lt;output type&gt;.lyr</td>
-                    <td class="TableStyle-Standard-BodyA-Column1-Body2">Symbology file for setting colors in ArcMap that match those used in <MadCap:variable name="General.ProductName" />.</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">folder containing .lyr files</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">&lt;output type&gt;.lyr</td>
+                    <td class="TableStyle-Standard-BodyA-Column1-Body1">Symbology file for setting colors in ArcMap that match those used in <MadCap:variable name="General.ProductName" />.</td>
                 </tr>
             </tbody>
         </table>

@@ -4,7 +4,7 @@
         <link href="../../TableStylesheets/Copy of Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
-        <table style="width: 100%;mc-table-style: url('../../TableStylesheets/Copy of Standard.css');caption-side: top;" class="TableStyle-Standard" cellspacing="3" MadCap:conditions="General.QA ONLY">
+        <table style="width: 100%;mc-table-style: url('../../TableStylesheets/Copy of Standard.css');caption-side: top;" class="TableStyle-Standard" cellspacing="3">
             <caption>Files contained in the Exposure Analysis download package.</caption>
             <col class="TableStyle-Standard-Column-Column1" style="width: 15%;" />
             <col class="TableStyle-Standard-Column-Column1" style="width: 15%;" />
