@@ -621,7 +621,7 @@
           Title="Spotting"
           Link="/Content/20-Models/LBP/In/SpotLBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
-          Title="Number of Fires Simulated"
+          Title="Ignitions"
           Link="/Content/20-Models/LBP/In/NoFiresSimLBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"

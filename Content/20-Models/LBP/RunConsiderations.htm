@@ -72,7 +72,7 @@
             </tbody>
         </table>
         <h2><a name="LBPsensitivities"></a>LBP Model Input Sensitivities</h2>
-        <p>Isolating on model sensitives on a particular landscape is the responsibility of the user through trial and error in the model calibration process.  It may be important to iterate on a number of model runs changing one input at a time to understand how the features and fuels on your landscape influence the model outputs. This is an important part of the model calibration process. An example of model sensitivity to wind direction and landscape features is included below.</p>
+        <p>Isolating on model sensitives on a particular landscape is the responsibility of the user through trial and error in the model run refinement process.  It may be important to iterate on a number of model runs changing one input at a time to understand how the features and fuels on your landscape influence the model outputs. This is an important part of the model run refinement process. An example of model sensitivity to wind direction and landscape features is included below.</p>
         <h3>Example: wind direction and landscape features on burn probability</h3>
         <p>Inputs such as wind direction or landscape features may affect outputs in unusual ways, such as producing areas with high conditional flame lengths but low burn probabilities. Causes for this can include fuels that are located in difficult locations for fire to spread to, such as highly flammable but patchy fuels. Some examples of this are high elevation timber pockets, or shrub islands surrounded by non-burnable fuels (pictured below).</p>
         <p>
@@ -83,5 +83,24 @@
             <img src="../../Resources/Images/MapStudio/LFB_LBP_compare_3.png" alt="in the landscape with SE winds most of the area burned, in the landscape with NW winds, there are patches of unburned area" class="border" />
         </p>
         <p>The two burn probability outputs were generated with identical inputs with the exception of wind direction. The first output was run with a Southeast wind and the second with a Northwest wind.  You can see in the example with NW Wind, that the burnable area on the east end of the lake was sheltered by the water and did not burn (black polygon) whereas it did burn in the same scenario under SE winds.</p>
+        <p><a name="Reusing_Ignitions_"></a>
+        </p>
+        <h2>Using Ignitions from a Completed Run for LBP&#160;Refinement or Comparison</h2>
+        <p>Below you can see some reasons to select “Use Ignitions From A completed Run”, these include both model refinement and treatment comparison.</p>
+        <ul>
+            <li>LBP model refinement: You may choose to try a variety of inputs on a given landscape in order to determine a set of inputs that either produces outputs best reflect expectations based on your experience, or that best meet the needs of your analysis objectives.  Selecting <span class="UIcomponent">Use Ignitions From a Completed Run</span> and varying one input at a time allows you to directly compare various outputs by ensuring that only the input variable you manually change is influencing the change in model outputs  (For example, doing repeated runs with varying wind speeds at 15, 20, 25 mph, etc.).</li>
+            <li>Treatment impact on LBP comparison: Once a landscape has been calibrated, you may want to run the same set of inputs over treated and untreated landscapes to evaluate the impacts of the treatments on model outputs.  Holding the ignitions consistent between these runs ensures that only the selected landscape (with landscape edits reflecting the proposed treatments) is influencing the change in model outputs.</li>
+        </ul>
+        <h3>Choosing your Ignition Set to Use in Comparison Scenarios</h3>
+        <p>First, ensure that the ignition selection for a comparison is robust enough to achieve the recommended “percent of burnable cells burned” threshold of 98% for most of your subsequent run using that ignition set. Generally, choosing a run with a higher number of ignitions (slower spreading fires) will ensure complete analysis coverage.</p>
+        <p>Here are some steps to compare treatment alternatives using LBP and determine which Ignition Set to use:</p>
+        <ol>
+            <li>Start by creating an <a href="../../20-Landscapes/LCPTerminology.htm#Existing_Condition_(EC)_Landscape" target="_blank">Existing Condition (EC)</a> Landscape.</li>
+            <li>Conduct a LBP model run on your EC Landscape.</li>
+            <li>Create landscapes for all treatment alternatives (See the <a href="../../30-Tasks/LndscpEdit/LandscapeEditAbout.htm" target="_blank">landscape editing</a> topics if details are needed).</li>
+            <li>Run each of the Edited (Alternative) Landscapes with the <span class="UIcomponent">Use Random Ignitions</span> option selected, keeping the other inputs (that you established in step 2) the same.</li>
+            <li>Determine which of the Edited (Alternative) Landscapes or Existing Landscape required the <a href="In/NoFiresSimLBP.htm#Viewing" target="_blank">highest number of fires</a> to achieve LBP run completion.</li>
+            <li>Re-run LBP on all the landscapes with the <span class="UIcomponent">Use Ignitions From a Completed Run</span> option selected, and use the ignition set determined in step 5 (the ignition set from the landscape that required the highest number of fires to complete the run).  The quickest way to achieve this is to copy the run identified in step 5, change the input landscape, give the run a new name, and click <span class="UIcomponent">Run</span>.</li>
+        </ol>
     </body>
 </html>
