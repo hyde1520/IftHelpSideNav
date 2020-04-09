@@ -6,6 +6,9 @@
         <h1>
             <MadCap:keyword term="FTEM" />
             <MadCap:keyword term="Wildfire Data" />FTEM Wildfire Data</h1>
+        <div class="notificationComingSoon">
+            <p> April 2020 - This Topic will be updated in the coming weeks to reflect system changes that now allow active fires to be viewed and monitored in FTEM.</p>
+        </div>
         <p>The Fuels Treatment Effectiveness Monitoring (FTEM) process relies on geospatial datasets to depict wildfire locations from participating NWCG agencies, including four land management Agencies within the Department of Interior (National Park Service, Bureau of Land Management, US Fish and Wildlife Service, and Bureau of Indian Affairs) and the Department of Agriculture (USDA Forest Service). These geospatial datasets consist of both point and polygon features. The FTEM wildfire locations datasets are derived from data stored in:</p>
         <ul>
             <li>The <a href="https://www.forestsandrangelands.gov/WFIT/applications/IRWIN/index.shtml" target="_blank">Integrated Reporting of Wildland Fire Information  <i class="fa fa-external-link" aria-hidden="true"></i></a> (IRWIN) data exchange service. This service provides point locations and fire-related data for fires across the United States.</li>
@@ -41,7 +44,7 @@
                 <ol style="list-style-type: lower-alpha;">
                     <li>Marked as wild fires <span class="code">(incidenttypecategory ='WF'</span>)</li>
                     <li>Have at least one of the three dates not null (control, contain or out date)</li>
-                    <li>In the case control/out/contain are null, fires not modified in the last 45 days (using ModifiedOnDateTime from IRWIN) are pulled and an FTEM&#160;End Date is assigned.</li>
+                    <li MadCap:conditions="General.Exclude">In the case control/out/contain are null, fires not modified in the last 45 days (using ModifiedOnDateTime from IRWIN) are pulled and an FTEM&#160;End Date is assigned.</li>
                 </ol>
                 <p>Once data has been loaded to the FTEM&#160;system:</p>
                 <ol style="list-style-type: lower-alpha;">

@@ -882,6 +882,12 @@
         Title="FTEM Region Summary"
         Link="/Content/10-FTEM/Reports/RepRegionSmry.htm" />
       <TocEntry
+        Title="Current Wildfire Status Summary"
+        Link="/Content/10-FTEM/Reports/RepWildfireStatus.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Current Treatment Status Summary"
+        Link="/Content/10-FTEM/Reports/RepTreatmentStatus.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
         Title="Completed Wildfire Monitoring Data"
         Link="/Content/10-FTEM/Reports/RepData.htm" />
     </TocEntry>
