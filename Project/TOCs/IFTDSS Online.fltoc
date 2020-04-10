@@ -177,6 +177,12 @@
       Title="[%=System.LinkedTitle%]"
       Link="/Content/10-Workspace/MyWorkspaceAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/10-Workspace/Folders.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/10-Workspace/Filtering.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
       Title="Downloads">
       <TocEntry
         Title="How To Download"

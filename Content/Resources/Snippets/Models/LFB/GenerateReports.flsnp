@@ -19,7 +19,7 @@
             <li>
                 <p>When ready, your report name becomes an active link and becomes visible as a file in <span class="UIcomponent">My&#160;Workspace</span>, stored in the same folder as the file it summarizes. Click the <span class="UIcomponent">Report name</span> to open it in a new tab.</p>
                 <p>
-                    <img src="../../../Images/MyWorkspace/report_ready.png" alt="two captures, one showing the report dialogue box with the report name underlined as a hyperlink ready to open, the other showing the new report listed in Map Studio." class="borderlist" />
+                    <img src="../../../Images/MyWorkspace/report_ready.png" alt="two captures, one showing the report dialogue box with the report name underlined as a hyperlink ready to open, the other showing the new report listed in Map Studio." class="borderlist" MadCap:mediastyle="@media print { max-width: 100%; }" />
                 </p>
             </li>
         </ol>
