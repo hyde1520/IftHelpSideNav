@@ -201,7 +201,7 @@
         <p>The initial fuel moisture is then conditioned to account for topographical and weather changes over time by using an automatically generated Extreme weather scenario.</p>
         <MadCap:snippetBlock src="../Models/Flammap/extreme_weather_calc.flsnp" />
         <h2>Outputs</h2>
-        <p>Outputs are available as Map Studio layers, summary reports, and downloadable GeoTiff files.</p>
+        <p>Outputs are available as Map Studio layers, summary reports, and downloadable GeoTIFF files.</p>
         <h3>Landscape Outputs</h3>
         <MadCap:snippetBlock src="../Workspace/geotiff_lcp.flsnp" />
         <h3>&#160;</h3>

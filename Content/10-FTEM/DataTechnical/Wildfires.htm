@@ -12,12 +12,12 @@
         <p>The Fuels Treatment Effectiveness Monitoring (FTEM) process relies on geospatial datasets to depict wildfire locations from participating NWCG agencies, including four land management Agencies within the Department of Interior (National Park Service, Bureau of Land Management, US Fish and Wildlife Service, and Bureau of Indian Affairs) and the Department of Agriculture (USDA Forest Service). These geospatial datasets consist of both point and polygon features. The FTEM wildfire locations datasets are derived from data stored in:</p>
         <ul>
             <li>The <a href="https://www.forestsandrangelands.gov/WFIT/applications/IRWIN/index.shtml" target="_blank">Integrated Reporting of Wildland Fire Information  <i class="fa fa-external-link" aria-hidden="true"></i></a> (IRWIN) data exchange service. This service provides point locations and fire-related data for fires across the United States.</li>
-            <li>The <a href="https://www.geomac.gov/" target="_blank">Geospatial Multi-Agency Coordination  <i class="fa fa-external-link" aria-hidden="true"></i></a> (GeoMAC) program. This service provides fire perimeter (polygon) data, where it exists.</li>
+            <li>The <a href="https://www.nwcg.gov/publications/pms936/nifs" target="_blank">National Incident Feature Service (NIFS)  <i class="fa fa-external-link" aria-hidden="true"></i></a>. This service provides fire perimeter (polygon) data, where it exists.</li>
         </ul>
         <p>
             <img src="../../Resources/Images/FTEM/integrated_wildfire_data.png" alt="data as described in text" class="border" />
         </p>
-        <p>Wildland fire data is first drawn from IRWIN, then from GeoMAC. Next, the data is filtered before being displayed in the application. Details of each process are outlined below.</p>
+        <p>Wildland fire data is first drawn from IRWIN, then from NIFS. Next, the data is filtered before being displayed in the application. Details of each process are outlined below.</p>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Loading IRWIN Wildfire Point Data into FTEM</MadCap:dropDownHotspot>
@@ -77,18 +77,18 @@
         </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Loading GeoMAC Wildfire Perimeters into FTEM</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Loading NIFS Wildfire Perimeters into FTEM</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Wildfire perimeters, represented as polygon features, are collected and made available through the GeoMAC program. GeoMAC personnel, using GIS software and automated tools, harvest fire perimeter data from ftp.nifc.gov, the Alaska Fire Service, WFDSS, and the Enterprise Geospatial Portal. These perimeters come from a variety of sources, including trained incident GIS Specialists, Infrared Interpreters, Field Observers, incident operations resources, and agency staff.  Once collected, GeoMAC personnel perform limited QA/QC to remove duplicates and identify the most recent, authoritative perimeter if there are multiple perimeters, and make it available through a web service. GeoMAC personnel also populate the IRWIN ID field for fire perimeters, which allows tabular data from IRWIN to be used with the fire perimeters.</p>
+                <p>Wildfire perimeters, represented as polygon features, are collected and made available through NIFS. NIFS personnel, using GIS software and automated tools, harvest fire perimeter data from ftp.nifc.gov, the Alaska Fire Service, WFDSS, and the Enterprise Geospatial Portal. These perimeters come from a variety of sources, including trained incident GIS Specialists, Infrared Interpreters, Field Observers, incident operations resources, and agency staff.  Once collected, NIFS personnel perform limited QA/QC to remove duplicates and identify the most recent, authoritative perimeter if there are multiple perimeters, and make it available through a web service. NIFS personnel also populate the IRWIN ID field for fire perimeters, which allows tabular data from IRWIN to be used with the fire perimeters.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>GeoMAC Polygon Data retrieval details</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>NIFS Polygon Data retrieval details</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Data is pulled into the FTEM&#160;system nightly from  GeoMAC for all the perimeters that have the latest flag as Y (<span class="code">latest = ‘Y’</span>). All data with the "Y" flag is pulled and data from the previous pull is discarded. This process is used because of GeoMAC limitations in distinguishing modifications within a given date range.</p>
+                <p>Data is pulled into the FTEM&#160;system nightly from  NIFS for all the perimeters that have the latest flag as Y (<span class="code">latest = ‘Y’</span>). All data with the "Y" flag is pulled and data from the previous pull is discarded. This process is used because of NIFS limitations in distinguishing modifications within a given date range.</p>
                 <p>Once data has been pulled it is added to the FTEM&#160;system:</p>
                 <ol style="list-style-type: lower-alpha;">
                     <li>Matching fire points from IRWIN&#160;are identified in the FTEM&#160;database.</li>
@@ -97,12 +97,11 @@
                 </ol>
                 <p>This data updating occurs nightly. The process will apply updates to fires based on whether or not have been monitored, as outlined below:</p>
                 <ul>
-                    <li><u>Fires designated as "Check For Interactions" or "No Interactions Detected"</u>:&#160;The Wildfire/Treatment Interaction Utility will continue to run nightly on the Wildfire as new or updated data comes in to the FTEM system. This includes updated tabular data from IRWIN and/or updated wildfire perimeters from Geomac</li>
+                    <li><u>Fires designated as "Check For Interactions" or "No Interactions Detected"</u>:&#160;The Wildfire/Treatment Interaction Utility will continue to run nightly on the Wildfire as new or updated data comes in to the FTEM system. This includes updated tabular data from IRWIN and/or updated wildfire perimeters from NIFS</li>
                     <li><u>Fires where monitoring is "In Progress" or "Complete"</u>: The Wildfire/Treatment Interaction Utility will stop running and treatments will be required to be manually added or removed from the Treatment tab by the user. </li>
                     <li>Because of this process, "In Progress" fires that were represented by a point, then latter updated to a polygon, will not show an update in the "Interaction Acres" field. The user will need to manually populate this field, or remove the treatment from the Treatment list and manually add it back in for that field to auto populate.</li>
                 </ul>
                 <h3>Data Retrieval Technical Details</h3>
-                <p><b>Url:</b>&#160;<a href="https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_fires/FeatureServer/4" target="_blank">https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_fires/FeatureServer/4</a></p>
                 <p><b>Where Clause:</b>
                 </p>
                 <p><span class="code">latest = ‘Y’</span>

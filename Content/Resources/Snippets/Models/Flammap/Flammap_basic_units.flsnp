@@ -12,7 +12,7 @@
             <thead>
                 <tr class="TableStyle-Standard-Head-Header1">
                     <th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">FlamMap Output</th>
-                    <th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">GeoTiff download (units)</th>
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">GeoTIFF download (units)</th>
                     <th class="TableStyle-Standard-HeadD-Column1-Header1" style="font-weight: bold;">IFTDSS Map/Reports (units)</th>
                 </tr>
             </thead>

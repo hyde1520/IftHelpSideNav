@@ -9,7 +9,7 @@
             <MadCap:keyword term="Playground" />Modeling Playground</h1>
         <p><span class="UIcomponent">Modeling Playground</span> is the part of IFTDSS where you run models when you don't want to use the Planning Cycle. The drop-down menu at the top is where you select a model, then your landscape, etc. The middle of the page displays a list of model outputs (these are also available in MyWorkspace). Clicking on a model output displays model metadata in the right panel, and shows a list options below the output name.</p>
         <p>
-            <img src="../Resources/Images/MyPlayground/Playground_overview.png" alt="Playground interface with dropdown menu along the top to select model and a list of model outputs below." class="borderlist" />
+            <img src="../Resources/Images/MyPlayground/Playground_overview_3_2_1.png" alt="Playground interface with dropdown menu along the top to select model and a list of model outputs below." class="border" />
         </p>
         <h2>Models Available</h2>
         <p>Currently the models available in <MadCap:variable name="General.ProductName" /> focus on Fire behavior and include:</p>
@@ -36,7 +36,7 @@
         <ul>
             <li><span class="UIcomponent">Copy</span>: Automatically takes you to a modeling input screen for that output with the landscape and model inputs pre-populated. You may make changes to any of these and run a new model scenario. This can be especially useful if you run an Automatic 97th Percentile Landscape Fire Behavior (Auto97th LFB) Report and want to <a href="../30-Tasks/Summaries/LandSummaryAbout.htm#copy_auto97_inputs" target="_blank">quickly re-run it with slightly different values</a>.</li>
             <li><span class="UIcomponent">View Input</span>: Displays a model indicating all the model inputs used in that modeling output. Also displays model run name, type, date created, resolution, and owner name.</li>
-            <li><span class="UIcomponent">Download</span>: Download a <a href="../10-Workspace/downloads/DownloadHowTo.htm" target="_blank">GeoTiff raster file</a> of the output to your local computer for use outside of <MadCap:variable name="General.ProductName" />.</li>
+            <li><span class="UIcomponent">Download</span>: Download a <a href="../10-Workspace/downloads/DownloadHowTo.htm" target="_blank">GeoTIFF raster file</a> of the output to your local computer for use outside of <MadCap:variable name="General.ProductName" />.</li>
             <li>
                 <p><span class="UIcomponent">Delete</span>: Delete the model run from <MadCap:variable name="General.ProductName" />. </p>
                 <div class="notificationImportant">
@@ -48,5 +48,13 @@
         <h2>Modeling Status</h2>
         <p>Modeling status is displayed in the "Status" column in <span class="UIcomponent">Modeling Playground</span> as well as <span class="UIcomponent">My Workspace</span>:</p>
         <MadCap:snippetBlock src="../Resources/Snippets/Models/status.flsnp" />
+        <h2>Storage</h2>
+        <div class="notificationComingSoon">
+            <p>Currently, it is possible to exceed 100% percent of your storage quota in IFTDSS. In future versions of IFTDSS, this will no longer be possible, and resources will need to be deleted. Details are still in development.</p>
+        </div>
+        <p>
+            <img src="../Resources/Images/MyPlayground/storagebarsmall.png" alt="the storage bar is visible in the left side of the screen." class="border" />
+        </p>
+        <MadCap:snippetBlock src="../Resources/Snippets/StorageBar.flsnp" />
     </body>
 </html>

@@ -6,7 +6,14 @@
                 <MadCap:dropDownHotspot>My wildfire location had to be corrected, what happens to the treatment list?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>If a wildfire point or polygon has its location changed (corrected) in the system of record, the wildfire location will update in FTEM but the treatment list for that fire will remain unchanged. In that scenario, users must remove the erroneous treatments using the <span class="UIcomponent">Remove Treatment(s)</span> button, and use the <span class="UIcomponent">Add Treatment(s)</span> button to add treatments that intersect with the new wildfire location.</p>
+                <p>If a correction is made to a wildfire location in the system of record after a fire is visible in FTEM, the treatment list will update based on the new location for fires in “check for interactions” or “monitoring in progress” status.</p>
+                <p>This update will retain any data you entered previously, and any treatment removal or additions you performed.  Only wildfires in "Monitoring Completed" status will not have their treatment list updated;  However, these fires can be amended by going to the <span class="UIcomponent">Complete</span> tab and selecting <span class="UIcomponent">Amend</span>. </p>
+                <p>Further details on how treatment lists change, based on fire status, are outlined below:</p>
+                <ul>
+                    <li>Fires in "Check for Interactions" status (displayed with a <img src="../../Images/FTEM/symbology/wildfire_point_notstarted.png" alt="point, check for interactions" class="iftbutton" /> or <img src="../../Images/FTEM/symbology/wildfire_poly_int_notstarted.png" alt="polygon, check for interactions" class="iftbutton" /> ):&#160;The treatment list continues to update nightly based on fire information.</li>
+                    <li>Fires in "Monitoring In Progress" status (displayed with a <img src="../../Images/FTEM/symbology/wildfire_point_monitoringinprogress.png" alt="point, monitoring in progress" class="iftbutton" /> or <img src="../../Images/FTEM/symbology/wildfire_poly_int_inprogress.png" alt="polygon, monitoring in progress" class="iftbutton" />):&#160;The treatment list continues to update nightly based on fire information. Treatment information previously entered will not change, this includes monitoring information, treatments added with the Add Treatments button, or removed with the Remove Treatments button. </li>
+                    <li>Fires in "Monitoring Completed" status (displayed with a <img src="../../Images/FTEM/symbology/wildfire_point_monitoringcompleted.png" alt="point, completed" class="iftbutton" /> or <img src="../../Images/FTEM/symbology/wildfire_poly_int_complete.png" alt="polygon, completed" class="iftbutton" />):&#160;Treatments will not change. You must manually add any additional treatments to this list, or amend monitoring data.</li>
+                </ul>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

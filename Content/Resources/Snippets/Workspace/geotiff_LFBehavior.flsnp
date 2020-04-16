@@ -14,7 +14,7 @@
                 <tr class="TableStyle-Standard-Head-Header1">
                     <th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Band #</th>
                     <th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Band Name</th>
-                    <th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Units - GeoTiff</th>
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Units - GeoTIFF</th>
                     <th class="TableStyle-Standard-HeadD-Column1-Header1" style="font-weight: bold;">Units - IFTDSS (Reports)</th>
                 </tr>
             </thead>
@@ -129,8 +129,8 @@
                 </tr>
             </tbody>
         </table>
-        <p><sup>A</sup> GeoTiff values for non-burnable pixels are 0.000000 <a href="../../../20-Models/LFB/Out/LFB download differences.htm" target="_blank">unless the GeoTiff download was request prior to 6/24/19</a>.</p>
-        <p><sup>B</sup> If Uphill or Downhill wind direction was selected during the model run, the wind direction will be displayed on the GeoTiff raster grid as -1 for uphill winds, -2 for downhill winds.</p>
-        <p><sup>C</sup> 1000 Hour fuel moisture will always be equal to 100 Hour&#160;fuel moisture in the GeoTiff download.</p>
+        <p><sup>A</sup> GeoTIFF values for non-burnable pixels are 0.000000 <a href="../../../20-Models/LFB/Out/LFB download differences.htm" target="_blank">unless the GeoTIFF download was request prior to 6/24/19</a>.</p>
+        <p><sup>B</sup> If Uphill or Downhill wind direction was selected during the model run, the wind direction will be displayed on the GeoTIFF raster grid as -1 for uphill winds, -2 for downhill winds.</p>
+        <p><sup>C</sup> 1000 Hour fuel moisture will always be equal to 100 Hour&#160;fuel moisture in the GeoTIFF download.</p>
     </body>
 </html>

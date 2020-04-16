@@ -8,7 +8,7 @@
                 <MadCap:dropDownHotspot>What if I don't see my wildfire?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p> Wildfire data is pulled into the FTEM&#160;system nightly from IRWIN and GEOMAC.</p>
+                <p> Wildfire data is pulled into the FTEM&#160;system nightly from IRWIN and NIFS.</p>
                 <p>First, check your agency's system of record. Contact their <a href="../../../10-FTEM/Guidance/AgencyLeads.htm" target="_blank">FTEM&#160;Agency Lead</a> if the fire has been listed in the system of record for over 24 hours but is not visible in FTEM.</p>
                 <p>For more detail see <a href="../../../10-FTEM/DataTechnical/Wildfires.htm" target="_blank">FTEM Wildfire Technical Documentation</a>.</p>
             </MadCap:dropDownBody>

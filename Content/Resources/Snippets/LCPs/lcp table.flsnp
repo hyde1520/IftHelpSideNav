@@ -14,7 +14,7 @@
                 <tr class="TableStyle-Standard-Head-Header1">
                     <th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Band #</th>
                     <th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Band Name</th>
-                    <th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Units - GeoTiff</th>
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Units - GeoTIFF</th>
                     <th class="TableStyle-Standard-HeadD-Column1-Header1" style="font-weight: bold;">Units - IFTDSS (Reports)</th>
                 </tr>
             </thead>
@@ -93,6 +93,6 @@
                 </tr>
             </tbody>
         </table>
-        <p><sup>A</sup> EVT, EVC, and EVH GeoTiff units are continuous for LANDFIRE 2016 Remap data.</p>
+        <p><sup>A</sup> EVT, EVC, and EVH GeoTIFF units are continuous for LANDFIRE 2016 Remap data.</p>
     </body>
 </html>

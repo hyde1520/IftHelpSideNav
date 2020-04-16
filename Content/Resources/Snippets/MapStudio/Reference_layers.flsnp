@@ -194,12 +194,13 @@
         <ul>
             <li><a href="http://silvis.forest.wisc.edu/data/wui-change/" target="_blank">SILVIS Wildland Urban Interface  <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
-            <li><a href="https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_fires/FeatureServer/2" target="_blank">Wildfire Activity GeoMAC <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            <li><a href="https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_fires/FeatureServer/2" target="_blank">Active Fire Perimeters (GEOMAC) <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
             <li><a href="http://services.arcgisonline.com/arcgis/rest/services/Specialty/Soil_Survey_Map/MapServer" target="_blank">USDA/NRCS SSURGO <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
             <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=50d97e69c8c14888988551830fcb9677#overview" target="_blank">Pyrome <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
+            <li>LANDFIRE&#160;2016 Extent</li>
         </ul>
     </body>
 </html>

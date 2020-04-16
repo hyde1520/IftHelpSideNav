@@ -41,7 +41,7 @@
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td style="text-align: center;" class="TableStyle-Standard-BodyB-Column1-Body1">n</td>
                     <td class="TableStyle-Standard-BodyB-Column1-Body1">Sub-HVRA n...</td>
-                    <td style="text-align: center;" class="TableStyle-Standard-BodyA-Column1-Body1">Each subsequent Sub-HVRA you use in the analysis will have its own band, there can be up to 100 Sub-HVRAs total within a GeoTiff.</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyA-Column1-Body1">Each subsequent Sub-HVRA you use in the analysis will have its own band, there can be up to 100 Sub-HVRAs total within a GeoTIFF.</td>
                 </tr>
             </tbody>
         </table>

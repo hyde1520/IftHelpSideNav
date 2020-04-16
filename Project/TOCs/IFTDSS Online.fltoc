@@ -621,14 +621,14 @@
             Link="/Content/20-Models/ClassifiedWthr/AboutWXSLBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
         <TocEntry
+          Title="Ignitions"
+          Link="/Content/20-Models/LBP/In/NoFiresSimLBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
           Title="Simulation Time"
           Link="/Content/20-Models/LBP/In/SimTimesLBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Spotting"
           Link="/Content/20-Models/LBP/In/SpotLBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="Ignitions"
-          Link="/Content/20-Models/LBP/In/NoFiresSimLBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
           Link="/Content/20-Models/LBP/In/ResolutionLBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />

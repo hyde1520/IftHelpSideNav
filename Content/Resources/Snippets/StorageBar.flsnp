@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>The <span class="UIcomponent">Storage bar</span> indicates what percent of your allocated storage you have used. Currently, it is possible to exceed 100%, but in future versions of IFTDSS the storage quota will be implemented. Details on the storage allocation per account are still being discussed.</p>
+    </body>
+</html>
