@@ -393,4 +393,34 @@
     <Map Name="SubmitEA_hh" Link="/Content/50-Hover/ExposureAnalysis/SubmitEA_hh.htm" />
     <Map Name="Ignitions_hh" Link="/Content/50-Hover/Models/LBP/5.5_Ignitions_hh.htm" />
     <Map Name="doiunifiedregion" Link="/Content/10-MapStudio/RefLayerMetadata/Boundary/DOIUnifiedRgns.htm" />
+    <Map Name="FindingFireInfoFTEM" Link="/Content/10-FTEM/General/FindingFireInfoFTEM.htm" />
+    <Map Name="RepTreatmentStatus" Link="/Content/10-FTEM/Reports/RepTreatmentStatus.htm" />
+    <Map Name="RepWildfireStatus" Link="/Content/10-FTEM/Reports/RepWildfireStatus.htm" />
+    <Map Name="MtbsAk_m" Link="/Content/10-MapStudio/RefLayerMetadata/DistHistory/MtbsAk_m.htm" />
+    <Map Name="MtbsConus_m" Link="/Content/10-MapStudio/RefLayerMetadata/DistHistory/MtbsConus_m.htm" />
+    <Map Name="MtbsHi_m" Link="/Content/10-MapStudio/RefLayerMetadata/DistHistory/MtbsHi_m.htm" />
+    <Map Name="Filtering" Link="/Content/10-Workspace/Filtering.htm" />
+    <Map Name="Folders" Link="/Content/10-Workspace/Folders.htm" />
+    <Map Name="EAGeoTiff" Link="/Content/10-Workspace/downloads/EAGeoTiff.htm" />
+    <Map Name="LANDFIREv2016" Link="/Content/20-Landscapes/LANDFIREv2016.htm" />
+    <Map Name="LCPBuffering" Link="/Content/20-Landscapes/LCPBuffering.htm" />
+    <Map Name="LCPConsiderations" Link="/Content/20-Landscapes/LCPConsiderations.htm" />
+    <Map Name="LCPFeatures" Link="/Content/20-Landscapes/LCPFeatures.htm" />
+    <Map Name="LCPTerminology" Link="/Content/20-Landscapes/LCPTerminology.htm" />
+    <Map Name="LCPVersions" Link="/Content/20-Landscapes/LCPVersions.htm" />
+    <Map Name="MTTTutorial" Link="/Content/20-Models/MTT/MTTTutorial.htm" />
+    <Map Name="_0_introduction" Link="/Content/40-Tutorials/WA_DTA/0_introduction.htm" />
+    <Map Name="_1_preview" Link="/Content/40-Tutorials/WA_DTA/1_preview.htm" />
+    <Map Name="_2_summarizeassess" Link="/Content/40-Tutorials/WA_DTA/2_summarizeassess.htm" />
+    <Map Name="_3_createaoi" Link="/Content/40-Tutorials/WA_DTA/3_createaoi.htm" />
+    <Map Name="_4_reviewauto97th" Link="/Content/40-Tutorials/WA_DTA/4_reviewauto97th.htm" />
+    <Map Name="_5_dta" Link="/Content/40-Tutorials/WA_DTA/5_dta.htm" />
+    <Map Name="_6_compare_dta" Link="/Content/40-Tutorials/WA_DTA/6_compare_dta.htm" />
+    <Map Name="_7_compareconclude" Link="/Content/40-Tutorials/WA_DTA/7_compareconclude.htm" />
+    <Map Name="WaDTAExample" Link="/Content/40-Tutorials/WA_DTA/WaDTAExample.htm" />
+    <Map Name="MtbsPr_m" Link="/Content/10-MapStudio/RefLayerMetadata/DistHistory/MtbsPr_m.htm" />
+    <Map Name="assign_ri_hh" Link="/Content/50-Hover/QWRA/assign_ri_hh.htm" />
+    <Map Name="define_rfs_hh" Link="/Content/50-Hover/QWRA/define_rfs_hh.htm" />
+    <Map Name="name_qwra" Link="/Content/50-Hover/QWRA/name_qwra.htm" />
+    <Map Name="select_ea_hh" Link="/Content/50-Hover/QWRA/select_ea_hh.htm" />
 </CatapultAliasFile>

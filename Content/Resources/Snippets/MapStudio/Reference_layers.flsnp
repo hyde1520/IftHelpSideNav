@@ -7,7 +7,15 @@
         <ul>
             <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=30794b575e5945ffadb974f1b2ac6268" target="_blank">Historic Fuel Treatment Polygons <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
-            <li><a href="https://psgeodata.fs.fed.us/arcgis/rest/services/MTBS/MTBS/MapServer" target="_blank">MTBS Burn Severity <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            <li MadCap:conditions="General.QA ONLY"><a href="https://apps.fs.usda.gov/arcx/rest/services/RDW_Wildfire/MTBS_CONUS/MapServer/WMSServer/" target="_blank">CONUS MTBS Burn Severity <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </li>
+            <li MadCap:conditions="General.QA ONLY"><a href="https://apps.fs.usda.gov/arcx/rest/services/RDW_Wildfire/MTBS_Alaska/MapServer/WMSServer/" target="_blank">Alaska MTBS Burn Severity <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </li>
+            <li MadCap:conditions="General.QA ONLY"><a href="https://apps.fs.usda.gov/arcx/rest/services/RDW_Wildfire/MTBS_Hawaii/MapServer/WMSServer/" target="_blank">Hawaii MTBS Burn Severity <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </li>
+			<li MadCap:conditions="General.QA ONLY"><a href="https://apps.fs.usda.gov/arcx/rest/services/RDW_Wildfire/MTBS_PuertoRico/MapServer/WMSServer/" target="_blank">Puerto Rico MTBS Burn Severity <i class="fa fa-external-link" aria-hidden="true"></i></a>
+			</li>
+            <li MadCap:conditions="General.Prod ONLY"><a href="https://psgeodata.fs.fed.us/arcgis/rest/services/MTBS/MTBS/MapServer" target="_blank">MTBS Burn Severity <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
         </ul>
         <h3>Disturbance History - Historic Wildfire Perimeters</h3>
