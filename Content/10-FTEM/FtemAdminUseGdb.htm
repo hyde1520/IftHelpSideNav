@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="General.QA ONLY">
+    <head>
+    </head>
+    <body>
+        <h1>Download an FTEM&#160;Geodatabase and Join to Other Data</h1>
+        <p>FTEM&#160;Administrators may download a Relational Database&#160;Backup and Geospatial Database Backup of FTEM&#160;monitoring data. The Geospatial Database Backup is an export of the key feature classes and associated tables in FTEM.</p>
+        <p>To download a Geodatabase backup:</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>
+                <p>From any FTEM&#160;page, navigate to your <span class="UIcomponent">profile</span> in the top right and select <span class="UIcomponent">System Admin</span>.</p>
+                <p>
+                    <img src="../Resources/Images/FTEM/systemadmin.png" alt="System admin is shown in the drop-down menu of the profile." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Click the labeled <span class="UIcomponent">Download File ftemgeodb.gdb.zip</span>.</p>
+                <p>
+                    <img src="../Resources/Images/FTEM/download_ftem_gdb.png" alt="the geodatabase button." class="borderlist" />
+                </p>
+                <h2>Joining Data</h2>
+                <p>Once you've downloaded the geodatabase, you may join stand-alone attribute tables to feature class tables in an ArcMap mxd. The steps below describe this in version 10.6.1:</p>
+            </li>
+        </ol>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Add a feature class to the mxd</li>
+            <li>
+                <p>Right click the feature class and select <span class="UIcomponent">Joins and Relates</span>, then click on <span class="UIcomponent">Join</span>.</p>
+                <p>
+                    <img src="../Resources/Images/External/Arc/ftemjoin/joinandrelate.png" alt="Joins and Relates menu with Join option in Arcmap 10.6.1" class="borderlist" />
+                </p>
+            </li>
+            <li>In the <span class="UIcomponent">Join window</span> that opens, choose the (1) layer field, (2) desired table from ftemgeodb.gdb, and (3) table field to join records to, then click <span class="UIcomponent">OK</span>.</li>
+        </ol>
+        <p>For an example of this process, we have included a zipped folder containing a .mxd, a version of these instructions, and the following .lyr files:</p>
+        <ul>
+            <li>Treatment feature classes joined to treatment table via ftem_treatment_id.lyr</li>
+            <li>Treatment_Point joined to treatment table via ftem_treatment_id.lyr</li>
+            <li>Treatment_Poly joined to treatment table via ftem_treatment_id.lyr</li>
+            <li>Wildfire feature classes joined to wildfire table via ftem_wildfire_id.lyr</li>
+            <li>Wildfire_Point joined to wildfire table via ftem_wildfire_id.lyr</li>
+            <li>Wildfire_Poly joined to wildfire table via ftem_wildfire_id.lyr</li>
+        </ul>
+        <p><a href="../Resources/Supporting/FTEM_LayerFiles_ArcMap10.6.1.zip" target="_blank">Example compatible with Arc Version 10.6 (zipfile)</a>
+        </p>
+    </body>
+</html>

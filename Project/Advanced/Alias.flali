@@ -423,4 +423,5 @@
     <Map Name="define_rfs_hh" Link="/Content/50-Hover/QWRA/define_rfs_hh.htm" />
     <Map Name="name_qwra" Link="/Content/50-Hover/QWRA/name_qwra.htm" />
     <Map Name="select_ea_hh" Link="/Content/50-Hover/QWRA/select_ea_hh.htm" />
+    <Map Name="about_qwra" Link="/Content/30-Tasks/QWRA_EA/QWRAAbout.htm" />
 </CatapultAliasFile>
