@@ -19,6 +19,8 @@
         <Properties>
           <Property
             Name="BackgroundColor">#0b6623</Property>
+          <Property
+            Name="Width">22%</Property>
         </Properties>
       </Style>
       <Style
@@ -49,10 +51,29 @@
           <Property
             Name="FontWeight">normal</Property>
           <Property
-            Name="BackgroundColor">#ffffff</Property>
+            Name="BackgroundColor">transparent</Property>
           <Property
-            Name="Color">#0b6623</Property>
+            Name="Color">#ffffff</Property>
+          <Property
+            Name="BorderTop">solid 0.5em #ffffff</Property>
+          <Property
+            Name="BorderRight">solid 0.5em #ffffff</Property>
+          <Property
+            Name="BorderBottom">solid 0.5em #ffffff</Property>
+          <Property
+            Name="BorderLeft">solid 0.5em #ffffff</Property>
+          <Property
+            Name="WhiteSpace">normal</Property>
         </Properties>
+        <Classes>
+          <StyleClass
+            Name="Expander Icon">
+            <Properties>
+              <Property
+                Name="ExpanderBorderColor">#ffffff</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
       </Style>
       <Style
         Name="Side Navigation Menu Item (selected)">
@@ -76,7 +97,7 @@
               <Property
                 Name="ExpanderBorderColor">#ffffff</Property>
               <Property
-                Name="ExpanderBorderWidth">7px</Property>
+                Name="ExpanderBorderWidth">0.5em</Property>
             </Properties>
           </StyleClass>
           <StyleClass
@@ -84,6 +105,8 @@
             <Properties>
               <Property
                 Name="BorderBottom">dotted 1px #ffffff</Property>
+              <Property
+                Name="MarginLeft">1em</Property>
             </Properties>
           </StyleClass>
         </Classes>

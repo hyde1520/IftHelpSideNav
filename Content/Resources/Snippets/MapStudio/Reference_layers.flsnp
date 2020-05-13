@@ -178,7 +178,7 @@
             <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=acdb4a650c824c91ba7efd51d3f9f008" target="_blank">USFWS FTEM Treatment Polys <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
         </ul>
-        <h3>National HVRA Data</h3>
+        <h3>National HVRA Data*</h3>
         <ul>
             <li><a href="../../../10-MapStudio/RefLayerMetadata/HVRAs/Communities_m.htm" target="_blank">Communities <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
@@ -196,6 +196,7 @@
             <li><a href="../../../10-MapStudio/RefLayerMetadata/HVRAs/EcoFun_m.htm" target="_blank">Ecosystem Function</a>
             </li>
         </ul>
+        <p>*Alaska omission:&#160;<MadCap:snippetText src="AlaskaHVRA.flsnp" />.</p>
         <h3>Other Layers</h3>
         <ul>
             <li><a href="http://silvis.forest.wisc.edu/data/wui-change/" target="_blank">SILVIS Wildland Urban Interface  <i class="fa fa-external-link" aria-hidden="true"></i></a>

@@ -94,12 +94,18 @@
         Title="Edit Rule Technical Documentation"
         Link="/Content/30-Tasks/LndscpEdit/LandscapeEditTechTopic.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/00-Concepts/LANDFIRE.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   </TocEntry>
   <TocEntry
     Title="Using Shapes">
     <TocEntry
       Title="About"
       Link="/Content/10-MapStudio/Files/ShapefileInfo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="AOIs and Masks"
+      Link="/Content/10-MapStudio/Files/AOIsMasks.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Copy from Layers"
       Link="/Content/10-MapStudio/Files/ShapeCopyfromRef.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -346,7 +352,7 @@
             Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/EATechnicalDoc.htm" />
         </TocEntry>
         <TocEntry
-          Title="Quantitative Wildfire Risk Assessment"
+          Title="Risk Assessment"
           Link="/Content/30-Tasks/QWRA_EA/QWRAAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
       </TocEntry>
       <TocEntry
@@ -500,6 +506,24 @@
       </TocEntry>
     </TocEntry>
     <TocEntry
+      Title="About FBFMs">
+      <TocEntry
+        Title="Fire Behavior Fuel Models (FBFMs)"
+        Link="/Content/10-MapStudio/Files/FBFMInfo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="FBFM Environments"
+        Link="/Content/10-MapStudio/Files/FBFMSummaries.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Moisture Inputs for FBFMs"
+        Link="/Content/00-Concepts/FBFM/FBFMFuelMoistures.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Heat Values for Some FBFMs"
+        Link="/Content/00-Concepts/FBFM/FBFMHeatValues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Comparison Spreadsheet"
+        Link="/Content/00-Concepts/FBFM/FBFMCompareXLS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/10-MapStudio/Files/ReferenceLayers.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
@@ -589,12 +613,12 @@
         Title="LBP Overview"
         Link="/Content/20-Models/LBP/About.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
+        Title="LBP Tutorial"
         Link="/Content/20-Models/LBP/LBPTutorial.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Inputs">
         <TocEntry
-          Title="Inputs Overview"
+          Title="Input Overview"
           Link="/Content/20-Models/LBP/In/OverviewLBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Landscapes for LBP"
@@ -614,10 +638,10 @@
             Title="About Conditioning"
             Link="/Content/20-Models/LBP/In/DeadFMConditioning.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           <TocEntry
-            Title="IFTDSS Classified Weather Streams"
+            Title="Classified Weather Streams"
             Link="/Content/20-Models/ClassifiedWthr/classifiedweather_LBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           <TocEntry
-            Title="Create your own .wxs file"
+            Title="Create a wxs file"
             Link="/Content/20-Models/ClassifiedWthr/AboutWXSLBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
         <TocEntry
@@ -899,54 +923,33 @@
     </TocEntry>
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/10-FTEM/Administrators.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      Link="/Content/10-FTEM/Admin/Administrators.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="FAQ"
       Link="/Content/10-FTEM/FAQs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   </TocEntry>
   <TocEntry
-    Title="Additional Help"
+    Title="Resources"
     StartSection="false">
     <TocEntry
       Title="Case Study Examples"
       Link="/Content/40-Tutorials/TutorialMain.htm" />
     <TocEntry
-      Title="AOIs and Masks"
-      Link="/Content/10-MapStudio/Files/AOIsMasks.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      Title="Videos"
+      Link="https://www.youtube.com/channel/UC-Rwe70dxm0FTbxWZnigQsQ/playlists"
+      StartSection="false" />
     <TocEntry
-      Title="About FBFMs">
-      <TocEntry
-        Title="Fire Behavior Fuel Models (FBFMs)"
-        Link="/Content/10-MapStudio/Files/FBFMInfo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="FBFM Environments"
-        Link="/Content/10-MapStudio/Files/FBFMSummaries.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Moisture Inputs for FBFMs"
-        Link="/Content/00-Concepts/FBFM/FBFMFuelMoistures.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Heat Values for Some FBFMs"
-        Link="/Content/00-Concepts/FBFM/FBFMHeatValues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Comparison Spreadsheet"
-        Link="/Content/00-Concepts/FBFM/FBFMCompareXLS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    </TocEntry>
+      Title="Forums"
+      Link="https://iftdsshelp.freshdesk.com/support/discussions" />
     <TocEntry
-      Title="Citations"
-      Link="/Content/41-References/Citations.htm" />
+      Title="Fuel Guides and Sites"
+      Link="/Content/41-References/Resources.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Glossary"
       Link="/Content/41-References/Glossary.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
-      Title="Guides, Tools, Resources"
-      Link="/Content/41-References/Resources.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/00-Concepts/LANDFIRE.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    <TocEntry
-      Title="Videos"
-      Link="https://www.youtube.com/channel/UC-Rwe70dxm0FTbxWZnigQsQ/playlists"
-      StartSection="false" />
+      Title="References"
+      Link="/Content/41-References/Citations.htm" />
     <TocEntry
       Title="Support Desk"
       conditions="General.QA ONLY"
@@ -956,14 +959,8 @@
       VolumeNumberReset="same"
       ChapterNumberReset="continue" />
     <TocEntry
-      Title="Support Desk"
-      conditions="General.Prod ONLY">
-      <TocEntry
-        Title="Forums"
-        Link="https://iftdsshelp.freshdesk.com/support/discussions" />
-      <TocEntry
-        Title="Request Tech. Support"
-        Link="https://iftdss.firenet.gov/landing_page/support.html" />
-    </TocEntry>
+      Title="Request Tech. Support"
+      Link="https://iftdss.firenet.gov/landing_page/support.html"
+      conditions="General.Prod ONLY" />
   </TocEntry>
 </CatapultToc>

@@ -433,3 +433,9 @@
 #define name_qwra 9050
 #define select_ea_hh 9051
 #define about_qwra 1272
+#define FtemAdminAmendData 1273
+#define FtemAdminChangeAgency 1274
+#define FtemAdminFireHistory 1294
+#define FtemAdminUseGdb 1295
+#define FtemAdminUserRole 1296
+#define FtemAdminUsers 1297

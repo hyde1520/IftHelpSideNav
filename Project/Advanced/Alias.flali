@@ -153,7 +153,7 @@
     <Map Name="step_monitoring_hh" Link="/Content/50-Hover/FTEM/step_monitoring_hh.htm" />
     <Map Name="step_treatments_hh" Link="/Content/50-Hover/FTEM/step_treatments_hh.htm" />
     <Map Name="step_wildfires_hh" Link="/Content/50-Hover/FTEM/step_wildfires_hh.htm" />
-    <Map Name="FTEMAdmin" Link="/Content/10-FTEM/Administrators.htm" />
+    <Map Name="FTEMAdmin" Link="/Content/10-FTEM/Admin/Administrators.htm" />
     <Map Name="Roles" Link="/Content/10-FTEM/AccountsRoles/Roles_Intro.htm" />
     <Map Name="AOIsMasks" Link="/Content/10-MapStudio/Files/AOIsMasks.htm" />
     <Map Name="DeleteShape" Link="/Content/10-MapStudio/Files/DeleteShape.htm" />
@@ -424,4 +424,10 @@
     <Map Name="name_qwra" Link="/Content/50-Hover/QWRA/name_qwra.htm" />
     <Map Name="select_ea_hh" Link="/Content/50-Hover/QWRA/select_ea_hh.htm" />
     <Map Name="about_qwra" Link="/Content/30-Tasks/QWRA_EA/QWRAAbout.htm" />
+    <Map Name="FtemAdminAmendData" Link="/Content/10-FTEM/Admin/AmendData.htm" />
+    <Map Name="FtemAdminChangeAgency" Link="/Content/10-FTEM/Admin/ChangeAgency.htm" />
+    <Map Name="FtemAdminFireHistory" Link="/Content/10-FTEM/Admin/FireHistory.htm" />
+    <Map Name="FtemAdminUseGdb" Link="/Content/10-FTEM/Admin/UseGdb.htm" />
+    <Map Name="FtemAdminUserRole" Link="/Content/10-FTEM/Admin/UserRole.htm" />
+    <Map Name="FtemAdminUsers" Link="/Content/10-FTEM/Admin/AdminUsers.htm" />
 </CatapultAliasFile>
