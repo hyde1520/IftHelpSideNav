@@ -850,6 +850,25 @@
         Link="/Content/10-FTEM/AccountsRoles/Roles_Detailed.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
+      Title="Data Sources">
+      <TocEntry
+        Title="Overview"
+        Link="/Content/10-FTEM/DataTechnical/TechDoc.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="For Treatments"
+        Link="/Content/10-FTEM/DataTechnical/Treatments.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="For Wildfires"
+        Link="/Content/10-FTEM/DataTechnical/Wildfires.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Buffering"
+        Link="/Content/10-FTEM/DataTechnical/Buffering.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/10-FTEM/DataTechnical/Utilities.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        conditions="General.Exclude" />
+    </TocEntry>
+    <TocEntry
       Title="Monitoring">
       <TocEntry
         Title="[%=System.LinkedTitle%]"
@@ -872,7 +891,7 @@
       <TocEntry
         Title="Step 2: Pick Treatment">
         <TocEntry
-          Title="Adding &amp; Removing Treatments"
+          Title="Add &amp; Remove Treatments"
           Link="/Content/10-FTEM/General/TreatmentFilters.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Add Treatment Using Buffer"
@@ -913,25 +932,6 @@
         <TocEntry
           Title="[%=System.LinkedTitle%]"
           Link="/Content/10-FTEM/General/Completion.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      </TocEntry>
-      <TocEntry
-        Title="Data Sources">
-        <TocEntry
-          Title="Overview"
-          Link="/Content/10-FTEM/DataTechnical/TechDoc.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="For Treatments"
-          Link="/Content/10-FTEM/DataTechnical/Treatments.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="For Wildfires"
-          Link="/Content/10-FTEM/DataTechnical/Wildfires.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="Buffering"
-          Link="/Content/10-FTEM/DataTechnical/Buffering.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="[%=System.LinkedTitle%]"
-          Link="/Content/10-FTEM/DataTechnical/Utilities.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-          conditions="General.Exclude" />
       </TocEntry>
     </TocEntry>
     <TocEntry

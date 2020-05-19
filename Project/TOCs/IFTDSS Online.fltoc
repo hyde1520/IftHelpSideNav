@@ -58,6 +58,10 @@
       Title="Landscape Features"
       Link="/Content/20-Landscapes/LCPFeatures.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
+      Title="Alaska Information"
+      Link="/Content/00-Concepts/Alaska.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      conditions="General.QA ONLY" />
+    <TocEntry
       Title="Landscape Versions">
       <TocEntry
         Title="[%=System.LinkedTitle%]"
@@ -810,6 +814,25 @@
         Link="/Content/10-FTEM/AccountsRoles/Roles_Detailed.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
+      Title="Data Sources">
+      <TocEntry
+        Title="Overview"
+        Link="/Content/10-FTEM/DataTechnical/TechDoc.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="For Treatments"
+        Link="/Content/10-FTEM/DataTechnical/Treatments.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="For Wildfires"
+        Link="/Content/10-FTEM/DataTechnical/Wildfires.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Buffering"
+        Link="/Content/10-FTEM/DataTechnical/Buffering.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/10-FTEM/DataTechnical/Utilities.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        conditions="General.Exclude" />
+    </TocEntry>
+    <TocEntry
       Title="Monitoring">
       <TocEntry
         Title="[%=System.LinkedTitle%]"
@@ -832,7 +855,7 @@
       <TocEntry
         Title="Step 2: Pick Treatment">
         <TocEntry
-          Title="Adding &amp; Removing Treatments"
+          Title="Add &amp; Remove Treatments"
           Link="/Content/10-FTEM/General/TreatmentFilters.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Add Treatment Using Buffer"
@@ -874,25 +897,6 @@
           Title="[%=System.LinkedTitle%]"
           Link="/Content/10-FTEM/General/Completion.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
-      <TocEntry
-        Title="Data Sources">
-        <TocEntry
-          Title="Overview"
-          Link="/Content/10-FTEM/DataTechnical/TechDoc.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="For Treatments"
-          Link="/Content/10-FTEM/DataTechnical/Treatments.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="For Wildfires"
-          Link="/Content/10-FTEM/DataTechnical/Wildfires.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="Buffering"
-          Link="/Content/10-FTEM/DataTechnical/Buffering.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="[%=System.LinkedTitle%]"
-          Link="/Content/10-FTEM/DataTechnical/Utilities.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-          conditions="General.Exclude" />
-      </TocEntry>
     </TocEntry>
     <TocEntry
       Title="Reporting">
@@ -922,8 +926,34 @@
         Link="/Content/10-FTEM/Reports/RepData.htm" />
     </TocEntry>
     <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/10-FTEM/Admin/Administrators.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      Title="Administrators FTEM Topics">
+      <TocEntry
+        Title="About the Administrator Role"
+        Link="/Content/10-FTEM/Admin/Administrators.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/10-FTEM/Admin/AdminUsers.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/10-FTEM/Admin/UserRole.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Change a User's Agency"
+        Link="/Content/10-FTEM/Admin/ChangeAgency.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/10-FTEM/Admin/AmendData.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/10-FTEM/Admin/FireHistory.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Using the Geodatabase Download"
+        Link="/Content/10-FTEM/Admin/UseGdb.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        conditions="General.QA ONLY"
+        StartSection="false"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+    </TocEntry>
     <TocEntry
       Title="FAQ"
       Link="/Content/10-FTEM/FAQs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -950,6 +980,10 @@
     <TocEntry
       Title="References"
       Link="/Content/41-References/Citations.htm" />
+    <TocEntry
+      Title="Alaska Information"
+      Link="/Content/00-Concepts/Alaska.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      conditions="General.QA ONLY" />
     <TocEntry
       Title="Support Desk"
       conditions="General.QA ONLY"
