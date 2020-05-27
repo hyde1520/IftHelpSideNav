@@ -21,6 +21,8 @@
             Name="BackgroundColor">#2e3e4e</Property>
           <Property
             Name="Display">block</Property>
+          <Property
+            Name="Width">25%</Property>
         </Properties>
       </Style>
       <Style
@@ -51,16 +53,41 @@
           <Property
             Name="FontWeight">normal</Property>
           <Property
+            Name="BackgroundColor">#ffffff</Property>
+          <Property
             Name="Color">#2e3e4e</Property>
           <Property
-            Name="BackgroundColor">#ffffff</Property>
+            Name="BorderTop">none 0em #ffffff</Property>
+          <Property
+            Name="BorderRight">none 0em #ffffff</Property>
+          <Property
+            Name="BorderBottom">none 0em #ffffff</Property>
+          <Property
+            Name="BorderLeft">none 0em #ffffff</Property>
         </Properties>
         <Classes>
           <StyleClass
             Name="Expander Icon">
             <Properties>
               <Property
-                Name="ExpanderBorderColor">#2e3e4e</Property>
+                Name="ExpanderBorderColor">#ffffff</Property>
+              <Property
+                Name="ExpanderBorderWidth">8px</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="1st Level">
+            <Properties>
+              <Property
+                Name="BackgroundColor">#ffffff</Property>
+              <Property
+                Name="BorderTop">none 0em #ffffff</Property>
+              <Property
+                Name="BorderRight">none 0em #ffffff</Property>
+              <Property
+                Name="BorderBottom">none 0em #ffffff</Property>
+              <Property
+                Name="BorderLeft">dotted 0em #ffffff</Property>
             </Properties>
           </StyleClass>
         </Classes>
@@ -87,7 +114,7 @@
               <Property
                 Name="ExpanderBorderColor">#ffffff</Property>
               <Property
-                Name="ExpanderBorderWidth">7px</Property>
+                Name="ExpanderBorderWidth">8px</Property>
             </Properties>
           </StyleClass>
           <StyleClass

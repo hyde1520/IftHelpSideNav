@@ -948,7 +948,6 @@
       <TocEntry
         Title="Using the Geodatabase Download"
         Link="/Content/10-FTEM/Admin/UseGdb.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-        conditions="General.QA ONLY"
         StartSection="false"
         SectionNumberReset="continue"
         VolumeNumberReset="same"

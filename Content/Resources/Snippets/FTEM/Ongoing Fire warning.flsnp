@@ -3,6 +3,6 @@
     <head>
     </head>
     <body>
-        <p>If you are monitoring a fire that is currently in progress, you will need to continue to check the fire until it has completed. This is because new treatments will be added as the fire perimeter grows.</p>
+        <p>If you are monitoring a fire that is currently in progress, you will need to continue to check the fire until it has completed. This is because new treatments will be added as the fire perimeter grows. Take care when adding or removing treatments on fires that are still active. FTEM does not automatically update interactions you remove or add.</p>
     </body>
 </html>
