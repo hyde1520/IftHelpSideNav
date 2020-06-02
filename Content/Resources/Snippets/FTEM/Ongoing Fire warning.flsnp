@@ -3,6 +3,6 @@
     <head>
     </head>
     <body>
-        <p>If you are monitoring a fire that is currently in progress, you will need to continue to check the fire until it has completed. This is because new treatments will be added as the fire perimeter grows. Take care when adding or removing treatments on fires that are still active. FTEM does not automatically update interactions you remove or add.</p>
+        <p>FTEM will continue to update treatment interactions for active fires, adding new interactions as the fire perimeter updates.  However, any treatments you manually added or removed will remain unchanged by these updates. You may continue to add or remove treatments manually as the perimeter updates, or choose to wait until fire growth ceases to do so.</p>
     </body>
 </html>

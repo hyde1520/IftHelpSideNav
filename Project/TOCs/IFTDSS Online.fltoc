@@ -2,6 +2,25 @@
 <CatapultToc
   Version="1">
   <TocEntry
+    Title="About IFTDSS"
+    conditions="General.LaterRelease">
+    <TocEntry
+      Title="About IFTDSS"
+      Link="/Content/00-AboutIFTDSS/About.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/00-AboutIFTDSS/WhatsNew.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Release Notes"
+      Link="/Content/00-AboutIFTDSS/ReleaseNotes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/00-AboutIFTDSS/Development.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/00-AboutIFTDSS/History.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+  <TocEntry
     Title="COMMON TASKS"
     Class="TOCSeparator"
     conditions="General.Exclude" />
@@ -302,19 +321,19 @@
         Title="Map Values">
         <TocEntry
           Title="About Mapping HVRAs"
-          Link="/Content/30-Tasks/QWRA_EA/MapValues/HVRAAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          Link="/Content/30-Tasks/QWRA/MapValues/HVRAAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Map HVRAs Tutorial"
-          Link="/Content/30-Tasks/QWRA_EA/MapValues/HVRACreate.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/30-Tasks/QWRA/MapValues/HVRACreate.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/30-Tasks/QWRA_EA/MapValues/HVRAConsiderations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/30-Tasks/QWRA/MapValues/HVRAConsiderations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="HVRA Reference Data"
-          Link="/Content/30-Tasks/QWRA_EA/MapValues/HVRANational.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/30-Tasks/QWRA/MapValues/HVRANational.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
       <TocEntry
         Title="[%=System.LinkedTitle%]"
@@ -324,40 +343,86 @@
         Title="Hazard, Exposure, Risk">
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/30-Tasks/QWRA_EA/ModelLBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/30-Tasks/QWRA/ModelLBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Exposure Analysis">
           <TocEntry
             Title="Overview"
-            Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            Link="/Content/30-Tasks/QWRA/ExposureAnalysis/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           <TocEntry
             Title="Tutorial"
-            Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/Tutorial.htm"></TocEntry>
+            Link="/Content/30-Tasks/QWRA/ExposureAnalysis/Tutorial.htm"></TocEntry>
           <TocEntry
             Title="Analysis Outputs">
             <TocEntry
               Title="Overview"
-              Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/EAOutputOverview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+              Link="/Content/30-Tasks/QWRA/ExposureAnalysis/EAOutputOverview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
             <TocEntry
               Title="Viewing Outputs"
-              Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/EAOutputIFTDSSView.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+              Link="/Content/30-Tasks/QWRA/ExposureAnalysis/EAOutputIFTDSSView.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
             <TocEntry
               Title="Reports"
-              Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/EAOutputReports.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+              Link="/Content/30-Tasks/QWRA/ExposureAnalysis/EAOutputReports.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
             <TocEntry
               Title="Downloading Outputs"
-              Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/EAOutputDownloads.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+              Link="/Content/30-Tasks/QWRA/ExposureAnalysis/EAOutputDownloads.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           </TocEntry>
           <TocEntry
             Title="Considerations"
-            Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/EAConsiderations.htm" />
+            Link="/Content/30-Tasks/QWRA/ExposureAnalysis/EAConsiderations.htm" />
           <TocEntry
             Title="Technical Documentation"
-            Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/EATechnicalDoc.htm" />
+            Link="/Content/30-Tasks/QWRA/ExposureAnalysis/EATechnicalDoc.htm" />
         </TocEntry>
         <TocEntry
           Title="Risk Assessment"
-          Link="/Content/30-Tasks/QWRA_EA/QWRAAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+          Link="/Content/30-Tasks/QWRA/QWRAAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          conditions="General.Prod ONLY"></TocEntry>
+        <TocEntry
+          Title="Risk-QWRA"
+          conditions="General.QA ONLY">
+          <TocEntry
+            Title="QWRA Overview"
+            Link="/Content/30-Tasks/QWRA/QWRAAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="QWRA Tutorial"
+            Link="/Content/30-Tasks/QWRA/Risk/QwraTutorial.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="QWRA Inputs">
+            <TocEntry
+              Title="Expsoure Analysis" />
+            <TocEntry
+              Title="Response Functions"
+              Link="/Content/30-Tasks/QWRA/Risk/ResponseFunctions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry
+              Title="Relative Importance"
+              Link="/Content/30-Tasks/QWRA/Risk/RelativeImportance.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry
+              Title="Use a CSV"
+              Link="/Content/30-Tasks/QWRA/Risk/UsingCSV.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          </TocEntry>
+          <TocEntry
+            Title="QWRA Outputs">
+            <TocEntry
+              Title="QWRA Outputs Overview"
+              Link="/Content/30-Tasks/QWRA/Risk/OutputOverview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry
+              Title="Viewing QWRA Outputs"
+              Link="/Content/30-Tasks/QWRA/Risk/OutputViewing.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry
+              Title="Downloading QWRA Outputs"
+              Link="/Content/30-Tasks/QWRA/Risk/OutputDownloads.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry
+              Title="QWRA Summary Reports"
+              Link="/Content/30-Tasks/QWRA/Risk/OutputReports.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          </TocEntry>
+          <TocEntry
+            Title="QWRA Considerations"
+            Link="/Content/30-Tasks/QWRA/Risk/QWRAConsiderations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="QWRA Technical Documentation"
+            Link="/Content/30-Tasks/QWRA/Risk/QWRATechDoc.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
       </TocEntry>
       <TocEntry
         Title="Prioritize Treatments"
@@ -727,6 +792,51 @@
         Link="/Content/20-Models/LBP/MoscaicLBP.htm" />
     </TocEntry>
     <TocEntry
+      Title="Risk-QWRA"
+      conditions="General.QA ONLY">
+      <TocEntry
+        Title="QWRA Overview"
+        Link="/Content/30-Tasks/QWRA/QWRAAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="QWRA Tutorial"
+        Link="/Content/30-Tasks/QWRA/Risk/QwraTutorial.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="QWRA Inputs">
+        <TocEntry
+          Title="Expsoure Analysis" />
+        <TocEntry
+          Title="Response Functions"
+          Link="/Content/30-Tasks/QWRA/Risk/ResponseFunctions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Relative Importance"
+          Link="/Content/30-Tasks/QWRA/Risk/RelativeImportance.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Use a CSV"
+          Link="/Content/30-Tasks/QWRA/Risk/UsingCSV.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="QWRA Outputs">
+        <TocEntry
+          Title="QWRA Outputs Overview"
+          Link="/Content/30-Tasks/QWRA/Risk/OutputOverview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Viewing QWRA Outputs"
+          Link="/Content/30-Tasks/QWRA/Risk/OutputViewing.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Downloading QWRA Outputs"
+          Link="/Content/30-Tasks/QWRA/Risk/OutputDownloads.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="QWRA Summary Reports"
+          Link="/Content/30-Tasks/QWRA/Risk/OutputReports.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="QWRA Considerations"
+        Link="/Content/30-Tasks/QWRA/Risk/QWRAConsiderations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="QWRA Technical Documentation"
+        Link="/Content/30-Tasks/QWRA/Risk/QWRATechDoc.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
       Title="Minimum Travel Time (MTT)"
       conditions="General.QA ONLY">
       <TocEntry
@@ -991,6 +1101,10 @@
       SectionNumberReset="continue"
       VolumeNumberReset="same"
       ChapterNumberReset="continue" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/00-AboutIFTDSS/Webinars.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      conditions="General.LaterRelease" />
     <TocEntry
       Title="Request Tech. Support"
       Link="https://iftdss.firenet.gov/landing_page/support.html"

@@ -237,7 +237,7 @@
     <Map Name="RunConsiderations" Link="/Content/20-Models/LBP/RunConsiderations.htm" />
     <Map Name="LandscapeLBP" Link="/Content/20-Models/LBP/In/LandscapeLBP.htm" />
     <Map Name="OutHazard" Link="/Content/20-Models/LBP/Out/IntHazard.htm" />
-    <Map Name="RiskAssessment" Link="/Content/30-Tasks/QWRA_EA/QWRAAbout.htm" />
+    <Map Name="RiskAssessment" Link="/Content/30-Tasks/QWRA/QWRAAbout.htm" />
     <Map Name="_1_runcreate_hh1" Link="/Content/50-Hover/Models/LBP/1_runcreate_hh.htm" />
     <Map Name="_2_wind_hh" Link="/Content/50-Hover/Models/LBP/2_wind_hh.htm" />
     <Map Name="_3_crownfire_hh" Link="/Content/50-Hover/Models/LBP/3_crownfire_hh.htm" />
@@ -267,8 +267,8 @@
     <Map Name="Scale" Link="/Content/20-Models/LBP/Out/DynamicMask.htm" />
     <Map Name="EstFuelMoisturesLFB" Link="/Content/20-Models/LFB/In/EstFuelMoisturesLFB.htm" />
     <Map Name="EstFuelMoisturesMTT" Link="/Content/20-Models/MTT/In/EstFuelMoisturesMTT.htm" />
-    <Map Name="HVRAAbout" Link="/Content/30-Tasks/QWRA_EA/MapValues/HVRAAbout.htm" />
-    <Map Name="HVRACreate" Link="/Content/30-Tasks/QWRA_EA/MapValues/HVRACreate.htm" />
+    <Map Name="HVRAAbout" Link="/Content/30-Tasks/QWRA/MapValues/HVRAAbout.htm" />
+    <Map Name="HVRACreate" Link="/Content/30-Tasks/QWRA/MapValues/HVRACreate.htm" />
     <Map Name="HistoricFuelTreatment_m" Link="/Content/10-MapStudio/RefLayerMetadata/DistHistory/HistFuelTrtPoly_m.htm" />
     <Map Name="MTBS" Link="/Content/10-MapStudio/Files/ReferenceLayers.htm" />
     <Map Name="FireHistpre1980" Link="/Content/10-MapStudio/RefLayerMetadata/DistHistory/FireHist_m.htm" />
@@ -349,11 +349,11 @@
     <Map Name="ShapesCheatsheet" Link="/Content/00-Concepts/ShapesCheatsheet.htm" />
     <Map Name="LayerListMasks" Link="/Content/10-MapStudio/Functions/LayerListMasks.htm" />
     <Map Name="LFB_download_differences" Link="/Content/20-Models/LFB/Out/LFB download differences.htm" />
-    <Map Name="HVRANational" Link="/Content/30-Tasks/QWRA_EA/MapValues/HVRANational.htm" />
+    <Map Name="HVRANational" Link="/Content/30-Tasks/QWRA/MapValues/HVRANational.htm" />
     <Map Name="LBPDifferences" Link="/Content/20-Models/LBP/LBPDifferences.htm" />
     <Map Name="ComparisonDashbrd" Link="/Content/30-Tasks/ComparisonDashbrd.htm" />
-    <Map Name="ExposureAnalysis" Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/Overview.htm" />
-    <Map Name="ModelLBP" Link="/Content/30-Tasks/QWRA_EA/ModelLBP.htm" />
+    <Map Name="ExposureAnalysis" Link="/Content/30-Tasks/QWRA/ExposureAnalysis/Overview.htm" />
+    <Map Name="ModelLBP" Link="/Content/30-Tasks/QWRA/ModelLBP.htm" />
     <Map Name="AirQual_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/AirQual_m.htm" />
     <Map Name="Communities_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/Communities_m.htm" />
     <Map Name="InfraComm" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/InfraComm.htm" />
@@ -363,8 +363,8 @@
     <Map Name="MunDrinking_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/MunDrinking_m.htm" />
     <Map Name="MoscaicLBP" Link="/Content/20-Models/LBP/MoscaicLBP.htm" />
     <Map Name="SupportTicket" Link="/Content/00-AboutIFTDSS/SupportTicket.htm" />
-    <Map Name="HVRASet" Link="/Content/30-Tasks/QWRA_EA/MapValues/HVRASet.htm" />
-    <Map Name="HVRAmapstudio" Link="/Content/30-Tasks/QWRA_EA/MapValues/HVRAAbout.htm" />
+    <Map Name="HVRASet" Link="/Content/30-Tasks/QWRA/MapValues/HVRASet.htm" />
+    <Map Name="HVRAmapstudio" Link="/Content/30-Tasks/QWRA/MapValues/HVRAAbout.htm" />
     <Map Name="EcoFun_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/EcoFun_m.htm" />
     <Map Name="RefforHVRAPwrPlnts_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/RefforHVRAPwrPlnts_m.htm" />
     <Map Name="RefforHVRAElecSubstn_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/RefforHVRAElecSubstn_m.htm" />
@@ -377,14 +377,14 @@
     <Map Name="LFBTutorial" Link="/Content/20-Models/LFB/LFBTutorial.htm" />
     <Map Name="LFBDownloadsOverview" Link="/Content/20-Models/LFB/Out/LFBDownloadsOverview.htm" />
     <Map Name="ViewingLFBIFTDSS" Link="/Content/20-Models/LFB/Out/ViewingLFBIFTDSS.htm" />
-    <Map Name="EAConsiderations" Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/EAConsiderations.htm" />
-    <Map Name="EAOutputDownloads" Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/EAOutputDownloads.htm" />
-    <Map Name="EAOutputIFTDSSView" Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/EAOutputIFTDSSView.htm" />
-    <Map Name="EAOutputOverview" Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/EAOutputOverview.htm" />
-    <Map Name="EAOutputReports" Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/EAOutputReports.htm" />
-    <Map Name="EATechnicalDoc" Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/EATechnicalDoc.htm" />
-    <Map Name="Tutorial" Link="/Content/30-Tasks/QWRA_EA/ExposureAnalysis/Tutorial.htm" />
-    <Map Name="HVRAConsiderations" Link="/Content/30-Tasks/QWRA_EA/MapValues/HVRAConsiderations.htm" />
+    <Map Name="EAConsiderations" Link="/Content/30-Tasks/QWRA/ExposureAnalysis/EAConsiderations.htm" />
+    <Map Name="EAOutputDownloads" Link="/Content/30-Tasks/QWRA/ExposureAnalysis/EAOutputDownloads.htm" />
+    <Map Name="EAOutputIFTDSSView" Link="/Content/30-Tasks/QWRA/ExposureAnalysis/EAOutputIFTDSSView.htm" />
+    <Map Name="EAOutputOverview" Link="/Content/30-Tasks/QWRA/ExposureAnalysis/EAOutputOverview.htm" />
+    <Map Name="EAOutputReports" Link="/Content/30-Tasks/QWRA/ExposureAnalysis/EAOutputReports.htm" />
+    <Map Name="EATechnicalDoc" Link="/Content/30-Tasks/QWRA/ExposureAnalysis/EATechnicalDoc.htm" />
+    <Map Name="Tutorial" Link="/Content/30-Tasks/QWRA/ExposureAnalysis/Tutorial.htm" />
+    <Map Name="HVRAConsiderations" Link="/Content/30-Tasks/QWRA/MapValues/HVRAConsiderations.htm" />
     <Map Name="AboutWXSLBP" Link="/Content/20-Models/ClassifiedWthr/AboutWXSLBP.htm" />
     <Map Name="classifiedweather_LBP" Link="/Content/20-Models/ClassifiedWthr/classifiedweather_LBP.htm" />
     <Map Name="HVRASet_Namelist_hh" Link="/Content/50-Hover/ExposureAnalysis/HVRASet_Namelist_hh.htm" />
@@ -423,7 +423,7 @@
     <Map Name="define_rfs_hh" Link="/Content/50-Hover/QWRA/define_rfs_hh.htm" />
     <Map Name="name_qwra" Link="/Content/50-Hover/QWRA/name_qwra.htm" />
     <Map Name="select_ea_hh" Link="/Content/50-Hover/QWRA/select_ea_hh.htm" />
-    <Map Name="about_qwra" Link="/Content/30-Tasks/QWRA_EA/QWRAAbout.htm" />
+    <Map Name="about_qwra" Link="/Content/30-Tasks/QWRA/QWRAAbout.htm" />
     <Map Name="FtemAdminAmendData" Link="/Content/10-FTEM/Admin/AmendData.htm" />
     <Map Name="FtemAdminChangeAgency" Link="/Content/10-FTEM/Admin/ChangeAgency.htm" />
     <Map Name="FtemAdminFireHistory" Link="/Content/10-FTEM/Admin/FireHistory.htm" />

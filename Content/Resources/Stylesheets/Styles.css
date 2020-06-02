@@ -723,9 +723,14 @@ caption
 	color: #334150;
 	font-size: 10pt;
 }
-main.body-container div div.iftlength{
+
+div.iftlength{
 	max-width:850px;
 }
+/*main.body-container div div.iftlength{
+	max-width:850px;
+} THIS IS THE ORIGINAL ONE I ADDED IN FEB 2020*/
+
 
 /* Add an entry for "separators" in the TOC. To use this style, select the item
    in the Flare TOC and pick "TOCSeparator" as the TOC Entry style. Note along 

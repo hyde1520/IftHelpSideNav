@@ -36,7 +36,7 @@
                 <tr class="TableStyle-Standard-Body-Body2">
                     <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">4</td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">Sub-HVRA 1</td>
-                    <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body2">Rasterized version of Sub-HVRA, where the band name is &lt;Primary HVRA Category&gt;-&lt;Sub-HVRA Short Name&gt;. Where the Sub-HVRA is present the value is 1, where it is absent the values is NoData. See <a href="../../../30-Tasks/QWRA_EA/ExposureAnalysis/EATechnicalDoc.htm" target="_blank">Exposure Analysis Technical Documentation</a> for more detail.</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyD-Column1-Body2">Rasterized version of Sub-HVRA, where the band name is &lt;Primary HVRA Category&gt;-&lt;Sub-HVRA Short Name&gt;. Where the Sub-HVRA is present the value is 1, where it is absent the values is NoData. See <a href="../../../30-Tasks/QWRA/ExposureAnalysis/EATechnicalDoc.htm" target="_blank">Exposure Analysis Technical Documentation</a> for more detail.</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td style="text-align: center;" class="TableStyle-Standard-BodyB-Column1-Body1">n</td>

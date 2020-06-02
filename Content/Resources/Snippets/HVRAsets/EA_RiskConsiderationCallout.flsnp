@@ -4,7 +4,7 @@
     </head>
     <body>
         <div class="notificationTip">
-            <p><b>For Exposure Analysis and Risk</b>:Use an LBP Model Output to set the geographic extent of your mapped values if you intend to use the resulting HVRA Set later for an Exposure Analysis or Risk Assessment. See the <a href="../../../30-Tasks/QWRA_EA/MapValues/HVRAConsiderations.htm" target="_blank">Geographic Extent section</a> for more detail.</p>
+            <p><b>For Exposure Analysis and Risk</b>:Use an LBP Model Output to set the geographic extent of your mapped values if you intend to use the resulting HVRA Set later for an Exposure Analysis or Risk Assessment. See the <a href="../../../30-Tasks/QWRA/MapValues/HVRAConsiderations.htm" target="_blank">Geographic Extent section</a> for more detail.</p>
         </div>
     </body>
 </html>
