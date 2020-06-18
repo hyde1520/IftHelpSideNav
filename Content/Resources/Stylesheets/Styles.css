@@ -748,7 +748,23 @@ div.iftlength{
     font-weight: 700;
     text-align: center;
 }
-
+   ul.sidenav li.TOCSeparator a
+{
+      /* Set the default cursor so it doesn't look like this is a link */
+    cursor: default;
+        padding-left: 0.67rem;
+    padding-right: 0.67rem;
+    padding-top: 0.67rem;
+    padding-bottom: 0.67rem;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 1em;
+    line-height: 1.6em;
+    font-weight: 700;
+    text-align: center;
+    background:none;
+    border-bottom: solid 1px #ffffff;
+}
 
 @media print
 {

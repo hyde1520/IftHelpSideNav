@@ -51,19 +51,19 @@
           <Property
             Name="FontWeight">normal</Property>
           <Property
-            Name="BackgroundColor">transparent</Property>
-          <Property
-            Name="Color">#ffffff</Property>
-          <Property
-            Name="BorderTop">solid 0.5em #ffffff</Property>
-          <Property
-            Name="BorderRight">solid 0.5em #ffffff</Property>
-          <Property
-            Name="BorderBottom">solid 0.5em #ffffff</Property>
-          <Property
-            Name="BorderLeft">solid 0.5em #ffffff</Property>
-          <Property
             Name="WhiteSpace">normal</Property>
+          <Property
+            Name="BackgroundColor">#ffffff</Property>
+          <Property
+            Name="Color">#0b6623</Property>
+          <Property
+            Name="BorderTop">none 0em #ffffff</Property>
+          <Property
+            Name="BorderRight">none 0em #ffffff</Property>
+          <Property
+            Name="BorderBottom">none 0em #ffffff</Property>
+          <Property
+            Name="BorderLeft">none 0em #ffffff</Property>
         </Properties>
         <Classes>
           <StyleClass
@@ -77,13 +77,13 @@
             Name="1st Level">
             <Properties>
               <Property
-                Name="BorderTop">solid 0.5em #ffffff</Property>
+                Name="BorderTop">none 0em #ffffff</Property>
               <Property
-                Name="BorderRight">solid 0.5em #ffffff</Property>
+                Name="BorderRight">none 0em #ffffff</Property>
               <Property
-                Name="BorderBottom">solid 0.5em #ffffff</Property>
+                Name="BorderBottom">none 0em #ffffff</Property>
               <Property
-                Name="BorderLeft">solid 0.5em #ffffff</Property>
+                Name="BorderLeft">none 0em #ffffff</Property>
             </Properties>
           </StyleClass>
           <StyleClass

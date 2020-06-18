@@ -6,8 +6,7 @@
   Destinations=""
   GlossaryTermConversion="marked"
   MasterPage="/Content/Resources/MasterPages/OtherTopics.flmsp"
-  DefaultUrl="/Content/Home.htm"
-  MasterToc="/Project/TOCs/IFTDSS Online.fltoc"
+  MasterToc="/Project/TOCs/shortcycle.fltoc"
   ConditionTagExpression="exclude[General.Exclude or General.LaterRelease or &quot;General.Prod ONLY&quot;] "
   PreCompileScaledImages="false"
   MakeFileLowerCase="true"
@@ -17,7 +16,8 @@
   ResolveCssVariables="false"
   MobileBreakpoint="667"
   TabletBreakpoint="1024"
-  OutputFile="index">
+  OutputFile="index"
+  DefaultUrl="/Content/Home.htm">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
