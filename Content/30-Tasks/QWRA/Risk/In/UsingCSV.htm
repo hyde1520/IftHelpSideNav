@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>Using a CSV to Import Quantitative Wildfire Risk Assessment (QWRA) Inputs</h1>
+        <p>When conducting a Quantitative Wildfire Risk Assessment (QWRA), you may download a spreadsheet (.csv file) form IFTDSS, fill it out, and upload it to populate the Response Function (RF) and Relative Importance (RI) input values. This can be useful when you have several Primary HVRA and sub-HVRAs to populate or want to copy/paste values.  Instructions for this are outlined below.</p>
+        <h2>Download and Populate the Spreadsheet</h2>
+        <ol style="list-style-type: upper-alpha;">
+            <li>
+                <p>When on the QWRA model input page, select your Exposure Analysis (EA) output from the drop-down menu.</p>
+                <p>
+                    <img src="../../../../Resources/Images/QWRA/Select_EA.png" class="borderlist" alt="&quot;Select an Exposure Analysis Output&quot; section with the Exposure Analysis dropdown circled." />
+                </p>
+            </li>
+            <li>
+                <p>Select <span class="UIcomponent">Download/Upload RI/RF Spreadsheet</span>, located in the bottom of the <span class="UIcomponent">Select an Exposure Analysis</span> panel.</p>
+                <p>
+                    <img src="../../../../Resources/Images/QWRA/select_EA_csv.png" alt="The &quot;Download/Upload RI/RF Spreadsheet&quot; option is located at the bottom of the &quot;Select an Exposure Analysis Output&quot; panel." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>The spreadhseet name is pre-populated with that of your EA, but you may rename it if needed. Click <span class="UIcomponent">Download RF/RI Template</span> to download a template to your local computer. This template comes pre-populated with the Primary HVRA and sub-HVRA names used in your EA.</p>
+                <p>
+                    <img src="../../../../Resources/Images/QWRA/csv_download.png" alt="The &quot;Download RF/RI Template&quot; button visibile in the pop-up box that appears after clicking &quot;Download/Upload RI/RF Spreadsheet&quot;." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Open the spreadsheet on your local computer and populate the RF and RI values for each row.</p>
+                <div class="notificationTip">
+                    <p>If you used HVRA National data in your EA, the RFs for those are also pre-populated in the spreadsheet. You may edit any of these values.</p>
+                </div>
+                <div class="notificationImportant">
+                    <p>Columns D and G-M need to be populated.</p>
+                    <p><span class="Emphasis">Do Not </span>edit or delete other columns, this will cause the upload back to IFTDSS to fail.</p>
+                </div>
+                <p>As you fill in the spreadsheet, note that:</p>
+                <ul>
+                    <li>You may find it helpful to expand the columns to view the full header titles (<a href="https://support.microsoft.com/en-us/office/adjust-the-column-size-to-see-everything-4b72b631-ee0a-4539-b1be-499fedc14fe2" target="_blank">Excel instructions are linked here <i class="fa fa-external-link" aria-hidden="true"></i></a>).</li>
+                    <li>The most important Primary HVRA should be assigned an RI of 100, the rest assigned a value between 1-100. At least one primary needs to be assigned 100</li>
+                    <li>
+                        <p>The “Primary RI” column only requires the first row of each Sub-HVRA to be populated. For example in the image below, the Primary RI of “10” entered in the first row for the Air Quality Sub-HVRA applies to all the Air Quality Sub-HVRAs.</p>
+                        <p>
+                            <img src="../../../../Resources/Images/QWRA/csv_primaryhrva.png" class="borderlist" alt="In the CSV example, for the example of the &quot;Air Quality&quot; Primary HVRA, we can see only the first cell of the Primary RI column is populated. The other RI cells for Air Quality do not need to be populated." />
+                        </p>
+                    </li>
+                    <li>Every Primary HVRA should include at least one sub-HVRA with a value of 100.</li>
+                    <li>
+                        <p>Response functions must be a value ranging from –100 (strong loss) to 100 (strong benefit).</p>
+                        <p>
+                            <img src="../../../../Resources/Images/QWRA/csv_screencapture.png" class="borderlist" alt="All the Response Functions in the CSV range in value from -100 to 100." />
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>Save the spreadsheet when finished and close. Uploaded values can be blank. You will have the opportunity to edit uploaded values before saving a final version.</li>
+        </ol>
+        <div class="notificationImportant">
+            <p>When saving, leave the spreadsheet in .csv format. Do not save as .xls or .xlsx as these will not upload to IFTDSS</p>
+        </div>
+        <div class="notificationImportant">
+            <p>All populated cells  will overwrite any populated cells within the user interface.</p>
+        </div>
+        <h2>Upload the spreadsheet</h2>
+        <p>Prior to uploading the spreadsheet, make sure the following criteria are met to ensure a successful upload:</p>
+        <ul>
+            <li>No columns were deleted, and no columns were edited except for columns D and G-M.</li>
+            <li>All values are whole numbers, no decimals or characters are used.</li>
+            <li>No Identification  names from the original template were changed.</li>
+            <li>The file remains in CSV format (not .xls or .xlsx).</li>
+        </ul>
+        <p>To upload the CSV to IFTDSS:</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>On the QWRA model input page, select your Exposure Analysis (EA) Output from the drop-down menu.</li>
+            <li>
+                <p>Select<span class="UIcomponent"> Download/Upload RI/RF Spreadsheet</span>, located below the <span class="UIcomponent">Select an Exposure Analysis</span> panel.</p>
+                <p>
+                    <img src="../../../../Resources/Images/QWRA/select_EA_csv.png" alt="The &quot;Download/Upload RI/RF Spreadsheet&quot; option is located at the bottom of the &quot;Select an Exposure Analysis Output&quot; panel." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Click the <span class="UIcomponent">Upload Populated RF/RI Spreadsheet</span> option.</p>
+                <p>
+                    <img src="../../../../Resources/Images/QWRA/csv_upload.png" class="borderlist" alt="The &quot;Upload Populated RF/RI Spreadsheet&quot; button visibile in the pop-up box that appears after clicking &quot;Download/Upload RI/RF Spreadsheet&quot;." />
+                </p>
+            </li>
+            <li>
+                <p>Click <span class="UIcomponent">Upload</span> in the box that opens in order to select your spreadsheet file. When you see a green confirmation box stating the spreadsheet successfully uploaded, click <span class="UIcomponent">Close</span>.</p>
+                <div class="notificationImportant">
+                    <p>If you see a red error message, refer to the red call about box above (we’ll put a link in the Help) to ensure all upload requirements have been met.</p>
+                </div>
+                <p>
+                    <img src="../../../../Resources/Images/QWRA/csv_upload2.png" alt="The &quot;Confirum RF and RI Upload&quot; box open with the &quot;Upload&quot; and &quot;Close&quot; buttons visibile." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Your RI/RF values are now populated in IFTDSS. You may still adjust these values in the IFTDSS interface if needed, but those changes<span class="Emphasis"> are not saved</span> to your .csv. You may now finish the QWRA run as you would normally, giving the run a name and either selecting <span class="UIcomponent">Run</span>, or <span class="UIcomponent">Save</span> to return and run later.</p>
+                <p>
+                    <img src="../../../../Resources/Images/QWRA/populate_RFs.png" class="borderlist" alt="The &quot;Define Response Functions&quot; input, entirely populated with Response Function values." />
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>

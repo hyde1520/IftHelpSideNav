@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="General.QA ONLY">
+    <head>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term=".lyr" />
+            <MadCap:keyword term="symbology" />
+            <MadCap:keyword term="download" />
+            <MadCap:keyword term="arcmap" />Importing Layer Symbology into ArcMap for Quantitative Wildfire Risk Assessment (QWRA) Outputs</h1>
+        <p>IFTDSS uses a specific color scheme for Map Studio and report figures. You can duplicate this color scheme in ArcMap using the .lyr files contained in the "symbology" folder of the QWRA download package. The .lyr file contains all the color specifications used by IFTDSS.</p>
+        <p>Lyr files in the QWRA package include:</p>
+        <ul>
+            <li>Conditional Weighted NVC Classified.</li>
+            <li>Expected Weighted NVC Classified.</li>
+            <li>Proportion of Flame Lengths.</li>
+        </ul>
+        <p>In the QWRA download package available in IFTDSS, we include a folder entitled "Symbology". The Symbology folder contains ArcGIS Layer (.lyr) files to define the symbology for most of the layers visible in Map Studio for use in ArcMap. In the GeoTIFF, the QWRA layers are both categorical and continuous data, therefore importing the symbology is slightly different for the two types.</p>
+        <p>
+            <img src="../../Resources/Images/External/Arc/import_lyrs/QWRA/1_arc_files.png" alt="ArcGIS layers listed by name in a file directory" class="border" />
+        </p>
+        <h2>Importing Symbology for Conditional Weighted NVC Classified and Expected Weighted NVC Classified</h2>
+        <p>The same steps are completed to import the symbology Conditional Weighted NVC Classified and Expected Weighted NVC Classified. These data sources are categorical data. The following steps outline how to import the symbology for categorical data. The example below will use Conditional Weighted NVC Classified; however, the same steps are applied to the remaining layers.</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>
+                <p>Open an ArcMap session and add the layers you would like to map. For more information on how to add layers to ArcMap see the <a href="ArcGeoTiffOpen.htm" target="_blank">Opening an IFTDSS GeoTIFF file in ArcMap</a> help topic.</p>
+            </li>
+            <li>
+                <p>Right-click the “Conditional Weighted NVC Classified” layer and click <span class="UIcomponent">Properties</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/QWRA/2_properties.png" alt="The &quot;properties&quot; option available in the dropdown menu for the selected file." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>In the <span class="UIcomponent">Layer Properties</span> window go to the <span class="UIcomponent">Symbology tab</span> and select <span class="UIcomponent">Unique Values</span>. You may get a pop-up window asking if you would like to compute unique values. Click <span class="UIcomponent">Yes</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/QWRA/3_symbology.png" alt="the &quot;symbology&quot; tab in &quot;layer properties&quot; with &quot;unique values&quot; selected." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Click the <span class="UIcomponent">Folder icon</span> <img src="../../Resources/Images/External/Arc/import_lyrs/landscapes/foldericon.png" alt="folder" class="iftbutton" /> toward the top right of the <b>Layer Properties window</b>. In the <span class="UIcomponent">Import Symbology window that opens</span>, click on the <span class="UIcomponent">Folder icon</span> <img src="../../Resources/Images/External/Arc/import_lyrs/landscapes/foldericon.png" alt="folder" class="iftbutton" />. This opens the <span class="UIcomponent">Browse window</span>. Navigate to the Symbology folder in the downloaded folder, select the “Conditional Weighted NVC Classified.lyr” file in the Browse window and click <b>Add</b>.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/QWRA/4_symbology_folder.png" class="borderlist" alt="the .lyr file selected from the &quot;symbology&quot; folder" />
+                </p>
+            </li>
+            <li>
+                <p>Click <span class="UIcomponent">OK</span> to close the <span class="UIcomponent">Import Symbology window</span>, and <span class="UIcomponent">OK</span> in the bottom of the <span class="UIcomponent">Layer Properties</span> window to apply the symbology.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/QWRA/5_unique_values.png" alt="The &quot;import symbology&quot; window open with the &quot;OK&quot; button visible at the bottom." class="border" />
+                </p>
+            </li>
+            <li>
+                <p>Now you can see the Integrated Hazard layer in ArcMap (top image) the same as it is in Map Studio in IFTDSS (bottom image).</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/QWRA/6_nvc_map_arc.png" alt="NVC outputs in ArcMap" class="borderlist" />
+                </p>
+                <img src="../../Resources/Images/External/Arc/import_lyrs/QWRA/7_nvc_map_mapstudio.png" alt="NVC outputs in MapStudio, the symobology in this and the arcmap image match." class="borderlist" />
+            </li>
+        </ol>
+        <h2>Applying Symbology for Proportion of Flame Lengths</h2>
+        <p>The same steps are completed to import the symbology for all six of the Proportion of Flame Lengths layers. These data sources are continuous data that are classified into distinct bins. The following steps outline how to import the symbology for continuous data. The example below will use Proportion of Flame Lengths 0-2 ft; however, the same steps are applied to the remaining layers.</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Open ArcMap session and add the layers you would like to map. For more information on how to add layers to ArcMap see the Opening an IFTDSS Geo Tiff file in ArcMap help topic.</li>
+            <li>
+                <p>Right-click the “Proportion of Flame Lengths 0-2 ft” layer and click <span class="UIcomponent">Properties</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/QWRA/8_properties.png" alt="the &quot;properties&quot; option at the bottom of the file menu." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>In the <span class="UIcomponent">Layer Properties</span> window go to the <span class="UIcomponent">Symbology tab</span> and select “Classified”.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/QWRA/9_symbology.png" class="borderlist" alt="The &quot;symbology&quot; tab in the &quot;Layer Properties&quot; window." />
+                </p>
+            </li>
+            <li>
+                <p>Click on the <span class="UIcomponent">Folder icon</span> <img src="../../Resources/Images/External/Arc/import_lyrs/landscapes/foldericon.png" alt="folder" class="iftbutton" /> toward the top right of the <span class="UIcomponent">Layer Properties window</span>. In the <span class="UIcomponent">Import Symbology window</span> that opens, click the <span class="UIcomponent">Folder icon</span> <img src="../../Resources/Images/External/Arc/import_lyrs/landscapes/foldericon.png" alt="folder" class="iftbutton" />. This opens the <span class="UIcomponent">Browse window</span>. Select the “Proportion of Flame Lengths 0-2 ft.lyr” file in the Browse window and click <span class="UIcomponent">Add</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/QWRA/10_symbology_folder.png" class="borderlist" alt="The symbology file selected in the &quot;Browse&quot; window." />
+                </p>
+            </li>
+            <li>
+                <p>Click <span class="UIcomponent">OK</span> to close the <span class="UIcomponent">Import Symbology window</span>, and <span class="UIcomponent">OK</span> in the bottom of the <span class="UIcomponent">Layer Property window</span> to apply the symbology.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/QWRA/11_classified_values.png" alt="The &quot;import symbology&quot; window open with the &quot;OK&quot; button outlined." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Now you can see Proportion of Flame Lengths 0-2 ft in ArcMap (top image) the same as it is in Map Studio in IFTDSS (bottom image).</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/QWRA/12_PFL_Arc.png" alt="Proportion of Flame Lengths displayed in ArcMap with the same symbology as that used in IFTDSS Map Studio." class="borderlist" />
+                </p>
+                <img src="../../Resources/Images/External/Arc/import_lyrs/QWRA/13__PFL_mapstudio.png" class="border" alt="The &quot;proportion of flame lengths&quot; output shown in IFTDSS Map Studio." />
+            </li>
+        </ol>
+    </body>
+</html>

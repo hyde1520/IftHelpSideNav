@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>Quantitative Wildfire Risk Assessment (QWRA) Response Functions (RFs)</h1>
+        <p>Response Functions (RFs) represent the susceptibility or response of a Highly Valued Resource or Asset (HVRA) to wildfire. Response functions are expert-defined and translate fire effects into value change (-100 to +100), based upon fire intensity (<a href="../../../../41-References/Citations.htm#Scott_etal_2013" target="_blank">GTR-315</a>).</p>
+        <p>
+            <img src="../../../../Resources/Images/Conceptuals/QWRA_RF.png" alt="color scale for Response Functions. Left is displayed red associated with -100 and Loss. Right is displayed in green associated with 100 and Benefit" class="border" />
+        </p>
+        <p>A RF of –100 indicates strong loss, while 100 indicates strong benefit. RFs are determined based on each Sub-HVRA’s response to first order fire effects (direct or indirect immediate consequences of fire, such as tree mortality, soil heating biomass consumption, etc.) by fire intensity.</p>
+        <p>The RFs assigned to each Sub-HVRA are based on flame length class. The flame length classes used for this are the same as those used in the <a href="../../../../20-Models/LBP/Out/PropFlameLength.htm" target="_blank">Proportion of Flame Lengths output</a> for Landscape Burn Probability (LBP), 0-2 ft, 2-4 ft, 4-6 ft, and so on. This allows you to account for the fact that Sub-HVRAs generally have a different response given different flame lengths. For example, if you are assigning RFs for the Low/Moderate Investment Buildings Sub-HVRA, you’ll want to capture the fact that it will be far less impacted by flame lengths in the 0-2 foot range than flame lengths in the 6-8 foot range.</p>
+        <p>
+            <img src="../../../../Resources/Images/QWRA/populate_RFs.png" alt="The Response Function fields populated with a variety of positive and negative resonse functions for HVRAs." class="border" />
+        </p>
+        <p>If you used HVRA National Data to create your HVRA Set, you will see a pre-populated RF value for each flame length class. Any of these pre-populated RFs can be edited.</p>
+        <h2>Defining Response Functions</h2>
+        <p>Response functions are usually defined in a workshop setting, arrived at by consensus among resource generalists and specialists. Typically, background information is shared on the characteristics of wildfire, HVRAs, and the landscape and groups are formed for each Primary HVRA Category including resource specialists and generalists plus fire personnel. For example, a Wildlife Primary HVRA Category may be discussed by a group that includes a wildlife biologist, plant specialist, and fire manager, while a Timber Primary HVRA Category may be discussed by group including a silviculturalists and fuels specialist.</p>
+        <p>Each group assigns RFs to every Sub-HVRA within their Primary HVRA Category. When all groups are finished, everyone returns to discuss and debate their RF selections. During this larger discussion, specialists from any Primary HVRA Category assignment can voice their opinion and RFs in any category may be adjusted based on overall group consensus.</p>
+        <h2>Response Functions in the QWRA Calculation</h2>
+        <p>The RFs you assign affect the Net Value Change (NVC) calculation for each pixel. Net Value Change calculations couple the Response Functions with the Proportion of Flame Length outputs from the Landscape Burn Probability run associated with your QWRA for each Sub-HVRA.  Other factors such as Relative Importance (RI), an aspect of QWRA we’ll describe in the RI topic, and Relative Extent (RE) are incorporated into the calculations. For more detail see the <a href="../QWRATechDoc.htm" target="_blank">Technical Documentation</a> section.</p>
+    </body>
+</html>

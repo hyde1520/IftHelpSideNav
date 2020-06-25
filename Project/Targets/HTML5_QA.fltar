@@ -6,18 +6,18 @@
   Destinations=""
   GlossaryTermConversion="marked"
   MasterPage="/Content/Resources/MasterPages/OtherTopics.flmsp"
-  MasterToc="/Project/TOCs/shortcycle.fltoc"
+  MasterToc="/Project/TOCs/IFTDSS Online.fltoc"
   ConditionTagExpression="exclude[General.Exclude or General.LaterRelease or &quot;General.Prod ONLY&quot;] "
   PreCompileScaledImages="false"
   MakeFileLowerCase="true"
   TopNavTocPath="true"
   DisableAutoSync="true"
-  Skin="/Project/Skins/QA HTML5 - Side Navigation.flskn"
   ResolveCssVariables="false"
   MobileBreakpoint="667"
   TabletBreakpoint="1024"
   OutputFile="index"
-  DefaultUrl="/Content/Home.htm">
+  DefaultUrl="/Content/Home.htm"
+  Skin="/Project/Skins/QA HTML5 - Side Navigation.flskn">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
