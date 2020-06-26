@@ -245,9 +245,11 @@
             Title="Import LFB Symbology"
             Link="/Content/10-Workspace/downloads/LFBArcLyr.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           <TocEntry
+            Title="Import MTT Symbology"
+            Link="/Content/10-Workspace/downloads/MTTArcLyr.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
             Title="Import QWRA Symbology"
-            Link="/Content/10-Workspace/downloads/QWRAArcLyr.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-            conditions="General.QA ONLY" />
+            Link="/Content/10-Workspace/downloads/QWRAArcLyr.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
       </TocEntry>
       <TocEntry
@@ -934,8 +936,7 @@
         Link="/Content/20-Models/LBP/RunConsiderations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="LBP vs. Other Models"
-        Link="/Content/20-Models/LBP/LBPDifferences.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-        conditions="General.QA ONLY" />
+        Link="/Content/20-Models/LBP/LBPDifferences.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Technical Documentation"
         Link="/Content/20-Models/LBP/TechDoc.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
