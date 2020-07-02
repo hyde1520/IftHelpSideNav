@@ -4,7 +4,58 @@
     </head>
     <body>
         <h1>Quantitative Wildfire Risk Assessment (QWRA) Tutorial</h1>
-        <p><a href="https://firenet365.sharepoint.com/:w:/r/sites/IFTDSS_Non_Gov/Shared Documents/General/IBM IFTDSS/IFTDSS Development/Help/Risk Assessment/Risk/Risk Tutorial.docx?d=wd2aed4a9ae1160b62f660f28e67d889f&amp;csf=1&amp;web=1&amp;e=n9G0Oh" target="_blank">https://firenet365.sharepoint.com/:w:/r/sites/IFTDSS_Non_Gov/Shared%20Documents/General/IBM%20IFTDSS/IFTDSS%20Development/Help/Risk%20Assessment/Risk/Risk%20Tutorial.docx?d=wd2aed4a9ae1160b62f660f28e67d889f&amp;csf=1&amp;web=1&amp;e=n9G0Oh</a>
-        </p>
+        <div class="notificationTip">
+            <p>To run a QWRA you must have run <a href="../../../20-Models/LBP/About.htm" target="_blank">LBP</a>, <a href="../MapValues/HVRAAbout.htm" target="_blank">Mapped Values</a>, and <a href="../ExposureAnalysis/Overview.htm" target="_blank">Exposure Analysis</a>. See the <a href="../QWRAAbout.htm" target="_blank">QWRA overview topic</a> for details on this workflow.</p>
+        </div>
+        <p>Running a Quantitative Wildfire Risk Assessment (QWRA) will create a map of potential benefits and threats from fire represented by <a href="Out/OutputCondNVC.htm" target="_blank">Conditional weighted Net Value Change (NVC)</a>  and <a href="Out/OutputExpNVC.htm" target="_blank">Expected weighted NVC</a> for each pixel on the landscape. You may populate the Response Function and Relative Important inputs directly in the IFTDSS interface, as described below, or populate and upload a .CSV file for those inputs (described in the <a href="In/UsingCSV.htm" target="_blank">.CSV upload topic</a>).</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>
+                <p>Select an Exposure Analysis output from the drop-down. If you need to create one, you may navigate to that part of IFTDSS by clicking the Exposure Analysis button to the right of the drop-down.</p>
+                <p>
+                    <img src="../../../Resources/Images/QWRA/model_input_main.png" class="borderlist" alt="The QWRA inputs page showing headers for input fields including Exposure Analysis, Response Functions, Relative Importance, and Naming." />
+                </p>
+            </li>
+            <li>
+                <p>Define <a href="In/ResponseFunctions.htm" target="_blank">response functions (RFs)</a>. If you used <img src="../../../Resources/Images/ButtonsGeneral/nationallayer.png" alt="National HVRA Set" class="iftbutton" /> <a href="../MapValues/HVRANational.htm" target="_blank">National HVRAs</a> when you mapped your values, the response functions will be pre-populated. These values can still be edited. Response functions range from –100 (indicating strong loss) to 100 (indicating strong benefit) for each of these six modeled flame length categories.</p>
+                <div class="notificationTip">
+                    <p>An alternative to filling in response function and relative importance is uploading these as a .CSV. Instructions for populating the .CSV and importing it are <a href="In/UsingCSV.htm" target="_blank">outlined here</a>.</p>
+                </div>
+                <p>
+                    <img src="../../../Resources/Images/QWRA/rf_inputs.png" alt="Response functions populated in the Response Function input fields." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Assign <a href="In/RelativeImportance.htm" target="_blank">relative importance (RI)</a> to each Primary HVRA and Sub HVRA. Follow the below guidelines to populate RIs:</p>
+                <ul>
+                    <li>Primary HVRAs: At least one Primary Category must be assigned a value of 100; more than one can be assigned 100. A value of 100 represents the highest priority resource.</li>
+                    <li>Sub-HVRAs: At least one Sub-HVRA within each Primary Category must be assigned a value of 100; more than one can be assigned 100. A value of 100 represents the highest priority within that category.</li>
+                    <li>Once populated you may review your selections using the dynamic pie chart which calculates over-all importance percentages for both Primary HVRAs (inner circle) and associated Sub-HVRAs (outer circle).  Hovering over a portion of the circle will pop up with an overall importance value which takes into account the RF, RI, and Relative extent (acreage) of Sub-HVRAs.</li>
+                </ul>
+                <img src="../../../Resources/Images/QWRA/ri_inputs.png" alt="Relative Importance input fields with pie chart visible next to them on the left." class="borderlist" />
+            </li>
+            <MadCap:snippetBlock src="../../../Resources/Snippets/QWRA/fullscreenpiechart.flsnp" />
+            <li>
+                <p>Name your output and click <span class="UIcomponent">Run</span>, or <span class="UIcomponent">Save</span> to return to run it later.</p>
+                <p>
+                    <img src="../../../Resources/Images/QWRA/name_qwra.png" class="borderlist" alt="The &quot;name&quot; field at the bottom of the QWRA page." />
+                </p>
+                <div class="notificationImportant">
+                    <p>Remember as each model input (RF, RI, etc.) is completed a green checkmark will display to the left of the header.</p>
+                    <p>
+                        <img src="../../../Resources/Images/QWRA/green_checkmark.png" alt="Model input header with a green checkmark visible to the left, indicating that input has been populated." class="border" />
+                    </p>
+                    <p>If you are unable to use the Save or Run options, it’s a good idea to check your inputs to ensure that all have been populated.</p>
+                </div>
+            </li>
+            <li>
+                <p>Once you click <span class="UIcomponent">Run</span> you will be asked to confirm your inputs. Clicking <span class="UIcomponent">Yes</span> redirects you to the <span class="UIcomponent">My Workspace</span> folder where your run is stored. There you will find options to view the run in <span class="UIcomponent">Map Studio</span>, generate a summary report, or download the QWRA to your local computer.</p>
+                <p>
+                    <img src="../../../Resources/Images/QWRA/confirmation action.png" alt="Confirm Action pop up box requesting you approve submission of the Risk Assessment workflow" class="borderlist" />
+                </p>
+                <div class="notificationImportant">
+                    <p>The <span class="UIcomponent">Update</span> button replaces the <span class="UIcomponent">Save</span> button if you begin to edit a saved QWRA. <span class="Emphasis">Update will save your new changes and overwrite your previous inputs</span>.</p>
+                </div>
+            </li>
+        </ol>
     </body>
 </html>

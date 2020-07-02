@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="notificationTip">
+            <p>Pie charts only show up in full screen mode. If you are viewing in split screen mode, use the <span class="UIcomponent">full screen </span><img src="../../Images/ButtonsGeneral/back_to_fullscreen.png" alt="full screen" class="iftbutton" />  button switch back to full screen mode.</p>
+        </div>
+    </body>
+</html>

@@ -8,7 +8,7 @@
         <ul>
             <li><b>Landscape:</b> The HVRA Set extent will include the extent of your selected landscape (non-buffered area represented by a solid green line) as well as the 4980 meter buffer surrounding it.</li>
             <li>
-                <p><b>LBP Model Output:</b> The HVRA Set extent will include the extent of your selected model output (non-buffered area)  as well as the 4980 meter buffer surrounding it. This selection is designed to be used when conducting an Exposure Analysis or Risk Assessment (a future IFTDSS product), but it can also be used if you want to view your HVRAs in association with Landscape Burn Probability outputs such as Integrated Hazard.</p>
+                <p><b>LBP Model Output:</b> The HVRA Set extent will include the extent of your selected model output (non-buffered area)  as well as the 4980 meter buffer surrounding it. This selection is designed to be used when conducting an Exposure Analysis, a required input for Quantitative Wildfire Risk Assessment. It can also be used if you want to view your HVRAs in association with Landscape Burn Probability outputs such as Integrated Hazard.</p>
                 <p>
                     <img src="../../Images/HVRAs/hvra_lbp_bounding.png" alt="black bounding box in the map includes LBP extent and buffered area" class="border" />
                 </p>

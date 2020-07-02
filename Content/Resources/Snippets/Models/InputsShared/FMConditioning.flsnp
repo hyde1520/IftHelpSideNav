@@ -57,7 +57,7 @@
         <h2>Condition (Select a Classified Weather Stream)</h2>
         <p><MadCap:variable name="General.ProductName" /> conditions dead fuel moistures using a classified weather stream. Currently, the only classified weather stream available represents near-maximum or “extreme” conditions. For technical details on the “extreme” conditions, see <a href="../../../../20-Models/ClassifiedWthr/classifiedweather_LFB.htm" target="_blank">Classified Weather Streams</a>. This option may be appropriate when you want the analysis to simulate extreme or near worst conditions and you do not have the time or the expertise to build your own conditioning file. </p>
         <div class="notificationComingSoon">
-            <p> In the future more Classified Weather Stream options, in addition to "Extreme", will be available. </p>
+            <p> In the future, more Classified Weather Stream options, in addition to "Extreme", will be available. </p>
             <p>Please note that these Extreme conditioning files exist for most of the Western United States but have yet to be developed for Eastern Areas.  This is in part due to complexities associated with defining a conditioning period date in areas where much of the landscape is dominated by deciduous forests.</p>
         </div>
         <h2>Condition (Upload a  Weather Stream File)</h2>
