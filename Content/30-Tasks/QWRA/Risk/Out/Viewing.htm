@@ -1,9 +1,111 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
+        <link href="../../../../Resources/TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
         <h1>Viewing Quantitative Wildfire Risk Assessment (QWRA) Outputs</h1>
-        <p>https://firenet365.sharepoint.com/:w:/r/sites/IFTDSS_Non_Gov/Shared%20Documents/General/IBM%20IFTDSS/IFTDSS%20Development/Help/Risk%20Assessment/Risk/Viewing%20Outputs.docx?d=w7a684c92629a930f35c8e8676518153f&amp;csf=1&amp;web=1&amp;e=kLih8n</p>
+        <p>Select Quantitative Wildfire Risk Assessment (QWRA) outputs are available as geospatial layers in Map Studio and within summary reports.</p>
+        <p>The model outputs can be added to the map using the Simulation Output Tools widget or from Workspace by clicking <span class="UIcomponent">View on Map</span>. In Map Studio you can view:</p>
+        <ul>
+            <li>Conditional Weighted NVC, C(wNVC)</li>
+            <li>Expected Weighted NVC, E(wNVC)</li>
+            <li>Sub-HVRAs</li>
+            <li>Burn Probability</li>
+            <li>Proportion of Flame Lengths</li>
+        </ul>
+        <h2>A First Look with Layer List</h2>
+        <p>In this example the Net Value Change (NVC) output is visible, with Conditional Weighted NVC selected in Layer List. The landscape extent (non-buffered) is represented by the area within the turquoise box. The area outside the turquoise box is the buffer area.</p>
+        <p>
+            <img src="../../../../Resources/Images/MapStudio/qwra_cnvc_classes.png" alt="classes for Conditional Net Value Change ranging in color from deeper shades of red for increasing threat to deeper shades of green for increasing benefit." class="border" />
+        </p>
+        <p>NVC values are displayed in Map Studio binned into the below classes. Benefits (positive NVC values) are represented with varying levels of green symbology while threats (negative NVC values) are represented with varying levels of red symbology. Black, gray and white coloration represents Burnable burn not burned, Non-burnable, and No Benefit/No Threat, respectively. The classes decrease by an order of magnitude as they progress from Highest to Lowest Threat or   Benefit. You’ll notice in the table below Conditional weighted NVCs range from –100 to  +100 while Expected weighted NVCs range from –1 to +1. The lower range for E(wNVC) is because it’s the product of C(wNVC) and Burn Probability .</p>
+        <table style="width: 100%;mc-table-style: url('../../../../Resources/TableStylesheets/Standard.css');caption-side: top;" class="TableStyle-Standard" cellspacing="3">
+            <caption>Classes used for Conditional and Expected weighted NVC in Map Studio.</caption>
+            <col style="width: 359px;" class="TableStyle-Standard-Column-Column1" />
+            <col style="width: 362px;" class="TableStyle-Standard-Column-Column1" />
+            <col style="width: 349px;" class="TableStyle-Standard-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Standard-Head-Header1">
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1">Class</th>
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;text-align: center;">Conditional Weighted NVC</th>
+                    <th class="TableStyle-Standard-HeadD-Column1-Header1" style="text-align: center;">Expected Weighted NVC</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Highest Threat</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">&lt; -100</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1" style="text-align: center;">&lt; -1</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Higher Threat</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">-100 to -10</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2" style="text-align: center;">-1 to -0.1</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Middle Threat</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">-10 to -1</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1" style="text-align: center;">-0.1 to -0.01</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Lower&#160;Threat</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">-1 to -0.1</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2" style="text-align: center;">-0.01 to -.001</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Lowest Threat</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">-0.1 to &lt; 0</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1" style="text-align: center;">-0.001 to &lt; 0</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">No Benefit / No&#160;Threat</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">0</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2" style="text-align: center;">0</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Lowest Benefit</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">&gt;0 to 0.1</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1" style="text-align: center;">&gt;0 to 0.001</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Lower Benefit</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">0.1 to 1</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2" style="text-align: center;">0.001 to 0.01</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Middle Benefit</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">1 to 10</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1" style="text-align: center;">0.01 to 0.1</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Higher Benefit</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">10 to 100</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2" style="text-align: center;">0.1 to 1</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">Highest Benefit</td>
+                    <td style="text-align: center;" class="TableStyle-Standard-BodyB-Column1-Body1">&gt; 100</td>
+                    <td class="TableStyle-Standard-BodyA-Column1-Body1" style="text-align: center;">&gt;1</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><a href="../../../../20-Models/LBP/Out/BurnProb.htm" target="_blank">Burn Probability</a> classes and <a href="../../../../20-Models/LBP/Out/PropFlameLength.htm" target="_blank">Proportion of Flame Length classes</a> are the same as those used for the Landscape Burn Probability model.</p>
+        <h2>More Detail with Identify</h2>
+        <p>The Identify widget displays additional individual pixel values for Conditional Weighted NVC, Expected Weighted  NVC, Sub-HVRAs, Burn Probability, and Proportion of Flame lengths. Identify displays individual values for the pixel, not the classifications.</p>
+        <p>
+            <img src="../../../../Resources/Images/MapStudio/QWRA_identify.png" alt="Identify box listing the values for a selected pixel including Conditional and Expected weighted NVC, Sub-HVRAs, Burn Probability, and Proportion of Flame Lengths." class="border" />
+        </p>
+        <h2>Viewing Outputs Using Masks</h2>
+        <p>You may view QWRA outputs within an area of interest using <a href="../../../../10-MapStudio/Functions/LayerListMasks.htm" target="_blank">Apply Mask</a> in <img src="../../../../Resources/Images/MapStudio/overview/button_layerlist.png" alt="Layer List" class="iftbutton" /> <span class="UIcomponent">Layer List</span>. The NVC and Proportion of Flame Lengths classes will remain the same regardless of your mask extent. Note that the Burn Probably output is dynamic and will change depending upon mask extent based on the maximum value within the masked area. For more explanation on dynamic burn probability, see the <a href="../../../../20-Models/LBP/Out/OutViewIFTDSS.htm#Viewing_w_masks" target="_blank">"Viewing Outputs Using Masks” section of the Viewing LBP Outputs</a> topic.</p>
+        <p>
+            <img src="../../../../Resources/Images/MapStudio/qwra_applymask.png" alt="Risk Assessment Outputs visibly displayed for a specific masked area." class="border" />
+        </p>
+        <div class="notificationTip">
+            <p>The first time you apply a mask you may get a "Page Unresponsive" pop-up in your browser (sometimes more than once).  Click <span class="UIcomponent">Wait</span> and the mask will be applied. It may take several seconds.</p>
+            <p>
+                <img src="../../../../Resources/Images/External/PC/browser_notice_qwra.png" alt="browser notice informating the reader that the page in unresponsive. The option to 'wait' is shown at the bottom of the notice." class="borderlist" />
+            </p>
+        </div>
     </body>
 </html>

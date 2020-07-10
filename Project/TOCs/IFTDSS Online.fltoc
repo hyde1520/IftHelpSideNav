@@ -22,8 +22,7 @@
   </TocEntry>
   <TocEntry
     Title="COMMON TASKS"
-    Class="TOCSeparator"
-    conditions="General.QA ONLY" />
+    Class="TOCSeparator" />
   <TocEntry
     Title="Get Started">
     <TocEntry
@@ -204,7 +203,6 @@
   </TocEntry>
   <TocEntry
     Title="PARTS OF IFTDSS"
-    conditions="General.QA ONLY"
     Class="TOCSeparator" />
   <TocEntry
     Title="My Workspace">
@@ -274,7 +272,7 @@
   </TocEntry>
   <TocEntry
     Title="Cycle"
-    conditions="General.Prod ONLY">
+    conditions="General.Exclude">
     <TocEntry
       Title="About the Planning Cycle"
       Link="/Content/10-Cycle/PlanningCycleAbout.htm" />
@@ -464,8 +462,7 @@
     </TocEntry>
   </TocEntry>
   <TocEntry
-    Title="Cycle"
-    conditions="General.QA ONLY">
+    Title="Cycle">
     <TocEntry
       Title="About the Planning Cycle"
       Link="/Content/10-Cycle/PlanningCycleAbout.htm" />

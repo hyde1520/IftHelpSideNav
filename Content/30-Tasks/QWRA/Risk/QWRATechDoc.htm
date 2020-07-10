@@ -3,8 +3,71 @@
     <head>
     </head>
     <body>
-        <h1>Quantitative Wildfire Risk Assessment (QWRA) Technical Documentation</h1>
-        <p><a href="https://firenet365.sharepoint.com/:w:/r/sites/IFTDSS_Non_Gov/Shared Documents/General/IBM IFTDSS/IFTDSS Development/Help/Risk Assessment/Risk/Risk Technical Documentation.docx?d=w174cab81a998d493f212159dff913969&amp;csf=1&amp;web=1&amp;e=BmfpnY" target="_blank">https://firenet365.sharepoint.com/:w:/r/sites/IFTDSS_Non_Gov/Shared%20Documents/General/IBM%20IFTDSS/IFTDSS%20Development/Help/Risk%20Assessment/Risk/Risk%20Technical%20Documentation.docx?d=w174cab81a998d493f212159dff913969&amp;csf=1&amp;web=1&amp;e=BmfpnY</a>
+        <h1>
+            <MadCap:keyword term="Quantitative Wildfire Risk Assessment" />Quantitative Wildfire Risk Assessment (QWRA) Technical Documentation</h1>
+        <h2>Calculating <MadCap:keyword term="Relative Importance Per Pixel" />Relative Importance Per Pixel <MadCap:keyword term="RIPP" />(RIPP)</h2>
+        <p>In order to calculate Conditional Weighted NVC, first the Relative Importance Per Pixel (RIPP) needs to be calculated.  RIPP takes into account the Relative Importance (RI) values for both Primary HVRA Categories and the Sub-HVRAs entered in the application, as well as the Relative Extent (RE) which is the number of burnable pixels in each Sub-HVRA footprint.  We include the calculated RIPP values within the download package.</p>
+        <p>There are a three steps involved in calculating RIPP:</p>
+        <h3>RIPP&#160;Calculation Step 1</h3>
+        <p>The first relies on the Primary HVRA Category RI values to calculate ‘Of1M.’ In the example spreadsheet, the ‘Primary HVRA RI’ is what was entered into the IFTDSS interface. The ‘Percent of total Primary RI’ is the percentage of the given Primary HVRA RI relative to the sum of all the Primary HVRA RI values.  And ‘Of1M’ is the ‘Percent of total Primary RI’ multiplied by 1,000,000.</p>
+        <p>
+            <img src="../../../Resources/Images/External/xlsx_qwra_ripp1.png" alt="Primary HVRA &quot;Communities&quot; row outlined in Red, the Of1M value for that row is 281,690." class="border" />
         </p>
+        <p>For example, we will illustrate the calculations for Communities:</p>
+        <p>‘Of1M<sub>Communities</sub>’ = (Primary HVRA RI<sub>Communities</sub> / (Primary HVRA RI<sub>Wilderness</sub> + Primary HVRA RI<sub>Air Quality</sub> + Primary HVRA RI <sub>Infrastructure</sub>  + Primary HVRA RI <sub>Recreation</sub> + Primary HVRA RI <sub>Communities</sub> + Primary HVRA RI <sub>Ecosystem Function</sub>  + Primary HVRA RI <sub>RCW</sub> + Primary HVRA RI <sub>Salamanders</sub>)) * 1,000,000</p>
+        <p>= (100 / (20 + 20 + 100  +15 + 100 + 40  +40 + 20)) * 1,000,000</p>
+        <p>= 0.281690 * 1,000,000</p>
+        <p>= 281,690</p>
+        <h3>RIPP&#160;Calculation Step 2</h3>
+        <p>Second, the sum product of the Sub-HVRA RE and RI are calculated for each Primary HVRA Category independently. For this calculation, the ‘Sub-HVRA RI’ is  what was entered into the IFTDSS interface. This value is divided by 100, ‘Sub-HVRA RI / 100’.  Then that is multiplied by the ‘Relative Extent (pixels)’ to get the ‘Sum’.  Finally the ‘Sum Product” is calculated, which is the product of the summed values within a given Primary HVRA Category.</p>
+        <p>
+            <img src="../../../Resources/Images/External/xlsx_qwra_ripp2.png" alt="the three &quot;Communities&quot; Sub-HVRA rows are outlined in red, their Sum Product is 44,093." class="border" />
+        </p>
+        <p>We will continue with the Communities example:</p>
+        <p>‘Sum Product <sub>Communities</sub>’ = ((Sub HVRA RI <sub>Low</sub> /100) * RE <sub>Low</sub>) + (Sub HVRA RI <sub>Moderate</sub> /100) * RE <sub>Moderate</sub>) + (Sub HVRA RI <sub>High</sub> /100) * RE <sub>High</sub>)</p>
+        <p>= ((0.2 * 135,842) + (0.5 * 25,039) + (1 * 4,405))</p>
+        <p>= 27,168 + 12,520 + 4,405</p>
+        <p>= 44,093</p>
+        <h3>RIPP&#160;Calculation Step 3</h3>
+        <p>Third, to calculate the RIPP for a given Sub-HVRA, the ‘Of1M’, ‘Sum Product’ and ‘Sub-HVRA RI / 100’ are used.</p>
+        <p>
+            <img src="../../../Resources/Images/External/xlsx_qwra_ripp3.png" alt="The &quot;Communities&quot; row is outlined in red, its RIPP value is 1.2777." class="border" />
+        </p>
+        <p>We will continue with the Communities example calculating RIPP for the Low Sub-HVRA.</p>
+        <p>RIPP <sub>Low</sub> = (‘Of1M <sub>Communities</sub>’ / ‘Sum Product <sub>Communities</sub>’) * (Sub HVRA RI <sub>Low</sub> /100))</p>
+        <p>= (281,690 / 44,093) * 0.2</p>
+        <p>=1.2777</p>
+        <h2>
+            <MadCap:keyword term="Calculating Conditional Weighted" />Calculating <MadCap:keyword term="Conditional Weighted NVC" />Conditional Weighted NVC</h2>
+        <p>Conditional Weighted NVC (C(wNVC)) is conditional on a fire occurring, therefore it does not include Burn Probability in the calculation. C(wNVC) is calculated for each pixel using the  Proportion of Flame Length outputs from Landscape Burn Probability model outputs, Response Functions (RF) and Relative Importance Per Pixel (RIPP) for all Sub-HVRAs present.</p>
+        <p style="text-align: center;"><b>Conditional Weighted NVC = ΣΣ RIPP * (RF * Proportion of Flame Length)</b>
+        </p>
+        <p>Conditional Weighted NVC is the sum of the product of RIPP, Response Functions and Proportion of Flame Lengths (by class) for all Sub-HVRAs present.</p>
+        <p>We will use the values in the from <img src="../../../Resources/Images/MapStudio/overview/button_identify.png" alt="identify" /> <span class="UIcomponent">Identify</span> in addition to the *.csv file that is included in the Risk Assessment download which includes the RF and RIPP to illustrate how C(wNVC) is calculated for a single pixel. In the example, the pixel overlaps three Sub-HVRAS: Threatened Vertebrates (Threat Vert P, black), Endangered Vertebrates (Endg Vert P, purple), and All Positive, decreasing slightly (EF2, orange).</p>
+        <p>
+            <img src="../../../Resources/Images/MapStudio/QWRA_cNVC_example_color.png" alt="QWRA data used in our Conditional Weighted NVC example calculation. Arrows pointing to certain information are color coded to match the example here, Conitional Weighted NVC with green, Sub-HVRA Ecosystem Function in orange, Sub-HVRA Wildlife Endangered Vertibrate in black, and Sub-HVRA Wildlife Threatened Vertibrate in purple. Black orange and purple arrows also point to the Proportion of Flame Length classes" class="border" />
+        </p>
+        <p>
+            <img src="../../../Resources/Images/External/xlsx_qwra_cnvc_color.png" alt="Spreadsheet with values used in the Conditional Weighted NVC example calculation. Sub-HVRA rows are outlined in colors that correspond to those used in the example calculation on this page, &quot;Threatened Vertebrate&quot; row is highlighted in black, &quot;Endangered Vertebrate&quot; in purple, and &quot;All positive, decreasing slightly&quot; in orange." class="border" />
+        </p>
+        <p style="font-weight: bold;"><span style="color: #22b14c;">Conditional Weighted NVC</span> = ((1.046 * ((20 * 0.091) + (10 * 0.545) + (0 * 0.273) + (-40 * 0.091) + (-60 * 0) + (-80 * 0.0))) + <span style="color: #9c5995;">((0.7845 * ((20 * 0.091) + (10 * 0.545) + (0 * 0.273) + (-40 * 0.091) + (-60 * 0) + (-80 * 0.0)))</span> + <span style="color: #f08339;">((0.1384 * ((100 * 0.091) + (100 * 0.545) + (100 * 0.273) + (90 * 0.091) + (80 * 0) + (70 * 0.0)))</span></p>
+        <p><b>= (1.046 * (1.82 + 5.45 + 0 + -3.64 + 0 + 0)) +</b><span style="color: #9c5995;font-weight: bold;"> (0.7845 * (1.82 + 5.45 + 0 + -3.64 + 0 + 0)))</span><b> + <span style="color: #f58339;">(0.1384 * (9.1 + 54.5 + 27.3 + 8.19 + 0 + 0))</span></b>
+        </p>
+        <p style="font-weight: bold;">= 3.797 + <span style="color: #9c5995;">2.848</span> + <span style="color: #f58339;">13.714</span></p>
+        <p style="font-weight: bold;">= <span style="color: #22b14c;">20.359</span></p>
+        <p>The graphic below demonstrates the same calculation process in a visual format that might be easier for some to follow.</p>
+        <p>
+            <img src="../../../Resources/Images/External/qwra_cnvc_tables_color.png" alt="Table with calculations outlined in colors corresponding to the QWRA data in the Identify image for our C(wNVC) example. Threatened Vertibrate in black, Endangered Vertibrate in purple, All Positive Decreasing Slighly in Orange. The three Sub-HVRA NVC calculations add up to the C(wNVC) value outlined in green." class="border" />
+        </p>
+        <h2>
+            <MadCap:keyword term="Calculating Expected Weighted" />Calculating <MadCap:keyword term="Expected Weighted NVC" />Expected Weighted <MadCap:keyword term="NVC" />NVC</h2>
+        <p>Expected Weighted NVC is where the likelihood leg of the Risk Assessment triangle comes in. Quite simply, it is the product of Burn Probability and Conditional Weighted NVC. The value is calculated for each pixel in the analysis area.</p>
+        <p style="font-weight: bold;text-align: center;">Expected Weighted NVC = Burn Probability × Conditional Expected NVC</p>
+        <p>We will use the values from <img src="../../../Resources/Images/MapStudio/overview/button_identify.png" alt="identify" /> <span class="UIcomponent">Identify</span>, shown below, to illustrate how E(wNVC) is calculated for a single pixel.</p>
+        <p>
+            <img src="../../../Resources/Images/MapStudio/QWRA_eNVC_example_color.png" alt="QWRA data in the Identify box for our Expected Weighted NVC calculation exampe. Colored arrows point to values described in our example for E(wNVC) and correspond to the values in the example. Green points to Conditional Weighted NVC, Blue points to Expected Weighted NVC, and Red points to Burn Probability." class="border" />
+        </p>
+        <p style="font-weight: bold;"><span style="color: #3f48cc;">Expected Weighted NVC</span>  =  <span style="color: #f04249;">0.00167</span>  x  <span style="color: #22b14c;">–49.342</span></p>
+        <p style="font-weight: bold;">= <span style="color: #3f48cc;">-0.083</span></p>
     </body>
 </html>

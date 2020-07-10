@@ -4,7 +4,30 @@
     </head>
     <body>
         <h1>Output Conditional Weighted Net Value Change (NVC)</h1>
-        <p><a href="https://firenet365.sharepoint.com/:w:/r/sites/IFTDSS_Non_Gov/Shared Documents/General/IBM IFTDSS/IFTDSS Development/Help/Risk Assessment/Risk/Conditional Weighted NVC.docx?d=wb2a8aea433d145bfbb48d1fb26cae1d0&amp;csf=1&amp;web=1&amp;e=amGZL5" target="_blank">https://firenet365.sharepoint.com/:w:/r/sites/IFTDSS_Non_Gov/Shared%20Documents/General/IBM%20IFTDSS/IFTDSS%20Development/Help/Risk%20Assessment/Risk/Conditional%20Weighted%20NVC.docx?d=wb2a8aea433d145bfbb48d1fb26cae1d0&amp;csf=1&amp;web=1&amp;e=amGZL5</a>
+        <div class="notificationTip">
+            <p>Trying to determine whether to use Conditional or Expected NVC? See the <a href="../QWRAConsiderations.htm" target="_blank">QWRA Considerations topic</a> for more discussion on choosing between Conditional and Expected NVC. For details on how C(wNVC) is calculated, see the <a href="../QWRATechDoc.htm" target="_blank">Technical documentation topic</a>).</p>
+        </div>
+        <p>Conditional Weighted Net Value Change (NVC), C(wNVC), highlights the likely effects of a fire on Highly Valued Resources or Assets (HVRAs) with the assumption that a fire will or has occurred (burn probability = 1.0). It is most useful in planning scenarios where the presence of a fire is assumed and the analysis goal is less about probability and more about anticipated threats and benefits from the fire.  For example, this output could address a situation where you know it is a matter of when (and not if) a fire occurs an area and you want to assess what the impact of the fire be on the HVRAs. Will any HVRA’s benefit from a fire? Or will the impacts all be negative? ”</p>
+        <p>
+            <img src="../../../../Resources/Images/Conceptuals/QWRA_NVC_triangle.png" alt="Conditional Weighted NVCs do not use Burn Probability (Likelihood) in their calculation, Expected Weighted NVCs do." class="border" />
+        </p>
+        <p>Since Conditional Weighted NVC is conditional on a fire occurring, it does not include Burn Probability in the calculation, rather C(wNVC) is calculated using the following:</p>
+        <ul>
+            <li>Proportion of Flame Lengths (from Landscape Burn Probability model output)</li>
+            <li>Sub-HVRA maps (from Map Values)</li>
+            <li>Response Functions</li>
+            <li>Relative Importance</li>
+            <li>Relative Extent</li>
+        </ul>
+        <p>Conditional Weighted NVC is calculated for every pixel and takes into account overlapping HVRAs. Positive values of C(wNVC) are considered benefits; negative values are considered threats. A value of 0 indicates there is neither threat nor benefit to that pixel burning. These zero values can occur  for a few reasons, including:</p>
+        <ul>
+            <li>When no HVRAs are present.</li>
+            <li>When fire burned at an intensity that only correlated to neutral Response Function (RF) values (i.e., only burned between 0-2 and 2-4 ft and the RF for those were 0).</li>
+            <li>When the summation of NVC was zero.   </li>
+        </ul>
+        <p>The image below shows an example of Conditional Weighted NVC in Map Studio with a range of values from negative (threats, indicated with a red color scheme), to positive (benefit, indicated by a green color scheme).</p>
+        <p>
+            <img src="../../../../Resources/Images/MapStudio/layer_list/QWRA_cNVC.png" class="border" alt="Map Studio Layer List is open with Conditional Weighted NVC highlighted." />
         </p>
     </body>
 </html>

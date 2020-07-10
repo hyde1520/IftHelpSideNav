@@ -8,8 +8,33 @@
                 <MadCap:dropDownHotspot>What if I don't see my wildfire?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p> Wildfire data is pulled into the FTEM&#160;system nightly from IRWIN and NIFS.</p>
-                <p>First, check your agency's system of record. Contact their <a href="../../../10-FTEM/Guidance/AgencyLeads.htm" target="_blank">FTEM&#160;Agency Lead</a> if the fire has been listed in the system of record for over 24 hours but is not visible in FTEM.</p>
+                <p>Wildfire data is pulled into the FTEM system nightly from IRWIN and <a href="https://www.nwcg.gov/publications/pms936/nifs" target="_blank">National Incident Feature Service (NIFS) <i class="fa fa-external-link" aria-hidden="true"></i></a>. FTEM contains current active fires and fires that have been declared contained, controlled, or out.</p>
+                <p>
+
+ 
+
+When missing perimeters for currently active fires, please contact the Situation Unit Leader (SITL) or Geographic Information Systems Specialist (GISS) to verify perimeters have been loaded for the incident in the Hosted National Incident Feature Service and verify local edits have been sync’d in the last 24 hours. In addition, if the perimeter is still not available, confirm with the GISS that the following attributes are set in the Hosted National Incident Feature service, Event Polygon feature class:  
+ 
+</p>
+                <ul>
+                    <li><code>FeatureType (alias FC Polygon Type) = ‘Wildfire Daily Perimeter
+</code><![CDATA[                    ]]></li>
+                    <li><![CDATA[  
+
+]]><code>IsVisible = ‘Yes’</code></li>
+                    <li><![CDATA[  
+
+]]><code>IRWINID &lt;&gt; Null AND Must match a Valid IRWINID </code><![CDATA[
+ 
+]]></li>
+                </ul>
+                <p>When missing points for known fires, check with your local dispatch to ensure that the fire has been entered into the local application where fires are recorded.  See “Loading IRWIN Point Data in FTEM ” for additional information that may help troubleshoot.  
+
+ 
+</p>
+                <div class="notificationImportant">
+                    <p>Some perimeters may not be approved by an incident or agency for public distribution (<code>FeatureAccess &lt;&gt; Public or FeatureStatus &lt;&gt; Approved</code>). </p>
+                </div>
                 <p>For more detail see <a href="../../../10-FTEM/DataTechnical/Wildfires.htm" target="_blank">FTEM Wildfire Technical Documentation</a>.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
