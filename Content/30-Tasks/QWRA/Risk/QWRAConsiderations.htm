@@ -1,10 +1,91 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
+        <link href="../../../Resources/TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
         <h1>Quantitative Wildfire Risk Assessment (QWRA) Considerations</h1>
-        <p><a href="https://firenet365.sharepoint.com/:w:/r/sites/IFTDSS_Non_Gov/Shared Documents/General/IBM IFTDSS/IFTDSS Development/Help/Risk Assessment/Risk/Risk Considerations.docx?d=w05aa8f593dd8541adf3f74f7adaf8e6f&amp;csf=1&amp;web=1&amp;e=chKp77" target="_blank">https://firenet365.sharepoint.com/:w:/r/sites/IFTDSS_Non_Gov/Shared%20Documents/General/IBM%20IFTDSS/IFTDSS%20Development/Help/Risk%20Assessment/Risk/Risk%20Considerations.docx?d=w05aa8f593dd8541adf3f74f7adaf8e6f&amp;csf=1&amp;web=1&amp;e=chKp77</a>
-        </p>
+        <h2>Choosing HVRAs for QWRA</h2>
+        <p>When identifying which HVRAs to include in your analysis, it is important to limit the list of HVRAs to those of high value. Keeping the scope limited ensures that the interpretation of the results from your analysis remains manageable. For more information, please see <a href="../MapValues/HVRAConsiderations.htm" target="_blank">HVRA Set Considerations</a> and <a href="../MapValues/HVRAAbout.htm" target="_blank">Map Values</a>.</p>
+        <p>Choosing between Conditional and Expected Weighted Net Value Change</p>
+        <p>The difference between the two is the inclusion or omission of Burn Probability (Likelihood) in the calculation. Is your analysis best premised on the assumption a fire will definitely occur (Conditional) or is the likelihood of a fire an important consideration (Expected)? In other words, are you interested in “when” (Conditional) a fire occurs, or “if” (Expected) a fire occurs.</p>
+        <div>
+            <p>
+                <img src="../../../Resources/Images/Conceptuals/QWRA_NVC_triangle.png" alt="Conditional Weighted NVC triangle showing Intensity (Proportion of Flame Lengths) and Susceptibility &amp; Importance (Resopnse Functions and Relative Importance), Likelihood (Burn Probability is crossed out. The Expected Weighted NVC triangle shows the same three sides but Likelihood (Burn Probability) is not crossed out." class="border" />
+            </p>
+            <p MadCap:conditions="General.LaterRelease">Questions to Ask When Choosing Between Conditional and Expected May Include:</p>
+            <table style="width: 100%;mc-table-style: url('../../../Resources/TableStylesheets/Standard.css');caption-side: top;" class="TableStyle-Standard" cellspacing="3" MadCap:conditions="General.LaterRelease">
+                <caption>Analysis Considerations for Conditional and Expected weighted NVC.</caption>
+                <col style="width: 359px;" class="TableStyle-Standard-Column-Column1" />
+                <col style="width: 362px;" class="TableStyle-Standard-Column-Column1" />
+                <col style="width: 349px;" class="TableStyle-Standard-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-Standard-Head-Header1">
+                        <th class="TableStyle-Standard-HeadE-Column1-Header1">Analysis Consideration</th>
+                        <th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;text-align: center;">Conditional Weighted NVC</th>
+                        <th class="TableStyle-Standard-HeadD-Column1-Header1" style="text-align: center;">Expected Weighted NVC</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-Standard-Body-Body1">
+                        <td class="TableStyle-Standard-BodyE-Column1-Body1">Treatment Locations</td>
+                        <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
+                        <td class="TableStyle-Standard-BodyD-Column1-Body1" style="text-align: center;">&#160;</td>
+                    </tr>
+                    <tr class="TableStyle-Standard-Body-Body2">
+                        <td class="TableStyle-Standard-BodyE-Column1-Body2">Future Comparisons</td>
+                        <td style="text-align: center;" class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
+                        <td class="TableStyle-Standard-BodyD-Column1-Body2" style="text-align: center;">&#160;</td>
+                    </tr>
+                    <tr class="TableStyle-Standard-Body-Body1">
+                        <td class="TableStyle-Standard-BodyB-Column1-Body1">Suppression Planning</td>
+                        <td style="text-align: center;" class="TableStyle-Standard-BodyB-Column1-Body1">&#160;</td>
+                        <td class="TableStyle-Standard-BodyA-Column1-Body1" style="text-align: center;">&#160;</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>Comparing QWRA Outputs from Differing Locations</h2>
+            <p>The legends for Conditional and Expected Weighted NVC use static bins based on orders of magnitude (where the given bin is 10 time that of the preceding bin).  Because E(wNVC) includes burn probability, it is always much smaller than C(wNVC)  therefore, the bins are scaled differently.</p>
+            <p>The use of these static bins  in the legend allows you to visually compare C(wNVC) or E(wNVC)  across Risk Assessments  from different locations. These comparisons are coarse scale and must consider the caveats described below.</p>
+            <h3>Caveats for Comparing QWRAs from Different Locations</h3>
+            <p>For example, you can run separate Risk Assessments for both Yosemite and Sequoia &amp; Kings Canyon National Parks and then assess the proportions and spatial locations of the various levels of both Threats and Benefits. However, you must consider  the inputs that were used to generate the individual risk assessment in order to determine if this is an appropriate comparison .</p>
+            <p>
+                <img src="../../../Resources/Images/MapStudio/QWRA_Yose_Kings.png" alt="Two QWRA output maps, Yosemite National Park is shown left. Sequoia &amp; Kings Canyon National parks are shown right. Layer List is shown in the lower left corner." class="border" />
+            </p>
+            <p>Below is a comparison consideration checklist:</p>
+            <ul>
+                <li>Was Landscape Burn Probability run under similar conditions? Were the inputs either identical, or at least representative of the same conditions for each location?  For example, was 97th percentile used for all simulations?</li>
+                <li>Are the HVRA Sets similar? They may not be identical given not all values exist in all locations. But do they include the same Primary HVRAs and associated Sub-HVRAs (where applicable)? (Note: Map Values does not have acreage limit in order to facilitate units or regions developing consistent HVRA Sets – see <a href="../MapValues/HVRAConsiderations.htm" target="_blank">AOI for Geographic extent Considerations</a>).</li>
+                <li>For the Sub-HVRAs that are present in all areas that are being compared, do they all use the same Response Functions?</li>
+                <li>Are the Relative Importance values consistent across analyses wherever they occur?</li>
+            </ul>
+            <p>If you can answer yes to the above list, then your comparison will be more robust and you can deduce that differences in Weighted Net Value Change are mostly related to the differences in fuels and fire behavior.  If too many factors are not similar across the areas being compared, you can’t easily deduce what is impacting those changes.</p>
+            <h2>Comparing QWRA outputs for Assessing Impacts of Treatment Alternatives</h2>
+            <p>We are currently working on a Comparison Dashboard in IFTDSS that will facilitate direction comparison of QWRAs within IFTDSS and generate reports summarizing the differences. </p>
+            <div class="notificationComingSoon">
+                <p>This Dashboard is scheduled to be available in the Fall-Winter of 2020</p>
+            </div>
+            <p>Until the comparison dashboard is finished, you will need to run separate risk assessments for the same landscape extent to understand the impact of disturbance or  treatments on Weighted Net Value Change. To do this, everything should be held constant except the landscape.  Varying the landscapes will represent the suite of disturbances or treatments you want to compare.</p>
+            <p>Listed below are the best practices to be able to complete alternatives  comparison to determine the impacts of treatments  on your own.</p>
+            <p>To ensure the best possible comparison is completed, the following steps should be followed:</p>
+            <ol>
+                <li>Start by creating an Existing Condition (EC) Landscape.</li>
+                <li>Conduct a LBP model run on your EC Landscape.</li>
+                <li>Create landscapes for all treatment alternatives (See the landscape editing topics if details are needed).</li>
+                <li>Run each of the Edited (Alternative) Landscapes with the Use Ra</li>
+                <li>Repeat running Landscape Burn Probability with ‘Use Ignitions From a Completed Run’ where the Completed Run is then one that required the most fires (See LBP model runs for additional information on choosing ignition set in Comparison scenarios)</li>
+                <li>Create your HVRA Set in Map values.  You will use this same HVRA Set throughout the comparison.</li>
+                <li>Run an Exposure Analysis for each alternative landscape’s Landscape Burn Probability model output using  the same HVRA Set for all iterations.</li>
+                <li>Run Risk Assessment using the Exposure Analysis for each alternative while keeping  Response Functions and Relative Importance inputs constant for all iterations.</li>
+            </ol>
+            <p>This process is graphically represented in the flowchart below.</p>
+            <p>
+                <img src="../../../Resources/Images/Conceptuals/QWrA_graphicalworkflow.png" alt="Workflow of landsape alternatives undergoing the QWRA workflow of Landscape Burn Probability, Map Values, Exposure Analysis, and Risk Assessment." class="border" />
+            </p>
+            <p>Once these analyses are all compete, users can use the identify tool and swipe functionality within IFTDSS to compare treatments.  In the example below, by loading both QWRA outputs in the Map Studio and  using the identify tool, the different outputs between Existing Condition and Alternative 1 can be seen.  In this pixel, Alternative 1 represents an increase in both Conditional and Expected Weighted NVC.</p>
+            <p>
+                <img src="../../../Resources/Images/MapStudio/qwra_nvc_compare.png" alt="Comparison of QWRA outputs as described in text, Existing condition is shown top, Alternative 1 is shown on bottom." class="border" />
+            </p>
+        </div>
     </body>
 </html>

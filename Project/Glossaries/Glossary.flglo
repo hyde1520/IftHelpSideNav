@@ -1234,19 +1234,6 @@ Defined by NWCG as: A release of combustion gases and aerosols into the atmosphe
   </GlossaryEntry>
   <GlossaryEntry
     TermClass=""
-    conditions="General.Exclude,General.LaterRelease"
-    Stem=""
-    IgnoreCase="false">
-    <Terms>
-      <Term>NVC</Term>
-      <Term>Net Value Change</Term>
-      <Term>Relative Net Value Change</Term>
-    </Terms>
-    <Definition
-      Link="">Relative net value change is the main output of the risk assessment pathways in IFTDSS. The relative net value change in land value due to fire is assumed to be a function of fire behavior, and includes both positive and negative effects for fire. For more information, see Calkin et al 2010a.</Definition>
-  </GlossaryEntry>
-  <GlossaryEntry
-    TermClass=""
     Stem=""
     IgnoreCase="false">
     <Terms>
@@ -1269,14 +1256,14 @@ BP = # times a pixel burns / total number of fires simulated</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     TermClass=""
-    conditions="General.LaterRelease"
+    conditions=""
     Stem=""
     IgnoreCase="false">
     <Terms>
       <Term>Response Function</Term>
     </Terms>
     <Definition
-      Link="">The mathematical relationship between fire characteristic and fire outcome.</Definition>
+      Link="">Response Functions (RFs) represent the susceptibility or response of a Highly Valued Resource or Asset (HVRA) to wildfire. Response functions are expert-defined and translate fire effects into value change (-100 to +100), based upon fire intensity (GTR-315).</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     TermClass=""
@@ -1613,13 +1600,12 @@ See also: needle drape</Definition>
     glossTerm="Glossary.Term31"
     Stem=""
     IgnoreCase="false"
-    conditions="General.LaterRelease">
+    conditions="">
     <Terms>
-      <Term>Benefits</Term>
-      <Term>Fire Benefits</Term>
+      <Term>Benefit</Term>
     </Terms>
     <Definition
-      Link="">Something that represents, promotes or enhances a desired outcome, being of positive value and contributing to the attainment of organizational goals. Benefits represent one end of the spectrum of outcomes from fire, with the opposite end being harm, loss or damage.</Definition>
+      Link="">An increase in the value of a resource or asset (although assets generally do not benefit from fire). The benefit to a resource may partially or wholly offset loss due to resource damage. The net effect of benefit and loss is called net value change (NVC) but has also been called net threat or net benefit. (Scott 2019)</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term32"
@@ -1756,19 +1742,6 @@ See also: needle drape</Definition>
     </Terms>
     <Definition
       Link="">The manner in which a fire reacts to the influences of fuel, weather, and topography.</Definition>
-  </GlossaryEntry>
-  <GlossaryEntry
-    glossTerm="Glossary.Term47"
-    Stem=""
-    IgnoreCase="false"
-    conditions="General.LaterRelease">
-    <Terms>
-      <Term>Loss</Term>
-      <Term>Fire Damage</Term>
-      <Term>Fire Loss</Term>
-    </Terms>
-    <Definition
-      Link="">Detrimental fire effects expressed in monetary or other units, including the unfavorable effects of fire-induced changes in the resource base on the attainment of organizational goals.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term48"
@@ -2161,14 +2134,12 @@ In IFTDSS, Landscape Fire Behavior and Landscape Burn Probability it is the wind
     glossTerm="Glossary.Term83"
     Stem=""
     IgnoreCase="false"
-    conditions="General.LaterRelease">
+    conditions="">
     <Terms>
       <Term>Risk</Term>
     </Terms>
     <Definition
-      Link="">A measure of the probability and consequence of uncertain future events.
-
-NOTE: Risk has also been defined by the International Organization for Standardization as “the effect of uncertainty on objectives,” meaning that consequences are evaluated in light of objectives and desired conditions.</Definition>
+      Link="">Generally, risk is the potential for realization of adverse or beneficial consequences to HVRAs. Although there exists no single, best measure of risk, in this risk assessment framework we quantify the potential for effects as the expected value of the probability of an event occurring multiplied by the magnitude of the effect, given that an event has occurred. (Scott 2019)</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term84"
@@ -2503,29 +2474,6 @@ In Landscape Fire Behavior outputs, it is he solar radiation of each cell for th
       Link="">The composition and structural characteristics of a landscape such as fuel model and canopy characteristics that represent actual current on the ground or expected fire behavior conditions for a given area.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
-    glossTerm="Glossary.Term117"
-    Stem=""
-    IgnoreCase="false"
-    conditions="General.LaterRelease">
-    <Terms>
-      <Term>Expected Net Value Change</Term>
-      <Term>ENVC</Term>
-    </Terms>
-    <Definition
-      Link="">The calculated sum-product of burn probability and value change. Expected net value change is a risk-neutral measure of the wildfire risk to resources and assets. If no beneficial effects are under consideration, expected net value change can simply be called expected loss.</Definition>
-  </GlossaryEntry>
-  <GlossaryEntry
-    glossTerm="Glossary.Term118"
-    Stem=""
-    IgnoreCase="false"
-    conditions="General.LaterRelease">
-    <Terms>
-      <Term>Expected Value</Term>
-    </Terms>
-    <Definition
-      Link="">A  probability-weighted average outcome, calculated as the sum of all possible values each multiplied by the probability of its occurrence. Expected value is a good measure of the central tendency of outcomes.</Definition>
-  </GlossaryEntry>
-  <GlossaryEntry
     glossTerm="Glossary.Term119"
     Stem=""
     IgnoreCase="false">
@@ -2576,19 +2524,6 @@ Gridded weather data provides more complete weather data coverage than from fixe
     </Terms>
     <Definition
       Link="">This spatial grid is generated using computational fluid dynamics to account for the influence of topography on wind speed and direction. Without gridded winds, every cell on the landscape will have the same wind speed and direction. Proper use of gridded winds in an analysis can produce more realistic fire behavior modeling results.</Definition>
-  </GlossaryEntry>
-  <GlossaryEntry
-    glossTerm="Glossary.Term124"
-    Stem=""
-    IgnoreCase="false"
-    conditions="General.Exclude">
-    <Terms>
-      <Term>Hazard</Term>
-    </Terms>
-    <Definition
-      Link="">A physical situation with potential for harm to persons or damage to resources and assets. Wildfire hazard can be described qualitatively as a fire environment—fuel, weather, topography, and ignitions—with potential for causing harm or damage.
-
-(Scott, Joe H.; Thompson Matthew P.; Calkin, David E. (2013) A Wildfire Risk Assessment Framework for Land and Resource Management . General Technical Report RMRS-GTR-315. USDA Forest Service, Rocky Mountain Research Station, 83 p.)</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term125"
@@ -2665,57 +2600,35 @@ Gridded weather data provides more complete weather data coverage than from fixe
     glossTerm="Glossary.Term135"
     Stem=""
     IgnoreCase="false"
-    conditions="General.LaterRelease">
+    conditions="">
     <Terms>
       <Term>Net Value Change</Term>
       <Term>NVC</Term>
     </Terms>
     <Definition
-      Link="">The net effect of both damaging and beneficial effects on the value of a resources or asset. Negative numbers for net value change indicate a net loss; positive numbers indicate a net benefit.</Definition>
+      Link="">The net effect of both damaging and beneficial effects on the value of a resource or asset, whether it increases or decreases. Negative numbers for net value change indicate a net threat; positive numbers indicate a net benefit.(Scott 2019)</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term136"
     Stem=""
     IgnoreCase="false"
-    conditions="General.LaterRelease">
+    conditions="">
     <Terms>
       <Term>Risk Assessment</Term>
     </Terms>
     <Definition
-      Link="">An appraisal of the interaction of hazard, exposure, and effects to a given set of values in a given area. Components of a risk assessment may include burn probability (likelihood) and burn intensity (consequences) under a given set of circumstances.</Definition>
-  </GlossaryEntry>
-  <GlossaryEntry
-    glossTerm="Glossary.Term137"
-    Stem=""
-    IgnoreCase="false"
-    conditions="General.LaterRelease">
-    <Terms>
-      <Term>Risk Analysis</Term>
-    </Terms>
-    <Definition
-      Link="">A detailed examination including risk assessment, risk evaluation, and risk management alternatives. An analytical process to provide information regarding undesirable events; the process of quantification of the probabilities and expected consequences for identified risks.</Definition>
-  </GlossaryEntry>
-  <GlossaryEntry
-    glossTerm="Glossary.Term138"
-    Stem=""
-    IgnoreCase="false"
-    conditions="General.LaterRelease">
-    <Terms>
-      <Term>Risk Management</Term>
-    </Terms>
-    <Definition
-      Link="">The identification, assessment, and prioritization of risk followed by the economical application of resources to minimize, monitor and control the probability and/or impact of uncertain future events.</Definition>
+      Link="">An appraisal of the interaction of wildfire hazard and the vulnerability of resources and assets in a defined area. Components of wildfire hazard include the probability of burning and the intensity given that a burn occurs. Components of HVRA vulnerability include exposure and susceptibility.(Scott 2019)</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term139"
     Stem=""
     IgnoreCase="false"
-    conditions="General.LaterRelease">
+    conditions="">
     <Terms>
       <Term>Susceptibility</Term>
     </Terms>
     <Definition
-      Link="">The propensity of an asset or resource to experience an effect as a result of burning at a given wildfire intensity. A resource or asset that is easily damaged by low-intensity fire is susceptible, whereas one that is difficult to damage even with high intensity fire is considered resistant.</Definition>
+      Link="">The propensity of an asset or resource to experience an effect as a result of burning at a given level of wildfire intensity. An asset or resource that is easily damaged by a low-intensity wildfire is susceptible, whereas one that is difficult to damage even with a high-intensity wildfire is resistant. Modifications to a building (changing to a fire-resistant roof covering, screening vents, etc.) make it less susceptible to fire damage. The term susceptibility is used for the propensity to experience either an increase or decrease in value. (Scott 2019)</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term140"
@@ -2726,28 +2639,6 @@ Gridded weather data provides more complete weather data coverage than from fixe
     </Terms>
     <Definition
       Link="">Imperfect information or lack of knowledge. In risk analyses often relates to understanding of the probabilities of events.</Definition>
-  </GlossaryEntry>
-  <GlossaryEntry
-    glossTerm="Glossary.Term141"
-    Stem=""
-    IgnoreCase="false"
-    conditions="General.LaterRelease">
-    <Terms>
-      <Term>Value</Term>
-    </Terms>
-    <Definition
-      Link="">The worth or importance of an asset or resource. Values, refers to assets or resources of value.</Definition>
-  </GlossaryEntry>
-  <GlossaryEntry
-    glossTerm="Glossary.Term142"
-    Stem=""
-    IgnoreCase="false"
-    conditions="General.LaterRelease">
-    <Terms>
-      <Term>Value Change</Term>
-    </Terms>
-    <Definition
-      Link="">The value change of a resource or asset arising from an event such as a wildfire.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term143"
@@ -3312,5 +3203,75 @@ represent the likelihood of fire intensity for six standard fire intensity level
     </Terms>
     <Definition
       Link="">This value is used in Exposure Analysis. It is the maximum burn probability value amongst all burnable pixels that are within any Sub-HVRA. It is used to generate the Mean Burn Probability scale in the report charts and to determine Mean Integrated Hazard.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term188"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Overall Importance</Term>
+    </Terms>
+    <Definition
+      Link="">Overall importance is a calculated percentage for Primary and Sub-HVRAs determined by adjusting user Relative Importance inputs and weighting them based on relative extent (acreage) of Sub-HVRAs.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term189"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Relative Importance</Term>
+    </Terms>
+    <Definition
+      Link="">Relative Importance (RI) is used to account for the fact that some HVRAs have reason to be prioritized over others, whether due to policy, land management objectives, or other factors. Without articulating relative importance, all HVRAs would be weighted equally and the characterization of risk in areas with overlapping HVRAs might not appropriately reflect management objectives or the tradeoffs associated with competing or conflicting objectives.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term190"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Relative Importance per Pixel</Term>
+    </Terms>
+    <Definition
+      Link="">In order to calculate Conditional Weighted NVC, first the Relative Importance Per Pixel (RIPP) needs to be calculated.  RIPP takes into account the Relative Importance (RI) values for both Primary HVRA Categories and the Sub-HVRAs entered in the application, as well as the Relative Extent (RE) which is the number of burnable pixels in each Sub-HVRA footprint.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term191"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Threat</Term>
+    </Terms>
+    <Definition
+      Link="">The expected value of loss; nearly synonymous with risk but specifically excludes any potential for beneficial fire effects. (Scott 2019)</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term192"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Conditional Weighted Net Value Change</Term>
+    </Terms>
+    <Definition
+      Link="">Conditional Weighted Net Value Change (NVC), C(wNVC), highlights the likely effects of a fire on Highly Valued Resources or Assets (HVRAs) with the assumption that a fire will or has occurred (burn probability = 1.0).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term193"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Expected Weighted Net Value Change</Term>
+    </Terms>
+    <Definition
+      Link="">Expected Weighted Net Value Change (NVC), E(wNVC), brings the likelihood of a fire occurring into the analysis of the effects of fire on Highly Valued Resources or Assets (HVRAs). That is, E(wNVC), is the product of C(wNVC) and burn probability.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term194"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Cumulative Weighted Net Value Change</Term>
+    </Terms>
+    <Definition
+      Link="">Cumulative Risk represents the mathematical sum of threat and/or benefit  as  a useful way to summarize at the Sub-HVRA or analysis area level. Both threat and benefit are considered and in some cases can be offsetting with the final value being positive, negative, or zero.</Definition>
   </GlossaryEntry>
 </CatapultGlossary>
