@@ -15,6 +15,7 @@
             <li>Conditional Flame Length (ft)</li>
             <li>Integrated Hazard</li>
             <li>Midflame Wind Speed (mph)</li>
+            <li MadCap:conditions="General.QA ONLY">Proportion of Flame Lengths</li>
             <li>1-hr Fuel Moisture</li>
             <li>10-hr Fuel Moisture</li>
             <li>100-hr Fuel Moisture</li>
@@ -34,7 +35,7 @@
             <img src="../../Resources/Images/External/Arc/import_lyrs/LBP/LBP_file_list.png" alt="files available in the Landscape Burn Probability download package.  They include the ArcGIS Layer (*.lyr) files to define the symbology for most of the bands in the GeoTIFF (*.TIF, *.XML, *.OVR)" class="border" />
         </p>
         <p>Although Burn Probability is visible in Map Studio, we have not included an ArcGIS Layer file because the  bins are dynamically derived on the Analysis Maximum and it is not possible to create a file for individual model outputs. We have included the steps required to change the symbology within ArcMap manually.</p>
-        <p>In addition, we have not included ArcGIS Layers files for layers included in the LBP GeoTIFF not shown in Map Studio.  This includes the six Proportion of Flame Length layers.</p>
+        <p MadCap:conditions="General.Prod ONLY">In addition, we have not included ArcGIS Layers files for layers included in the LBP GeoTIFF not shown in Map Studio.  This includes the six Proportion of Flame Length layers.</p>
         <h2>Importing symbology for Integrated Hazard</h2>
         <p>The Integrated Hazard layer in the LBP GeoTIFF is categorical data.  The following steps outline how to import the symbology for categorical data.</p>
         <ol style="list-style-type: upper-alpha;">
@@ -73,8 +74,10 @@
                 </p>
             </li>
         </ol>
-        <h2>Applying symbology for 1, 10, and 100 Hour Fuel Moisture, Conditional Flame Length, and Midflame Wind Speed</h2>
-        <p>The same steps are completed to import the symbology for 1, 10, and 100 Hour Fuel Moistures, Conditional Flame Length, and Midflame Wind Speed. These data sources are continuous data that are classified into distinct bins.  The following steps outline how to import the symbology for continuous data. The example below will use Conditional Flame Length; however, the same steps are applied to the remaining layers.</p>
+        <h2 MadCap:conditions="General.Prod ONLY">Applying symbology for 1, 10, and 100 Hour Fuel Moisture, Conditional Flame Length, and Midflame Wind Speed</h2>
+        <p MadCap:conditions="General.Prod ONLY">The same steps are completed to import the symbology for 1, 10, and 100 Hour Fuel Moistures, Conditional Flame Length, and Midflame Wind Speed. These data sources are continuous data that are classified into distinct bins.  The following steps outline how to import the symbology for continuous data. The example below will use Conditional Flame Length; however, the same steps are applied to the remaining layers.</p>
+        <h2 MadCap:conditions="General.QA ONLY">Applying symbology for 1, 10, and 100 Hour Fuel Moisture, Conditional Flame Length, Midflame Wind Speed, and Proportion of Flame Lengths</h2>
+        <p MadCap:conditions="General.QA ONLY">The same steps are completed to import the symbology for 1, 10, and 100 Hour Fuel Moistures, Conditional Flame Length, Midflame Wind Speed, and Proportion of Flame Lengths. These data sources are continuous data that are classified into distinct bins.  The following steps outline how to import the symbology for continuous data. The example below will use Conditional Flame Length; however, the same steps are applied to the remaining layers.</p>
         <ol style="list-style-type: upper-alpha;">
             <li>Open ArcMap session and add the layers you would like to map. For more information on how do add layers to ArcMap please see the Opening an IFTDSS Geo Tiff file in ArcMap help topic.</li>
             <li>

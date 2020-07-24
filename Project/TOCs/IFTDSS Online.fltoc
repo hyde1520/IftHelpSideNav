@@ -75,7 +75,7 @@
     <TocEntry
       Title="Alaska Information"
       Link="/Content/00-Concepts/Alaska.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      conditions="General.QA ONLY" />
+      ReplaceMergeNode="false" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/10-MapStudio/Files/LCPCreate.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -583,14 +583,9 @@
           Link="/Content/30-Tasks/QWRA/ExposureAnalysis/EATechnicalDoc.htm" />
       </TocEntry>
       <TocEntry
-        Title="Risk Assessment"
-        Link="/Content/30-Tasks/QWRA/QWRAAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-        conditions="General.Prod ONLY"></TocEntry>
-      <TocEntry
-        Title="Risk Assessment"
-        conditions="General.QA ONLY">
+        Title="Risk Assessment">
         <TocEntry
-          Title="Overview"
+          Title="QWRA Overview"
           Link="/Content/30-Tasks/QWRA/QWRAAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="QWRA Tutorial"
@@ -628,10 +623,10 @@
               Link="/Content/10-Workspace/downloads/QWRAArcLyr.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           </TocEntry>
           <TocEntry
-            Title="Weighted Conditional NVC"
+            Title="Conditional Weighted NVC"
             Link="/Content/30-Tasks/QWRA/Risk/Out/OutputCondNVC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           <TocEntry
-            Title="Weighted Expected NVC"
+            Title="Expected Weighted NVC"
             Link="/Content/30-Tasks/QWRA/Risk/Out/OutputExpNVC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           <TocEntry
             Title="QWRA Output Reports"
@@ -1255,8 +1250,7 @@
     StartSection="false">
     <TocEntry
       Title="Alaska Information"
-      Link="/Content/00-Concepts/Alaska.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      conditions="General.QA ONLY" />
+      Link="/Content/00-Concepts/Alaska.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Case Study Examples"
       Link="/Content/40-Tutorials/TutorialMain.htm" />
