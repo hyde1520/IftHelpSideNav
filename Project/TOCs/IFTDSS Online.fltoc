@@ -1287,9 +1287,13 @@
       Link="https://iftdss.firenet.gov/landing_page/support.html"
       conditions="General.Prod ONLY" />
     <TocEntry
-      Title="2020 Survey Results"
+      Title="IFTDSS Survey Results 2020"
       Link="/Content/00-AboutIFTDSS/2020results1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
       conditions="General.QA ONLY"
       StartSection="false" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/00-AboutIFTDSS/tab_test.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      conditions="General.QA ONLY" />
   </TocEntry>
 </CatapultToc>

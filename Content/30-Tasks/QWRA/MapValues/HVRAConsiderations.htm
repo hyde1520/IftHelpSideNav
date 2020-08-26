@@ -6,21 +6,38 @@
         <h1>
             <MadCap:keyword term="HVRA Set" />
             <MadCap:keyword term="map values" />HVRA Set Considerations </h1>
-        <p>A key consideration in creating your HVRA-Set is geographic extent. Be sure to make the HVRA Set large enough to cover the area you are interested in.</p>
-        <h2>Geographic Extent Selection Considerations</h2>
         <p>The HVRA Set extent is bounded by a solid black line, shown in the Layer List as “HVRA Set: Extent”. It includes a 4980 meter buffer area to ensure that values that fall on the boundaries of your Landscape, AOI or LBP Output are captured.</p>
+        <div class="notificationTip">
+            <p>Deciding what to include in your HVRA set will depend on your whether your mapping values for Risk Assessment or visual assessment. See the <a href="#HVRA">Exposure, Risk, and Visual Assessment Considerations section below</a> for more details.</p>
+        </div>
         <p>There are three options for selecting a geographic extent when creating an HVRA Set:</p>
         <ul>
-            <li><b>Landscape:</b> The HVRA Set extent will include the extent of your selected landscape (non-buffered area represented by a solid green line) as well as the 4980 meter buffer surrounding it.</li>
+            <li><b>Landscape</b>: The HVRA Set extent will include the extent of your selected landscape (non-buffered area represented by a solid green line) as well as the 4980 meter buffer surrounding it.</li>
             <li>
-                <p><b>LBP Model Output:</b> The HVRA Set extent will include the extent of your selected model output (non-buffered area)  as well as the 4980 meter buffer surrounding it. This selection is designed to be used when conducting an Exposure Analysis, but it can also be used if you want to view your HVRAs in association with Landscape Burn Probability outputs such as Integrated Hazard.</p>
+                <p><b>LBP Model Output</b>: The HVRA Set extent will include the extent of your selected model output (non-buffered area) as well as the 4980 meter buffer surrounding it. This selection is designed to be used when conducting an Exposure Analysis, but it can also be used if you want to view your HVRAs in association with Landscape Burn Probability outputs such as Integrated Hazard.</p>
                 <p>
                     <img src="../../../Resources/Images/HVRAs/hvra_lbp_bounding.png" alt="black bounding box in the map includes LBP extent and buffered area" class="border" />
                 </p>
-                <MadCap:snippetBlock src="../../../Resources/Snippets/HVRAsets/EA_RiskConsiderationCallout.flsnp" />
             </li>
-            <li><b>Area of Interest (AOI):</b> The HVRA Set extent will include the shape or shapefile you selected as well as a 4980 meter buffer around the rectangular extent of the shape. There is no size limitation on AOIs, these can be as large as needed. Creating an HVRA Set based on an AOI can be especially useful in designating “master” HVRA Sets over broad geographic areas (e.g. Districts, Forests, Parks, or Regions) that can be used in multiple analyses. For example, you can create a master HVRA Set for your Forest and use the set for multiple project areas or NEPA analyses.</li>
+            <li><b>Area of Interest (AOI)</b>: The HVRA Set extent will include the shape or shapefile you selected as well as a 4980 meter buffer around the rectangular extent of the shape. There is no size limitation on AOIs, these can be as large as needed. Creating an HVRA Set based on an AOI can be especially useful in designating “master” HVRA Sets over broad geographic areas (e.g. Districts, Forests, Parks, or Regions) that can be used in multiple analyses. For example, you can create a master HVRA Set for your Forest and use the set for multiple project areas or NEPA analyses.</li>
         </ul>
-        <MadCap:snippetBlock src="../../../Resources/Snippets/HVRAsets/ExtentandScopeCallout.flsnp" />
+        <h2><a name="HVRA"></a>HVRA Set Considerations for Exposure, Risk, and Visual Assessment</h2>
+        <p>Deciding what to include in your HVRA set should be based on how you intend to use that set. The two most common goals include:</p>
+        <ul>
+            <li>Exposure Analysis for Risk Assessment.</li>
+            <li>Visual Assessment, displaying values over any modeling output.</li>
+        </ul>
+        <h3>HVRA Sets for Exposure Assessment and Risk Assessment</h3>
+        <p>For HVRA sets intended for Exposure Analyses or Quantitative Wildfire Risk Assessments (QWRAs), the geographic extent HVRAs selected should reflect the desired extent and components to be quantitatively evaluated and compared. When creating these HVRA sets:</p>
+        <ul>
+            <li>Use an LBP Model Output to set the geographic extent of your mapped values. This is the easiest way to ensure the LPB and HVRA extents match. See the Geographic Extent section for more detail.</li>
+            <li>Limit the list of HVRAs to those of high value. Keeping the scope limited ensures that the interpretation of the results from your analysis remains manageable. Some resources have only modest value and may not warrant analysis in an assessment. Low-value assets like outbuildings are often left un-analyzed so that efforts can be focused on the more Highly Valued Resources or Assets (HVRAs). Limiting the number of HVRA also makes the Exposure Analysis and Risk Assessment summary reports easier to interpret.</li>
+        </ul>
+        <h3>HVRA Sets for Visual Assessment</h3>
+        <p>For HVRA sets intended to be used primarily for visual assessment and overlaying with model outputs, the HVRAs selected can be more dynamic and exploratory.</p>
+        <ul>
+            <li>You may find it helpful to create an HVRA Set that covers the extent of multiple model runs so that you only have one large HVRA Set in your project.</li>
+            <li>An HVRA Set may have a maximum to 10 Primary HVRA Categories, each of which may contain a maximum of 10 Sub-HVRAs.</li>
+        </ul>
     </body>
 </html>

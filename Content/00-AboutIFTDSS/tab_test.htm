@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="General.QA ONLY">
+    <head>
+    </head>
+    <body>
+        <h1>Testing tabs</h1>
+        <p>This test page uses the following codes to introduce tabs to <MadCap:variable name="General.ProductName" /> Help Center.</p>
+        <ul class="tabs">
+            <li class="tab-link current" data-tab="tab-1">HTML Code</li>
+            <li class="tab-link" data-tab="tab-2">Javascript</li>
+            <li class="tab-link" data-tab="tab-3">CSS</li>
+        </ul>
+        <div class="tab-content current" id="tab-1">
+            <MadCap:codeSnippet>
+                <MadCap:codeSnippetCopyButton />
+                <MadCap:codeSnippetBody MadCap:useLineNumbers="True" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: HTML;">&lt;ul class="tabs"&gt;
+    &lt;li class="tab-link current" data-tab="tab-1"&gt;Tab 1 Label&lt;/li&gt;
+    &lt;li class="tab-link" data-tab="tab-2"&gt;Tab 2 Label&lt;/li&gt;
+     &lt;li class="tab-link" data-tab="tab-3"&gt;Tab 3 Label&lt;/li&gt;
+        &lt;/ul&gt;
+&lt;div class="tab-content current" id="tab-1"&gt;
+        &lt;p&gt;Tab 1 content goes here&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="tab-content" id="tab-2"&gt;
+        &lt;p&gt;Tab 2 content goes here&lt;/p&gt;
+&lt;/div&gt;        
+&lt;div class="tab-content" id="tab-3"&gt;
+        &lt;p&gt;Tab 3 content goes here&lt;/p&gt;
+&lt;/div&gt;</MadCap:codeSnippetBody>
+            </MadCap:codeSnippet>
+        </div>
+        <div class="tab-content" id="tab-2">
+            <MadCap:codeSnippet>
+                <MadCap:codeSnippetCopyButton />
+                <MadCap:codeSnippetBody MadCap:useLineNumbers="True" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: JavaScript;">$(document).ready(function(){
+	
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})</MadCap:codeSnippetBody>
+            </MadCap:codeSnippet>
+        </div>
+        <div class="tab-content" id="tab-3">
+            <MadCap:codeSnippet>
+                <MadCap:codeSnippetCopyButton />
+                <MadCap:codeSnippetBody MadCap:useLineNumbers="True" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">/* begin styles for tabs */
+
+ul.tabs
+{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	position: relative;
+}
+
+ul.tabs:after
+{
+	position: absolute;
+	content: "";
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	border-bottom: 1px solid #ddd;
+}
+
+ul.tabs .tab-link
+{
+	color: #333;
+	display: inline-block;
+	padding: 10px 10px;
+	cursor: pointer;
+	margin-left: -4px;
+	position: relative;
+	z-index: 0;
+}
+
+ul.tabs .current
+{
+	background: #fff;
+	color: #d9232e;
+	margin-left: 0px;
+	margin-right: 10px;
+	border-top: 1px solid #ddd;
+	border-bottom: 0px solid white;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	z-index: 100;
+}
+
+ul.tabs .tab-link:hover
+{
+	background: #c2c2c2;
+	color: #000;
+	display: inline-block;
+	padding: 10px 10px;
+	cursor: pointer;
+	margin-left: -5px;
+	border: 1px solid transparent;
+}
+
+ul.tabs .current:hover
+{
+	background: #fff;
+	color: #d9232e;
+	margin-left: 0px;
+	margin-right: 10px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid transparent;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	z-index: 2;
+}
+
+.tab-content
+{
+	display: none;
+	background: #ededed;
+	padding: 15px;
+	background-color: transparent;
+}
+
+.tab-content.current
+{
+	display: inherit;
+}</MadCap:codeSnippetBody>
+            </MadCap:codeSnippet>
+        </div>
+        <p>Thank you <a href="https://www.madcapsoftware.com/blog/adding-tabs-to-your-madcap-flare-topics/" target="_blank">Laura</a>!</p>
+        <p>&#160;</p>
+    </body>
+</html>

@@ -5,7 +5,7 @@
     </head>
     <body>
         <table style="width: 100%;mc-table-style: url('../../TableStylesheets/Standard.css');caption-side: top;" class="TableStyle-Standard" cellspacing="3">
-            <caption>Band number, name, and units for <MadCap:variable name="General.ProductName" /> landscapes.</caption>
+            <caption>Landscape version, availability, and description.</caption>
             <col class="TableStyle-Standard-Column-Column1" style="width: 300px;" />
             <col class="TableStyle-Standard-Column-Column1" style="width: 300px;" />
             <col class="TableStyle-Standard-Column-Column1" style="width: 300px;" />

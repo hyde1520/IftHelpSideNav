@@ -15,9 +15,9 @@
             </p>
             <p>Questions to Ask When Choosing Between Conditional and Expected May Include:</p>
             <ul>
-                <li>Are proposed treatment area boundaries already defined?<ul><li>If yes, than Conditional Weighted NVC may be more useful as you evaluate the impacts knowing it is a matter of when and not if a fire occurs.</li><li>If no, than Expected Weighted NVC may be of value as you can evaluate how likely an unplanned fire might be and decide if placing a fuels treatment in that location is of value.</li></ul></li>
+                <li>Are proposed treatment area boundaries already defined?<ul><li>If yes, then Conditional Weighted NVC may be more useful as you evaluate the impacts knowing it is a matter of when and not if a fire occurs.</li><li>If no, then Expected Weighted NVC may be of value as you can evaluate how likely an unplanned fire might be and decide if placing a fuels treatment in that location is of value.</li></ul></li>
                 <li>Is the baseline for comparison analysis more focused on the likelihood of fire, the impacts of fire, or both likelihood and impacts?<ul><li>Are you focused on the scenario where you are assuming a fire is going to occur? If so, you can use Conditional Weighted NVC to focus on the trade-offs of fire impacting various HVRA’s.  How much of a threat is a fire to which HVRA’s? Or will fire be of benefit to your HVRA’s and to what degree?</li><li>If the likelihood of fire occurring is of interest to your assessment then it’s a question of Expected Weighted NVC – how likely is it for that area to have a fire? That information coupled with the threat/benefit potential can assist in deciding if a fuel treatment would mitigate the impacts to HVRAs if a fire occurred.</li></ul></li>
-                <li>For suppression scenarios: Is the fire already on the ground? Or is the analysis use for pre-planning?<ul><li>If fire is currently burning than the real question is what HVRA’s will the fire impact and to what degree? In this case Conditional Weighted NVC will be most useful to help you understand if the impacts be detrimental or beneficial.</li><li>If fire is not currently burning, but you want to know the fire potential than Expected Weighted NVC will lead you to understand the likelihood as well as the expected impacts on HVRAs</li></ul></li>
+                <li>For suppression scenarios: Is the fire already on the ground? Or is the analysis use for pre-planning?<ul><li>When fire is currently burning, the real question is what HVRA’s will the fire impact and to what degree? In this case Conditional Weighted NVC is most useful to help you understand if the impacts be detrimental or beneficial.</li><li>When fire is not currently burning, but you want to know the fire potential, then Expected Weighted NVC leads you to understand the likelihood as well as the expected impacts on HVRAs.</li></ul></li>
             </ul>
             <table style="width: 100%;mc-table-style: url('../../../Resources/TableStylesheets/Standard.css');caption-side: top;" class="TableStyle-Standard" cellspacing="3">
                 <caption>Analysis Considerations for Conditional and Expected weighted NVC.</caption>
@@ -39,8 +39,8 @@
                     </tr>
                     <tr class="TableStyle-Standard-Body-Body2">
                         <td class="TableStyle-Standard-BodyE-Column1-Body2">Future Comparisons</td>
-                        <td style="text-align: left;" class="TableStyle-Standard-BodyE-Column1-Body2">Threat/Benefit comparison is the primary analysis objective.</td>
-                        <td class="TableStyle-Standard-BodyD-Column1-Body2" style="text-align: left;">Likelihood will be considered as well as threat/benefit in alternatives analysis.</td>
+                        <td style="text-align: left;" class="TableStyle-Standard-BodyE-Column1-Body2">Threat/benefit comparison is the primary analysis objective.</td>
+                        <td class="TableStyle-Standard-BodyD-Column1-Body2" style="text-align: left;">Likelihood is considered as well as threat/benefit in alternatives analysis.</td>
                     </tr>
                     <tr class="TableStyle-Standard-Body-Body1">
                         <td class="TableStyle-Standard-BodyB-Column1-Body1">Suppression Planning</td>
@@ -55,7 +55,7 @@ Pre-planning based on scenarios of known fire location.
             <p>The legends for Conditional and Expected Weighted NVC use static bins based on orders of magnitude (where the given bin is 10 time that of the preceding bin).  Because E(wNVC) includes burn probability, it is always much smaller than C(wNVC)  therefore, the bins are scaled differently.</p>
             <p>The use of these static bins  in the legend allows you to visually compare C(wNVC) or E(wNVC)  across Risk Assessments  from different locations. These comparisons are coarse scale and must consider the caveats described below.</p>
             <h3>Caveats for Comparing QWRAs from Different Locations</h3>
-            <p>For example, you can run separate Risk Assessments for both Yosemite and Sequoia &amp; Kings Canyon National Parks and then assess the proportions and spatial locations of the various levels of both Threats and Benefits. However, you must consider  the inputs that were used to generate the individual risk assessment in order to determine if this is an appropriate comparison .</p>
+            <p>For example, you can run separate Risk Assessments for both Yosemite and Sequoia &amp; Kings Canyon National Parks and then assess the proportions and spatial locations of the various levels of both threats and benefits. However, you must consider  the inputs that were used to generate the individual risk assessment in order to determine if this is an appropriate comparison .</p>
             <p>
                 <img src="../../../Resources/Images/MapStudio/QWRA_Yose_Kings.png" alt="Two QWRA output maps, Yosemite National Park is shown left. Sequoia &amp; Kings Canyon National parks are shown right. Layer List is shown in the lower left corner." class="border" />
             </p>
@@ -72,24 +72,26 @@ Pre-planning based on scenarios of known fire location.
             <div class="notificationComingSoon">
                 <p>This Dashboard is scheduled to be available in the Fall-Winter of 2020</p>
             </div>
-            <p>Until the comparison dashboard is finished, you will need to run separate risk assessments for the same landscape extent to understand the impact of disturbance or  treatments on Weighted Net Value Change. To do this, everything should be held constant except the landscape.  Varying the landscapes will represent the suite of disturbances or treatments you want to compare.</p>
-            <p>Listed below are the best practices to be able to complete alternatives  comparison to determine the impacts of treatments  on your own.</p>
-            <p>To ensure the best possible comparison is completed, the following steps should be followed:</p>
+            <p>Until the comparison dashboard is finished, you need to run separate risk assessments for the same landscape extent to understand the impact of disturbance or  treatments on Weighted Net Value Change. To do this, everything should be held constant except the landscape.  Varying the landscapes represent the suite of disturbances or treatments you want to compare.</p>
+            <p>Listed below are the best practices to be able to complete an alternatives  comparison to determine the impacts of treatments  on your own.</p>
+            <p>To ensure the best possible comparison is completed, follow these steps:</p>
             <ol>
-                <li>Start by creating an Existing Condition (EC) Landscape.</li>
+                <li>Create an Existing Condition (EC) Landscape.</li>
                 <li>Conduct a LBP model run on your EC Landscape.</li>
-                <li>Create landscapes for all treatment alternatives (See the landscape editing topics if details are needed).</li>
-                <li>Run each of the Edited (Alternative) Landscapes with the Use Ra</li>
-                <li>Repeat running Landscape Burn Probability with ‘Use Ignitions From a Completed Run’ where the Completed Run is then one that required the most fires (See LBP model runs for additional information on choosing ignition set in Comparison scenarios)</li>
+                <li>Create landscapes for all treatment alternatives (See the <a href="../../LndscpEdit/LandscapeEditAbout.htm" target="_blank">landscape editing topics</a> if details are needed).</li>
+                <li>
+                    <p>Edited (Alternative) Landscapes with the Use Random Ignitions option selected, keeping the other inputs (that you established in step 2) the same.</p>
+                </li>
+                <li>Repeat running Landscape Burn Probability with ‘Use Ignitions From a Completed Run’ where the Completed Run is then one that required the most fires (See the topic on <a href="../../../20-Models/LBP/RunConsiderations.htm#Reusing_Ignitions_" target="_blank">LBP&#160;Considerations and Using Ignitions from a Completed Run for LBP&#160;Refinement or Comparison</a> for information on choosing ignition set in Comparison scenarios)</li>
                 <li>Create your HVRA Set in Map values.  You will use this same HVRA Set throughout the comparison.</li>
                 <li>Run an Exposure Analysis for each alternative landscape’s Landscape Burn Probability model output using  the same HVRA Set for all iterations.</li>
-                <li>Run Risk Assessment using the Exposure Analysis for each alternative while keeping  Response Functions and Relative Importance inputs constant for all iterations.</li>
+                <li>Run a Risk Assessment using the Exposure Analysis for each alternative while keeping  Response Functions and Relative Importance inputs constant for all iterations.</li>
             </ol>
             <p>This process is graphically represented in the flowchart below.</p>
             <p>
                 <img src="../../../Resources/Images/Conceptuals/QWrA_graphicalworkflow.png" alt="Workflow of landsape alternatives undergoing the QWRA workflow of Landscape Burn Probability, Map Values, Exposure Analysis, and Risk Assessment." class="border" />
             </p>
-            <p>Once these analyses are all compete, users can use the identify tool and swipe functionality within IFTDSS to compare treatments.  In the example below, by loading both QWRA outputs in the Map Studio and  using the identify tool, the different outputs between Existing Condition and Alternative 1 can be seen.  In this pixel, Alternative 1 represents an increase in both Conditional and Expected Weighted NVC.</p>
+            <p>Once these analyses are all compete, users can use the Identify <img src="../../../Resources/Images/MapStudio/overview/button_identify.png" alt="identify" /> widget and Swipe <img src="../../../Resources/Images/MapStudio/overview/button_slider.png" alt="swipe" /> functionality within IFTDSS to compare treatments.  In the example below, by loading both QWRA outputs in the Map Studio and  using the Identify <img src="../../../Resources/Images/MapStudio/overview/button_identify.png" alt="identify" /> widget, you can see the different outputs between Existing Condition and Alternative 1.  In this pixel, Alternative 1 represents an increase in both Conditional and Expected Weighted NVC.</p>
             <p>
                 <img src="../../../Resources/Images/MapStudio/qwra_nvc_compare.png" alt="Comparison of QWRA outputs as described in text, Existing condition is shown top, Alternative 1 is shown on bottom." class="border" />
             </p>

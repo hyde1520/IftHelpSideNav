@@ -6,6 +6,8 @@
         <meta name="author" content="" /><title></title>
         <script src="https://use.fontawesome.com/78f39c078c.js">
         </script>
+		<script src="../js/new_tabs.js" type="application/javascript">
+		</script>
         <link href="../Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
         <link href="../Stylesheets/font-awesome.css" rel="stylesheet" type="text/css" />
     </head>
