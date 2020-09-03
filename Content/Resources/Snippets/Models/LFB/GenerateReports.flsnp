@@ -21,6 +21,7 @@
                 <p>
                     <img src="../../../Images/MyWorkspace/report_ready.png" alt="two captures, one showing the report dialogue box with the report name underlined as a hyperlink ready to open, the other showing the new report listed in Map Studio." class="borderlist" MadCap:mediastyle="@media print { max-width: 100%; }" />
                 </p>
+                <MadCap:snippetBlock src="../../RunMaximums/Reports.flsnp" />
             </li>
         </ol>
     </body>

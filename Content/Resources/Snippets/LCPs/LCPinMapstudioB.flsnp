@@ -41,6 +41,7 @@
         </ol>
         <p>Once you click <span class="UIcomponent">Create</span> a message appears at the top of the <span class="UIcomponent">Landscape Tools</span> box to confirm your landscape is being created. It may take a few minutes to generate your landscape. You may check its status by refreshing the Layer List in <MadCap:variable name="General.MapStudio" />.</p>
         <img src="../../Images/MapStudio/lcp_tools/landscape_submitted_confirmation.png" alt="confirmation message that a landsape file is in the process of being downloaded" class="border" />
+        <MadCap:snippetBlock src="../RunMaximums/CreateLCP.flsnp" />
         <div class="notificationTip">
             <p>Tip:&#160;To refresh your map view, click the Add to map tab, followed by the Filter by Map Extent button to show only your new landscape area, and then click Refresh. A checkbox will appear next to your landscape when it is completed.</p>
             <img src="../../Images/MapStudio/lcp_tools/Refresh.png" alt="filter and refresh buttons within the Landscape Tools widget." />
