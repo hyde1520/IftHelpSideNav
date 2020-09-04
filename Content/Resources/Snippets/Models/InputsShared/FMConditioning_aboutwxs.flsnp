@@ -3,10 +3,6 @@
     <head>
     </head>
     <body>
-        <div class="comment" MadCap:conditions="General.QA ONLY">
-            <p>Google Doc: <a href="https://docs.google.com/document/d/14O3p-5FScvkahc2ZvGAkTPd0uEGHZ1M44MAMh28TSk8/edit" target="_blank">https://docs.google.com/document/d/14O3p-5FScvkahc2ZvGAkTPd0uEGHZ1M44MAMh28TSk8/edit <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
-            <p>Last pulled into Help: 10/22/18- wordsmithed intro 11/6 </p>
-        </div>
         <p>In IFTDSS you have the option of conditioning initial fuel moistures by uploading your own weather stream (.wxs) file. If you do not have a .wxs file and need to create one, this tutorial walks through the creation of a .wxs file for use in <MadCap:variable name="General.ProductName"></MadCap:variable>. First you will download historical hourly weather data (FW13 file), then use FireFamilyPlus to create the .wxs.</p>
         <MadCap:snippetBlock src="../Flammap/wxs_validation_warning.flsnp">
         </MadCap:snippetBlock>

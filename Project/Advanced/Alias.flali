@@ -23,7 +23,7 @@
     <Map Name="ShapefileInfo" Link="/Content/10-MapStudio/Files/ShapefileInfo.htm" />
     <Map Name="AddReferenceData" Link="/Content/10-MapStudio/Functions/AddReferenceData.htm" />
     <Map Name="FlamMapBackground" Link="/Content/20-Models/LFB/TechDoc.htm" />
-    <Map Name="FlamMapCrowns" Link="/Content/20-Models/LFB/In/CrownMethods.htm" />
+    <Map Name="FlamMapCrowns" Link="/Content/20-Models/LFB/In/CrownMethodsLFB.htm" />
     <Map Name="FlamMapInput" Link="/Content/20-Models/LFB/In/InOverviewLFB.htm" />
     <Map Name="FlamMapOutput" Link="/Content/20-Models/LFB/Out/Output.htm" />
     <Map Name="MyWorkspaceAbout" Link="/Content/10-Workspace/MyWorkspaceAbout.htm" />
@@ -182,10 +182,10 @@
     <Map Name="EditingUserRuleTutorial" Link="/Content/40-Tutorials/EditingUserRuleTutorial.htm" />
     <Map Name="simulation_time_hh" Link="/Content/50-Hover/Models/MTT/simulation_time_hh.htm" />
     <Map Name="spotting_hh" Link="/Content/50-Hover/Models/MTT/spotting_hh.htm" />
-    <Map Name="DeadFMConditioning" Link="/Content/20-Models/LFB/In/DeadFMConditioning.htm" />
-    <Map Name="FlamMapWinds" Link="/Content/20-Models/LFB/In/Winds.htm" />
+    <Map Name="DeadFMConditioning" Link="/Content/20-Models/LFB/In/DeadFMConditioningLFB.htm" />
+    <Map Name="FlamMapWinds" Link="/Content/20-Models/LFB/In/WindLFB.htm" />
     <Map Name="MTTAbout" Link="/Content/20-Models/MTT/About.htm" />
-    <Map Name="MTTInputs" Link="/Content/20-Models/MTT/In/InputoverviewmTT.htm" />
+    <Map Name="MTTInputs" Link="/Content/20-Models/MTT/In/InputOverviewMTT.htm" />
     <Map Name="MTTOutputs" Link="/Content/20-Models/MTT/Out/Outputs.htm" />
     <Map Name="LCPCreateFromButton" Link="/Content/30-Tasks/CreateLCP/LCPCreateFromButton.htm" />
     <Map Name="template_hh" Link="/Content/50-Hover/Models/MTT/template_hh.htm" />
@@ -244,7 +244,7 @@
     <Map Name="_5_FMcondition_hh" Link="/Content/50-Hover/Models/LBP/5_FMcondition_hh.htm" />
     <Map Name="_6_simtime_hh" Link="/Content/50-Hover/Models/LBP/6_simtime_hh.htm" />
     <Map Name="_7_spotting_hh" Link="/Content/50-Hover/Models/LBP/7_spotting_hh.htm" />
-    <Map Name="_1_runcreate_hh2" Link="/Content/50-Hover/Models/MTT/1_runcreate_hh.htm" />
+    <Map Name="_1_runcreate_hh2" Link="/Content/50-Hover/Models/MTT/LCPselect.htm" />
     <Map Name="_2_wind_hh1" Link="/Content/50-Hover/Models/MTT/2_wind_hh.htm" />
     <Map Name="_3_crownfire_hh1" Link="/Content/50-Hover/Models/MTT/3_crownfire_hh.htm" />
     <Map Name="_4_FM_hh1" Link="/Content/50-Hover/Models/MTT/4_FM_hh.htm" />
@@ -253,7 +253,7 @@
     <Map Name="UseLyrLCP" Link="/Content/10-Workspace/downloads/LCPArcLyr.htm" />
     <Map Name="UserLyrLFB" Link="/Content/10-Workspace/downloads/LFBArcLyr.htm" />
     <Map Name="CrownMethodsLBP" Link="/Content/20-Models/LBP/In/CrownMethodsLBP.htm" />
-    <Map Name="DeadFMConditioning1" Link="/Content/20-Models/LBP/In/DeadFMConditioning.htm" />
+    <Map Name="DeadFMConditioning1" Link="/Content/20-Models/LBP/In/DeadFMConditioningLBP.htm" />
     <Map Name="WindLBP" Link="/Content/20-Models/LBP/In/WindLBP.htm" />
     <Map Name="LBPvLFB" Link="/Content/20-Models/LBP/FBModelCompare.htm" />
     <Map Name="EstFuelMoisturesLBP" Link="/Content/20-Models/LBP/In/EstFuelMoisturesLBP.htm" />
@@ -421,7 +421,7 @@
     <Map Name="FtemAdminUseGdb" Link="/Content/10-FTEM/Admin/UseGdb.htm" />
     <Map Name="FtemAdminUserRole" Link="/Content/10-FTEM/Admin/UserRole.htm" />
     <Map Name="FtemAdminUsers" Link="/Content/10-FTEM/Admin/AdminUsers.htm" />
-    <Map Name="_2020results1" Link="/Content/00-AboutIFTDSS/2020results1.htm" />
+    <Map Name="_2020results1" Link="/Content/00-AboutIFTDSS/2020results.htm" />
     <Map Name="Webinars" Link="/Content/00-AboutIFTDSS/Webinars.htm" />
     <Map Name="Alaska" Link="/Content/00-Concepts/Alaska.htm" />
     <Map Name="QWRATechDoc" Link="/Content/30-Tasks/QWRA/Risk/QWRATechDoc.htm" />
@@ -435,7 +435,7 @@
     <Map Name="SpotMTT" Link="/Content/20-Models/MTT/In/SpotMTT.htm" />
     <Map Name="WhatsNew" Link="/Content/00-AboutIFTDSS/WhatsNew.htm" />
     <Map Name="WindMTT" Link="/Content/20-Models/MTT/In/WindMTT.htm" />
-    <Map Name="Ignition" Link="/Content/20-Models/MTT/In/IGNITIONSMTT.htm" />
+    <Map Name="Ignition" Link="/Content/20-Models/MTT/In/IgnitionsMTT.htm" />
     <Map Name="About" Link="/Content/00-AboutIFTDSS/About.htm" />
     <Map Name="Development" Link="/Content/00-AboutIFTDSS/Development.htm" />
     <Map Name="History" Link="/Content/00-AboutIFTDSS/History.htm" />
@@ -450,7 +450,7 @@
     <Map Name="QWRAGeoTiff" Link="/Content/10-Workspace/downloads/QWRAGeoTiff.htm" />
     <Map Name="AboutWXSMTT" Link="/Content/20-Models/ClassifiedWthr/AboutWXSMTT.htm" />
     <Map Name="classifiedweather_MTT" Link="/Content/20-Models/ClassifiedWthr/classifiedweather_MTT.htm" />
-    <Map Name="DeadFMConditioning2" Link="/Content/20-Models/MTT/In/DeadFMConditioning.htm" />
+    <Map Name="DeadFMConditioning2" Link="/Content/20-Models/MTT/In/DeadFMConditioningMTT.htm" />
     <Map Name="MTTDownloading" Link="/Content/20-Models/MTT/Out/MTTDownloading.htm" />
     <Map Name="ViewMTTOutputs" Link="/Content/20-Models/MTT/Out/ViewMTTOutputs.htm" />
     <Map Name="QWRAConsiderations" Link="/Content/30-Tasks/QWRA/Risk/QWRAConsiderations.htm" />
@@ -462,4 +462,6 @@
     <Map Name="Reports" Link="/Content/30-Tasks/QWRA/Risk/Out/Reports.htm" />
     <Map Name="Viewing" Link="/Content/30-Tasks/QWRA/Risk/Out/Viewing.htm" />
     <Map Name="sample_table" Link="/Content/Help Center Notes/sample table.htm" />
+    <Map Name="barriermtt_hh" Link="/Content/50-Hover/Models/MTT/barrier_hh.htm" />
+    <Map Name="run_namemtt_hh" Link="/Content/50-Hover/Models/MTT/runname_hh.htm" />
 </CatapultAliasFile>

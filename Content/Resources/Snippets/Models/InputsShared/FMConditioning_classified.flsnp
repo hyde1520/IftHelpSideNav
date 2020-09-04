@@ -3,8 +3,6 @@
     <head>
     </head>
     <body>
-        <p class="comment" MadCap:conditions="General.QA ONLY">Add from:&#160;<a href="https://docs.google.com/document/d/1BCzEH_S0qbuQ5Egk6_J-iracQc8nmWAwvdT5S2AZeoY/edit" target="_blank">https://docs.google.com/document/d/1BCzEH_S0qbuQ5Egk6_J-iracQc8nmWAwvdT5S2AZeoY/edit</a></p>
-        <p class="comment" MadCap:conditions="General.QA ONLY">Last updated 10-22-18</p>
         <p>The Condition (Select a Classified Weather Stream) option in <MadCap:variable name="General.ProductName"></MadCap:variable> adjusts dead fuel moisture based on set scenarios.</p>
         <div class="notificationComingSoon">
             <p>In this version <MadCap:variable name="General.VersionNumber" />) of <MadCap:variable name="General.ProductName" /> the only option is “Extreme,” which represents near-maximum or worst case conditions. Additional options will be available in future versions.</p>

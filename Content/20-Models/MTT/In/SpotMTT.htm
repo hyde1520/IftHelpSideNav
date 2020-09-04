@@ -3,16 +3,19 @@
     <head>
     </head>
     <body>
-        <h1>Spotting Probability</h1>
+        <h1>
+            <MadCap:keyword term="Spotting" />
+            <MadCap:keyword term="Spotting Probability" />
+            <MadCap:keyword term="MTT" />Spotting Probability for Minimum Travel Time (MTT)</h1>
         <div class="notificationImportant">
             <p>Spotting Probability is treated differently by <MadCap:variable name="General.ProductName" /> than in WFDSS NTFB / FARSITE.</p>
         </div>
-        <p>Spotting, the launching of embers and spread of resulting spot fires, is included within models that incorporate fire spread. In IFTDSS, spotting is part of the Minimum Travel Time (MTT). Spotting only occur in trees where active or passive crown fire is initiated, it does not occur in surface fire or slash pile burning.</p>
+        <p>Spotting, the launching of embers and spread of resulting spot fires, is included within models that incorporate fire spread. In IFTDSS, spotting is part of the Minimum Travel Time (MTT). Spotting only occurs in trees where active or passive crown fire is initiated, it does not occur in surface fire or slash pile burning.</p>
         <p>
             <img src="../../../Resources/Images/Models/MTT/spotting.png" alt="spotting input field from IFTDSS" class="borderlist" />
         </p>
         <p>The Spotting Probability input (0-100%) controls how many of the pixels, where crown fire is initiated, actually launch embers which can “spot” to start new fires. Entering 100% means that all points on the landscape where crown fire is initiated will launch embers.  A value of 0% in essence turns off spotting. Spotting Probability of 20% is the recommended input and the default in <MadCap:variable name="General.ProductName" />. For details about how far embers go and how many result in spot fires, see the Spotting Technical Detail section below.</p>
-        <p>Spotting Probability is used by LBP to determine if embers are launched and whether launched embers will land. It is not synonymous with Probability of Ignition (PIG), which addresses the likelihood that the launched embers land on receptive fuels and ignite.</p>
+        <p>Spotting Probability is used by MTT to determine if embers are launched and whether launched embers will land. It is not synonymous with Probability of Ignition (PIG), which addresses the likelihood that the launched embers land on receptive fuels and ignite.</p>
         <h2>Spotting Technical Detail</h2>
         <p>The spotting algorithm is intended to compute the maximum spotting distance from a given point on a fire front if torching or crown fire occurs. In pixels where active or passive crown fire is initiated (<a href="../../../41-References/Citations.htm#Albini1979">Albini 1979</a>), a total of 16 embers are launched. They are each “followed” to determine the maximum spotting distance and direction. Ember lofting height is determined using the crown fraction burned and canopy cover. Maximum spotting distance and maximum spotting direction are determined based on canopy cover, crown fraction burned, elevation, and wind direction and speed.</p>
         <p>
@@ -27,6 +30,6 @@
         <p>The direction the ember travels is the same as the maximum spotting direction determined from the original 16 embers “followed.” The maximum spotting direction is used. The distance the ember travels before landing is determined using the random number generated for the cell and the maximum spotting distance.</p>
         <p style="font-style: italic;text-align: center;">Spot distance =  –log(random number) * Maximum Spot Distance / 5</p>
         <p>If an ember lands within the fire perimeter (already burned) or on non-burnable fuels the ember is discarded and spotting does not occur.</p>
-        <p>Spotting delay is the time delay (0 to 60 minutes) between when an ember lands and it begins to spread. Shorter delays are associated with drier conditions. Because Landscape Burn Probability within <MadCap:variable name="General.ProductName" /> is intended for ‘worst case scenario’ or ‘problem fire’ conditions, we have set this to 0 minutes.</p>
+        <p>Spotting delay is the time delay (0 to 60 minutes) between when an ember lands and it begins to spread. Shorter delays are associated with drier conditions. </p>
     </body>
 </html>
