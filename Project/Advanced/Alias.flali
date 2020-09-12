@@ -186,8 +186,8 @@
     <Map Name="FlamMapWinds" Link="/Content/20-Models/LFB/In/WindLFB.htm" />
     <Map Name="MTTAbout" Link="/Content/20-Models/MTT/About.htm" />
     <Map Name="MTTInputs" Link="/Content/20-Models/MTT/In/InputOverviewMTT.htm" />
-    <Map Name="MTTOutputs" Link="/Content/20-Models/MTT/Out/Outputs.htm" />
-    <Map Name="LCPCreateFromButton" Link="/Content/30-Tasks/CreateLCP/LCPCreateFromButton.htm" />
+    <Map Name="MTTOutputs" Link="/Content/20-Models/MTT/Out/OutputsOverviewMTT.htm" />
+    <Map />
     <Map Name="template_hh" Link="/Content/50-Hover/Models/MTT/template_hh.htm" />
     <Map Name="FM_conditioning_hh" Link="/Content/50-Hover/Models/LFB/FM_conditioning_hh.htm" />
     <Map Name="MISSING_DATA" Link="/Content/10-FTEM/General/Missing Data.htm" />
@@ -204,7 +204,7 @@
     <Map Name="CrownBasics" Link="/Content/20-Models/LFB/In/CrownBasics.htm" />
     <Map Name="_input_files_for_use_in_FlamMap_6" Link="/Content/20-Models/LFB/Out/FlammapInputFile.htm" />
     <Map Name="UsingLFBFlmpInput" Link="/Content/20-Models/LFB/UsingLFBFlmpInput.htm" />
-    <Map Name="MTTFlowPaths" Link="/Content/20-Models/MTT/Out/MTTFlowPaths.htm" />
+    <Map Name="MTTFlowPaths" Link="/Content/20-Models/MTT/Out/FlowPathsMTT.htm" />
     <Map Name="SimTimes" Link="/Content/20-Models/LBP/In/SimTimesLBP.htm" />
     <Map Name="Spot" Link="/Content/20-Models/LBP/In/SpotLBP.htm" />
     <Map Name="File_Location" Link="/Content/Help Center Notes/File Location.htm" />
@@ -451,8 +451,8 @@
     <Map Name="AboutWXSMTT" Link="/Content/20-Models/ClassifiedWthr/AboutWXSMTT.htm" />
     <Map Name="classifiedweather_MTT" Link="/Content/20-Models/ClassifiedWthr/classifiedweather_MTT.htm" />
     <Map Name="DeadFMConditioning2" Link="/Content/20-Models/MTT/In/DeadFMConditioningMTT.htm" />
-    <Map Name="MTTDownloading" Link="/Content/20-Models/MTT/Out/MTTDownloading.htm" />
-    <Map Name="ViewMTTOutputs" Link="/Content/20-Models/MTT/Out/ViewMTTOutputs.htm" />
+    <Map Name="MTTDownloading" Link="/Content/20-Models/MTT/Out/DownloadingMTT.htm" />
+    <Map Name="ViewMTTOutputs" Link="/Content/20-Models/MTT/Out/ViewOutputsMTT.htm" />
     <Map Name="QWRAConsiderations" Link="/Content/30-Tasks/QWRA/Risk/QWRAConsiderations.htm" />
     <Map Name="QwraTutorial" Link="/Content/30-Tasks/QWRA/Risk/QwraTutorial.htm" />
     <Map Name="QWRAInOverview" Link="/Content/30-Tasks/QWRA/Risk/In/QWRAInOverview.htm" />
@@ -464,4 +464,12 @@
     <Map Name="sample_table" Link="/Content/Help Center Notes/sample table.htm" />
     <Map Name="barriermtt_hh" Link="/Content/50-Hover/Models/MTT/barrier_hh.htm" />
     <Map Name="run_namemtt_hh" Link="/Content/50-Hover/Models/MTT/runname_hh.htm" />
+    <Map Name="BarriersMTT" Link="/Content/20-Models/MTT/In/BarriersMTT.htm" />
+    <Map Name="ArrivalMTT" Link="/Content/20-Models/MTT/Out/ArrivalMTT.htm" />
+    <Map Name="EmbersMTT" Link="/Content/20-Models/MTT/Out/EmbersMTT.htm" />
+    <Map Name="FireIntensityMTT" Link="/Content/20-Models/MTT/Out/FireIntensityMTT.htm" />
+    <Map Name="IgnitionOutMTT" Link="/Content/20-Models/MTT/Out/IgnitionOutMTT.htm" />
+    <Map Name="InfluenceMTT" Link="/Content/20-Models/MTT/Out/InfluenceMTT.htm" />
+    <Map Name="RoSpreadMTT" Link="/Content/20-Models/MTT/Out/RoSpreadMTT.htm" />
+    <Map Name="ExposureShort" Link="/Content/30-Tasks/QWRA/Risk/In/ExposureShort.htm" />
 </CatapultAliasFile>

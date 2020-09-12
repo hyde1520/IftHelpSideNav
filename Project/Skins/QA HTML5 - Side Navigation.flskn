@@ -20,7 +20,7 @@
           <Property
             Name="BackgroundColor">#0b6623</Property>
           <Property
-            Name="Width">22%</Property>
+            Name="Width">25%</Property>
         </Properties>
       </Style>
       <Style

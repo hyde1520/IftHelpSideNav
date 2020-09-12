@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>FlamMap is a fire behavior mapping and analysis software application that computes potential fire behavior characteristics (such as spread rate, flame length, and fireline intensity) over an entire landscape under constant weather and fuel moisture conditions input by the user. FlamMap simulates surface and crown fire behavior characteristics using Rothermel’s <a href="../../../41-References/Citations.htm#Rothermel1972" target="_blank">1972</a> surface fire model, Van Wagner’s <a href="../../../41-References/Citations.htm#VanWagner1977" target="_blank">1977</a> crown fire initiation model, and Rothermel’s <a href="../../../41-References/Citations.htm#Rothermel1991" target="_blank">1991</a> crown fire spread model.</p>
+        <p>The MTT part of FlamMap is a two-dimensional fire growth model. It calculates fire growth and behavior by searching for the set of pathways with minimum fire spread times from point, line or polygon ignitions.  MTT simulates fire spread by Huygens’ principle where the growth and behavior of the fire edge is a vector or wave front (<a href="../../../41-References/Citations.htm#Richards1990" target="_blank">Richards, 1990</a>; <a href="../../../41-References/Citations.htm#Finney2002" target="_blank">Finney, 2002</a>). MTT includes heading, flanking, and backing spread. Because the MTT calculations spread  under constant weather and fuel moisture conditions it enables analysis of the effects of spatial patterns in fuels and topography (<a href="../../../41-References/Citations.htm#Finney2006" target="_blank">Finney, 2006</a>).</p>
+    </body>
+</html>

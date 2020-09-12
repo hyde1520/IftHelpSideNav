@@ -1,11 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <body>
-        <p>There are two key differences between the risk assessment approach used by <MadCap:variable name="General.ProductName" /> and FlamMap, relative to the  Large Fire Simulation Model (FSim, <a href="../../../../41-References/Citations.htm#Finney_etal_2011" target="_blank">Finney and others 2011</a>):</p>
-        <ul>
-            <li>Weather over time</li>
-            <li>Suppression efforts</li>
-        </ul>
         <h3>Weather over time</h3>
         <p><MadCap:variable name="General.ProductName" /> and FlamMap model fire behavior with a fixed set of weather and fuel moisture that you input. FSim models fire behavior over multiple days and takes into account that past ~20 years of historic data for forecast what the weather is likely to be when these events occur.</p>
         <h3>Suppression efforts</h3>

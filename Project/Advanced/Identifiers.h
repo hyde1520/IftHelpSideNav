@@ -462,3 +462,11 @@
 #define sample_table 1313
 #define barriermtt_hh 9194
 #define run_namemtt_hh 9195
+#define BarriersMTT 1314
+#define ArrivalMTT 1315
+#define EmbersMTT 1316
+#define FireIntensityMTT 1317
+#define IgnitionOutMTT 1318
+#define InfluenceMTT 1319
+#define RoSpreadMTT 1320
+#define ExposureShort 1321

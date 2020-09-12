@@ -6,27 +6,15 @@
         <h1>Minimum Travel Time (MTT) Fire Spread Technical Documentation</h1>
         <p><a href="https://firenet365.sharepoint.com/:w:/r/sites/IFTDSS_Non_Gov/Shared Documents/General/IBM IFTDSS/IFTDSS Development/Help/Help Center/MTT/MTT General Tech Doc (MTT Fire Spread).docx?d=wd677bafcce0bb46ae548b75d77fe57a6&amp;csf=1&amp;web=1&amp;e=eudfJL" target="_blank">Draft</a>
         </p>
-        <p>Minimum travel time (MTT) Fire Spread is a two-dimensional fire growth 
- model (<a href="../../41-References/Citations.htm#Finney2002" target="_blank">Finney, 2002</a>). MTT calculates fire growth and behavior by searching 
- for the set of pathways with minimum fire spread times from point, line, 
- or polygon ignition sources. In theory, the results are identical to wave-front 
- expansion used in Farsite with the exception that all weather and fuel 
- moisture conditions are held constant over time with MTT but are allowed 
- to vary with time in Farsite.</p>
-        <h2>Ignition</h2>
-        <p>Specify your ignitions with an uploaded shapefile, or drawn shape from <MadCap:variable name="General.MapStudio" />. Only a single file may be selected, but that file may contain several points or lines to indicate ignition.</p>
-        <h2>Simulation Time</h2>
-        <p>This specifies the duration (in hours), and the number of burn periods you want to represent. For example:</p>
+        <p class="comment" MadCap:conditions="General.Exclude">Updated 9-9-2020 1540</p>
+        <p>The IFTDSS Landscape Burn Probability (LBP) model is identical to Minimum Travel Time (MTT) Burn Probability  in FlamMap 6.0, with some fixed modeling inputs (see <a href="#Fixedinputs">below</a> for details).</p>
+        <h2>FlamMap MTT Background</h2>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Models/TechDoc1MTT.flsnp" />
+        <h2><a name="Fixedinputs"></a>Fixed inputs in IFTDSS</h2>
+        <p>Many of the model inputs are controlled by the user (see the <a href="../LBP/In/OverviewLBP.htm" target="_blank">Input Overview</a> topic for more details); however some model inputs are fixed in IFTDSS  runs and cannot be changed by the user:</p>
         <ul>
-            <li>If you want to simulate a 5 hour burn period over one day, enter "5" in the Burn Period Length field, and "1" in the # Burn&#160;Periods field to represent one day. </li>
-            <li>If you want to simulate a 5 hour burn period per day, for three days, enter a "5" in the Burn Period Length field, and "3" in the # Burn&#160;Periods field to represent three days.</li>
-            <li MadCap:conditions="General.Exclude">A "0" (zero) simulation time behaves differently depending 
- on the ignition type. Using a shapefile as the ignition indicates that 
- you want to run the simulation until all burnable nodes on the landscape 
- have "burned". On "slow" or large analysis areas or 
- with moderate weather conditions this can cause very long runtimes. </li>
+            <li>Spotting delay: The time between ember landing and initiation of fire spread is set to 0 minutes.</li>
+            <li>Spotting seed: The spotting seed is used to fix spotting distance and location between model runs.  In IFTDSS a random number is generated for an initial run for a given landscape extent, ignition and barrier (optional input). Subsequent runs using the same trifecta would re-use the spotting seed. This was done to allow for accurate comparisons between model runs where either model inputs (excluding ignition and barrier) or landscapes (edited versions of the same extent) change.  Without setting the spotting seed, differences seen in fire behavior could be due to differences in spotting.</li>
         </ul>
-        <h2>Spotting</h2>
-        <h2>Barriers</h2>
     </body>
 </html>

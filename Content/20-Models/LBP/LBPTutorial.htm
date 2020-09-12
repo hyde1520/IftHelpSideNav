@@ -32,7 +32,42 @@
         <h2>Choose or Create a Landscape</h2>
         <MadCap:snippetBlock src="../../Resources/Snippets/Models/Flammap/ChooseLCP.flsnp" />
         <h2>Populate the Model Parameters and Run</h2>
-        <MadCap:snippetBlock src="../../Resources/Snippets/Models/LFB/LFBInputs.flsnp" />
+        <div>
+            <ol style="list-style-type: upper-alpha;">
+                <li>Select a <a href="In/WindLBP.htm" target="_blank">wind option</a>, specify windspeed, in miles per hour at 20 feet above the ground or above the vegetation, and enter wind direction as the direction the wind is blowing from (in degrees clockwise from north, with north being 0 or 360 degrees).</li>
+                <li>Specify a <a href="In/CrownMethodsLBP.htm" target="_blank">crown fire calculation method</a>, and the foliar moisture content (in percent).</li>
+                <li>Specify fuel moisture, in percent, for:<ul><li>1 hour fuels (1hr FM) - allowed values 2-40</li><li>10 hour fuels (10hr FM) - allowed values 2-40</li><li>100 hour fuels (100hr FM) - allowed values 2-40</li><li>Herbaceous fuels (Herb FM) - allowed values 30-300</li><li>Live Woody fuels (WoodyFM) - allowed values 60-300</li><li>If you would like to specify fuel moisture by fuel model, you may do so by adding rows, click <span class="UIcomponent">+ add row</span>. This will add a new line. Using the drop down list, choose a fuel model, then specify the fuel moisture values. You may repeat this as many times as needed. </li></ul><div>If you choose to only populate one row, those fuel moistures will be applied to all fuel models in your landscape. For more guidance on choosing fuel moistures see  <a href="../../00-Concepts/EstimatingFuelMoistures.htm" target="_blank">Estimating Fuel Moistures</a>.<a name="LFBSave"></a></div><p><img src="../../Resources/Images/Models/LFB/LFB_inputs.png" alt="dropdown boxes will contain fields for wind, crown fire, and fuel moisture inputs" class="borderlist" /></p></li>
+                <li>
+                    <p>Select a <a href="In/DeadFMConditioningLBP.htm" target="_blank">Fuel Moisture Conditioning method</a>. If you choose not to condition, your Initial Fuel Moistures from the previous step will be used throughout the landscape. If you choose to condition your fuels to account for landscape features and weather, use one of the two conditioning options below:&#160;</p>
+                    <p>To condition using a Classified (automatically generated) Weather Stream:</p>
+                    <ol style="list-style-type: lower-alpha;">
+                        <li>Click the <span class="UIcomponent">Condition (Select Classified Weather Stream</span>) button. The system will take a moment to search for available weather streams.</li>
+                        <li>
+                            <p>Use the <span class="UIcomponent">Pick Weather Stream</span> drop-down menu to pick an automatically generated weather stream. See <a href="../ClassifiedWthr/classifiedweather_LBP.htm" target="_blank">Classified Weather Stream</a> for more information on how these are generated.</p>
+                            <p>
+                                <img src="../../Resources/Images/Models/FMConditioning/classified_extreme_wxs.png" alt="the 'extreme' weather file shown in a dropdown menu." class="border" />
+                            </p>
+                            <div class="notificationComingSoon">
+                                <p>Currently only the "Extreme" weather option is available, more options will be available in future versions of <MadCap:variable name="General.ProductName" />.</p>
+                            </div>
+                        </li>
+                    </ol>
+                    <p>To condition using a your own Weather Stream:</p>
+                    <ol style="list-style-type: lower-alpha;">
+                        <li>Click the <span class="UIcomponent">Condition (Select Classified Weather Stream</span>) button. </li>
+                        <li>Click the <span class="UIcomponent">Upload</span> button and select a .wxs file from your  local machine. See the <a href="../ClassifiedWthr/AboutWXSLBP.htm" target="_blank">.wxs File</a> topic for file requirements, or how to generate a new wxs. file for use in this step.</li>
+                        <li>Select a start date from the drop-down menu on which the conditioning period begins.</li>
+                        <li>Enter a time (in 24 hour hhmm format) on which to start and end conditioning.</li>
+                        <li>
+                            <p>From the <span class="UIcomponent">Number of days to condition</span> drop-down menu, select a period for fuel conditioning, up to 7 days.</p>
+                            <p>
+                                <img src="../../Resources/Images/Models/FMConditioning/upload_wxs_option.png" alt="you may upload an wxs file to use in fuel moisture conditioning " class="borderlist" />
+                            </p>
+                        </li>
+                    </ol>
+                </li>
+            </ol>
+        </div>
         <div>
             <p>Specify whether you want the model to simulate random ignitions (default choice), or select a set of random ignitions from a previous LBP run (useful when you're trying to re-create an LBP&#160;run to compare treatments, etc.).</p>
             <p>
