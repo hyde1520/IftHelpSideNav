@@ -63,7 +63,8 @@
                     <td class="TableStyle-Standard-BodyD-Column1-Body2">A table listing the Primary HVRA Categories, the Sub-HVRA names, and the Sub-HVRA short names.</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
-                    <td class="TableStyle-Standard-BodyB-Column1-Body1">Symbology</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1"><a href="../../../10-Workspace/downloads/EAArcLyr.htm" target="_blank">Symbology</a>
+                    </td>
                     <td class="TableStyle-Standard-BodyB-Column1-Body1">folder containing .lyr files</td>
                     <td class="TableStyle-Standard-BodyB-Column1-Body1">&lt;output type&gt;.lyr</td>
                     <td class="TableStyle-Standard-BodyA-Column1-Body1">Symbology files for setting colors in ArcMap that match those used in <MadCap:variable name="General.ProductName" />. See the <a href="../../../10-Workspace/downloads/LBPArcLyr.htm" target="_blank">Symbology Layer topic for Landscape Burn Probability</a> for more details.</td>

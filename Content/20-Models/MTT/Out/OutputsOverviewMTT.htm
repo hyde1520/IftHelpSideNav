@@ -13,49 +13,114 @@
             <caption>MTT Output descriptions.</caption>
             <col class="TableStyle-Standard-Column-Column1" style="width: 246px;" />
             <col class="TableStyle-Standard-Column-Column1" />
+            <col class="TableStyle-Standard-Column-Column1" />
+            <col class="TableStyle-Standard-Column-Column1" />
+            <col class="TableStyle-Standard-Column-Column1" />
             <thead>
                 <tr class="TableStyle-Standard-Head-Header1">
                     <th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">
                         <p style="text-align: center;font-family: Arial;">Output</p>
                     </th>
-                    <th class="TableStyle-Standard-HeadD-Column1-Header1" style="font-weight: bold;">
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">
                         <p style="text-align: center;font-family: 'Arial Black', sans-serif;"><span style="font-family: Arial;">Description</span>
                         </p>
                     </th>
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1">Map Studio - Units</th>
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1">Report - Units</th>
+                    <th class="TableStyle-Standard-HeadD-Column1-Header1">Download - Units</th>
                 </tr>
             </thead>
             <tbody>
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">Arrival Time&#160;Grid</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">The elapsed time when the fire arrived at each node. See the <a href="ArrivalMTT.htm" target="_blank">Arrival Time topic</a> for more details.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">The elapsed time when the fire arrived at each node. See the <a href="ArrivalMTT.htm" target="_blank">Arrival Time topic</a> for more details.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">&#160;</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Ember Landing Locations</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Point shapefile including ember landing locations. See the <a href="EmbersMTT.htm" target="_blank">MTT Embers topic</a> for more details.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Arrival Time Contour</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Vector representation of the MTT Arrival Time grid representing individual burn period.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">&#160;</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Ember List</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Comma separated value file (CSV) with launch coordinates, landing coordinates, launch time, and landing time. See the <a href="EmbersMTT.htm" target="_blank">MTT Embers topic</a> for more details. </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Ember Landing Locations</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Point shapefile including ember landing locations. See the <a href="EmbersMTT.htm" target="_blank">MTT Embers topic</a> for more details.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">&#160;</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Flow Paths</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Major paths identified at the user-specified Interval for Minimum Travel Paths. See the <a href="FlowPathsMTT.htm" target="_blank">Flow Path topic</a> for more details. </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Ember List</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Comma separated value file (CSV) with launch coordinates, landing coordinates, launch time, and landing time. See the <a href="EmbersMTT.htm" target="_blank">MTT Embers topic</a> for more details. </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">&#160;</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Influence Grid</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Logarithm of the number of nodes burning as a result of burning through that particular node. See the <a href="InfluenceMTT.htm" target="_blank">Influence Grid topic</a> for more details. </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Flow Paths</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Major paths identified at the user-specified Interval for Minimum Travel Paths. See the <a href="FlowPathsMTT.htm" target="_blank">Flow Path topic</a> for more details. </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">&#160;</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">MTT Fireline Intensity Grid</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Fireline intensity of each node burned by the fire as it follows the minimum travel time path. See the <a href="FireIntensityMTT.htm" target="_blank">Fireline Intensity topic</a> for more details.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Fireline intensity of each node burned by the fire as it follows the minimum travel time path. See the <a href="FireIntensityMTT.htm" target="_blank">Fireline Intensity topic</a> for more details.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">&#160;</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">MTT Ignition Grid</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">The raster interpretation of the ignition and barrier vectors by the MTT model. See the <a href="IgnitionOutMTT.htm" target="_blank">MTT Ignitions topic</a> for more details.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">The raster interpretation of the ignition and barrier vectors by the MTT model. See the <a href="IgnitionOutMTT.htm" target="_blank">MTT Ignitions topic</a> for more details.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">&#160;</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
-                    <td class="TableStyle-Standard-BodyB-Column1-Body2">MTT Rate of Spread</td>
-                    <td class="TableStyle-Standard-BodyA-Column1-Body2">Spread rate of the fire as it encountered each node along the minimum travel time path. See the <a href="RoSpreadMTT.htm" target="_blank">Rate of Spread topic</a> for more details. </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">MTT Rate of Spread</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Spread rate of the fire as it encountered each node along the minimum travel time path. See the <a href="RoSpreadMTT.htm" target="_blank">Rate of Spread topic</a> for more details. </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">&#160;</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">&#160;</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">&#160;</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Standard-BodyA-Column1-Body1">&#160;</td>
                 </tr>
             </tbody>
         </table>

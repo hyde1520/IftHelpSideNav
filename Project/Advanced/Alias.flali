@@ -5,11 +5,8 @@
     <Map Name="Disclaimer" Link="/Content/00-AboutIFTDSS/Disclaimer.htm" />
     <Map Name="FBFMFuelMoistures" Link="/Content/00-Concepts/FBFM/FBFMFuelMoistures.htm" />
     <Map Name="UsingMyData" Link="/Content/00-Concepts/UsingMyData.htm" />
-    <Map Name="UnitsofMeasure" Link="/Content/00-Concepts/UnitsofMeasure.htm" />
     <Map Name="EstLiveFuelMoisture" Link="/Content/00-Concepts/FuelMoistureTables.htm" />
     <Map Name="IFTDSSInputs" Link="/Content/00-Concepts/IFTDSSInputs.htm" />
-    <Map Name="DeveloperTools" Link="/Content/00-AboutIFTDSS/Developers/DeveloperTools.htm" />
-    <Map Name="SystemAdmin" Link="/Content/00-AboutIFTDSS/Developers/SystemAdmin.htm" />
     <Map Name="AccountSetup" Link="/Content/00-Concepts/Accounts/AccountSetup.htm" />
     <Map Name="GettingHelp" Link="/Content/00-Concepts/GettingHelp.htm" />
     <Map Name="NavigatingIFTDSS" Link="/Content/00-Concepts/NavigatingIFTDSS.htm" />
@@ -139,7 +136,6 @@
     <Map Name="monitoring_hh" Link="/Content/50-Hover/FTEM/monitoring_hh.htm" />
     <Map Name="treatments_hh" Link="/Content/50-Hover/FTEM/treatments_hh.htm" />
     <Map Name="wildfires_hh" Link="/Content/50-Hover/FTEM/wildfires_hh.htm" />
-    <Map Name="Helpful_topics" Link="/Content/00-AboutIFTDSS/Helpful topics.htm" />
     <Map Name="_0_Introduction" Link="/Content/40-Tutorials/NWest_DTA/0_Introduction.htm" />
     <Map Name="_1_PreviewAndCreate" Link="/Content/40-Tutorials/NWest_DTA/1_PreviewAndCreate.htm" />
     <Map Name="_2_SummarizeAndAssess" Link="/Content/40-Tutorials/NWest_DTA/2_SummarizeAndAssess.htm" />
@@ -187,7 +183,6 @@
     <Map Name="MTTAbout" Link="/Content/20-Models/MTT/About.htm" />
     <Map Name="MTTInputs" Link="/Content/20-Models/MTT/In/InputOverviewMTT.htm" />
     <Map Name="MTTOutputs" Link="/Content/20-Models/MTT/Out/OutputsOverviewMTT.htm" />
-    <Map />
     <Map Name="template_hh" Link="/Content/50-Hover/Models/MTT/template_hh.htm" />
     <Map Name="FM_conditioning_hh" Link="/Content/50-Hover/Models/LFB/FM_conditioning_hh.htm" />
     <Map Name="MISSING_DATA" Link="/Content/10-FTEM/General/Missing Data.htm" />
@@ -441,8 +436,7 @@
     <Map Name="History" Link="/Content/00-AboutIFTDSS/History.htm" />
     <Map Name="ReleaseNotes" Link="/Content/00-AboutIFTDSS/ReleaseNotes.htm" />
     <Map Name="tab_test" Link="/Content/00-AboutIFTDSS/tab_test.htm" />
-    <Map Name="DownloadPkgMTT" Link="/Content/10-Workspace/downloads/DownloadPkgMTT.htm" />
-    <Map Name="DownloadPkgQWRA" Link="/Content/10-Workspace/downloads/DownloadPkgQWRA.htm" />
+    <Map />
     <Map Name="EAArcLyr" Link="/Content/10-Workspace/downloads/EAArcLyr.htm" />
     <Map Name="MTTArcLyr" Link="/Content/10-Workspace/downloads/MTTArcLyr.htm" />
     <Map Name="MTTGeoTiff" Link="/Content/10-Workspace/downloads/MTTGeoTiff.htm" />
