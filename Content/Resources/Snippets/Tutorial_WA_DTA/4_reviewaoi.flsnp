@@ -11,28 +11,28 @@
             <li>
                 <p>Select the “North Selkirk CFLRP LF2013 Un—Auto97th” report file and click the <span class="UIcomponent">View Summary</span> button. The report will open in a new browser tab.</p>
                 <p>
-                    <img src="../../Images/Summary/colville_open_auto97th.png" alt="The View Summary button in My Workspace will open a report in a new tab." class="borderlist" />
+                    <img src="../../Images/ReportCreate/CrtRep_ViewAuto97_colville_tut.png" alt="The View Summary button in My Workspace will open a report in a new tab." class="borderlist" />
                 </p>
             </li>
             <li>
                 <p>In the top right of the report, click the <span class="UIcomponent">Download</span> button to save a copy to your local computer, you’ll re-fer to this PDF again later in this tutorial.</p>
                 <p>
-                    <img src="../../Images/Summary/colville_report_download.png" alt="download a report using the download button in the top right." class="borderlist" />
+                    <img src="../../Images/Reports/Rep_DownloadButton.png" alt="download a report using the download button in the top right." class="borderlist" />
                 </p>
             </li>
         </ol>
         <p>All of the Landscape characteristics and Fire Behavior outputs you viewed in Map Studio are quantitatively displayed in several different formats in this report. You’ll find a lot of value in these reports because they break each component (Canopy Cover, Canopy Base Height, Rate of Spread, etc.) down in a way that makes it even easier, after viewing the spatial data, to assess the landscape and 97th percentile modeled fire behavior. For example, in viewing the Fuel Model map (upper left corner), you can see that there is a lot of Fuel Model TU5 on the landscape, but it’s not until you take a look at the graphs that you can really assess that, in fact 36% of this landscape is attributed to the TU5 fuel model.</p>
         <p>
-            <img src="../../Images/colville_reportoutput/auto97th_fm.png" alt="Fuel model information shown on a map, pie chart, bar chart, and table" class="border" />
+            <img src="../../Images/Reports/Auto97/Rep_Aut_FuelMdlDetails97th_colville_tut.png" alt="Fuel model information shown on a map, pie chart, bar chart, and table" class="border" />
         </p>
         <p>Take a good look at the report in it’s entirety, including the Flame length outputs:</p>
         <p>
-            <img src="../../Images/colville_reportoutput/auto97th_flamelength.png" alt="Flame length outputs displayed across the landscape extend with high flame lengths designated by warmer colors" class="border" />
+            <img src="../../Images/Reports/Auto97/Rep_Aut_FLDetails97th_colville_tut.png" alt="Flame length outputs displayed across the landscape extend with high flame lengths designated by warmer colors" class="border" />
         </p>
         <p>Notice the Auto97th Fire Behavior section of the report has recorded the 97th percentile weather and fuel moisture inputs used to run the fire behavior model. You’ll want to use these values when you re-run the fire behavior model a little later in this tutorial. If you have not already saved a PDF copy of the report, scroll up to the top of the report, look to the top right, and click the <span class="UIcomponent">Download</span> button to save this report as a PDF on your local machine.</p>
         <p>Each chart also has a download button to the right so it may be downloaded individually for use in your own documents. Tables have download buttons under the table descriptions.</p>
         <p>
-            <img src="../../Images/colville_reportoutput/auto97_fl_table.png" alt="flame length outputs displayed in table format" class="border" />
+            <img src="../../Images/Reports/Auto97/Rep_Aut_DwnldFlTable_colville_tut.png" alt="flame length outputs displayed in table format" class="border" />
         </p>
         <p>Next, it’s time to develop some treatment alternatives.</p>
     </body>

@@ -4,7 +4,7 @@
     </head>
     <body>
         <p>
-            <img src="../../../Images/Models/General/wind_options.png" alt="IFTDSS has choices for static winds, gridded winds, uphill winds, or downhill winds." class="border" />
+            <img src="../../../Images/Models/InputsShared/Wind.png" alt="IFTDSS has choices for static winds, gridded winds, uphill winds, or downhill winds." class="border" />
         </p>
         <p>Fire behavior in <MadCap:variable name="General.ProductName" />, driven by FlamMap, uses the following when inputs to calculate fire behavior:</p>
         <ul>

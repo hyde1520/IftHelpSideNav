@@ -4,14 +4,14 @@
     </head>
     <body>
         <p>
-            <img src="../../../Images/Models/MTT/spotting.png" alt="spotting input field from IFTDSS" class="borderlist" />
+            <img src="../../../Images/Models/InputsShared/SpottingDefault.png" alt="spotting input field from IFTDSS" class="borderlist" />
         </p>
         <p>The Spotting Probability input (0-100%) controls how many of the pixels, where crown fire is initiated, actually launch embers which can “spot” to start new fires. Entering 100% means that all points on the landscape where crown fire is initiated will launch embers.  A value of 0% in essence turns off spotting. Spotting Probability of 20% is the recommended input and the default in <MadCap:variable name="General.ProductName" />. For details about how far embers go and how many result in spot fires, see the Spotting Technical Detail section below.</p>
         <p>Spotting Probability is used by the model to determine if embers are launched and whether launched embers will land. It is not synonymous with Probability of Ignition (PIG), which addresses the likelihood that the launched embers land on receptive fuels and ignite.</p>
         <h2>Spotting Technical Detail</h2>
         <p>The spotting algorithm is intended to compute the maximum spotting distance from a given point on a fire front if torching or crown fire occurs. In pixels where active or passive crown fire is initiated (<a href="../../../../41-References/Citations.htm#Albini1979">Albini 1979</a>), a total of 16 embers are launched. They are each “followed” to determine the maximum spotting distance and direction. Ember lofting height is determined using the crown fraction burned and canopy cover. Maximum spotting distance and maximum spotting direction are determined based on canopy cover, crown fraction burned, elevation, and wind direction and speed.</p>
         <p>
-            <img src="../../../Images/Models/MTT/Spotting.jpg" alt="spotting as described in text" class="border" />
+            <img src="../../../Images/Conceptuals/Fig_SpottingFromFlmmp.jpg" alt="spotting as described in text" class="border" />
         </p>
         <p>Once the maximum spotting distance and direction are determined from the originally 16 embers, only one ember per cell is used to simulate spotting. Below details how it is determined if an ember lands, and where it lands if it does.</p>
         <p>The Spotting Probability (0-100%) value entered in the model inputs page is used by the model to determine if an ember lands and results in a spot fire:</p>

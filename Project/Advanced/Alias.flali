@@ -205,7 +205,7 @@
     <Map Name="FBFMCompareXLS" Link="/Content/00-Concepts/FBFM/FBFMCompareXLS.htm" />
     <Map Name="FireFilters" Link="/Content/10-FTEM/General/FireFilters.htm" />
     <Map Name="_0_Introduction2" Link="/Content/40-Tutorials/Merged Tutorial/0_Introduction.htm" />
-    <Map Name="_1_Create_Project_and_CLP1" Link="/Content/40-Tutorials/Merged Tutorial/1_Create_Project_and_CLP.htm" />
+    <Map Name="_1_Create_Project_and_CLP1" Link="/Content/40-Tutorials/Merged Tutorial/1_Create_Project_and_LCP.htm" />
     <Map Name="AddTreatmentwMap" Link="/Content/10-FTEM/General/AddTreatmentwMap.htm" />
     <Map Name="Resampling" Link="/Content/20-Models/Resampling.htm" />
     <Map Name="BPInputsOverview" Link="/Content/20-Models/LBP/In/OverviewLBP.htm" />

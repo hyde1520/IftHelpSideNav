@@ -20,7 +20,7 @@
         <p>To access the summary reports, you can either find them in your project folder in <span class="UIcomponent">My Workspace</span>, or click the <span class="UIcomponent">Compare in Summary Report</span> button again and click on the links displayed in the pop-up box.</p>
         <p>In this case, go to <span class="UIcomponent">My Workspace</span> and first select, “Watershed 20 Thn Pburn 10 yr/North Selkirk CFLRP LF2014 Un - compare LCP/Watershed Proposed Treatment Areas”, you may have to hover over the shortened name to display the full name. Once this is selected, click <span class="UIcomponent">View Summary</span>.</p>
         <p>
-            <img src="../../Images/MyWorkspace/colville_compare_reports.png" alt="The Landscape Compare report visible in My Workspace in the Selkirk Fuels Project folder" class="border" />
+            <img src="../../Images/MyWorkspace/Ws_Report_LcpCompare_colville_tut.png" alt="The Landscape Compare report visible in My Workspace in the Selkirk Fuels Project folder" class="border" />
         </p>
         <p>In the first bar graph, note the acreage for the AOI is displayed. This is a quick way to confirm the Develop Treatment Alternative task and resulting reports were actually run to quantify only the AOI, not the entire landscape.</p>
         <p>Review the pre– and post– treatment results for each landscape characteristic. These reports have the same quantitative components as the reports you viewed earlier, but they compare the change in acreages in the specified treatment area, or mask, before and after the selected treatment was applied.</p>
@@ -29,20 +29,20 @@
         </div>
         <p>In the Fuel Model bar graph, you can see that the green corresponds to pretreatment fuel models in the treatment area, while blue corresponds to post-treatment. It appears that most of the TU5 acres were changed to GS2 post-treatment. Looking at the tabular data below, you can see that in fact, 54 % of the treatment area is now Fuel Model GS2 following this treatment, which (according to the fuel model) will re-sult in a decrease in spread rate and flame length.</p>
         <p>
-            <img src="../../Images/colville_reportoutput/compare_fuelmodel_1.png" alt="graphs and tables summarizing fuel models across the pre- and post-treatment landscape" class="border" />
+            <img src="../../Images/Reports/DTA/Rep_DTA_Compr_FuelMdl1_colville_tut.png" alt="graphs and tables summarizing fuel models across the pre- and post-treatment landscape" class="border" />
         </p>
         <p>The Fuel Model Percent Difference graph and pie charts tell the same story.</p>
         <p>
-            <img src="../../Images/colville_reportoutput/compare_fuelmodel_2.png" alt="percent difference graphs and pie charts are also included in the comparison reports" class="border" />
+            <img src="../../Images/Reports/DTA/Rep_DTA_Compr_FuelMdl2colville_tut.png" alt="percent difference graphs and pie charts are also included in the comparison reports" class="border" />
         </p>
         <p>Next, go to <span class="UIcomponent">My Workspace</span> and navigate to the Fire Behavior (Model) Compare Report, “Watershed 20 Thn Pburn 10 yr/North Selkirk CFLRP LF2014 Un - compare model/ Watershed Proposed Treatment Areas”, and click <span class="UIcomponent">View Report</span>.</p>
         <p>As in the landscape Compare Report, green correlates with pre-treatment, while blue indicates post-treatment results in the bar chart. You can see from this bar chart that the number of acres in the lower Flame Length bins goes up post-treatment, while the number in the higher Flame Length bins goes down, indicating a decrease in higher Flame Length post-treatment. The table to the right quantitatively supports this, clearly showing the acres shifting toward the lower flame length bins, post-treatment.</p>
         <p>
-            <img src="../../Images/colville_reportoutput/compare_flamelength_1.png" alt="the table and bar chart reflect an increase in lower flame lengths post treatment" class="border" />
+            <img src="../../Images/Reports/DTA/Rep_DTA_Compr_FL1_colville_tut.png" alt="the table and bar chart reflect an increase in lower flame lengths post treatment" class="border" />
         </p>
         <p>The Percent Difference Graph for Flame Lengths demonstrates the shift towards lower Flame Lengths post-treatment. You can see the positive percent difference in the 0-1, 1-4, and 4-8 foot bins, while the bins correlating to higher Flame Lengths indicate a drop in the percent difference. The pie charts tell the same story, plainly showing the smaller sections of red/orange/yellow in the post-treatment chart.</p>
         <p>
-            <img src="../../Images/colville_reportoutput/compare_flamelength_2.png" alt="pie charts and percent different charts further support your comparison" class="border" />
+            <img src="../../Images/Reports/DTA/Rep_DTA_Compr_FL2_colville_tut.png" alt="pie charts and percent different charts further support your comparison" class="border" />
         </p>
         <p>Scroll through the rest of the summary report to view the rest of fire behavior characteristics.</p>
         <h3>Adding an Additional Treatment to Treatment Alternatives</h3>

@@ -34,7 +34,7 @@
             <li>
                 <p>Under the pyrome layer, if pyrome data is available for the area “ExtremeWXS” will show up as “Complete”. If “ExtremeWXS” is blank, there is not yet pryome data for the area.</p>
                 <p>
-                    <img src="../../../Images/Models/FMConditioning/pyrome_information.png" alt="use the 'identify' widget to view pyrome status." class="borderlist" />
+                    <img src="../../../Images/MapStudio/widget_basemap/Base_PyromeInfo.png" alt="use the 'identify' widget to view pyrome status." class="borderlist" />
                 </p>
             </li>
         </ol>

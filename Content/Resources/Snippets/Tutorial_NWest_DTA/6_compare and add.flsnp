@@ -19,30 +19,30 @@
         <p>To access the summary reports, you can either find them in your project folder in <span class="UIcomponent">My Workspace</span>, or click the <span class="UIcomponent">Compare in Summary Report</span> button again and click on the links displayed in the pop-up box.</p>
         <p>In this case,&#160;go to <span class="UIcomponent">My Workspace</span> and first select "GC14 Lt Thn Pilebrn 1yr/Granite Creek LF2014 unedited - compareLCP...", you may have to hover over the shortened name to display the full name. Once this is selected, click <span class="UIcomponent">View Summary</span>. </p>
         <p>
-            <img src="../../Images/MyWorkspace/dta_workspace report.png" alt="reports are stored in our project folder in My Workspace" class="border">
+            <img src="../../Images/MyWorkspace/Ws_Report_LcpCompare_dta_tut.png" alt="reports are stored in our project folder in My Workspace" class="border">
             </img>
         </p>
         <p>In the first bar graph, note the acreage for the AOI is displayed. This is a quick way to confirm the Develop Treatment Alternative task and resulting reports were actually run to quantify only the AOI, not the entire landscape.</p>
         <p>Review the pre- and post-treatment results for each landscape characteristic. These reports have the same quantitative components as the reports you viewed earlier, but they compare the change in acreages in the specified treatment area, or mask, before and after the selected treatment was applied.</p>
         <p>In the Fuel Model bar graph you can see that green corresponds to pre-treatment fuel models in the treatment area, while blue corresponds to post-treatment. It appears that most of the TL8 acres were changed to TL6 post-treatment. Looking at the tabular data below, you can see that in fact, 59% of the treatment area in now Fuel Model TL6 following this treatment.</p>
         <p>
-            <img src="../../Images/Reports/dta_comparereport1_fuelmodel.png" alt="fuel models are compared via bar chart and table" class="border">
+            <img src="../../Images/Reports/DTA/Rep_DTA_Compr1_FuelModels_dta_tut.png" alt="fuel models are compared via bar chart and table" class="border">
             </img>
         </p>
         <p>The Fuel Model Percent Difference graph and pie charts tell the same story.</p>
         <p>
-            <img src="../../Images/Reports/dta_comparereport1_fuelmodelcharts.png" alt="fuel models are compared via change chart and pie chart" class="border">
+            <img src="../../Images/Reports/DTA/Rep_DTA_Compr1_FuelModelChart_dta_tut.png" alt="fuel models are compared via change chart and pie chart" class="border">
             </img>
         </p>
         <p>Next, go to <span class="UIcomponent">My Workspace</span> and navigate to the Fire Behavior (Model) Compare Report, "GC14 Lt Thn Pilebrn 1yr/Granite Creek LF2014 unedited - compare model...", and click <span class="UIcomponent">View Report</span>.</p>
         <p>As in the landscape Compare Report, green correlates to pre-treatment, while blue indicates post-treatment results in the bar chart. You can see from this bar chart that the number of acres in the lower Flame Length bins goes up post-treatment, while the number in the higher Flame Length bins goes down, indicating a decrease in higher Flame Length post-treatment. The table to the right quantitatively supports this, clearly showing the acres shifting toward the lower flame length bins, post-treatment.</p>
         <p>
-            <img src="../../Images/Reports/dta_comparereport1_flamelenths.png" alt="flame lengths compared via bar chart and table">
+            <img src="../../Images/Reports/DTA/Rep_DTA_Compr1_FlameLengths_dta_tut.png" alt="flame lengths compared via bar chart and table">
             </img>
         </p>
         <p>The Percent Difference Graph for Flame Lengths demonstrates the shift toward lower Flame Lengths post-treatment. You can see the positive percent difference in the 1-4 foot bin, while the bins correlating to higher Flame Lengths indicate a drop in the percent difference. The Pie Charts tell the same story, plainly showing the smaller sections of red/orange/yellow in the post-treatment chart.</p>
         <p>
-            <img src="../../Images/Reports/dta_comparereport1_flamelenthcharts.png" alt="flame lengths compared via change chart and pie chart">
+            <img src="../../Images/Reports/DTA/Rep_DTA_Compr1_FlameLengthChart_dta_tut.png" alt="flame lengths compared via change chart and pie chart">
             </img>
         </p>
         <p>Scroll through the rest of the summary report to view the rest of fire behavior characteristics. </p>

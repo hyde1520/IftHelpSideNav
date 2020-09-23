@@ -46,7 +46,7 @@
         </table>
         <h2>Fuel Moisture Conditioning Options</h2>
         <p class="comment">
-            <img src="../../../Images/Models/FMConditioning/conditioning_options.png" alt="you may choose to condition or not condition dead fuel moistures in iftdss." class="border" />
+            <img src="../../../Images/Models/InputsShared/FuelConditioningOptions.png" alt="you may choose to condition or not condition dead fuel moistures in iftdss." class="border" />
         </p>
         <h2>Do Not Condition (Use Initial Fuel Moistures)</h2>
         <p><MadCap:variable name="General.ProductName" /> does not condition fuels,  it uses the initial fuel moistures across the entire landscape.  This option may be appropriate when you know the exact fuel moisture you want to use on a given portion of the landscape or on landscapes with limited variation in topography and vegetation.  It is also appropriate in areas where limited conditioning weather data is available or deciduous vegetation can confound selection of a representative date for desired simulation conditions.</p>

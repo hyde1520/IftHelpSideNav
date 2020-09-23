@@ -31,7 +31,42 @@
                 <MadCap:dropDownHotspot>Creating an Auto97th LFB Report</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <MadCap:snippetBlock src="../../Resources/Snippets/Summary/GenerateLandscapeSummary.flsnp" />
+                <p>Auto97th LFB Report inputs and buttons are listed below:&#160;</p>
+                <ol style="list-style-type: upper-alpha;">
+                    <li>Specify an existing landscape to summarize using the drop-down menu. If you do not have a landscape yet use the <span class="UIcomponent">Create Here</span> or<span class="UIcomponent"> Create in <MadCap:variable name="General.MapStudio" /></span> buttons to <a href="../../10-MapStudio/Files/LCPCreate.htm" target="_blank">create one</a>. Creating a landscape in <MadCap:variable name="General.MapStudio" /> will require you to navigate back the Auto97th LFB Report interface when your landscape is created. Newly created landscapes may take a few minutes to generate. If you choose a newly created landscape that is still being created, it will have an hourglass icon <img src="../../Resources/Images/ButtonsGeneral/Icon_Hourglass.png" alt="hourglass icon" /> displayed after the landscape name; use the <span class="UIcomponent">Refresh</span> button <img src="../../Resources/Images/ButtonsGeneral/Btn_StatusRefresh.png" alt="Refresh_button" /> to the left of the drop-down field until the hourglass is replaced by a green checkmark <img src="../../Resources/Images/ButtonsGeneral/Btn_CheckMark.png" alt="checkmark icon" />, indicating your new landscape is ready. </li>
+                    <li>(Optional) Specify an area of interest (polygon or shapefile) within an existing landscape for summary. To run a summary across the entire landscape, leave this field blank.</li>
+                    <li>
+                        <p>Click the <span class="UIcomponent">Request a Report</span> button.</p>
+                        <p>
+                            <img src="../../Resources/Images/ReportCreate/CrtRep_StartAuto97Summary.png" alt="specficy a landscape to create a summary from" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>A prompt appears with the name of your landscape across the top. Click <span class="UIcomponent">Create Report</span> to generate the Auto97th LFB Report.</p>
+                        <p>
+                            <img src="../../Resources/Images/ReportCreate/CrtRep_Status.png" title="create a summary report" alt="text in a pop up window promts you to create a summary reoprt" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>The <img src="../../Resources/Images/ButtonsGeneral/Icon_Hourglass.png" alt="hourglass" title="Hourglass icon" /> icon indicates the Auto97th LFB Report is being generated. You can refresh and check the status by clicking the refresh button <img src="../../Resources/Images/ButtonsGeneral/Btn_StatusRefresh.png" alt="refresh button" title="Refresh icon" />.</p>
+                        <p>
+                            <img src="../../Resources/Images/ReportCreate/CrtRep_Confirmation.png" alt="green confirmation text box appears to let you know your summary is being generated" title="Screen shot of a fire behavior summary report being generated" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>When finished your Auto97th LFB Report will be available by clicking on the report name in the confirmation dialogue box.</p>
+                        <p>
+                            <img src="../../Resources/Images/ReportCreate/CrtRep_ReportReady.png" alt="the report name will become a hyperlink when the report is complete" class="borderlist" />
+                        </p>
+                    </li>
+                    <div class="notificationNote">
+                        <p>Depending upon landscape size, your summary may take a few minutes to complete.</p>
+                    </div>
+                </ol>
+                <p>It may also be viewed from <span class="UIcomponent">My Workspace</span>, in the same folder as the landscape you chose to summarize, as well as listed in <span class="UIcomponent">Modeling Playground</span>. You may also view your report outputs in <MadCap:variable name="General.MapStudio" /> by adding the fire behavior output via the <span class="UIcomponent">Simulation Output Tools</span> widget. All Auto97th model output file are easily identified by their file names which end with "- Auto97th".</p>
+                <p>
+                    <img src="../../Resources/Images/ReportCreate/CrtRep_ReportCompleted.png" alt="summary report is listed with other files for your landscape in MyWorkspace" class="border" />
+                </p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
@@ -42,7 +77,7 @@
                 <h3>Saving</h3>
                 <p>In addition to being saved in My Workspace, you may also save summary reports to your local computer. Using the download button in the top right will download the entire report as a .pdf file. Clicking the options button to the right of each section of the report, will save that specific image or graph.</p>
                 <p>
-                    <img src="../../Resources/Images/Reports/download_button.png" alt="use the top right buttons to download reports" class="border" />
+                    <img src="../../Resources/Images/Reports/Rep_InterfaceDownload.png" alt="use the top right buttons to download reports" class="border" />
                 </p>
                 <h3>Printing from your internet browser</h3>
                 <p>Summary reports can also be printed directly from the internet browser. To print the full summary using Google Chrome:</p>
@@ -51,7 +86,7 @@
                     <li>
                         <p>Click Print from the options and follow your normal routine for printing a document from your computer.</p>
                         <p>
-                            <img src="../../Resources/Images/Summary/printsummary.png" alt="use the right mouse button to print a summary from your browser" class="borderlist" />
+                            <img src="../../Resources/Images/Reports/Rep_PrintFromBrowser.png" alt="use the right mouse button to print a summary from your browser" class="borderlist" />
                         </p>
                     </li>
                 </ol>
@@ -71,7 +106,7 @@
                     <li>
                         <p>A pop-up appears with all model inputs including Initial Fuel Moistures. To close the information box, click <span class="UIcomponent">OK</span> in the bottom right.</p>
                         <p>
-                            <img src="../../Resources/Images/MyPlayground/viewing_inputs_steps.png" alt="model inputs may be viewed for each file in Modeling Playground" class="borderlist" />
+                            <img src="../../Resources/Images/MyPlayground/Play_ViewInputSteps.png" alt="model inputs may be viewed for each file in Modeling Playground" class="borderlist" />
                         </p>
                     </li>
                 </ol>
@@ -83,7 +118,7 @@
                     <li>
                         <p>A new model input screen appears pre-populated with all the inputs used for the Auto97th run. You may edit any of these inputs, give the run a new name, and save and run the model.</p>
                         <p>
-                            <img src="../../Resources/Images/MyPlayground/copy_run.png" alt="model runs may be copied, edited, and re-run to create a new output in modeing playground." class="borderlist" />
+                            <img src="../../Resources/Images/MyPlayground/Play_CopyRunSteps.png" alt="model runs may be copied, edited, and re-run to create a new output in modeing playground." class="borderlist" />
                         </p>
                     </li>
                 </ol>

@@ -9,20 +9,20 @@
             <li>
                 <p>Click the<span class="UIcomponent"> Request Report</span> button.</p>
                 <p>
-                    <img src="../../../Images/MyWorkspace/Report_AOI_start.png" alt="Request a report from My Workspace" class="borderlist" />
+                    <img src="../../../Images/MyWorkspace/Ws_LFB_ReportRequest.png" alt="Request a report from My Workspace" class="borderlist" />
                 </p>
             </li>
             <li>Select an AOI to constrain your area from the drop-down menu. Any AOI that matches your landscape extent will be displayed.</li>
             <li>
                 <p>Click <span class="UIcomponent">Create Report</span>. you will receive a confirmation message that the report is being built.</p>
                 <p>
-                    <img src="../../../Images/MyWorkspace/Report_AOI_select.png" alt="Select an area of interest from the drop-down menu" class="borderlist" />
+                    <img src="../../../Images/MyWorkspace/Ws_LFB_ReportAOISelect.png" alt="Select an area of interest from the drop-down menu" class="borderlist" />
                 </p>
             </li>
             <li>
                 <p>When finished the report will show in the dialogue box as an active link, it will also now be available in My Workspace in the same folder as the model output it was created from.</p>
                 <p>
-                    <img src="../../../Images/MyWorkspace/Report_AOI_ready.png" alt="Reports are stored in the same folder as the file (model output) they were created from." class="borderlist" />
+                    <img src="../../../Images/MyWorkspace/Ws_LFB_ReportReady.png" alt="Reports are stored in the same folder as the file (model output) they were created from." class="borderlist" />
                 </p>
             </li>
         </ol>

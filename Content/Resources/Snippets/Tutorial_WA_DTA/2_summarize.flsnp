@@ -57,17 +57,17 @@
             <li>
                 <p>Confirm your selection by clicking <span class="UIcomponent">Create Report</span> in the box that appears. The report begins processing and may take a few moments.</p>
                 <p>
-                    <img src="../../Images/Summary/colville_auto97th.png" alt="North Selkirk is visible in the My Landscape field of Landscape Summary" class="borderlist" />
+                    <img src="../../Images/ReportCreate/CrtRep_RequestAuto97_colville_tut.png" alt="North Selkirk is visible in the My Landscape field of Landscape Summary" class="borderlist" />
                 </p>
                 <p> To make sure the report is complete, click the <span class="UIcomponent">Refresh</span> button that appears where the <span class="UIcomponent">Create Report</span> button once was. When complete, a green checkmark appears next to the report name, which becomes a hyper-link.</p>
                 <p>
-                    <img src="../../Images/Summary/colville_auto97th_2.png" alt="when the report name appears as a hyperlink, the report is ready to view." class="borderlist" />
+                    <img src="../../Images/ReportCreate/CrtRep_ReadyAuto97_colville_tut.png" alt="when the report name appears as a hyperlink, the report is ready to view." class="borderlist" />
                 </p>
             </li>
             <li>
                 <p>For this example you are going to view the fire behavior aspect of the report in Map Studio so it can be viewed with the landscape features, so close the report box and click the <span class="UIcomponent">View in Map Studio</span> button. The report and Map Studio outputs can be viewed anytime later by accessing them in <span class="UIcomponent">My Workspace</span>, they are saved in the same folder as the landscape they describe (in this case your Granite Creek project folder).</p>
                 <p>
-                    <img src="../../Images/Summary/colville_auto97th_3.png" alt="Use the View in Map Studio button to view the summary outputs in Map Studio." class="borderlist" />
+                    <img src="../../Images/ReportCreate/CrtRep_ViewOnMapAuto97_colville_tut.png" alt="Use the View in Map Studio button to view the summary outputs in Map Studio." class="borderlist" />
                 </p>
             </li>
         </ol>

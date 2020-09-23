@@ -5,17 +5,17 @@ body
 	font-family: Arial;
 }
 
-html.home-topic /*Used on home topic to override padding set in the skin*/
+html.home-topic	/*Used on home topic to override padding set in the skin*/
 {
-
+	
 }
 
-html.home-topic .body-container /*Overrides padding set in the skin*/
+html.home-topic .body-container	/*Overrides padding set in the skin*/
 {
 	padding: 0;
 }
 
-html.home-topic .main-section > .outer-row /*Overrides padding set in the skin when in tablet/mobile*/
+html.home-topic .main-section > .outer-row	/*Overrides padding set in the skin when in tablet/mobile*/
 {
 	max-width: 100%;
 	padding: 0;
@@ -171,7 +171,7 @@ MadCap|dropDown
 div.topic-hero
 {
 	padding: 5%;
-	background-image: url('../Images/coniferbackground.jpg');
+	background-image: url('../Images/HomeHero.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -339,7 +339,6 @@ div.home-footer
 
 @media tablet
 {
-	
 	html.home-topic .body-container
 	{
 		margin-left: 0;
@@ -460,3 +459,4 @@ div.home-footer
 		text-decoration: none;
 	}
 }
+

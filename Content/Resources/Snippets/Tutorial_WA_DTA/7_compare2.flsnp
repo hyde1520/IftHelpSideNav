@@ -56,28 +56,28 @@
         <p>The Flame Length bar chart shows a large increase in the post-treatment acreage for lower Flame Length bins and no post-treatment acres in the higher Flame Length bins.</p>
         <p>The table indicates the pre– treatment percentage of pixels in the &gt;0-1 foot Flame Length bin is 36%, while post-treatment, the percentage went up to 92%. The table also indicates that the percentage of post-treatment pixels were drastically decreased for all of the Flame Length categories but the &gt;0-1 feet.</p>
         <p>
-            <img src="../../Images/colville_reportoutput/broadcast_compare_FL1.png" alt="The table and bar chart display a shift from higher to lower flame lengths post treatment" class="border" />
+            <img src="../../Images/Reports/DTA/Rep_DTA_BroadcastFLCompr1_colville_tut.png" alt="The table and bar chart display a shift from higher to lower flame lengths post treatment" class="border" />
         </p>
         <p>The Percent Difference Graph for Flame Lengths demonstrates the shift toward lower Flame Lengths post-treatment. You can see the significant positive percent difference in the &gt;0-1 foot bins, while the bins correlating to higher Flame Lengths indicate a drop in the percent difference.</p>
         <p>The pie charts tell the same story, showing the shift to significantly lower flame lengths post-treatment.</p>
         <p>
-            <img src="../../Images/colville_reportoutput/broadcast_compare_FL2.png" alt="the pie chart and percent different chart show a decrease in flame lengths following the treatment" class="border" />
+            <img src="../../Images/Reports/DTA/Rep_DTA_BroadcastFLCompr2_colville_tut.png" alt="the pie chart and percent different chart show a decrease in flame lengths following the treatment" class="border" />
         </p>
         <p>Scroll through the rest of the fire behavior model outputs in the report. Their story is the same, significantly reduced Rates of Spread, as well as almost no Crown Fire Activity post-treatment.</p>
         <p>Next, navigate back to <span class="UIcomponent">My Workspace</span> and open the Landscape Compare Summary Report.</p>
         <p>The Landscape Compare Reports for a modeled Light Thin/Pile Burn/Low Severity Broadcast Burn treatment show quite a change in Fuel Model pre– vs. post-treatment.</p>
         <p>From the compare bar graph, you can tell that a significant portion of the TU5 Fuel Model (Very High Load, Dry Climate Timber-Shrub) has shifted to GS1 (Low Load, Dry Climate Grass-Shrub). The table further confirms this quantitatively, indicating that 50% of the treatment area was comprised of a TU5 Fuel Model pretreatment, while just 4% of the treatment area was a TU5 Fuel Model post-treatment. Conversely, 1% of the treatment area contained the GS1 Fuel Model pretreatment, while post-treatment, 63% of the treatment area was comprised of Fuel Model GS1.</p>
         <p>
-            <img src="../../Images/colville_reportoutput/compare_fuelmodel_tu5_gs1.png" alt="The table and bar chart indicate more TU5 pre-treatment, and much less TU5 post treatment." class="border" />
+            <img src="../../Images/Reports/DTA/Rep_DTA_ComprFM1_TU5_GS1_colville_tut.png" alt="The table and bar chart indicate more TU5 pre-treatment, and much less TU5 post treatment." class="border" />
         </p>
         <p>The Percent Difference chart reflects the shift in Fuel Model displayed by the bar graph and table above, clearly showing the drop in the TU5 Fuel Model, as well as the increase in the GS1 Fuel Model post-treatment.</p>
         <p>The pie charts visually display these changes in Fuel Model as well.</p>
         <p>
-            <img src="../../Images/colville_reportoutput/compare_fuelmodel2_tu5_gs1.png" alt="pie chart and percent difference chart showing a higher percentage of gs1 post-treatment" class="border" />
+            <img src="../../Images/Reports/DTA/Rep_DTA_CompareFM2_TU5_GS1_colville_tut.png" alt="pie chart and percent difference chart showing a higher percentage of gs1 post-treatment" class="border" />
         </p>
         <p>Review the rest of the Landscape Compare Summary Report and note the changes in the various landscape characteristics. Pay close attention to the increase in Canopy Base Height, as well as the decrease in Canopy Cover, post-treatment. This coincides with the information you see in the rest of the report, and justifies the fact that this series of treatments will help achieve the stated objectives for this North Selkirk study area.</p>
         <p>
-            <img src="../../Images/colville_reportoutput/cc_standheight_compare.png" alt="bar chart and percent difference charts summarizing canopy cover and stand height." class="border" />
+            <img src="../../Images/Reports/DTA/Rep_DTA_Compr_CC_StndHt_colville_tut.png" alt="bar chart and percent difference charts summarizing canopy cover and stand height." class="border" />
         </p>
         <h2>Conclusion</h2>
         <p>Based on Forest Plan direction and the CFLRP proposal guidelines, the preliminary results of this study show that we are meeting our objectives for the North Selkirk Project Areas, which are to:</p>

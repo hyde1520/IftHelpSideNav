@@ -17,7 +17,7 @@
             <li>
                 <p>Click <span class="UIcomponent">Create</span> to generate your landscape file.</p>
                 <p>
-                    <img src="../../Images/Summary/LcpCreateHere.png" alt="Use the provided fields to input landscape details" class="borderlist" />
+                    <img src="../../Images/ReportCreate/CrtRep_LcpCreateHere.png" alt="Use the provided fields to input landscape details" class="borderlist" />
                 </p>
             </li>
         </ol>

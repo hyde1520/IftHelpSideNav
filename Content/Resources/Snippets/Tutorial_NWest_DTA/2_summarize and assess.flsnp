@@ -61,17 +61,17 @@
             <li>
                 <p>Confirm your selection by clicking <span class="UIcomponent">Create Report</span> in the box that appears. The report  begins processing and may take a few moments.</p>
                 <p>
-                    <img src="../../Images/Summary/dta_summary_2.png" alt="use the 'request a report' button to generate your report" class="borderlist" />
+                    <img src="../../Images/ReportCreate/CrtRep_RequestSummary_dta_tut.png" alt="use the 'request a report' button to generate your report" class="borderlist" />
                 </p>
                 <p>To make sure the report is complete click the <span class="UIcomponent"> Refresh </span><img src="../../Images/ButtonsGeneral/Btn_StatusRefresh.png" alt="refresh" class="iftbutton" /> button that appears where the <span class="UIcomponent">Create Report</span> button once was. When complete, a green checkmark appears next to the report name which becomes a hyperlink.</p>
                 <p>
-                    <img src="../../Images/Reports/dta_report_confirmation.png" alt="the report completion will be confirmed with a green confirmation box." class="borderlist" />
+                    <img src="../../Images/ReportCreate/CrtRep_Confirmation_dta_tut.png" alt="the report completion will be confirmed with a green confirmation box." class="borderlist" />
                 </p>
             </li>
             <li>
                 <p> For this example you are going to view the fire behavior aspect of the report in <MadCap:variable name="General.MapStudio" /> so it can be viewed with the landscape features, so close the report box and click the <span class="UIcomponent">View in <MadCap:variable name="General.MapStudio" /></span> button. The report and <MadCap:variable name="General.MapStudio" /> outputs can be viewed anytime later by accessing them in <span class="UIcomponent">My Workspace</span>, they are saved in the same folder as the landscape they describe (in this case your Granite Creek project folder).</p>
                 <p>
-                    <img src="../../Images/Summary/view_report_on_map.png" alt="view report on map" class="borderlist" />
+                    <img src="../../Images/ReportCreate/CrtRep_ViewinMapStudio.png" alt="view report on map" class="borderlist" />
                 </p>
             </li>
         </ol>

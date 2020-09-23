@@ -1,12 +1,11 @@
 /*<meta />*/
 
 body
-
 {
-	background-image:url('../Images/iftdss_helpcenter_3_50p2.png');
-	margin-top:27px;
-	background-repeat:no-repeat;
-	background-color:#E0EAF1;
+	background-image: url('../Images/LogoIFTDSSHelpCenter2.png');
+	margin-top: 27px;
+	background-repeat: no-repeat;
+	background-color: #E0EAF1;
 	color: #404040;
 	font-family: Arial, Avenir, Myriad, sans-serif;
 	font-size: 13px !important;
@@ -18,7 +17,6 @@ a:visited
 {
 	color: #2d82dc;
 }
-
 
 a:hover
 {
@@ -610,7 +608,7 @@ p.TOCHeading
 span.Emphasis
 {
 	font-style: italic;
-	font-weight:600;
+	font-weight: 600;
 }
 
 span.UIcomponent
@@ -687,11 +685,12 @@ html.templateTopic div.sideContent
 @media print
 {
 	/*The .off-canvas-content class fixes the grayed out print bug introduced from Chrome 61 */
-	  .off-canvas-content
-    {
-        box-shadow: none;
-    }
-    
+
+	.off-canvas-content
+	{
+		box-shadow: none;
+	}
+
 	body
 	{
 		font-size: 10pt;
@@ -1143,15 +1142,16 @@ p.test
 
 nav.tab-bar
 {
-display:none !important;
+	display: none !important;
 }
 
 .MCBreadcrumbsBox_0
 {
-display:none !important;
+	display: none !important;
 }
 
 .sideContent
 {
-display:none !important;
+	display: none !important;
 }
+
