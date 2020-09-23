@@ -17,7 +17,7 @@
                     <th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Output</th>
                     <th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Brief Description</th>
                     <th class="TableStyle-Standard-HeadE-Column1-Header1">Units - GeoTIFF</th>
-                    <th class="TableStyle-Standard-HeadD-Column1-Header1">Units - IFTDSS (Report)</th>
+                    <th class="TableStyle-Standard-HeadD-Column1-Header1">Units - <MadCap:variable name="General.ProductName" /> (Report)</th>
                 </tr>
             </thead>
             <tbody>

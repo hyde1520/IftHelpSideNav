@@ -7,16 +7,22 @@
         <div class="notificationTip">
             <p>To run a QWRA you must have run <a href="../../../20-Models/LBP/About.htm" target="_blank">LBP</a>, <a href="../MapValues/HVRAAbout.htm" target="_blank">Mapped Values</a>, and <a href="../ExposureAnalysis/Overview.htm" target="_blank">Exposure Analysis</a>. See the <a href="../QWRAAbout.htm" target="_blank">QWRA overview topic</a> for details on this workflow.</p>
         </div>
-        <p>Running a Quantitative Wildfire Risk Assessment (QWRA) creates a map of potential benefits and threats from fire represented by <a href="Out/OutputCondNVC.htm" target="_blank">Conditional weighted Net Value Change (NVC)</a>  and <a href="Out/OutputExpNVC.htm" target="_blank">Expected weighted NVC</a> for each pixel on the landscape. You may populate the Response Function and Relative Important inputs directly in the IFTDSS interface, as described below, or populate and upload a .CSV file for those inputs (described in the <a href="In/UsingCSV.htm" target="_blank">.CSV upload topic</a>).</p>
+        <p>Running a Quantitative Wildfire Risk Assessment (QWRA) creates a map of potential benefits and threats from fire represented by <a href="Out/OutputCondNVC.htm" target="_blank">Conditional weighted Net Value Change (NVC)</a>  and <a href="Out/OutputExpNVC.htm" target="_blank">Expected weighted NVC</a> for each pixel on the landscape. You may populate the Response Function and Relative Important inputs directly in the <MadCap:variable name="General.ProductName" /> interface, as described below, or populate and upload a .CSV file for those inputs (described in the <a href="In/UsingCSV.htm" target="_blank">.CSV upload topic</a>).</p>
         <ol style="list-style-type: upper-alpha;">
             <li>
-                <p>Select an Exposure Analysis output from the drop-down menu. If you need to create one, you may navigate to that part of IFTDSS by clicking the <img src="../../../Resources/Images/ButtonsGeneral/EA_create.png" alt="Exposure Analysis" class="iftbutton" /> <span class="UIcomponent">Exposure Analysis</span> button to the right of the drop-down menu.</p>
+                <p>Go to the QWRA interface from the <MadCap:variable name="General.ProductName" /> Planning Cycle by clicking on <span class="UIcomponent">Strategic Planning</span> and Selecting <span class="UIcomponent">Risk Assessment</span>.</p>
+                <p>
+                    <img src="../../../Resources/Images/Cycle/Cyl_StratPlanQWRA.png" alt="Risk Assessment is under the Strategic Planning stage of the IFTDSS Planning Cycle." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Select an Exposure Analysis output from the drop-down menu. If you need to create one, you may navigate to that part of <MadCap:variable name="General.ProductName" /> by clicking the <img src="../../../Resources/Images/ButtonsGeneral/Btn_EA_Create.png" alt="Exposure Analysis" class="iftbutton" /> <span class="UIcomponent">Exposure Analysis</span> button to the right of the drop-down menu.</p>
                 <p>
                     <img src="../../../Resources/Images/QWRA/model_input_main.png" class="borderlist" alt="The QWRA inputs page showing headers for input fields including Exposure Analysis, Response Functions, Relative Importance, and Naming." />
                 </p>
             </li>
             <li>
-                <p>Define <a href="In/ResponseFunctions.htm" target="_blank">response functions (RFs)</a>. If you used <img src="../../../Resources/Images/ButtonsGeneral/nationallayer.png" alt="National HVRA Set" class="iftbutton" /> <a href="../MapValues/HVRANational.htm" target="_blank">National HVRAs</a> when you mapped your values, the response functions are pre-populated. These values can still be edited. Response functions range from –100 (indicating strong loss) to 100 (indicating strong benefit) for each of these six modeled flame length categories.</p>
+                <p>Define <a href="In/ResponseFunctions.htm" target="_blank">response functions (RFs)</a>. If you used <img src="../../../Resources/Images/ButtonsGeneral/Icon_HVRANtlRefLyr.png" alt="National HVRA Set" class="iftbutton" /> <a href="../MapValues/HVRANational.htm" target="_blank">National HVRAs</a> when you mapped your values, the response functions are pre-populated. These values can still be edited. Response functions range from –100 (indicating strong loss) to 100 (indicating strong benefit) for each of these six modeled flame length categories.</p>
                 <div class="notificationTip">
                     <p>An alternative to filling in response function and relative importance is uploading these as a .CSV. Instructions for populating the .CSV and importing it are <a href="In/UsingCSV.htm" target="_blank">outlined here</a>.</p>
                 </div>

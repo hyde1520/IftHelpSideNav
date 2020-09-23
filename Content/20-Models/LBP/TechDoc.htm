@@ -4,15 +4,15 @@
     </head>
     <body>
         <h1>Technical Documentation - Landscape Burn Probability with FlamMap 6.0<MadCap:keyword term="LBP" /><MadCap:keyword term="Landscape Burn Probability" /></h1>
-        <p>The IFTDSS Landscape Burn Probability (LBP) model is identical to Minimum Travel Time (MTT) Burn Probability  in FlamMap 6.0, with some fixed modeling inputs (see <a href="#Fixedinputs">below</a> for details).</p>
+        <p>The <MadCap:variable name="General.ProductName" /> Landscape Burn Probability (LBP) model is identical to Minimum Travel Time (MTT) Burn Probability  in FlamMap 6.0, with some fixed modeling inputs (see <a href="#Fixedinputs">below</a> for details).</p>
         <h2>FlamMap MTT Background</h2>
         <p>
-            <img src="../../Resources/Images/MapStudio/ih_example_techdoc.png" alt="integrated hazard layer over topographic features" style="float: right;" class="border" />
+            <img src="../../Resources/Images/MapStudio/Map_int_hazard_techdoc.png" alt="integrated hazard layer over topographic features" style="float: right;" class="border" />
         </p>
         <MadCap:snippetBlock src="../../Resources/Snippets/Models/TechDoc1MTT.flsnp" />
         <p>For LBP, thousands of randomly located ignitions are used and the resulting fires are spread using the MTT algorithm until 98% percent of the burnable landscape has burned.  The probability of burning and resulting fire intensity is calculated from these repeated simulations. See the <a href="Out/Overview.htm" target="_blank">Landscape Burn Probability Output Overview</a> topic for more details.</p>
-        <h2><a name="Fixedinputs"></a>Fixed inputs in IFTDSS</h2>
-        <p>Many of the model inputs are controlled by the user (see the <a href="In/OverviewLBP.htm" target="_blank">Input Overview</a> topic for more details); however some model inputs are fixed in IFTDSS LBP runs and cannot be changed by the user:</p>
+        <h2><a name="Fixedinputs"></a>Fixed inputs in <MadCap:variable name="General.ProductName" /></h2>
+        <p>Many of the model inputs are controlled by the user (see the <a href="In/OverviewLBP.htm" target="_blank">Input Overview</a> topic for more details); however some model inputs are fixed in <MadCap:variable name="General.ProductName" /> LBP runs and cannot be changed by the user:</p>
         <ul>
             <li>Resolution of the run: Landscapes over 250,000 acres are resampled prior to model run initiation (See the <a href="../Resampling.htm" target="_blank">Resampling</a> topic for more details).</li>
             <li>Number of fires simulated: Ignitions are randomly located, they are simulated thousands of times until 98% of the landscape has burned (see the <a href="In/NoFiresSimLBP.htm" target="_blank">Number of Fires Simulated</a> topic for more details).</li>

@@ -8,10 +8,10 @@
         <p>The following are known issues for <MadCap:variable name="General.ProductName" />:</p>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Data from <MadCap:keyword term="IFTDSS 2.0" />IFTDSS 2.0</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Data from <MadCap:keyword term="IFTDSS 2.0" /><MadCap:variable name="General.ProductName" /> 2.0</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Data and runs from IFTDSS 2.0 will not be available in <MadCap:variable name="General.ProductName" /> versions 3.0 and later. This is because <MadCap:variable name="General.ProductName" />is built on an entirely new system relative to previous versions.</p>
+                <p>Data and runs from <MadCap:variable name="General.ProductName" /> 2.0 will not be available in <MadCap:variable name="General.ProductName" /> versions 3.0 and later. This is because <MadCap:variable name="General.ProductName" />is built on an entirely new system relative to previous versions.</p>
                 <p>(Reported April 2017)</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
@@ -22,7 +22,7 @@
             <MadCap:dropDownBody>
                 <p>This error occurs when there is a lapse of internet connection. To resolve, ensure the internet connection has been re-established, refresh the <MadCap:variable name="General.ProductName" /> home page, and retry logging in.</p>
                 <p>
-                    <img src="../Resources/Images/ErrorsIssues/neg1_error_072919.png" alt="error in the log in box which states &quot;unexpected response code: -1-&quot;" class="border" />
+                    <img src="../Resources/Images/ErrorsIssues/ErrorUnexpectedRspns.png" alt="error in the log in box which states &quot;unexpected response code: -1-&quot;" class="border" />
                 </p>
                 <p>(Reported July 2019)</p>
             </MadCap:dropDownBody>
@@ -34,7 +34,7 @@
             <MadCap:dropDownBody>
                 <p>The error message you encountered appears within Developing Treatment Alternatives Run Model tab, when you attempt to assign a run name that is already used elsewhere within your <MadCap:variable name="General.ProductName" /> account. To alleviate this error, use a new name for your run. </p>
                 <p>
-                    <img src="../Resources/Images/ErrorsIssues/Error_DTA_behaviormodel_07292019.png" alt="error message at top of interface stating: there was an error saving the model run" class="border" />
+                    <img src="../Resources/Images/ErrorsIssues/ErrorSavingDTARename.png" alt="error message at top of interface stating: there was an error saving the model run" class="border" />
                 </p>
                 <p>(Reported 7/12/17, updated 7/29/19)</p>
             </MadCap:dropDownBody>
@@ -46,7 +46,7 @@
             <MadCap:dropDownBody>
                 <p>This error is encountered in FTEM&#160;when a user with an Agency Admin role attempts to view the audit log for a completed wildfire. Its cause is currently being investigated</p>
                 <p>
-                    <img src="../Resources/Images/ErrorsIssues/FTEM_error_retrieving.png" alt="error message on an otherwise blank FTEM screen" class="border" />
+                    <img src="../Resources/Images/ErrorsIssues/ErrorFTEMRtrvingWldfr.png" alt="error message on an otherwise blank FTEM screen" class="border" />
                 </p>
                 <p>(Reported 8/13/19))</p>
             </MadCap:dropDownBody>
@@ -92,7 +92,7 @@
             <MadCap:dropDownBody>
                 <p>On some runs, FlamMap did not fully complete the modeling run, resulting in partially complete modeling outputs. This is easily seen in Map Studio when a modeling output resembles the one pictured below. The bottom of portion of the map populated with -1 for all output values.</p>
                 <p>
-                    <img src="../Resources/Images/MapStudio/incomplete_run_3_14_18.png" alt="incomplete run with bottom half of the map showing gray '-1' values, indicating the model had not completed for that area." class="borderlist" />
+                    <img src="../Resources/Images/ErrorsIssues/ErrorIncompleteRun.png" alt="incomplete run with bottom half of the map showing gray '-1' values, indicating the model had not completed for that area." class="borderlist" />
                 </p>
                 <p><b>Status:</b> This was patched on 3/15/18, but if you find an old report with this issue or encounter a similar bug, please send a support ticket to the Support desk.</p>
                 <p>(Reported 3/14/2018)</p>
@@ -106,7 +106,7 @@
                 <p>For landscapes created prior to September 2018: You may notice the blue boundary around  the landscape  does not perfectly match the edge of the landscape. This does not affect your data or use of the landscape in analyses, the boundary simply marks the approximate edge of your landscape.</p>
                 <p MadCap:conditions="General.Exclude">This text may be used if IFT-2555 gets implemented. For landscapes created prior to July 2018, you may notice the blue boundary around the landscape does not perfectly match the edge of the landscape. This does not affect your data or use of the landscape in analyses. The issue occurs because the landscape data is generated using a custom Albers projection that is unique to each one, while <MadCap:variable name="General.MapStudio" /> uses a universal projection. As a result, the upper left and lower right corners of the boundary match those of the landscape, but the sides are not an exact match. </p>
                 <p>
-                    <img src="../Resources/Images/ErrorsIssues/boundary_knownissue.png" alt="landscape boundary showing boundary line which does not quite line up with the edge of the landscape." class="border" />
+                    <img src="../Resources/Images/ErrorsIssues/BoundaryKnownIssue.png" alt="landscape boundary showing boundary line which does not quite line up with the edge of the landscape." class="border" />
                 </p>
                 <p>(Reported 7/18/20)</p>
             </MadCap:dropDownBody>
@@ -116,9 +116,9 @@
                 <MadCap:dropDownHotspot>Multipart shapes from outside the landscape boundary can appear in drop-down menus</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Multipart shapes that lie in close proximity to a landscape may appear in drop-down menus for landscape tasks such as summarizing or modeling. While IFTDSS automatically filters these drop-down menus to show only shapes that intersect the landscape in question, these multipart shapes may be included if their extent intersects the landscape, regardless of whether the individual polygons that make up the shape do. In the example below, the multipart shape would appear in the drop-down because its extent, roughly indicated with a dotted line, intersects the landscape, even though neither polygon does. If a report were generated for the landscape using that multipart shape area of interest, the landscape features and/or model outputs would all be 0.</p>
+                <p>Multipart shapes that lie in close proximity to a landscape may appear in drop-down menus for landscape tasks such as summarizing or modeling. While <MadCap:variable name="General.ProductName" /> automatically filters these drop-down menus to show only shapes that intersect the landscape in question, these multipart shapes may be included if their extent intersects the landscape, regardless of whether the individual polygons that make up the shape do. In the example below, the multipart shape would appear in the drop-down because its extent, roughly indicated with a dotted line, intersects the landscape, even though neither polygon does. If a report were generated for the landscape using that multipart shape area of interest, the landscape features and/or model outputs would all be 0.</p>
                 <p>
-                    <img src="../Resources/Images/ErrorsIssues/overlapping_shape_extent.png" alt="a multipart shape with two polygons, its extent overlaps the landscape but neither individual polygon does" class="border" />
+                    <img src="../Resources/Images/ErrorsIssues/ShapeExtentOverlap.png" alt="a multipart shape with two polygons, its extent overlaps the landscape but neither individual polygon does" class="border" />
                 </p>
                 <p>(Reported February 2019)</p>
             </MadCap:dropDownBody>
@@ -150,7 +150,7 @@
                 <MadCap:dropDownHotspot>Working between <MadCap:keyword term="LANDFIR" />LANDFIRE and <MadCap:variable name="General.ProductName" /></MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>If you're using IFTDSS landscape extents to download additional data from the LANDFIRE&#160;Data Distribution site, you'll have to re-clip the landfire files to match the <MadCap:variable name="General.ProductName" /> if you need them to match exactly to the same extent. See <a href="../10-MapStudio/Files/SpatialExtent.htm">Spatial Extent of <MadCap:variable name="General.ProductName" /> and LANDFIRE&#160;Data</a> for more information.</p>
+                <p>If you're using <MadCap:variable name="General.ProductName" /> landscape extents to download additional data from the LANDFIRE&#160;Data Distribution site, you'll have to re-clip the landfire files to match the <MadCap:variable name="General.ProductName" /> if you need them to match exactly to the same extent. See <a href="../10-MapStudio/Files/SpatialExtent.htm">Spatial Extent of <MadCap:variable name="General.ProductName" /> and LANDFIRE&#160;Data</a> for more information.</p>
                 <p>(Reported April 2017)</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
@@ -161,7 +161,7 @@
             <MadCap:dropDownBody>
                 <p>When a user views a very large Highly Valued Resource or Asset (HVRA) Set in <MadCap:variable name="General.MapStudio" />, the HVRA Set may appear grayed out in the Layer List until zooming in.</p>
                 <p>
-                    <img src="../Resources/Images/HVRAs/grayedout_hvras.png" alt="HVRA Set grayed out in Map Studio." class="border" />
+                    <img src="../Resources/Images/MapStudio/widget_layer_list/LyrList_Mv_HVRAsGrayedOut.png" alt="HVRA Set grayed out in Map Studio." class="border" />
                 </p>
                 <p>(Reported 29 July 2019)</p>
             </MadCap:dropDownBody>
@@ -187,7 +187,7 @@
                 <p>This issue occurs occasionally and only for the State, Region, and Agency FTEM&#160;reports on some Department of Interior machines. It is caused by the pop-up blocker being turned on in your web browser. </p>
                 <p>To view your report when this occurs, click the 'Pop-up blocked' notification that appears in the top right of Google Chrome, then click the link within the pop-up box. The report will appear in a new tab. </p>
                 <p>
-                    <img src="../Resources/Images/FTEM/popup_blocked.png" alt="opening a blocked report pop up as described in text." class="border" />
+                    <img src="../Resources/Images/FTEM/monitoring/FTEM_PopUpBlocked.png" alt="opening a blocked report pop up as described in text." class="border" />
                 </p>
                 <p>(Reported July 19 2018)</p>
             </MadCap:dropDownBody>
@@ -199,7 +199,7 @@
                     <MadCap:keyword term="My Location" />My Location sometimes does not zoom to my location</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>In some cases the location may be mapped incorrectly due to Internet Service Provider differences. Sometimes you may be mapped to the physical location of your ISP's servers, sometimes close to your actual location but off by a bit, sometimes nowhere near where you actually are! In short, when GPS is not present and the browser has to rely on your internet connection to determine your location, you are more likely to see the wrong location on the map. This is a known issue that the IFTDSS team is working on, we appreciate your patience while we work through this bug! We are working on eliminating many known bugs, but in the end we are not likely to be able to guarantee that it will work every time on every device and browser.</p>
+                <p>In some cases the location may be mapped incorrectly due to Internet Service Provider differences. Sometimes you may be mapped to the physical location of your ISP's servers, sometimes close to your actual location but off by a bit, sometimes nowhere near where you actually are! In short, when GPS is not present and the browser has to rely on your internet connection to determine your location, you are more likely to see the wrong location on the map. This is a known issue that the <MadCap:variable name="General.ProductName" /> team is working on, we appreciate your patience while we work through this bug! We are working on eliminating many known bugs, but in the end we are not likely to be able to guarantee that it will work every time on every device and browser.</p>
                 <p>(Reported April 2017)</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
@@ -219,10 +219,10 @@
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <p>
-                    <img src="../Resources/Images/MapStudio/widgets_cutoff.png" alt="map studio widgets at the bottom of the screen cut off, and not full visible" class="border" />
+                    <img src="../Resources/Images/ErrorsIssues/WidgetCutoff.png" alt="map studio widgets at the bottom of the screen cut off, and not full visible" class="border" />
                 </p>
                 <p>On some small screens and tablets <MadCap:variable name="General.MapStudio" /> may appear slightly different compared to normal sized monitors, with the widgets along the bottom spanning the entire page, and the widgets in the top left and right in different locations. As a temporary work-around while we address this issue, you may reduce the size of the page via the <span class="UIcomponent">zoom</span> option in Chrome. From the top ribbon, click the <span class="UIcomponent">Customize</span> icon in the top right of your browser, and reduce the <span class="UIcomponent">zoom</span> until <MadCap:variable name="General.MapStudio" /> displays correctly, typically o 90% or 80%. </p>
-                <img src="../Resources/Images/GetStarted/zoom.png" alt="zoom in chrome can be adjusted by selecting the menu option in the top right of the browser" class="border" style="width: 498px;height: 402px;" />
+                <img src="../Resources/Images/External/BrowserZoom.png" alt="zoom in chrome can be adjusted by selecting the menu option in the top right of the browser" class="border" style="width: 498px;height: 402px;" />
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown MadCap:conditions="General.Exclude">
@@ -232,7 +232,7 @@
             <MadCap:dropDownBody>
                 <p>The error message you encountered appears within Developing Treatment Alternatives Run Model tab, when you attempt to assign a run name that is already used elsewhere within your <MadCap:variable name="General.ProductName" /> account. To alleviate this error, use a new name for your run. </p>
                 <p>
-                    <img src="../Resources/Images/ErrorsIssues/Error_DTA_behaviormodel07122017.png" alt="Error message as described in text" class="border" />
+                    <img src="../Resources/Images/ErrorsIssues/ErrorDTAModelName.png" alt="Error message as described in text" class="border" />
                 </p>
                 <p>(Reported 7/12/17) - Replaced 7 29 19, there error text for this now reads "There was an error saving the model run 'xyz'"</p>
             </MadCap:dropDownBody>

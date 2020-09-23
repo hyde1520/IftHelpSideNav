@@ -6,7 +6,6 @@
     <Map Name="FBFMFuelMoistures" Link="/Content/00-Concepts/FBFM/FBFMFuelMoistures.htm" />
     <Map Name="UsingMyData" Link="/Content/00-Concepts/UsingMyData.htm" />
     <Map Name="EstLiveFuelMoisture" Link="/Content/00-Concepts/FuelMoistureTables.htm" />
-    <Map Name="IFTDSSInputs" Link="/Content/00-Concepts/IFTDSSInputs.htm" />
     <Map Name="AccountSetup" Link="/Content/00-Concepts/Accounts/AccountSetup.htm" />
     <Map Name="GettingHelp" Link="/Content/00-Concepts/GettingHelp.htm" />
     <Map Name="NavigatingIFTDSS" Link="/Content/00-Concepts/NavigatingIFTDSS.htm" />
@@ -50,7 +49,7 @@
     <Map Name="FlamMapAbout" Link="/Content/20-Models/LFB/About.htm" />
     <Map Name="FBFMHeatValues" Link="/Content/00-Concepts/FBFM/FBFMHeatValues.htm" />
     <Map Name="KnownIssues" Link="/Content/00-AboutIFTDSS/KnownIssues.htm" />
-    <Map Name="EditTools" Link="/Content/10-MapStudio/Functions/EditTools.htm" />
+    <Map Name="EditTools" Link="/Content/10-MapStudio/Functions/CreateEditShps.htm" />
     <Map Name="FCCS" Link="/Content/20-Models/FFT/FCCS.htm" />
     <Map Name="ReportingAbout" Link="/Content/10-Cycle/ReportingAbout.htm" />
     <Map Name="StrategicPlanningAbout" Link="/Content/10-Cycle/StrategicPlanningAbout.htm" />
@@ -436,7 +435,6 @@
     <Map Name="History" Link="/Content/00-AboutIFTDSS/History.htm" />
     <Map Name="ReleaseNotes" Link="/Content/00-AboutIFTDSS/ReleaseNotes.htm" />
     <Map Name="tab_test" Link="/Content/00-AboutIFTDSS/tab_test.htm" />
-    <Map />
     <Map Name="EAArcLyr" Link="/Content/10-Workspace/downloads/EAArcLyr.htm" />
     <Map Name="MTTArcLyr" Link="/Content/10-Workspace/downloads/MTTArcLyr.htm" />
     <Map Name="MTTGeoTiff" Link="/Content/10-Workspace/downloads/MTTGeoTiff.htm" />

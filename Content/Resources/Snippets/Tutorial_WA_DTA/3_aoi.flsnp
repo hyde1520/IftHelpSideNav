@@ -6,18 +6,18 @@
         <h2>Section 3– Creating Areas of Interest</h2>
         <p>To create an Area of Interest (AOI), or polygon, you’ll first adjust the layer visibility to make it easier to identify the area on which you’d like to focus:</p>
         <ol style="list-style-type: upper-alpha;">
-            <li>If you have not done so already, change the <span class="UIcomponent">Basemap Gallery</span><img src="../../Images/MapStudio/overview/button_basemapglry.png" alt="basemap gallery" class="iftbutton" /> layer to “Imagery with Labels” so you can see the landscape imagery.</li>
+            <li>If you have not done so already, change the <span class="UIcomponent">Basemap Gallery</span><img src="../../Images/MapStudio/widget_icons/button_basemapglry.png" alt="basemap gallery" class="iftbutton" /> layer to “Imagery with Labels” so you can see the landscape imagery.</li>
             <li>
-                <p>Set up the <span class="UIcomponent">Layer List</span><img src="../../Images/MapStudio/overview/button_layerlist.png" alt="layer list" class="iftbutton" /> to show the 97th percentile fire behavior output layer for “Flame Lengths”, and set the transparency so you can see roads and topography as you create your AOI, or treatment area.</p>
+                <p>Set up the <span class="UIcomponent">Layer List</span><img src="../../Images/MapStudio/widget_icons/button_layerlist.png" alt="layer list" class="iftbutton" /> to show the 97th percentile fire behavior output layer for “Flame Lengths”, and set the transparency so you can see roads and topography as you create your AOI, or treatment area.</p>
                 <p>
-                    <img src="../../Images/MapStudio/colville_auto97th_transparency.png" alt="Auto97th summary layer displayed in map studio." class="borderlist" />
+                    <img src="../../Images/MapStudio/Map_auto97_trnsprncy_colville_tut.png" alt="Auto97th summary layer displayed in map studio." class="borderlist" />
                 </p>
             </li>
             <li>Select the <span class="UIcomponent">Create/Edit Shapes</span> widget at the bottom of the screen and ensure Polygons is selected in the drop-down box in <span class="UIcomponent">Create/Edit Shapes</span>.</li>
             <li>
                 <p>Next you will create two shapes similar to those shown below (they need not match exactly). Select the <span class="UIcomponent">Freehand Polygon</span> option, and draw a shape around one of the areas of significant fire behavior. Select the Freehand Polygon option again and draw a second shape around the second area that exhibited significant fire behavior. You’ll concentrate on these areas for developing and comparing treatments to meet the objectives of reducing the fire hazard in this area, and returning low intensity fire to this land-scape.</p>
                 <p>
-                    <img src="../../Images/MapStudio/create_edit_shp/colville_shapes.png" alt="three polygons created around high fire behavior areas" class="borderlist" />
+                    <img src="../../Images/MapStudio/widget_create_edit_shp/shps_finished_colville_tut.png" alt="three polygons created around high fire behavior areas" class="borderlist" />
                 </p>
             </li>
             <li>Name this “Watershed Proposed Treatment Areas”.</li>
@@ -25,7 +25,7 @@
             <li>
                 <p>Click <span class="UIcomponent">Create</span>. These three areas are now saved as a single shape and available in the Layer List in Map Studio, as well as in your “Selkirk Fuels Project” folder in <span class="UIcomponent">My Workspace</span>.</p>
                 <p>
-                    <img src="../../Images/MapStudio/create_edit_shp/colville_createshapes.png" alt="Create/Edit Shapes widget open in Map Studio" class="borderlist" />
+                    <img src="../../Images/MapStudio/widget_create_edit_shp/shps_create_colville_tut.png" alt="Create/Edit Shapes widget open in Map Studio" class="borderlist" />
                 </p>
             </li>
         </ol>

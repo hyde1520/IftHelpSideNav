@@ -7,14 +7,14 @@
         <p><a href="https://firenet365.sharepoint.com/:w:/r/sites/IFTDSS_Non_Gov/Shared Documents/General/IBM IFTDSS/IFTDSS Development/Help/Help Center/MTT/MTT General Tech Doc (MTT Fire Spread).docx?d=wd677bafcce0bb46ae548b75d77fe57a6&amp;csf=1&amp;web=1&amp;e=eudfJL" target="_blank">Draft</a>
         </p>
         <p class="comment" MadCap:conditions="General.Exclude">Updated 9-9-2020 1540</p>
-        <p>The IFTDSS Landscape Burn Probability (LBP) model is identical to Minimum Travel Time (MTT) Burn Probability  in FlamMap 6.0, with some fixed modeling inputs (see <a href="#Fixedinputs">below</a> for details).</p>
+        <p>The <MadCap:variable name="General.ProductName" /> Landscape Burn Probability (LBP) model is identical to Minimum Travel Time (MTT) Burn Probability  in FlamMap 6.0, with some fixed modeling inputs (see <a href="#Fixedinputs">below</a> for details).</p>
         <h2>FlamMap MTT Background</h2>
         <MadCap:snippetBlock src="../../Resources/Snippets/Models/TechDoc1MTT.flsnp" />
-        <h2><a name="Fixedinputs"></a>Fixed inputs in IFTDSS</h2>
-        <p>Many of the model inputs are controlled by the user (see the <a href="../LBP/In/OverviewLBP.htm" target="_blank">Input Overview</a> topic for more details); however some model inputs are fixed in IFTDSS  runs and cannot be changed by the user:</p>
+        <h2><a name="Fixedinputs"></a>Fixed inputs in <MadCap:variable name="General.ProductName" /></h2>
+        <p>Many of the model inputs are controlled by the user (see the <a href="../LBP/In/OverviewLBP.htm" target="_blank">Input Overview</a> topic for more details); however some model inputs are fixed in <MadCap:variable name="General.ProductName" />  runs and cannot be changed by the user:</p>
         <ul>
             <li>Spotting delay: The time between ember landing and initiation of fire spread is set to 0 minutes.</li>
-            <li>Spotting seed: The spotting seed is used to fix spotting distance and location between model runs.  In IFTDSS a random number is generated for an initial run for a given landscape extent, ignition and barrier (optional input). Subsequent runs using the same trifecta would re-use the spotting seed. This was done to allow for accurate comparisons between model runs where either model inputs (excluding ignition and barrier) or landscapes (edited versions of the same extent) change.  Without setting the spotting seed, differences seen in fire behavior could be due to differences in spotting.</li>
+            <li>Spotting seed: The spotting seed is used to fix spotting distance and location between model runs.  In <MadCap:variable name="General.ProductName" /> a random number is generated for an initial run for a given landscape extent, ignition and barrier (optional input). Subsequent runs using the same trifecta would re-use the spotting seed. This was done to allow for accurate comparisons between model runs where either model inputs (excluding ignition and barrier) or landscapes (edited versions of the same extent) change.  Without setting the spotting seed, differences seen in fire behavior could be due to differences in spotting.</li>
         </ul>
     </body>
 </html>

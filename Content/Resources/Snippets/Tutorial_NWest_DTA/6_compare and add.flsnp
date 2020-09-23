@@ -7,12 +7,12 @@
         <p>After clicking <span class="UIcomponent">Compare on Map</span>, the map appears in splitscreen mode. This allows you to view information from each tab on the right side of the screen, while allowing you to view my map on the left. You can open or close this feature anytime by selecting the opposing arrows icon at the top of the screen.</p>
         <p>Initially you'll see a simple landscape change map, indicating which pixels experienced a Fuel Model change post-treatment.</p>
         <p>
-            <img src="../../Images/DTA/dta_compare_lcpchange.png" alt="the landscape change layer indicates pixels with a new fire behavior fuel model" class="borderlist">
+            <img src="../../Images/DTA/DTA_CompareLcpChngs_tut.png" alt="the landscape change layer indicates pixels with a new fire behavior fuel model" class="borderlist">
             </img>
         </p>
         <p>To view the change in Flame Length after the treatment, open <span class="UIcomponent">Layer List</span> and check the box next to: "Model Output Change: GC14 Lt Thn Pilebrn 1yr/Granite Creek LF2014 unedited". This layer shows the difference between post-treatment and pre-treatment Flame Lengths. With a glance you can see that all the dark blue showing on those West/Northwest facing slopes that had initially shown very high flame lengths, are now indicating significantly decreased flame lengths and fire intensity. </p>
         <p>
-            <img src="../../Images/DTA/dta_compare_flamelengths.png" alt="model change layer depicts changes in model results between the two landscapes" class="border">
+            <img src="../../Images/DTA/DTA_CompareFL_tut.png" alt="model change layer depicts changes in model results between the two landscapes" class="border">
             </img>
         </p>
         <p>To return to these maps later, you can either access them in your project folder in <span class="UIcomponent">My Workspace</span>, or select this landscape in the <span class="UIcomponent">Develop Treatment Alternatives</span> task, and click through each tab to get back to this point. </p>
@@ -53,7 +53,7 @@
             <li>
                 <p>Navigate&#160;to the <span class="UIcomponent">Edit Landscape </span>tab.</p>
                 <p>
-                    <img src="../../Images/DTA/dta2_picklcp.png" alt="we have picked the same originating landscape and area of interest as before." class="borderlist">
+                    <img src="../../Images/DTA/DTA_EditPickLCP_tut.png" alt="we have picked the same originating landscape and area of interest as before." class="borderlist">
                     </img>
                 </p>
             </li>
@@ -65,7 +65,7 @@
             <li>
                 <p>Click <span class="UIcomponent">Add to Rules</span>.</p>
                 <p>
-                    <img src="../../Images/DTA/dta2_edit_lcp.png" class="borderlist" alt="edit the first treatment landscape with a new low severity wildfire rule">
+                    <img src="../../Images/DTA/DTA_MoreEditsforCompare_tut.png" class="borderlist" alt="edit the first treatment landscape with a new low severity wildfire rule">
                     </img>
                 </p>
             </li>
@@ -74,7 +74,7 @@
         <p>Skip the Model Input tab this time, that input was saved from your last run, and the weather parameters must be kept constant in order to compare the results of the landscape changes.</p>
         <p>Go to the <span class="UIcomponent">Run Model</span> tab and click <span class="UIcomponent">Run Model</span>.</p>
         <p>
-            <img src="../../Images/DTA/dta2_runmodel.png" alt="use the 'run model' button to model the new landscape" class="border">
+            <img src="../../Images/DTA/DTA_RunModelAgain_tut.png" alt="use the 'run model' button to model the new landscape" class="border">
             </img>
         </p>
         <p>Next, move to the <span class="UIcomponent">Compare Alternatives </span>tab.</p>
@@ -86,7 +86,7 @@
             <li>
                 <p>Click <span class="UIcomponent">Compare on map</span>, to get a map view of your changes.</p>
                 <p>
-                    <img src="../../Images/DTA/dta2_comparebuttons.png" alt="first select the new edited landscape, then the original landscape" class="border">
+                    <img src="../../Images/DTA/DTA_CompareBttns_tut.png" alt="first select the new edited landscape, then the original landscape" class="border">
                     </img>
                 </p>
             </li>

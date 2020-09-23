@@ -6,25 +6,25 @@
         <h2>Section 7– Comparing Added Treatments and Concluding</h2>
         <p>As before, select the model change layer to evaluate flame length reduction. Now compare the original untreated landscape with this new treated landscape. What you’ll really want to know is how much of an affect this added treatment of low severity wildfire, or a broadcast burn, will have compared to just the light thinning and pile burn applied earlier. You’ll need to compare the first treatment to the second one to answer this.</p>
         <p>
-            <img src="../../Images/DTA/colville_compare_5.png" alt="Flame length change layer on the map shows a decrease in flame length within the treated area" class="border" />
+            <img src="../../Images/DTA/DTA_Compare5_colville_tut.png" alt="Flame length change layer on the map shows a decrease in flame length within the treated area" class="border" />
         </p>
         <h3>Swipe between layers</h3>
-        <p>To compare these “treatments” (default disturbance edits) on the landscape, first use the <span class="UIcomponent">Swipe</span><img src="../../Images/MapStudio/overview/button_slider.png" alt="swipe" class="iftbutton" /> widget:</p>
+        <p>To compare these “treatments” (default disturbance edits) on the landscape, first use the <span class="UIcomponent">Swipe</span><img src="../../Images/MapStudio/widget_icons/button_slider.png" alt="swipe" class="iftbutton" /> widget:</p>
         <ol style="list-style-type: upper-alpha;">
-            <li>Click <span class="UIcomponent">Simulation Output Tools</span><img src="../../Images/MapStudio/overview/button_SimOutput.png" alt="simulation output" class="iftbutton" /> and check the boxes next to:</li>
+            <li>Click <span class="UIcomponent">Simulation Output Tools</span><img src="../../Images/MapStudio/widget_icons/button_SimOutput.png" alt="simulation output" class="iftbutton" /> and check the boxes next to:</li>
             <li>“Watershed 20 Thn Pburn 10 yr” the first treatment of thinning and pile burning.</li>
             <li>
                 <p>“Watershed 20 Thn 10 yr Rx 1 yr” the second treatment, which follows the thin with a low-severity burn.</p>
                 <p>
-                    <img src="../../Images/DTA/colville_compare_simtools_thin_rx.png" alt="Both treated landscapes are checked in the &quot;Simulation Output Tools&quot; widget" class="borderlist" />
+                    <img src="../../Images/DTA/DTA_CompareSimToolsThinRx_colville_tut.png" alt="Both treated landscapes are checked in the &quot;Simulation Output Tools&quot; widget" class="borderlist" />
                 </p>
             </li>
             <li>In Layer List, check or uncheck the layers until only your landscapes of interest are displayed. In this example, “Watershed 20 Thn Pburn 10 yr” is shown on top, and “Model Output: Watershed 20 Thn 10 yr Rx 1 yr” is shown on the bottom.</li>
-            <li> Click the <span class="UIcomponent">Swipe</span><img src="../../Images/MapStudio/overview/button_slider.png" alt="swipe" class="iftbutton" /> widget.</li>
+            <li> Click the <span class="UIcomponent">Swipe</span><img src="../../Images/MapStudio/widget_icons/button_slider.png" alt="swipe" class="iftbutton" /> widget.</li>
             <li>
-                <p>You can control the layers that appear in the <span class="UIcomponent">Swipe</span><img src="../../Images/MapStudio/overview/button_slider.png" alt="swipe" class="iftbutton" /> widget using the box in the top right of the map that appears once the <span class="UIcomponent">Swipe</span><img src="../../Images/MapStudio/overview/button_slider.png" alt="swipe" class="iftbutton" /> widget is clicked. The layer selected in this box is the layer that appears in the top half of the slider, and hidden on the bottom half.</p>
+                <p>You can control the layers that appear in the <span class="UIcomponent">Swipe</span><img src="../../Images/MapStudio/widget_icons/button_slider.png" alt="swipe" class="iftbutton" /> widget using the box in the top right of the map that appears once the <span class="UIcomponent">Swipe</span><img src="../../Images/MapStudio/widget_icons/button_slider.png" alt="swipe" class="iftbutton" /> widget is clicked. The layer selected in this box is the layer that appears in the top half of the slider, and hidden on the bottom half.</p>
                 <p>
-                    <img src="../../Images/DTA/colville_compare_flamelength_thin_rx.png" alt="swipe widget with the fire behavior from the &quot;thin and pile&quot; landscape on top, and &quot;thin, pile, and burn&quot; landscape on the bottom" class="borderlist" />
+                    <img src="../../Images/DTA/DTA_FlmLngThinRx_colville_tut.png" alt="swipe widget with the fire behavior from the &quot;thin and pile&quot; landscape on top, and &quot;thin, pile, and burn&quot; landscape on the bottom" class="borderlist" />
                 </p>
             </li>
         </ol>
@@ -32,19 +32,19 @@
         <p>Set the Layer List up again, this time opening:</p>
         <ol style="list-style-type: upper-alpha;">
             <li><span class="UIcomponent">Landscape Tools</span>
-                <img src="../../Images/MapStudio/overview/button_landscapetools.png" alt="landscape tools" class="iftbutton" /> widget.</li>
+                <img src="../../Images/MapStudio/widget_icons/button_landscapetools.png" alt="landscape tools" class="iftbutton" /> widget.</li>
             <li>
                 <p>Select the two treatment layers.</p>
                 <p>
-                    <img src="../../Images/DTA/colville_lcp_tools_select.png" alt="use the Landscape Tools widget to make sure the landscape layers for both treatments appear on the map" class="borderlist" />
+                    <img src="../../Images/MapStudio/widget_landscp_tools/LcpTools_LcpSelect_colville_tut.png" alt="use the Landscape Tools widget to make sure the landscape layers for both treatments appear on the map" class="borderlist" />
                 </p>
             </li>
-            <li>Make sure these layers appear on the <span class="UIcomponent">Layer List</span><img src="../../Images/MapStudio/overview/button_layerlist.png" alt="layer list" class="iftbutton" />.</li>
-            <li>Click the <span class="UIcomponent">Swipe</span><img src="../../Images/MapStudio/overview/button_slider.png" alt="swipe" class="iftbutton" /> widget.</li>
+            <li>Make sure these layers appear on the <span class="UIcomponent">Layer List</span><img src="../../Images/MapStudio/widget_icons/button_layerlist.png" alt="layer list" class="iftbutton" />.</li>
+            <li>Click the <span class="UIcomponent">Swipe</span><img src="../../Images/MapStudio/widget_icons/button_slider.png" alt="swipe" class="iftbutton" /> widget.</li>
             <li>
                 <p>Set the layers to swipe.</p>
                 <p>
-                    <img src="../../Images/DTA/colville_two_treatments_lcpcompare.png" alt="using the swipe widget helps visualize changes to fuel models between the two treatments" class="borderlist" />
+                    <img src="../../Images/DTA/DTA_CompareTwoTreatmnts_colville_tut.png" alt="using the swipe widget helps visualize changes to fuel models between the two treatments" class="borderlist" />
                 </p>
             </li>
         </ol>

@@ -4,9 +4,9 @@
     </head>
     <body>
         <h2>Management Scenario</h2>
-        <p>You are a Fuels Planner on the Colville National Forest, about 47 miles northeast of Spokane, WA. In this scenario, you will use IFTDSS to plan hazardous fuels reduction projects within three main watersheds within a proposed Collaborative Forest Landscape Restoration Program (CFLRP) project area.</p>
+        <p>You are a Fuels Planner on the Colville National Forest, about 47 miles northeast of Spokane, WA. In this scenario, you will use <MadCap:variable name="General.ProductName" /> to plan hazardous fuels reduction projects within three main watersheds within a proposed Collaborative Forest Landscape Restoration Program (CFLRP) project area.</p>
         <p>
-            <img src="../../Images/MapStudio/measurement/colville_distance.png" alt="Sullivan lake is approximately 46 miles north of Newport." class="border" />
+            <img src="../../Images/MapStudio/widget_measurement/Msr_distance_colville_tut.png" alt="Sullivan lake is approximately 46 miles north of Newport." class="border" />
         </p>
         <p>The new Colville National Forest Plan has just been released and includes some new direction that allows certain fuels reduction treatments within Inventoried Roadless Areas (IRAs) and the use of wildfire for re-source benefit in certain circumstances. Based on the new Forest Plan Direction, you see a need for some sort of fuels reduction treatments in the Sullivan, Slate, and Salmo Watersheds of the northeastern portion of the proposed CFLRP project area.</p>
         <p>Based on Forest Plan direction and the CFLRP proposal guidelines, our objectives are to:</p>
@@ -17,9 +17,9 @@
             <li>Describe why the treatment acres were chosen. Why here? Why now? What risk assessment did you use to identify these areas, e.g. wildfire hazard potential map or regional risk assessment, forest-wide risk assessment, etc.</li>
             <li>Demonstrate the need for treatment, both quantitatively and spatially, to members of your district interdisciplinary (ID) team.</li>
         </ul>
-        <p>You will use IFTDSS to plan a treatment around these objectives.</p>
+        <p>You will use <MadCap:variable name="General.ProductName" /> to plan a treatment around these objectives.</p>
         <p>
-            <img src="../../Images/External/sullivan_lake.png" alt="sullivan lake with mountains visible in the background" class="border" />
+            <img src="../../Images/External/sullivan_lake_tut.png" alt="sullivan lake with mountains visible in the background" class="border" />
         </p>
         <p style="font-size: 10pt;">Sullivan Lake. Photo courtesy of Daniel Brown, USFS, Colville National Forest.</p>
     </body>

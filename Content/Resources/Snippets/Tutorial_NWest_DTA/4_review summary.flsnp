@@ -16,7 +16,7 @@
                 </p>
             </li>
             <li>
-                <p>In the top right of the report, click the<span class="UIcomponent"> Download</span> <img src="../../Images/ButtonsGeneral/download.png" alt="download" class="iftbutton" /> button to save a copy to your local computer, you'll refer to this PDF again later in this tutorial.</p>
+                <p>In the top right of the report, click the<span class="UIcomponent"> Download</span> <img src="../../Images/ButtonsGeneral/Btn_Download.png" alt="download" class="iftbutton" /> button to save a copy to your local computer, you'll refer to this PDF again later in this tutorial.</p>
                 <p>
                     <img src="../../Images/Reports/dta_report_save.png" alt="the 'save as pdf' button is located in the top right of the report" class="borderlist">
                     </img>
@@ -38,7 +38,7 @@
             <img src="../../Images/Reports/dta_report_flamelength_map.png" alt="details are displayed on the bottom right of the report maps" class="border">
             </img>
         </p>
-        <p>Notice the Auto97th Fire Behavior section of the report has recorded the 97th percentile weather and fuel moisture inputs used to run the fire behavior model. You'll want to use these values when you re-run the fire behavior model a little later in this tutorial. If you have not already saved a pdf copy of the report, scroll up to the top of the report, look to the top right, and click the <span class="UIcomponent">Download</span> <img src="../../Images/ButtonsGeneral/download.png" alt="download" style="width: 25px; height: 18px;" class="iftbutton" /> button to save this report as a pdf on your local machine. </p>
+        <p>Notice the Auto97th Fire Behavior section of the report has recorded the 97th percentile weather and fuel moisture inputs used to run the fire behavior model. You'll want to use these values when you re-run the fire behavior model a little later in this tutorial. If you have not already saved a pdf copy of the report, scroll up to the top of the report, look to the top right, and click the <span class="UIcomponent">Download</span> <img src="../../Images/ButtonsGeneral/Btn_Download.png" alt="download" style="width: 25px; height: 18px;" class="iftbutton" /> button to save this report as a pdf on your local machine. </p>
         <p>Each chart also has a download button to right so it may be downloaded individually for use in your own documents. Tables have download buttons under the table descriptions.</p>
         <p>
             <img src="../../Images/Reports/dta_export_report_parts.png" alt="each component of the summary report may be downloaded individually" class="border" />

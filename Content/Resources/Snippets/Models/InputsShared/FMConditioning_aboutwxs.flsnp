@@ -3,7 +3,7 @@
     <head>
     </head>
     <body>
-        <p>In IFTDSS you have the option of conditioning initial fuel moistures by uploading your own weather stream (.wxs) file. If you do not have a .wxs file and need to create one, this tutorial walks through the creation of a .wxs file for use in <MadCap:variable name="General.ProductName"></MadCap:variable>. First you will download historical hourly weather data (FW13 file), then use FireFamilyPlus to create the .wxs.</p>
+        <p>In <MadCap:variable name="General.ProductName" /> you have the option of conditioning initial fuel moistures by uploading your own weather stream (.wxs) file. If you do not have a .wxs file and need to create one, this tutorial walks through the creation of a .wxs file for use in <MadCap:variable name="General.ProductName"></MadCap:variable>. First you will download historical hourly weather data (FW13 file), then use FireFamilyPlus to create the .wxs.</p>
         <MadCap:snippetBlock src="../Flammap/wxs_validation_warning.flsnp">
         </MadCap:snippetBlock>
         <h2>Downloading hourly weather data</h2>
@@ -27,7 +27,7 @@
             <li>
                 <p>Click <span class="UIcomponent">Run Extract</span> to save a copy of the data to your local machine.</p>
                 <p>
-                    <img src="../../../Images/External/Websites/KCFAST_fw13.png" alt="KCFAST webpage image showing the steps described here in text." class="borderlist">
+                    <img src="../../../Images/External/Websites/Web_KCFAST_FW13.png" alt="KCFAST webpage image showing the steps described here in text." class="borderlist">
                     </img>
                 </p>
             </li>
@@ -42,7 +42,7 @@
             <li>
                 <p>Save the file to your local machine without opening it by right clicking the station link, select "Save link as" and save the data to your local machine.</p>
                 <p>
-                    <img src="../../../Images/External/Websites/WFAS_FW13.png" alt="web page image indicating the steps described here in text." class="borderlist">
+                    <img src="../../../Images/External/Websites/Web_WFAS_FW13.png" alt="web page image indicating the steps described here in text." class="borderlist">
                     </img>
                 </p>
             </li>
@@ -56,7 +56,7 @@
             <li>
                 <p>Right click the download link. Save the file to your local machine without opening it by clicking “Save link as” to save the file. Give the file a name, and click “OK”.</p>
                 <p>
-                    <img src="../../../Images/External/Websites/CEFA_FW13.png" alt="webpage displaying steps as described here in text." class="borderlist">
+                    <img src="../../../Images/External/Websites/Web_CEFA_FW13.png" alt="webpage displaying steps as described here in text." class="borderlist">
                     </img>
                 </p>
             </li>
@@ -72,21 +72,21 @@
             <li>
                 <p>Go to the <span class="UIcomponent">Data</span> tab and select <span class="UIcomponent">Import</span> to import your FW13 file.</p>
                 <p>
-                    <img src="../../../Images/External/FireFamilyPlus/startnewff.png" alt="start a new session from 'file' as described here in text." class="borderlist">
+                    <img src="../../../Images/External/FireFamilyPlus/FFP_StartNewFF.png" alt="start a new session from 'file' as described here in text." class="borderlist">
                     </img>
                 </p>
             </li>
             <li>
                 <p>Click <span class="UIcomponent">FW9/FW13 Files</span> and select your file from your local machine. If you are asked whether or not to let FF+ overwrite existing records, choose “No” and continue.</p>
                 <p>
-                    <img src="../../../Images/External/FireFamilyPlus/selectfwfile.png" alt="select the 'FW9/FW13 Files' type to import." class="borderlist">
+                    <img src="../../../Images/External/FireFamilyPlus/FFP_SelectFwFile.png" alt="select the 'FW9/FW13 Files' type to import." class="borderlist">
                     </img>
                 </p>
             </li>
             <li>
                 <p>When your data import is complete, close the Notification and Import boxes.</p>
                 <p>
-                    <img src="../../../Images/External/FireFamilyPlus/close.png" alt="click the 'close' buttons that appear when the file import is complete." class="borderlist">
+                    <img src="../../../Images/External/FireFamilyPlus/FFP_Close.png" alt="click the 'close' buttons that appear when the file import is complete." class="borderlist">
                     </img>
                 </p>
             </li>
@@ -95,14 +95,14 @@
             <li>
                 <p>Make sure <span class="UIcomponent">Analysis Period Length (Days)</span> is set to “1”.</p>
                 <p>
-                    <img src="../../../Images/External/FireFamilyPlus/analysis_dates.png" alt="follow the steps outlined here in text to select up to 31 days of weather data and a analysis period length of 1 day." class="borderlist">
+                    <img src="../../../Images/External/FireFamilyPlus/FFP_AnalysisDates.png" alt="follow the steps outlined here in text to select up to 31 days of weather data and a analysis period length of 1 day." class="borderlist">
                     </img>
                 </p>
             </li>
             <li>
                 <p>Click the <span class="UIcomponent">Weather</span> tab from the top menu, hover over <span class="UIcomponent">Hourly Data Analysis</span> and click <span class="UIcomponent">Flammap/FARSITE Exports</span>.</p>
                 <p>
-                    <img src="../../../Images/External/FireFamilyPlus/exportdata.png" alt="use the weather tab as described in text to set up the export process." class="borderlist">
+                    <img src="../../../Images/External/FireFamilyPlus/FFP_ExportData.png" alt="use the weather tab as described in text to set up the export process." class="borderlist">
                     </img>
                 </p>
             </li>
@@ -111,14 +111,14 @@
             <li>
                 <p>Click “OK".</p>
                 <p>
-                    <img src="../../../Images/External/FireFamilyPlus/FlammapFarsiteoption.png" alt="Select the  'Flammap/FARSITE Stream (.wxs)' file type, use 'ten minute avg' winds, and click 'ok'." class="borderlist">
+                    <img src="../../../Images/External/FireFamilyPlus/FFP_FlammapFarsiteOption.png" alt="Select the  'Flammap/FARSITE Stream (.wxs)' file type, use 'ten minute avg' winds, and click 'ok'." class="borderlist">
                     </img>
                 </p>
             </li>
             <li>
                 <p>Once your file is created you may close Fire Family Plus. The newly created .wxs is available on your local machine for use in <MadCap:variable name="General.ProductName" />.</p>
                 <p>
-                    <img src="../../../Images/External/PC/wxs_file.png" alt="The wxs file will now be available for upload into IFTDSS." class="borderlist" />
+                    <img src="../../../Images/External/PC/Pc_WXSFile.png" alt="The wxs file will now be available for upload into IFTDSS." class="borderlist" />
                 </p>
             </li>
         </ol>

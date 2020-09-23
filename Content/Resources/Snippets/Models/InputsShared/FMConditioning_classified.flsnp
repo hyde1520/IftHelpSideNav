@@ -14,20 +14,20 @@
         <ol style="list-style-type: upper-alpha;">
             <li>Open the <span class="UIcomponent">Add Layers</span> widget.</li>
             <li>
-                <p>From the <span class="UIcomponent">IFTDSS Reference Layers</span> tab, scroll down and expand the “Other Layers” section and click the box next to “Pyrome”.</p>
+                <p>From the <span class="UIcomponent"><MadCap:variable name="General.ProductName" /> Reference Layers</span> tab, scroll down and expand the “Other Layers” section and click the box next to “Pyrome”.</p>
                 <p>
-                    <img src="../../../Images/Models/FMConditioning/open_pyrome.png" alt="view pyromes in the 'add layers' tab." class="borderlist">
+                    <img src="../../../Images/MapStudio/widget_add_layer/add_lyr_ReferencePyrome.png" alt="view pyromes in the 'add layers' tab." class="borderlist">
                     </img>
                 </p>
             </li>
             <li>
                 <p>You will notice several light gray boundary lines appear on the map. To view these better, open the <span class="UIcomponent">Basemap Gallery</span> and select the "Dark Gray Canvas" option. Close the Basemap Gallery.</p>
                 <p>
-                    <img src="../../../Images/Models/FMConditioning/adjust_basemap.png" alt="pryomes are best viewed with the 'dark gray canvas' baselayer turned on." class="borderlist">
+                    <img src="../../../Images/MapStudio/widget_basemap/Base_AdjustForFuelCond.png" alt="pryomes are best viewed with the 'dark gray canvas' baselayer turned on." class="borderlist">
                     </img>
                 </p>
             </li>
-            <li>Open the <span class="UIcomponent">Identify</span> widget <img src="../../../Images/MapStudio/overview/button_identify.png" alt="identify" class="iftbutton"></img> in the top right of <span class="UIcomponent">Map Studio</span>.</li>
+            <li>Open the <span class="UIcomponent">Identify</span> widget <img src="../../../Images/MapStudio/widget_icons/button_identify.png" alt="identify" class="iftbutton"></img> in the top right of <span class="UIcomponent">Map Studio</span>.</li>
             <li>
                 <p>Click on your area and examine the data that appears in the <span class="UIcomponent">Identify</span> box.</p>
             </li>

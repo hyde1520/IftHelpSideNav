@@ -10,13 +10,13 @@
             <li>
                 <p>From the <span class="UIcomponent">Cycle</span>, select the <span class="UIcomponent">Strategic Planning</span> stage and click the <span class="UIcomponent">Exposure Analysis</span> option under <span class="UIcomponent">Hazard, Exposure, and Risk Assessments</span>.</p>
                 <p>
-                    <img src="../../../Resources/Images/Cycle/EA_finding_it.png" alt="Strategic planning stage of the cycle open with Exposure Analysis as one of the options listed" class="borderlist" />
+                    <img src="../../../Resources/Images/Cycle/Cyl_StratPlanEA.png" alt="Strategic planning stage of the cycle open with Exposure Analysis as one of the options listed" class="borderlist" />
                 </p>
             </li>
             <li>
-                <p>Select a Landscape Burn Probability (LBP) output from the drop-down menu. If you have not run an LBP model, navigate to that part of IFTDSS by clicking the  <img src="../../../Resources/Images/ButtonsGeneral/lbp_create.png" alt="flame" class="iftbutton" /> button located to the right of the drop-down menu. See the <a href="../../../20-Models/LBP/About.htm" target="_blank">LBP Overview</a> topic or the <a href="../../../20-Models/LBP/LBPTutorial.htm" target="_blank">LBP Tutorial</a> topic if needed.</p>
+                <p>Select a Landscape Burn Probability (LBP) output from the drop-down menu. If you have not run an LBP model, navigate to that part of <MadCap:variable name="General.ProductName" /> by clicking the  <img src="../../../Resources/Images/ButtonsGeneral/Btn_LBP_Create.png" alt="flame" class="iftbutton" /> button located to the right of the drop-down menu. See the <a href="../../../20-Models/LBP/About.htm" target="_blank">LBP Overview</a> topic or the <a href="../../../20-Models/LBP/LBPTutorial.htm" target="_blank">LBP Tutorial</a> topic if needed.</p>
                 <p>
-                    <img src="../../../Resources/Images/ExposureAnalysis/select_LBP.png" alt="a dropdown list of available Landscape Burn Probability model outputs" class="borderlist" />
+                    <img src="../../../Resources/Images/ExposureAnalysis/EA_SelectLBP.png" alt="a dropdown list of available Landscape Burn Probability model outputs" class="borderlist" />
                 </p>
                 <div class="notificationTip">
                     <p>Completed LBP outputs appear in the drop-down with a green checkmark to the right of the output name.</p>
@@ -29,41 +29,41 @@
                 </div>
             </li>
             <li>
-                <p>Select an HVRA set from the drop-down menu. If you have not yet created an HVRA Set, navigate to that part of IFTDSS by clicking  the <img src="../../../Resources/Images/ButtonsGeneral/hvra_create.png" alt="Create HVRA" class="iftbutton" /> button to the right of the drop-down menu. See the <a href="../MapValues/HVRAAbout.htm" target="_blank">HVRA Overview</a> topic or the <a href="../MapValues/HVRACreate.htm" target="_blank">Map Values Tutorial</a> topic if needed.</p>
+                <p>Select an HVRA set from the drop-down menu. If you have not yet created an HVRA Set, navigate to that part of <MadCap:variable name="General.ProductName" /> by clicking  the <img src="../../../Resources/Images/ButtonsGeneral/Btn_HVRA_Create.png" alt="Create HVRA" class="iftbutton" /> button to the right of the drop-down menu. See the <a href="../MapValues/HVRAAbout.htm" target="_blank">HVRA Overview</a> topic or the <a href="../MapValues/HVRACreate.htm" target="_blank">Map Values Tutorial</a> topic if needed.</p>
                 <div class="notificationImportant">
                     <p>The extent of your LBP model run dictates which HVRA Sets are available in the next step. Only HVRA sets that fully match or exceed the LBP extent are available, as full coverage is needed for Exposure Analysis (EA) calculations.</p>
                 </div>
                 <p>
-                    <img src="../../../Resources/Images/ExposureAnalysis/select_HVRA.png" alt="A dropdown list of available HVRA Sets" class="borderlist" />
+                    <img src="../../../Resources/Images/ExposureAnalysis/EA_SelectHVRA.png" alt="A dropdown list of available HVRA Sets" class="borderlist" />
                 </p>
             </li>
             <li>
                 <p>(Optional) If you select an HVRA Set with a greater extent than your selected LBP model output, you are prompted to create a smaller version of the HVRA Set that matches the extent of the LBP model output. Clicking the link that appears in the yellow notification box does this automatically. You are prompted to give the new HVRA Set a name and click <span class="UIcomponent">Save</span>. During this process you do not leave the Exposure Analysis interface.</p>
                 <p>
-                    <img src="../../../Resources/Images/ExposureAnalysis/newHVRAsubset.png" alt="The 'Create and save New HVRA Set' link in the warning box can be cicked on to create a new smaller version of your selected HVRA set that matches the extent of you're Landscape Burn Probability output." class="border" />
+                    <img src="../../../Resources/Images/ExposureAnalysis/EA_NewHVRA_Subset.png" alt="The 'Create and save New HVRA Set' link in the warning box can be cicked on to create a new smaller version of your selected HVRA set that matches the extent of you're Landscape Burn Probability output." class="border" />
                 </p>
                 <p>Once the HVRA set is selected, the system checks for intersections and populates the Map with the HVRA set information. Id defaults to have all the HVRA layers turned on.  The HVRA set and layers are shown only for visual verification that the proper HVRA set is selected, they cannot be edited in this part of the application.</p>
                 <p>
-                    <img src="../../../Resources/Images/ExposureAnalysis/excluded_subhvras.png" alt="Sub-HVRAs shown in red italics are outside of the extent of the new smaller HVRA set and will not be included." class="borderlist" />
+                    <img src="../../../Resources/Images/ExposureAnalysis/EA_ExcludedSubHVRA.png" alt="Sub-HVRAs shown in red italics are outside of the extent of the new smaller HVRA set and will not be included." class="borderlist" />
                 </p>
                 <p>Any Sub-HVRAs displayed in red italics during this process are outside of the LBP model extent and will not be included in the new smaller HVRA Set.</p>
             </li>
             <li>
                 <div class="notificationImportant">
-                    <p>Once you click <span class="UIcomponent">Run</span>, the HVRA-Set used in EA can no longer be edited or deleted from IFTDSS as it will have a set of EA outputs depending upon it. Before clicking <span class="UIcomponent">Run</span>, you can go back and select a different LBP output to analyze, but it clears all your inputs.</p>
+                    <p>Once you click <span class="UIcomponent">Run</span>, the HVRA-Set used in EA can no longer be edited or deleted from <MadCap:variable name="General.ProductName" /> as it will have a set of EA outputs depending upon it. Before clicking <span class="UIcomponent">Run</span>, you can go back and select a different LBP output to analyze, but it clears all your inputs.</p>
                 </div>
                 <p>Give your Exposure Analysis a descriptive name and click <span class="UIcomponent">Run</span>.</p>
                 <p>
-                    <img src="../../../Resources/Images/ExposureAnalysis/EA_name.png" alt="The text field to name your Exposure Analysis is seen on the bottom of the page to the left of the &quot;Run&quot; button." class="borderlist" />
+                    <img src="../../../Resources/Images/ExposureAnalysis/EA_Name.png" alt="The text field to name your Exposure Analysis is seen on the bottom of the page to the left of the &quot;Run&quot; button." class="borderlist" />
                 </p>
                 <p>Once you have clicked Run you will see a pop up informing you that you’ll be redirected to My Workspace. Click <span class="UIcomponent">Yes</span> to proceed. You will be redirected to the folder in MyWorkspace in which your LBP model output, and EA output are stored.</p>
                 <p>
-                    <img src="../../../Resources/Images/ExposureAnalysis/save_run_confirmation_popup.png" alt="confirmation pop up box described in text." class="borderlist" />
+                    <img src="../../../Resources/Images/ExposureAnalysis/EA_SaveConfirmationPopup.png" alt="confirmation pop up box described in text." class="borderlist" />
                 </p>
                 <p>Initially the EA output has a status of “Requested”. It may take several minutes to build, during which time you may use the status refresh button to check on its status.</p>
                 <MadCap:snippetBlock src="../../../Resources/Snippets/RunMaximums/Exposure.flsnp" />
                 <div class="notificationImportant">
-                    <p>The error " gov.iftdss.exception.IFTDSS..." in the right hand panel of My Workspace when checking your EA run indicates you will need to re-run&#160;Exposure Analysis later. See the <a href="../../../00-AboutIFTDSS/KnownIssues.htm#ExposureError" target="_blank">Known Issues topic</a> for more details. </p>
+                    <p>The error " gov.iftdss.exception.<MadCap:variable name="General.ProductName" />..." in the right hand panel of My Workspace when checking your EA run indicates you will need to re-run&#160;Exposure Analysis later. See the <a href="../../../00-AboutIFTDSS/KnownIssues.htm#ExposureError" target="_blank">Known Issues topic</a> for more details. </p>
                 </div>
             </li>
         </ol>

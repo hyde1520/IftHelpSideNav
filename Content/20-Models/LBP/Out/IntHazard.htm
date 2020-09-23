@@ -6,15 +6,15 @@
     <body>
         <h1>
             <MadCap:keyword term="Integrated Hazard" />Integrated Hazard</h1>
-        <p>The term Hazard is used by the wildland fire community to define a variety of conditions or situations where damage to assets by fire is being evaluated.  Hazard is quantified and categorized in IFTDSS using the Landscape Burn Probability (LBP) model evaluating:</p>
+        <p>The term Hazard is used by the wildland fire community to define a variety of conditions or situations where damage to assets by fire is being evaluated.  Hazard is quantified and categorized in <MadCap:variable name="General.ProductName" /> using the Landscape Burn Probability (LBP) model evaluating:</p>
         <ul>
             <li>The probability of a fire occurring at a specific point under a specified set of conditions, and</li>
             <li>The intensity at a specific point given a fire occurs.</li>
         </ul>
-        <p>Integrated Hazard in IFTDSS combines two important measures —burn probability and conditional flame length—into a single characteristic that can be mapped. Within IFTDSS, the classified values of</p>
+        <p>Integrated Hazard in <MadCap:variable name="General.ProductName" /> combines two important measures —burn probability and conditional flame length—into a single characteristic that can be mapped. Within <MadCap:variable name="General.ProductName" />, the classified values of</p>
         <p> <a href="BurnProb.htm" target="_blank">Burn Probability</a> and <a href="ConditionalFL.htm" target="_blank">Conditional Flame Length</a> are used to determine and map Integrated Hazard.</p>
         <div class="notificationImportant">
-            <p>Like Burn Probability, Integrated Hazard in IFTDSS is dynamic based on the extent at which it is mapped or reported. Extent options include full landscape, unbuffered landscape, and area of interest. See <a href="DynamicMask.htm" target="_blank">Masks and Map Extent (Dynamic)</a> for an example.</p>
+            <p>Like Burn Probability, Integrated Hazard in <MadCap:variable name="General.ProductName" /> is dynamic based on the extent at which it is mapped or reported. Extent options include full landscape, unbuffered landscape, and area of interest. See <a href="DynamicMask.htm" target="_blank">Masks and Map Extent (Dynamic)</a> for an example.</p>
         </div>
         <p>
             <img src="../../../Resources/Images/Models/LBP/Integrated_Hazard_diagram.png" class="border" alt="conceptual box-and-arrow figure showing landscape, weather, and ignition inputs feeding into fire simulation. Fire simulation produces burn probability and conditional flame length outputs which are both used for the integrated hazard output." />
@@ -25,9 +25,9 @@
         </p>
         <p>For example, a pixel with a burn probability of “Highest”, and conditional flame length of &gt;8-12-ft would have an integrated hazard of “Highest”.</p>
         <p>
-            <img src="../../../Resources/Images/Models/LBP/IH_table_demo.png" class="border" alt="crosswalking on the integrated hazard matrix. A conditional flame length of &gt;8-12 feet and a burn probability of 80-100% corresponds to red on the color scale." />
+            <img src="../../../Resources/Images/Conceptuals/Fig_IHTableDemo.png" class="border" alt="crosswalking on the integrated hazard matrix. A conditional flame length of &gt;8-12 feet and a burn probability of 80-100% corresponds to red on the color scale." />
         </p>
-        <p>IFTDSS Integrated Hazard is categorized with seven distinct classes. The first two are for pixels that did not burn and the remaining five classes are dynamic based on the integrated hazard matrix above. They include:</p>
+        <p><MadCap:variable name="General.ProductName" /> Integrated Hazard is categorized with seven distinct classes. The first two are for pixels that did not burn and the remaining five classes are dynamic based on the integrated hazard matrix above. They include:</p>
         <ul>
             <li>Non-burnable</li>
             <li>Burnable but not burned</li>
@@ -38,15 +38,15 @@
             <li>Highest Hazard</li>
         </ul>
         <h2>Display</h2>
-        <p>Landscape Burn Probability model outputs in the Map Studio for each specific analysis include a layer for Integrated Hazard in the outputs legend, as well as for Burn Probability and Conditional Flame Length. Integrated Hazard outputs can be viewed on the Map in the Layers List and using the Identify <img src="../../../Resources/Images/MapStudio/overview/button_identify.png" alt="identify" /> widget.</p>
+        <p>Landscape Burn Probability model outputs in the Map Studio for each specific analysis include a layer for Integrated Hazard in the outputs legend, as well as for Burn Probability and Conditional Flame Length. Integrated Hazard outputs can be viewed on the Map in the Layers List and using the Identify <img src="../../../Resources/Images/MapStudio/widget_icons/button_identify.png" alt="identify" /> widget.</p>
         <p>
-            <img src="../../../Resources/Images/MapStudio/Layerlist_identify.png" class="border" alt="information shown in the identify widget" />
+            <img src="../../../Resources/Images/MapStudio/Map_LyrList_Id.png" class="border" alt="information shown in the identify widget" />
         </p>
         <p>
-            <img src="../../../Resources/Images/MapStudio/BP_CFL_Hazard2.png" class="border" alt="comparison of burn probability, conditional flame length, and integrated hazard" />
+            <img src="../../../Resources/Images/Conceptuals/Fig_BP_CFL_HazardCompare.png" class="border" alt="comparison of burn probability, conditional flame length, and integrated hazard" />
         </p>
-        <p>In Map Studio, you can view the Integrated Hazard matrix table by clicking the <span class="UIcomponent">More Options <img src="../../../Resources/Images/ButtonsGeneral/moreoptions.png" alt="more options" class="iftbutton" /> button</span> next to the “Integrated Hazard” feature in the  <span class="UIcomponent">Layer List</span> and select the Integrated Hazard Matrix option. You may click and the drag table to relocate it if needed.</p>
-        <img src="../../../Resources/Images/MapStudio/IH_table_popover.png" alt="Map studio with Layer List and Integrated Hazard Matrix table both visible." class="border" />
+        <p>In Map Studio, you can view the Integrated Hazard matrix table by clicking the <span class="UIcomponent">More Options <img src="../../../Resources/Images/ButtonsGeneral/Btn_MoreOptions.png" alt="more options" class="iftbutton" /> button</span> next to the “Integrated Hazard” feature in the  <span class="UIcomponent">Layer List</span> and select the Integrated Hazard Matrix option. You may click and the drag table to relocate it if needed.</p>
+        <img src="../../../Resources/Images/MapStudio/Map_lbp_hazard_view_table.png" alt="Map studio with Layer List and Integrated Hazard Matrix table both visible." class="border" />
         <div class="notificationImportant">
             <p>Places on the landscape can be unburned for three reasons: 1) the location has a non-burnable fuel model,  2) a modeled fire never reached that location, or 3) an ignition started but did not burn out of the current pixel.</p>
         </div>

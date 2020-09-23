@@ -6,13 +6,13 @@
         <h1>
             <MadCap:keyword term="Combining" />
             <MadCap:keyword term="LBP" />Combining LBP Spatial Outputs - Considerations</h1>
-        <p>When you are unable to run LBP for your entire analysis area due to its size, you can create multiple smaller landscapes and combine the model results for those outside of IFTDSS using a GIS application such as ArcMap. <span class="Emphasis">If you choose this approach, read the guidelines below to ensure accurate result interpretation.</span></p>
+        <p>When you are unable to run LBP for your entire analysis area due to its size, you can create multiple smaller landscapes and combine the model results for those outside of <MadCap:variable name="General.ProductName" /> using a GIS application such as ArcMap. <span class="Emphasis">If you choose this approach, read the guidelines below to ensure accurate result interpretation.</span></p>
         <h2>Dividing the Analysis Area</h2>
         <p>Dividing large areas into smaller ones for modeling purposes often entails separating the large analysis area into smaller Fire Occurrence Areas (FOAs). The FOAs are typically chosen based on similar fire characteristics, often driven by vegetation, topography, or climatology. The following are questions to ask yourself when determining how to break a larger analysis area into FOAs:</p>
         <ul>
             <li>Do vegetation or fuel types vary due to elevation or other contributing factors such as soil type? Does this impact the size or frequency of historic fires?</li>
             <li>Are fuel moistures drastically different based on topography? This can include both elevation and aspect.</li>
-            <li>Do wind patterns, speed and/or direction, vary across the analysis area?<ul><li>In Map Studio, open the <span class="UIcomponent">Add Layers <img src="../../Resources/Images/MapStudio/overview/button_adref.png" alt="add Layers" class="iftbutton" /></span> widget, go to the <span class="UIcomponent">IFTDSS Reference Layers</span> tab, and turn on the “Disturbance History - Historic Wildfire” layer. What is the predominant shape of the “problem fires” for the analysis area?  Are they wind driven?  If so, what is the predominant wind direction?</li></ul></li>
+            <li>Do wind patterns, speed and/or direction, vary across the analysis area?<ul><li>In Map Studio, open the <span class="UIcomponent">Add Layers <img src="../../Resources/Images/MapStudio/widget_icons/button_adref.png" alt="add Layers" class="iftbutton" /></span> widget, go to the <span class="UIcomponent"><MadCap:variable name="General.ProductName" /> Reference Layers</span> tab, and turn on the “Disturbance History - Historic Wildfire” layer. What is the predominant shape of the “problem fires” for the analysis area?  Are they wind driven?  If so, what is the predominant wind direction?</li></ul></li>
         </ul>
         <p>Once you’ve divided your analysis area into FOAs, and before you run LBP, it is recommended to:</p>
         <ul>
@@ -20,10 +20,10 @@
             <li>If you are unsure of what weather inputs to use for each landscape, complete a Landscape Summary (Auto97th) report for each. Review the model outputs and the fuel and wind values for each. Are there significant differences between the landscapes?  Are they a good representation of worst-case scenario inputs?</li>
         </ul>
         <h2>Combining LBP&#160;Spatial Outputs</h2>
-        <p>After you have run LBP for all your FOAs, you need to combine your results in a GIS application, such as ArcMap, to display outputs using a common classification or symbology. This is necessary because of the dynamic nature of the burn probability display in IFTDSS.  It uses the analysis maximum for each LBP output which is most likely going to differ between all of the FOAs. When combining results in ArcMap:</p>
+        <p>After you have run LBP for all your FOAs, you need to combine your results in a GIS application, such as ArcMap, to display outputs using a common classification or symbology. This is necessary because of the dynamic nature of the burn probability display in <MadCap:variable name="General.ProductName" />.  It uses the analysis maximum for each LBP output which is most likely going to differ between all of the FOAs. When combining results in ArcMap:</p>
         <ul>
             <li>Open the LBP results with the highest burn probability values, and find the thresholds for each burn probability class by following Burn Probability steps A-F in <a href="../../10-Workspace/downloads/LBPArcLyr.htm" target="_blank">Importing Layer Symbology</a>. Apply the symbology to the remaining LBP outputs.</li>
-            <li>The Conditional Flame Length and symbology layers from the IFTDSS download package can be used as-is.</li>
+            <li>The Conditional Flame Length and symbology layers from the <MadCap:variable name="General.ProductName" /> download package can be used as-is.</li>
             <li>Create new Integrated Hazard outputs using the new Burn Probability classes. To do this reclassify both the burn probability and conditional flame length outputs, combine them, and apply the integrated hazard matrix.</li>
         </ul>
     </body>

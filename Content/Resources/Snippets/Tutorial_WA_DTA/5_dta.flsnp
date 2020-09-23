@@ -8,7 +8,7 @@
         <p>Now that you have a baseline data for the landscape and fire behavior, and specific areas for which you’d like to propose treatments, you’ll move on to the Develop Treatment Alternatives workflow. This task is under the <span class="UIcomponent">Strategic Planning</span> stage of the <span class="UIcomponent">Cycle</span>. Here you will develop and compare fuels treatment alternatives so you can determine how changes in the fuels characteristics affect fire behavior outputs.</p>
         <p>Start by selecting the <span class="UIcomponent">Develop Treatment Alternatives</span> task.</p>
         <p>
-            <img src="../../Images/Cycle/DTA_Task.png" class="border" alt="Develop Treatment Alternatives is available from the Strategic Planning stage of the cycle" />
+            <img src="../../Images/Cycle/Cyl_StratPlanDTA.png" class="border" alt="Develop Treatment Alternatives is available from the Strategic Planning stage of the cycle" />
         </p>
         <p>The Develop Treatment Alternatives screen contains five tabs, or steps. You’ll proceed through each one using the steps below.</p>
         <h3>Pick a landscape and area of interest</h3>
@@ -17,7 +17,7 @@
             <li>
                 <p>B. Select the AOI created earlier in Map Studio (Watershed Proposed Treatment Areas). This will constrain the analysis to the treatment areas. If Area of Interest was left blank, the analysis would be applied to the entire landscape.</p>
                 <p>
-                    <img src="../../Images/DTA/colville_aoi.png" alt="landscape and area of interest selected" class="borderlist" />
+                    <img src="../../Images/DTA/DTA_Aoi_colville_tut.png" alt="landscape and area of interest selected" class="borderlist" />
                 </p>
             </li>
         </ol>
@@ -39,26 +39,26 @@
                 <p>Click the <span class="UIcomponent">Add to Rules</span> button.</p>
                 <p>This rule will mimic thinning the AOI to about 80 % present density by removing understory up to 8” DBH with subsequent pile burning of thinned material. This information appears if you hover over the “Light Thinning: Pile Burning” option described in step C above. Alternatively, the description of each default rule can be read in the <a href="../../../30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" target="_blank">Landscape Editing—Default Fuel Treatment and Disturbance</a> topic.</p>
                 <p>
-                    <img src="../../Images/DTA/colville_edit_1.png" alt="DTA editing steps as outlined in the steps above" class="borderlist" />
+                    <img src="../../Images/DTA/DTA_Edit1_colville_tut.png" alt="DTA editing steps as outlined in the steps above" class="borderlist" />
                 </p>
             </li>
             <li>
-                <p>Your rule will be displayed at the top of the screen along with a green confirmation box. Leave this rule as-is, but know that if you had made a mistake and needed to discard the rule, it could be deleted using the <span class="UIcomponent">Delete</span><img src="../../Images/ButtonsGeneral/delete.png" alt="delete" class="iftbutton" /> button shown to the right of the rule.</p>
+                <p>Your rule will be displayed at the top of the screen along with a green confirmation box. Leave this rule as-is, but know that if you had made a mistake and needed to discard the rule, it could be deleted using the <span class="UIcomponent">Delete</span><img src="../../Images/ButtonsGeneral/Btn_Delete.png" alt="delete" class="iftbutton" /> button shown to the right of the rule.</p>
                 <p>
-                    <img src="../../Images/DTA/colville_edit_2.png" alt="Edit rules are displayed at the top of the page." class="borderlist" />
+                    <img src="../../Images/DTA/DTA_Edit2_colville_tut.png" alt="Edit rules are displayed at the top of the page." class="borderlist" />
                 </p>
                 <p>Later, you’ll also mimic a broadcast burn after the thin and pile. While you could create a second rule that would be applied after the first (See Rule Ordering Considerations for more detail on these), you’ll apply one at a time so it’s easier to track the results of the rule on the landscape. It’s always a good idea to assess your landscape after editing to ensure the rule has been applied correctly and the result makes sense.</p>
             </li>
             <li>
                 <p>To finalize and create your edited landscape, scroll to the bottom of the editing page, input a landscape name that is representative of the edits (Watershed 20 Thn Pburn 10 yr), and click Save New Landscape.</p>
                 <p>
-                    <img src="../../Images/DTA/colville_edit_3.png" alt="Give your edited landscape a name and click 'save new landscape' to apply the edits" class="borderlist" />
+                    <img src="../../Images/DTA/DTA_Edit3_colville_tut.png" alt="Give your edited landscape a name and click 'save new landscape' to apply the edits" class="borderlist" />
                 </p>
             </li>
         </ol>
         <p>Proceed to the Model Input tab.</p>
         <div class="notificationImportant">
-            <p>Keep the landscape names around 30 characters in length so they run smoothly through the comparison and reporting process within IFTDSS.</p>
+            <p>Keep the landscape names around 30 characters in length so they run smoothly through the comparison and reporting process within <MadCap:variable name="General.ProductName" />.</p>
         </div>
         <h3>Enter parameters for a fire behavior modeling scenario</h3>
         <p>In the <span class="UIcomponent">Modeling Input</span> tab you’ll use 97th percentile weather and fuel moisture inputs that were supplied in the PDF report you downloaded earlier. Open the PDF copy of the Auto97th report and scroll until you find the Crown fire output map, values will be displayed in the bottom right o f the map box. If you did not save a PDF, you could also obtain this information by accessing my Auto97th report in <span class="UIcomponent">My Workspace</span>, but with a PDF, you don’t have to navigate back to this point in the treatment alternatives task.</p>
@@ -78,7 +78,7 @@
             <li>
                 <p>Click <span class="UIcomponent">Save Inputs</span> at the bottom of the screen and move to the <span class="UIcomponent">Run Model</span> tab.</p>
                 <p>
-                    <img src="../../Images/DTA/colville_model_input1.png" alt="Landscape Fire Behavior model inputs visible in the inputs fields." class="borderlist" />
+                    <img src="../../Images/DTA/DTA_ModelInput1_colville_tut.png" alt="Landscape Fire Behavior model inputs visible in the inputs fields." class="borderlist" />
                 </p>
             </li>
         </ol>
@@ -89,13 +89,13 @@
             <li>
                 <p>Click <span class="UIcomponent">Run Model</span> next to each landscape.</p>
                 <p>
-                    <img src="../../Images/DTA/colville_model_input2.png" alt="Run Model buttons can be seen to the right of each model run listed." class="borderlist" />
+                    <img src="../../Images/DTA/DTA_ModelInput2_colville_tut.png" alt="Run Model buttons can be seen to the right of each model run listed." class="borderlist" />
                 </p>
             </li>
             <li>
                 <p>Give the models a couple minutes to run. Hit the refresh button to the right of “Run Status” to see the model status, until both are completed.</p>
                 <p>
-                    <img src="../../Images/DTA/colville_model_refresh.png" alt="Clicking the refresh button will update the model status" class="borderlist" />
+                    <img src="../../Images/DTA/DTA_ModelInputRfrsh_colville_tut.png" alt="Clicking the refresh button will update the model status" class="borderlist" />
                 </p>
             </li>
         </ol>
@@ -105,19 +105,19 @@
         <ol style="list-style-type: upper-alpha;">
             <li>
                 <p>First, select the edited landscape so it has a “1” next to it. Then, select the original landscape, so it has a “2” next to it.</p>
-                <p>This order tells IFTDSS to calculate the difference created by your treated landscape (1) on your original land-scape (2). For example, if your new landscape has flame lengths of 3 feet, and the original has flame lengths of 7 feet, the difference will be 3-7= -4. Or in other words, a 4 foot reduction in flame length resulting from the treatment.</p>
+                <p>This order tells <MadCap:variable name="General.ProductName" /> to calculate the difference created by your treated landscape (1) on your original land-scape (2). For example, if your new landscape has flame lengths of 3 feet, and the original has flame lengths of 7 feet, the difference will be 3-7= -4. Or in other words, a 4 foot reduction in flame length resulting from the treatment.</p>
             </li>
             <li>Now you’ll want to view comparison outputs on the map and as a report. First, click the <span class="UIcomponent">Compare in Summary Report</span> button so the reports can begin processing.</li>
             <li>
                 <p>Click both <span class="UIcomponent">Create Report</span> buttons.</p>
                 <p>
-                    <img src="../../Images/DTA/colville_compare_1.png" alt="Compare Alternatives tab with two alternatives checked." class="borderlist" />
+                    <img src="../../Images/DTA/DTA_Compare1_colville_tut.png" alt="Compare Alternatives tab with two alternatives checked." class="borderlist" />
                 </p>
             </li>
             <li>
                 <p>Next, click the <span class="UIcomponent">Compare on Map</span> button to view results on the map and give the comparison layers a few seconds to download.</p>
                 <p>
-                    <img src="../../Images/DTA/colville_compare_2.png" alt="The 'Compare on Map' button is located to the left of the 'Compare in Summary Report' button. " class="borderlist" />
+                    <img src="../../Images/DTA/DTA_Compare2_colville_tut.png" alt="The 'Compare on Map' button is located to the left of the 'Compare in Summary Report' button. " class="borderlist" />
                 </p>
             </li>
         </ol>

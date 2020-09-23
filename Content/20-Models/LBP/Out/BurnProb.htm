@@ -9,16 +9,16 @@
         <MadCap:snippetBlock src="../../../Resources/Snippets/Models/LBP/FSIM.flsnp" />
         <p>Burn probability is viewable in Map Studio, in Reports, and available in the download package. Burn probabilities represent the likelihood of a given location on your landscape burning. Burn probabilities are related to the sizes of fires that occur on a given landscape. Large fires produce higher probabilities than small fires. Since fire size is a function of both the rate of spread, and the duration of a fire, treatments or weather conditions  that reduce the rate of spread will lower the burn probability.</p>
         <h2>Calculation</h2>
-        <p>Within the LBP model, randomly located ignition points are used to simulate fires. Ignitions are only located and retained on burnable fuels, if an ignition is located on a non-burnable fuel it is discarded. The number of ignitions is determined by IFTDSS to most efficiently produce outputs for the user. See <a href="../In/NoFiresSimLBP.htm" target="_blank">Number of Fires Simulated </a> for details.</p>
+        <p>Within the LBP model, randomly located ignition points are used to simulate fires. Ignitions are only located and retained on burnable fuels, if an ignition is located on a non-burnable fuel it is discarded. The number of ignitions is determined by <MadCap:variable name="General.ProductName" /> to most efficiently produce outputs for the user. See <a href="../In/NoFiresSimLBP.htm" target="_blank">Number of Fires Simulated </a> for details.</p>
         <p>Quantifies the likelihood of a fire occurring under a fixed set of weather and fuel moisture conditions. It is calculated as:</p>
         <p style="font-style: italic;text-align: center;">Burn Probability = # times burned / total number of ignitions</p>
         <p>For example, if the model ran 17,000 times and a pixel burned 1,462 times it would have burn probability of 0.086, (1,462/17,000=0.086). If a pixel burned 17,000 times in 17,000 fire simulations,  it would have burn probability of 1.0, (17,000/17,000=1.0). If a pixel never burned during those 17,000 fire simulations, it would have a burn probability of 0 (0/17,000=0).</p>
         <h2>Display</h2>
-        <p>In the Map Studio and Reports parts of IFTDSS burn probability is displayed with 7 distinct classes. The first two are for pixels that did not burn:</p>
+        <p>In the Map Studio and Reports parts of <MadCap:variable name="General.ProductName" /> burn probability is displayed with 7 distinct classes. The first two are for pixels that did not burn:</p>
         <ul>
             <li>Non-burnable means that pixels have a non-burnable fuel model and cannot burn.</li>
             <li>
-                <p>Burnable but did not burn means the pixel has burnable fuels but did not burn. This can be because a fire never reached the pixel, or a fire started within the pixel but it was unable to burn out of the pixel because the fire spread rate was too slow.<br /><img src="../../../Resources/Images/MapStudio/BP_legend.png" class="legend for LBP is displayed in the Layer List widget" style="mc-float: none;" alt="burn probability classes listed in Layer List, along with the color associated with each." /></p>
+                <p>Burnable but did not burn means the pixel has burnable fuels but did not burn. This can be because a fire never reached the pixel, or a fire started within the pixel but it was unable to burn out of the pixel because the fire spread rate was too slow.<br /><img src="../../../Resources/Images/MapStudio/widget_layer_list/LyrList_LBP_BP_legend.png" class="legend for LBP is displayed in the Layer List widget" style="mc-float: none;" alt="burn probability classes listed in Layer List, along with the color associated with each." /></p>
             </li>
         </ul>
         <div class="notificationNote">
@@ -33,7 +33,7 @@
             <li>Highest (80-100% of maximum)</li>
         </ul>
         <p>Each class represents equal interval steps of 20% of the analysis maximum burn probability. The advantage of this equal interval distribution is that it is unbiased in terms of category selection. Each category is given the same proportion of the range of values. It creates maps that are good for showing the values that are either over or under represented.</p>
-        <p>For a given area, the analysis maximum burn probability is determined based on what is displayed or reported. In IFTDSS there are three options for displaying the model outputs in Map Studio and two for Reports.</p>
+        <p>For a given area, the analysis maximum burn probability is determined based on what is displayed or reported. In <MadCap:variable name="General.ProductName" /> there are three options for displaying the model outputs in Map Studio and two for Reports.</p>
         <table style="width: 100%;mc-table-style: url('../../../Resources/TableStylesheets/Standard.css');caption-side: top;" class="TableStyle-Standard" cellspacing="3">
             <caption>Display options</caption>
             <col class="TableStyle-Standard-Column-Column1" />
@@ -67,10 +67,10 @@
         <h2><a name="scale"></a>Burn Probability Classes are Scaled, use the Identify Widget for more detail</h2>
         <p>The legend for Burn probability lists the “Analysis Maximum” for that analysis, the colored classes in the legend are scaled based on this value. The colored classes are not evenly distributed but rather are all in relation to the analysis maximum.  As a result some analysis outputs may be heavily skewed to just one or two classes depending on the range of results.  Each pixel has a unique burn probability which can be determined by using the Identify tool.</p>
         <p>
-            <img src="../../../Resources/Images/MapStudio/ID_tool_BP.png" class="border" alt="using Identify in map studio to view additional burn probability outputs for a pixel." />
+            <img src="../../../Resources/Images/MapStudio/Map_Id_LyrList_BP.png" class="border" alt="using Identify in map studio to view additional burn probability outputs for a pixel." />
         </p>
         <div class="notificationNote">
-            <p>In the IFTDSS download package, Burn Probability  is represented by continuous values as a fraction. Where non-burnable pixels exist, the value is -1.</p>
+            <p>In the <MadCap:variable name="General.ProductName" /> download package, Burn Probability  is represented by continuous values as a fraction. Where non-burnable pixels exist, the value is -1.</p>
         </div>
     </body>
 </html>

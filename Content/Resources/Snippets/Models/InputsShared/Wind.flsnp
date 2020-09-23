@@ -6,7 +6,7 @@
         <p>
             <img src="../../../Images/Models/General/wind_options.png" alt="IFTDSS has choices for static winds, gridded winds, uphill winds, or downhill winds." class="border" />
         </p>
-        <p>Fire behavior in IFTDSS, driven by FlamMap, uses the following when inputs to calculate fire behavior:</p>
+        <p>Fire behavior in <MadCap:variable name="General.ProductName" />, driven by FlamMap, uses the following when inputs to calculate fire behavior:</p>
         <ul>
             <li>Wind speed - The speed of wind, in miles per hour, 20 feet above open level ground or above the average height of vegetation.</li>
             <li>Wind direction - The direction from which the wind is coming, expressed in degrees (for example, wind from the south would be expressed as a wind direction of 180 degrees).  </li>
@@ -17,25 +17,25 @@
         <p>Selecting <span class="UIcomponent">Generate Gridded Winds</span>  (<a href="../../../../41-References/Citations.htm#USFS2018" target="_blank">USFS 2018</a>) uses WindNinja to compute spatially varying winds across your landscape based on topographic change as well as a drag effect that vegetation has on wind flow. All of the layers within the landscape file are used to determine the wind direction for each cell.</p>
         <p>Gridded wind direction is used to model complex terrain winds. For example, if you need to take into account funneling in a narrow canyon.</p>
         <p>
-            <img src="../../../Images/Models/General/gridded.png" alt="gridded wind lines outlining the path of wind over mountain topography" class="border" />
+            <img src="../../../Images/Conceptuals/Fig_WindGridded.png" alt="gridded wind lines outlining the path of wind over mountain topography" class="border" />
         </p>
         <h2>Static Direction</h2>
         <p>Selecting <span class="UIcomponent">Static Direction</span> applies the same wind direction for every cell in the analysis area. <MadCap:variable name="General.ProductName" /> uses the 20 foot wind direction you provide.</p>
         <p>This option would be most appropriate for modeling fire behavior on a flat terrain where topography and diurnal wind patterns are not a concern.</p>
         <p>
-            <img src="../../../Images/Models/General/staticwind.png" alt="arrows all going in one direction across the landscape regardless of topography" class="border" />
+            <img src="../../../Images/Conceptuals/Fig_WindStatic.png" alt="arrows all going in one direction across the landscape regardless of topography" class="border" />
         </p>
         <h2>Wind Blowing Uphill</h2>
         <p>Selecting <span class="UIcomponent">Wind Blowing Uphill</span> applies the wind direction uphill based on aspect, which is part of the landscape file. Flat cells, with no aspect, use the direction you specify in the wind direction field.</p>
         <p>This option would be appropriate for modeling the fire behavior with simple diurnal winds, a pattern where warming air generates winds moving uphill during the day. Uphill winds can also be used to calculate a near-maximum fire behavior characteristics.</p>
         <p>
-            <img src="../../../Images/Models/General/uphillwind.png" alt="wind arrows pointing uphill,  indicating uphill movement." class="borderlist" />
+            <img src="../../../Images/Conceptuals/Fig_WindUphill.png" alt="wind arrows pointing uphill,  indicating uphill movement." class="borderlist" />
         </p>
         <h2>Wind Blowing Downhill</h2>
         <p>Selecting <span class="UIcomponent">Wind Blowing Downhill</span> applies the wind direction down hill based on aspect, which is part of the landscape file. Flat cells, with no aspect, use the direction you specify in the wind direction field.</p>
         <p>This option would be appropriate for modeling the fire behavior with simple diurnal winds, a pattern where cooling air generates winds moving downhill at night.</p>
         <p>
-            <img src="../../../Images/Models/General/downhillwind.png" alt="wind arrows pointing downhill,  indicating downhill movement." />
+            <img src="../../../Images/Conceptuals/Fig_WindDownhill.png" alt="wind arrows pointing downhill,  indicating downhill movement." />
         </p>
     </body>
 </html>

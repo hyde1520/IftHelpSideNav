@@ -5,13 +5,13 @@
     </head>
     <body>
         <h1>
-            <MadCap:keyword term="Resampling" />Resampling in IFTDSS</h1>
+            <MadCap:keyword term="Resampling" />Resampling in <MadCap:variable name="General.ProductName" /></h1>
         <div class="notificationComingSoon">
             <p>Currently, the resampling described below only occurs for landscapes run with the Landscape Burn Probability model.</p>
         </div>
-        <p>In IFTDSS, resampling is conducted to adjust the resolution of your landscape to allow it to successfully run in some modeling applications.</p>
+        <p>In <MadCap:variable name="General.ProductName" />, resampling is conducted to adjust the resolution of your landscape to allow it to successfully run in some modeling applications.</p>
         <h2>Why</h2>
-        <p>Resampling is necessary in IFTDSS in order to meet the intensive computational needs of the models. If you run a model that requires resampling by IFTDSS, such as LBP, you will notice the resampled landscape is generated and made available even before the model starts running. In short, this is done to allow the model to run faster.</p>
+        <p>Resampling is necessary in <MadCap:variable name="General.ProductName" /> in order to meet the intensive computational needs of the models. If you run a model that requires resampling by <MadCap:variable name="General.ProductName" />, such as LBP, you will notice the resampled landscape is generated and made available even before the model starts running. In short, this is done to allow the model to run faster.</p>
         <p>The resampled landscape is available in <span class="UIcomponent">My Workspace</span>. This is beneficial for understanding the underlying fuels/vegetation relating to the predicted fire behavior on each pixel.</p>
         <h2>When</h2>
         <p>Resampling only occurs for landscapes submitted for Landscape Burn Probability runs when the landscape and the buffered area surrounding it exceeds 250,000 acres.</p>
@@ -45,18 +45,18 @@
             </tbody>
         </table>
         <p>
-            <img src="../Resources/Images/Models/LBP/landscape_resample.png" alt="landscape with highlighted border surrounding the landscape extent and the buffer around the landscape." class="border" />
+            <img src="../Resources/Images/Conceptuals/Fig_LcpResample.png" alt="landscape with highlighted border surrounding the landscape extent and the buffer around the landscape." class="border" />
         </p>
         <p>For example, the area above would be resampled to a 60 meter resolution. Although the landscape, shown with in the turquoise boundary is 229,000 acres, the buffer surrounding it increases the overall area to 410,000 acres, putting it in the size range for 60 meter resampling (250,000-&lt;1 million acres).</p>
         <div class="notificationImportant">
-            <p>The Right Hand Panel displays acreages for your landscape that do not include the buffered area surrounding it. This may generate confusion as this buffered area is included in the landscape size used for resampling in IFTDSS.</p>
+            <p>The Right Hand Panel displays acreages for your landscape that do not include the buffered area surrounding it. This may generate confusion as this buffered area is included in the landscape size used for resampling in <MadCap:variable name="General.ProductName" />.</p>
         </div>
-        <p>Landscapes that have been resampled are easily identified in IFTDSS by the landscape name, which has the resolution automatically added to the end. Those at the native 30m resolution do not have anything appended to the landscape name. For example, “BLM Grants Pass-120m” indicates that file has been resampled to a 120m resolution. And “BLM Grants Pass” is at the original 30m resolution. Landscape resolutions are also displayed in the Right Hand Panel when the landscape is selected.</p>
+        <p>Landscapes that have been resampled are easily identified in <MadCap:variable name="General.ProductName" /> by the landscape name, which has the resolution automatically added to the end. Those at the native 30m resolution do not have anything appended to the landscape name. For example, “BLM Grants Pass-120m” indicates that file has been resampled to a 120m resolution. And “BLM Grants Pass” is at the original 30m resolution. Landscape resolutions are also displayed in the Right Hand Panel when the landscape is selected.</p>
         <p>
             <img src="../Resources/Images/Models/LBP/lcp_buffer_example.png" alt="resampled landscapes end with the resolution, such as 120m" class="border" />
         </p>
         <h2>How</h2>
-        <p>Landscape resampling functions the same way in IFTDSS as it does in FlamMap. A “nearest-neighbor” method is used to complete the resampling.  This ensures that widely scattered or narrow, linear elements of the fuelscape, like streams or roadways, remain represented in the re-sampled layers in proportion to their initial representation (<a href="../41-References/Citations.htm#Scott_etal_2013" target="_blank">Scott and others 2013</a>).</p>
+        <p>Landscape resampling functions the same way in <MadCap:variable name="General.ProductName" /> as it does in FlamMap. A “nearest-neighbor” method is used to complete the resampling.  This ensures that widely scattered or narrow, linear elements of the fuelscape, like streams or roadways, remain represented in the re-sampled layers in proportion to their initial representation (<a href="../41-References/Citations.htm#Scott_etal_2013" target="_blank">Scott and others 2013</a>).</p>
         <p>Specifically, resampling:</p>
         <ul>
             <li>Starts from the upper left hand corner of the landscape.</li>
@@ -69,11 +69,11 @@
         </ul>
         <p>Resampling the same 30 m landscape to a 90 m landscape uses the center cell in each of the red boxes.  However the final foot print is different because of how the resampling works, because there is a cell in the center, even though there are not enough cells to cover the full area a new cell is created along the bottom and right edges.</p>
         <p>
-            <img src="../Resources/Images/Models/LBP/resampling_ex_30_90.png" alt="left, 30 m raster grid overlaid with 90 m lines, right, 90 meter rasters grid" class="border" />
+            <img src="../Resources/Images/Conceptuals/Fig_Resample30to90.png" alt="left, 30 m raster grid overlaid with 90 m lines, right, 90 meter rasters grid" class="border" />
         </p>
         <p>Below is an example of how resampling from 30 m to 60m resolution works. The red boxes are the outline of the new cell area. Because there is not a center cell in the new landscape, the upper left hand cell from the midpoint is used to create the resampled landscape.</p>
         <p>
-            <img src="../Resources/Images/Models/LBP/resampling_ex_30_60.png" alt="left, 30 m raster grid overlaid with 60 m lines, right, 60 meter rasters grid" class="border" />
+            <img src="../Resources/Images/Conceptuals/Fig_Resample30to60.png" alt="left, 30 m raster grid overlaid with 60 m lines, right, 60 meter rasters grid" class="border" />
         </p>
         <h2>Implications</h2>
         <p>The "nearest-neighbor" resampling retains scattered or narrow linear elements (e.g. roadways) on the resampled landscape in proportion to their representation on the original landscape. However as seen in the image above, resampling will result in a loss of some level of detail.</p>
