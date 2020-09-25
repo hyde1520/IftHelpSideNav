@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Make sure "Polygon" is selected from the drop-down menu.</li>
+            <li>
+                <p>Select your drawing method and draw your shape.</p>
+                <ul>
+                    <li><b>Drag a Rectangle</b>:&#160;To drag a rectangular extent, click the <span class="UIcomponent">Extent <img src="../../Images/MapStudio/widget_buttons_shared/button_drawrectangle.png" alt="rectangular extent button" class="iftbutton"></img></span> button. On the map hold down the left mouse button to establish the corner of your rectangle and drag until it is the required size, then release the left mouse button. Repeat if needed.</li>
+                    <li><b>Snap Points</b>:&#160;To snap a polygon using points, click the <span class="UIcomponent">Polygon <img src="../../Images/MapStudio/widget_buttons_shared/button_polygon.png" alt="polygon button" class="iftbutton" /></span> button. On the map single left click to create your first point. Add as many points as needed, then double left click to complete the polygon. Repeat if needed.</li>
+                    <li><b>Draw Freehand</b>:&#160;To draw a polygon freehand, click the <span class="UIcomponent">Freehand <img src="../../Images/MapStudio/widget_buttons_shared/button_freehandpoly.png" alt="freehand draw button" class="iftbutton" /></span> button. On the map hold down the left mouse button, draw your shape, and release the left mouse button when finished. Repeat if needed.</li>
+                </ul>
+            </li>
+            <li>(Optional) Use the <span class="UIcomponent">Clear <img src="../../Images/MapStudio/widget_create_edit_shp/shps_button_delete.png" alt="clear button" class="iftbutton"></img> button</span> to delete your drawing and start over.</li>
+            <li>Name your shape.</li>
+            <li>Select a save folder from the drop-down menu or use the <span class="UIcomponent">Add folder <img src="../../Images/MapStudio/widget_buttons_shared/button_add_folder.png" alt="add folder" class="iftbutton"></img></span> button to create a new folder in which to save.</li>
+            <li>
+                <p>Click <span class="UIcomponent">Create</span> to save the shape and add it to the map.</p>
+                <p><![CDATA[
+                
+                ]]><img src="../../Images/MapStudio/widget_create_edit_shp/steps_polygon.png" alt="the create/edit shapes widget open showing all buttons described here." class="border" /></p>
+            </li>
+        </ol>
+    </body>
+</html>

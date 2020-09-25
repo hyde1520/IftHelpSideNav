@@ -18,8 +18,8 @@
                             <p>Your shape or shapefile must be within your current map extent to appear in the drop-down menu, so zoom in or out in Map Studio as needed.</p>
                         </div>
                     </li>
-                    <li>Click <span class="UIcomponent">Select draw mode <img src="../../Images/MapStudio/widget_buttons_shared/button_drawrectangle.png" alt="extent button" style="width: 15px; height: 14px;" class="iftbutton" /></span>, mouse to your location on the map, hold down the left mouse key, and draw a rectangle around your desired area, releasing the button when you are finished. Clicking the black select extent button  then draw a box around your area by holding down the left mouse key, drawing, and release.</li>
-                    <li>Enter exact coordinates rather than draw a box around your area, you may do so by entering the coordinates, in degrees, for the west, east, south, and north bounds of your desired area.</li>
+                    <li>Click <span class="UIcomponent">Select draw mode <img src="../../Images/MapStudio/widget_buttons_shared/button_drawrectangle.png" alt="extent button" style="width: 15px; height: 14px;" class="iftbutton" /></span>, mouse to your location on the map, hold down the left mouse key, and draw a rectangle around your desired area, releasing the button when you are finished.</li>
+                    <li>Enter exact coordinates, in degrees, for the west, east, south, and north bounds of your desired area.</li>
                 </ul>
             </li>
             <div class="notificationImportant">
@@ -30,7 +30,7 @@
             <p>Your landscape extent will be indicted by a turquoise border, and surrounded by a 4980 meter buffer indicated with a black border.</p>
             <li>Choose the version of LANDFIRE data you would like to use.</li>
             <li>Choose the fire behavior fuel model (Fuel Model 40 or Fuel Model 13) to include in your landscape file.</li>
-            <li>Give your landscape a descriptive name, this is helpful as you accumulate more landscape files in <MadCap:variable name="General.ProductName" />. Spaces are allowed in names and we recommend including the LANDFIRE&#160;version and keeping the name less than 30 characters. For example, "Smith Project LF14".</li>
+            <li>Give your landscape a descriptive name. This is helpful as you accumulate more landscape files, and when using the drop-down menus throughout <MadCap:variable name="General.ProductName" />, which often only display the landscape name not the folder in which its stored. Spaces are allowed in names and we recommend including the LANDFIRE&#160;version and keeping the name less than 30 characters. For example, "Smith Project LF14".</li>
             <li>Select the folder to store your landscape file. If needed, you may use the <span class="UIcomponent">Add New Folder <img src="../../Images/MapStudio/widget_buttons_shared/button_add_folder.png" alt="add new folder button" class="iftbutton" /> </span>button to create a new folder for your landscape. If you do not specify an existing folder or create a new one in this step, your saved landscape defaults to the "Playground" folder of <span class="UIcomponent">My Workspace</span>.</li>
             <li>
                 <p>Click <span class="UIcomponent">Create</span> to generate your landscape file.</p>
@@ -39,11 +39,11 @@
                 </p>
             </li>
         </ol>
-        <p>Once you click <span class="UIcomponent">Create</span> a message appears at the top of the <span class="UIcomponent">Landscape Tools</span> box to confirm your landscape is being created. It may take a few minutes to generate your landscape. You may check its status by refreshing the <span class="UIcomponent">Layer List</span> in Map Studio.</p>
+        <p>Once you click <span class="UIcomponent">Create</span> a message appears at the top of the <span class="UIcomponent">Landscape Tools</span> box to confirm your landscape is being created. It may take a few minutes to generate your landscape. You may check its status by refreshing the <span class="UIcomponent">Layer List</span> in <span class="UIcomponent">Map Studio</span>.</p>
         <img src="../../Images/MapStudio/widget_landscp_tools/LcpTools_lcp_created_confirm.png" alt="confirmation message that a landsape file is in the process of being downloaded" class="border" />
         <MadCap:snippetBlock src="../RunMaximums/CreateLcpCallOut.flsnp" />
         <div class="notificationTip">
-            <p>Tip:&#160;To refresh your map view, click the Add to map tab, followed by the Filter by Map Extent button to show only your new landscape area, and then click Refresh. A checkbox will appear next to your landscape when it is completed.</p>
+            <p>Tip:&#160;To see the status of your landscape build in <span class="UIcomponent">Landscape&#160;Tools</span>, select the<span class="UIcomponent"> Add to map</span> tab, followed by the <span class="UIcomponent">Filter by Map Extent</span> button to show only your new landscape area, and then click <span class="UIcomponent">Refresh</span>. A checkbox will appear next to your landscape when it is completed. Clicking the checkbox will display the new landscape.</p>
             <img src="../../Images/MapStudio/widget_landscp_tools/LcpTools_checkbox.png" alt="filter and refresh buttons within the Landscape Tools widget." />
         </div>
     </body>

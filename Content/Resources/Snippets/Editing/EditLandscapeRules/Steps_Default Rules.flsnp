@@ -4,8 +4,13 @@
     </head>
     <body>
         <ol style="list-style-type: upper-alpha;">
-            <li>Double check that your landscape is selected</li>
-            <li>Make sure the Add Default Fuels Treatment/Disturbance Edit Rule heading is open (if not, click the arrow on the far right of the tab heading).</li>
+            <li>Double check that your landscape is selected.</li>
+            <li>
+                <p>Make sure the Add Default Fuels Treatment/Disturbance Edit Rule heading is open (if not, click the arrow on the far right of the tab heading).</p>
+                <p>
+                    <img src="../../../Images/Editing/Ed_ExpandInputs.png" alt="Click the arrow in the far right of the panel heading to expand the panel and show user input fields." class="borderlist" />
+                </p>
+            </li>
             <div class="notificationTip">
                 <p>If you hover your mouse over the “Light Thinning; Pile Burning” it will give you the details on what the rule represents. They are also listed in the <a href="../../../../30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" target="_blank">Treatment Rule Background</a></p>
             </div>

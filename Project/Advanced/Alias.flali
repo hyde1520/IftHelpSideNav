@@ -26,7 +26,7 @@
     <Map Name="ImplementationPlanAbout" Link="/Content/10-Cycle/ImplementationPlanAbout.htm" />
     <Map Name="LandEvalAbout" Link="/Content/10-Cycle/LandEvalAbout.htm" />
     <Map Name="LandscapeEditAbout" Link="/Content/30-Tasks/LndscpEdit/LandscapeEditAbout.htm" />
-    <Map Name="LandSummaryAbout" Link="/Content/30-Tasks/Summaries/LandSummaryAbout.htm" />
+    <Map Name="LandSummaryAbout" Link="/Content/30-Tasks/Summaries/Auto97PctlReportCreate.htm" />
     <Map Name="PlanningCycleAbout" Link="/Content/10-Cycle/PlanningCycleAbout.htm" />
     <Map Name="MonitoringAbout" Link="/Content/10-Cycle/MonitoringAbout.htm" />
     <Map Name="AddShapefile" Link="/Content/10-MapStudio/Functions/AddShapefile.htm" />
@@ -61,7 +61,7 @@
     <Map Name="TutorialMain" Link="/Content/40-Tutorials/TutorialMain.htm" />
     <Map Name="WorkshpMain" Link="/Content/42-Workshops/WorkshpMain.htm" />
     <Map Name="icons1" Link="/Content/Resources/Stylesheets/icons/icons.html" />
-    <Map Name="Auto97Summary" Link="/Content/30-Tasks/Summaries/Auto97Summary.htm" />
+    <Map Name="Auto97Summary" Link="/Content/30-Tasks/Summaries/Auto97PctlReportDocumentation.htm" />
     <Map Name="Modelsmoretocome" Link="/Content/20-Models/Modelsmoretocome.htm" />
     <Map Name="ShapefileRepair" Link="/Content/10-MapStudio/Files/ShapefileRepair.htm" />
     <Map Name="AttributeTable" Link="/Content/10-MapStudio/Functions/AttributeTable.htm" />
@@ -125,7 +125,7 @@
     <Map Name="_3_wind_hh" Link="/Content/50-Hover/Models/LFB/3_wind_hh.htm" />
     <Map Name="_4_crownfire_hh" Link="/Content/50-Hover/Models/LFB/4_crownfire_hh.htm" />
     <Map Name="_5_FMs_hh" Link="/Content/50-Hover/Models/LFB/5_FMs_hh.htm" />
-    <Map Name="Estimating_Fuel_Moistures" Link="/Content/00-Concepts/EstimatingFuelMoistures.htm" />
+    <Map Name="Estimating_Fuel_Moistures" Link="/Content/00-Concepts/FuelMoistureEstimate.htm" />
     <Map Name="IFTDSSFAQ" Link="/Content/00-AboutIFTDSS/IFTDSSFAQ.htm" />
     <Map Name="Adding_Treatment_Interactions" Link="/Content/10-FTEM/DataTechnical/Buffering.htm" />
     <Map Name="FTEM_Data_Sources" Link="/Content/10-FTEM/DataTechnical/Treatments.htm" />
@@ -157,7 +157,7 @@
     <Map Name="ShapeCopyfromRef" Link="/Content/10-MapStudio/Files/ShapeCopyfromRef.htm" />
     <Map Name="ShapefileGroup" Link="/Content/10-MapStudio/Files/ShapefileGroup.htm" />
     <Map Name="ShapeGroup" Link="/Content/10-MapStudio/Files/ShapeGroup.htm" />
-    <Map Name="Chrome" Link="/Content/00-Concepts/Chrome.htm" />
+    <Map Name="Chrome" Link="/Content/00-Concepts/UseGoogleChrome.htm" />
     <Map Name="AgencyLeads" Link="/Content/10-FTEM/Guidance/AgencyLeads.htm" />
     <Map Name="DataTreatments" Link="/Content/10-FTEM/DataTechnical/Treatments.htm" />
     <Map Name="DataUtilities" Link="/Content/10-FTEM/DataTechnical/Utilities.htm" />
@@ -328,11 +328,11 @@
     <Map Name="namemappedvals" Link="/Content/50-Hover/HVRAs/namemappedvals_hh.htm" />
     <Map Name="pendingvalues_hh" Link="/Content/50-Hover/HVRAs/pendingvalues.htm" />
     <Map Name="NEWsubHVRA_hh" Link="/Content/50-Hover/HVRAs/selectHVRA_hh.htm" />
-    <Map Name="Auto97thCheatsheet" Link="/Content/00-Concepts/Auto97thCheatsheet.htm" />
-    <Map Name="EditingCheatsheet" Link="/Content/00-Concepts/EditingCheatsheet.htm" />
-    <Map Name="LandscapeCheatsheet" Link="/Content/00-Concepts/LandscapeCheatsheet.htm" />
-    <Map Name="ModelingCheatsheet" Link="/Content/00-Concepts/ModelingCheatsheet.htm" />
-    <Map Name="ShapesCheatsheet" Link="/Content/00-Concepts/ShapesCheatsheet.htm" />
+    <Map Name="Auto97thCheatsheet" Link="/Content/00-Concepts/Cheatsheet_Auto97th.htm" />
+    <Map Name="EditingCheatsheet" Link="/Content/00-Concepts/Cheatsheet_Editing.htm" />
+    <Map Name="LandscapeCheatsheet" Link="/Content/00-Concepts/Cheatsheet_Landscapes.htm" />
+    <Map Name="ModelingCheatsheet" Link="/Content/00-Concepts/Cheatsheet_Modeling.htm" />
+    <Map Name="ShapesCheatsheet" Link="/Content/00-Concepts/Cheatsheet_Shapes.htm" />
     <Map Name="LayerListMasks" Link="/Content/10-MapStudio/Functions/LayerListMasks.htm" />
     <Map Name="LFB_download_differences" Link="/Content/20-Models/LFB/Out/LFB download differences.htm" />
     <Map Name="HVRANational" Link="/Content/30-Tasks/QWRA/MapValues/HVRANational.htm" />

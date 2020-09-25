@@ -27,7 +27,7 @@
     Title="Get Started">
     <TocEntry
       Title="0. Use Google Chrome"
-      Link="/Content/00-Concepts/Chrome.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      Link="/Content/00-Concepts/UseGoogleChrome.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="1. Create an Account"
       Link="/Content/00-Concepts/Accounts/AccountSetup.htm" />
@@ -43,19 +43,19 @@
       StartSection="false"></TocEntry>
     <TocEntry
       Title="5. Create Your Landscape"
-      Link="/Content/00-Concepts/LandscapeCheatsheet.htm"></TocEntry>
+      Link="/Content/00-Concepts/Cheatsheet_Landscapes.htm"></TocEntry>
     <TocEntry
       Title="6. Make Landscape Edits"
-      Link="/Content/00-Concepts/EditingCheatsheet.htm"></TocEntry>
+      Link="/Content/00-Concepts/Cheatsheet_Editing.htm"></TocEntry>
     <TocEntry
       Title="7. Upload or Create Shapes"
-      Link="/Content/00-Concepts/ShapesCheatsheet.htm"></TocEntry>
+      Link="/Content/00-Concepts/Cheatsheet_Shapes.htm"></TocEntry>
     <TocEntry
       Title="8. Generate an Auto97th Summary"
-      Link="/Content/00-Concepts/Auto97thCheatsheet.htm"></TocEntry>
+      Link="/Content/00-Concepts/Cheatsheet_Auto97th.htm"></TocEntry>
     <TocEntry
       Title="9. Run Models"
-      Link="/Content/00-Concepts/ModelingCheatsheet.htm" />
+      Link="/Content/00-Concepts/Cheatsheet_Modeling.htm" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/00-AboutIFTDSS/KnownIssues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -285,13 +285,13 @@
         Link="/Content/30-Tasks/CreateLCP/LCPCreateAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Landscape Summary"
-        Link="/Content/30-Tasks/Summaries/LandSummaryAbout.htm">
+        Link="/Content/30-Tasks/Summaries/Auto97PctlReportCreate.htm">
         <TocEntry
           Title="Generate Auto97th Landscape Fire Behavior Report" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-          Link="/Content/30-Tasks/Summaries/LandSummaryAbout.htm" />
+          Link="/Content/30-Tasks/Summaries/Auto97PctlReportCreate.htm" />
         <TocEntry
           Title="Auto97th Technical Documentation"
-          Link="/Content/30-Tasks/Summaries/Auto97Summary.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/30-Tasks/Summaries/Auto97PctlReportDocumentation.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
       <TocEntry
         Title="Edit a Landscape"

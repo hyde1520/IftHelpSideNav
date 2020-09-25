@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <body>
         <ol style="list-style-type: upper-alpha;">
-            <li>Click the <span class="UIcomponent">Upload Shapefile</span><img src="../../Images/MapStudio/widget_icons/button_addshapefile.png" alt="orange upload shapefile button" class="iftbutton" /> widget along the bottom of Map Studio to open Upload Shapefile.</li>
+            <li>Click the <span class="UIcomponent">Upload Shapefile</span> <img src="../../Images/MapStudio/widget_icons/button_addshapefile.png" alt="orange upload shapefile button" class="iftbutton" /> widget along the bottom of <span class="UIcomponent">Map Studio</span> to open <span class="UIcomponent">Upload Shapefile</span>.</li>
             <li>
-                <p>Click Upload File. A browser box will open allowing you to search your local files. Select the desired shapefile. Shapefiles must be zipped to be uploaded and contain .shp, .shx, .dbf., and .prj files.</p>
+                <p>Click <span class="UIcomponent">Upload File</span>. A browser box will open allowing you to search your local files. Select the desired shapefile. Shapefiles must be zipped to be uploaded and contain .shp, .shx, .dbf., and .prj files.</p>
                 <p>
                     <img src="../../Images/MapStudio/widget_upload_shp/ShpUp_local_files.png" alt="you may upload your own shapefiles." class="borderlist">
                     </img>
@@ -21,7 +21,7 @@
             <li>Give the shapefile a descriptive name.</li>
             <li>Specify the folder in which to store the shapefile.</li>
             <li>
-                <p>Click <span class="UIcomponent">Save and Add to Map</span></p>
+                <p>Click <span class="UIcomponent">Save and Add to Map</span>.</p>
                 <p>
                     <img src="../../Images/MapStudio/widget_upload_shp/ShpUp_inputs.png" alt="make sure the 'save' box is checed to save your shapefile" class="borderlist" />
                 </p>
