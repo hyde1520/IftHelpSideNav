@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <body>
         <div>
@@ -10,10 +10,10 @@
                     </p>
                 </li>
                 <li>
-                    <p>This takes you to the <MadCap:variable name="General.MapStudio" /> and automatically opens the <span class="UIcomponent">Landscape Tools</span> widget with the "Create&#160;New" tab open.  This is where you create your landscape following these steps:</p>
+                    <p>This takes you to the Map Studio and automatically opens the <span class="UIcomponent">Landscape Tools</span> widget with the "Create&#160;New" tab open.  This is where you create your landscape following these steps:</p>
                     <MadCap:snippetBlock src="../LCPs/LCPinMapstudioB.flsnp" />
                 </li>
-                <li>Once your landscape is created it will be available  throughout <MadCap:variable name="General.ProductName" /> in all landscape drop-drown menus, My Workspace, and the "Add to Map" tab of the <span class="UIcomponent">Landscape Tools</span> widget in <MadCap:variable name="General.MapStudio" />.</li>
+                <li>Once your landscape is created it will be available  throughout <MadCap:variable name="General.ProductName" /> in all landscape drop-drown menus, My Workspace, and the "Add to Map" tab of the <span class="UIcomponent">Landscape Tools</span> widget in Map Studio.</li>
             </ol>
         </div>
     </body>

@@ -61,7 +61,7 @@
         <div class="notificationImportant">
             <p>The conditioned fuel moistures at the end of the conditioning period (Start date/Time of Day plus Number of days to condition) will be the fuel moistures used in the fire behavior calculations.</p>
         </div>
-        <MadCap:snippetBlock src="../Flammap/wxs_validation_warning.flsnp" />
+        <MadCap:snippetBlock src="../Flammap/WxsValidationCallOut.flsnp" />
         <p>Regardless of your choice to use a classified weather stream, or a custom weather stream, the same algorithms are employed to condition dead fuel moisture based on fuel size. Calculations for dead fuel moistures are from FlamMap, which implements the following:</p>
         <ul>
             <li>1 hr fuel moisture in FlamMap is obtained from a calculation involving the equilibrium moisture content (<a href="../../../../41-References/Citations.htm#Bradshaw1983" target="_blank">Bradshaw and others 1983</a>).</li>

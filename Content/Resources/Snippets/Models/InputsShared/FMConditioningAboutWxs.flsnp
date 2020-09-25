@@ -4,7 +4,7 @@
     </head>
     <body>
         <p>In <MadCap:variable name="General.ProductName" /> you have the option of conditioning initial fuel moistures by uploading your own weather stream (.wxs) file. If you do not have a .wxs file and need to create one, this tutorial walks through the creation of a .wxs file for use in <MadCap:variable name="General.ProductName"></MadCap:variable>. First you will download historical hourly weather data (FW13 file), then use FireFamilyPlus to create the .wxs.</p>
-        <MadCap:snippetBlock src="../Flammap/wxs_validation_warning.flsnp">
+        <MadCap:snippetBlock src="../Flammap/WxsValidationCallOut.flsnp">
         </MadCap:snippetBlock>
         <h2>Downloading hourly weather data</h2>
         <p>To download historic hourly weather data, use one of the three sources below and follow the steps to download your data:</p>

@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
     <body>
-        <p>To create landscape from within <MadCap:variable name="General.MapStudio" /> click the <span class="UIcomponent">Landscape Tools</span> widget along the bottom of <MadCap:variable name="General.MapStudio" />. In the Landscape Tools box, make sure the <span class="UIcomponent">Create new</span> tab is selected.</p>
+        <p>To create landscape from within Map Studio click the <span class="UIcomponent">Landscape Tools</span> widget along the bottom of Map Studio. In the Landscape Tools box, make sure the <span class="UIcomponent">Create new</span> tab is selected.</p>
         <MadCap:snippetBlock src="LCPinMapstudioB.flsnp" />
     </body>
 </html>

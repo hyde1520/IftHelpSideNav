@@ -8,7 +8,7 @@
         </p>
         <p>In the <span class="UIcomponent">Create new</span> tab specify the requirements for your landscape:</p>
         <ol style="list-style-type: upper-alpha;">
-            <li>Use the <MadCap:variable name="General.MapStudio" /> tools such as zoom, basemap layers,and so forth to locate your desired area.</li>
+            <li>Use the <span class="UIcomponent">Map Studio</span> widgets tools such as <span class="UIcomponent">Zoom</span>, <a href="../../../10-MapStudio/Functions/BasemapGallery.htm" target="_blank"><span class="UIcomponent">Basemap Gallery</span></a>, and so forth to locate your desired area.</li>
             <li>
                 <p>Define the area of your new landscape by doing one of the following:</p>
                 <ul>
@@ -39,9 +39,9 @@
                 </p>
             </li>
         </ol>
-        <p>Once you click <span class="UIcomponent">Create</span> a message appears at the top of the <span class="UIcomponent">Landscape Tools</span> box to confirm your landscape is being created. It may take a few minutes to generate your landscape. You may check its status by refreshing the Layer List in <MadCap:variable name="General.MapStudio" />.</p>
+        <p>Once you click <span class="UIcomponent">Create</span> a message appears at the top of the <span class="UIcomponent">Landscape Tools</span> box to confirm your landscape is being created. It may take a few minutes to generate your landscape. You may check its status by refreshing the <span class="UIcomponent">Layer List</span> in Map Studio.</p>
         <img src="../../Images/MapStudio/widget_landscp_tools/LcpTools_lcp_created_confirm.png" alt="confirmation message that a landsape file is in the process of being downloaded" class="border" />
-        <MadCap:snippetBlock src="../RunMaximums/CreateLCP.flsnp" />
+        <MadCap:snippetBlock src="../RunMaximums/CreateLcpCallOut.flsnp" />
         <div class="notificationTip">
             <p>Tip:&#160;To refresh your map view, click the Add to map tab, followed by the Filter by Map Extent button to show only your new landscape area, and then click Refresh. A checkbox will appear next to your landscape when it is completed.</p>
             <img src="../../Images/MapStudio/widget_landscp_tools/LcpTools_checkbox.png" alt="filter and refresh buttons within the Landscape Tools widget." />

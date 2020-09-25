@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
     <body>
         <h2>Displaying and Assessing the Landscape</h2>
-        <p>Start assessing the landscape  in <MadCap:variable name="General.MapStudio" />:</p>
+        <p>Start assessing the landscape  in Map Studio:</p>
         <ol style="list-style-type: upper-alpha;">
             <li>
                 <p>Use the <span class="UIcomponent">Landscape Tools</span> <img src="../../Images/MapStudio/widget_icons/button_landscapetools.png" alt="Landscape tools button" class="iftbutton" /> widget to check the landscape under the "Add to Map" tab. This adds the landscape to the map and the map's <span class="UIcomponent">Layer List</span>.</p>
@@ -46,7 +46,7 @@
         <p>After doing an assessment of all the landscape characteristics (Elevation, Slope, Aspect, Canopy Cover, Stand Height, Canopy Base Height and Canopy Bulk Density) you determine that the LANDFIRE 2014 data in this landscape reflects existing conditions, including previous fires. If there had been a more recent disturbance since this 2014 data was produced,  such as a fire or fuels treatment that you would want to represent on this landscape, it could be easy represented by <a href="../../../10-MapStudio/Functions/CreateEditShps.htm">creating a polygon</a> using the <span class="UIcomponent">Create/Edit Shapes</span> <img src="../../Images/MapStudio/widget_icons/button_editTools.png" alt="add edit shapes" class="iftbutton" />  widget  to reflect the disturbance area, then using the Landscape Editing task in the planning cycle to make changes to that area and save them. More information on Landscape editing is available in <a href="../../../30-Tasks/LndscpEdit/LandscapeEditAbout.htm" target="_blank">Landscape Editing</a>.</p>
         <p>Next,  run a summary report and compare these fuel models with potential landscape fire behavior. </p>
         <h2>Summarizing the Landscape</h2>
-        <p>Creating a Automatic 97th Percentile Landscape Fire Behavior (Auto97th LFB) Report, makes the outputs available in <MadCap:variable name="General.MapStudio" />, and summarizes behavior and landscape features in a downloadable report with tables and charts. It also creates a model output layer that can be viewed in <MadCap:variable name="General.MapStudio" />. To create these:</p>
+        <p>Creating a Automatic 97th Percentile Landscape Fire Behavior (Auto97th LFB) Report, makes the outputs available in Map Studio, and summarizes behavior and landscape features in a downloadable report with tables and charts. It also creates a model output layer that can be viewed in Map Studio. To create these:</p>
         <ol style="list-style-type: upper-alpha;">
             <li> Click on <span class="UIcomponent">Planning Cycle</span> in the top navigation.</li>
             <li>
@@ -69,14 +69,14 @@
                 </p>
             </li>
             <li>
-                <p> For this example you are going to view the fire behavior aspect of the report in <MadCap:variable name="General.MapStudio" /> so it can be viewed with the landscape features, so close the report box and click the <span class="UIcomponent">View in <MadCap:variable name="General.MapStudio" /></span> button. The report and <MadCap:variable name="General.MapStudio" /> outputs can be viewed anytime later by accessing them in <span class="UIcomponent">My Workspace</span>, they are saved in the same folder as the landscape they describe (in this case your Granite Creek project folder).</p>
+                <p> For this example you are going to view the fire behavior aspect of the report in Map Studio so it can be viewed with the landscape features, so close the report box and click the <span class="UIcomponent">View in Map Studio</span> button. The report and Map Studio outputs can be viewed anytime later by accessing them in <span class="UIcomponent">My Workspace</span>, they are saved in the same folder as the landscape they describe (in this case your Granite Creek project folder).</p>
                 <p>
                     <img src="../../Images/ReportCreate/CrtRep_ViewinMapStudio.png" alt="view report on map" class="borderlist" />
                 </p>
             </li>
         </ol>
         <h3>Comparing Landscape Features and Model Outputs with the Swipe widget</h3>
-        <p>After clicking <span class="UIcomponent">View in <MadCap:variable name="General.MapStudio" /></span>, the fire behavior model layer will automatically open. For future use, you can remove that modeling layer, or add other modeling layers, by clicking the <span class="UIcomponent">Simulation Output Tools</span> <img src="../../Images/MapStudio/widget_icons/button_SimOutput.png" alt="simulation output tools" class="iftbutton" style="width: 0px;height: 0px;" />  widget on the bottom of the screen.</p>
+        <p>After clicking <span class="UIcomponent">View in Map Studio</span>, the fire behavior model layer will automatically open. For future use, you can remove that modeling layer, or add other modeling layers, by clicking the <span class="UIcomponent">Simulation Output Tools</span> <img src="../../Images/MapStudio/widget_icons/button_SimOutput.png" alt="simulation output tools" class="iftbutton" style="width: 0px;height: 0px;" />  widget on the bottom of the screen.</p>
         <ol style="list-style-type: upper-alpha;">
             <li>If the layer did not automatically open, click the <span class="UIcomponent">Simulation Output Tools</span> <img src="../../Images/MapStudio/widget_icons/button_SimOutput.png" alt="simulation output tools" class="iftbutton" />  widget  on the bottom of the screen.</li>
             <li>
@@ -88,7 +88,7 @@
                 </p>
             </li>
             <li>
-                <p>To compare these model outputs with your landscape, add the Granite Creek LF2014 unedited landscape back to <MadCap:variable name="General.MapStudio" /> by opening the <span class="UIcomponent">Landscape Tools</span> <img src="../../Images/MapStudio/widget_icons/button_landscapetools.png" alt="landscape tools" class="iftbutton" /> widget, clicking the <span class="UIcomponent">Add to Map</span> tab and using the checkbox to add the "Granite Creek LF2014 unedited". Use the dropdown arrows and checkboxs in <span class="UIcomponent">Layer List</span> display only the landscape Fuel Model layer and the Model output Flame length layer. </p>
+                <p>To compare these model outputs with your landscape, add the Granite Creek LF2014 unedited landscape back to Map Studio by opening the <span class="UIcomponent">Landscape Tools</span> <img src="../../Images/MapStudio/widget_icons/button_landscapetools.png" alt="landscape tools" class="iftbutton" /> widget, clicking the <span class="UIcomponent">Add to Map</span> tab and using the checkbox to add the "Granite Creek LF2014 unedited". Use the dropdown arrows and checkboxs in <span class="UIcomponent">Layer List</span> display only the landscape Fuel Model layer and the Model output Flame length layer. </p>
                 <div class="notificationTip">
                     <p>To move a layer group, such as Landscape, up or down in Layer List, click the More Options <img src="../../Images/ButtonsGeneral/Btn_MoreOptions.png" alt=" more options" class="iftbutton" /> button to the right of the layer and choose "Move up" or "Move down".</p>
                 </div>
@@ -99,7 +99,7 @@
         </ol>
         <p>Next you'll compare the two using Swipe:</p>
         <ol style="list-style-type: upper-alpha;">
-            <li>Click the <span class="UIcomponent">Swipe</span> <img src="../../Images/MapStudio/widget_icons/button_slider.png" alt="swipe tool" class="iftbutton" /> widget in the top right of <MadCap:variable name="General.MapStudio" />.</li>
+            <li>Click the <span class="UIcomponent">Swipe</span> <img src="../../Images/MapStudio/widget_icons/button_slider.png" alt="swipe tool" class="iftbutton" /> widget in the top right of Map Studio.</li>
             <li>
                 <p>Next, specify the layers to&#160;swipe. By default, the first layer in <span class="UIcomponent">Layer List</span> will be the one displayed in the Swipe box, and will appear in the top portion of the map, the next visible layer in Layer List will be the layer displayed under it. In the example below, "Model Output: Granite Creek LF2014 unedited – Auto97th" is displayed on the top, and the Landscape layer is displayed on the bottom. Slide the bar in the middle of the screen up and down. Notice that the areas with high flame lengths correspond to areas of Fuel Model 188 (TL8) with small patches 165 (TU5).</p>
                 <p>

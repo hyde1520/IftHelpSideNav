@@ -7,7 +7,7 @@
         <div class="notificationComingSoon">
             <p>In this version <MadCap:variable name="General.VersionNumber" />) of <MadCap:variable name="General.ProductName" /> the only option is “Extreme,” which represents near-maximum or worst case conditions. Additional options will be available in future versions.</p>
         </div>
-        <MadCap:snippetBlock src="../Flammap/extreme_weather_calc.flsnp">
+        <MadCap:snippetBlock src="../Flammap/ExtremeWeatherCalc.flsnp">
         </MadCap:snippetBlock>
         <h2>Checking a Pyrome for 'completion' with <MadCap:variable name="General.MapStudio"></MadCap:variable> in <MadCap:variable name="General.ProductName"></MadCap:variable>:</h2>
         <p>For those wanting to better understand the source of the classified conditioning data within <MadCap:variable name="General.ProductName"></MadCap:variable>, a reference layer within Map Studio allows you to view a map of the pyromes within the Continental US and Alaska. As shown in the map of pryrome earlier, some areas do not have pryome data. To view this layer in <MadCap:variable name="General.MapStudio"></MadCap:variable>, navigate to the approximate area in which you are working and follow these steps:</p>

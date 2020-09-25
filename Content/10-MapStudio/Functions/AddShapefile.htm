@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
@@ -11,9 +11,9 @@
             <object src="https://youtu.be/EaYEOFuhOzo" style="width: 560px;height: 315px;" title="Upload Shapefile Widget YouTube">
             </object>
         </p>
-        <p>Use the <span class="UIcomponent">Upload Shapefile</span> <img src="../../Resources/Images/MapStudio/widget_icons/button_addshapefile.png" alt="orange upload shapefile button" class="iftbutton" /> widget to upload a shapefile to the <MadCap:variable name="General.ProductName" /> <MadCap:variable name="General.MapStudio" /> and save it to <MadCap:variable name="General.ProductName" />.</p>
+        <p>Use the <span class="UIcomponent">Upload Shapefile</span> <img src="../../Resources/Images/MapStudio/widget_icons/button_addshapefile.png" alt="orange upload shapefile button" class="iftbutton" /> widget to upload a shapefile to the <MadCap:variable name="General.ProductName" /> Map Studio and save it to <MadCap:variable name="General.ProductName" />.</p>
         <div class="notificationImportant">
-            <p><a name="zipshapefiles"></a>Shapefiles are added to <MadCap:variable name="General.MapStudio" /> as .zip files. The .zip file must contain the .shp, .shx, .dbf, and .prj files that comprise the shapefile.</p>
+            <p><a name="zipshapefiles"></a>Shapefiles are added to Map Studio as .zip files. The .zip file must contain the .shp, .shx, .dbf, and .prj files that comprise the shapefile.</p>
         </div>
         <MadCap:snippetBlock src="../../Resources/Snippets/MapStudio/UploadShapefile.flsnp" />
         <MadCap:dropDown>
@@ -21,14 +21,14 @@
                 <MadCap:dropDownHotspot>Tips for adding shapefiles</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Shapefiles may be added to <MadCap:variable name="General.ProductName" /> by uploading a  .zip file containing the .shp, .shx, .dbf, and .prj files to <MadCap:variable name="General.MapStudio" />. When you add a shapefile, <MadCap:variable name="General.MapStudio" /> converts it to a format that web clients can quickly read and display. To help further improve the performance of the display, you can choose to generalize the features in your shapefile. Generalizing reduces the size of the shapefile by simplifying the features and is often appropriate for data at small scales.</p>
+                <p>Shapefiles may be added to <MadCap:variable name="General.ProductName" /> by uploading a  .zip file containing the .shp, .shx, .dbf, and .prj files to Map Studio. When you add a shapefile, Map Studio converts it to a format that web clients can quickly read and display. To help further improve the performance of the display, you can choose to generalize the features in your shapefile. Generalizing reduces the size of the shapefile by simplifying the features and is often appropriate for data at small scales.</p>
                 <h3>Generalized display</h3>
-                <p>Shapefiles often contain large features with a lot of associated data. Smaller features with less data are often necessary for the shapefile to display properly over the web. Generalizing the features is one way to reduce the size of the shapefile and therefore improve web display. You can generalize the features using a desktop application such as ArcMap or you can have <MadCap:variable name="General.MapStudio" /> do the generalization when you add the file to your map. Generalizing reduces the precision of the shapefile layer to approximately 1 meter in Web Mercator and will remove vertices within 10 meters in Web Mercator. This should maintain an informative and accurate display of your features while reducing the overall size of your data and allowing your layer to quickly display in the map.
+                <p>Shapefiles often contain large features with a lot of associated data. Smaller features with less data are often necessary for the shapefile to display properly over the web. Generalizing the features is one way to reduce the size of the shapefile and therefore improve web display. You can generalize the features using a desktop application such as ArcMap or you can have Map Studio do the generalization when you add the file to your map. Generalizing reduces the precision of the shapefile layer to approximately 1 meter in Web Mercator and will remove vertices within 10 meters in Web Mercator. This should maintain an informative and accurate display of your features while reducing the overall size of your data and allowing your layer to quickly display in the map.
 				</p>
                 <p>Generalizing doesn't work well on coincident polygon features intended for large-scale display because it will create some slivers in the polygons. For coincident polygons at large scales, you can choose to maintain the features if you have a relatively small amount of data, or if you have a large amount of data, you can publish a feature service to a GIS Server site. If you have publishing privileges in your organization, you can also create feature layers by publishing features.</p>
                 <h3>Best practices for adding shapefiles</h3>
-                <p>Shapefiles were originally created to perform geoprocessing on desktop apps. They are now supported in a number of web browser clients including <MadCap:variable name="General.MapStudio" />. There are some limits to what web browser clients can support.</p>
-                <p>Below are best practices for using shapefiles in  <MadCap:variable name="General.MapStudio" />:</p>
+                <p>Shapefiles were originally created to perform geoprocessing on desktop apps. They are now supported in a number of web browser clients including Map Studio. There are some limits to what web browser clients can support.</p>
+                <p>Below are best practices for using shapefiles in  Map Studio:</p>
                 <ul>
                     <li>Choose to generalize features for web display if you have a large amount of features intended to be displayed at small scales and you have not already generalized your vertices in ArcGIS Desktop.</li>
                     <li>Create a .zip file that contains the .shp, .shx, .dbf, and .prj files that comprise the shapefile.</li>
@@ -41,12 +41,12 @@
                     <li>Include in the shapefile the accompanying .prj file in which the coordinate system of the data is defined. If you have ArcMap, you can define the coordinate system of a shapefile, which creates an appropriate .prj file for the shapefile.</li>
                 </ul>
                 <h3>Limitations</h3>
-                <p>The following limitations apply to using shapefiles in <MadCap:variable name="General.MapStudio" />:</p>
+                <p>The following limitations apply to using shapefiles in Map Studio:</p>
                 <ul>
                     <li>Compression formats other than a .zip archive are not supported.</li>
                     <li>The shapefile must be less than 10 MB in size.</li>
                     <li>The following features are not supported: multipatch or multipoint geometries, geometries that cross the dateline, or self-intersections in polygons. Shapefiles with these features cannot be added to a map.</li>
-                    <li>Shapefiles cannot be dragged directly onto <MadCap:variable name="General.MapStudio" />; you must use the <span class="UIcomponent">Upload Shapefile</span> widget in the <MadCap:variable name="General.MapStudio" />.</li>
+                    <li>Shapefiles cannot be dragged directly onto Map Studio; you must use the <span class="UIcomponent">Upload Shapefile</span> widget in the Map Studio.</li>
                 </ul>
                 <p MadCap:conditions="General.Exclude"><span class="comment">Dropdown content Added from https://doc.arcgis.com/en/arcgis-online/reference/shapefiles.htm on 12/19/16 JH</span>
                 </p>

@@ -199,13 +199,13 @@
         <h3>Dead Fuel Moisture and Conditioning</h3>
         <p>The 97th percentile fuel moistures are calculated for dead (1hr, 10 hr, and 100 hr) and live (herbaceous and woody) fuels by averaging the values for all days where ERC is at the 97th percentile, this sets the initial fuel moisture.</p>
         <p>The initial fuel moisture is then conditioned to account for topographical and weather changes over time by using an automatically generated Extreme weather scenario.</p>
-        <MadCap:snippetBlock src="../Models/Flammap/extreme_weather_calc.flsnp" />
+        <MadCap:snippetBlock src="../Models/Flammap/ExtremeWeatherCalc.flsnp" />
         <h2>Outputs</h2>
         <p>Outputs are available as Map Studio layers, summary reports, and downloadable GeoTIFF files.</p>
         <h3>Landscape Outputs</h3>
-        <MadCap:snippetBlock src="../Workspace/geotiff_lcp.flsnp" />
+        <MadCap:snippetBlock src="../Workspace/LcpBandUnitsTable.flsnp" />
         <h3>&#160;</h3>
         <h3>Auto-97th Fire Behavior Outputs</h3>
-        <MadCap:snippetBlock src="../Workspace/geotiff_LFBehavior.flsnp" />
+        <MadCap:snippetBlock src="../Workspace/LfbBandUnitsTable.flsnp" />
     </body>
 </html>

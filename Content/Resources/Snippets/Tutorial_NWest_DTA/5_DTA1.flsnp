@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
@@ -14,7 +14,7 @@
         <ol style="list-style-type: upper-alpha;">
             <li>Select the "Originating Landscape" (Granite Creek LF2012 unedited). The Originating landscape sets the landscape extent for the rest of the workflow. Originating landscapes displayed in the drop-down menu will always be un-edited LANDFIRE&#160;layers. Any edited layers you've created that match that extent will become available in subsequent tabs.</li>
             <li>
-                <p>Select the AOI created earlier in <MadCap:variable name="General.MapStudio" /> (Granite Creek Proposed Treatment Areas). This will constrain the analysis to the treatment areas. If Area of Interest was left blank, the analysis would be applied to the entire landscape.</p>
+                <p>Select the AOI created earlier in Map Studio (Granite Creek Proposed Treatment Areas). This will constrain the analysis to the treatment areas. If Area of Interest was left blank, the analysis would be applied to the entire landscape.</p>
                 <p>
                     <img src="../../Images/DTA/DTA_PickLcp_tut.png" class="borderlist" alt="drop-down menus to select an originating landscape and optional area of interest">
                     </img>

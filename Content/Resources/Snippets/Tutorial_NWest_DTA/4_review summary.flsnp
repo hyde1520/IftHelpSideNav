@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
@@ -23,7 +23,7 @@
                 </p>
             </li>
         </ol>
-        <p>All of the Landscape characteristics and Fire Behavior outputs you viewed in <MadCap:variable name="General.MapStudio" /> are quantitatively displayed in several different formats in this report. You'll find a lot of value in these reports because they break each component (Canopy Cover, Canopy Base Height, Rate of Spread, etc.) down in a way that makes it even easier, after viewing the spatial data, to assess the landscape and 97th percentile modeled fire behavior. For example, in viewing the Fuel Model map (upper left corner), you can see that there is a lot of Fuel Model TL8 on the landscape, but it’s not until you take a look at the graphs that you can really assess that, in fact, 34% of this landscape is attributed to the TL8 fuel model.</p>
+        <p>All of the Landscape characteristics and Fire Behavior outputs you viewed in Map Studio are quantitatively displayed in several different formats in this report. You'll find a lot of value in these reports because they break each component (Canopy Cover, Canopy Base Height, Rate of Spread, etc.) down in a way that makes it even easier, after viewing the spatial data, to assess the landscape and 97th percentile modeled fire behavior. For example, in viewing the Fuel Model map (upper left corner), you can see that there is a lot of Fuel Model TL8 on the landscape, but it’s not until you take a look at the graphs that you can really assess that, in fact, 34% of this landscape is attributed to the TL8 fuel model.</p>
         <p>
             <img src="../../Images/Reports/DTA/Rep_DTA_FuelModel_dta_tut.png" alt="summary reports generate a variety of outputs, table, pie charts, bar charts." class="border">
             </img>
