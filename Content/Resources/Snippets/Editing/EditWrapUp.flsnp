@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>The edited landscape is stored in the same folder in <MadCap:variable name="General.ProductName" /> as the landscape it was derived from. Landscape edits may take a few minutes to process. Once edits are complete, the edited landscape will be available in drop-down menus throughout <MadCap:variable name="General.ProductName" /> where-ever a landscape input is required.</p>
+    </body>
+</html>

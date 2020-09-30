@@ -31,7 +31,7 @@
                 <p>It is recommended to keep the landscape names around 30 characters in length for later reporting steps to run smoothly in the <MadCap:variable name="General.ProductName"></MadCap:variable> system.</p>
             </div>
             <li>
-                <p>Once the new landscape is saved, a notification will appear at the top of the screen that confirms it has been successfully submitted. From here you can continue the next steps in the comparison process, or select and edit another landscape.</p>
+                <p>Once the new landscape is saved, a notification will appear at the top of the screen that confirms it has been successfully submitted.</p>
                 <p>
                     <img src="../../../Images/Editing/Ed_SaveEditsDTA_tut.png" alt="you will recieve a message confirming your edit rule has been saved" class="borderlist">
                     </img>
