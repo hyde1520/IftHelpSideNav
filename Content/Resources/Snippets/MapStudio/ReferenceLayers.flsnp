@@ -5,7 +5,7 @@
     <body>
         <h3>Disturbance History</h3>
         <ul>
-            <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=30794b575e5945ffadb974f1b2ac6268" target="_blank">Historic Fuel Treatment Polygons <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=acdb4a650c824c91ba7efd51d3f9f008" target="_blank">Historic Fuel Treatment Polygons 2000 – current <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
             <li><a href="https://apps.fs.usda.gov/arcx/rest/services/RDW_Wildfire/MTBS_CONUS/MapServer/WMSServer/" target="_blank">CONUS MTBS Burn Severity <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
@@ -148,7 +148,7 @@
             <li><a href="https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_AerialFireRetardantAvoidanceAreas_01/MapServer" target="_blank">Terrestrial Retardant Avoidance <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
         </ul>
-        <h3>FTEM&#160;Treatment Points</h3>
+        <h3>FTEM&#160;Treatment Points (Available only in the FTEM interface)</h3>
         <ul>
             <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=acdb4a650c824c91ba7efd51d3f9f008" target="_blank">All FTEM Treatment Points <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
@@ -163,7 +163,7 @@
             <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=acdb4a650c824c91ba7efd51d3f9f008" target="_blank">USFWS FTEM Treatment Points <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
         </ul>
-        <h3>FTEM&#160;Treatment Polys</h3>
+        <h3>FTEM&#160;Treatment Polys (Available only in the FTEM interface)</h3>
         <ul>
             <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=acdb4a650c824c91ba7efd51d3f9f008" target="_blank">All FTEM Treatment Polys <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>

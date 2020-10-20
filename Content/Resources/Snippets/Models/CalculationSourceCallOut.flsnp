@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <div class="notificationNote">
+            <p>The fire behavior calculations for this model are the product of fire behavior libraries developed by the <a href="https://www.firelab.org/" target="_blank">Missoula Fire Sciences Laboratory <i class="fa fa-external-link" aria-hidden="true"></i></a>, Missoula, MT.</p>
+        </div>
+    </body>
+</html>

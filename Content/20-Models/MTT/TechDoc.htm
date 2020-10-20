@@ -7,6 +7,7 @@
         <p><a href="https://firenet365.sharepoint.com/:w:/r/sites/IFTDSS_Non_Gov/Shared Documents/General/IBM IFTDSS/IFTDSS Development/Help/Help Center/MTT/MTT General Tech Doc (MTT Fire Spread).docx?d=wd677bafcce0bb46ae548b75d77fe57a6&amp;csf=1&amp;web=1&amp;e=eudfJL" target="_blank">Draft</a>
         </p>
         <p class="comment" MadCap:conditions="General.Exclude">Updated 9-9-2020 1540</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Models/CalculationSourceCallOut.flsnp" />
         <p>The <MadCap:variable name="General.ProductName" /> Landscape Burn Probability (LBP) model is identical to Minimum Travel Time (MTT) Burn Probability  in FlamMap 6.0, with some fixed modeling inputs (see <a href="#Fixedinputs">below</a> for details).</p>
         <h2>FlamMap MTT Background</h2>
         <MadCap:snippetBlock src="../../Resources/Snippets/Models/MttTechDocInfo.flsnp" />
@@ -14,7 +15,7 @@
         <p>Many of the model inputs are controlled by the user (see the <a href="../LBP/In/OverviewLBP.htm" target="_blank">Input Overview</a> topic for more details); however some model inputs are fixed in <MadCap:variable name="General.ProductName" />  runs and cannot be changed by the user:</p>
         <ul>
             <li>Spotting delay: The time between ember landing and initiation of fire spread is set to 0 minutes.</li>
-            <li>Spotting seed: The spotting seed is used to fix spotting distance and location between model runs.  In <MadCap:variable name="General.ProductName" /> a random number is generated for an initial run for a given landscape extent, ignition and barrier (optional input). Subsequent runs using the same trifecta would re-use the spotting seed. This was done to allow for accurate comparisons between model runs where either model inputs (excluding ignition and barrier) or landscapes (edited versions of the same extent) change.  Without setting the spotting seed, differences seen in fire behavior could be due to differences in spotting.</li>
+            <li>Spotting seed: The spotting seed is a randomly generated value that determines whether or not a specific spot causes an ignition. In <MadCap:variable name="General.ProductName" />, the spotting seed is set for the first model run for a given landscape family and Fire Size List (see the <a href="../LBP/Out/FireSizeList.htm" target="_blank">Fire Size List</a> topic for more details). Subsequent runs using the same combination re-use the spotting seed. This allows for accurate comparisons between model runs using the same landscape family and ignition. Such comparisons can be useful to test the effectiveness of fuel treatment alternatives or to compare the impacts of changing weather parameters. Were spotting seed not held constant in these scenarios, you would be unable to deduce whether changes in fire behavior were due to the changes you specified or the result of differences in spotting.</li>
         </ul>
     </body>
 </html>

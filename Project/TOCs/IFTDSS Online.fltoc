@@ -492,11 +492,17 @@
         Link="/Content/10-MapStudio/Functions/MapFunctions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
         StartSection="false" />
       <TocEntry
-        Title="Layer List (legends)"
-        Link="/Content/10-MapStudio/Functions/LayerList.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Layer List Apply Mask"
-        Link="/Content/10-MapStudio/Functions/LayerListMasks.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Title="Layer List (legend)">
+        <TocEntry
+          Title="About Layer List"
+          Link="/Content/10-MapStudio/Functions/LayerList.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Create a Shape Subset from Layer List"
+          Link="/Content/10-MapStudio/Files/ShapefileGroup.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Layer List Apply Mask"
+          Link="/Content/10-MapStudio/Functions/LayerListMasks.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
       <TocEntry
         Title="Add Layers"
         Link="/Content/10-MapStudio/Functions/AddReferenceData.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -522,8 +528,17 @@
         Title="Measurement"
         Link="/Content/10-MapStudio/Functions/Measurements.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="Attribute Table"
-        Link="/Content/10-MapStudio/Functions/AttributeTable.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Title="Attribute Table">
+        <TocEntry
+          Title="Attribute Table"
+          Link="/Content/10-MapStudio/Functions/AttributeTable.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Create a Shape Subset"
+          Link="/Content/10-MapStudio/Functions/AttributeTableShpSubset.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Filtering"
+          Link="/Content/10-MapStudio/Functions/AttributeTableFilter.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
     </TocEntry>
     <TocEntry
       Title="Shapes and Shapefiles">

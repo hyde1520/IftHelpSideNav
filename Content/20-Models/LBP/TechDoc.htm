@@ -4,6 +4,7 @@
     </head>
     <body>
         <h1>Technical Documentation - Landscape Burn Probability with FlamMap 6.0<MadCap:keyword term="LBP" /><MadCap:keyword term="Landscape Burn Probability" /></h1>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Models/CalculationSourceCallOut.flsnp" />
         <p>The <MadCap:variable name="General.ProductName" /> Landscape Burn Probability (LBP) model is identical to Minimum Travel Time (MTT) Burn Probability  in FlamMap 6.0, with some fixed modeling inputs (see <a href="#Fixedinputs">below</a> for details).</p>
         <h2>FlamMap MTT Background</h2>
         <p>
@@ -15,9 +16,9 @@
         <p>Many of the model inputs are controlled by the user (see the <a href="In/OverviewLBP.htm" target="_blank">Input Overview</a> topic for more details); however some model inputs are fixed in <MadCap:variable name="General.ProductName" /> LBP runs and cannot be changed by the user:</p>
         <ul>
             <li>Resolution of the run: Landscapes over 250,000 acres are resampled prior to model run initiation (See the <a href="../Resampling.htm" target="_blank">Resampling</a> topic for more details).</li>
-            <li>Number of fires simulated: Ignitions are randomly located, they are simulated thousands of times until 98% of the landscape has burned (see the <a href="In/NoFiresSimLBP.htm" target="_blank">Number of Fires Simulated</a> topic for more details).</li>
+            <li>Number of fires simulated: Ignitions are randomly located. A minimum 1,000 fires is used. In the case that 1,000 fires is not sufficient, <MadCap:variable name="General.ProductName" /> keeps adding ignitions until at least 98% of burnable pixels (cells) on the landscape burn or there is no significant change to the percentage burned even if the 98% target is not hit (see the <a href="In/NoFiresSimLBP.htm" target="_blank">Number of Fires Simulated</a> topic for more details).</li>
             <li>Spotting delay: The time between ember landing and initiation of fire spread is set to 0 minutes.</li>
-            <li>Spotting seed: The spotting seed is randomly generated number generated for each run. The spotting seed is used to fix spotting distance and location when a Fire Size List (see the <a href="Out/FireSizeList.htm" target="_blank">Fire Size List</a> topic for more details) is used to fix ignition locations to compare between alternatives for a single landscapes.</li>
+            <li>Spotting seed: The spotting seed is a randomly generated value that determines whether or not a specific spot causes an ignition. In <MadCap:variable name="General.ProductName" />, the spotting seed is set for the first model run for a given <a href="../../20-Landscapes/LCPTerminology.htm#Landscape_family" target="_blank">landscape family</a> and Fire Size List (see the <a href="Out/FireSizeList.htm" target="_blank">Fire Size List</a> topic for more details). Subsequent runs using the same combination re-use the spotting seed. This allows for accurate comparisons between model runs using the same landscape family and ignition. Such comparisons can be useful to test the effectiveness of fuel treatment alternatives or to compare the impacts of changing weather parameters. Were spotting seed not held constant in these scenarios, you would be unable to deduce whether changes in fire behavior were due to the changes you specified or the result of differences in spotting.</li>
         </ul>
         <div>
             <h2><a name="Comparison"></a>Comparison to other Risk Assessments</h2>
