@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultExportProjectFile
+  DestinationType="Target"
+  SourceProjectPath="C:\Users\Josh RDA\Documents\GitHub\IftHelpSideNav\IFTDSSHelpSideNav.flprj"
+  DestinationName="IFTDSSHelpSmall2"
+  DestinationPath="C:\Users\Josh RDA\Desktop"
+  ExportType="Files"
+  TargetPath="ExportSmallProjectIFT.fltar"
+  TargetConvertVariables="false"
+  TargetConvertSnippets="false">
+  <SelectedContentFiles />
+  <SelectedProjectFiles />
+</CatapultExportProjectFile>

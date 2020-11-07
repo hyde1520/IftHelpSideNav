@@ -3,8 +3,64 @@
     <head>
     </head>
     <body>
-        <h1>How to Run Minimum Travel Time (MTT)</h1>
-        <p><a href="https://firenet365.sharepoint.com/:w:/r/sites/IFTDSS_Non_Gov/Shared Documents/General/IBM IFTDSS/IFTDSS Development/Help/Help Center/MTT/Tutorial.docx?d=w7f2e2b6e578c4a989b79c74b4fc39881&amp;csf=1&amp;web=1&amp;e=YmADoY" target="_blank">draft</a>
+        <h1>How to Run Minimum Travel Time Fire Spread (MTT)</h1>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Models/MTT/NamingConventionCallOut.flsnp" />
+        <p>To run Minimum Travel Time Fire Spread (MTT) from the <MadCap:variable name="General.ProductName" /> Modeling Playground, select MTT Fire Spread from the Select Model to Run drop-down menu and click Create Run.</p>
+        <p>
+            <img src="../../Resources/Images/MyPlayground/Play_MTT.png" alt="MTT may be selected from Modeling Playground" class="border" />
         </p>
+        <h2>Choose  a Landscape</h2>
+        <p>Choose a landscape for your run from the drop-down list.</p>
+        <p>
+            <img src="../../Resources/Images/Models/InputsShared/SelectLandscape.png" alt="Select a landscape." class="border" />
+        </p>
+        <h2>Populate the Model Parameters and Run</h2>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Models/LFB/LfbInputs.flsnp" />
+        <ol style="list-style-type: upper-alpha;" start="5">
+            <li>
+                <p>Specify the <a href="In/IgnitionsMTT.htm" target="_blank">ignition</a> for your landscape from the drop-down. The drop-down includes all shapes or shapefiles (points, lines, or polygons) that intersect your landscape.</p>
+                <div class="notificationTip">
+                    <p>In Split screen you may create points, lines, and polygons at anytime in the map interface and <span class="Emphasis">these features will automatically become available in the drop-down menus</span> for the Ignition and Barrier inputs. This includes  <a href="../../10-MapStudio/Functions/CreateEditShps.htm" target="_blank">creating a shape</a>, <a href="../../10-MapStudio/Functions/AddShapefile.htm" target="_blank">uploading a shapefile</a>, creating a shapefile subset <a href="../../10-MapStudio/Files/ShapefileGroup.htm" target="_blank">from the Layer List widget</a>, or <a href="../../10-MapStudio/Functions/AttributeTableShpSubset.htm" target="_blank">from the Attribute Table</a>.</p>
+                </div>
+                <p>
+                    <img src="../../Resources/Images/Models/MTT/MTT_In_Ignitions.png" alt="Shapefiles available in the Ignition field." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Specify whether you want any <a href="In/BarriersMTT.htm" target="_blank">barriers</a> on your landscape.  The drop-down includes all shapes or shapefiles (lines or polygons) that intersect your landscape.</p>
+                <div class="notificationTip">
+                    <p>Barriers are useful to represent non-burnable parts of your landscape such as roads or water bodies that may not have been captured within the landscape file.</p>
+                </div>
+                <img src="../../Resources/Images/Models/MTT/MTT_In_Barriers.png" alt="Barriers may be selected for the MTT run." class="borderlist" />
+            </li>
+            <li>
+                <p>Enter the <a href="In/SimTimesMTT.htm" target="_blank">simulation time</a>, including the burn period length in hours, and the number of burn periods.</p>
+                <div class="notificationTip">
+                    <p>Use this input to represent the peak fire activity per day (in hours), and the number of days (referred to as burn periods) to model. Note that the weather and fuel moisture inputs remain the same regardless of the number of burn periods.</p>
+                </div>
+                <img src="../../Resources/Images/Models/MTT/MTT_In_SimTime.png" alt="Select the Burn Period Length and Number of Burn Periods from the Simulation Time input." class="borderlist" />
+            </li>
+            <li>
+                <p>Choose to either leave the <a href="In/SpotMTT.htm" target="_blank">Spotting probability</a> as the default 20% (recommended for many scenarios) or adjust it as needed.</p>
+                <p>
+                    <img src="../../Resources/Images/Models/InputsShared/SpottingDefault.png" alt="Spotting default is 20%." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Give your run a descriptive name.</p>
+            </li>
+            <li>
+                <p>(Optional) If you choose to save your inputs and complete and run at a later time, click <span class="UIcomponent">Save</span>. The <span class="UIcomponent">Return</span> button will appear and clicking it will return you to <span class="UIcomponent">Modeling Playground</span>. To resume inputs on this MTT run, select the run in <span class="UIcomponent">Modeling Playground</span> and click the <span class="UIcomponent">Edit</span> option.</p>
+                <div class="notificationImportant">
+                    <p>A maximum of five MTT runs may be submitted at any given time. If you see a pop-up notifying you that this number has been exceeded, please save any inputs you’ve entered and complete your task when one of the other runs has completed.</p>
+                </div>
+            </li>
+            <li>
+                <p>Click <span class="UIcomponent">Run</span> to begin the model run or <span class="UIcomponent">Save</span> to save any inputs you’ve entered and complete and run the model at a later time. Once run, your model output will be available in <span class="UIcomponent">Modeling Playground</span> and <span class="UIcomponent">My Workspace</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/Models/MTT/MTT_In_RunName.png" alt="Give your model run a name and click Run" class="borderlist" />
+                </p>
+            </li>
+        </ol>
     </body>
 </html>

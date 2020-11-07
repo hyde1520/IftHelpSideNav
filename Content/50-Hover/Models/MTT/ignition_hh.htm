@@ -4,6 +4,29 @@
         <link href="../../../Resources/Stylesheets/NoTopNav.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <p>Ignition MTT</p>
+        <p>Select a shape or shapefile (it may be multipart if needed) to indicate the location and pattern of ignition on the landscape. You may use points, lines, or polygons for this task.</p>
+        <p>You may upload or create an ignition file in this interface if you do not yet have one, the drop-down menus will automatically update.</p>
+        <p>To ensure successful MTT run completion:</p>
+        <ul>
+            <li>
+                <p>Do not use ignition files that land completely in unburnable fuels or within a barrier.</p>
+            </li>
+            <li>
+                <p>If barriers are also used, ensure barriers and ignitions are at least one cell width away from each other.</p>
+            </li>
+        </ul>
+        <p>Important considerations include:</p>
+        <ul>
+            <li>
+                <p>If a polygon is used, MTT treats the area within the polygon as non-burnable; fire is not permitted to burn inward.</p>
+            </li>
+            <li>
+                <p>Once MTT is run, the ignition file will be converted to a raster format with the same resolution as the rest of the landscape.</p>
+            </li>
+            <li>
+                <p>Once a shape or shapefile is selected for the ignition input, it may not be used for the barrier input.</p>
+            </li>
+        </ul>
+        <p>See the <a href="../../../20-Models/MTT/In/IgnitionsMTT.htm" target="_blank">Ignition topic</a> for more information.</p>
     </body>
 </html>

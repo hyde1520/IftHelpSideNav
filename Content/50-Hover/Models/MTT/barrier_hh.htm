@@ -4,6 +4,21 @@
         <link href="../../../Resources/Stylesheets/NoTopNav.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <p>Barriers MTT</p>
+        <p>Select a shape or shapefile (it may be multipart if needed) to indicate the location and pattern of nonburnable areas on the landscape, you may use lines or polygons. This is useful for areas such as roads or water bodies that may have been classified as a burnable fuel type within the landscape file.</p>
+        <p>You may upload or create a barrier file in this interface if you do not yet have one, the drop-down menus will automatically update.</p>
+        <p>For successful MTT run completion, ensure barriers and ignitions are at least one cell width away from each other.</p>
+        <p>Important considerations include:</p>
+        <ul>
+            <li>
+                <p>If a polygon is selected, the area within will be treated as burnable unless the “fill polygon” radio button is selected.</p>
+            </li>
+            <li>
+                <p>Once MTT is run, the barrier file will be converted to a raster format with the same resolution as the rest of the landscape, if you need to represent a fuel break of a specific size, consider using a polygon rather than a line.</p>
+            </li>
+            <li>
+                <p>If a shape or shapefile is selected for the barrier input, it may not be used for the ignition input.</p>
+            </li>
+        </ul>
+        <p>See the <a href="../../../20-Models/MTT/In/BarriersMTT.htm" target="_blank">Barriers topic</a> for more information.</p>
     </body>
 </html>

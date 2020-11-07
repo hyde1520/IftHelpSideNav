@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="COMMON TASKS"
+    Class="TOCSeparator" />
+  <TocEntry
+    Title="Get Started">
+    <TocEntry
+      Title="0. Use Google Chrome"
+      Link="/Content/00-Concepts/UseGoogleChrome.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="1. Create an Account"
+      Link="/Content/00-Concepts/Accounts/AccountSetup.htm" />
+    <TocEntry
+      Title="2. Reset Password"
+      Link="/Content/00-Concepts/Accounts/AccountPassword.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="3. Edit Profile"
+      Link="/Content/00-Concepts/Accounts/AccountProfile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="4. Navigate [%=General.ProductName%] (An Overview)"
+      Link="/Content/00-Concepts/NavigatingIFTDSS.htm"
+      StartSection="false"></TocEntry>
+    <TocEntry
+      Title="5. Create Your Landscape"
+      Link="/Content/00-Concepts/Cheatsheet_Landscapes.htm"></TocEntry>
+    <TocEntry
+      Title="6. Make Landscape Edits"
+      Link="/Content/00-Concepts/Cheatsheet_Editing.htm"></TocEntry>
+    <TocEntry
+      Title="7. Upload or Create Shapes"
+      Link="/Content/00-Concepts/Cheatsheet_Shapes.htm"></TocEntry>
+    <TocEntry
+      Title="8. Generate an Auto97th Summary"
+      Link="/Content/00-Concepts/Cheatsheet_Auto97th.htm"></TocEntry>
+    <TocEntry
+      Title="9. Run Models"
+      Link="/Content/00-Concepts/Cheatsheet_Modeling.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/00-AboutIFTDSS/KnownIssues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/00-AboutIFTDSS/Disclaimer.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Support Desk"
+      conditions="General.QA ONLY"
+      Link="/Content/00-AboutIFTDSS/SupportTicket.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Using Landscapes">
+    <TocEntry
+      Title="About Landscapes"
+      Link="/Content/20-Landscapes/LCPInfo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Alaska Information"
+      Link="/Content/00-Concepts/Alaska.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      ReplaceMergeNode="false" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/10-MapStudio/Files/LCPCreate.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Edit a Landscape"
+      Link="/Content/30-Tasks/LndscpEdit/LandscapeEditAbout.htm">
+      <TocEntry
+        Title="Making Landscape Edits" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        Link="/Content/30-Tasks/LndscpEdit/LandscapeEditAbout.htm" />
+      <TocEntry
+        Title="About Default Treatment/Disturbance Rules"
+        Link="/Content/30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Applying Edit Rules"
+        Link="/Content/30-Tasks/LndscpEdit/RuleOrdering.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Edit Rule Technical Documentation"
+        Link="/Content/30-Tasks/LndscpEdit/LandscapeEditTechTopic.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/00-Concepts/LANDFIRE.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/20-Landscapes/LCPBuffering.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/20-Landscapes/LCPConsiderations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Landscape Features"
+      Link="/Content/20-Landscapes/LCPFeatures.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/20-Landscapes/LCPTerminology.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Landscape Versions">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/20-Landscapes/LCPVersions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/20-Landscapes/LANDFIREv2016.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Resources"
+    StartSection="false">
+    <TocEntry
+      Title="Alaska Information"
+      Link="/Content/00-Concepts/Alaska.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Case Study Examples"
+      Link="/Content/40-Tutorials/TutorialMain.htm" />
+    <TocEntry
+      Title="Forums"
+      Link="https://iftdsshelp.freshdesk.com/support/discussions" />
+    <TocEntry
+      Title="Fuel Guides and Sites"
+      Link="/Content/41-References/Resources.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Glossary"
+      Link="/Content/41-References/Glossary.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Videos"
+      Link="https://www.youtube.com/channel/UC-Rwe70dxm0FTbxWZnigQsQ/playlists"
+      StartSection="false" />
+    <TocEntry
+      Title="References"
+      Link="/Content/41-References/Citations.htm" />
+    <TocEntry
+      Title="Support Desk"
+      conditions="General.QA ONLY"
+      Link="/Content/00-AboutIFTDSS/SupportTicket.htm"
+      StartSection="false"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/00-AboutIFTDSS/Webinars.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      conditions="General.LaterRelease" />
+    <TocEntry
+      Title="Request Tech. Support"
+      Link="https://iftdss.firenet.gov/landing_page/support.html"
+      conditions="General.Prod ONLY" />
+    <TocEntry
+      Title="IFTDSS Survey Results 2020"
+      Link="/Content/00-AboutIFTDSS/2020results.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      StartSection="false" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/00-AboutIFTDSS/tab_test.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      conditions="General.QA ONLY" />
+  </TocEntry>
+</CatapultToc>
