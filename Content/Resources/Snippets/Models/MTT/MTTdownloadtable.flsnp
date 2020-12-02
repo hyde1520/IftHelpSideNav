@@ -28,27 +28,39 @@
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">metadata</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">.xml</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&lt;MTT Name&gt;.xml </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">.tif.aux.xml</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&lt;MTT Name&gt;.tif.aux.xml</td>
                     <td class="TableStyle-Standard-BodyD-Column1-Body2">Metadata describing the GeoTIFF file, for use in ArcMap.</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">metadata</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">.ovr</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&lt;MTT Name&gt;.ovr</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Metadata describing the GeoTIFF file, for use in ArcMap.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1"><a href="../../../../20-Models/MTT/Out/ArrivalMTT.htm" target="_blank">Arrival Time</a> contour shapefile</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">.dbf, .prj, .shp, .shx </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&lt;MTT Name&gt;_MTTARRIVALCONTOUR.shp</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Shapefile displaying each burn period.</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">metadata</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">.tfw</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&lt;MTT Name&gt;.tfw</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Metadata describing the GeoTIFF file, for use in ArcMap.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2"><a href="../../../../20-Models/MTT/In/BarriersMTT.htm" target="_blank">Barrier</a> shapefile</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">.dbf, .prj, .shp, .shx </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&lt;MTT Name&gt;_MTTBARRIER.shp</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Shapefile displaying the barriers used (if any) in the MTT run.</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">metadata</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">.aux.xml</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&lt;MTT Name&gt;.aux.xml</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Metadata describing the GeoTIFF file, for use in ArcMap.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1"><a href="../../../../20-Models/MTT/Out/EmbersMTT.htm" target="_blank">Ember</a> shapefile</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">.dbf, .prj, .shp, .shx </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&lt;MTT Name&gt;_MTTEMBER.shp</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Shapefile displaying the ember landing locations.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2"><a href="../../../../20-Models/MTT/In/IgnitionsMTT.htm" target="_blank">Ignition</a> shapefile</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">.dbf, .prj, .shp, .shx </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&lt;MTT Name&gt;_MTTIGNITION.shp</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Shapefile displaying the ignitions used in the MTT run.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1"><a href="../../../../20-Models/MTT/Out/FlowPathsMTT.htm" target="_blank">Major flow path</a> shapefile</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">.dbf, .prj, .shp, .shx </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&lt;MTT Name&gt;_MTTMAJORFLOWPATHS.shp</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Shapefile displaying the major flow paths for fire spread.</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
                     <td class="TableStyle-Standard-BodyB-Column1-Body2"><a href="../../../../10-Workspace/downloads/MTTArcLyr.htm" target="_blank">Symbology</a>
@@ -59,5 +71,6 @@
                 </tr>
             </tbody>
         </table>
+        <p>Note on MTT&#160;Outputs:&#160;Ember and Flow paths may appear in ArcMap as though they have different projections. This is only a naming discrepancy rather than a projection issue. See the <a href="../../../../00-AboutIFTDSS/KnownIssues.htm#MTTprojection" target="_blank">issue in our Known Issues topic for more details</a>.</p>
     </body>
 </html>

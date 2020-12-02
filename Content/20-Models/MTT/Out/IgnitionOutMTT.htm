@@ -4,7 +4,39 @@
     </head>
     <body>
         <h1>Ignition Outputs</h1>
-        <p><a href="https://firenet365.sharepoint.com/:w:/r/sites/IFTDSS_Non_Gov/Shared Documents/General/IBM IFTDSS/IFTDSS Development/Help/Help Center/MTT/MTT Output Ignitions.docx?d=wc8601de1ff7b49f8bda4b90802e6d392&amp;csf=1&amp;web=1&amp;e=7x4dUK" target="_blank">Draft Here</a>
-        </p>
+        <p>The Minimum Travel Time Fire Spread (MTT) Ignition grid output is the grid, or raster, version of the ignition and barrier shapes/shapefiles (vectors) provided with the other MTT inputs. This output is visible in Map Studio. It is provided in the MTT download package in which:</p>
+        <ul>
+            <li>
+                <p>Ignition cells have a value equal to 1.</p>
+            </li>
+            <li>
+                <p>Barrier cells (if barriers were used) have a value equal to 0.</p>
+            </li>
+            <li>
+                <p>Ignition cells where a non-burnable fuel model is present have a value of &lt;NoData&gt;. The NoData may make it appear as if there is a break in your barrier which could allow fire to burn through, but this is not the case.</p>
+            </li>
+        </ul>
+        <div class="notificationTip">
+            <p>If a barrier was used in the MTT run, the Layer List in Map Studio will label this layer as “MTT Ignition and Barrier Grid” and it will also contain the barrier from the MTT run.</p>
+        </div>
+        <p>The ignition grid can be useful in determining if any ignition points you input overlapped with non-burnable cells. This can be done in Map Studio by overlaying the MTT ignition grid with the landscape layer and making the fuel model feature visible in Layer List.</p>
+        <p>Because MTT calculates fire behavior characteristics on a cell basis, the ignition and barrier vectors are converted to grids before the model is run. Examples of this process are shown in the images below:</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>
+                <p>Image A shows two vectors, a line used for ignition (orange) and a polygon used for a barrier (green), that were entered as inputs for a MTT run.<br /><img src="../../../Resources/Images/Conceptuals/Fig_MTT_ignition_and_barrier_a.png" alt="ignition line (orange) and barrier polygon (green) shown on the landscape." class="borderlist" /></p>
+            </li>
+            <li>
+                <p>Image B shows those same inputs after they have been converted to grid format for running MTT. Note that the barrier polygon is hollow, indicting an outer barrier surrounding a burnable interior.</p>
+                <p>
+                    <img src="../../../Resources/Images/Conceptuals/Fig_MTT_ignition_and_barrier_b.png" alt="raster versions of the ignition line (orange) and barrier polygon (green)." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Image C shows the same gridded inputs from B, but with the barrier polygon completely filled in, indicating a non-burnable interior. This may be achieved by clicking the Fill Barrier checkbox in the Barrier input section of the MTT model inputs page.</p>
+                <p>
+                    <img src="../../../Resources/Images/Conceptuals/Fig_MTT_ignition_and_barrier_c.png" alt="raterized ignition line (orange), north of the rasterized barrier (green), which has been filled." class="borderlist" />
+                </p>
+            </li>
+        </ol>
     </body>
 </html>

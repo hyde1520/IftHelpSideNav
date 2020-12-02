@@ -764,7 +764,7 @@
         Link="/Content/20-Models/LFB/TechDoc.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
-      Title="Minimum Travel Time (MTT)"
+      Title="Minimum Travel Time Fire Spread (MTT)"
       conditions="General.QA ONLY">
       <TocEntry
         Title="MTT Overview"
@@ -805,7 +805,7 @@
           Title="Barrier"
           Link="/Content/20-Models/MTT/In/BarriersMTT.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
-          Title="[%=System.LinkedTitle%]"
+          Title="Simulation Time"
           Link="/Content/20-Models/MTT/In/SimTimesMTT.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Spotting"
@@ -820,7 +820,7 @@
           Title="Arrival Time"
           Link="/Content/20-Models/MTT/Out/ArrivalMTT.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
-          Title="[%=System.LinkedTitle%]"
+          Title="Embers"
           Link="/Content/20-Models/MTT/Out/EmbersMTT.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
@@ -829,7 +829,7 @@
           Title="[%=System.LinkedTitle%]"
           Link="/Content/20-Models/MTT/Out/InfluenceMTT.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
-          Title="[%=System.LinkedTitle%]"
+          Title="Fireline Intensity"
           Link="/Content/20-Models/MTT/Out/FireIntensityMTT.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"

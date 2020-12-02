@@ -4,7 +4,8 @@
     TermClass=""
     conditions="General.Exclude"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term47">
     <Terms>
       <Term>IFTDSS</Term>
     </Terms>
@@ -14,7 +15,8 @@
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term117">
     <Terms>
       <Term>JFSP</Term>
     </Terms>
@@ -25,7 +27,8 @@
     TermClass=""
     conditions="General.Exclude"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term118">
     <Terms>
       <Term>FCCS</Term>
       <Term>FCCS Surface Fire Behavior</Term>
@@ -37,7 +40,8 @@
     TermClass=""
     conditions="General.Exclude"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term124">
     <Terms>
       <Term>FEPS</Term>
     </Terms>
@@ -48,7 +52,8 @@
     TermClass=""
     conditions="General.Exclude"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term137">
     <Terms>
       <Term>FERA</Term>
     </Terms>
@@ -58,7 +63,8 @@
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term138">
     <Terms>
       <Term>Adiabatic</Term>
     </Terms>
@@ -70,7 +76,8 @@ As defined by NWCG: Adiabatic process. Thermodynamic change of state in which no
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term141">
     <Terms>
       <Term>GIS</Term>
     </Terms>
@@ -80,7 +87,8 @@ As defined by NWCG: Adiabatic process. Thermodynamic change of state in which no
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term142">
     <Terms>
       <Term>Wildland Fire Decision Support System</Term>
       <Term>WFDSS</Term>
@@ -91,7 +99,8 @@ As defined by NWCG: Adiabatic process. Thermodynamic change of state in which no
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term195">
     <Terms>
       <Term>Ladder Fuels</Term>
     </Terms>
@@ -102,7 +111,8 @@ As defined by NWCG: Adiabatic process. Thermodynamic change of state in which no
     TermClass=""
     conditions="General.Exclude"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term196">
     <Terms>
       <Term>FOFEM</Term>
       <Term>IFT-FOFEM</Term>
@@ -113,7 +123,8 @@ As defined by NWCG: Adiabatic process. Thermodynamic change of state in which no
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term197">
     <Terms>
       <Term>LCP</Term>
       <Term>Landscape File</Term>
@@ -133,7 +144,8 @@ Slope</Definition>
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term198">
     <Terms>
       <Term>KML</Term>
     </Terms>
@@ -143,7 +155,8 @@ Slope</Definition>
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term199">
     <Terms>
       <Term>Canopy Bulk Density</Term>
       <Term>CBD</Term>
@@ -154,7 +167,8 @@ Slope</Definition>
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term200">
     <Terms>
       <Term>PC</Term>
     </Terms>
@@ -164,7 +178,8 @@ Slope</Definition>
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term201">
     <Terms>
       <Term>PN</Term>
     </Terms>
@@ -174,7 +189,8 @@ Slope</Definition>
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term202">
     <Terms>
       <Term>SAF/SFM</Term>
     </Terms>
@@ -184,7 +200,8 @@ Slope</Definition>
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term203">
     <Terms>
       <Term>NVCS</Term>
     </Terms>
@@ -194,7 +211,8 @@ Slope</Definition>
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term204">
     <Terms>
       <Term>Duff</Term>
     </Terms>
@@ -206,7 +224,8 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term205">
     <Terms>
       <Term>Litter</Term>
     </Terms>
@@ -216,7 +235,8 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term206">
     <Terms>
       <Term>Forb</Term>
     </Terms>
@@ -226,7 +246,8 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term207">
     <Terms>
       <Term>Diameter at Breast Height</Term>
       <Term>DBH</Term>
@@ -238,7 +259,8 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     TermClass=""
     conditions="General.Exclude"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term208">
     <Terms>
       <Term>Aspatial Fuels Treatment Analysis</Term>
     </Terms>
@@ -249,7 +271,8 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     TermClass=""
     conditions="General.Exclude"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term209">
     <Terms>
       <Term>Consume</Term>
     </Terms>
@@ -260,7 +283,8 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     TermClass=""
     conditions="General.Exclude"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term210">
     <Terms>
       <Term>FARSITE</Term>
     </Terms>
@@ -270,7 +294,8 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term211">
     <Terms>
       <Term>FFI</Term>
       <Term>FEAT FIREMON Integrated</Term>
@@ -281,7 +306,8 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term212">
     <Terms>
       <Term>FIA</Term>
       <Term>Forest Inventory Assessment</Term>
@@ -293,7 +319,8 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     TermClass=""
     conditions="General.LaterRelease"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term213">
     <Terms>
       <Term>Fire Hazard</Term>
     </Terms>
@@ -303,7 +330,8 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term214">
     <Terms>
       <Term>Fire Risk</Term>
     </Terms>
@@ -313,7 +341,8 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term215">
     <Terms>
       <Term>Graminoid</Term>
     </Terms>
@@ -324,7 +353,8 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     TermClass=""
     conditions="General.Exclude"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term216">
     <Terms>
       <Term>BehavePlus</Term>
     </Terms>
@@ -334,7 +364,8 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term217">
     <Terms>
       <Term>First Order Fire Effects</Term>
     </Terms>
@@ -344,7 +375,8 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term218">
     <Terms>
       <Term>Bole</Term>
     </Terms>
@@ -354,7 +386,8 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term219">
     <Terms>
       <Term>Surface Fuel</Term>
     </Terms>
@@ -364,7 +397,8 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term220">
     <Terms>
       <Term>Fireline</Term>
       <Term>Fireguard</Term>
@@ -376,7 +410,8 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term221">
     <Terms>
       <Term>Surface Fire</Term>
     </Terms>
@@ -386,7 +421,8 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term222">
     <Terms>
       <Term>Resource</Term>
     </Terms>
@@ -396,7 +432,8 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term223">
     <Terms>
       <Term>Shrub</Term>
     </Terms>
@@ -406,7 +443,8 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term224">
     <Terms>
       <Term>Woody Fuel</Term>
     </Terms>
@@ -416,7 +454,8 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term225">
     <Terms>
       <Term>Non-Woody Fuels</Term>
     </Terms>
@@ -426,7 +465,8 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term226">
     <Terms>
       <Term>Cover Type</Term>
     </Terms>
@@ -437,7 +477,8 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     TermClass=""
     Stem=""
     IgnoreCase="false"
-    conditions="General.Exclude">
+    conditions="General.Exclude"
+    glossTerm="Glossary.Term227">
     <Terms>
       <Term>Crown Base Height</Term>
     </Terms>
@@ -447,7 +488,8 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term228">
     <Terms>
       <Term>Basal Accumulation</Term>
     </Terms>
@@ -457,7 +499,8 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term229">
     <Terms>
       <Term>Squirrel Midden</Term>
     </Terms>
@@ -467,7 +510,8 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term230">
     <Terms>
       <Term>Fuelbed</Term>
     </Terms>
@@ -477,7 +521,8 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term231">
     <Terms>
       <Term>Ecoregions</Term>
     </Terms>
@@ -487,7 +532,8 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term232">
     <Terms>
       <Term>Bailey's Ecoregions</Term>
     </Terms>
@@ -507,7 +553,8 @@ Ecoregions are: Tundra, subarctic, warm continental, hot continental, subtropica
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term233">
     <Terms>
       <Term>Surface Rate of Spread</Term>
     </Terms>
@@ -518,7 +565,8 @@ Ecoregions are: Tundra, subarctic, warm continental, hot continental, subtropica
     TermClass=""
     conditions="General.Exclude"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term234">
     <Terms>
       <Term>Btu</Term>
       <Term>Btus</Term>
@@ -529,7 +577,8 @@ Ecoregions are: Tundra, subarctic, warm continental, hot continental, subtropica
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term235">
     <Terms>
       <Term>Flaming Front</Term>
     </Terms>
@@ -539,7 +588,8 @@ Ecoregions are: Tundra, subarctic, warm continental, hot continental, subtropica
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term236">
     <Terms>
       <Term>Flame Depth</Term>
     </Terms>
@@ -549,7 +599,8 @@ Ecoregions are: Tundra, subarctic, warm continental, hot continental, subtropica
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term237">
     <Terms>
       <Term>Flame Height</Term>
     </Terms>
@@ -560,7 +611,8 @@ Ecoregions are: Tundra, subarctic, warm continental, hot continental, subtropica
     TermClass=""
     conditions="General.Exclude"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term238">
     <Terms>
       <Term>Wind Adjustment Factor</Term>
       <Term>WAF</Term>
@@ -571,7 +623,8 @@ Ecoregions are: Tundra, subarctic, warm continental, hot continental, subtropica
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term239">
     <Terms>
       <Term>Canopy Base Height</Term>
       <Term>CBH</Term>
@@ -584,7 +637,8 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term240">
     <Terms>
       <Term>Fireline Intensity</Term>
     </Terms>
@@ -594,7 +648,8 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term241">
     <Terms>
       <Term>HPUA</Term>
     </Terms>
@@ -604,7 +659,8 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term242">
     <Terms>
       <Term>Foliar Moisture</Term>
     </Terms>
@@ -614,18 +670,20 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term243">
     <Terms>
       <Term>Rate of Spread</Term>
       <Term>R.O.S.</Term>
     </Terms>
     <Definition
-      Link="">Rate of spread is the relative activity of a fire in extending its horizontal dimensions. It is expressed as rate of forward spread of the fire front. Usually it is expressed in chains or acres per hour.</Definition>
+      Link="">Rate of spread is the relative activity of a fire in extending its horizontal dimensions. It is expressed as rate of forward spread of the fire front.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term244">
     <Terms>
       <Term>Reaction Intensity</Term>
     </Terms>
@@ -635,7 +693,8 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term245">
     <Terms>
       <Term>Epiphytes</Term>
     </Terms>
@@ -645,7 +704,8 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term246">
     <Terms>
       <Term>Epicormic Sprouting</Term>
     </Terms>
@@ -655,7 +715,8 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term247">
     <Terms>
       <Term>LLM</Term>
     </Terms>
@@ -665,7 +726,8 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term248">
     <Terms>
       <Term>Lichen</Term>
     </Terms>
@@ -675,7 +737,8 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term249">
     <Terms>
       <Term>Moss</Term>
     </Terms>
@@ -685,7 +748,8 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term250">
     <Terms>
       <Term>Bryophytes</Term>
     </Terms>
@@ -695,7 +759,8 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term251">
     <Terms>
       <Term>Canopy</Term>
     </Terms>
@@ -705,7 +770,8 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term252">
     <Terms>
       <Term>Lightered Wood</Term>
       <Term>Fatwood</Term>
@@ -716,7 +782,8 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term253">
     <Terms>
       <Term>Spotting Distance</Term>
     </Terms>
@@ -727,7 +794,8 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
     TermClass=""
     conditions="General.Exclude"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term254">
     <Terms>
       <Term>SA/V</Term>
     </Terms>
@@ -737,7 +805,8 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term255">
     <Terms>
       <Term>Palmetto-Gallberry</Term>
     </Terms>
@@ -748,7 +817,8 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
     TermClass=""
     conditions="General.Exclude"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term256">
     <Terms>
       <Term>CONTAIN</Term>
       <Term>IFT-Contain</Term>
@@ -760,7 +830,8 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
     TermClass=""
     conditions="General.Exclude"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term257">
     <Terms>
       <Term>IGNITE</Term>
       <Term>IFT-ignite</Term>
@@ -772,7 +843,8 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
     TermClass=""
     conditions="General.Exclude"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term258">
     <Terms>
       <Term>SAFETY</Term>
       <Term>IFT-safety</Term>
@@ -784,7 +856,8 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
     TermClass=""
     conditions="General.Exclude"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term259">
     <Terms>
       <Term>SCORCH</Term>
       <Term>IFT-scorch</Term>
@@ -796,7 +869,8 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
     TermClass=""
     conditions="General.Exclude"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term260">
     <Terms>
       <Term>SIZE</Term>
       <Term>IFT-size</Term>
@@ -808,7 +882,8 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
     TermClass=""
     conditions="General.Exclude"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term261">
     <Terms>
       <Term>SPOT</Term>
       <Term>IFT-spot</Term>
@@ -820,7 +895,8 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
     TermClass=""
     conditions="General.Exclude"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term262">
     <Terms>
       <Term>SURFACE</Term>
       <Term>IFT-surface</Term>
@@ -832,7 +908,8 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
     TermClass=""
     Stem=""
     IgnoreCase="false"
-    conditions="General.Exclude">
+    conditions="General.Exclude"
+    glossTerm="Glossary.Term263">
     <Terms>
       <Term>Crosswalk</Term>
     </Terms>
@@ -843,7 +920,8 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
     TermClass=""
     conditions="General.Exclude"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term264">
     <Terms>
       <Term>FlamMap</Term>
       <Term>IFT-FlamMap</Term>
@@ -855,7 +933,8 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
     TermClass=""
     conditions="General.Exclude"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term265">
     <Terms>
       <Term>CROWN</Term>
     </Terms>
@@ -865,7 +944,8 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term266">
     <Terms>
       <Term>Slope</Term>
     </Terms>
@@ -875,7 +955,8 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term267">
     <Terms>
       <Term>Crown Fire</Term>
     </Terms>
@@ -891,7 +972,8 @@ As defined by NWCG: A fire that advances from top to top of trees or shrubs more
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term268">
     <Terms>
       <Term>NRC</Term>
     </Terms>
@@ -901,7 +983,8 @@ As defined by NWCG: A fire that advances from top to top of trees or shrubs more
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term269">
     <Terms>
       <Term>Extinction Moisture</Term>
       <Term>Moisture of Extinction</Term>
@@ -914,7 +997,8 @@ Defined by NWCG as: The fuel moisture content, weighed over all the fuel classes
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term270">
     <Terms>
       <Term>Needle Drape</Term>
     </Terms>
@@ -924,7 +1008,8 @@ Defined by NWCG as: The fuel moisture content, weighed over all the fuel classes
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term271">
     <Terms>
       <Term>Blowdown</Term>
     </Terms>
@@ -937,7 +1022,8 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
     TermClass=""
     conditions="General.Exclude"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term272">
     <Terms>
       <Term>Workflow</Term>
     </Terms>
@@ -948,7 +1034,8 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
     TermClass=""
     Stem=""
     IgnoreCase="false"
-    conditions="General.Exclude">
+    conditions="General.Exclude"
+    glossTerm="Glossary.Term273">
     <Terms>
       <Term>NEXUS</Term>
     </Terms>
@@ -958,7 +1045,8 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term274">
     <Terms>
       <Term>Fuel Model</Term>
     </Terms>
@@ -968,7 +1056,8 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term275">
     <Terms>
       <Term>NWCG</Term>
     </Terms>
@@ -978,7 +1067,8 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term276">
     <Terms>
       <Term>IT</Term>
     </Terms>
@@ -988,7 +1078,8 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term277">
     <Terms>
       <Term>LANDFIRE</Term>
     </Terms>
@@ -998,7 +1089,8 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term278">
     <Terms>
       <Term>Understory</Term>
     </Terms>
@@ -1008,7 +1100,8 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term279">
     <Terms>
       <Term>Slash</Term>
     </Terms>
@@ -1018,7 +1111,8 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term280">
     <Terms>
       <Term>Timber</Term>
     </Terms>
@@ -1028,7 +1122,8 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term281">
     <Terms>
       <Term>Grass</Term>
     </Terms>
@@ -1038,7 +1133,8 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term282">
     <Terms>
       <Term>Acre</Term>
     </Terms>
@@ -1048,7 +1144,8 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term283">
     <Terms>
       <Term>Hectare</Term>
     </Terms>
@@ -1058,7 +1155,8 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term284">
     <Terms>
       <Term>Fuel Moisture</Term>
     </Terms>
@@ -1068,7 +1166,8 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term285">
     <Terms>
       <Term>Fuel</Term>
     </Terms>
@@ -1078,7 +1177,8 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term286">
     <Terms>
       <Term>Flash Point</Term>
     </Terms>
@@ -1089,7 +1189,8 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
     TermClass=""
     conditions="General.Exclude"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term287">
     <Terms>
       <Term>FIREHARM</Term>
     </Terms>
@@ -1100,7 +1201,8 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
     TermClass=""
     conditions="General.Exclude"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term288">
     <Terms>
       <Term>Project</Term>
     </Terms>
@@ -1110,7 +1212,8 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term289">
     <Terms>
       <Term>Unit</Term>
     </Terms>
@@ -1120,7 +1223,8 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term290">
     <Terms>
       <Term>Fuelbed Stratum</Term>
     </Terms>
@@ -1131,7 +1235,8 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
     TermClass=""
     conditions="General.Exclude"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term291">
     <Terms>
       <Term>Fuel Category</Term>
     </Terms>
@@ -1141,7 +1246,8 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term292">
     <Terms>
       <Term>Combustion Stage</Term>
     </Terms>
@@ -1151,7 +1257,8 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term293">
     <Terms>
       <Term>Consumption</Term>
     </Terms>
@@ -1161,7 +1268,8 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term294">
     <Terms>
       <Term>Emissions</Term>
     </Terms>
@@ -1173,7 +1281,8 @@ Defined by NWCG as: A release of combustion gases and aerosols into the atmosphe
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term295">
     <Terms>
       <Term>Fuel Loading</Term>
     </Terms>
@@ -1184,7 +1293,8 @@ Defined by NWCG as: A release of combustion gases and aerosols into the atmosphe
     TermClass=""
     conditions="General.Exclude"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term296">
     <Terms>
       <Term>RANDIG</Term>
       <Term>IFT-RANDIG</Term>
@@ -1195,7 +1305,8 @@ Defined by NWCG as: A release of combustion gases and aerosols into the atmosphe
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term297">
     <Terms>
       <Term>Handline</Term>
     </Terms>
@@ -1205,7 +1316,8 @@ Defined by NWCG as: A release of combustion gases and aerosols into the atmosphe
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term298">
     <Terms>
       <Term>Foehn Wind</Term>
     </Terms>
@@ -1215,7 +1327,8 @@ Defined by NWCG as: A release of combustion gases and aerosols into the atmosphe
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term299">
     <Terms>
       <Term>Katabatic</Term>
     </Terms>
@@ -1225,7 +1338,8 @@ Defined by NWCG as: A release of combustion gases and aerosols into the atmosphe
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term300">
     <Terms>
       <Term>Model</Term>
     </Terms>
@@ -1235,7 +1349,8 @@ Defined by NWCG as: A release of combustion gases and aerosols into the atmosphe
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term301">
     <Terms>
       <Term>CSV</Term>
     </Terms>
@@ -1245,7 +1360,8 @@ Defined by NWCG as: A release of combustion gases and aerosols into the atmosphe
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term302">
     <Terms>
       <Term>Burn Probability</Term>
     </Terms>
@@ -1258,7 +1374,8 @@ BP = # times a pixel burns / total number of fires simulated</Definition>
     TermClass=""
     conditions=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term303">
     <Terms>
       <Term>Response Function</Term>
     </Terms>
@@ -1268,7 +1385,8 @@ BP = # times a pixel burns / total number of fires simulated</Definition>
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term304">
     <Terms>
       <Term>FBPS</Term>
       <Term>Fire Behavior Prediction System</Term>
@@ -1281,7 +1399,8 @@ Defined by NWCG as: A system that uses a set of mathematical equations to predic
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term305">
     <Terms>
       <Term>Activity Fuel</Term>
     </Terms>
@@ -1291,7 +1410,8 @@ Defined by NWCG as: A system that uses a set of mathematical equations to predic
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term306">
     <Terms>
       <Term>Natural Fuel</Term>
     </Terms>
@@ -1302,7 +1422,8 @@ Defined by NWCG as: A system that uses a set of mathematical equations to predic
     TermClass=""
     conditions="General.Exclude"
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    glossTerm="Glossary.Term307">
     <Terms>
       <Term>NTLL</Term>
     </Terms>

@@ -4,9 +4,59 @@
     </head>
     <body>
         <div>
-            <h1>Ignition for Minimum Travel Time (MTT)</h1>
+            <h1>Ignitions - Minimum Travel Time Fire Spread (MTT) Input</h1>
         </div>
-        <p><a href="https://firenet365.sharepoint.com/:w:/r/sites/IFTDSS_Non_Gov/Shared Documents/General/IBM IFTDSS/IFTDSS Development/Help/Help Center/MTT/Ignitions.docx?d=waaa1457254354794b627ec30f5947d95&amp;csf=1&amp;web=1&amp;e=pCJsBO" target="_blank">draft</a>
+        <p>
+            <img src="../../../Resources/Images/Models/MTT/MTT_In_Ignitions.png" alt="ignition field in MTT with a drop-down menu populated with shapefile names." class="border" />
+        </p>
+        <p>Once your landscape is selected, use a shape or shapefile to indicate the location and pattern of ignition on the landscape.</p>
+        <p>You must select your landscape prior to selecting an Ignition file. Available files are limited to:</p>
+        <ul>
+            <li>
+                <p>Shapes you’ve created in IFTDSS or shapefiles you’ve uploaded. Points, lines, and polygons are all available as ignitions.</p>
+            </li>
+            <li>
+                <p>Shapes or shapefiles that intersect your landscape, or the <a href="../../../20-Landscapes/LCPBuffering.htm" target="_blank">buffered</a> area surrounding it.</p>
+            </li>
+            <li>
+                <p>A single shape or shapefile. The file may be single or multipart.</p>
+            </li>
+        </ul>
+        <div class="notificationImportant">
+            <p>Ignitions and barriers must be at least one cell width away from each other or the model run will fail.</p>
+            <p>Once a shape or shapefile is selected for the ignition input, it may not be used for the barrier input.</p>
+        </div>
+        <h2>Using Polygons</h2>
+        <p>Polygons may be used to represent ignitions. Be aware of the information below to successfully model using this ignition type: </p>
+        <div class="notificationImportant">
+            <p>To avoid run failure or misinterpretation when using polygons:</p>
+            <ul>
+                <li>
+                    <p>Be aware MTT Fire Spread treats the area within the polygon as non-burnable, fire is not permitted to burn inward.</p>
+                </li>
+                <li>
+                    <p>Do not use ignition files that land completely in unburnable fuels or within a barrier, these will cause a run failure.</p>
+                </li>
+            </ul>
+        </div>
+        <h2>Resolution and Raster Conversion</h2>
+        <p>The Minimum Travel Time Fire Spread (MTT) model is a raster based model that converts ignition and barrier vectors to rasters prior to the model running.  Point and line ignitions will default to the same width as the cell resolution of your landscape.</p>
+        <p>The images below show a before (image A) and after (image B) example of lines and polygons being converted to raster format.</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>
+                <p>Image A shows two vectors, a line used for ignition (orange) and a polygon used for a barrier (green), that were entered as inputs for a MTT run.<br /><img src="../../../Resources/Images/Conceptuals/Fig_MTT_ignition_and_barrier_a.png" alt="ignition line (orange) and barrier polygon (green) shown on the landscape." class="borderlist" /></p>
+            </li>
+            <li>
+                <p>Image B shows those same inputs after they have been converted to grid format for running MTT. </p>
+                <p>
+                    <img src="../../../Resources/Images/Conceptuals/Fig_MTT_vector_vs_raster_point.png" alt="raster versions of an ignition point and line (orange) and barrier polygon (green). A box on the right highlights the fact that a raster point may be larger than the vector version of that same point" class="borderlist" />
+                </p>
+            </li>
+        </ol>
+        <h2>Creating an Ignition While Using the MTT Fire Spread Interface</h2>
+        <p>In Split Screen, you may create points, lines, and polygons at anytime in the map interface and <span class="Emphasis">these features will automatically become available in the drop-down menus</span> for the Ignition and Barrier inputs. This includes <a href="../../../10-MapStudio/Functions/CreateEditShps.htm" target="_blank">creating a shape</a>, <a href="../../../10-MapStudio/Functions/AddShapefile.htm" target="_blank">uploading a shapefile</a>, creating a shapefile subset <a href="../../../10-MapStudio/Files/ShapefileGroup.htm" target="_blank">from the Layer List</a> widget, or <a href="../../../10-MapStudio/Functions/AttributeTableShpSubset.htm" target="_blank">from the Attribute Table</a>. Split Screen is the default display mode for MTT.</p>
+        <p>
+            <img src="../../../Resources/Images/Models/MTT/MTT_splitscreen.png" alt="Split screen mode showing MTT input fields on the right and Map Studio with widgets on the left." class="border" />
         </p>
     </body>
 </html>

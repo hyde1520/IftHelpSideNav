@@ -3,8 +3,36 @@
     <head>
     </head>
     <body>
-        <h1>Embers</h1>
-        <p><a href="https://firenet365.sharepoint.com/:w:/r/sites/IFTDSS_Non_Gov/Shared Documents/General/IBM IFTDSS/IFTDSS Development/Help/Help Center/MTT/Output - Embers.docx?d=wae4100eba44849a7be09c6217ed63bb2&amp;csf=1&amp;web=1&amp;e=1nSi3G" target="_blank">Draft Here</a>
+        <h1>Embers - Minimum Travel Time Fire Spread (MTT) Output</h1>
+        <div class="notificationTip">
+            <p>MTT Embers is only available in the download package and is not displayed in Map Studio. </p>
+        </div>
+        <p>Embers is a shapefile contained in the Minimum Travel Time Fire Spread (MTT) download package. The shapefile shows where live embers landed. These locations are not necessarily where spot fires occur; an ember could land but not ignite the fuels.</p>
+        <p>
+            <img src="../../../Resources/Images/MapStudio/Map_MTT_Embers.png" alt="Embers are visible as black points on the map." class="border" />
         </p>
+        <h2>Ember influence on Arrival Time</h2>
+        <p>If an ember lands, the landing time is compared to the current <a href="ArrivalMTT.htm" target="_blank">arrival time</a>, the earlier time then becomes the arrival time. Any point can have it's arrival time replaced with a lower one regardless if the lower time is the result of another ember or surface fire spread.</p>
+        <p>The following attribution is part of the MTT Ember shapefile:</p>
+        <ul>
+            <li>
+                <p>LaunchX - X coordinate of the live ember launch,</p>
+            </li>
+            <li>
+                <p>LaunchY - Y coordinate of the live ember launch,</p>
+            </li>
+            <li>
+                <p>LandX - X coordinate of the live ember landing,</p>
+            </li>
+            <li>
+                <p>LandY - Y coordinate of the live ember landing,</p>
+            </li>
+            <li>
+                <p>LaunchTime - simulation time (in minutes) when the live ember was lofted from a torching tree,</p>
+            </li>
+            <li>
+                <p>LandTime - simulation time when the live ember landed (in minutes), plus any spotting delay (set to 0 minutes for <MadCap:variable name="General.ProductName" />).</p>
+            </li>
+        </ul>
     </body>
 </html>

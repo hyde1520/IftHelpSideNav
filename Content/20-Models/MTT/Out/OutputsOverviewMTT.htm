@@ -5,16 +5,13 @@
     </head>
     <body>
         <h1>MTT Outputs Overview </h1>
-        <p><a href="https://firenet365.sharepoint.com/:w:/r/sites/IFTDSS_Non_Gov/Shared Documents/General/IBM IFTDSS/IFTDSS Development/Help/Help Center/MTT/Output Overview.docx?d=w572e73dabb2549e19da947a09659f24f&amp;csf=1&amp;web=1&amp;e=txV3we" target="_blank">Draft</a>
-        </p>
-        <p class="comment" MadCap:conditions="General.Exclude">Last Updated 9-9-2020 1600</p>
-        <p>Select Minimum Travel Time (MTT) outputs are available as geospatial layers in Map Studio, displayed in <MadCap:variable name="General.ProductName" /> summary reports, and available for download and use within other applications. Each output is listed below.</p>
+        <p>The table below describes the Minimum Travel Time Fire Spread (MTT) outputs available in <MadCap:variable name="General.ProductName" />. Units for each output in Map Studio, Summary reports, or MTT download package are included. A unit listing of “N/A” indicates that particulate output is not available in that format.  </p>
         <table style="width: 100%;mc-table-style: url('../../../Resources/TableStylesheets/Standard.css');caption-side: top;" class="TableStyle-Standard" cellspacing="3">
             <caption>MTT Output descriptions.</caption>
             <col class="TableStyle-Standard-Column-Column1" style="width: 246px;" />
-            <col class="TableStyle-Standard-Column-Column1" />
-            <col class="TableStyle-Standard-Column-Column1" />
-            <col class="TableStyle-Standard-Column-Column1" />
+            <col class="TableStyle-Standard-Column-Column1" style="width: 830px;" />
+            <col class="TableStyle-Standard-Column-Column1" style="width: 298px;" />
+            <col class="TableStyle-Standard-Column-Column1" style="width: 288px;" />
             <col class="TableStyle-Standard-Column-Column1" />
             <thead>
                 <tr class="TableStyle-Standard-Head-Header1">
@@ -32,97 +29,101 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-Standard-Body-Body1">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Arrival Time&#160;Grid</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">The elapsed time when the fire arrived at each node. See the <a href="ArrivalMTT.htm" target="_blank">Arrival Time topic</a> for more details.</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">MTT Major Paths </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">The major flow paths show the most significant fire spread pathways. <a href="FlowPathsMTT.htm" target="_blank">See the Flow Path topic for more details</a>.</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">unitless</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">unitless</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">unitless</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Arrival Time Contour</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Vector representation of the MTT Arrival Time grid representing individual burn period.</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body2">&#160;</td>
-                </tr>
-                <tr class="TableStyle-Standard-Body-Body1">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Ember Landing Locations</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Point shapefile including ember landing locations. See the <a href="EmbersMTT.htm" target="_blank">MTT Embers topic</a> for more details.</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">&#160;</td>
-                </tr>
-                <tr class="TableStyle-Standard-Body-Body2">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Ember List</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Comma separated value file (CSV) with launch coordinates, landing coordinates, launch time, and landing time. See the <a href="EmbersMTT.htm" target="_blank">MTT Embers topic</a> for more details. </td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body2">&#160;</td>
-                </tr>
-                <tr class="TableStyle-Standard-Body-Body1">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Flow Paths</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Major paths identified at the user-specified Interval for Minimum Travel Paths. See the <a href="FlowPathsMTT.htm" target="_blank">Flow Path topic</a> for more details. </td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">&#160;</td>
-                </tr>
-                <tr class="TableStyle-Standard-Body-Body2">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">MTT Fireline Intensity Grid</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Fireline intensity of each node burned by the fire as it follows the minimum travel time path. See the <a href="FireIntensityMTT.htm" target="_blank">Fireline Intensity topic</a> for more details.</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body2">&#160;</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">MTT Arrival Time Contour</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">A vector representation of the MTT Arrival Time grid representing individual burn periods. <a href="ArrivalMTT.htm" target="_blank">See the Arrival Time topic for more details</a>. </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">burn period</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">N/A</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">burn period</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">MTT Ignition Grid</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">The raster interpretation of the ignition and barrier vectors by the MTT model. See the <a href="IgnitionOutMTT.htm" target="_blank">MTT Ignitions topic</a> for more details.</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">The raster interpretation of the ignition and barrier vectors used by the MTT model. <a href="IgnitionOutMTT.htm" target="_blank">See the MTT Ignitions topic for more details</a>. </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">unitless</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">N/A</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">unitless</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">MTT Rate of Spread</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Spread rate of the fire as it encountered each node along the minimum travel time path. See the <a href="RoSpreadMTT.htm" target="_blank">Rate of Spread topic</a> for more details. </td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body2">&#160;</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">MTT Arrival Time Grid<sup>A, B</sup></td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">The time required for fire to travel from its ignition source to a particular cell. <a href="ArrivalMTT.htm" target="_blank">See the Arrival Time topic for more details</a>. 
+</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">burn&#160;period</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">burn period</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">minutes</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">MTT Rate of Spread<sup>A, B</sup></td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Spread rate of the fire as it encountered each cell along the minimum travel time path. <a href="RoSpreadMTT.htm" target="_blank">See the Rate of Spread topic for more details</a>. </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">chains/hr</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">chains/hr</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">meters/min</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body2">&#160;</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">MTT Fireline Intensity<sup>A, B</sup></td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Fireline intensity of each cell burned by the fire as it follows the minimum travel time path. <a href="FireIntensityMTT.htm" target="_blank">See the Fireline Intensity topic for more details</a>. </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">BTU/ft-sec</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">BTU/ft-sec</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">kW/m</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">&#160;</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">MTT Ember Landing Locations</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Ember landing locations. <a href="EmbersMTT.htm" target="_blank">See the MTT Embers topic for more details</a>. </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">N/A</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">N/A</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">unitless</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">&#160;</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body2">&#160;</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Midflame Wind Speed <sup>C</sup></td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Wind velocity at the midflame height. Calculated using wind adjustment factors based on stand height and canopy cover and the Wind Speed. </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">mph</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">N/A</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">mph</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
-                    <td class="TableStyle-Standard-BodyB-Column1-Body1">&#160;</td>
-                    <td class="TableStyle-Standard-BodyB-Column1-Body1">&#160;</td>
-                    <td class="TableStyle-Standard-BodyB-Column1-Body1">&#160;</td>
-                    <td class="TableStyle-Standard-BodyB-Column1-Body1">&#160;</td>
-                    <td class="TableStyle-Standard-BodyA-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Wind Speed</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Wind velocity measured 20 feet (6 m) above the top of the tree or shrub canopy, or above the ground if canopy is absent. </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">N/A</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">N/A</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">mph</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Wind Direction</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Wind direction is the direction from which the wind is blowing, specified in degrees increasing clockwise from north (which is zero degrees), Uphill or Downhill. Measured 20 feet (6 m) above the top of the tree or shrub canopy, or above the ground if canopy is absent. </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">N/A</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">N/A</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">degrees</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">1 Hr Fuel Moisture <sup>A</sup></td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Moisture content of 1-hour fuel (dead woody fuel 0 to ¼ inch or 0 to 6.4 mm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass. </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">percent</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">N/A</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">proportion</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">10 Hr Fuel Moisture <sup>A</sup></td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Moisture content of 10-hour fuel (dead woody fuel ¼ to 1 inch or 0.6 to 2.5 cm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass. </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">percent</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">N/A</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">proportion</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">100 Hr Fuel Moisture <sup>A</sup></td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">Moisture content of 100-hour fuel (dead woody fuel 1 to 3 inches or 2.5 to 7.6 cm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass. </td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">percent</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">N/A</td>
+                    <td class="TableStyle-Standard-BodyA-Column1-Body1">proportion</td>
                 </tr>
             </tbody>
         </table>
+        <p><sup>A</sup> GeoTIFF values for non-burnable pixels are -1.</p>
+        <p><sup>B</sup> GeoTIFF values for burnable but not burned pixels are 0.</p>
+        <p><sup>C</sup> GeoTIFF values for non-burnable pixels are 0.</p>
     </body>
 </html>

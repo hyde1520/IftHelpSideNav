@@ -1,22 +1,234 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="General.QA ONLY">
     <head>
+        <link href="../../Resources/TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
         <h1>
             <MadCap:keyword term=".lyr" />
             <MadCap:keyword term="symbology" />
             <MadCap:keyword term="download" />
-            <MadCap:keyword term="arcmap" />Importing Layer Symbology into ArcMap for Minimum Travel Time(MTT) Outputs</h1>
-        <p class="comment">ADD CONTENT TO THIS PLACEHOLDER</p>
-        <p><MadCap:variable name="General.ProductName" /> uses a specific color scheme for Map Studio and report figures. You can duplicate this color scheme in ArcMap using the .lyr files contained in the "symbology" folder of the MTT download package. The .lyr file contains all the color specifications used by <MadCap:variable name="General.ProductName" />.</p>
-        <p>Lyr files in the QWRA package include:</p>
+            <MadCap:keyword term="arcmap" />Importing Layer Symbology into ArcMap for Minimum Travel Time Fire Spread (MTT) Outputs</h1>
+        <p><MadCap:variable name="General.ProductName" /> uses a specific color scheme for Map Studio and report figures. When you download <MadCap:variable name="General.ProductName" /> files for use in Arcmap, you can duplicate this color scheme using our .lyr files contained in the "symbology" folder. The .lyr file contains all the color specifications used by <MadCap:variable name="General.ProductName" />.</p>
+        <p>Lyr files in the Minimum Travel Time Fire Spread (MTT)&#160;download include:</p>
         <ul>
-            <li>x.</li>
-            <li>y.</li>
-            <li>z.</li>
+            <li>MTT Ignition</li>
+            <li>MTT Rate of Spread</li>
+            <li>MTT Fireline Intensity</li>
+            <li>Midflame Wind Speed</li>
+            <li>1-hr Fuel Moisture</li>
+            <li>10-hr Fuel Moisture</li>
+            <li>100-hr Fuel Moisture</li>
         </ul>
-        <p>In the MTT download package available in <MadCap:variable name="General.ProductName" />, we include a folder entitled "Symbology". The Symbology folder contains ArcGIS Layer (.lyr) files to define the symbology for most of the layers visible in Map Studio for use in ArcMap. In the GeoTIFF, the QWRA layers are both categorical and continuous data, therefore importing the symbology is slightly different for the two types.</p>
-        <p>....</p>
+        <div class="notificationImportant">
+            <p> MTT Arrival Time is dynamic and varies by run, thus it does not have an lyr symbology file. See the <a href="#Applying">MTT Arrival Time steps below</a> for details and setting symbology for it.</p>
+        </div>
+        <div class="notificationImportant">
+            <p>The symbology was designed to match the units in Map Studio; however, the units in GeoTIFF are not always the same.  For example, MTT Fireline Intensity is kW/m in the GeoTIFF, and BTU/ft-sec in the legend. In the image below, the value for the pixel under the mouse cursor is 1678.5 kW/m. This is 485 BTU/ft-sec and is in the &gt;100 - 500 class in the legend (yellow).</p>
+            <p>
+                <img src="../../Resources/Images/External/Arc/import_lyrs/MTT/Arc_MTT_legend_mismatch.png" class="border" alt="Identify window in Arcmap open showing the unique value, class value, and pixel value for a pixel.">
+                </img>
+            </p>
+            <p>See the <a href="DownloadPkgLCP.htm" target="_blank">Landscape (LCP) GeoTIFFs from <MadCap:variable name="General.ProductName"></MadCap:variable></a> topic for the units in Map Studio versus the GeoTIFF.</p>
+        </div>
+        <p>In the MTT download package available in <MadCap:variable name="General.ProductName" />, we include a folder entitled "symbology". The symbology folder contains ArcGIS Layer (.lyr) files to define the symbology for most of the layers visible in Map Studio for use in ArcMap. In the GeoTIFF, the MTT layers are both categorical and continuous data, therefore importing the symbology is slightly different for the two types.</p>
+        <p>
+            <img src="../../Resources/Images/External/Arc/import_lyrs/MTT/Arc_MTT_LyrFileList.png" class="border" alt="IFTDSS download file directory, showing several .lyr files for the outputs addressed in this help topic." />
+        </p>
+        <p>We have not included layer files for layers included in MTT GeoTIFF not shown in Map Studio.  These include Wind Direction and Wind Speed.</p>
+        <h2>Importing symbology for MTT Ignition</h2>
+        <p>The MTT Ignition layer in the MTT GeoTIFF is categorical data. The following steps outline how to import the symbology for categorical data. If you used barriers in the run, those will be contained in this layer as well. This example includes both ignition patterns (represented with a raster of 1) and barriers (represented with a 0). To set symbology for MTT&#160;Ignition:</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Open ArcMap session and add the layers you would like to map. For more information on how to add layers to ArcMap please see the <a href="ArcGeoTiffOpen.htm" target="_blank">Opening an <MadCap:variable name="General.ProductName"></MadCap:variable> GeoTIFF file in ArcMap</a> topic.</li>
+            <li>
+                <p>Right-click on the "MTT Ignition" layer and click <span class="UIcomponent">Properties</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/MTT/Arc_MTT_IgntnProperties.png" alt="The Properties option is available after right clicking on the layer." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>In the <span class="UIcomponent">Layer Properties window</span> go to the<span class="UIcomponent"> Symbology tab</span> and select <span class="UIcomponent">Unique Values</span>.  You may get a pop-up window asking if you would like to compute unique values.  Click <span class="UIcomponent">Yes</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/MTT/Arc_MTT_UniqueValSymb.png" alt="Layer properties for the mtt ignition layer with the Symbology tab open" class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Click on the <span class="UIcomponent">Folder icon <img src="../../Resources/Images/External/Arc/import_lyrs/landscapes/Arc_IconFolder.png" alt="folder icon" class="iftbutton" /></span> toward the top right of the <span class="UIcomponent">Layer Properties window</span>. In the <span class="UIcomponent">Import Symbology window</span> that opens, click on the <span class="UIcomponent">Folder icon <img src="../../Resources/Images/External/Arc/import_lyrs/landscapes/Arc_IconFolder.png" alt="folder icon" class="iftbutton" /></span>. This opens the <span class="UIcomponent">Browse window</span>. Select the MTT Ignition.lyr" file in the Browse window and click<span class="UIcomponent"> Add</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/MTT/Arc_MTT_Ignt_ImportLyrSymb.png" alt="A file list of .lyr files available for selection as part of the import symbology process" class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Click <span class="UIcomponent">OK</span> to close the <span class="UIcomponent">Import Symbology window</span>, and <span class="UIcomponent">OK</span> in the bottom of the <span class="UIcomponent">Layer properties window</span> to apply the symbology.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/MTT/Arc_MTT_IgCloseLyr.png" class="borderlist" alt="clicking the ok button at the bottom of the window will keep your changes and close the window" />
+                </p>
+            </li>
+            <li>
+                <p>Now you can see the Ignition (orange) and Barrier (green) displayed in ArcMap (top image) the same as it is in Map Studio in <MadCap:variable name="General.ProductName" /> (bottom image).</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/MTT/Arc_MTT_Igntion.png" alt="MTT Ignition layer in ArcMap showing the same symbology as it appears in IFTDSS Map Studio" />
+                </p>
+                <p>
+                    <img src="../../Resources/Images/MapStudio/widget_layer_list/LyrList_MTT_IgForArc.png" alt="Ignition layer in IFTDSS Map Studio with the Layer List open" class="borderlist" />
+                </p>
+            </li>
+        </ol>
+        <h2>Importing symbology for MTT Rate of Spread, MTT Fireline Intensity, Midflame Wind Speed, and 1, 10, and 100 Hour Fuel Moistures</h2>
+        <p>The same steps are completed to import the symbology for MTT Rate of Spread, MTT Fireline Intensity, Midflame Wind Speed, and 1, 10, and 100 Hour Fuel Moistures. These data sources are continuous data that are classified into distinct bins.  The following steps outline how to import the symbology for continuous data. The example below will use MTT Fire Line Intensity; however, the same steps are applied to the remaining layers.</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Open ArcMap session and add the layers you would like to map. For more information on how to add layers to ArcMap please see the <a href="ArcGeoTiffOpen.htm" target="_blank">Opening an <MadCap:variable name="General.ProductName" /> GeoTIFF file in ArcMap</a> topic.</li>
+            <li>
+                <p>Right-click on the "MTT Fire Line Intensity" and click <span class="UIcomponent">Properties</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/MTT/Arc_MTT_FireIntProperties.png" alt="layer options in Arcmap with the 'properties' option visibile at the bottom of the menu" class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>In the <span class="UIcomponent">Layer Properties window</span> go to the <span class="UIcomponent">Symbology tab</span> and select "Classified".</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/landscapes/Arc_CbhClassifiedSymb.png" alt="'classified' is highlighted in the menu on the left of the Layer Properties window" class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Click on the <span class="UIcomponent">Folder icon <img src="../../Resources/Images/External/Arc/import_lyrs/landscapes/Arc_IconFolder.png" alt="folder icon" class="iftbutton" /></span> toward the top right of the <span class="UIcomponent">Layer Properties window</span>. In the <span class="UIcomponent">Import Symbology window</span> that opens, click on the <span class="UIcomponent">folder icon</span>. This opens the <span class="UIcomponent">Browse window</span>.  Select the "MTT Fire Line Intensity.lyr" file in the Browse window and click <span class="UIcomponent">Add</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/MTT/Arc_MTT_ImportFireIntSymb.png" alt="A file list of .lyr files available for selection as part of the import symbology process" class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p> Click <span class="UIcomponent">OK</span> to close the <span class="UIcomponent">Import Symbology window</span>, and <span class="UIcomponent">OK</span> in the bottom of the <span class="UIcomponent">Layer properties window</span> to apply the symbology.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/MTT/Arc_MTT_FireIntCloseLyr.png" alt="clicking the ok button at the bottom of the window will keep your changes and close the window" class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Now you can see MTT Fire Line Intensity in ArcMap (top image) the same as it is in Map Studio in <MadCap:variable name="General.ProductName" /> (bottom image).</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/MTT/Arc_MTT_FireInt.png" alt="MTT Fireline Intensity layer in Arcmap displaying the same symbology as IFTDSS map studio" class="borderlist" />
+                </p>
+                <p>
+                    <img src="../../Resources/Images/MapStudio/widget_layer_list/LyrList_MTT_FireIntForArc.png" alt="MTT Fireline Intensity layer in IFTDSS map studio" class="borderlist" />
+                </p>
+            </li>
+        </ol>
+        <h2><a name="Applying"></a>Applying Symbology for MTT Arrival Time</h2>
+        <p>For MTT Arrival Time, the legend is dynamically applied depending upon how many burn periods you specified when running the model, so there is not  ArcGIS Layer file included in the download package. The steps below walk-through the process of classifying your MTT Arrival Time in Arcmap using the same break values used in <MadCap:variable name="General.ProductName" />, and setting the color ramp to the same values for those periods.</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Open ArcMap session and add the layers you would like to map. For more information on how do add layers to ArcMap please see the <a href="ArcGeoTiffOpen.htm" target="_blank">Opening an <MadCap:variable name="General.ProductName"></MadCap:variable> Geo Tiff file in ArcMap</a> help topic.</li>
+            <li>
+                <p>Right-click on the "MTT Arrival Time" layer and click <span class="UIcomponent">Properties</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/MTT/Arc_MTT_ArrivalProperties.png" class="borderlist" alt="The &quot;properties&quot; option displayed in ArcMap after right-clicking on the Arrival Time layer." />
+                </p>
+            </li>
+            <li>
+                <p>To determine the break values for the classification, in the <span class="UIcomponent">Layer Property window</span>, go to the <span class="UIcomponent">Symbology tab</span>, select "Classified", then click the <span class="UIcomponent">Classify</span> button.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/MTT/Arc_MTT_ClassifyArrival.png" alt="&quot;Layer Properties&quot; box with the &quot;Classified&quot; option selected." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>In the <span class="UIcomponent">Classification window</span>, change the <span class="UIcomponent">Method</span> to  anything other than "Manual", in our example we’ll use “Equal Interval”. For <span class="UIcomponent">Classes</span>, set the number to be two higher than your number of burn periods so that you can accommodate "non-burnable" and "burnable but not burned" categories. In this example we've used five burn periods so we'll set this value to 7. </p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/MTT/Arc_MTT_ArrivalClasses.png" alt="Seven Classes are specified in this example." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Next, go to the <span class="UIcomponent">Break Values</span> box in the bottom right. Populate this with "-1", followed by "0" to classify the non-burnable and burnable but not burned pixels. For the rest of the break values, insert the elapsed, in minutes, for each burn period. For this example we used 8 hours per burn period, and five burn periods. So our values are set to 480, 960,1440, 1920, and 2400. When you are done, click <span class="UIcomponent">OK</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/MTT/Arc_MTT_ArrivalBreakValues.png" alt="Break Values as described in the text above." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>With the <span class="UIcomponent">Symbology tab</span> of the <span class="UIcomponent">Layer Properties window</span> still open, double click each label and type the correct names under <span class="UIcomponent">Label</span>. This will update the legend in the ArcMap table of contents. Click <span class="UIcomponent">OK</span> when you are done.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/MTT/Arc_MTT_ArrivalLabels.png" class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Set the color for the labels by double-clicking the symbol next to the "-1" value (-1 represents Non-burnable pixels) . When the <span class="UIcomponent">Color Selector window</span> opens, click <span class="UIcomponent">More Colors…</span>, then set the  color to “RBG” from the drop-down menu, enter the values R = 156 , G = 156, B = 156, and click <span class="UIcomponent">OK</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/MTT/Arc_MTT_SetRgb.png" alt="color selection menu" class="borderlist">
+                    </img>
+                </p>
+            </li>
+            <li>
+                <p>Repeat the process in step G for the remaining classes using the values in the table below.</p>
+                <table style="width: 100%;mc-table-style: url('../../Resources/TableStylesheets/Standard.css');caption-side: top;" class="TableStyle-Standard" cellspacing="3">
+                    <caption>RGB Value for each class.</caption>
+                    <col class="TableStyle-Standard-Column-Column1">
+                    </col>
+                    <col class="TableStyle-Standard-Column-Column1">
+                    </col>
+                    <col class="TableStyle-Standard-Column-Column1">
+                    </col>
+                    <col class="TableStyle-Standard-Column-Column1">
+                    </col>
+                    <thead>
+                        <tr class="TableStyle-Standard-Head-Header1">
+                            <th class="TableStyle-Standard-HeadE-Column1-Header1">Value</th>
+                            <th class="TableStyle-Standard-HeadE-Column1-Header1">R</th>
+                            <th class="TableStyle-Standard-HeadE-Column1-Header1">G</th>
+                            <th class="TableStyle-Standard-HeadD-Column1-Header1">B</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-Standard-Body-Body1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Body1">-1 (Non burnable)</td>
+                            <td class="TableStyle-Standard-BodyE-Column1-Body1">156</td>
+                            <td class="TableStyle-Standard-BodyE-Column1-Body1">156</td>
+                            <td class="TableStyle-Standard-BodyD-Column1-Body1">156</td>
+                        </tr>
+                        <tr class="TableStyle-Standard-Body-Body2">
+                            <td class="TableStyle-Standard-BodyE-Column1-Body2">0 (Burnable but not Burned)</td>
+                            <td class="TableStyle-Standard-BodyE-Column1-Body2">0</td>
+                            <td class="TableStyle-Standard-BodyE-Column1-Body2">0</td>
+                            <td class="TableStyle-Standard-BodyD-Column1-Body2">0</td>
+                        </tr>
+                        <tr class="TableStyle-Standard-Body-Body1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Body1">Burn Period 1</td>
+                            <td class="TableStyle-Standard-BodyE-Column1-Body1">197</td>
+                            <td class="TableStyle-Standard-BodyE-Column1-Body1">0</td>
+                            <td class="TableStyle-Standard-BodyD-Column1-Body1">255</td>
+                        </tr>
+                        <tr class="TableStyle-Standard-Body-Body2">
+                            <td class="TableStyle-Standard-BodyE-Column1-Body2">Burn Period 2</td>
+                            <td class="TableStyle-Standard-BodyE-Column1-Body2">168</td>
+                            <td class="TableStyle-Standard-BodyE-Column1-Body2">56</td>
+                            <td class="TableStyle-Standard-BodyD-Column1-Body2">0</td>
+                        </tr>
+                        <tr class="TableStyle-Standard-Body-Body1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Body1">Burn Period 3</td>
+                            <td class="TableStyle-Standard-BodyE-Column1-Body1">56</td>
+                            <td class="TableStyle-Standard-BodyE-Column1-Body1">168</td>
+                            <td class="TableStyle-Standard-BodyD-Column1-Body1">0</td>
+                        </tr>
+                        <tr class="TableStyle-Standard-Body-Body2">
+                            <td class="TableStyle-Standard-BodyE-Column1-Body2">Burn Period 4</td>
+                            <td class="TableStyle-Standard-BodyE-Column1-Body2">0</td>
+                            <td class="TableStyle-Standard-BodyE-Column1-Body2">92</td>
+                            <td class="TableStyle-Standard-BodyD-Column1-Body2">230</td>
+                        </tr>
+                        <tr class="TableStyle-Standard-Body-Body1">
+                            <td class="TableStyle-Standard-BodyB-Column1-Body1">Burn Period 5</td>
+                            <td class="TableStyle-Standard-BodyB-Column1-Body1">230</td>
+                            <td class="TableStyle-Standard-BodyB-Column1-Body1">0</td>
+                            <td class="TableStyle-Standard-BodyA-Column1-Body1">0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </li>
+            <li>Click <span class="UIcomponent">OK</span> in the bottom of the<span class="UIcomponent"> Layer Property window</span> to apply the symbology.</li>
+            <li>
+                <p>Now you can see the MTT Arrival Time layer in ArcMap (top image) appears the same as it is in Map Studio in <MadCap:variable name="General.ProductName" /> (bottom image).</p>
+                <p>
+                    <img src="../../Resources/Images/External/Arc/import_lyrs/MTT/Arc_MTT_Arrival.png" alt="MTT Arrival Time displayed in ArcMap" class="borderlist" />
+                </p>
+                <p>
+                    <img src="../../Resources/Images/MapStudio/widget_layer_list/LyrList_MTT_ArrivalForArc.png" alt="Mtt Arrival Time layer in IFTDSS Map Studio." class="borderlist" />
+                </p>
+            </li>
+        </ol>
     </body>
 </html>

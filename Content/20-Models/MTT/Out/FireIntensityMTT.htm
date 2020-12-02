@@ -3,8 +3,40 @@
     <head>
     </head>
     <body>
-        <h1>Fireline Intensity</h1>
-        <p><a href="https://firenet365.sharepoint.com/:w:/r/sites/IFTDSS_Non_Gov/Shared Documents/General/IBM IFTDSS/IFTDSS Development/Help/Help Center/MTT/MTT Fireline Intensity.docx?d=wb4dd37a9e74e45dca32d61eb4a43ed83&amp;csf=1&amp;web=1&amp;e=3sLBg5" target="_blank">Draft here</a>
+        <h1>MTT Fireline Intensity - Minimum Travel Time Fire Spread (MTT)&#160;Output</h1>
+        <p>Fireline intensity describes the heat energy released per unit time from a one-foot-wide (or one-meter-wide) section of the fuel bed extending from the front to the rear of the flaming zone. Fireline intensity is a function of rate of spread and heat per unit area, and is directly related to flame length.  In IFTDSS the units are in BTU/ft/sec in the Map Studio and reports, in the download it is kW/m.</p>
+        <p>
+            <img src="../../../Resources/Images/MapStudio/widget_layer_list/LyrList_MTT_fireline_intensity.png" alt="Fireline intensity for an MTT output, shades of green indicate less intensity while shades of red indicate more intensity." class="border" />
         </p>
+        <p>
+
+Rate of Spread is modeled for every cell.</p>
+        <h2>
+
+MTT versus LFB – Output Differences 
+</h2>
+        <p>Minimum Travel Time Fire Spread (MTT) Fireline Intensity outputs may not match Landscape Fire Behavior (LFB), there are several reasons for this:</p>
+        <ul>
+            <li>
+                <p>
+
+Fireline Intensity is specific to the direction the fire is spreading and can include heading, backing or flanking fire in MTT.  </p>
+            </li>
+            <li>
+                <p>Fireline Intensity is the maximum rate of spread (head fire) regardless of direction in LFB.</p>
+            </li>
+            <li>
+                <p> 
+
+Fireline Intensity is only calculated for areas that fire has burned in MTT.</p>
+            </li>
+            <li>
+                <p>
+
+Fireline Intensity is calculated for every pixel on the landscape in LFB. 
+
+</p>
+            </li>
+        </ul>
     </body>
 </html>

@@ -3,8 +3,32 @@
     <head>
     </head>
     <body>
-        <h1>RoSpreadMTT</h1>
-        <p><a href="https://firenet365.sharepoint.com/sites/IFTDSS_Non_Gov/_layouts/15/doc.aspx?sourcedoc={6f5e635b-39b3-4964-afea-4b949fe089b7}&amp;action=edit" target="_blank">Draft here</a>
+        <h1>MTT Rate of Spread – Minimum Travel Time Fire Spread (MTT) Output</h1>
+        <p>Rate of spread is the relative activity of a fire in extending its horizontal dimensions. It is expressed as rate of forward spread of the fire front. In IFTDSS this is expressed in chains/hr in the Map Studio and reports, in the download it is meters/minute.</p>
+        <p>
+            <img src="../../../Resources/Images/MapStudio/widget_layer_list/LyrList_MTT_rate_of_spread.png" alt="Rate of spread displayed over the burned area of an MTT output with warmer colors indicating higher rate of spread." class="border" />
+        </p>
+        <p>Rate of Spread is modeled for every cell. For specific Rate of Spread equations, refer to <a href="../../../41-References/Citations.htm#Finney2003" target="_blank">Finney 2003</a>.</p>
+        <h2>MTT versus LFB – Output Differences</h2>
+        <p>Minimum Travel Time Fire Spread (MTT) Rate of Spread outputs may not match those from Landscape Fire Behavior (LFB), there are several reasons for this:</p>
+        <ul>
+            <li>
+                <p>Rate of Spread is specific to the direction the fire is spreading and can include heading, backing or flanking fire in MTT.</p>
+            </li>
+            <li>
+                <p>Rate of Spread is the maximum rate of spread (head fire) regardless of direction in LFB.</p>
+            </li>
+            <li>
+                <p>Rate of spread is only calculated for areas that fire has burned in MTT.</p>
+            </li>
+            <li>
+                <p>Rate of Spread is calculated for every pixel on the landscape in LFB.</p>
+            </li>
+        </ul>
+        <h2>Other Considerations</h2>
+        <p>Rate of spread increases with increasing slope. When fire moves upslope, the fuel ahead of the flame front is closer to the flame than if the slope were flatter.  This arrangement "preheats" the fuels (<a href="https://www.nwcg.gov/course/ffm/fire-behavior/84-flame-length-spread-distance" target="_blank">NWCG 2020</a>).</p>
+        <p>
+            <img src="../../../Resources/Images/Conceptuals/Fig_SlopeAndFire_NWCG.png" alt="Fire moving upslope with draft, preheating and igniting the fuels ahead of it as burning chunks of fuel roll down slope." class="border" />
         </p>
     </body>
 </html>

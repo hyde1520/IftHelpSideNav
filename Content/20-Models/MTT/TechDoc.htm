@@ -3,19 +3,26 @@
     <head>
     </head>
     <body>
-        <h1>Minimum Travel Time (MTT) Fire Spread Technical Documentation</h1>
-        <p><a href="https://firenet365.sharepoint.com/:w:/r/sites/IFTDSS_Non_Gov/Shared Documents/General/IBM IFTDSS/IFTDSS Development/Help/Help Center/MTT/MTT General Tech Doc (MTT Fire Spread).docx?d=wd677bafcce0bb46ae548b75d77fe57a6&amp;csf=1&amp;web=1&amp;e=eudfJL" target="_blank">Draft</a>
-        </p>
-        <p class="comment" MadCap:conditions="General.Exclude">Updated 9-9-2020 1540</p>
+        <h1>Minimum Travel Time Fire Spread (MTT) Technical Documentation</h1>
         <MadCap:snippetBlock src="../../Resources/Snippets/Models/CalculationSourceCallOut.flsnp" />
-        <p>The <MadCap:variable name="General.ProductName" /> Landscape Burn Probability (LBP) model is identical to Minimum Travel Time (MTT) Burn Probability  in FlamMap 6.0, with some fixed modeling inputs (see <a href="#Fixedinputs">below</a> for details).</p>
+        <p>The <MadCap:variable name="General.ProductName" /> Minimum Travel Time Fire Spread (MTT) model is identical to Minimum Travel Time (MTT) model in FlamMap 6.0, with some fixed modeling inputs (see <a href="#Fixedinputs">below</a> for details).</p>
+        <p>
+            <img src="../../Resources/Images/MapStudio/widget_layer_list/LyrList_MTT_sampleoutput.png" alt="MTT output showing burn periods in differing colors as the modeled fire progresses." class="border" />
+        </p>
         <h2>FlamMap MTT Background</h2>
         <MadCap:snippetBlock src="../../Resources/Snippets/Models/MttTechDocInfo.flsnp" />
         <h2><a name="Fixedinputs"></a>Fixed inputs in <MadCap:variable name="General.ProductName" /></h2>
-        <p>Many of the model inputs are controlled by the user (see the <a href="../LBP/In/OverviewLBP.htm" target="_blank">Input Overview</a> topic for more details); however some model inputs are fixed in <MadCap:variable name="General.ProductName" />  runs and cannot be changed by the user:</p>
+        <p>Many of the model inputs are controlled by the user (see the <a href="In/InputOverviewMTT.htm" target="_blank">Input Overview</a> topic for more details); however some model inputs are fixed in <MadCap:variable name="General.ProductName" />  runs and cannot be changed by the user:</p>
         <ul>
-            <li>Spotting delay: The time between ember landing and initiation of fire spread is set to 0 minutes.</li>
-            <li>Spotting seed: The spotting seed is a randomly generated value that determines whether or not a specific spot causes an ignition. In <MadCap:variable name="General.ProductName" />, the spotting seed is set for the first model run for a given landscape family and Fire Size List (see the <a href="../LBP/Out/FireSizeList.htm" target="_blank">Fire Size List</a> topic for more details). Subsequent runs using the same combination re-use the spotting seed. This allows for accurate comparisons between model runs using the same landscape family and ignition. Such comparisons can be useful to test the effectiveness of fuel treatment alternatives or to compare the impacts of changing weather parameters. Were spotting seed not held constant in these scenarios, you would be unable to deduce whether changes in fire behavior were due to the changes you specified or the result of differences in spotting.</li>
+            <li>
+                <p>Interval for Minimum Travel Time Paths: This controls how the program selects and outputs the MTT Major Paths at a specified distance interval, and is set to 300 m.</p>
+            </li>
+            <li>
+                <p>Spotting delay: The time between ember landing and initiation of fire spread is set to 0 minutes.</p>
+            </li>
+            <li>
+                <p>Spotting seed: The spotting seed is a randomly generated value that determines whether a specific spot causes an ignition. In <MadCap:variable name="General.ProductName" />, the spotting seed is set for the first model run for a given <a href="../../20-Landscapes/LCPTerminology.htm#Landscape_family" target="_blank">landscape family</a> and ignition. Subsequent runs using the same combination re-use the spotting seed. This allows for accurate comparisons between model runs using the same landscape family and ignition. Such comparisons can be useful to test the effectiveness of fuel treatment alternatives or to compare the impacts of changing weather parameters. Were spotting seed not held constant in these scenarios, you would be unable to deduce whether changes in fire behavior were due to the changes you specified or the result of differences in spotting.</p>
+            </li>
         </ul>
     </body>
 </html>
