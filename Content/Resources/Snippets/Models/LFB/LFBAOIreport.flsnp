@@ -20,7 +20,7 @@
                 </p>
             </li>
             <li>
-                <p>When finished the report will show in the dialogue box as an active link, it will also now be available in My Workspace in the same folder as the model output it was created from.</p>
+                <p>When finished the report will show in the dialogue box as an active link, it will also now be available in <span class="UIcomponent">My Workspace</span> in the same folder as the model output it was created from.</p>
                 <p>
                     <img src="../../../Images/MyWorkspace/Ws_LFB_ReportReady.png" alt="Reports are stored in the same folder as the file (model output) they were created from." class="borderlist" />
                 </p>

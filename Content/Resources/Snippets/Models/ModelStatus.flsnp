@@ -7,10 +7,10 @@
             <li><b>Not Submitted</b>: Some or all data to run a model have been entered and saved, the  model run has not been submitted.</li>
             <li><b>Submitted</b>: Data has been submitted to be run.</li>
             <li><b>Running</b>: The model is running.</li>
-            <li><b>Post-processing</b>: Model calculations have completed, outputs are being generated. Currently displays only for Landscape Burn Probability.</li>
+            <li><b>Post-processing</b>: Model calculations have completed, outputs are being generated.</li>
             <li><b>Completed</b>: The model has successfully completed, all results available.</li>
             <li><b>Failed</b>: Model did not successfully complete, no results available.</li>
-            <li><b>Cancelled</b>: The model run was cancelled by an <MadCap:variable name="General.ProductName" /> administrator.</li>
+            <li><b>Canceled</b>: The model run was canceled by an <MadCap:variable name="General.ProductName" /> administrator.</li>
         </ul>
     </body>
 </html>

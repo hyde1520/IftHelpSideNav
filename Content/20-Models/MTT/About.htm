@@ -1,10 +1,112 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
+        <link href="../../Resources/TableStylesheets/Copy of Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
-        <h1>About Minimum Travel Time (MTT)</h1>
-        <p><a href="https://firenet365.sharepoint.com/:w:/r/sites/IFTDSS_Non_Gov/Shared Documents/General/IBM IFTDSS/IFTDSS Development/Help/Help Center/MTT/About MTT.docx?d=w5b2950031cc94f7dafaeb7ef89cadbb8&amp;csf=1&amp;web=1&amp;e=uaSERz" target="_blank">draft</a>
+        <h1>About Minimum Travel Time Fire Spread (MTT)</h1>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Models/MTT/NamingConventionCallOut.flsnp" />
+        <p>Minimum Travel Time Fire Spread (MTT) simulates fire spread and behavior based on user-specified ignitions and optional barriers. A single set of constant weather inputs is applied for the analysis duration. Outputs from MTT are useful in identifying potential spread pathways, rates, patterns, and distances over time.</p>
+        <p>MTT creates a variety of vector and raster maps of potential fire behavior characteristics (for example, spread rate, fireline intensity) and environmental conditions (dead fuel moistures, mid-flame wind speeds). These maps can be viewed in IFTDSS Map Studio or downloaded for external use.  Output comparisons can be used to identify combinations of hazardous fuel and topography most vulnerable to fire spread.</p>
+        <p>
+            <img src="../../Resources/Images/MapStudio/widget_layer_list/LyrList_MTTabout.png" alt="MTT output displayed in Map Studio with different fire arrival times and major paths" class="border" />
+        </p>
+        <h2>MTT Considerations</h2>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Models/MTT/MajorPathsNotice.flsnp" />
+        <p>Because environmental conditions remain constant when using MTT, it will not simulate temporal variations in fire behavior caused by weather and diurnal fluctuations as Near Term Fire Behavior (FARSITE) does.  These limitations need to be considered when viewing MTT Fire Spread outputs, which should be used in a relative sense rather than an absolute sense.</p>
+        <h2>Why Model using MTT?</h2>
+        <p>MTT helps managers visualize pathways across their landscape where fire is likely to travel and spread.  Outputs are well-suited for comparisons of fuel treatment effectiveness and location.  Users can vary landscapes or barriers to represent proposed treatments or vary weather inputs to evaluate relative spread under differing conditions. Varying weather inputs can also be useful for prescribed fire planning by evaluating fuel availability under a variety of moisture conditions and environmental conditions.</p>
+        <p>Application examples include:</p>
+        <ul>
+            <li>
+                <p>Proposed Fuel Treatment Location Effectiveness</p>
+            </li>
+            <li>
+                <p>Prescribed Fire - Contingency Planning and Prescription Development</p>
+            </li>
+            <li>
+                <p>Seasonal Moisture Impacts on Fire Spread</p>
+            </li>
+        </ul>
+        <h3>Example 1 Proposed Fuel Treatment Location Effectiveness</h3>
+        <p>The example below depicts relative spread rate and distances from potential ignitions (orange dots) along a well-traveled highway corridor. The left portion of the image depicts the landscape without the addition of a barrier. After one burn period, 1700 acres burned. The right portion of the image depicts the same conditions with a barrier (dark green). In the landscape with a barrier, only 734 acres burned.</p>
+        <p>
+            <img src="../../Resources/Images/MapStudio/widget_layer_list/LyrList_MTTabout_Ex1.png" alt="MTT modeling outputs as described in the text for Example 1" class="border" />
+        </p>
+        <h3>Example 2 Prescribed Fire Planning – Contingency Planning and Prescription Development</h3>
+        <p>The example below uses likely spot fire locations (orange dots) outside of a proposed burn unit (dark green polygon) to demonstrate potential spread distances and patterns over a one-day period (left) and three-day period (right).  This information can be useful for determining holding and contingency resource needs during the planning process.</p>
+        <p>
+            <img src="../../Resources/Images/MapStudio/widget_layer_list/LyrList_MTTabout_Ex2_1.png" alt="MTT modeling outputs as described in the text above." class="border" />
+        </p>
+        <p>MTT Fire Spread can also be useful in developing different prescription parameters. The example below shows potential relative spread for a proposed prescribed fire under a full range of prescription parameters described in the following table:</p>
+        <table style="width: 100%;mc-table-style: url('../../Resources/TableStylesheets/Copy of Standard.css');caption-side: top;" class="TableStyle-Standard" cellspacing="3">
+            <caption>Prescription scenarios and fuel moistures for each.</caption>
+            <col class="TableStyle-Standard-Column-Column1" style="width: 200px;" />
+            <col class="TableStyle-Standard-Column-Column1" style="width: 200px;" />
+            <col class="TableStyle-Standard-Column-Column1" style="width: 200px" />
+            <col class="TableStyle-Standard-Column-Column1" style="width: 200px;" />
+            <thead>
+                <tr class="TableStyle-Standard-Head-Header1">
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">&#160;</th>
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Low Prescription</th>
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1">Moderate Prescription</th>
+                    <th class="TableStyle-Standard-HeadD-Column1-Header1" style="font-weight: bold;">High Prescription</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Wind speed (mph)</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">5</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">14</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">14</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Wind direction (deg)</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">225</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">225</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">225</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">1-Hr Fuel moisture (%)</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">8</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">7</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">5</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">10-Hr Fuel moisture (%)</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">10</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">8</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">6</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">100-Hr Fuel moisture (%)</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">14</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">11</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">10</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Herbaceous fuel moisture (%)</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">150</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">129</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">100</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">Woody fuel moisture (%)</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">175</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1">145</td>
+                    <td class="TableStyle-Standard-BodyA-Column1-Body1">100</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Note the growing spread and additional flow paths for each example moving left (low prescription conditions) to right (high prescription conditions).</p>
+        <p>
+            <img src="../../Resources/Images/MapStudio/widget_layer_list/LyrList_MTTabout_Ex2_2.png" alt="MTT modeling outputs as described in the text above." class="border" />
+        </p>
+        <h3>Example 3: Seasonal Moisture Impacts on Fire Spread</h3>
+        <p>The example below shows how modeling a range of fuel moisture inputs can assist in evaluating seasonal variation in spread patterns and  “availability to burn” under different conditions.</p>
+        <p>In the left portion of the image we see the Big Gum Swamp Wilderness with fuel moistures and water levels for May, with major paths indicating fire spread progressing through the swamp. In the right portion of the image the same area is depicted with fuel moistures and water levels from November, in which the major paths do not progress through the swamp.</p>
+        <p>
+            <img src="../../Resources/Images/MapStudio/widget_layer_list/LyrList_MTTabout_Ex3.png" alt="MTT modeling outputs as described in the text for Example 3." class="border" />
         </p>
     </body>
 </html>

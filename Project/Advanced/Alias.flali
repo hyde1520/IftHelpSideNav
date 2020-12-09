@@ -461,7 +461,7 @@
     <Map Name="EmbersMTT" Link="/Content/20-Models/MTT/Out/EmbersMTT.htm" />
     <Map Name="FireIntensityMTT" Link="/Content/20-Models/MTT/Out/FireIntensityMTT.htm" />
     <Map Name="IgnitionOutMTT" Link="/Content/20-Models/MTT/Out/IgnitionOutMTT.htm" />
-    <Map Name="InfluenceMTT" Link="/Content/20-Models/MTT/Out/InfluenceMTT.htm" />
+    <Map />
     <Map Name="RoSpreadMTT" Link="/Content/20-Models/MTT/Out/RoSpreadMTT.htm" />
     <Map Name="ExposureShort" Link="/Content/30-Tasks/QWRA/Risk/In/ExposureShort.htm" />
 </CatapultAliasFile>

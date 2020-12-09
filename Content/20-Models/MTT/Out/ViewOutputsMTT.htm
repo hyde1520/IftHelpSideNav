@@ -3,8 +3,47 @@
     <head>
     </head>
     <body>
-        <h1>Viewing Minimum Travel Time (MTT) Outputs in <MadCap:variable name="General.ProductName" /></h1>
-        <p class="comment"><a href="https://firenet365.sharepoint.com/:w:/r/sites/IFTDSS_Non_Gov/Shared Documents/General/IBM IFTDSS/IFTDSS Development/Help/Help Center/MTT/Output Viewing.docx?d=we89f664c9e364e78b08cf1ab7544ae45&amp;csf=1&amp;web=1&amp;e=ubfx5X" target="_blank">Draft</a>
+        <h1>
+            <MadCap:keyword term="Viewing" />Viewing Minimum Travel Time Fire Spread <MadCap:keyword term="MTT" />(MTT) Outputs in <MadCap:variable name="General.ProductName" /></h1>
+        <p>Minimum Travel Time Fire Spread (MTT) outputs are available as geospatial layers in Map Studio (added to the map using the <span class="UIcomponent"><a href="../../../10-MapStudio/Functions/SimulationTools.htm" target="_blank"><img src="../../../Resources/Images/MapStudio/widget_icons/button_SimOutput.png" alt="simulation output tools" class="iftbutton" /> Simulation Output Tools</a></span> widget). Outputs can also be viewed from <span class="UIcomponent">My Workspace</span> and <span class="UIcomponent">Modeling Playground</span> by selecting the file and clicking the <span class="UIcomponent">View on Map</span> option.</p>
+        <h2>Viewing Considerations in Map Studio</h2>
+        <p>Viewing MTT&#160;model output is the same for MTT as for any other fire behavior in <MadCap:variable name="General.ProductName" />; However, there are two ways ignitions and barriers are displayed:</p>
+        <ul>
+            <li>
+                <p>The vector version of your ignitions and barriers (if barriers are used) are included separately. You will see one layer labeled "Ignition: &lt;shape name&gt;" and another labeled "Barrier:&#160;&lt;shape name&gt; - filled/unfilled".</p>
+            </li>
+            <li>
+                <p>The raster version of your ignitions and barriers (if barriers are used) are included in one layer and will be the same resolution as the rest of your landscape. You will see a layer labeled "MTT Ignition Grid" if only an ignition was used, and "MTT Ignition and Barrier Grid" if both an ignition and barrier were used.</p>
+            </li>
+        </ul>
+        <p>In both cases, ignitions are represented by the color orange, and barriers by the color green. In the image below, you can see the vector version of ignition in dark orange and the raster version overlaid in lighter orange.</p>
+        <p>
+            <img src="../../../Resources/Images/MapStudio/widget_layer_list/LyrList_MTT_ignitions_barriers.png" alt="a vector ignition (smooth line) overlaid with a raster version of the same ignition." class="border" />
         </p>
+        <h2>Generating A Summary Report</h2>
+        <p>To generate a summary report for MTT:&#160;</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Navigate to <span class="UIcomponent">My Workspace</span>.</li>
+            <li>Find the model output needed and click on it to view options.</li>
+            <li>
+                <p>Click the<span class="UIcomponent"> Request Report</span> button.</p>
+                <p>
+                    <img src="../../../Resources/Images/MyWorkspace/Ws_MTT_ReportRequest.png" alt="Request a report from My Workspace" class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Click <span class="UIcomponent">Create Report</span>. you will receive a confirmation message that the report is being built.</p>
+                <p>
+                    <img src="../../../Resources/Images/MyWorkspace/Ws_MTT_ReportCreateBox.png" alt="Use the &quot;Create Report&quot; button to start report creation." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>When finished the report will show in the dialogue box as an active link, it will also now be available in <span class="UIcomponent">My Workspace</span> in the same folder as the model output it was created from.</p>
+                <p>
+                    <img src="../../../Resources/Images/MyWorkspace/Ws_MTT_ReportReady.png" alt="Reports are stored in the same folder as the file (model output) they were created from." class="borderlist" />
+                </p>
+            </li>
+        </ol>
+        <p>&#160;</p>
     </body>
 </html>

@@ -1,10 +1,142 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
+        <link href="../../../Resources/TableStylesheets/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../../Resources/TableStylesheets/Copy of Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
-        <h1>Downloading Minimum Travel Time (MTT) Outputs</h1>
-        <p class="comment"><a href="https://firenet365.sharepoint.com/:w:/r/sites/IFTDSS_Non_Gov/Shared Documents/General/IBM IFTDSS/IFTDSS Development/Help/Help Center/MTT/Output Downloading.docx?d=w20cb9a07dc9b4299ae6188cab4e35cc4&amp;csf=1&amp;web=1&amp;e=IXpx8Y" target="_blank">Draft</a>
+        <h1>
+            <MadCap:keyword term="Downloading" />Downloading Minimum Travel Time Fire Spread <MadCap:keyword term="MTT" />(MTT) Outputs</h1>
+        <p>Minimum Travel Time Fire Spread (MTT) outputs can be downloaded for use outside of <MadCap:variable name="General.ProductName" />. This can be done from either <span class="UIcomponent">My Workspace</span> or <span class="UIcomponent">My Modeling Playground</span> by clicking on the model output file to show the file options, then clicking <span class="UIcomponent">Download</span>. </p>
+        <p>
+            <img src="../../../Resources/Images/MyPlayground/Play_MTT_DownloadOption.png" class="border" alt="Modeling Playground with file options shown, including the 'download' button" />
+        </p>
+        <h2>Downloading</h2>
+        <p>When the File Download window opens, by default the folder will have the same Run Name you specified when running MTT. If you prefer to change the run name for use on your on your computer you can click on the name field and type a different name, this will not change the name in <MadCap:variable name="General.ProductName" />. </p>
+        <p>
+            <img src="../../../Resources/Images/MyPlayground/Play_MTT_DownloadName.png" class="border" alt="name field can be left as is, or you may enter a new name." />
+        </p>
+        <p>The individual files within the downloaded zip folder are prefixed with the original or modified &lt;Run Name&gt;. Once extracted, the folder includes: </p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Models/MTT/MttDownloadTable.flsnp" />
+        <p>&#160;</p>
+        <p>The screenshot below shows an example of  files in the download zip folder for aMTT model output. In the image the &lt;Run Name&gt; was "Alamogordo untreated".</p>
+        <p>
+            <img src="../../../Resources/Images/External/Arc/Arc_Catalog_MTT_Ex.png" class="border" alt="file list from a downloaded set of MTT model outputs." />
+        </p>
+        <p>Layers (also known as bands) included in the GeoTIFF are listed in the table below.</p>
+        <table style="width: 100%;mc-table-style: url('../../../Resources/TableStylesheets/Standard.css');caption-side: top;" class="TableStyle-Standard" cellspacing="3">
+            <caption>Band number and units for each landscape feature.</caption>
+            <col class="TableStyle-Standard-Column-Column1" style="width: 246px;" />
+            <col class="TableStyle-Standard-Column-Column1" style="width: 246px;" />
+            <col class="TableStyle-Standard-Column-Column1" style="width: 830px;" />
+            <col class="TableStyle-Standard-Column-Column1" style="width: 298px;" />
+            <col class="TableStyle-Standard-Column-Column1" style="width: 288px;" />
+            <col class="TableStyle-Standard-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Standard-Head-Header1">
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1">Band Number</th>
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">
+                        <p style="text-align: center;font-family: Arial;">Output</p>
+                    </th>
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">
+                        <p style="text-align: center;font-family: 'Arial Black', sans-serif;"><span style="font-family: Arial;">Description</span>
+                        </p>
+                    </th>
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1">Map Studio - Units</th>
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1">Report - Units</th>
+                    <th class="TableStyle-Standard-HeadD-Column1-Header1">Download - Units</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">1</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">MTT Arrival Time Grid<sup>A, B</sup></td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">The time required for fire to travel from its ignition source to a particular cell. <a href="ArrivalMTT.htm" target="_blank">See the Arrival Time topic for more details</a>. 
+</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">burn&#160;period</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">burn period</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">minutes</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">2</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">MTT Rate of Spread<sup>A, B</sup></td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Spread rate of the fire as it encountered each cell along the minimum travel time path. <a href="RoSpreadMTT.htm" target="_blank">See the Rate of Spread topic for more details</a>. </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">chains/hr</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">chains/hr</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">meters/min</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">3</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">MTT Fireline Intensity<sup>A, B</sup></td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Fireline intensity of each cell burned by the fire as it follows the minimum travel time path. <a href="FireIntensityMTT.htm" target="_blank">See the Fireline Intensity topic for more details</a>. </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">BTU/ft-sec</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">BTU/ft-sec</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">kW/m</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">4</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">MTT Ignition Grid</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">The raster interpretation of the ignition and barrier vectors used by the MTT model. <a href="IgnitionOutMTT.htm" target="_blank">See the MTT Ignitions topic for more details</a>. </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">unitless</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">N/A</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">unitless</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">5</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Midflame Wind Speed <sup>C</sup></td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Wind velocity at the midflame height. Calculated using wind adjustment factors based on stand height and canopy cover and the Wind Speed. </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">mph</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">N/A</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">mph</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">6</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">1 Hr Fuel Moisture <sup>A</sup></td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Moisture content of 1-hour fuel (dead woody fuel 0 to ¼ inch or 0 to 6.4 mm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass. </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">percent</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">N/A</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">proportion</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">7</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">10 Hr Fuel Moisture <sup>A</sup></td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Moisture content of 10-hour fuel (dead woody fuel ¼ to 1 inch or 0.6 to 2.5 cm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass. </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">percent</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">N/A</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">proportion</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">8</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">100 Hr Fuel Moisture <sup>A</sup></td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">Moisture content of 100-hour fuel (dead woody fuel 1 to 3 inches or 2.5 to 7.6 cm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass. </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">percent</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">N/A</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2">proportion</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">9</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Wind Direction</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">Wind direction is the direction from which the wind is blowing, specified in degrees increasing clockwise from north (which is zero degrees), Uphill or Downhill. Measured 20 feet (6 m) above the top of the tree or shrub canopy, or above the ground if canopy is absent. </td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">N/A</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">N/A</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1">degrees</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body2">
+                    <td class="TableStyle-Standard-BodyB-Column1-Body2">10</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body2">Wind Speed</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body2">Wind velocity measured 20 feet (6 m) above the top of the tree or shrub canopy, or above the ground if canopy is absent. </td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body2">N/A</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body2">N/A</td>
+                    <td class="TableStyle-Standard-BodyA-Column1-Body2">mph</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><sup>A</sup> GeoTIFF values for non-burnable pixels are -1.</p>
+        <p><sup>B</sup> GeoTIFF values for burnable but not burned pixels are 0.</p>
+        <p><sup>C</sup> GeoTIFF values for non-burnable pixels are 0.</p>
+        <p>The screenshot below shows an example of the layers in a MTT GeoTIFF file in ArcCatalog. In the image the &lt;Run Name&gt; is "Alamogordo untreated".</p>
+        <p>
+            <img src="../../../Resources/Images/External/Arc/Arc_InCatalog_MTT.png" alt="a list of geotiff bands as described in the text above." class="border" />
         </p>
     </body>
 </html>
