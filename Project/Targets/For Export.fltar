@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="MsWord"
+  Destinations=""
+  ShowMadCapBacklink="true"
+  MasterToc="/Project/TOCs/ForExport.fltoc">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true"
+    OutputFormat="docx" />
+  <Glossaries />
+</CatapultTarget>

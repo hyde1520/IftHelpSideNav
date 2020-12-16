@@ -17,7 +17,9 @@
   TabletBreakpoint="1024"
   OutputFile="index"
   DefaultUrl="/Content/Home.htm"
-  Skin="/Project/Skins/QA HTML5 - Side Navigation.flskn">
+  Skin="/Project/Skins/QA HTML5 - Side Navigation.flskn"
+  EnableSitemap="true"
+  SitemapWebUrl="http://192.255.42.9/firenetHelp/">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <div class="notificationTip">
+            <p>Landscape Fire Behavior (LFB) is identical to the Basic Fire Behavior (BFB) tool in WFDSS.</p>
+            <p>  
+
+  
+
+In the <MadCap:variable name="General.ProductName" /> user interface, LFB is referred to as “Landscape Fire Behavior” or “Landscape Fire Behavior (Basic)”.</p>
+        </div>
+    </body>
+</html>
