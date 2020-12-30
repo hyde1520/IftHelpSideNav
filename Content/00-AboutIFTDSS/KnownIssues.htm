@@ -63,17 +63,6 @@
         </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>GeoTIFFs from <MadCap:variable name="General.ProductName" /> that are edited outside of <MadCap:variable name="General.ProductName" /> may cause FlamMap to crash when used</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>
-                    <MadCap:snippetText src="../Resources/Snippets/Workspace/FlammapSaveFormatCallOut.flsnp" />
-                </p>
-                <p>(Reported August of 2018)</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Horizontal streaks in large landscapes</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
@@ -190,7 +179,45 @@
                 <p>(Reported March 2020)</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Map Studio widgets appear "cut off" on some small laptops screens</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <img src="../Resources/Images/ErrorsIssues/WidgetCutoff.png" alt="map studio widgets at the bottom of the screen cut off, and not full visible" class="border" />
+                </p>
+                <p>On some small screens and tablets Map Studio may appear slightly different compared to normal sized monitors, with the widgets along the bottom spanning the entire page, and the widgets in the top left and right in different locations. As a temporary work-around while we address this issue, you may reduce the size of the page via the <span class="UIcomponent">zoom</span> option in Chrome. From the top ribbon, click the <span class="UIcomponent">Customize</span> icon in the top right of your browser, and reduce the <span class="UIcomponent">zoom</span> until Map Studio displays correctly, typically o 90% or 80%. </p>
+                <img src="../Resources/Images/External/BrowserZoom.png" alt="zoom in chrome can be adjusted by selecting the menu option in the top right of the browser" class="border" style="width: 498px;height: 402px;" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Minimum Travel Time Fire Spread (MTT) fails if igntition is placed on a burnable pixel within a filled barrier</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <img src="../Resources/Images/Models/MTT/MTT_RunFailure1_700.png" alt="MTT will fail if the ignition is fully within a filled barrier." class="border" />
+                </p>
+                <p>Minimum Travel Time Fire Spread (MTT) modeling will fail if the ignition is fully within a filled barrier, even if it is on burnable fuel in a “hole” in the barrier.</p>
+                <p>The fail message in the RHP will read:</p>
+                <div class="quotation">Status: Failed</div>
+                <div class="quotation">Status Message: MTT model run-time error -504: No Ignition on landscape</div>
+                <p>If the barrier is not filled, the model will run.</p>
+                <p>(Reported December 2020)</p>
+                <p>(This is the Drop-down text)</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
         <h2 MadCap:conditions="General.Exclude">Known issues that have been solved:</h2>
+        <MadCap:dropDown MadCap:conditions="General.Exclude">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>GeoTIFFs from <MadCap:variable name="General.ProductName" /> that are edited outside of <MadCap:variable name="General.ProductName" /> may cause FlamMap to crash when used</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>&#160;</p>
+                <p>(Reported August of 2018)</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
         <MadCap:dropDown MadCap:conditions="General.Exclude">
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>On some DOI computers - FTEM reports are blocked from appearing in a new tab when clicking 'Generate Report'</MadCap:dropDownHotspot>
@@ -222,18 +249,6 @@
             <MadCap:dropDownBody>
                 <p>For security purposes, access to Operational Layers is limited to federal government employees. In the future, we will be working to streamline access to non-federal partners.</p>
                 <p>Currently we have received feedback that the MTBS&#160;Burn Severity Reference layer is not displaying, and work is underway resolve the issue (as of 6/7/17). </p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Map Studio widgets appear "cut off" on some small laptops screens</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>
-                    <img src="../Resources/Images/ErrorsIssues/WidgetCutoff.png" alt="map studio widgets at the bottom of the screen cut off, and not full visible" class="border" />
-                </p>
-                <p>On some small screens and tablets Map Studio may appear slightly different compared to normal sized monitors, with the widgets along the bottom spanning the entire page, and the widgets in the top left and right in different locations. As a temporary work-around while we address this issue, you may reduce the size of the page via the <span class="UIcomponent">zoom</span> option in Chrome. From the top ribbon, click the <span class="UIcomponent">Customize</span> icon in the top right of your browser, and reduce the <span class="UIcomponent">zoom</span> until Map Studio displays correctly, typically o 90% or 80%. </p>
-                <img src="../Resources/Images/External/BrowserZoom.png" alt="zoom in chrome can be adjusted by selecting the menu option in the top right of the browser" class="border" style="width: 498px;height: 402px;" />
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown MadCap:conditions="General.Exclude">

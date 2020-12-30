@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-    <head>
-    </head>
-    <body>
-        <p>If a landscape GeoTIFF exported from <MadCap:variable name="General.ProductName" /> is edited in FlamMap on your desktop, save it as a .LCP file. Saving it as GeoTIFF will cause FlamMap to crash.</p>
-    </body>
-</html>

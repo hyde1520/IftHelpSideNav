@@ -32,42 +32,42 @@
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">2</td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">Proportion of Flame Lengths 0-2 ft <sup>A, B</sup></td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">The probability of fire burning with a flame length between &gt;0 and 2 ft (expressed as a value between 0 and 1). See <a href="../../../../20-Models/LBP/Out/PropFlameLength.htm" target="_blank">Flame Length Probability</a> for more detail.</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">unitless</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">proportion</td>
                     <td class="TableStyle-Standard-BodyD-Column1-Body2">N/A</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">3</td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">Proportion of Flame Lengths 2-4 ft<sup>A, B</sup></td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">The probability of fire burning with a flame length between &gt;2 and 4 ft (expressed as a value between 0 and 1). See <a href="../../../../20-Models/LBP/Out/PropFlameLength.htm" target="_blank">Flame Length Probability</a> for more detail.</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">unitless</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">proportion</td>
                     <td class="TableStyle-Standard-BodyD-Column1-Body1">N/A</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">4</td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">Proportion of Flame Lengths 4-6 ft<sup>A, B</sup></td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">The probability of fire burning with a flame length between &gt;4 and 6 ft (expressed as a value between 0 and 1).  See <a href="../../../../20-Models/LBP/Out/PropFlameLength.htm" target="_blank">Flame Length Probability</a> for more detail.</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">unitless</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">proportion</td>
                     <td class="TableStyle-Standard-BodyD-Column1-Body2">N/A</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">5</td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">Proportion of Flame Lengths 6-8 ft<sup>A, B</sup></td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">The probability of fire burning with a flame length between &gt;6 and 8 ft (expressed as a value between 0 and 1). See <a href="../../../../20-Models/LBP/Out/PropFlameLength.htm" target="_blank">Flame Length Probability</a> for more detail.</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">unitless</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">proportion</td>
                     <td class="TableStyle-Standard-BodyD-Column1-Body1">N/A</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">6</td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">Proportion of Flame Lengths 8-12 ft<sup>A, B</sup></td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">The probability of fire burning with a flame length between &gt;8 and 12 ft (expressed as a value between 0 and 1). See <a href="../../../../20-Models/LBP/Out/PropFlameLength.htm" target="_blank">Flame Length Probability</a> for more detail.</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">unitless</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">proportion</td>
                     <td class="TableStyle-Standard-BodyD-Column1-Body2">N/A</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">7</td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">Proportion of Flame Lengths &gt;12 ft<sup>A, B</sup></td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">The probability of fire burning with a flame length between &gt;12 ft (expressed as a value between 0 and 1). See <a href="../../../../20-Models/LBP/Out/PropFlameLength.htm" target="_blank">Flame Length Probability</a> for more detail.</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">unitless</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">proportion</td>
                     <td class="TableStyle-Standard-BodyD-Column1-Body1">N/A</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
@@ -102,21 +102,21 @@
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">12</td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">1-hr Fuel Moisture <sup>A</sup></td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">Moisture content of 1-hour fuel (dead woody fuel 0 to ¼ inch or 0 to 6.4 mm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass. See <a href="../../../../20-Models/LBP/Out/FuelMoisture.htm" target="_blank">Fuel Moisture</a> for more detail.</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">percent</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">proportion</td>
                     <td class="TableStyle-Standard-BodyD-Column1-Body2">N/A</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">13</td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">10-hr Fuel Moisture <sup>A</sup></td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body1">Moisture content of 10-hour fuel (dead woody fuel ¼ to 1 inch or 0.6 to 2.5 cm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass. See <a href="../../../../20-Models/LBP/Out/FuelMoisture.htm" target="_blank">Fuel Moisture</a> for more detail.</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">percent</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1">proportion</td>
                     <td class="TableStyle-Standard-BodyD-Column1-Body1">N/A</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">14</td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">100-hr Fuel Moisture <sup>A</sup></td>
                     <td class="TableStyle-Standard-BodyE-Column1-Body2">Moisture content of 100-hour fuel (dead woody fuel 1 to 3 inches or 2.5 to 7.6 cm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass. See <a href="../../../../20-Models/LBP/Out/FuelMoisture.htm" target="_blank">Fuel Moisture</a> for more detail.</td>
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">percent</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2">proportion</td>
                     <td class="TableStyle-Standard-BodyD-Column1-Body2">N/A</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">

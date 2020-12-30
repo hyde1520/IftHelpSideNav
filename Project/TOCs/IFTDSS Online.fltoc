@@ -144,6 +144,9 @@
       Title="Uploading"
       Link="/Content/10-MapStudio/Functions/AddShapefile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
+      Title="Downloading"
+      Link="/Content/10-Workspace/downloads/DownloadShapefile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
       Title="Repairing"
       Link="/Content/10-MapStudio/Files/ShapefileRepair.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
@@ -161,6 +164,9 @@
     <TocEntry
       Title="How To Download"
       Link="/Content/10-Workspace/downloads/DownloadHowTo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/10-Workspace/downloads/DownloadShapefile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Use in ArcMap">
       <TocEntry
@@ -217,6 +223,9 @@
       <TocEntry
         Title="How To Download"
         Link="/Content/10-Workspace/downloads/DownloadHowTo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/10-Workspace/downloads/DownloadShapefile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Downloads Available in IFTDSS"
         Link="/Content/10-Workspace/downloads/DownloadPkgs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -625,14 +634,14 @@
         Title="FBFM Environments"
         Link="/Content/10-MapStudio/Files/FBFMSummaries.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
+        Title="Comparison Spreadsheet"
+        Link="/Content/00-Concepts/FBFM/FBFMCompareXLS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
         Title="Moisture Inputs for FBFMs"
         Link="/Content/00-Concepts/FBFM/FBFMFuelMoistures.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Heat Values for Some FBFMs"
         Link="/Content/00-Concepts/FBFM/FBFMHeatValues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Comparison Spreadsheet"
-        Link="/Content/00-Concepts/FBFM/FBFMCompareXLS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
       Title="[%=System.LinkedTitle%]"
@@ -822,15 +831,13 @@
           Title="Embers"
           Link="/Content/20-Models/MTT/Out/EmbersMTT.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
-          Title="[%=System.LinkedTitle%]"
+          Title="MTT Major Paths"
           Link="/Content/20-Models/MTT/Out/FlowPathsMTT.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="[%=System.LinkedTitle%]" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Fireline Intensity"
           Link="/Content/20-Models/MTT/Out/FireIntensityMTT.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
-          Title="[%=System.LinkedTitle%]"
+          Title="Ignition"
           Link="/Content/20-Models/MTT/Out/IgnitionOutMTT.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Rate of Spread"
@@ -1160,6 +1167,24 @@
   <TocEntry
     Title="Resources"
     StartSection="false">
+    <TocEntry
+      Title="About FBFMs">
+      <TocEntry
+        Title="Fire Behavior Fuel Models (FBFMs)"
+        Link="/Content/10-MapStudio/Files/FBFMInfo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="FBFM Environments"
+        Link="/Content/10-MapStudio/Files/FBFMSummaries.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Comparison Spreadsheet"
+        Link="/Content/00-Concepts/FBFM/FBFMCompareXLS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Moisture Inputs for FBFMs"
+        Link="/Content/00-Concepts/FBFM/FBFMFuelMoistures.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Heat Values for Some FBFMs"
+        Link="/Content/00-Concepts/FBFM/FBFMHeatValues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
     <TocEntry
       Title="Alaska Information"
       Link="/Content/00-Concepts/Alaska.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />

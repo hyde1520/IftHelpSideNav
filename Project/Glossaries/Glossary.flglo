@@ -3395,4 +3395,17 @@ represent the likelihood of fire intensity for six standard fire intensity level
     <Definition
       Link="">Cumulative Risk represents the mathematical sum of threat and/or benefit  as  a useful way to summarize at the Sub-HVRA or analysis area level. Both threat and benefit are considered and in some cases can be offsetting with the final value being positive, negative, or zero.</Definition>
   </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term308"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Minimum Travel Time</Term>
+      <Term>Minimum Travel Time Fire Spread</Term>
+      <Term>MTT</Term>
+      <Term>MTT Fire Spread</Term>
+    </Terms>
+    <Definition
+      Link="">Minimum Travel Time Fire Spread (MTT) simulates fire spread and behavior based on user-specified ignitions and optional barriers. A single set of constant weather inputs is applied for the analysis duration. Outputs from MTT are useful in identifying potential spread pathways, rates, patterns, and distances over time.</Definition>
+  </GlossaryEntry>
 </CatapultGlossary>
