@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="General.QA ONLY">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
     <body>
@@ -8,29 +8,39 @@
             <MadCap:keyword term="Download" />
             <MadCap:keyword term="Shapefiles" />
             <MadCap:keyword term="Shapes" />Downloading Shapes and Shapefiles </h1>
-        <p>Shapes and Shapefiles in My Workspace that display a <span class="UIcomponent">Download</span> button in the file options may be downloaded to your local computer. </p>
+        <p>Shapes and shapefiles in My Workspace that display a <span class="UIcomponent">Download</span> button in the file options may be downloaded to your local computer. </p>
         <p>
             <img src="../../Resources/Images/MyWorkspace/Ws_ShapeDownloadBtn.png" alt="A shape in My Workspace with the Download button visible." class="border" />
         </p>
+        <div class="notificationImportant">
+            <p>To ensure your file downloads properly, make sure the file name contains no spaces and only consists of letters, numbers, and underscores, as shown below:</p>
+            <p>
+                <img src="../../Resources/Images/MyWorkspace/Ws_ShapeName.png" alt="file name showing no spaces or special characters, only letters and an underscore." class="border" />
+            </p>
+        </div>
         <h2>Availability 
 
 </h2>
-        <p>Downloading a shape or shapefile will export a zipped shapefile containing the shape or shapefile you’ve created in IFTDSS. To use this feature, your shape or shapefile must fit the following criteria:</p>
+        <p>Downloading a shape or shapefile will export a zipped shapefile containing the shape or shapefile you’ve created in <MadCap:variable name="General.ProductName" />. To use this feature, your shape or shapefile must fit the following criteria:</p>
         <ul>
             <li>
                 <p>
 
-Be created after<span style="background-color: #ffff00;"> xx/xx/xxxx (IFTDSS Version xxx or later)</span>.</p>
+Be created after 01/07/2021 (IFTDSS Version 3.3.1 or later).</p>
             </li>
             <li>
-                <p>If it was copied or derived from an IFTDSS Reference Layer, it must have been copied from an unrestricted source.  Certain layers are restricted for download for security reasons. You can see if a shapefile cannot be downloaded due to security restrictions by clicking on the layer and referring to the right hand panel. Restricted layers will show a “No Download allowed” message in the GIS Source section of the right-hand panel, as shown below.</p>
+                <p>If it was copied or derived from an <MadCap:variable name="General.ProductName" /> Reference Layer, it must have been copied from an unrestricted source.  Certain layers are restricted for download for security reasons. You can see if a shapefile cannot be downloaded due to security restrictions by clicking on the layer and referring to the right hand panel. Restricted layers will show a “False” message in the “Resource Downloadable” field, as shown below.</p>
                 <p>
                     <img src="../../Resources/Images/MyWorkspace/Ws_ShpDownloadProhibited.png" alt="The &quot;GIS Source&quot; field in the right hand panel ends with &quot;No Download allowed.&quot;" class="border" />
                 </p>
             </li>
         </ul>
+        <p>If you created a shape before 01/07/2021, you may make a copy of the shape and that copy will be available for download. See the steps for <a href="../../10-MapStudio/Functions/CreateEditShps.htm#Copying" target="_blank">Copying Polygons from existing features in the Create/Edit Shapes topic</a> for detail on how to copy an existing shape.</p>
+        <div class="notificationImportant">
+            <p>Note that some <MadCap:variable name="General.ProductName" /> Reference Layers are restricted, thus this method will not work if the original shape was copied from one of those reference layers.</p>
+        </div>
         <h2>Coordinate System</h2>
-        <p>Shapes and Shapefiles downloaded are in the GCS_Noth_American_1983 coordinate system. </p>
+        <p>Shapes and shapefiles downloaded are in the GCS_Noth_American_1983 coordinate system. </p>
         <h2>File Contents</h2>
         <p>Zipped shapefiles contain the following file extensions:</p>
         <ul>
