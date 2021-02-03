@@ -328,6 +328,13 @@
         Title="Overview"
         Link="/Content/10-Cycle/StrategicPlanningAbout.htm" />
       <TocEntry
+        Title="Comparing Landscapes"
+        Link="/Content/30-Tasks/CompareLcps/AboutCmprLcps.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Comparing Weather"
+        Link="/Content/30-Tasks/CompareWeather/AboutCmprWthr.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        conditions="General.QA ONLY" />
+      <TocEntry
         Title="Develop Treatment Alternatives">
         <TocEntry
           Title="Comparing Landscapes to Develop Treatement Alternatives"
@@ -339,6 +346,10 @@
           Title="About Edit Rules"
           Link="/Content/30-Tasks/LndscpEdit/RuleOrdering.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/30-Tasks/QWRA/ModelLBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        conditions="General.QA ONLY" />
       <TocEntry
         Title="Map Values">
         <TocEntry
@@ -359,11 +370,8 @@
       </TocEntry>
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/30-Tasks/ComparisonDashbrd.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-        conditions="General.QA ONLY" />
-      <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/30-Tasks/QWRA/ModelLBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/30-Tasks/QWRA/ModelLBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        conditions="General.Prod ONLY" />
       <TocEntry
         Title="Exposure Analysis">
         <TocEntry
@@ -461,14 +469,46 @@
           Link="/Content/30-Tasks/QWRA/Risk/QWRATechDoc.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
       <TocEntry
-        Title="Prioritize Treatments"
-        conditions="General.LaterRelease" />
+        Title="Comparing Exposure"
+        Link="/Content/30-Tasks/CompareExposure/AboutCmprExpsr.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Comapring Risk"
+        Link="/Content/30-Tasks/CompareRisk/AboutCmprRisk.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
       Title="Implementation Planning">
       <TocEntry
         Title="Overview"
         Link="/Content/10-Cycle/ImplementationPlanAbout.htm" />
+      <TocEntry
+        Title="Create a Landscape"
+        Link="/Content/30-Tasks/CreateLCP/LCPCreateAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        conditions="General.QA ONLY" />
+      <TocEntry
+        Title="Edit a Landscape"
+        Link="/Content/30-Tasks/LndscpEdit/LandscapeEditAbout.htm"
+        conditions="General.QA ONLY">
+        <TocEntry
+          Title="Making Landscape Edits" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          Link="/Content/30-Tasks/LndscpEdit/LandscapeEditAbout.htm" />
+        <TocEntry
+          Title="About Default Treatment/Disturbance Rules"
+          Link="/Content/30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Applying Edit Rules"
+          Link="/Content/30-Tasks/LndscpEdit/RuleOrdering.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Edit Rule Technical Documentation"
+          Link="/Content/30-Tasks/LndscpEdit/LandscapeEditTechTopic.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="Calculate Fire Behavior"
+        Link="/Content/10-Cycle/LandEvalFireBehavior.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        conditions="General.QA ONLY" />
+      <TocEntry
+        Title="Comparing Weather"
+        Link="/Content/30-Tasks/CompareWeather/AboutCmprWthr.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        conditions="General.QA ONLY" />
     </TocEntry>
     <TocEntry
       Title="Monitoring">

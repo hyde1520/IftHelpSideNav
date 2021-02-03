@@ -337,7 +337,7 @@
     <Map Name="LFB_download_differences" Link="/Content/20-Models/LFB/Out/LFB download differences.htm" />
     <Map Name="HVRANational" Link="/Content/30-Tasks/QWRA/MapValues/HVRANational.htm" />
     <Map Name="LBPDifferences" Link="/Content/20-Models/LBP/LBPDifferences.htm" />
-    <Map Name="ComparisonDashbrd" Link="/Content/30-Tasks/ComparisonDashbrd.htm" />
+    <Map />
     <Map Name="ExposureAnalysis" Link="/Content/30-Tasks/QWRA/ExposureAnalysis/Overview.htm" />
     <Map Name="ModelLBP" Link="/Content/30-Tasks/QWRA/ModelLBP.htm" />
     <Map Name="AirQual_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/AirQual_m.htm" />
@@ -461,7 +461,32 @@
     <Map Name="EmbersMTT" Link="/Content/20-Models/MTT/Out/EmbersMTT.htm" />
     <Map Name="FireIntensityMTT" Link="/Content/20-Models/MTT/Out/FireIntensityMTT.htm" />
     <Map Name="IgnitionOutMTT" Link="/Content/20-Models/MTT/Out/IgnitionOutMTT.htm" />
-    <Map />
     <Map Name="RoSpreadMTT" Link="/Content/20-Models/MTT/Out/RoSpreadMTT.htm" />
     <Map Name="ExposureShort" Link="/Content/30-Tasks/QWRA/Risk/In/ExposureShort.htm" />
+    <Map Name="MyHomeSupportReportEffctv" Link="/Content/00-Concepts/TestExamples/MyHomeSupportReportEffctv.htm" />
+    <Map Name="MyHomeSupportRxBurnPlan" Link="/Content/00-Concepts/TestExamples/MyHomeSupportRxBurnPlan.htm" />
+    <Map Name="MyHomeSupportRxFuelPlan" Link="/Content/00-Concepts/TestExamples/MyHomeSupportRxFuelPlan.htm" />
+    <Map Name="AttributeTableShpSubset" Link="/Content/10-MapStudio/Functions/AttributeTableShpSubset.htm" />
+    <Map Name="DownloadShapefile" Link="/Content/10-Workspace/downloads/DownloadShapefile.htm" />
+    <Map Name="_20FtWndDirLFB" Link="/Content/20-Models/LFB/Out/20FtWndDirLFB.htm" />
+    <Map Name="_20FtWndSpdLFB" Link="/Content/20-Models/LFB/Out/20FtWndSpdLFB.htm" />
+    <Map Name="CrownActivityLFB" Link="/Content/20-Models/LFB/Out/CrownActivityLFB.htm" />
+    <Map Name="CrownFrcBrndLFB" Link="/Content/20-Models/LFB/Out/CrownFrcBrndLFB.htm" />
+    <Map Name="FireLIntensityLFB" Link="/Content/20-Models/LFB/Out/FireLIntensityLFB.htm" />
+    <Map Name="FlameLengthLFB" Link="/Content/20-Models/LFB/Out/FlameLengthLFB.htm" />
+    <Map Name="FuelMstrOutLFB" Link="/Content/20-Models/LFB/Out/FuelMstrOutLFB.htm" />
+    <Map Name="HeatUnitAreaLFB" Link="/Content/20-Models/LFB/Out/HeatUnitAreaLFB.htm" />
+    <Map Name="HorizMovRateLFB" Link="/Content/20-Models/LFB/Out/HorizMovRateLFB.htm" />
+    <Map Name="MidFlmWindSpLFB" Link="/Content/20-Models/LFB/Out/MidFlmWindSpLFB.htm" />
+    <Map Name="MxSpotDirLFB" Link="/Content/20-Models/LFB/Out/MxSpotDirLFB.htm" />
+    <Map Name="MxSpotDistLFB" Link="/Content/20-Models/LFB/Out/MxSpotDistLFB.htm" />
+    <Map Name="MxSpreadDirLFB" Link="/Content/20-Models/LFB/Out/MxSpreadDirLFB.htm" />
+    <Map Name="RosLFB" Link="/Content/20-Models/LFB/Out/RosLFB.htm" />
+    <Map Name="SolarRadtnLFB" Link="/Content/20-Models/LFB/Out/SolarRadtnLFB.htm" />
+    <Map Name="choose_model_hh" Link="/Content/50-Hover/PlanningCycle/CompareWeather/choose_model_hh.htm" />
+    <Map Name="pending_selections_hh" Link="/Content/50-Hover/PlanningCycle/CompareWeather/pending_selections_hh.htm" />
+    <Map Name="save_compare_hh" Link="/Content/50-Hover/PlanningCycle/CompareWeather/save_compare_hh.htm" />
+    <Map Name="select_out_1_hh" Link="/Content/50-Hover/PlanningCycle/CompareWeather/select_out_1_hh.htm" />
+    <Map Name="select_out_other_hh" Link="/Content/50-Hover/PlanningCycle/CompareWeather/select_out_other_hh.htm" />
+    <Map Name="editing_landscape" Link="/Content/Resources/MicroContent/EditingMicroContent.flmco#editing-landscape" />
 </CatapultAliasFile>
