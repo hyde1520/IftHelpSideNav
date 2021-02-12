@@ -497,3 +497,7 @@
 #define select_out_1_hh 9201
 #define select_out_other_hh 9202
 #define editing_landscape 1353
+#define EnergyPwrPlnts_m 8080
+#define EnergyTrnsLines_m 8081
+#define EnergySubStns_m 8082
+#define EnergyOilGas 8083

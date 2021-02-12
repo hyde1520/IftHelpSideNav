@@ -82,7 +82,7 @@ div.ImagesFloatRight
 
 [class^=notification]
 {
-	width: 80%;
+	width: 95%;
 	margin: 12px;
 	/* Relative positioning on the parent
 	notification div allows us to absolutely 
@@ -455,6 +455,7 @@ p
 {
 	margin-bottom: 8px;
 	margin-top: 16px;
+	page-break-inside: auto;
 }
 
 .comingsoon
@@ -859,13 +860,6 @@ div.iftlength{
 		display: none !important;
 	}
 
-	/*The .off-canvas-content class fixes the grayed out print bug introduced from Chrome 61 */
-
-	.off-canvas-content
-	{
-		box-shadow: none;
-	}
-
 	body
 	{
 		font-size: 10pt;
@@ -884,6 +878,13 @@ div.iftlength{
 		page-break-inside: avoid;
 		/* or 'auto' */
 	}
+	iframe.youtube-player_0{display:none;}
+	
+	body{position:relative;
+			display: inline-block;}
+	li{position:relative;}
+	p{page-break-inside: avoid;}
+
 
 	img.borderlist
 	{

@@ -337,7 +337,6 @@
     <Map Name="LFB_download_differences" Link="/Content/20-Models/LFB/Out/LFB download differences.htm" />
     <Map Name="HVRANational" Link="/Content/30-Tasks/QWRA/MapValues/HVRANational.htm" />
     <Map Name="LBPDifferences" Link="/Content/20-Models/LBP/LBPDifferences.htm" />
-    <Map />
     <Map Name="ExposureAnalysis" Link="/Content/30-Tasks/QWRA/ExposureAnalysis/Overview.htm" />
     <Map Name="ModelLBP" Link="/Content/30-Tasks/QWRA/ModelLBP.htm" />
     <Map Name="AirQual_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/AirQual_m.htm" />
@@ -489,4 +488,8 @@
     <Map Name="select_out_1_hh" Link="/Content/50-Hover/PlanningCycle/CompareWeather/select_out_1_hh.htm" />
     <Map Name="select_out_other_hh" Link="/Content/50-Hover/PlanningCycle/CompareWeather/select_out_other_hh.htm" />
     <Map Name="editing_landscape" Link="/Content/Resources/MicroContent/EditingMicroContent.flmco#editing-landscape" />
+    <Map Name="EnergyPwrPlnts_m" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/EnergyPwrPlnts_m.htm" />
+    <Map Name="EnergyTrnsLines_m" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/EnergyTrnsLines_m.htm" />
+    <Map Name="EnergySubStns_m" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/EnergySubStns_m.htm" />
+    <Map Name="EnergyOilGas" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/EnergyOilGas_m.htm" />
 </CatapultAliasFile>
