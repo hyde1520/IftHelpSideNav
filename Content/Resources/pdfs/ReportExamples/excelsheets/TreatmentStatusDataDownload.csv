@@ -1,178 +1,143 @@
-FTEM Treatment ID (system generated),Treatment Agency,Treatment Area/Region,Admin Forest Code,Treatment Unit,Treatment Sub-Unit,Treatment ID (FACTS ID or NFPORS ID),Treatment Status,Treatment Name,Treatment Completion Acres,Treatment Completion Month,Treatment completion year,Treatment Type,Wildfire Name,Wildfire Discovery Date
-734806,BLM,Idaho Region,,Jarbidge FO,,3311158,Not Started,Saylor FMU_Clover Sagebrush Planting,2020,3,2009,Seeding,East Fork,2018-07-16
-735020,BLM,Idaho Region,,Craters Of The Moon NM,,3319088,Not Started,1_FD02_Desert Fuel Break Mech,100,11,2010,Mastication/Mowing,Bear Trap,2018-08-04
-735147,BLM,Idaho Region,,Four Rivers FO,,6295711,Not Started,2_SG_HL_MtnHome_FR48_Paradigm,144,7,2016,Chemical,MM105 I84,2018-06-04
-735147,BLM,Idaho Region,,Four Rivers FO,,6295711,Not Started,2_SG_HL_MtnHome_FR48_Paradigm,144,7,2016,Chemical,MM112 I84,2018-03-29
-735147,BLM,Idaho Region,,Four Rivers FO,,6295711,Not Started,2_SG_HL_MtnHome_FR48_Paradigm,144,7,2016,Chemical,MM66 I84,2018-06-08
-735147,BLM,Idaho Region,,Four Rivers FO,,6295711,Not Started,2_SG_HL_MtnHome_FR48_Paradigm,144,7,2016,Chemical,MM69 I84,2018-06-03
-735147,BLM,Idaho Region,,Four Rivers FO,,6295711,Not Started,2_SG_HL_MtnHome_FR48_Paradigm,144,7,2016,Chemical,MM113 I84,2018-06-08
-735147,BLM,Idaho Region,,Four Rivers FO,,6295711,Not Started,2_SG_HL_MtnHome_FR48_Paradigm,144,7,2016,Chemical,MM113 SOUTH I84,2018-10-16
-735147,BLM,Idaho Region,,Four Rivers FO,,6295711,Not Started,2_SG_HL_MtnHome_FR48_Paradigm,144,7,2016,Chemical,MM74POINT5  I84,2018-09-14
-735147,BLM,Idaho Region,,Four Rivers FO,,6295711,Not Started,2_SG_HL_MtnHome_FR48_Paradigm,144,7,2016,Chemical,MM72 I84,2018-06-30
-735147,BLM,Idaho Region,,Four Rivers FO,,6295711,Not Started,2_SG_HL_MtnHome_FR48_Paradigm,144,7,2016,Chemical,MM117 I84,2018-08-07
-735147,BLM,Idaho Region,,Four Rivers FO,,6295711,Not Started,2_SG_HL_MtnHome_FR48_Paradigm,144,7,2016,Chemical,MM108 I84,2018-08-05
-735147,BLM,Idaho Region,,Four Rivers FO,,6295711,Not Started,2_SG_HL_MtnHome_FR48_Paradigm,144,7,2016,Chemical,MM74 I84,2018-07-20
-735147,BLM,Idaho Region,,Four Rivers FO,,6295711,Not Started,2_SG_HL_MtnHome_FR48_Paradigm,144,7,2016,Chemical,MM115 I84,2018-07-10
-735147,BLM,Idaho Region,,Four Rivers FO,,6295711,Not Started,2_SG_HL_MtnHome_FR48_Paradigm,144,7,2016,Chemical,MM81 I84,2018-07-01
-735827,BLM,Idaho Region,,Jarbidge FO,,6292952,Not Started,HL_MA_Murphy Restoration_Cowan Field,1000,9,2015,Seeding,Bruneau ,2018-07-24
-737436,BLM,Idaho Region,,Shoshone FO,,6270693,Not Started,Blair Chemical,9600,9,2011,Chemical,Kings Crown,2018-10-22
-738718,BLM,Idaho Region,,Bruneau FO,,6272240,Not Started,2_HL_Grasmere_FR28_BruneauStrategicFuelBreaks_Mech,1409,8,2015,Chemical,EAST WHITE,2018-07-16
-738751,BLM,Idaho Region,,Burley FO,,3322705,Not Started,Walker Hollow,800,10,2009,Thinning,Oakley Reservoir,2018-08-07
-738771,BLM,Idaho Region,,Burley FO,,3302935,Not Started,2_FP26 Minidoka WUI_Desert Fuel Break Mechanical,578,11,2009,Mastication/Mowing,Bear Trap,2018-08-04
-738822,BLM,Idaho Region,,Birds Of Prey NCA,,6282585,Not Started,2_HL_Owyhee_FR56_StrategicFuelbreakBurning,350,3,2015,Broadcast Burn,FIVE CENT,2018-07-05
-739124,BLM,Idaho Region,,Jarbidge FO,,6284975,Not Started,3_HL_MA_Buck Flat Sagebrush Restoration,500,10,2013,Seeding,East Fork,2018-07-16
-739150,BLM,Idaho Region,,Burley FO,,6279461,Not Started,2_HL Cottonwood Unit 1 Thinning,450,11,2013,Thinning,Conner,2018-09-22
-739206,BLM,Idaho Region,,Burley FO,,6279467,Not Started,3_HL Cottonwood Unit 3 Thinning,850,0,2014,Lop and Scatter,Conner,2018-09-22
-740174,BLM,Idaho Region,,Burley FO,,6275371,Not Started,YER_MA Quaking Aspen Seeding,12,3,2013,Seeding,Conner,2018-09-22
-740270,BLM,Idaho Region,,Burley FO,,6275368,Not Started,1_Quaking Aspen Thinning,12,10,2012,Hand Pile,Conner,2018-09-22
-740456,BLM,Idaho Region,,Four Rivers FO,,3296434,Not Started,02_Glenns Ferry_FR26_I-84EastSeed,600,2,2011,Seeding,MM81 I84,2018-07-01
-740456,BLM,Idaho Region,,Four Rivers FO,,3296434,Not Started,02_Glenns Ferry_FR26_I-84EastSeed,600,2,2011,Seeding,MM74POINT5  I84,2018-09-14
-740456,BLM,Idaho Region,,Four Rivers FO,,3296434,Not Started,02_Glenns Ferry_FR26_I-84EastSeed,600,2,2011,Seeding,MM72 I84,2018-06-30
-740456,BLM,Idaho Region,,Four Rivers FO,,3296434,Not Started,02_Glenns Ferry_FR26_I-84EastSeed,600,2,2011,Seeding,MM74 I84,2018-07-20
-741829,BLM,Idaho Region,,Burley FO,,6279465,Not Started,3_HL Jim Sage Cut &amp; Pile,150,0,2014,Hand Pile,Conner,2018-09-22
-741829,BLM,Idaho Region,,Burley FO,,6279465,Not Started,3_HL Jim Sage Cut &amp; Pile,150,0,2014,Hand Pile,Jim Sage ,2018-07-26
-741834,BLM,Idaho Region,,Cottonwood FO,,3328736,Not Started,13_SalmonFMU_FM07_Copperville_chemical,400,6,2012,Chemical,Goose Rapids,2018-08-10
-742317,BLM,Idaho Region,,Four Rivers FO,,3298560,Not Started,01_Glenns Ferry_FR26_I-84EastMow,550,4,2011,Mastication/Mowing,MM74POINT5  I84,2018-09-14
-742317,BLM,Idaho Region,,Four Rivers FO,,3298560,Not Started,01_Glenns Ferry_FR26_I-84EastMow,550,4,2011,Mastication/Mowing,MM72 I84,2018-06-30
-742317,BLM,Idaho Region,,Four Rivers FO,,3298560,Not Started,01_Glenns Ferry_FR26_I-84EastMow,550,4,2011,Mastication/Mowing,MM74 I84,2018-07-20
-742317,BLM,Idaho Region,,Four Rivers FO,,3298560,Not Started,01_Glenns Ferry_FR26_I-84EastMow,550,4,2011,Mastication/Mowing,MM81 I84,2018-07-01
-742480,BLM,Idaho Region,,Craters Of The Moon NM,,3319089,Not Started,2_FD02_Desert Fuel Break Seed,100,11,2010,Seeding,Bear Trap,2018-08-04
-743608,BLM,Idaho Region,,Burley FO,,3327461,Not Started,Red Rock Unit 2,626,11,2011,Lop and Scatter,Conner,2018-09-22
-743650,BLM,Idaho Region,,Bruneau FO,,6291580,Not Started,2_SG_HL_Tri-State Fuel Breaks BFO2_Chemical,753,5,2015,Chemical,CAT,2018-07-25
-743650,BLM,Idaho Region,,Bruneau FO,,6291580,Not Started,2_SG_HL_Tri-State Fuel Breaks BFO2_Chemical,753,5,2015,Chemical,BEAV,2018-07-24
-743770,BLM,Idaho Region,,Four Rivers FO,,3325043,Not Started,1_Glenns Ferry_FR26_I-84_JT,404,11,2012,Seeding,RA 4 PAYETTE CO,2018-07-01
-743770,BLM,Idaho Region,,Four Rivers FO,,3325043,Not Started,1_Glenns Ferry_FR26_I-84_JT,404,11,2012,Seeding,MM113 SOUTH I84,2018-10-16
-743770,BLM,Idaho Region,,Four Rivers FO,,3325043,Not Started,1_Glenns Ferry_FR26_I-84_JT,404,11,2012,Seeding,MM113 I84,2018-06-08
-743770,BLM,Idaho Region,,Four Rivers FO,,3325043,Not Started,1_Glenns Ferry_FR26_I-84_JT,404,11,2012,Seeding,MM112 I84,2018-03-29
-743770,BLM,Idaho Region,,Four Rivers FO,,3325043,Not Started,1_Glenns Ferry_FR26_I-84_JT,404,11,2012,Seeding,MM105 I84,2018-06-04
-743791,BLM,Idaho Region,,Jarbidge FO,,3302933,Not Started,4_FJ02 Saylor FMU_Clover Sage Planting,500,3,2010,Seeding,Balanced Rock,2018-08-29
-743791,BLM,Idaho Region,,Jarbidge FO,,3302933,Not Started,4_FJ02 Saylor FMU_Clover Sage Planting,500,3,2010,Seeding,East Fork,2018-07-16
-744230,BLM,Idaho Region,,Upper Snake FO,,6271694,Not Started,1_LP-1_Idaho Falls_USFO Noxious Weed Project_FB20,5000,5,2013,Chemical,Artesian,2018-08-18
-744230,BLM,Idaho Region,,Upper Snake FO,,6271694,Not Started,1_LP-1_Idaho Falls_USFO Noxious Weed Project_FB20,5000,5,2013,Chemical,Twin Butte,2018-07-24
-744350,BLM,Idaho Region,,Shoshone FO,,3312737,Not Started,4_FD01 Wood River FMU_Hailey Creek Aspen Mech,50,10,2010,Thinning,SHARPS,2018-07-29
-744508,BLM,Idaho Region,,Four Rivers FO,,3316355,Not Started,1_LP-1Glenns Ferry_FR26_I-84EastMow,548,10,2012,Mowing,MM113 SOUTH I84,2018-10-16
-744508,BLM,Idaho Region,,Four Rivers FO,,3316355,Not Started,1_LP-1Glenns Ferry_FR26_I-84EastMow,548,10,2012,Mowing,MM74POINT5  I84,2018-09-14
-744508,BLM,Idaho Region,,Four Rivers FO,,3316355,Not Started,1_LP-1Glenns Ferry_FR26_I-84EastMow,548,10,2012,Mowing,MM72 I84,2018-06-30
-744508,BLM,Idaho Region,,Four Rivers FO,,3316355,Not Started,1_LP-1Glenns Ferry_FR26_I-84EastMow,548,10,2012,Mowing,MM117 I84,2018-08-07
-744508,BLM,Idaho Region,,Four Rivers FO,,3316355,Not Started,1_LP-1Glenns Ferry_FR26_I-84EastMow,548,10,2012,Mowing,MM108 I84,2018-08-05
-744508,BLM,Idaho Region,,Four Rivers FO,,3316355,Not Started,1_LP-1Glenns Ferry_FR26_I-84EastMow,548,10,2012,Mowing,MM74 I84,2018-07-20
-744508,BLM,Idaho Region,,Four Rivers FO,,3316355,Not Started,1_LP-1Glenns Ferry_FR26_I-84EastMow,548,10,2012,Mowing,MM115 I84,2018-07-10
-744508,BLM,Idaho Region,,Four Rivers FO,,3316355,Not Started,1_LP-1Glenns Ferry_FR26_I-84EastMow,548,10,2012,Mowing,RA 4 PAYETTE CO,2018-07-01
-744508,BLM,Idaho Region,,Four Rivers FO,,3316355,Not Started,1_LP-1Glenns Ferry_FR26_I-84EastMow,548,10,2012,Mowing,MM81 I84,2018-07-01
-744508,BLM,Idaho Region,,Four Rivers FO,,3316355,Not Started,1_LP-1Glenns Ferry_FR26_I-84EastMow,548,10,2012,Mowing,MM66 I84,2018-06-08
-744508,BLM,Idaho Region,,Four Rivers FO,,3316355,Not Started,1_LP-1Glenns Ferry_FR26_I-84EastMow,548,10,2012,Mowing,MM113 I84,2018-06-08
-744508,BLM,Idaho Region,,Four Rivers FO,,3316355,Not Started,1_LP-1Glenns Ferry_FR26_I-84EastMow,548,10,2012,Mowing,MM112 I84,2018-03-29
-744508,BLM,Idaho Region,,Four Rivers FO,,3316355,Not Started,1_LP-1Glenns Ferry_FR26_I-84EastMow,548,10,2012,Mowing,MM105 I84,2018-06-04
-744508,BLM,Idaho Region,,Four Rivers FO,,3316355,Not Started,1_LP-1Glenns Ferry_FR26_I-84EastMow,548,10,2012,Mowing,MM69 I84,2018-06-03
-744543,BLM,Idaho Region,,Upper Snake FO,,6271693,Not Started,1_LP-1_Dubois_USFO Noxious Weed Project_FB17,5000,5,2013,Chemical,Indian Butte,2018-09-13
-745375,BLM,Idaho Region,,Four Rivers FO,,6274536,Not Started,CA_Boise_FR03_Foothills_Chipping,15,4,2013,Chipping,RA 9 ADA CO,2018-07-20
-745375,BLM,Idaho Region,,Four Rivers FO,,6274536,Not Started,CA_Boise_FR03_Foothills_Chipping,15,4,2013,Chipping,RA 11 ADA CO,2018-09-30
-746094,BLM,Idaho Region,,Four Rivers FO,,6279314,Not Started,1_XX_Glenns Ferry_FR26_I-84_Mechanical,30,6,2014,Mowing,MM81 I84,2018-07-01
-746094,BLM,Idaho Region,,Four Rivers FO,,6279314,Not Started,1_XX_Glenns Ferry_FR26_I-84_Mechanical,30,6,2014,Mowing,MM74 I84,2018-07-20
-746148,BLM,Idaho Region,,Four Rivers FO,,6279704,Not Started,2_HL_Banks_FR02_PumpkinBrainerd,70,11,2014,Hand Pile Burn,MM73 HWY55,2018-07-25
-746173,BLM,Idaho Region,,Burley FO,,6272441,Not Started,Twin Springs Mowing,450,10,2011,Mowing,Mule Creek,2018-07-21
-746191,BLM,Idaho Region,,Jarbidge FO,,6291517,Not Started,Trough in the Draw Brush Planting,2000,11,2014,Seeding,Winter Camp,2018-07-17
-746281,BLM,Idaho Region,,Upper Snake FO,,3327243,Not Started,LP-1_Dubois_FB17_USFO Noxious Weed Project,5000,5,2012,Chemical,Indian Butte,2018-09-13
-746702,BLM,Idaho Region,,Burley FO,,3312538,Not Started,1_FP26 Minidoka WUI_North Minidoka Drill Seeding_WUI,3232,8,2010,Seeding,Bear Trap,2018-08-04
-746736,BLM,Idaho Region,,Shoshone FO,,3329097,Not Started,Hailey Creek RxFire,50,10,2011,Hand Pile Burn,SHARPS,2018-07-29
-746747,BLM,Idaho Region,,Shoshone FO,,6276834,Not Started,Martin Canyon 3 RxFire,148,7,2013,Broadcast Burn,SHARPS,2018-07-29
-746878,BLM,Idaho Region,,Four Rivers FO,,6288876,Not Started,2_HL_Glenns Ferry_FR26_I-84_JT,125,7,2015,Mowing,MM81 I84,2018-07-01
-746878,BLM,Idaho Region,,Four Rivers FO,,6288876,Not Started,2_HL_Glenns Ferry_FR26_I-84_JT,125,7,2015,Mowing,MM108 I84,2018-08-05
-746878,BLM,Idaho Region,,Four Rivers FO,,6288876,Not Started,2_HL_Glenns Ferry_FR26_I-84_JT,125,7,2015,Mowing,MM74 I84,2018-07-20
-746878,BLM,Idaho Region,,Four Rivers FO,,6288876,Not Started,2_HL_Glenns Ferry_FR26_I-84_JT,125,7,2015,Mowing,MM105 I84,2018-06-04
-746997,BLM,Idaho Region,,Four Rivers FO,,3325401,Not Started,02_Glenns Ferry_FR26_I-84Drill_Seed_JFState,600,11,2011,Seeding,MM66 I84,2018-06-08
-747094,BLM,Idaho Region,,Jarbidge FO,,6285444,Not Started,2_HL_Sage Grouse Habitat Restoration_BlackRockPocket,2185,9,2014,Seeding,Bruneau ,2018-07-24
-747547,BLM,Idaho Region,,Four Rivers FO,,6293082,Not Started,2_SG_HL_MtnHome_FR48_Paradigm,1460,8,2016,Mowing,TEAPOT,2018-11-11
-747547,BLM,Idaho Region,,Four Rivers FO,,6293082,Not Started,2_SG_HL_MtnHome_FR48_Paradigm,1460,8,2016,Mowing,TWENTY,2018-08-17
-747547,BLM,Idaho Region,,Four Rivers FO,,6293082,Not Started,2_SG_HL_MtnHome_FR48_Paradigm,1460,8,2016,Mowing,MM98 HWY 20,2018-08-17
-747641,BLM,Idaho Region,,Birds Of Prey NCA,,6285394,Not Started,2_SG_HL_Owyhee_FR56_StrategicFuelbreakBurning,528,3,2016,Broadcast Burn,FIVE CENT,2018-07-05
-748127,BLM,Idaho Region,,Burley FO,,6276851,Not Started,1_VC_MA Parks Creek Maintenance,390,10,2012,Lop and Scatter,Conner,2018-09-22
-748158,BLM,Idaho Region,,Shoshone FO,,6293171,Not Started,2_HL_MA_Preacher Sagebrush Restoration Unit 1 Fuels,4500,9,2015,Seeding,Tikura,2018-08-31
-748158,BLM,Idaho Region,,Shoshone FO,,6293171,Not Started,2_HL_MA_Preacher Sagebrush Restoration Unit 1 Fuels,4500,9,2015,Seeding,Old State,2018-09-03
-748591,BLM,Idaho Region,,Bruneau FO,,6284996,Not Started,2_XX_HL_Grasmere_FR28_BruneauStrategicFuelBreaks,450,8,2014,Mowing,EAST WHITE,2018-07-16
-748600,BLM,Idaho Region,,Four Rivers FO,,3300874,Not Started,5_FA83_Horseshoe Bend_Chief Parrish Salvage_JFF,103,7,2008,Machine Pile,MM73 HWY55,2018-07-25
-749161,BLM,Idaho Region,,Four Rivers FO,,6279716,Not Started,2_HL_MtnHome_FR48_Paradigm,600,7,2015,Mowing,MM117 I84,2018-08-07
-749161,BLM,Idaho Region,,Four Rivers FO,,6279716,Not Started,2_HL_MtnHome_FR48_Paradigm,600,7,2015,Mowing,MM108 I84,2018-08-05
-749161,BLM,Idaho Region,,Four Rivers FO,,6279716,Not Started,2_HL_MtnHome_FR48_Paradigm,600,7,2015,Mowing,MM74 I84,2018-07-20
-749161,BLM,Idaho Region,,Four Rivers FO,,6279716,Not Started,2_HL_MtnHome_FR48_Paradigm,600,7,2015,Mowing,MM115 I84,2018-07-10
-749161,BLM,Idaho Region,,Four Rivers FO,,6279716,Not Started,2_HL_MtnHome_FR48_Paradigm,600,7,2015,Mowing,MM81 I84,2018-07-01
-749161,BLM,Idaho Region,,Four Rivers FO,,6279716,Not Started,2_HL_MtnHome_FR48_Paradigm,600,7,2015,Mowing,MM66 I84,2018-06-08
-749161,BLM,Idaho Region,,Four Rivers FO,,6279716,Not Started,2_HL_MtnHome_FR48_Paradigm,600,7,2015,Mowing,MM113 I84,2018-06-08
-749161,BLM,Idaho Region,,Four Rivers FO,,6279716,Not Started,2_HL_MtnHome_FR48_Paradigm,600,7,2015,Mowing,MM112 I84,2018-03-29
-749161,BLM,Idaho Region,,Four Rivers FO,,6279716,Not Started,2_HL_MtnHome_FR48_Paradigm,600,7,2015,Mowing,MM105 I84,2018-06-04
-749161,BLM,Idaho Region,,Four Rivers FO,,6279716,Not Started,2_HL_MtnHome_FR48_Paradigm,600,7,2015,Mowing,MM69 I84,2018-06-03
-749161,BLM,Idaho Region,,Four Rivers FO,,6279716,Not Started,2_HL_MtnHome_FR48_Paradigm,600,7,2015,Mowing,MM74POINT5  I84,2018-09-14
-749161,BLM,Idaho Region,,Four Rivers FO,,6279716,Not Started,2_HL_MtnHome_FR48_Paradigm,600,7,2015,Mowing,MM113 SOUTH I84,2018-10-16
-749161,BLM,Idaho Region,,Four Rivers FO,,6279716,Not Started,2_HL_MtnHome_FR48_Paradigm,600,7,2015,Mowing,MM72 I84,2018-06-30
-749291,BLM,Idaho Region,,Four Rivers FO,,6282380,Not Started,1_LP-1Glenns Ferry_FR26_I-84_Chemical,3254,4,2013,Mowing,MM105 I84,2018-06-04
-749291,BLM,Idaho Region,,Four Rivers FO,,6282380,Not Started,1_LP-1Glenns Ferry_FR26_I-84_Chemical,3254,4,2013,Mowing,MM74POINT5  I84,2018-09-14
-749291,BLM,Idaho Region,,Four Rivers FO,,6282380,Not Started,1_LP-1Glenns Ferry_FR26_I-84_Chemical,3254,4,2013,Mowing,MM72 I84,2018-06-30
-749291,BLM,Idaho Region,,Four Rivers FO,,6282380,Not Started,1_LP-1Glenns Ferry_FR26_I-84_Chemical,3254,4,2013,Mowing,MM117 I84,2018-08-07
-749291,BLM,Idaho Region,,Four Rivers FO,,6282380,Not Started,1_LP-1Glenns Ferry_FR26_I-84_Chemical,3254,4,2013,Mowing,MM108 I84,2018-08-05
-749291,BLM,Idaho Region,,Four Rivers FO,,6282380,Not Started,1_LP-1Glenns Ferry_FR26_I-84_Chemical,3254,4,2013,Mowing,MM74 I84,2018-07-20
-749291,BLM,Idaho Region,,Four Rivers FO,,6282380,Not Started,1_LP-1Glenns Ferry_FR26_I-84_Chemical,3254,4,2013,Mowing,MM115 I84,2018-07-10
-749291,BLM,Idaho Region,,Four Rivers FO,,6282380,Not Started,1_LP-1Glenns Ferry_FR26_I-84_Chemical,3254,4,2013,Mowing,RA 4 PAYETTE CO,2018-07-01
-749291,BLM,Idaho Region,,Four Rivers FO,,6282380,Not Started,1_LP-1Glenns Ferry_FR26_I-84_Chemical,3254,4,2013,Mowing,MM81 I84,2018-07-01
-749291,BLM,Idaho Region,,Four Rivers FO,,6282380,Not Started,1_LP-1Glenns Ferry_FR26_I-84_Chemical,3254,4,2013,Mowing,MM66 I84,2018-06-08
-749291,BLM,Idaho Region,,Four Rivers FO,,6282380,Not Started,1_LP-1Glenns Ferry_FR26_I-84_Chemical,3254,4,2013,Mowing,MM113 I84,2018-06-08
-749291,BLM,Idaho Region,,Four Rivers FO,,6282380,Not Started,1_LP-1Glenns Ferry_FR26_I-84_Chemical,3254,4,2013,Mowing,MM112 I84,2018-03-29
-749291,BLM,Idaho Region,,Four Rivers FO,,6282380,Not Started,1_LP-1Glenns Ferry_FR26_I-84_Chemical,3254,4,2013,Mowing,MM69 I84,2018-06-03
-749291,BLM,Idaho Region,,Four Rivers FO,,6282380,Not Started,1_LP-1Glenns Ferry_FR26_I-84_Chemical,3254,4,2013,Mowing,MM113 SOUTH I84,2018-10-16
-749750,BLM,Idaho Region,,Burley FO,,6285546,Not Started,2_MA_ClearCreek Aerial Seeding,900,0,2015,Seeding,Conner,2018-09-22
-749881,BLM,Idaho Region,,Bruneau FO,,6295714,Not Started,2_SG_HL_Grasmere_FR28_BruneauStrategicFuelBreaks_Mech,1536,7,2016,Chemical,EAST WHITE,2018-07-16
-750329,BLM,Idaho Region,,Bruneau FO,,6288638,Not Started,2_SG_HL_FR28_Grasmere_TriState_BFO1,232,4,2015,Mowing,CAT,2018-07-25
-750329,BLM,Idaho Region,,Bruneau FO,,6288638,Not Started,2_SG_HL_FR28_Grasmere_TriState_BFO1,232,4,2015,Mowing,BEAV,2018-07-24
-753325,BLM,Idaho Region,,Burley FO,,3311632,Not Started,4_FP03 Albion FMU_Parks Creek,400,11,2008,Thinning,Conner,2018-09-22
-753389,BLM,Idaho Region,,Upper Snake FO,,3310444,Not Started,LP-1_Idaho Falls_FB20_USFO Noxious Weed Project,5000,5,2012,Chemical,Artesian,2018-08-18
-753389,BLM,Idaho Region,,Upper Snake FO,,3310444,Not Started,LP-1_Idaho Falls_FB20_USFO Noxious Weed Project,5000,5,2012,Chemical,Twin Butte,2018-07-24
-753469,BLM,Idaho Region,,Four Rivers FO,,6293063,Not Started,2_HL_Banks_FR02_PumpkinBrainerd,130,2,2016,Hand Pile Burn,MM73 HWY55,2018-07-25
-753526,BLM,Idaho Region,,Burley FO,,6275253,Not Started,1_MA Red Rock RxFire,450,11,2012,Hand Pile Burn,Conner,2018-09-22
-755314,BLM,Idaho Region,,Four Rivers FO,,6279324,Not Started,2_CA_Boise_FR03_Foothills_Chipping,15,7,2015,Chipping,RA 9 ADA CO,2018-07-20
-755314,BLM,Idaho Region,,Four Rivers FO,,6279324,Not Started,2_CA_Boise_FR03_Foothills_Chipping,15,7,2015,Chipping,RA 11 ADA CO,2018-09-30
-755610,BLM,Idaho Region,,Burley FO,,6279464,Not Started,3_MA HL Cottonwood Unit 2 Mastication,455,0,2014,Mastication,Conner,2018-09-22
-755639,BLM,Idaho Region,,Burley FO,,6292477,Not Started,1_HL_MA_Walker Hollow Maintenance,919,9,2015,Thinning,Oakley Reservoir,2018-08-07
-755914,BLM,Idaho Region,,Burley FO,,6285539,Not Started,1_HL_WestJimSage Pile Seeding,111,0,2015,Seeding,Conner,2018-09-22
-755914,BLM,Idaho Region,,Burley FO,,6285539,Not Started,1_HL_WestJimSage Pile Seeding,111,0,2015,Seeding,Jim Sage ,2018-07-26
-756069,BLM,Idaho Region,,Burley FO,,6285541,Not Started,1_MA_HL_WestJimSagePileRX,111,0,2015,Hand Pile Burn,Conner,2018-09-22
-756069,BLM,Idaho Region,,Burley FO,,6285541,Not Started,1_MA_HL_WestJimSagePileRX,111,0,2015,Hand Pile Burn,Jim Sage ,2018-07-26
-756141,BLM,Idaho Region,,Upper Snake FO,,6292869,Not Started,2_FIAT_Big Desert PPA_HL_MA_USFO Noxious Weeds_FB85_Chemical,3000,8,2016,Chemical,Artesian,2018-08-18
-756141,BLM,Idaho Region,,Upper Snake FO,,6292869,Not Started,2_FIAT_Big Desert PPA_HL_MA_USFO Noxious Weeds_FB85_Chemical,3000,8,2016,Chemical,Indian Butte,2018-09-13
-756141,BLM,Idaho Region,,Upper Snake FO,,6292869,Not Started,2_FIAT_Big Desert PPA_HL_MA_USFO Noxious Weeds_FB85_Chemical,3000,8,2016,Chemical,North Butte ,2018-07-15
-889303,BLM,Idaho Region,,Jarbidge FO,,3291406,Not Started,3_FJ04 Juniper Butte FMU_LEPA Sagebrush,500,2,2010,Seeding,Winter Camp,2018-07-17
-896485,BLM,Idaho Region,,Jarbidge FO,,6279404,Not Started,4_VA HL_MA_Diamond A Shrub Planting,3000,10,2013,Seeding,Bruneau ,2018-07-24
-897150,BLM,Idaho Region,,Jarbidge FO,,6291515,Not Started,Blackrock Pocket Brush Planting,4500,11,2014,Seeding,Bruneau ,2018-07-24
-897152,BLM,Idaho Region,,Jarbidge FO,,6291516,Not Started,South Herbs Brush Planting,1500,11,2014,Seeding,East Fork,2018-07-16
-900026,BLM,Idaho Region,,Burley FO,,6309788,Not Started,Red Rock Weed Mtc,237,6,2017,Chemical,Conner,2018-09-22
-936367,BLM,Idaho Region,,Shoshone FO,,6293534,Not Started,1_HL_MA_Hailey Creek Aspen Mech,42,9,2017,Thinning,SHARPS,2018-07-29
-938731,BLM,Idaho Region,,Jarbidge FO,,6308440,Not Started,3_HL_MA_Jarbidge Fuel Breaks Chem 7 Pot Hole North (fall),979,9,2017,Chemical,East Saylor,2018-07-16
-938737,BLM,Idaho Region,,Burley FO,,6292567,Not Started,2_HL_MA_Minidoka Fuel Break Chem,2236,9,2017,Chemical,Bear Trap,2018-08-04
-938830,BLM,Idaho Region,,Four Rivers FO,,6299704,Not Started,2_SG_HL_MtnHome_FR48_Paradigm_Agreements,400,8,2017,Mowing,MM81 I84,2018-07-01
-938830,BLM,Idaho Region,,Four Rivers FO,,6299704,Not Started,2_SG_HL_MtnHome_FR48_Paradigm_Agreements,400,8,2017,Mowing,MM66 I84,2018-06-08
-938830,BLM,Idaho Region,,Four Rivers FO,,6299704,Not Started,2_SG_HL_MtnHome_FR48_Paradigm_Agreements,400,8,2017,Mowing,MM113 I84,2018-06-08
-938830,BLM,Idaho Region,,Four Rivers FO,,6299704,Not Started,2_SG_HL_MtnHome_FR48_Paradigm_Agreements,400,8,2017,Mowing,MM112 I84,2018-03-29
-938830,BLM,Idaho Region,,Four Rivers FO,,6299704,Not Started,2_SG_HL_MtnHome_FR48_Paradigm_Agreements,400,8,2017,Mowing,MM105 I84,2018-06-04
-938830,BLM,Idaho Region,,Four Rivers FO,,6299704,Not Started,2_SG_HL_MtnHome_FR48_Paradigm_Agreements,400,8,2017,Mowing,MM69 I84,2018-06-03
-938830,BLM,Idaho Region,,Four Rivers FO,,6299704,Not Started,2_SG_HL_MtnHome_FR48_Paradigm_Agreements,400,8,2017,Mowing,MM115 I84,2018-07-10
-938830,BLM,Idaho Region,,Four Rivers FO,,6299704,Not Started,2_SG_HL_MtnHome_FR48_Paradigm_Agreements,400,8,2017,Mowing,MM74 I84,2018-07-20
-938830,BLM,Idaho Region,,Four Rivers FO,,6299704,Not Started,2_SG_HL_MtnHome_FR48_Paradigm_Agreements,400,8,2017,Mowing,MM108 I84,2018-08-05
-938830,BLM,Idaho Region,,Four Rivers FO,,6299704,Not Started,2_SG_HL_MtnHome_FR48_Paradigm_Agreements,400,8,2017,Mowing,MM117 I84,2018-08-07
-938830,BLM,Idaho Region,,Four Rivers FO,,6299704,Not Started,2_SG_HL_MtnHome_FR48_Paradigm_Agreements,400,8,2017,Mowing,MM72 I84,2018-06-30
-938830,BLM,Idaho Region,,Four Rivers FO,,6299704,Not Started,2_SG_HL_MtnHome_FR48_Paradigm_Agreements,400,8,2017,Mowing,MM74POINT5  I84,2018-09-14
-938830,BLM,Idaho Region,,Four Rivers FO,,6299704,Not Started,2_SG_HL_MtnHome_FR48_Paradigm_Agreements,400,8,2017,Mowing,MM113 SOUTH I84,2018-10-16
-964018,BLM,Idaho Region,,Jarbidge FO,,6298677,Not Started,2_HL_MA_Murphy Restoration_Cowan Field,1570,9,2016,Seeding,Bruneau ,2018-07-24
-964050,BLM,Idaho Region,,Four Rivers FO,,6298057,Not Started,2_3_SG_HL_MtnHome_FR48_Paradigm_ Disking/Mowing,2523,8,2017,Mowing,MM108 I84,2018-08-05
-964050,BLM,Idaho Region,,Four Rivers FO,,6298057,Not Started,2_3_SG_HL_MtnHome_FR48_Paradigm_ Disking/Mowing,2523,8,2017,Mowing,ALKIE,2018-08-17
-964162,BLM,Idaho Region,,Jarbidge FO,,6308684,Not Started,1_HL_Jarbidge Fuel Breaks Chem 6 - Pot Hole North,1060,5,2017,Chemical,East Saylor,2018-07-16
-964416,BLM,Idaho Region,,Four Rivers FO,,6298059,Not Started,3_SG_HL_MtnHome_FR48_Paradigm_Chemical,2090,8,2017,Chemical,TWENTY,2018-08-17
-964416,BLM,Idaho Region,,Four Rivers FO,,6298059,Not Started,3_SG_HL_MtnHome_FR48_Paradigm_Chemical,2090,8,2017,Chemical,MM108 I84,2018-08-05
-964416,BLM,Idaho Region,,Four Rivers FO,,6298059,Not Started,3_SG_HL_MtnHome_FR48_Paradigm_Chemical,2090,8,2017,Chemical,MM98 HWY 20,2018-08-17
-964416,BLM,Idaho Region,,Four Rivers FO,,6298059,Not Started,3_SG_HL_MtnHome_FR48_Paradigm_Chemical,2090,8,2017,Chemical,ALKIE,2018-08-17
-964658,BLM,Idaho Region,,Jarbidge FO,,6303991,Not Started,3_HL_Jarbidge Fuel Breaks Chem 4 - Pot Hole North,1060,2,2017,Chemical,East Saylor,2018-07-16
-964672,BLM,Idaho Region,,Burley FO,,6309788,Not Started,Red Rock Weed Mtc,237,6,2017,Chemical,Conner,2018-09-22
-964707,BLM,Idaho Region,,Coeur D'Alene FO,,6286745,Not Started,2_CA_Mineral_handpiling,67,2,2017,Hand Pile,Mineral,2018-07-13
-965274,BLM,Idaho Region,,Coeur D'Alene FO,,6292008,Not Started,2_CA_Mineral_slashing,67,2,2017,Thinning,Mineral,2018-07-13
-978692,BLM,Idaho Region,,Jarbidge FO,,6308683,Not Started,1_HL_Jarbidge Fuel Breaks Chem 5 - Pot Hole North,1060,4,2017,Chemical,East Saylor,2018-07-16
-978768,BLM,Idaho Region,,Burley FO,,6282915,Not Started,2_HL_JimSageThinning,2969,9,2014,Lop and Scatter,Jim Sage ,2018-07-26
-978768,BLM,Idaho Region,,Burley FO,,6282915,Not Started,2_HL_JimSageThinning,2969,9,2014,Lop and Scatter,Conner,2018-09-22
-978775,BLM,Idaho Region,,Jarbidge FO,,6298792,Not Started,3_HL_MA_Murphy Restoration_Cowan Field,1500,9,2015,Seeding,Bruneau ,2018-07-24
-978880,BLM,Idaho Region,,Shoshone FO,,6311023,Not Started,ITD 93 Seeding,567,11,2017,Seeding,South Notch,2018-07-12
+FTEM Treatment ID (system generated),Treatment Agency,Treatment Area/Region,Admin Forest Code,Treatment Unit,Treatment Sub-Unit,Treatment ID (FACTS ID or NFPORS ID),Treatment FTEM Monitoring Status,Treatment Name,Treatment Completion Acres,Treatment Completion Month,Treatment completion year,Treatment Type,Wildfire Name,Wildfire Discovery Date
+734895,NPS,Intermountain Regional Office,,Grand Canyon National Park,,6270891,Not Started,GCVC - Science Center Contract Biomass Removal (ADD-ON),25,8,2014,Chipping,YAVAPAI,2019-06-14
+734952,NPS,Intermountain Regional Office,,Bandelier National Monument,,3330972,Not Started,Countyline North (CG-5/8) RX - Los Conchas WF (ADD-ON),185,6,2011,Broadcast Burn,County Line,2019-08-27
+735126,NPS,Intermountain Regional Office,,Dinosaur National Monument,,6296540,Not Started,DINO CO HQ Mow (ADD-ON),4,6,2015,Mowing,DINO HQ,2019-08-21
+735244,NPS,Intermountain Regional Office,,Grand Canyon National Park,,6271296,Not Started,Roost Spring Canyon Maint Prep,28,8,2015,Lop and Scatter,IKES,2019-07-25
+735356,NPS,Intermountain Regional Office,,Grand Canyon National Park,,3313104,Not Started,Range Pile Burn (ADD-ON),50,10,2009,Hand Pile Burn,WIDFORSS,2019-08-28
+735362,NPS,Intermountain Regional Office,,Glacier National Park,,6283969,Not Started,St. Mary Admin. Chip (ADD-ON),15,8,2013,Chipping,Corral ,2019-10-25
+735601,NPS,Intermountain Regional Office,,Grand Canyon National Park,,3315724,Not Started,Yavapai Contract Biomass Removal (ADD-ON),50,1,2015,Biomass Removal,YAVAPAI,2019-06-14
+735601,NPS,Intermountain Regional Office,,Grand Canyon National Park,,3315724,Not Started,Yavapai Contract Biomass Removal (ADD-ON),50,1,2015,Biomass Removal,ROUZER,2019-07-30
+735814,NPS,Intermountain Regional Office,,Bandelier National Monument,,3304380,Not Started,Apache Springs (UF-14/LF27) Pile Burn (ADD-ON),100,8,2010,Hand Pile Burn,Apache #2,2019-08-02
+735814,NPS,Intermountain Regional Office,,Bandelier National Monument,,3304380,Not Started,Apache Springs (UF-14/LF27) Pile Burn (ADD-ON),100,8,2010,Hand Pile Burn,Ponderosa ,2019-09-07
+735814,NPS,Intermountain Regional Office,,Bandelier National Monument,,3304380,Not Started,Apache Springs (UF-14/LF27) Pile Burn (ADD-ON),100,8,2010,Hand Pile Burn,Apache #1,2019-08-02
+735814,NPS,Intermountain Regional Office,,Bandelier National Monument,,3304380,Not Started,Apache Springs (UF-14/LF27) Pile Burn (ADD-ON),100,8,2010,Hand Pile Burn,County Line,2019-08-27
+735948,NPS,Intermountain Regional Office,,Tonto National Monument,,3325547,Not Started,Tonto VC &amp; Housing Def. Space Haul (ADD-ON),2,7,2013,Biomass Removal,Woodbury,2019-06-08
+735991,NPS,Intermountain Regional Office,,Bryce Canyon National Park,,6297621,Not Started,Rainbow Pt. Units 1-4 Thin (ADD-ON),75,8,2015,Thinning,Rainbow Point,2019-09-25
+736029,NPS,Intermountain Regional Office,,Bandelier National Monument,,3322963,Not Started,Valles II North Maint Thin (ADD-ON),57,7,2013,Lop and Scatter,County Line,2019-08-27
+736046,NPS,Intermountain Regional Office,,Grand Canyon National Park,,6291985,Not Started,Bright Angel - Curve Unit FY16 Thin,16,8,2016,Thinning,EDR ,2019-08-31
+736046,NPS,Intermountain Regional Office,,Grand Canyon National Park,,6291985,Not Started,Bright Angel - Curve Unit FY16 Thin,16,8,2016,Thinning,WIDFORSS,2019-08-28
+736126,NPS,Intermountain Regional Office,,Grand Canyon National Park,,3315720,Not Started,Water Tanks Contract Thin,87,8,2012,Thinning,YAVAPAI,2019-06-14
+737480,NPS,Intermountain Regional Office,,Valles Caldera National Preserve,,6295071,Not Started,North Banco - Cajete Unit 2 FY16 RX,202,9,2015,Broadcast Burn,FALSE ALARM #1,2019-07-19
+737657,NPS,Intermountain Regional Office,,Bryce Canyon National Park,,3323285,Not Started,Daves Hollow RX (ADD-ON),246,8,2010,Broadcast Burn,Dixie,2019-07-10
+737738,NPS,Intermountain Regional Office,,,,6288356,Not Started,North Unit - Cedar Cyn/Fritch Fortess/Harbor Bay RX - Double Diamond WF (ADD-ON),1455,4,2014,Fire Use,Cedar Canyon,2019-09-07
+737738,NPS,Intermountain Regional Office,,,,6288356,Not Started,North Unit - Cedar Cyn/Fritch Fortess/Harbor Bay RX - Double Diamond WF (ADD-ON),1455,4,2014,Fire Use,Elizabeth,2019-09-08
+737814,NPS,Intermountain Regional Office,,Tonto National Monument,,3331364,In Progress,TONT VC & Housing Def. Space Thin (ADD-ON),4,6,2011,Thinning,Woodbury,2019-06-08
+737849,NPS,Intermountain Regional Office,,Bandelier National Monument,,3303944,Not Started,Apache Springs (UF-14\LF27) Thin PH 2 (ADD-ON),235,9,2009,Thinning,Ponderosa ,2019-09-07
+737849,NPS,Intermountain Regional Office,,Bandelier National Monument,,3303944,Not Started,Apache Springs (UF-14\LF27) Thin PH 2 (ADD-ON),235,9,2009,Thinning,Apache #1,2019-08-02
+737849,NPS,Intermountain Regional Office,,Bandelier National Monument,,3303944,Not Started,Apache Springs (UF-14\LF27) Thin PH 2 (ADD-ON),235,9,2009,Thinning,Apache #2,2019-08-02
+737849,NPS,Intermountain Regional Office,,Bandelier National Monument,,3303944,Not Started,Apache Springs (UF-14\LF27) Thin PH 2 (ADD-ON),235,9,2009,Thinning,County Line,2019-08-27
+737855,NPS,Intermountain Regional Office,,Grand Canyon National Park,,3315721,Not Started,Water Tanks Biomass Removal,87,8,2012,Thinning,YAVAPAI,2019-06-14
+738627,NPS,Intermountain Regional Office,,Grand Canyon National Park,,6291296,Not Started,Roost West Basin FY15 Slopes RX,1272,9,2014,Broadcast Burn,IKES,2019-07-25
+738641,NPS,Intermountain Regional Office,,,,6290254,Not Started,Lost Woman + Lost Cerritos RXs - Whiskey Fire (ADD-ON),806,7,2014,Fire Use,Lava 18,2019-08-22
+738860,NPS,Intermountain Regional Office,,Tonto National Monument,,3331365,Not Started,TONT VC & Housing Def. Space Haul (ADD-ON),4,6,2011,Biomass Removal,Woodbury,2019-06-08
+738921,NPS,Intermountain Regional Office,,Grand Canyon National Park,,6276542,Not Started,Range Summer FY12 Burn Prep (ADD-ON),40,8,2012,Lop and Scatter,WIDFORSS,2019-08-28
+738945,NPS,Intermountain Regional Office,,Grand Canyon National Park,,3304018,Not Started,Roost Spring Canyon Contract Thin PH 2 (ADD-ON),63,7,2010,Thinning,IKES,2019-07-25
+739185,NPS,Intermountain Regional Office,,Tonto National Monument,,3325546,In Progress,Tonto VC &amp; Housing Def Space Thin (ADD-ON),2,7,2013,Thinning,Woodbury,2019-06-08
+742292,NPS,Intermountain Regional Office,,Bryce Canyon National Park,,6291500,Not Started,Rainbow Pt. Units 1-4 Hand Pile,75,8,2015,Hand Pile,Rainbow Point,2019-09-25
+742298,NPS,Intermountain Regional Office,,Grand Canyon National Park,,6291396,Not Started,Bndry Spring Cyn FY15 Slopes RX,428,10,2014,Broadcast Burn,IKES,2019-07-25
+743117,NPS,Intermountain Regional Office,,Grand Canyon National Park,,6270890,Not Started,GCVC - Science Center Contract Thin (ADD-ON),25,8,2014,Thinning,YAVAPAI,2019-06-14
+743862,NPS,Intermountain Regional Office,,Grand Canyon National Park,,6270681,Not Started,Range Blackline Rx (ADD-ON),39,10,2011,Broadcast Burn,WIDFORSS,2019-08-28
+743931,NPS,Intermountain Regional Office,,Glacier National Park,,3289440,Not Started,St. Mary Admin. PH2 Thin,5,8,2014,Thinning,Corral ,2019-10-25
+743945,NPS,Intermountain Regional Office,,Dinosaur National Monument,,6289054,Not Started,HQ Mow (ADD-ON),4,5,2014,Mowing,DINO HQ,2019-08-21
+744150,NPS,Intermountain Regional Office,,Bandelier National Monument,,3312252,Not Started,Apache Springs (UF-14\LF27) Hand Pile PH 2 (ADD-ON),235,9,2009,Hand Pile,County Line,2019-08-27
+744150,NPS,Intermountain Regional Office,,Bandelier National Monument,,3312252,Not Started,Apache Springs (UF-14\LF27) Hand Pile PH 2 (ADD-ON),235,9,2009,Hand Pile,Apache #1,2019-08-02
+744150,NPS,Intermountain Regional Office,,Bandelier National Monument,,3312252,Not Started,Apache Springs (UF-14\LF27) Hand Pile PH 2 (ADD-ON),235,9,2009,Hand Pile,Ponderosa ,2019-09-07
+744150,NPS,Intermountain Regional Office,,Bandelier National Monument,,3312252,Not Started,Apache Springs (UF-14\LF27) Hand Pile PH 2 (ADD-ON),235,9,2009,Hand Pile,Apache #2,2019-08-02
+744245,NPS,Intermountain Regional Office,,El Malpais National Monument,,6298944,Not Started,"Road 300 Units 10, 12 FY16 RX (ADD-ON)",1010,5,2016,Broadcast Burn,Big Tubes,2019-08-02
+744450,NPS,Intermountain Regional Office,,Bandelier National Monument,,3312658,Not Started,Apache Springs (UF-14\LF27) Biomass Removal PH 2 (ADD-ON),20,9,2009,Biomass Removal,Apache #1,2019-08-02
+744450,NPS,Intermountain Regional Office,,Bandelier National Monument,,3312658,Not Started,Apache Springs (UF-14\LF27) Biomass Removal PH 2 (ADD-ON),20,9,2009,Biomass Removal,Apache #2,2019-08-02
+744450,NPS,Intermountain Regional Office,,Bandelier National Monument,,3312658,Not Started,Apache Springs (UF-14\LF27) Biomass Removal PH 2 (ADD-ON),20,9,2009,Biomass Removal,County Line,2019-08-27
+744450,NPS,Intermountain Regional Office,,Bandelier National Monument,,3312658,Not Started,Apache Springs (UF-14\LF27) Biomass Removal PH 2 (ADD-ON),20,9,2009,Biomass Removal,Ponderosa ,2019-09-07
+744849,NPS,Intermountain Regional Office,,Grand Canyon National Park,,6279072,Not Started,Bright Angel FY13 Pile Rx (ADD-ON),27,11,2012,Hand Pile Burn,WIDFORSS,2019-08-28
+744849,NPS,Intermountain Regional Office,,Grand Canyon National Park,,6279072,Not Started,Bright Angel FY13 Pile Rx (ADD-ON),27,11,2012,Hand Pile Burn,EDR ,2019-08-31
+744997,NPS,Intermountain Regional Office,,Grand Canyon National Park,,3312142,Not Started,Range Hand Pile (ADD-ON),50,8,2009,Hand Pile,WIDFORSS,2019-08-28
+745286,NPS,Intermountain Regional Office,,Guadalupe Mountains National Park,,3310661,Not Started,Foothills-Lamar RX PH 2 - Juniper WF (ADD-ON),192,4,2009,Broadcast Burn,Pine Springs,2019-03-22
+745300,NPS,Intermountain Regional Office,,,,3330974,Not Started,FY11 BAND WF INCIDENT - Multiple Objectives,12193,6,2011,Fire Use,Ponderosa ,2019-09-07
+745300,NPS,Intermountain Regional Office,,,,3330974,Not Started,FY11 BAND WF INCIDENT - Multiple Objectives,12193,6,2011,Fire Use,County Line,2019-08-27
+745300,NPS,Intermountain Regional Office,,,,3330974,Not Started,FY11 BAND WF INCIDENT - Multiple Objectives,12193,6,2011,Fire Use,Frijoles,2019-07-15
+745300,NPS,Intermountain Regional Office,,,,3330974,Not Started,FY11 BAND WF INCIDENT - Multiple Objectives,12193,6,2011,Fire Use,Apache #2,2019-08-02
+745300,NPS,Intermountain Regional Office,,,,3330974,Not Started,FY11 BAND WF INCIDENT - Multiple Objectives,12193,6,2011,Fire Use,Apache #1,2019-08-02
+745911,NPS,Intermountain Regional Office,,Bandelier National Monument,,3330969,Not Started,Apache Springs (UF-14/27) RX - Los Conchas WF (ADD-ON),1185,6,2011,Broadcast Burn,County Line,2019-08-27
+745911,NPS,Intermountain Regional Office,,Bandelier National Monument,,3330969,Not Started,Apache Springs (UF-14/27) RX - Los Conchas WF (ADD-ON),1185,6,2011,Broadcast Burn,Apache #1,2019-08-02
+745911,NPS,Intermountain Regional Office,,Bandelier National Monument,,3330969,Not Started,Apache Springs (UF-14/27) RX - Los Conchas WF (ADD-ON),1185,6,2011,Broadcast Burn,Apache #2,2019-08-02
+746260,NPS,Intermountain Regional Office,,,,3322559,In Progress,FY10 GRCA WF Incidents - Multiple Objectives,3121,6,2010,Fire Use,IKES,2019-07-25
+746390,NPS,Intermountain Regional Office,,Grand Canyon National Park,,3315722,Not Started,Yavapai Contract Thin (ADD-ON),50,1,2015,Thinning,YAVAPAI,2019-06-14
+746390,NPS,Intermountain Regional Office,,Grand Canyon National Park,,3315722,Not Started,Yavapai Contract Thin (ADD-ON),50,1,2015,Thinning,ROUZER,2019-07-30
+746751,NPS,Intermountain Regional Office,,Bandelier National Monument,,3324631,Not Started,Apache Springs (UF-14/LF-27) Pile Burn PH 2 (ADD-ON),135,0,2011,Hand Pile Burn,County Line,2019-08-27
+746751,NPS,Intermountain Regional Office,,Bandelier National Monument,,3324631,Not Started,Apache Springs (UF-14/LF-27) Pile Burn PH 2 (ADD-ON),135,0,2011,Hand Pile Burn,Apache #2,2019-08-02
+746751,NPS,Intermountain Regional Office,,Bandelier National Monument,,3324631,Not Started,Apache Springs (UF-14/LF-27) Pile Burn PH 2 (ADD-ON),135,0,2011,Hand Pile Burn,Apache #1,2019-08-02
+746751,NPS,Intermountain Regional Office,,Bandelier National Monument,,3324631,Not Started,Apache Springs (UF-14/LF-27) Pile Burn PH 2 (ADD-ON),135,0,2011,Hand Pile Burn,Ponderosa ,2019-09-07
+746758,NPS,Intermountain Regional Office,,Grand Canyon National Park,,3324627,Not Started,Range Arch Site Prep (ADD-ON),5,10,2010,Thinning,WIDFORSS,2019-08-28
+747076,NPS,Intermountain Regional Office,,Yellowstone National Park,,6276897,Not Started,Mammoth Mowing (ADD-ON),17,7,2012,Mowing,NORTH ENTRANCE,2019-07-27
+747267,NPS,Intermountain Regional Office,,Lake Meredith National Recreation Area,,6285361,Not Started,North Canyon Triangle Unit Rx Prep (ADD-ON),15,11,2013,Mastication,Bugbee,2019-03-13
+747442,NPS,Intermountain Regional Office,,Grand Canyon National Park,,3324973,Not Started,Roost Spring Cyn Pile Burn,30,9,2011,Hand Pile Burn,IKES,2019-07-25
+747538,NPS,Intermountain Regional Office,,Bandelier National Monument,,3330973,Not Started,Backgate Escarpment (UF27) RX - Los Conchas WF (ADD-ON),132,6,2011,Thinning,Ponderosa ,2019-09-07
+747837,NPS,Intermountain Regional Office,,Grand Canyon National Park,,6291374,Not Started,GCVC FY15 Contract Chip (ADD-ON),128,1,2015,Chipping,YAVAPAI,2019-06-14
+747864,NPS,Intermountain Regional Office,,,,6300008,Not Started,North Unit N Cyn RX - FY16 Triangle WF,163,1,2016,Fire Use,Bugbee,2019-03-13
+747896,NPS,Intermountain Regional Office,,Lake Meredith National Recreation Area,,6281174,Not Started,N Cyn FY16 Mastication (ADD-ON),142,8,2016,Mastication,Bugbee,2019-03-13
+747896,NPS,Intermountain Regional Office,,Lake Meredith National Recreation Area,,6281174,Not Started,N Cyn FY16 Mastication (ADD-ON),142,8,2016,Mastication,Week Old ,2019-06-22
+748414,NPS,Intermountain Regional Office,,Glacier National Park,,6283448,Not Started,St. Mary Admin. Thin (ADD-ON),15,8,2013,Thinning,Corral ,2019-10-25
+748614,NPS,Intermountain Regional Office,,Grand Canyon National Park,,6291984,Not Started,Bright Angel - Harvey Meadow FY16 Pile Burn,38,10,2015,Hand Pile Burn,WIDFORSS,2019-08-28
+748817,NPS,Intermountain Regional Office,,Grand Canyon National Park,,6271278,Not Started,Range RX,2278,10,2012,Broadcast Burn,WIDFORSS,2019-08-28
+749100,NPS,Intermountain Regional Office,,Grand Canyon National Park,,6270685,Not Started,Range Fall FY12 Burn Prep (ADD-ON),45,10,2011,Thinning,WIDFORSS,2019-08-28
+749214,NPS,Intermountain Regional Office,,Lake Meredith National Recreation Area,,6270673,Not Started,Bugbee N. Cyn Mastication (ADD-ON),400,4,2012,Mastication,Bugbee,2019-03-13
+750019,NPS,Intermountain Regional Office,,Bandelier National Monument,,3322967,Not Started,Obsidian (UF-12) RX - Los Conchas (ADD-ON),1738,6,2011,Broadcast Burn,Apache #1,2019-08-02
+750075,NPS,Intermountain Regional Office,,Lake Meredith National Recreation Area,,3327424,Not Started,Bugbee North Cyn Mastication/Mow (ADD-ON),300,8,2011,Mastication/Mowing,Bugbee,2019-03-13
+750346,NPS,Intermountain Regional Office,,Grand Canyon National Park,,3314402,Not Started,Bright Angel - Campground Rx (ADD-ON),37,10,2014,Broadcast Burn,EDR ,2019-08-31
+750710,NPS,Intermountain Regional Office,,Grand Canyon National Park,,6291373,Not Started,GCVC FY15 Contract Thin (ADD-ON),128,1,2015,Thinning,YAVAPAI,2019-06-14
+751242,NPS,Intermountain Regional Office,,Grand Canyon National Park,,6291892,Not Started,"Indian Grdns, Phantom Rnch, Roaring Sprgs, &amp; Cottonwood CGs Handpile (ADD-ON)",2,1,2015,Hand Pile,COTTONWOOD FIRE,2019-05-27
+751374,NPS,Intermountain Regional Office,,Grand Canyon National Park,,6291893,Not Started,"Indian Grdns, Phantom Rnch, Roaring Sprgs, &amp; Cottonwood CGs Handpile RX (ADD-ON)",2,1,2015,Hand Pile Burn,COTTONWOOD FIRE,2019-05-27
+751481,NPS,Intermountain Regional Office,,Grand Canyon National Park,,3324985,Not Started,"Indian Grdns, Phantom Rnch, Roaring Sprgs, &amp; Cottonwood CGs Handpile (ADD-ON)",5,0,2014,Hand Pile,COTTONWOOD FIRE,2019-05-27
+751556,NPS,Intermountain Regional Office,,Lake Meredith National Recreation Area,,6285362,Not Started,North Canyon Triangle Unit RX + BLM IA (ADD-ON),150,11,2013,Broadcast Burn,Bugbee,2019-03-13
+751582,NPS,Intermountain Regional Office,,Grand Canyon National Park,,3324983,Not Started,"Indian Grdns, Phantom Rnch, Roaring Sprgs, &amp; Cottonwood CGs Thin",5,0,2014,Thinning,COTTONWOOD FIRE,2019-05-27
+751695,NPS,Intermountain Regional Office,,Bandelier National Monument,,3330971,Not Started,Upper Frijoles (UF 9) RX - Los Conchas WF (ADD-ON),1511,6,2011,Broadcast Burn,Frijoles,2019-07-15
+751747,NPS,Intermountain Regional Office,,Lake Meredith National Recreation Area,,6271505,Not Started,Mullinaw X-ing Mastication,40,11,2012,Mastication,Bugbee,2019-03-13
+751837,NPS,Intermountain Regional Office,,Grand Teton National Park,,3323119,Not Started,Colter Bay Contract - Biomass (ADD-ON),205,4,2013,Biomass Removal,Colter Bay D101,2019-09-02
+751850,NPS,Intermountain Regional Office,,Grand Canyon National Park,,6284492,Not Started,Roost East Basin FY14 North Rim Slopes Rx (ADD-ON),45,10,2013,Broadcast Burn,SINKHOLES,2019-08-09
+751903,NPS,Intermountain Regional Office,,Grand Teton National Park,,3323120,Not Started,Colter Bay Contract Thin (ADD-ON),205,4,2013,Thinning,Colter Bay D101,2019-09-02
+751942,NPS,Intermountain Regional Office,,Lake Meredith National Recreation Area,,6291317,Not Started,North Lake Rx FY15 Prep,100,0,2015,Lop and Scatter,Week Old ,2019-06-22
+751942,NPS,Intermountain Regional Office,,Lake Meredith National Recreation Area,,6291317,Completed,North Lake Rx FY15 Prep,100,0,2015,Lop and Scatter,Bugbee,2019-03-13
+751942,NPS,Intermountain Regional Office,,Lake Meredith National Recreation Area,,6291317,Not Started,North Lake Rx FY15 Prep,100,0,2015,Lop and Scatter,Launch Pad,2019-07-04
+751954,NPS,Intermountain Regional Office,,Lake Meredith National Recreation Area,,6291523,Not Started,North Lake Rx,3935,2,2015,Broadcast Burn,Week Old ,2019-06-22
+751954,NPS,Intermountain Regional Office,,Lake Meredith National Recreation Area,,6291523,Completed,North Lake Rx,3935,2,2015,Broadcast Burn,Bugbee,2019-03-13
+751954,NPS,Intermountain Regional Office,,Lake Meredith National Recreation Area,,6291523,Not Started,North Lake Rx,3935,2,2015,Broadcast Burn,Launch Pad,2019-07-04
+753048,NPS,Intermountain Regional Office,,Grand Canyon National Park,,3314401,Not Started,Bright Angel Rx,29,4,2011,Broadcast Burn,EDR ,2019-08-31
+753048,NPS,Intermountain Regional Office,,Grand Canyon National Park,,3314401,Not Started,Bright Angel Rx,29,4,2011,Broadcast Burn,WIDFORSS,2019-08-28
+753052,NPS,Intermountain Regional Office,,Grand Canyon National Park,,6291986,Not Started,Bright Angel - Curve Unit FY16 Pile (ADD-ON),16,8,2016,Hand Pile,WIDFORSS,2019-08-28
+753052,NPS,Intermountain Regional Office,,Grand Canyon National Park,,6291986,Not Started,Bright Angel - Curve Unit FY16 Pile (ADD-ON),16,8,2016,Hand Pile,EDR ,2019-08-31
+753331,NPS,Intermountain Regional Office,,Bandelier National Monument,,3322962,Not Started,Valle II South Maint. Thin (ADD-ON),112,7,2012,Lop and Scatter,County Line,2019-08-27
+755336,NPS,Intermountain Regional Office,,Bryce Canyon National Park,,6287933,Not Started,Rainbow PT Units 5-7 FY16 Pile,30,0,2016,Hand Pile,Rainbow Point,2019-09-25
+755448,NPS,Intermountain Regional Office,,Grand Canyon National Park,,6291931,Not Started,"Indian Grdns, Phantom Rnch, Roaring Sprgs, and Cottonwood CGs FY16 Pile Burn",2,1,2016,Hand Pile Burn,COTTONWOOD FIRE,2019-05-27
+755578,NPS,Intermountain Regional Office,,Bryce Canyon National Park,,6292040,Not Started,Rainbow PT Units 1-4 FY16 Pile Burn,50,0,2016,Hand Pile Burn,Rainbow Point,2019-09-25
+755621,NPS,Intermountain Regional Office,,Grand Canyon National Park,,6291930,Not Started,"Indian Grdns, Phantom Rnch, Roaring Sprgs, and Cottonwood CGs FY16 Pile",4,1,2016,Hand Pile,COTTONWOOD FIRE,2019-05-27
+755707,NPS,Intermountain Regional Office,,Zion National Park,,6298869,Not Started,Zion Cyn Grass FY17 RX,2,3,2017,Broadcast Burn,Watchman,2019-08-17
+755806,NPS,Intermountain Regional Office,,Bryce Canyon National Park,,6280346,Not Started,Rainbow PT Units 5-7 FY16 Thin,30,0,2016,Thinning,Rainbow Point,2019-09-25
+755950,NPS,Intermountain Regional Office,,Grand Canyon National Park,,3324984,Not Started,"Indian Grdns, Phantom Rnch, Roaring Sprgs, &amp; Cottonwood CGs Pile Burn (ADD-ON)",4,1,2014,Hand Pile Burn,COTTONWOOD FIRE,2019-05-27
+755964,NPS,Intermountain Regional Office,,Glacier National Park,,6298356,Not Started,St. Mary Pasture FY17 Pile Burn,3,11,2016,Hand Pile Burn,Corral ,2019-10-25
+900826,NPS,Intermountain Regional Office,,Tonto National Monument,,6271612,Not Started,Tonto VC and Housing Def. Space FY17 Haul (ADD-ON),4,4,2017,Biomass Removal,Woodbury,2019-06-08
+900827,NPS,Intermountain Regional Office,,Tonto National Monument,,6271613,Not Started,Tonto VC and Housing Def. Space FY17 Thin  (ADD-ON),4,4,2017,Thinning,Woodbury,2019-06-08
+919309,NPS,Intermountain Regional Office,,Bryce Canyon National Park,,6287932,Not Started,Rainbow Pt Unit 9 FY17 Thin,15,8,2017,Thinning,Rainbow Point,2019-09-25
+919370,NPS,Intermountain Regional Office,,Zion National Park,,3314434,Not Started,Zion Parkwide WUI Thin,20,7,2011,Thinning,Watchman,2019-08-17
+919399,NPS,Intermountain Regional Office,,Bryce Canyon National Park,,3326025,Not Started,Rainbow Pt Unit 9 FY17 Hand Pile,15,8,2017,Hand Pile,Rainbow Point,2019-09-25
+919456,NPS,Intermountain Regional Office,,Zion National Park,,6298868,Not Started,Zion Cyn FY17 Mow/Fuel Breaks (ADD-ON),105,4,2017,Mowing,Watchman,2019-08-17
+919458,NPS,Intermountain Regional Office,,Zion National Park,,3314448,Not Started,Parkwide WUI Herbicide,75,5,2011,Chemical,Watchman,2019-08-17
+919475,NPS,Intermountain Regional Office,,Zion National Park,,3314438,Not Started,Zion Parkwide WUI Chip,20,7,2011,Chipping,Watchman,2019-08-17
+919486,NPS,Intermountain Regional Office,,Zion National Park,,3314435,Not Started,Zion Parkwide WUI Handpile,20,7,2011,Hand Pile,Watchman,2019-08-17
+919530,NPS,Intermountain Regional Office,,Zion National Park,,3314440,Completed,Zion Parkwide WUI Chem,20,7,2011,Chemical,D20,2019-01-24
+931857,NPS,Intermountain Regional Office,,Tonto National Monument,,6271613,In Progress,Tonto VC and Housing Def. Space FY17 Thin  (ADD-ON),4,4,2017,Thinning,Woodbury,2019-06-08
+931899,NPS,Intermountain Regional Office,,Tonto National Monument,,6271612,In Progress,Tonto VC and Housing Def. Space FY17 Haul (ADD-ON),4,4,2017,Biomass Removal,Woodbury,2019-06-08
+987130,NPS,Intermountain Regional Office,,Tonto National Monument,,6313535,In Progress,TONT Developed Area FY18 Thin (ADD-ON),10,5,2018,Thinning,Woodbury,2019-06-08
+987131,NPS,Intermountain Regional Office,,Tonto National Monument,,6317556,In Progress,TONT Developed Area FY18 Haul (ADD-ON),10,5,2018,Biomass Removal,Woodbury,2019-06-08
+991881,NPS,Intermountain Regional Office,,Glacier National Park,,6299229,Not Started,St. Mary Pasture FY18 Pile RX,3,3,2018,Hand Pile Burn,Corral ,2019-10-25
+991884,NPS,Intermountain Regional Office,,Glacier National Park,,6298355,Not Started,St. Mary Pasture FY18 Pile (ADD-ON),5,8,2018,Hand Pile,Corral ,2019-10-25
+991888,NPS,Intermountain Regional Office,,Glacier National Park,,6317703,Not Started,St. Mary Pasture FY18 Fuelwood (ADD-ON),5,8,2018,Biomass Removal,Corral ,2019-10-25
+991892,NPS,Intermountain Regional Office,,Glacier National Park,,6298354,Not Started,St. Mary Pasture FY18 Thin (ADD-ON),5,8,2018,Thinning,Corral ,2019-10-25
+995682,NPS,Intermountain Regional Office,,Zion National Park,,6304836,Not Started,Zion Cyn FY18 Chem (ADD-ON),50,1,2018,Chemical,Watchman,2019-08-17
+995711,NPS,Intermountain Regional Office,,Yellowstone National Park,,6313485,Not Started,Dev. Area 30' FY18 Thin (ADD-ON),27,8,2018,Thinning,LAKE STUMP,2019-08-26
+995716,NPS,Intermountain Regional Office,,Zion National Park,,6304835,Not Started,Zion Cyn FY18 Thin,80,1,2018,Thinning,Watchman,2019-08-17
+995718,NPS,Intermountain Regional Office,,Grand Canyon National Park,,6291993,In Progress,Roost Spring Cyn - Tipover E FY18 RX,390,10,2017,Broadcast Burn,IKES,2019-07-25
+998203,NPS,Intermountain Regional Office,,Bryce Canyon National Park,,6304848,Not Started,Rainbow PT Units 8-10 FY18 Thin (ADD-ON),24,8,2018,Thinning,Rainbow Point,2019-09-25
+998204,NPS,Intermountain Regional Office,,Bryce Canyon National Park,,6304849,Not Started,Rainbow PT Units 8-10 FY18 Pile (ADD-ON),24,8,2018,Hand Pile,Rainbow Point,2019-09-25
+1009849,NPS,Intermountain Regional Office,,El Malpais National Monument,,6323563,Not Started,ELMA FY19 WILDLAND FIRES - MULTIPLE OBJECTIVES,843,8,2019,Fire Use,Lava 18,2019-08-22
+1012149,NPS,Intermountain Regional Office,,Glacier National Park,,6313309,Not Started,St. Mary Pasture FY19 Pile (ADD-ON),5,6,2019,Hand Pile,CORRAL FIRE,2019-10-25
+1012200,NPS,Intermountain Regional Office,,Glacier National Park,,6313310,Not Started,St. Mary Pasture FY19 Thin (ADD-ON),5,6,2019,Thinning,CORRAL FIRE,2019-10-25

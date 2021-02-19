@@ -80,7 +80,7 @@
             <li><code>IRWINID &lt;&gt; NULL</code>
             </li>
         </ul>
-        <p>Note: Some perimeters may not be approved by an incident or agency for public distribution (FeatureAccess &lt;&gt; Public or FeatureStatus &lt;&gt; Approved).</p>
+        <p>Note: Some perimeters may not be approved by an incident or agency for public distribution (FeatureAccess &lt;&gt; Public or FeatureStatus &lt;&gt; Approved or FeatureStatus &lt;&gt; Proposed).</p>
         <p>On a weekly basis, fires meeting specific criteria are removed from the source service. After removal, those perimeters can be found in the associated Archived Wildfire Perimeters service. Criteria include:</p>
         <ul>
             <li>Perimeters are identified with an IRWINID that has non-null values in IRWIN for <code>ContainmentDateTime,  ControlDateTime, or FireOutDateTime</code></li>
@@ -94,7 +94,7 @@
         </p>
         <p>(Requires <a href="https://www.nwcg.gov/committees/fire-danger-subcommittee/nfdrs/gis-nifc-agol" target="_blank">NIFC AGOL <i class="fa fa-external-link" aria-hidden="true"></i></a> Account)</p>
         <p style="font-weight: bold;">Where Clause:</p>
-        <p><code>IsVisible = ‘Yes’ and FeatureCategory = ‘Wildfire Daily Fire Perimeter’ and FeatureStatus = ‘Approved’</code>
+        <p><code>IsVisible = ‘Yes’ and FeatureCategory = ‘Wildfire Daily Fire Perimeter’ and FeatureStatus = ‘Approved’ OR FeatureStatus = "Proposed"</code>
         </p>
         <p>Fall off to Archive:</p>
         <p><code>ContainmentDateTime&lt;&gt;NULL OR ControlDateTime &lt;&gt; NULL OR FireOutDateTime&lt;&gt; NULL</code>
