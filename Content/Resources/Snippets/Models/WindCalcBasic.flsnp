@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p>The calculations use midflame wind speed, which is derived from the 20 foot wind speed entered. For each cell in the landscape, a wind adjustment factor, based on canopy height and canopy cover, is applied to convert the 20 foot wind speed to a midflame wind speed. Note that wind direction for each cell is modeled over space, the wind is not changing over time.</p>
+    </body>
+</html>
