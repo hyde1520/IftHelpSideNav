@@ -3,12 +3,20 @@
     <head>
     </head>
     <body>
-        <h1>Midflame Wind Speed</h1>
+        <h1>
+            <MadCap:keyword term="LFB" />
+            <MadCap:keyword term="landscape fire behavior" />
+            <MadCap:keyword term="Midflame Wind Speed" />Midflame Wind Speed</h1>
         <p> The speed of the wind measured at the midpoint of the flames, considered to be most representative of the speed of the wind that is affecting fire behavior. Fire behavior models calculate midflame windspeed from 20 foot winds using a wind reduction factor. In <MadCap:variable name="General.ProductName" />, Landscape Fire Behavior and Landscape Burn Probability it is the wind velocity at the midflame height.</p>
+        <p>In <MadCap:variable name="General.ProductName" /> this is expressed in miles per hour in the Map Studio and download outputs. </p>
         <MadCap:snippetBlock src="../../../Resources/Snippets/Models/WindCalcBasic.flsnp" />
+        <p>The image below demonstrates typical fuel sheltering for slope locations. The midflame windspeed will be LESS THAN the 20-foot windspeed, because vegetation and friction slow down winds closer to the surface. That is why all the adjustment factors in the table are less than 1.</p>
         <p>
+            <img src="../../../Resources/Images/Conceptuals/Fig_NWCGWindShelter.jpg" alt="Partially sheltered fuels are associated with Midflame wind speeds of about 1/3 that of 20 foot wind speeds. Fully sheltered fuels are associated with Midflame wind speeds of about 1/5 that of 20 foot wind speeds. Unsheltered fuels have midflame windspeeds of about half that of 20 foot wind speeds." class="border" />
+        </p>
+        <p>For a detailed explanation of Midflame Wind Speed concepts we recommend reading the <a href="https://www.nwcg.gov/course/ffm/fire-behavior/82-midflame-windspeed" target="_blank">NWCG web page on Midflame wind speed <i class="fa fa-external-link" aria-hidden="true"></i></a>.
 
-		In <MadCap:variable name="General.ProductName" /> this is expressed in miles per hour in the Map Studio and download outputs. </p>
+		</p>
         <p>
             <img src="../../../Resources/Images/MapStudio/widget_layer_list/LyrList_LFB_MidFlmWindOut.png" alt="Midflame windspeed can be viewed in Map Studio" class="border" />
         </p>

@@ -351,6 +351,10 @@
         Link="/Content/30-Tasks/QWRA/ModelLBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
         conditions="General.QA ONLY" />
       <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/30-Tasks/QWRA/ModelLBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        conditions="General.Prod ONLY" />
+      <TocEntry
         Title="Map Values">
         <TocEntry
           Title="About Mapping HVRAs"
@@ -368,10 +372,6 @@
           Title="HVRA Reference Data"
           Link="/Content/30-Tasks/QWRA/MapValues/HVRANational.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
-      <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/30-Tasks/QWRA/ModelLBP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-        conditions="General.Prod ONLY" />
       <TocEntry
         Title="Exposure Analysis">
         <TocEntry
