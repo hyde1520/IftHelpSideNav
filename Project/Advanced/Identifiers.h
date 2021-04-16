@@ -501,3 +501,12 @@
 #define EnergyTrnsLines_m 8081
 #define EnergySubStns_m 8082
 #define EnergyOilGas 8083
+#define AboutCmprExpsr 1348
+#define AboutCmprLcps 1349
+#define AboutCmprRisk 1350
+#define AboutCmprWthr 1351
+#define InputsComprWthr 1352
+#define OutputsComprWthr 1354
+#define ReportsComprWthr 1355
+#define TutorialComprWthr 1356
+#define ViewingComprWthr 1357

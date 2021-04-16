@@ -492,4 +492,13 @@
     <Map Name="EnergyTrnsLines_m" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/EnergyTrnsLines_m.htm" />
     <Map Name="EnergySubStns_m" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/EnergySubStns_m.htm" />
     <Map Name="EnergyOilGas" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/EnergyOilGas_m.htm" />
+    <Map Name="AboutCmprExpsr" Link="/Content/30-Tasks/CompareExposure/AboutCmprExpsr.htm" />
+    <Map Name="AboutCmprLcps" Link="/Content/30-Tasks/CompareLcps/AboutCmprLcps.htm" />
+    <Map Name="AboutCmprRisk" Link="/Content/30-Tasks/CompareRisk/AboutCmprRisk.htm" />
+    <Map Name="AboutCmprWthr" Link="/Content/30-Tasks/CompareWeather/AboutCmprWthr.htm" />
+    <Map Name="InputsComprWthr" Link="/Content/30-Tasks/CompareWeather/InputsComprWthr.htm" />
+    <Map Name="OutputsComprWthr" Link="/Content/30-Tasks/CompareWeather/OutputsComprWthr.htm" />
+    <Map Name="ReportsComprWthr" Link="/Content/30-Tasks/CompareWeather/ReportsComprWthr.htm" />
+    <Map Name="TutorialComprWthr" Link="/Content/30-Tasks/CompareWeather/TutorialComprWthr.htm" />
+    <Map Name="ViewingComprWthr" Link="/Content/30-Tasks/CompareWeather/ViewingComprWthr.htm" />
 </CatapultAliasFile>

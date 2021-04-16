@@ -33,8 +33,7 @@
             </li>
         </ol>
         <h3>
-            <MadCap:keyword term="WFAS">
-            </MadCap:keyword><a name="WFAS"></a>WFAS (Currently only available for USFS&#160;Staff)</h3>
+            <MadCap:keyword term="WFAS" /><a name="WFAS"></a>WFAS</h3>
         <p>URL: <a href="https://www.wfas.net/nfdrs2016/maps/" target="_blank">https://www.wfas.net/nfdrs2016/maps/ <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
         <ol style="list-style-type: upper-alpha;">
             <li>From the map, zoom into your Area of Interest and find the location of your station.</li>

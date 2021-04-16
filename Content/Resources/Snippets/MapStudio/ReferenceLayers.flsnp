@@ -96,11 +96,11 @@
         </ul>
         <h3>Boundaries</h3>
         <ul>
-            <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=6b45a3610b3b416d911940724defef50" target="_blank">Responsible Agencies <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            <li><a href="https://nifc.maps.arcgis.com/home/item.html?id=256049f6f88846f883066cd652e3489f" target="_blank">Responsible Agencies <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
             <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=45cac2e8510c4b0c9700d8e1db45879e" target="_blank">TNC Lands <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
-            <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=6a0a967a55d74e26b2fd783dab5dacc1" target="_blank">Jurisdictional Agencies <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            <li><a href="https://nifc.maps.arcgis.com/home/item.html?id=9dfd2f68922d428eb4a9f61a1eba4d93" target="_blank">Jurisdictional Agencies <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
             <li><a href="https://tigerweb.geo.census.gov/tigerwebmain/TIGERweb_main.html" target="_blank">Counties <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
@@ -115,7 +115,9 @@
             </li>
             <li><a href="https://public-nps.opendata.arcgis.com/datasets/nps-boundary-1" target="_blank">NPS Admin Boundaries <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
-            <li><a href="https://tigerweb.geo.census.gov/tigerwebmain/TIGERweb_main.html" target="_blank">BIA Admin Boundaries <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            <li><a href="https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/AIANNHA/MapServer/47" target="_blank">BIA Admin Boundaries <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=49e288271e084e75a882011e07671091" target="_blank">DOI Unified Regions <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
         </ul>
         <h3>Natural &amp;&#160;Cultural Resources</h3>

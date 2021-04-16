@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <body>
         <div>
             <ol>
                 <li>
-                    <p>From the <span class="UIcomponent">Landscape Evaluation</span> stage of the cycle, and click the <span class="UIcomponent">Create Landscape</span> card. </p>
+                    <p>From the <span class="UIcomponent">Landscape Evaluation</span> stage of the cycle, and click the <span class="UIcomponent">Create Landscape</span> card. This card is also available in the <span class="UIcomponent">Implementation Planning</span> stage of the cycle.</p>
                     <p>
                         <img src="../../Images/Cycle/Cyl_LandEvalCreateLCP.png" alt="Start creating a landscape by clicking the 'create landscape' card." class="borderlist" />
                     </p>

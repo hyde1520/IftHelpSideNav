@@ -31,12 +31,12 @@
             <li>5000 acre fire = 6216  meter (3.86 mile) buffer </li>
             <li>10,000 acre fire = 8791 meter (5.46 mile) buffer </li>
         </ul>
-        <p>While the above buffers are the default, users may choose to <a href="../General/SearchBuffer.htm" target="_blank">specify a larger buffer radius around points</a>, up to 10,000 meters, if needed.</p>
+        <p>While the above buffers are the default, users may choose to <a href="../General/SearchBuffer.htm" target="_blank">specify a larger buffer radius around points</a>, up to 10,000 meters for wildfire points, if needed.</p>
         <p>
             <img src="../../Resources/Images/FTEM/monitoring/FTEM_fig_Buffering.png" alt="buffering as described in text" class="border" />
         </p>
-        <h2><a name="Wildfire_perimeters"></a>Wildfire Perimeters</h2>
-        <p>In all cases, a buffered perimeter is used to determine the treatment interactions for a wildfire with an associated perimeter.  For the utility program, the perimeter is buffered by 1 meter.  Within the FTEM application, users may choose to specify a buffer size up to 1500 meters to buffer the perimeter.  For point treatments, the treatment is included if the point falls within the buffered perimeter.  For polygon treatments, the treatment is included if the polygon intersects the buffered perimeter.</p>
+        <h2><a name="Wildfire_perimeters"></a>Wildfire Perimeter Polygons</h2>
+        <p>In all cases, a buffered perimeter is used to determine the treatment interactions for a wildfire with an associated perimeter.  For the utility program, the perimeter is buffered by one meter.  Within the FTEM application, users may choose to specify a buffer size up to 1,500 meters to buffer around the wildfire polygon perimeter.  For point treatments, the treatment is included if the point falls within the buffered perimeter.  For polygon treatments, the treatment is included if the polygon intersects the buffered perimeter.</p>
         <p>The area of intersection for polygon treatments is the area of intersection between the actual fire perimeter (as opposed to the buffered perimeter) and the polygon treatment.  The area of intersection must be set manually for point treatments.</p>
         <h2>Automated Setting of Treatment Interactions</h2>
         <p>Potential treatment interactions are only added when a fire is first added to FTEM.  When a new fire is added, a flag is set within the record for the wildfire indicating that treatment interactions have not been initialized for the wildfire.  A separate utility is run that uses this flag to determine that treatment interactions need to be set for a given wildfire.  During normal processing, wildfires (and updates to existing wildfires) are first pulled from IRWIN.  Next, perimeters (new as well as updates) are pulled from NIFS.  After this step is completed, point treatments are updated followed by polygon treatments.  The last utility to run is the utility that adds the potential treatment interactions.</p>

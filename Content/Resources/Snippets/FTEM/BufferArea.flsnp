@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="notificationTip">
+            <p>Using the <span class="UIcomponent">Add Treatments</span> button, you may search a maximum distance of:</p>
+            <ul>
+                <li>
+                    <p>1,500 meters around a wildfire polygon.</p>
+                </li>
+                <li>
+                    <p>10,000 meters around a wildfire point.</p>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
