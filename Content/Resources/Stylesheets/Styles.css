@@ -694,6 +694,7 @@ ul
 {
 	
 }
+
 /* begin styles for tabs */
 
 ul.tabs
@@ -774,6 +775,7 @@ ul.tabs .current:hover
 {
 	display: inherit;
 }
+
 /* end styles for tabs */
 
 ul.FirstLevelLessIndentation
@@ -806,46 +808,54 @@ caption
 	font-size: 10pt;
 }
 
-div.iftlength{
-	max-width:850px;
+div.iftlength
+{
+	max-width: 850px;
 }
+
 /*main.body-container div div.iftlength{
 	max-width:850px;
 } THIS IS THE ORIGINAL ONE I ADDED IN FEB 2020*/
 
-
 /* Add an entry for "separators" in the TOC. To use this style, select the item
    in the Flare TOC and pick "TOCSeparator" as the TOC Entry style. Note along 
    with this change we needed to add the TOCSeparator entry to the Flare skin */
-   ul.sidenav li.TOCSeparator {
 
-    padding-left: 0.67rem;
-    padding-right: 0.67rem;
-    padding-top: 0.67rem;
-    padding-bottom: 0.67rem;
-    color: #ffffff;
-    font-family: Arial;
-    font-size: 1em;
-    line-height: 1.6em;
-    font-weight: 700;
-    text-align: center;
-}
-   ul.sidenav li.TOCSeparator a
+ul.sidenav li.TOCSeparator
 {
-      /* Set the default cursor so it doesn't look like this is a link */
-    cursor: default;
-        padding-left: 0.67rem;
-    padding-right: 0.67rem;
-    padding-top: 0.67rem;
-    padding-bottom: 0.67rem;
-    color: #ffffff;
-    font-family: Arial;
-    font-size: 1em;
-    line-height: 1.6em;
-    font-weight: 700;
-    text-align: center;
-    background:none;
-    border-bottom: solid 1px #ffffff;
+	padding-left: 0.67rem;
+	padding-right: 0.67rem;
+	padding-top: 0.67rem;
+	padding-bottom: 0.67rem;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 1em;
+	line-height: 1.6em;
+	font-weight: 700;
+	text-align: center;
+}
+
+ul.sidenav li.TOCSeparator a
+{
+	/* Set the default cursor so it doesn't look like this is a link */
+	cursor: default;
+	padding-left: 0.67rem;
+	padding-right: 0.67rem;
+	padding-top: 0.67rem;
+	padding-bottom: 0.67rem;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 1em;
+	line-height: 1.6em;
+	font-weight: 700;
+	text-align: center;
+	background: none;
+	border-bottom: solid 1px #ffffff;
+}
+
+code
+{
+	text-indent: 3em;
 }
 
 @media print
@@ -856,7 +866,8 @@ div.iftlength{
 		display: none !important;
 	}
 
-	object {
+	object
+	{
 		display: none !important;
 	}
 
@@ -878,13 +889,27 @@ div.iftlength{
 		page-break-inside: avoid;
 		/* or 'auto' */
 	}
-	iframe.youtube-player_0{display:none;}
-	
-	body{position:relative;
-			display: inline-block;}
-	li{position:relative;}
-	p{page-break-inside: avoid;}
 
+	iframe.youtube-player_0
+	{
+		display: none;
+	}
+
+	body
+	{
+		position: relative;
+		display: inline-block;
+	}
+
+	li
+	{
+		position: relative;
+	}
+
+	p
+	{
+		page-break-inside: avoid;
+	}
 
 	img.borderlist
 	{

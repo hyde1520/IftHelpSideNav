@@ -27,6 +27,17 @@
                 <p>(Reported July 2019)</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Error message when updating password: old password is incorrect</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>When attempting to change the password, the user is prompted to enter their old password, then create a new one. When user submits their form, they may encounter an error message stating their old password is incorrect. </p>
+                <p>Users may encounter this error message when clicking through quickly, or double clicking quickly, on the password reset button. Sometimes it is possible to for that second click to send a password change request after the change has already been made, but before the page has a chance to proceed to the next screen. That then triggers the error.</p>
+                <p>Users may disregard this error, log out, and log back in with their new password. </p>
+                <p>(Reported April 2021)</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
         <MadCap:dropDown MadCap:conditions="General.LaterRelease">
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Error message in FTEM:&#160;Error retrieving wildfire FTEM audit log BO for wildfire Id #######. null</MadCap:dropDownHotspot>

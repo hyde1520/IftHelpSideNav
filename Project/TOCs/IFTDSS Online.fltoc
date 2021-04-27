@@ -301,7 +301,6 @@
         <TocEntry
           Title="[%=System.LinkedTitle%]"
           Link="/Content/30-Tasks/Summaries/Auto97thRAWS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-          conditions="General.QA ONLY"
           StartSection="false" />
         <TocEntry
           Title="Auto97th Technical Documentation"
