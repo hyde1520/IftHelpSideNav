@@ -27,7 +27,7 @@
   <Variable
     Name="VersionNumber"
     OriginalName="VersionNumberDot"
-    EvaluatedDefinition="3.3.2">3.3.2</Variable>
+    EvaluatedDefinition="3.4">3.4</Variable>
   <Variable
     Name="Year"
     Comment=""
