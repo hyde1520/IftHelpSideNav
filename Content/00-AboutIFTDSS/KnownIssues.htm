@@ -38,6 +38,19 @@
                 <p>(Reported April 2021)</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Error message in browser when downloading report pdf:&#160;"Not Enough Memory to Open This Page"</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>This error is encountered when using very long names with no spaces. For example, a landscape name consisting of several words separated by underscores rather than  spaces. Such a name will still allow the report to be viewed in <MadCap:variable name="General.ProductName" />, but will lead to this error when the user attempts to download a pdf copy.</p>
+                <p>The solution is to break up names in <MadCap:variable name="General.ProductName" /> with spaces rather than underscores to avoid encountering this  browser error when downloading a pdf copy of the report.</p>
+                <p>
+                    <img src="../Resources/Images/External/Browser_MemoryError.png" alt="Blank page in Google Chrome with an Error warning &quot;Not enough memory to open this page&quot;" class="border" />
+                </p>
+                <p>(Reported May 2021)</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
         <MadCap:dropDown MadCap:conditions="General.LaterRelease">
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Error message in FTEM:&#160;Error retrieving wildfire FTEM audit log BO for wildfire Id #######. null</MadCap:dropDownHotspot>
