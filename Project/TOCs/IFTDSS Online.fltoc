@@ -1310,14 +1310,19 @@
       conditions="General.QA ONLY" />
   </TocEntry>
   <TocEntry
-    Title="For Administrators">
+    Title="For Administrators"
+    conditions="General.QA ONLY">
     <TocEntry
       Title="Admin Overview"
       Link="/Content/00-AdminTasks/AdminGeneral.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Manage User Accounts">
       <TocEntry
-        Title="New Entry" />
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/00-AdminTasks/ManageUsers/AboutUserAdmin.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/00-AdminTasks/ManageUsers/UserMgtCheatsheet.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
       Title="[%=System.LinkedTitle%]"

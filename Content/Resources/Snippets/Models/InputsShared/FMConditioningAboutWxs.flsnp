@@ -7,31 +7,33 @@
         <MadCap:snippetBlock src="../Flammap/WxsValidationCallOut.flsnp">
         </MadCap:snippetBlock>
         <h2>Downloading hourly weather data</h2>
-        <p>To download historic hourly weather data, use one of the three sources below and follow the steps to download your data:</p>
+        <p>To download historic hourly weather data, use one of the sources below and follow the steps to download your data:</p>
         <ul>
-            <li><a href="#KCFAST">KCFAST</a>
+            <li MadCap:conditions="General.Exclude"><a href="#KCFAST">KCFAST</a>
             </li>
             <li><a href="#WFAS">WFAS  (Currently only available for USFS&#160;Staff) </a>
             </li>
             <li><a href="#CEFA">CEFA</a>
             </li>
         </ul>
-        <h3>
-            <MadCap:keyword term="KCFAST">
-            </MadCap:keyword><a name="KCFAST"></a>KCFAST</h3>
-        <p>Available at: <a href="https://fam.nwcg.gov/fam-web/kcfast/mnmenu.htm" target="_blank">https://fam.nwcg.gov/fam-web/kcfast/mnmenu.htm <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
-        <ol style="list-style-type: upper-alpha;">
-            <li>From the left panel, select <span class="UIcomponent">Weather</span>&gt;<span class="UIcomponent">Data Extract</span>&gt;<span class="UIcomponent">Historical</span>.</li>
-            <li>Input your Station ID and date range. If you need you look up your station ID, use the “Station Catalog” link in the left hand menu.</li>
-            <li>Select the “Hourly” radio button for <span class="UIcomponent">Observation Type</span>. Leave “Run it now” under <span class="UIcomponent">Schedule Option</span> selected.</li>
-            <li>
-                <p>Click <span class="UIcomponent">Run Extract</span> to save a copy of the data to your local machine.</p>
-                <p>
-                    <img src="../../../Images/External/Websites/Web_KCFAST_FW13.png" alt="KCFAST webpage image showing the steps described here in text." class="borderlist">
-                    </img>
-                </p>
-            </li>
-        </ol>
+        <div MadCap:conditions="General.Exclude">
+            <h3>
+                <MadCap:keyword term="KCFAST">
+                </MadCap:keyword><a name="KCFAST"></a>KCFAST</h3>
+            <p>Available at: <a href="https://fam.nwcg.gov/fam-web/kcfast/mnmenu.htm" target="_blank">https://fam.nwcg.gov/fam-web/kcfast/mnmenu.htm <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+            <ol style="list-style-type: upper-alpha;">
+                <li>From the left panel, select <span class="UIcomponent">Weather</span>&gt;<span class="UIcomponent">Data Extract</span>&gt;<span class="UIcomponent">Historical</span>.</li>
+                <li>Input your Station ID and date range. If you need you look up your station ID, use the “Station Catalog” link in the left hand menu.</li>
+                <li>Select the “Hourly” radio button for <span class="UIcomponent">Observation Type</span>. Leave “Run it now” under <span class="UIcomponent">Schedule Option</span> selected.</li>
+                <li>
+                    <p>Click <span class="UIcomponent">Run Extract</span> to save a copy of the data to your local machine.</p>
+                    <p>
+                        <img src="../../../Images/External/Websites/Web_KCFAST_FW13.png" alt="KCFAST webpage image showing the steps described here in text." class="borderlist">
+                        </img>
+                    </p>
+                </li>
+            </ol>
+        </div>
         <h3>
             <MadCap:keyword term="WFAS" /><a name="WFAS"></a>WFAS</h3>
         <p>URL: <a href="https://www.wfas.net/nfdrs2016/maps/" target="_blank">https://www.wfas.net/nfdrs2016/maps/ <i class="fa fa-external-link" aria-hidden="true"></i></a></p>

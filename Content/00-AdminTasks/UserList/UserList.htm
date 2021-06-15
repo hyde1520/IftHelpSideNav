@@ -4,6 +4,73 @@
     </head>
     <body>
         <h1>User List</h1>
-        <p>Delete this text and replace it with your own content.</p>
+        <p>User List is where all user administration occurs in <MadCap:variable name="General.ProductName" /> with the exception of FTEM&#160;users (See the <a href="../../10-FTEM/Admin/Administrators.htm" target="_blank">FTEM Administration topic</a> for those details).</p>
+        <p>The left panel of User List contains filters to help you narrow the list of users based on user attributes (active vs disabled, government or non-goverment etc.). There is also a field in the top of the left panel that allows you to search for a specific user name or email.</p>
+        <p>The center of the User List contains the list of users. Clicking on a user will display a list of administration options for that user's account.</p>
+        <p>The right panel of User List contains User metadata.</p>
+        <div class="notificationNote">
+            <p>The right panel will remain open as long as a user is selected and user options are displayed. This allows admins to mouse over and copy any attribute from the metadata field for bug reporting, or do assist users (for example, providing a copy of the users temporary password). </p>
+        </div>
+        <h2>Filtering and User Definitions</h2>
+        <p>User attributes which you may use to filter users in the left panel include:</p>
+        <ul>
+            <li>
+                <p>Account Status</p>
+                <ul>
+                    <li>Pending: Accounts which have been requested but not yet accessed. These are either accounts from government users who have not yet used their initial access code, or account from non-government users who have not yet been approved by an administrator.</li>
+                    <li>
+                        <p>User: The main role in <MadCap:variable name="General.ProductName" />. Users may access <MadCap:variable name="General.ProductName" /> and perform any modeling, reporting, or downloading function.</p>
+                    </li>
+                    <li>
+                        <p>Administrator: This role has all the same privileges as a "User" with the added capacity to manage users or perform system administration.</p>
+                    </li>
+                    <li>
+                        <p>Disabled: Accounts which have been disabled due to inactivity, or having their account manually disabled by an administrator.</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <p>Agency</p>
+                <ul>
+                    <li>
+                        <p>Government: A user affiliated with an email belonging to one of federal land management agencies (Bureau of Indian Affairs, Bureau of Land Management, Fish and Wildlife Service, National Park Service, USDA Forest Service) or Firenet.</p>
+                    </li>
+                    <li>
+                        <p>Non-government: All other users not included in the above list.</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <h2>User Options</h2>
+        <p>When an admin selects a user account by clicking on it, they will see a drop-down with a list of options for demonstration purposes.&#160;These include:</p>
+        <ul>
+            <li>
+                <p>Grant User Privileges: Grants user privileges to disabled accounts or pending accounts.</p>
+            </li>
+            <li>
+                <p>Grant Administrator Privileges: Grants administrator privileges.</p>
+            </li>
+            <li>
+                <p>Disable Privileges: Disables the user's privileges, user will no longer be able to gain access to their <MadCap:variable name="General.ProductName" /> account.</p>
+            </li>
+            <li>
+                <p>Archive: Archive a disused account, archived accounts are no longer visible in the UserList and attempting to log in with an Archived username will display a "User name not found message"</p>
+            </li>
+            <li>
+                <p>Reset Password: </p>
+            </li>
+            <li>
+                <p>Unlock:</p>
+            </li>
+            <li>
+                <p>Allow Password Change:</p>
+            </li>
+            <li>
+                <p>Get Audit Log:</p>
+            </li>
+        </ul>
+        <p>&#160;</p>
     </body>
 </html>
