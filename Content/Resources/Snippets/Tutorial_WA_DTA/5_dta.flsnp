@@ -74,7 +74,7 @@
                 </ul>
                 <p>By not clicking <span class="UIcomponent">+ add row</span> under the “Initial Fuel Moisture” section, the fuel moistures will remain the same for all fuel models across the landscape. If you had clicked <span class="UIcomponent">+ add row</span>, you could enter specific fuel models and assign unique moisture conditions for each one.</p>
             </li>
-            <li>For Fuel Moisture Conditioning, select "Condition (Select Classified Weather Stream)". This matches the conditioning indicated in the Auto97th PDF.</li>
+            <li>For Fuel Moisture Conditioning, select "Condition (Select Classified Weather Stream)." This matches the conditioning indicated in the Auto97th PDF.</li>
             <li>
                 <p>Click <span class="UIcomponent">Save Inputs</span> at the bottom of the screen and move to the <span class="UIcomponent">Run Model</span> tab.</p>
                 <p>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
@@ -32,8 +32,8 @@
         <h3>Adding Reference Layers</h3>
         <p> Before doing a full assessment of the landscape characteristics, you’ll want to view previous fires that may have occurred in this area:</p>
         <ol style="list-style-type: upper-alpha;">
-            <li>Click the <span class="UIcomponent">Add Layers </span> <img src="../../Images/MapStudio/widget_icons/button_adref.png" alt="add layers" class="iftbutton" /> widget  at the bottom of the screen, and make sure the "<MadCap:variable name="General.ProductName" /> Reference Layers" tab is selected. You'll notice there are many options for additional data layers, including "Ownership" and "Critical Habitat Areas". </li>
-            <li>For now, focus on disturbance history. Click the drop-down arrow next to "Disturbance History" and use the checkbox to select "Historic Fuel Treatment Polygons". Next, expand the drop-down for "Disturbance History - Historic Wildfire Perimeters", and select the perimeters for years 1990-1999, 2000-2009, 2010-2012, 2013, and 2014. These appear in the <span class="UIcomponent">Layer List</span> and on the map.</li>
+            <li>Click the <span class="UIcomponent">Add Layers </span> <img src="../../Images/MapStudio/widget_icons/button_adref.png" alt="add layers" class="iftbutton" /> widget  at the bottom of the screen, and make sure the "<MadCap:variable name="General.ProductName" /> Reference Layers" tab is selected. You'll notice there are many options for additional data layers, including "Ownership" and "Critical Habitat Areas." </li>
+            <li>For now, focus on disturbance history. Click the drop-down arrow next to "Disturbance History" and use the checkbox to select "Historic Fuel Treatment Polygons." Next, expand the drop-down for "Disturbance History - Historic Wildfire Perimeters", and select the perimeters for years 1990-1999, 2000-2009, 2010-2012, 2013, and 2014. These appear in the <span class="UIcomponent">Layer List</span> and on the map.</li>
             <li>
                 <p>Use the <span class="UIcomponent">Identify</span> widget to identify the exact year of the Rabbit Creek and Bannock fires. Click the applicable Fire Perimeter layers on and off to compare the landscape and fuel models underneath. In this example you see they are reflective of these fires.</p>
                 <p>
@@ -88,9 +88,9 @@
                 </p>
             </li>
             <li>
-                <p>To compare these model outputs with your landscape, add the Granite Creek LF2014 unedited landscape back to Map Studio by opening the <span class="UIcomponent">Landscape Tools</span> <img src="../../Images/MapStudio/widget_icons/button_landscapetools.png" alt="landscape tools" class="iftbutton" /> widget, clicking the <span class="UIcomponent">Add to Map</span> tab and using the checkbox to add the "Granite Creek LF2014 unedited". Use the dropdown arrows and checkboxs in <span class="UIcomponent">Layer List</span> display only the landscape Fuel Model layer and the Model output Flame length layer. </p>
+                <p>To compare these model outputs with your landscape, add the Granite Creek LF2014 unedited landscape back to Map Studio by opening the <span class="UIcomponent">Landscape Tools</span> <img src="../../Images/MapStudio/widget_icons/button_landscapetools.png" alt="landscape tools" class="iftbutton" /> widget, clicking the <span class="UIcomponent">Add to Map</span> tab and using the checkbox to add the "Granite Creek LF2014 unedited." Use the dropdown arrows and checkboxs in <span class="UIcomponent">Layer List</span> display only the landscape Fuel Model layer and the Model output Flame length layer. </p>
                 <div class="notificationTip">
-                    <p>To move a layer group, such as Landscape, up or down in Layer List, click the More Options <img src="../../Images/ButtonsGeneral/Btn_MoreOptions.png" alt=" more options" class="iftbutton" /> button to the right of the layer and choose "Move up" or "Move down".</p>
+                    <p>To move a layer group, such as Landscape, up or down in Layer List, click the More Options <img src="../../Images/ButtonsGeneral/Btn_MoreOptions.png" alt=" more options" class="iftbutton" /> button to the right of the layer and choose "Move up" or "Move down."</p>
                 </div>
                 <p>
                     <img src="../../Images/MapStudio/widget_layer_list/LyrList_move_updown_dta_tut.png" alt="use the more options button to move layer groups up or down" class="borderlist" />

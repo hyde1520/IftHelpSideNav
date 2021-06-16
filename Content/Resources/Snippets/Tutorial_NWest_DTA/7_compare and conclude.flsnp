@@ -14,7 +14,7 @@
             <li>Click <span class="UIcomponent">Simulation Output Tools</span> and check the boxes next to:</li>
             <li>"GC12 Lt Thn PileRx 1yr" the first treatment of thinning and pile burning.</li>
             <li>"GC12 Lt Thn PileRx 1yr Rx 1Yr" the second treatment which follows the thin with a low severity burn.</li>
-            <li>Make sure these layers are displayed just under "shapes" toward the top of the <span class="UIcomponent">Layer List</span>. In this example the first three layers in Layer List are "Shapes", "Model Output: GC14 Lt Thnpilebrn 1yr Rx 1y", followed by "Model Output: GC14 Lt Thnpilebrn 1yr".</li>
+            <li>Make sure these layers are displayed just under "shapes" toward the top of the <span class="UIcomponent">Layer List</span>. In this example the first three layers in Layer List are "Shapes", "Model Output: GC14 Lt Thnpilebrn 1yr Rx 1y", followed by "Model Output: GC14 Lt Thnpilebrn 1yr."</li>
             <li>Click the <span class="UIcomponent">Swipe <img src="../../Images/MapStudio/widget_icons/button_slider.png" alt="swipe" class="iftbutton" /> widget</span>. </li>
             <li>
                 <p>You can control the layers that appear in the <span class="UIcomponent">Swipe widget</span> using the box in the top right of the map that appears once the <span class="UIcomponent">Swipe widget</span> is clicked. The layer selected in this box is the layer that appears in the top half of the slider, and hidden on the bottom half. In this example "Model Ouptut: GC14 Lt Thn Pilebrn 1yr Rx 1yr" is selected in the Swipe box.</p>
@@ -27,7 +27,8 @@
         </ol>
         <p>Set the <span class="UIcomponent">Layer List</span> up again, this time opening:</p>
         <ol style="list-style-type: upper-alpha;">
-            <li><span class="UIcomponent">Landscape Tools</span>.</li>
+            <li>
+                <span class="UIcomponent">Landscape Tools</span>.</li>
             <li>Select the two treatment layers.</li>
             <li>Make sure these layers appear on the <span class="UIcomponent">Layer List</span>.</li>
             <li>Click the <span class="UIcomponent">Swipe</span> widget.</li>

@@ -9,17 +9,22 @@
         <h2>Downloading hourly weather data</h2>
         <p>To download historic hourly weather data, use one of the sources below and follow the steps to download your data:</p>
         <ul>
-            <li MadCap:conditions="General.Exclude"><a href="#KCFAST">KCFAST</a>
+            <li MadCap:conditions="General.Exclude">
+                <a href="#KCFAST">KCFAST</a>
             </li>
-            <li><a href="#WFAS">WFAS  (Currently only available for USFS&#160;Staff) </a>
+            <li>
+                <a href="#WFAS">WFAS  (Currently only available for USFS&#160;Staff) </a>
             </li>
-            <li><a href="#CEFA">CEFA</a>
+            <li>
+                <a href="#CEFA">CEFA</a>
             </li>
         </ul>
         <div MadCap:conditions="General.Exclude">
             <h3>
                 <MadCap:keyword term="KCFAST">
-                </MadCap:keyword><a name="KCFAST"></a>KCFAST</h3>
+                </MadCap:keyword>
+                <a name="KCFAST">
+                </a>KCFAST</h3>
             <p>Available at: <a href="https://fam.nwcg.gov/fam-web/kcfast/mnmenu.htm" target="_blank">https://fam.nwcg.gov/fam-web/kcfast/mnmenu.htm <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
             <ol style="list-style-type: upper-alpha;">
                 <li>From the left panel, select <span class="UIcomponent">Weather</span>&gt;<span class="UIcomponent">Data Extract</span>&gt;<span class="UIcomponent">Historical</span>.</li>
@@ -35,7 +40,9 @@
             </ol>
         </div>
         <h3>
-            <MadCap:keyword term="WFAS" /><a name="WFAS"></a>WFAS</h3>
+            <MadCap:keyword term="WFAS" />
+            <a name="WFAS">
+            </a>WFAS</h3>
         <p>URL: <a href="https://www.wfas.net/nfdrs2016/maps/" target="_blank">https://www.wfas.net/nfdrs2016/maps/ <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
         <ol style="list-style-type: upper-alpha;">
             <li>From the map, zoom into your Area of Interest and find the location of your station.</li>
@@ -50,7 +57,9 @@
         </ol>
         <h3>
             <MadCap:keyword term="CEFA">
-            </MadCap:keyword><a name="CEFA"></a>CEFA</h3>
+            </MadCap:keyword>
+            <a name="CEFA">
+            </a>CEFA</h3>
         <p>URL: <a href="https://cefa.dri.edu/raws/" target="_blank">https://cefa.dri.edu/raws/ <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
         <ol style="list-style-type: upper-alpha;">
             <li>Enter the Station ID and click <span class="UIcomponent">Get FW13</span>. If needed, use the RAWS list option to look up the station ID number.</li>
@@ -110,7 +119,7 @@
             <li>In the dialogue box that appears, select <span class="UIcomponent">Flammap/FARSITE Stream (.wxs)</span> as the file you want to create and use the <span class="UIcomponent">Ten minute avg</span> option for wind.</li>
             <li>Click the location and select where you want to save your new file, and give it a name.</li>
             <li>
-                <p>Click “OK".</p>
+                <p>Click “OK."</p>
                 <p>
                     <img src="../../../Images/External/FireFamilyPlus/FFP_FlammapFarsiteOption.png" alt="Select the  'Flammap/FARSITE Stream (.wxs)' file type, use 'ten minute avg' winds, and click 'ok'." class="borderlist">
                     </img>

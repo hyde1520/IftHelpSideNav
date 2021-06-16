@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:conditionTagExpression="include[General.LaterRelease]">
-    <head><title></title>
+    <head>
+        <title>
+        </title>
     </head>
     <body>
         <h1>Editing Landscape Data in <MadCap:variable name="General.ProductName" /> with User Created Edit Rules</h1>
@@ -126,7 +128,7 @@
         <ol style="list-style-type: upper-alpha;">
             <li>In the first tab, select the "Cruches Basin LF14" as the landscape.</li>
             <li>
-                <p>In the <span class="UIcomponent">Area of Interest</span> field select "Cruches Basin Wilderness". This will constrain comparison reports, which you will generate later, to that area of interest. If left blank the reports would be generated for the entire landscape. To split the screen and display a map of the area on the left, you may use the <span class="UIcomponent">split screen <img src="../Resources/Images/ButtonsGeneral/Btn_Map.png" alt="show map" class="iftbutton" /></span> button to the right of the Select Landscape field. </p>
+                <p>In the <span class="UIcomponent">Area of Interest</span> field select "Cruches Basin Wilderness." This will constrain comparison reports, which you will generate later, to that area of interest. If left blank the reports would be generated for the entire landscape. To split the screen and display a map of the area on the left, you may use the <span class="UIcomponent">split screen <img src="../Resources/Images/ButtonsGeneral/Btn_Map.png" alt="show map" class="iftbutton" /></span> button to the right of the Select Landscape field. </p>
                 <p>
                     <img src="../Resources/Images/DTA/DTA_SelectingAoiEdting_tut.png" alt="select the Cruches Wilderness area of interest" class="borderlist" />
                 </p>
@@ -135,7 +137,7 @@
             <li>Expand the <span class="UIcomponent">Add User Created Edit Rule</span>. For existing condition, create three rows that  specify:<ul><li>Where Fuel Model is equal to 161 (TU1), aspect is greater than or equal to 113, and less than or equal to 292. </li></ul></li>
             <li>For the modification of the selected areas, add two rows and specify:&#160;<ul><li>Canopy Cover is multiplied by 0.65 and Fuel model is equal to 184 (TL4).</li></ul></li>
             <li>
-                <p>In the <span class="UIcomponent">Apply to Landscape Mask </span>field, use the drop-down to select "Cruches Basin Wilderness". This rule will find all TU1 areas between 113-292 apsect within the Cruches Basin Wilderness mask, and change the fuel to timber litter and reduce the canopy cover by 35%. You may consider modifying canopy bulk density as well, but this is at low value already, and we are not concerned that live aspen crowns will burn. If crown fire were a concern, then this value should be edited as well.</p>
+                <p>In the <span class="UIcomponent">Apply to Landscape Mask </span>field, use the drop-down to select "Cruches Basin Wilderness." This rule will find all TU1 areas between 113-292 apsect within the Cruches Basin Wilderness mask, and change the fuel to timber litter and reduce the canopy cover by 35%. You may consider modifying canopy bulk density as well, but this is at low value already, and we are not concerned that live aspen crowns will burn. If crown fire were a concern, then this value should be edited as well.</p>
                 <p>
                     <img src="../Resources/Images/Editing/Ed_JackstrwRule_tut.png" alt="Jackstraw editing interface showing rule as outlined in text" class="borderlist" /> </p>
             </li>
@@ -214,10 +216,14 @@
         <h3>Conclusion</h3>
         <p>This concludes the  User Created Edit Rules tutorial, but feel free to explore and use your new skills to try other landscape edits. <MadCap:variable name="General.ProductName" /> also has default fuel treatment and disturbance based edit rules that can be used to edit your landscape. Some Help Center topics you may find useful for editing include:&#160;</p>
         <ul>
-            <li><a href="../30-Tasks/LndscpEdit/LandscapeEditAbout.htm" target="_blank">Editing Landscape Data for Landscape Evaluation</a> - brief overview of the editing interface for Default Edit Rules as well as the User Created Edit Rules we used here.</li>
-            <li><a href="../30-Tasks/LndscpEdit/RuleOrdering.htm" target="_blank">Rule Ordering Considerations when Editing Landscapes</a> - Describes rule ordering behavior for Default and User Created Rules and what happens when these rules are mixed. Included Examples.</li>
-            <li><a href="../30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" target="_blank">Landscape Editing - Default Fuel Treatment and Disturbance</a> - List of Default Edit Rules.</li>
-            <li><a href="../30-Tasks/LndscpEdit/LandscapeEditTechTopic.htm" target="_blank">Default Fuels Treatment / Disturbance Edit Rule Technical Documentation</a> - Technical Documentation for Default Edit Rules</li>
+            <li>
+                <a href="../30-Tasks/LndscpEdit/LandscapeEditAbout.htm" target="_blank">Editing Landscape Data for Landscape Evaluation</a> - brief overview of the editing interface for Default Edit Rules as well as the User Created Edit Rules we used here.</li>
+            <li>
+                <a href="../30-Tasks/LndscpEdit/RuleOrdering.htm" target="_blank">Rule Ordering Considerations when Editing Landscapes</a> - Describes rule ordering behavior for Default and User Created Rules and what happens when these rules are mixed. Included Examples.</li>
+            <li>
+                <a href="../30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" target="_blank">Landscape Editing - Default Fuel Treatment and Disturbance</a> - List of Default Edit Rules.</li>
+            <li>
+                <a href="../30-Tasks/LndscpEdit/LandscapeEditTechTopic.htm" target="_blank">Default Fuels Treatment / Disturbance Edit Rule Technical Documentation</a> - Technical Documentation for Default Edit Rules</li>
         </ul>
         <p>&#160;</p>
     </body>

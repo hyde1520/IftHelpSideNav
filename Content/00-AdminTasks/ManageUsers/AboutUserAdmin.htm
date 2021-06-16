@@ -17,8 +17,10 @@
         <div class="notificationImportant">
             <p>Fuels Treatment Effectiveness Monitoring (FTEM) users have a separate set of permissions just for FTEM. Managing FTEM&#160;is discussed in the <a href="../../10-FTEM/Admin/Administrators.htm" target="_blank">Administrators FTEM Topics</a> within the FTEM&#160;section of Help Center.</p>
         </div>
+        <div class="notificationNote">
+            <p>Throughout this topic you'll see references to scenarios in which users contact administrators for support. That process is carried out through the <MadCap:variable name="General.ProductName" /> Team's Freshdesk support ticket system. New administrators should contact a member of the <MadCap:variable name="General.ProductName" /> Development Team if details about Freshdesk are required.</p>
+        </div>
         <h2>User Access and Passwords</h2>
-        <h2>Granting or Restoring Access</h2>
         <p>Depending on the user's situation, there are different buttons that are visible to admins who need to assist a user in regaining access to their account. Each is summarized below and includes:</p>
         <ul>
             <li>
@@ -32,9 +34,26 @@
             </li>
         </ul>
         <h3>Grant User Privileges </h3>
-        <p>User</p>
-        <p>"Grant User Privileges"&#160;appears on accounts for users who need either need first-time access to <MadCap:variable name="General.ProductName"></MadCap:variable>, or to regain access because their account has lapsed after 90 days of inactivity.</p>
-        <p>Grant&#160;User Privileges makes the account active, and automatically sends the user a temporary password they may use to gain access to their <MadCap:variable name="General.ProductName"></MadCap:variable> account.</p>
+        <p>"Grant User Privileges"&#160;appears on accounts for users who need either need first-time access to <MadCap:variable name="General.ProductName" />, or existing users who have had their accounts disabled due to inactivity.</p>
+        <div class="notificationImportant">
+            <MadCap:snippetBlock src="../../Resources/Snippets/Accounts/AccountDuration.flsnp" />
+        </div>
+        <p>Grant&#160;User Privileges makes the account active, and automatically sends the user a temporary password they may use to gain access to their <MadCap:variable name="General.ProductName" /> account.</p>
+        <p>Example: New User</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Example:&#160;Disabled User</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>User attempts to log in with a disabled account and sees a system-generated message to contact an administrator. User contacts administrator to re-enable their account</p>
+                <p>Administrator navigates to the <MadCap:variable name="General.ProductName" /> User List, searches to find the user's name.</p>
+                <p>Administrator single clicks the user name to view options and clicks "Grant User Privileges."</p>
+                <p><MadCap:variable name="General.ProductName" /> automatically sends a </p>
+                <p>sdfds</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <p>&#160;</p>
         <h3>Reset Password</h3>
         <p>"Rest Password" is always visible. It allows and admin to reset a users password.</p>
         <p>Reset Password automatically sends the user a temporary password they may use to gain access to their <MadCap:variable name="General.ProductName"></MadCap:variable> account. </p>
@@ -50,10 +69,10 @@
         <div class="notificationNote">
             <p>User Accounts lock after the fourth unsuccessful login attempt in 24 hours. The user interface makes reference to "three"&#160;attempts, so some users may contact an administrator saying their account is locked, even though the administrator can see in the User List that the account is not yet locked.</p>
         </div>
-        <p>If a user requests an unlock or password reset more than once in a 24-period period, they may be prevented from completing the process, and will see a messaging on the password reset page that informs them "Exception: Your password was updated recently and cannot be modified until 24 hours since your previous change". </p>
+        <p>If a user requests an unlock or password reset more than once in a 24-period period, they may be prevented from completing the process, and will see a messaging on the password reset page that informs them "Exception: Your password was updated recently and cannot be modified until 24 hours since your previous change." </p>
         <h3>Allow Password Change</h3>
         <p>For users who have changed their password more than once in a 24 hour period, this button may need to be used...</p>
-        <h2>Removing Access and Archiving</h2>
+        <h3>Removing Access and Archiving</h3>
         <p>Both of the below options are always available:</p>
         <h3>Disable Privileges</h3>
         <p>"Disable Privileges" disables an account and sends the user an email notification that their account has been disabled.</p>
