@@ -39,21 +39,74 @@
             <MadCap:snippetBlock src="../../Resources/Snippets/Accounts/AccountDuration.flsnp" />
         </div>
         <p>Grant&#160;User Privileges makes the account active, and automatically sends the user a temporary password they may use to gain access to their <MadCap:variable name="General.ProductName" /> account.</p>
-        <p>Example: New User</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Example:&#160;New User</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol style="list-style-type: upper-alpha;">
+                    <li>
+                        <p>A non-federal user registers with a new account and  message to contact an administrator. User contacts administrator to re-enable their account.</p>
+                        <img src="../../Resources/Images/AccountManagement/Reg_confirmationClean.png" alt="A notice informing a new user that their account registration has been submitted for review." class="borderlist" />
+                    </li>
+                    <li>
+                        <p>Administrator navigates to the <MadCap:variable name="General.ProductName" /> User List, searches to find the user's name.<br /><img src="../../Resources/Images/AccountManagement/UserListSearch.png" alt="Two captures. Left, administrator profile options including &quot;user list.&quot; Right, user list with user search field visible." class="border" /></p>
+                    </li>
+                    <li>
+                        <p>Administrator single-clicks the user name to view options and clicks "Grant User Privileges."</p>
+                        <p>
+                            <img src="../../Resources/Images/AccountManagement/UserListGrantNew.png" alt="Account options displayed in the user list, including the &quot;Grant user privideges&quot; option." class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p><MadCap:variable name="General.ProductName" /> automatically sends an email to that user containing a temporary password. </p>
+                        <p>
+                            <img src="../../Resources/Images/AccountManagement/EmailAccountApproved.png" alt="email text including a temporary password." class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>User logs in with the temporary password and updates their password. </p>
+                        <p>
+                            <img src="../../Resources/Images/AccountManagement/SignInCode.png" alt="User login with usrname filled in and temporary password pasted into the password field." class="borderlist" />
+                        </p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Example:&#160;Disabled User</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>User attempts to log in with a disabled account and sees a system-generated message to contact an administrator. User contacts administrator to re-enable their account</p>
-                <p>Administrator navigates to the <MadCap:variable name="General.ProductName" /> User List, searches to find the user's name.</p>
-                <p>Administrator single clicks the user name to view options and clicks "Grant User Privileges."</p>
-                <p><MadCap:variable name="General.ProductName" /> automatically sends a </p>
-                <p>sdfds</p>
+                <ol style="list-style-type: upper-alpha;">
+                    <li>
+                        <p>User attempts to log in with a disabled account and sees a system-generated message to contact an administrator. User contacts administrator to re-enable their account.</p>
+                        <img src="../../Resources/Images/AccountManagement/LoginDisabled.png" alt="A notice user the password field informs the user their account is disabled." class="border" />
+                    </li>
+                    <li>
+                        <p>Administrator navigates to the <MadCap:variable name="General.ProductName" /> User List, searches to find the user's name.<br /><img src="../../Resources/Images/AccountManagement/UserListSearch.png" alt="Two captures. Left, administrator profile options including &quot;user list.&quot; Right, user list with user search field visible." class="border" /></p>
+                    </li>
+                    <li>
+                        <p>Administrator single-clicks the user name to view options and clicks "Grant User Privileges."</p>
+                        <p>
+                            <img src="../../Resources/Images/AccountManagement/UserListGrantDis.png" alt="Account options displayed in the user list, including the &quot;Grant user privideges&quot; option." class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p><MadCap:variable name="General.ProductName" /> automatically sends an email to that user containing a temporary password. </p>
+                        <p>
+                            <img src="../../Resources/Images/AccountManagement/EmailPrivModifed.png" alt="email text including a temporary password." class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>User logs in with the temporary password and updates their password. </p>
+                        <p>
+                            <img src="../../Resources/Images/AccountManagement/SignInCode.png" alt="User login with usrname filled in and temporary password pasted into the password field." class="borderlist" />
+                        </p>
+                    </li>
+                </ol>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
-        <p>&#160;</p>
-        <p>&#160;</p>
         <h3>Reset Password</h3>
         <p>"Rest Password" is always visible. It allows and admin to reset a users password.</p>
         <p>Reset Password automatically sends the user a temporary password they may use to gain access to their <MadCap:variable name="General.ProductName"></MadCap:variable> account. </p>
@@ -63,6 +116,42 @@
         <div class="notificationNote">
             <p>Users can accomplish the same task as and administrator using "Reset Password" if they follow the "Forgot Password" prompt in the <MadCap:variable name="General.ProductName"></MadCap:variable> log in screen. Though they may be contacting an administrator to reset their password if they've forgotten their security question and cannot complete the "Forgot Password" process.</p>
         </div>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Example:&#160;Resetting a Password</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <div class="notificationImportant">
+                    <p>This will send a new password, it will not unlock an account if the account is locked.</p>
+                </div>
+                <ol style="list-style-type: upper-alpha;">
+                    <li>
+                        <p>User contacts an demonstrator because they are unable to reset their password. This case can occur if the user forgotten their security question and cannot complete the "forgot password" prompt themselves.</p>
+                    </li>
+                    <li>
+                        <p>Administrator navigates to the <MadCap:variable name="General.ProductName" /> User List, searches to find the user's name.<br /><img src="../../Resources/Images/AccountManagement/UserListSearch.png" alt="Two captures. Left, administrator profile options including &quot;user list.&quot; Right, user list with user search field visible." class="border" /></p>
+                    </li>
+                    <li>
+                        <p>Administrator single-clicks the user name to view options and clicks "Reset Password."</p>
+                        <p>
+                            <img src="../../Resources/Images/AccountManagement/UserListResetPass.png" alt="Account options displayed in the user list, including the &quot;Reset Password&quot; option." class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p><MadCap:variable name="General.ProductName" /> automatically sends an email to that user containing a temporary password. </p>
+                        <p>
+                            <img src="../../Resources/Images/AccountManagement/EmailPassReset.png" alt="email text including a temporary password." class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>User logs in with the temporary password and updates their password. </p>
+                        <p>
+                            <img src="../../Resources/Images/AccountManagement/SignInCode.png" alt="User login with usrname filled in and temporary password pasted into the password field." class="borderlist" />
+                        </p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
         <h3>Unlock</h3>
         <p>"Unlock"&#160;appears on accounts for users who have locked their account by entering the incorrect password too many times. Accounts are locked if there are too many unsuccessful login attempts within a 24-hour period.</p>
         <p>Unlock will unlock the account and automatically send the user an email containing a new temporary password they can use to regain access to their account.</p>
@@ -70,15 +159,158 @@
             <p>User Accounts lock after the fourth unsuccessful login attempt in 24 hours. The user interface makes reference to "three"&#160;attempts, so some users may contact an administrator saying their account is locked, even though the administrator can see in the User List that the account is not yet locked.</p>
         </div>
         <p>If a user requests an unlock or password reset more than once in a 24-period period, they may be prevented from completing the process, and will see a messaging on the password reset page that informs them "Exception: Your password was updated recently and cannot be modified until 24 hours since your previous change." </p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Example:&#160;Account Unlock</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol style="list-style-type: upper-alpha;">
+                    <li>
+                        <p>User receives a system-generated message that their account is locked. This can occur if a user attempts to login with an invalid password multiple times in a 24 hour period.</p>
+                        <img src="../../Resources/Images/AccountManagement/LoginDisabled.png" alt="A notice user the password field informs the user their account is disabled." class="borderlist" />
+                    </li>
+                    <li>
+                        <p>Administrator navigates to the <MadCap:variable name="General.ProductName" /> User List, searches to find the user's name.<br /><img src="../../Resources/Images/AccountManagement/UserListSearch.png" alt="Two captures. Left, administrator profile options including &quot;user list.&quot; Right, user list with user search field visible." class="border" /></p>
+                    </li>
+                    <li>
+                        <p>Administrator single-clicks the user name to view options and clicks "Unlock."</p>
+                        <p>
+                            <img src="../../Resources/Images/AccountManagement/UserListUnlock.png" alt="Account options displayed in the user list, including the &quot;Unlock&quot; option." class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p><MadCap:variable name="General.ProductName" /> automatically sends an email to that user containing a temporary password. </p>
+                        <p>
+                            <img src="../../Resources/Images/AccountManagement/EmailUnlock.png" alt="email text including a temporary password." class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>User logs in with the temporary password and updates their password. </p>
+                        <p>
+                            <img src="../../Resources/Images/AccountManagement/SignInCode.png" alt="User login with usrname filled in and temporary password pasted into the password field." class="borderlist" />
+                        </p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
         <h3>Allow Password Change</h3>
-        <p>For users who have changed their password more than once in a 24 hour period, this button may need to be used...</p>
+        <p>The "Allow Password Change"&#160;button allows a user to change their password an additional time within a 24-hour period. By default, users may only change their password once in a 24-period. This security feature helps prevent unauthorized account access; However, there are instances where a user must change their password more than once in a 24-hour period. A user that resets their password but forgets or mid-types the new password is one such case.</p>
+        <p>This button "resets the clock"&#160;on a user account, allowing a user to update their password one additional time if needed</p>
+        <p>This button only appears as an option on accounts that have had the password updated within 24 hours. </p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Example:&#160;Allowing another password reset</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol style="list-style-type: upper-alpha;">
+                    <li>
+                        <p>User contacts an demonstrator because they are unable to reset their password. This case can occur if the user forgotten their security question and cannot complete the "forgot password" prompt themselves.</p>
+                    </li>
+                    <li>
+                        <p>Administrator navigates to the <MadCap:variable name="General.ProductName" /> User List, searches to find the user's name.<br /><img src="../../Resources/Images/AccountManagement/UserListSearch.png" alt="Two captures. Left, administrator profile options including &quot;user list.&quot; Right, user list with user search field visible." class="border" /></p>
+                    </li>
+                    <li>
+                        <p>Administrator single-clicks the user name to view options and clicks "Reset Password."</p>
+                        <p>
+                            <img src="../../Resources/Images/AccountManagement/UserListResetPass.png" alt="Account options displayed in the user list, including the &quot;Reset Password&quot; option." class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p><MadCap:variable name="General.ProductName" /> automatically sends an email to that user containing a temporary password. </p>
+                        <p>
+                            <img src="../../Resources/Images/AccountManagement/EmailPassReset.png" alt="email text including a temporary password." class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>User logs in with the temporary password and updates their password. </p>
+                        <p>
+                            <img src="../../Resources/Images/AccountManagement/SignInCode.png" alt="User login with usrname filled in and temporary password pasted into the password field." class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>User attempts to log in again and realizes their new password is not working. </p>
+                        <p>
+                            <img src="../../Resources/Images/AccountManagement/LoginInvalidPass.png" alt="notice to user at login informing them they attempted to use an invalid password." class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>From this point, if a user tries the "forgot password"&#160;prompt and attempts to reset their password, they will receive a notice preventing them from completing the process. It is at this point they would reach out to an administrator for assistance.</p>
+                        <p>
+                            <img src="../../Resources/Images/AccountManagement/24HrError.png" alt="a notice informing the user their password may not be changed more than once in a 24 hour period." class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>An administrator will repeat steps B and C above and this time click "Allow Password Change". This will remove the 24-hour block on the user account. No email is sent to the user. From this point, the administrator may choose to instruct the user to re-attempt the "forgot password"&#160;prompt in login or choose to reset the password using the options in the user list. </p>
+                        <p>
+                            <img src="../../Resources/Images/AccountManagement/UserListAllowPassChange.png" alt="Options under the username include &quot;Allow Password Change.&quot;" class="borderlist" />
+                        </p>
+                        <div class="notificationNote">
+                            <p>If a user is still on the password reset interface after the admin clicks the "Allow Password Change button, they will be able to reset their password by with the same temporary password so long as they have not attempted to use it more than three times.</p>
+                        </div>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
         <h3>Removing Access and Archiving</h3>
         <p>Both of the below options are always available:</p>
         <h3>Disable Privileges</h3>
         <p>"Disable Privileges" disables an account and sends the user an email notification that their account has been disabled.</p>
         <p>To re-enable an account which has been disabled, use the "Grant User Privileges" button. </p>
+        <div class="notificationNote">
+            <p>When an account is disabled, it is possible for the email associated with that account to be used in the creation of another account.</p>
+        </div>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Example:&#160;Disable Privileges</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol style="list-style-type: upper-alpha;">
+                    <li>
+                        <p>User requests or administrator determines an account should be disabled.</p>
+                    </li>
+                    <li>
+                        <p>Administrator navigates to the <MadCap:variable name="General.ProductName" /> User List, searches to find the user's name.<br /><img src="../../Resources/Images/AccountManagement/UserListSearch.png" alt="Two captures. Left, administrator profile options including &quot;user list.&quot; Right, user list with user search field visible." class="border" /></p>
+                    </li>
+                    <li>
+                        <p>Administrator single-clicks the user name to view options and clicks "Disable User Privileges."</p>
+                        <p>
+                            <img src="../../Resources/Images/AccountManagement/UserListDisable.png" alt="Account options displayed in the user list, including the &quot;Disable user privideges&quot; option." class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p><MadCap:variable name="General.ProductName" /> automatically sends an email to that user informing them their account has been disabled. </p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
         <h3>Archive</h3>
         <p>"Archive"&#160;will remove an account from the <MadCap:variable name="General.ProductName" /> User List, users will be unable to login to those accounts. Users will not receive an email notification. This option is intended to remove dis-used accounts. For example, a user may create a second account and no longer need their old account, in which case an admin can archive the older account.</p>
-        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Example:&#160;Disable Privileges</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol style="list-style-type: upper-alpha;">
+                    <li>
+                        <p>User requests or administrator determines an account should be archived.</p>
+                    </li>
+                    <li>
+                        <p>Administrator navigates to the <MadCap:variable name="General.ProductName" /> User List, searches to find the user's name.<br /><img src="../../Resources/Images/AccountManagement/UserListSearch.png" alt="Two captures. Left, administrator profile options including &quot;user list.&quot; Right, user list with user search field visible." class="border" /></p>
+                    </li>
+                    <li>
+                        <p>Administrator single-clicks the user name to view options and clicks "Disable User Privileges."</p>
+                        <p>
+                            <img src="../../Resources/Images/AccountManagement/UserListArchive.png" alt="Account options displayed in the user list, including the &quot;Archive&quot; option." class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>There is no email notification sent out when an account is archived. </p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
     </body>
 </html>
