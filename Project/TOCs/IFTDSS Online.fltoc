@@ -920,6 +920,9 @@
           Title="Rate of Spread"
           Link="/Content/20-Models/MTT/Out/RoSpreadMTT.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
+          Title="Flow Paths"
+          Link="/Content/20-Models/MTT/Out/FlowPathsMTT.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
           Title="View in IFTDSS"
           Link="/Content/20-Models/MTT/Out/ViewOutputsMTT.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
@@ -931,9 +934,6 @@
             Title="Importing MTT Symbology"
             Link="/Content/10-Workspace/downloads/MTTArcLyr.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
-        <TocEntry
-          Title="Flow Paths"
-          Link="/Content/20-Models/MTT/Out/FlowPathsMTT.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
       <TocEntry
         Title="Technical Documentation"
@@ -1310,7 +1310,7 @@
       conditions="General.QA ONLY" />
   </TocEntry>
   <TocEntry
-    Title="For Administrators"
+    Title="Administrator Info"
     conditions="General.QA ONLY">
     <TocEntry
       Title="Admin Overview"
