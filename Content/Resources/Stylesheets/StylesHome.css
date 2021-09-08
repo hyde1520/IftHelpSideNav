@@ -275,6 +275,14 @@ div.quick-links	/*This is a custom responsive layout row style (div class) in yo
 	margin-left: auto;
 	margin-right: auto;
 }
+/*Bold Text in Home Page*/
+div.quick-links div p a{
+	color: #2E3E4E;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: 900;
+}
+/*END Bold Text in Home Page*/
 
 div.quick-links::before
 {

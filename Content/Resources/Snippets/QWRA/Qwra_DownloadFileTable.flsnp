@@ -53,8 +53,8 @@
                 <tr class="TableStyle-Standard-Body-Body2">
                     <td class="TableStyle-Standard-BodyB-Column1-Body2"><a href="../../../10-Workspace/downloads/QWRAArcLyr.htm" target="_blank">Symbology</a>
                     </td>
-                    <td class="TableStyle-Standard-BodyB-Column1-Body2">.lyr</td>
                     <td class="TableStyle-Standard-BodyB-Column1-Body2">folder containing .lyr files</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body2">&lt;outputtype&gt;.lyr</td>
                     <td class="TableStyle-Standard-BodyA-Column1-Body2">Symbology file for setting colors in ArcMap that match those used in <MadCap:variable name="General.ProductName" />.</td>
                 </tr>
             </tbody>

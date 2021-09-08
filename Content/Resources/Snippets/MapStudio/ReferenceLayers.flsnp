@@ -18,17 +18,24 @@
         </ul>
         <h3>Disturbance History - Historic Wildfire Perimeters</h3>
         <ul>
-            <li><a href="https://services3.arcgis.com/T4QMspbfLg3qTGWY/ArcGIS/rest/services/InteragencyHistoricFirePerimeters/FeatureServer/5" target="_blank">Fire Perimeters before 1979 <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            <li><a href="https://nifc.maps.arcgis.com/home/item.html?id=4454e5d8e8c44b0280258b51bcf24794" target="_blank">Fire Perimeters before 1979 <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
-            <li><a href="https://services3.arcgis.com/T4QMspbfLg3qTGWY/ArcGIS/rest/services/InteragencyHistoricFirePerimeters/FeatureServer/4" target="_blank">Fire Perimeters 1980-1989 <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            <li><a href="https://nifc.maps.arcgis.com/home/item.html?id=4454e5d8e8c44b0280258b51bcf24794" target="_blank">Fire Perimeters 1980-1989 <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
-            <li><a href="https://services3.arcgis.com/T4QMspbfLg3qTGWY/ArcGIS/rest/services/InteragencyHistoricFirePerimeters/FeatureServer/3" target="_blank">Fire Perimeters 1990-1999 <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            <li><a href="https://nifc.maps.arcgis.com/home/item.html?id=4454e5d8e8c44b0280258b51bcf24794" target="_blank">Fire Perimeters 1990-1999 <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
-            <li><a href="https://services3.arcgis.com/T4QMspbfLg3qTGWY/ArcGIS/rest/services/InteragencyHistoricFirePerimeters/FeatureServer/2" target="_blank">Fire Perimeters 2000-2009 <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            <li><a href="https://nifc.maps.arcgis.com/home/item.html?id=4454e5d8e8c44b0280258b51bcf24794" target="_blank">Fire Perimeters 2000-2009 <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
-            <li><a href="https://services3.arcgis.com/T4QMspbfLg3qTGWY/ArcGIS/rest/services/InteragencyHistoricFirePerimeters/FeatureServer/1" target="_blank">Fire Perimeters 2010-2016 <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            <li><a href="https://nifc.maps.arcgis.com/home/item.html?id=4454e5d8e8c44b0280258b51bcf24794" target="_blank">Fire Perimeters 2010-2019 <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
-            <li><a href="https://services3.arcgis.com/T4QMspbfLg3qTGWY/ArcGIS/rest/services/InteragencyHistoricFirePerimeters/FeatureServer/0" target="_blank">Fire Perimeters 2017 <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            <li>
+                <p><a href="https://nifc.maps.arcgis.com/home/item.html?id=9a03b193227f41b7b27089790860cc36" target="_blank">Fire Perimeters 2020 <i class="fa fa-external-link" aria-hidden="true"></i></a>
+                </p>
+                <div class="notificationImportant">
+                    <p>To report a missing historic wildfire perimeter for 2020 or before, notify your agency's fire GIS&#160;contact. Visit one of the Historic Wildfire Perimeter links above and scroll down to the "Agency Fire GIS&#160;Contacts" table for their contact information. </p>
+                </div>
+            </li>
+            <li><a href="https://data-nifc.opendata.arcgis.com/datasets/nifc::wfigs-2021-wildland-fire-perimeters-to-date/about" target="_blank">Fire Perimeters 2021 <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
         </ul>
         <h3>Infrastructure - Facilities</h3>
@@ -41,7 +48,7 @@
             </li>
             <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=77f2d0c34cb849338fac047d3a709d28" target="_blank">Campgrounds (BLM and USFS) <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
-            <li><a href="https://services.arcgis.com/4OV0eRKiLAYkbH2J/arcgis/rest/services/Energy_Infrastructure/FeatureServer/2" target="_blank">Mines <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=8cd5ce09f6764a48b07e64d8f7ae121c" target="_blank">Mines <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
         </ul>
         <h3>Infrastructure - Communication</h3>
@@ -203,7 +210,7 @@
         <ul>
             <li><a href="http://silvis.forest.wisc.edu/data/wui-change/" target="_blank">SILVIS Wildland Urban Interface  <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
-            <li><a href="https://www.arcgis.com/home/item.html?id=06e5fd61bdb6453fb16534c676e1c9b9" target="_blank">USDA/NRCS SSURGO <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            <li MadCap:conditions="General.LaterRelease"><a href="https://www.arcgis.com/home/item.html?id=06e5fd61bdb6453fb16534c676e1c9b9" target="_blank">USDA/NRCS SSURGO <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
             <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=50d97e69c8c14888988551830fcb9677#overview" target="_blank">Pyrome <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>

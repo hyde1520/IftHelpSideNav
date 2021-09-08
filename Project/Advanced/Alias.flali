@@ -257,21 +257,17 @@
     <Map Name="HVRACreate" Link="/Content/30-Tasks/QWRA/MapValues/HVRACreate.htm" />
     <Map Name="HistoricFuelTreatment_m" Link="/Content/10-MapStudio/RefLayerMetadata/DistHistory/HistFuelTrtPoly_m.htm" />
     <Map Name="MTBS" Link="/Content/10-MapStudio/Files/ReferenceLayers.htm" />
-    <Map Name="FireHistpre1980" Link="/Content/10-MapStudio/RefLayerMetadata/DistHistory/FireHist_m.htm" />
-    <Map Name="FireHist19801990" Link="/Content/10-MapStudio/RefLayerMetadata/DistHistory/FireHist_m.htm" />
-    <Map Name="FireHist19901999" Link="/Content/10-MapStudio/RefLayerMetadata/DistHistory/FireHist_m.htm" />
-    <Map Name="FireHist2000-2009" Link="/Content/10-MapStudio/RefLayerMetadata/DistHistory/FireHist_m.htm" />
-    <Map Name="FireHist2010-2016" Link="/Content/10-MapStudio/RefLayerMetadata/DistHistory/FireHist_m.htm" />
-    <Map Name="FireHist2017" Link="/Content/10-MapStudio/Files/ReferenceLayers.htm" />
+    <Map Name="FirePre1980_m" Link="/Content/10-MapStudio/RefLayerMetadata/DistHistory/FirePre1980_m.htm" />
+    <Map Name="Fire1980_1989_m" Link="/Content/10-MapStudio/RefLayerMetadata/DistHistory/Fire1980-89_m.htm" />
+    <Map Name="Fire1990_1999_m" Link="/Content/10-MapStudio/RefLayerMetadata/DistHistory/Fire1990-99_m.htm" />
+    <Map Name="Fire2000_2009_m" Link="/Content/10-MapStudio/RefLayerMetadata/DistHistory/Fire2000-09_m.htm" />
+    <Map Name="Fire2010_2019_m" Link="/Content/10-MapStudio/RefLayerMetadata/DistHistory/Fire2010-19_m.htm" />
+    <Map Name="Fire2020_m" Link="/Content/10-MapStudio/RefLayerMetadata/DistHistory/Fire2020_m.htm" />
     <Map Name="BLMBuild_m" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/BLMBuild_m.htm" />
     <Map Name="NPSBuild_m" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/NPSBuild_m.htm" />
     <Map Name="USFSBuild_m" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/USFSBuild_m.htm" />
     <Map Name="Campground_m" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/Campground_m.htm" />
-    <Map Name="EnergyInfra_mines_m" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/EnergyInfra.htm" />
-    <Map Name="EnergyInfra_elecsubstns_m" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/EnergyInfra.htm" />
-    <Map Name="EnergyInfra_pwrplnts_m" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/EnergyInfra.htm" />
-    <Map Name="EnergyInfra_trnsline_m" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/EnergyInfra.htm" />
-    <Map Name="EnergyInfra5_oilgas_m" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/EnergyInfra.htm" />
+    <Map Name="Mines_m" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/Mines_m.htm" />
     <Map Name="CommTwr_m" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/CommTwr_m.htm" />
     <Map Name="wilderness_m" Link="/Content/10-MapStudio/RefLayerMetadata/DesignatedAreas/wilderness_m.htm" />
     <Map Name="BLMGrazing_m" Link="/Content/10-MapStudio/RefLayerMetadata/DesignatedAreas/BLMGrazing_m.htm" />
@@ -314,7 +310,6 @@
     <Map Name="FTEMPolyBLM_m" Link="/Content/10-MapStudio/RefLayerMetadata/FTEM/FTEM_m.htm" />
     <Map Name="FTEMPolyNPS_m" Link="/Content/10-MapStudio/RefLayerMetadata/FTEM/FTEM_m.htm" />
     <Map Name="FTEMPolyUSFS_m" Link="/Content/10-MapStudio/RefLayerMetadata/FTEM/FTEM_m.htm" />
-    <Map Name="SILVISWUI_m" Link="/Content/10-MapStudio/Files/ReferenceLayers.htm" />
     <Map Name="GEOMAC_m" Link="/Content/10-MapStudio/Files/ReferenceLayers.htm" />
     <Map Name="SSURGO_m" Link="/Content/10-MapStudio/Files/ReferenceLayers.htm" />
     <Map Name="HVRA_m" Link="/Content/10-MapStudio/RefLayerMetadata/HVRAs/HVRA_m.htm" />
@@ -491,7 +486,7 @@
     <Map Name="EnergyPwrPlnts_m" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/EnergyPwrPlnts_m.htm" />
     <Map Name="EnergyTrnsLines_m" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/EnergyTrnsLines_m.htm" />
     <Map Name="EnergySubStns_m" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/EnergySubStns_m.htm" />
-    <Map Name="EnergyOilGas" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/EnergyOilGas_m.htm" />
+    <Map Name="EnergyOilGas_m" Link="/Content/10-MapStudio/RefLayerMetadata/Infrastructure/EnergyOilGas_m.htm" />
     <Map Name="AboutCmprExpsr" Link="/Content/30-Tasks/CompareExposure/AboutCmprExpsr.htm" />
     <Map Name="AboutCmprLcps" Link="/Content/30-Tasks/CompareLcps/AboutCmprLcps.htm" />
     <Map Name="AboutCmprRisk" Link="/Content/30-Tasks/CompareRisk/AboutCmprRisk.htm" />
@@ -501,4 +496,6 @@
     <Map Name="ReportsComprWthr" Link="/Content/30-Tasks/CompareWeather/ReportsComprWthr.htm" />
     <Map Name="TutorialComprWthr" Link="/Content/30-Tasks/CompareWeather/TutorialComprWthr.htm" />
     <Map Name="ViewingComprWthr" Link="/Content/30-Tasks/CompareWeather/ViewingComprWthr.htm" />
+    <Map Name="WUI_SILVIS_m" Link="/Content/10-MapStudio/RefLayerMetadata/Other/WUI_SILVIS_m.htm" />
+    <Map Name="Fire2021_m" Link="/Content/10-MapStudio/RefLayerMetadata/DistHistory/Fire2021_m.htm" />
 </CatapultAliasFile>
