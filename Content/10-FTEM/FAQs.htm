@@ -7,28 +7,20 @@
             <MadCap:keyword term="FTEM" />FTEM Frequently Asked Questions</h1>
         <p>FAQs are organized by the following subjects:</p>
         <ul>
-            <li>
-                <a href="#Wildfire">Wildfires</a>
+            <li><a href="#Wildfire">Wildfires</a>
             </li>
-            <li>
-                <a href="#Treatmen">Treatments</a>
+            <li><a href="#Treatmen">Treatments</a>
             </li>
-            <li>
-                <a href="#Treatmen2">Treatment Interactions</a>
+            <li><a href="#Treatmen2">Treatment Interactions</a>
             </li>
-            <li>
-                <a href="#Policy">Policy and Data Questions</a>
+            <li><a href="#Policy">Policy and Data Questions</a>
             </li>
-            <li>
-                <a href="#Account">Account Changes</a>
+            <li><a href="#Account">Account Changes</a>
             </li>
-            <li>
-                <a href="#General">General</a>
+            <li><a href="#General">General</a>
             </li>
         </ul>
-        <h2>
-            <a name="Wildfire">
-            </a>Wildfires</h2>
+        <h2><a name="Wildfire"></a>Wildfires</h2>
         <MadCap:snippetBlock src="../Resources/Snippets/FTEM/FAQ_NoFire.flsnp" />
         <MadCap:dropDown>
             <MadCap:dropDownHead>
@@ -49,9 +41,7 @@ If you have a wildfire location and would like to analyze polygon data from your
                 <MadCap:dropDownHotspot>What if my Wildfire Perimeter Doesn't Show Up Correctly?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>
-                    <a name="wfperimeter">
-                    </a>To display correctly, the wildfire perimeter must be correctly entered into the system of record (NIFS), this includes having the correct IRWIN ID for the perimeter.</p>
+                <p><a name="wfperimeter"></a>To display correctly, the wildfire perimeter must be correctly entered into the system of record (NIFS), this includes having the correct IRWIN ID for the perimeter.</p>
                 <p>First, check your agency's system of record. Contact their <a href="Guidance/AgencyLeads.htm" target="_blank">FTEM Agency Lead</a> if the fire has been listed in the system of record for over 24 hours but is not visible in FTEM.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
@@ -99,9 +89,15 @@ If you have a wildfire location and would like to analyze polygon data from your
                 <p>FTEM gets fire data through IRWIN, which gathers fire data from FireCode, WildCAD, Sit/209, and WFDSS.  Currently FIRESTAT, the final fire reporting system for the USFS, is "read-only" for IRWIN data, which means that changes made in FIRESTAT do not propagate back into IRWIN. Thus, fire data in FTEM may not reflect the same values seen in the FIRESTAT application.  Efforts are underway to have Forest Service final fire reports reflected in IRWIN within the next year or two.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
-        <h2>
-            <a name="Treatmen">
-            </a>Treatments</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Why Does Fire Discovery Time or <MadCap:keyword term="Timezone" />Timezone Look Incorrect?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetText src="../Resources/Snippets/FTEM/TimeZoneNote.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2><a name="Treatmen"></a>Treatments</h2>
         <MadCap:snippetBlock src="../Resources/Snippets/FTEM/FAQ_FindTreatment.flsnp" />
         <MadCap:dropDown>
             <MadCap:dropDownHead>
@@ -193,9 +189,7 @@ If you have a wildfire location and would like to analyze polygon data from your
                 <p>For more detail you may consult the <a href="DataTechnical/TechDoc.htm" target="_blank">FTEM Technical Documentation on buffering, treatments, and wildfires</a>.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
-        <h2>
-            <a name="Treatmen2">
-            </a>Treatment Interactions</h2>
+        <h2><a name="Treatmen2"></a>Treatment Interactions</h2>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>My wildfire didn't interact with treatments but FTEM&#160;says it did, how do I correct it?</MadCap:dropDownHotspot>
@@ -251,8 +245,7 @@ If you have a wildfire location and would like to analyze polygon data from your
                 <MadCap:dropDownHotspot>Why is the "Treatment acreage burned by wildfire" field blank for my interaction polygon?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>
-                    <MadCap:variable name="General.ProductName" /> will autopopulate interaction acre for a polygon treatment area, however there is a scenario in which this does not occur. If a treatment first enters the system as a point, receives some monitoring information, and then is later updated in the system as a polygon. In these cases the "Treatment acreage burned by wildfire" field will be blank. If this occurs, you may:&#160;</p>
+                <p><MadCap:variable name="General.ProductName" /> will autopopulate interaction acre for a polygon treatment area, however there is a scenario in which this does not occur. If a treatment first enters the system as a point, receives some monitoring information, and then is later updated in the system as a polygon. In these cases the "Treatment acreage burned by wildfire" field will be blank. If this occurs, you may:&#160;</p>
                 <ul>
                     <li> Input the treatment interactions manually</li>
                     <li>Make a note of the existing monitoring data, then remove the treatment from the wildfire, and re-add the treatment to the fire. <em>This will remove the monitoring data for the treatment</em>, but will auto-populate the interaction acres. The monitoring data will have to be re-populated.</li>
@@ -260,9 +253,7 @@ If you have a wildfire location and would like to analyze polygon data from your
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:snippetBlock src="../Resources/Snippets/FTEM/FAQ_FireLocationChange.flsnp" />
-        <h2>
-            <a name="Policy">
-            </a>Policy and Data Questions</h2>
+        <h2><a name="Policy"></a>Policy and Data Questions</h2>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Where does FTEM&#160;data come from &amp; where does it go?</MadCap:dropDownHotspot>
@@ -286,8 +277,7 @@ If you have a wildfire location and would like to analyze polygon data from your
                 <MadCap:dropDownHotspot>Is completing FTEM a requirement or optional?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>
-                    <span class="Emphasis">Requirement</span>. Anytime a wildfire starts in or interacts with a fuel treatment area, all agencies require that the outcome is documented to examine whether the treatment had the desired effect of reduced fire behavior and/or provided opportunities to firefighters for effective management of the wildfire (2017 Interagency Standards for Fire and Fire Aviation Operations “<a href="../41-References/Citations.htm#NWCG2018" target="_blank">Red Book</a>”). The FTEM application provides the framework for documenting these outcomes consistently across agencies in a manner that demonstrates the utility of the Hazardous Fuels Reduction program for all interested entities including, the Departments of Interior and Agriculture, Office of Management and Budget (OMB), Congress, Program Managers, Interest groups, and the public.</p>
+                <p><span class="Emphasis">Requirement</span>. Anytime a wildfire starts in or interacts with a fuel treatment area, all agencies require that the outcome is documented to examine whether the treatment had the desired effect of reduced fire behavior and/or provided opportunities to firefighters for effective management of the wildfire (2017 Interagency Standards for Fire and Fire Aviation Operations “<a href="../41-References/Citations.htm#NWCG2018" target="_blank">Red Book</a>”). The FTEM application provides the framework for documenting these outcomes consistently across agencies in a manner that demonstrates the utility of the Hazardous Fuels Reduction program for all interested entities including, the Departments of Interior and Agriculture, Office of Management and Budget (OMB), Congress, Program Managers, Interest groups, and the public.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
@@ -298,9 +288,7 @@ If you have a wildfire location and would like to analyze polygon data from your
                 <p>FTEM Agency Administrators have <a href="Admin/UseGdb.htm" target="_blank">access to FTEM&#160;data in .gdb format</a>. If you have and Editor role and would like access to data in .gdb format, please contact your FTEM Agency Administrator to request a copy.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
-        <h2>
-            <a name="Account">
-            </a>Account Changes</h2>
+        <h2><a name="Account"></a>Account Changes</h2>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>I am changing jobs, what do I do with my FTEM account?</MadCap:dropDownHotspot>
@@ -313,9 +301,7 @@ If you have a wildfire location and would like to analyze polygon data from your
                 </ul>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
-        <h2>
-            <a name="General">
-            </a>General</h2>
+        <h2><a name="General"></a>General</h2>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Can I upload a shapefile if my wildfire is just represented in FTEM by a point?</MadCap:dropDownHotspot>

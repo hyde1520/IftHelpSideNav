@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Note that <MadCap:variable name="General.ProductName"></MadCap:variable> and FTEM do not actively convert data to eastern time if it is imported. This has the potential to cause confusion, especially in FTEM,&#160;where fires from different sources may be brought into the system.</p>
+        <p>For example, a fire that is discovered on July 1 at 2100 eastern daylight time will have a discovery time in IRWIN&#160;of July 2, 0100 GMT. However, when this data is pulled into FTEM, the discovery day/time will remain July 2, 0100, it will not automatically be converted back to July 1 at 2100 eastern daylight time. In parts of FTEM where the time zone is not listed, this may cause confusion.</p>
+    </body>
+</html>
