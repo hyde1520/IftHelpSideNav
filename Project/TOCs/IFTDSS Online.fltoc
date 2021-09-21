@@ -1107,16 +1107,16 @@
     <TocEntry
       Title="Monitoring">
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
+        Title="Monitoring Interface"
+        Link="/Content/10-FTEM/General/MonitoringInterface.htm" />
+      <TocEntry
+        Title="Monitoring Tutorial"
         Link="/Content/10-FTEM/General/UsingFtem.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="Step 1: Pick Wildfire">
+        Title="Step 1: Select a Wildfire">
         <TocEntry
           Title="Select a Fire"
           Link="/Content/10-FTEM/General/FireFilters.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="[%=System.LinkedTitle%]"
-          Link="/Content/10-FTEM/General/FTEMRefLayers.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Symbology for Wildfires"
           Link="/Content/10-FTEM/General/SymbologyFires.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -1125,7 +1125,7 @@
           Link="/Content/10-FTEM/General/Missing Data.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
       <TocEntry
-        Title="Step 2: Pick Treatment">
+        Title="Step 2: Select Treatments">
         <TocEntry
           Title="Add &amp; Remove Treatments"
           Link="/Content/10-FTEM/General/TreatmentFilters.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -1146,7 +1146,7 @@
           Link="/Content/10-FTEM/General/Missing Data.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
       <TocEntry
-        Title="Step 3: Monitor Treatment">
+        Title="Step 3: Monitor Treatments">
         <TocEntry
           Title="Add or View Attachment"
           Link="/Content/10-FTEM/General/Attachments.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />

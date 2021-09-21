@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol style="list-style-type: upper-alpha;">
+            <li>
+                <p>Go to your <span class="UIcomponent">FTEM Profile</span> page by either by clicking on your <span class="UIcomponent">username</span> in the top right of any FTEM&#160;screen and selecting <span class="UIcomponent">Profile</span> from the drop-down list, or by using the <span class="UIcomponent">Account Management button</span> on the FTEM landing page.</p>
+                <p>
+                    <img src="../../Images/FTEM/landingpage/FTEM_WebpageAccountMgt.png" title="access the FTEM profile page" class="borderlist" alt="Account profile can be found on the FTEM main page either by clicking the 'FTEM Account Management' button, or scrolling to the top right of the screen and clicking on your username." />
+                </p>
+            </li>
+            <li>Select the Roles tab, this displays your current role, as well as an option to request additional roles.</li>
+            <li>
+                <p>Click the <span class="UIcomponent">Add FTEM&#160;Roles</span> button, this opens the FTEM&#160;Roles table.</p>
+                <p>
+                    <img src="../../Images/FTEM/accounts/FTEM_AddFTEMRoles.png" alt="request roles from the roles tab" class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>The FTEM Roles table displays options to update your role for various agencies. Select the role you want.</p>
+                <div class="notificationImportant">
+                    <p>Viewers can only request the role of "Editor." Editors can then request the role of "Administrator."</p>
+                </div>
+            </li>
+            <li>Provide a brief justification for your role using the justification text box. One sentence should suffice.</li>
+            <li>
+                <p>Click the <span class="UIcomponent">Request FTEM Roles</span> button.</p>
+                <p>
+                    <img src="../../Images/FTEM/accounts/FTEM_NewRoleReqest.png" alt="choose the role you want" class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>A notice appears confirming you have successfully requested an update to your FTEM role. Your request is forwarded to an FTEM&#160;Administrator to review. Upon approval, you receive confirmation of the new role via the email linked to your account. The next time you access FTEM you will have your new role.</p>
+                <p>
+                    <img src="../../Images/FTEM/accounts/FTEM_RoleRequestConfirmed.png" alt="your role request will be confirmed" class="borderlist" />
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>
