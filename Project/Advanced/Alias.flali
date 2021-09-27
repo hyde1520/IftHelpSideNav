@@ -217,7 +217,7 @@
     <Map Name="FiresSimulated" Link="/Content/20-Models/LBP/In/NoFiresSimLBP.htm" />
     <Map Name="Resolution" Link="/Content/20-Models/LBP/In/ResolutionLBP.htm" />
     <Map Name="FTEMRefLayers" Link="/Content/10-FTEM/General/FTEMRefLayers.htm" />
-    <Map Name="Completion" Link="/Content/10-FTEM/General/Completion.htm" />
+    <Map Name="Completion" Link="/Content/10-FTEM/General/AboutCompletion.htm" />
     <Map Name="ModelStatus" Link="/Content/20-Models/ModelStatus.htm" />
     <Map Name="OutBurnProb" Link="/Content/20-Models/LBP/Out/BurnProb.htm" />
     <Map Name="OutConditionalFL" Link="/Content/20-Models/LBP/Out/ConditionalFL.htm" />

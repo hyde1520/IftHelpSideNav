@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Use the individual checkboxes, or the <span class="UIcomponent">Select All</span> button to select the treatments you want to monitor in the monitoring tab. You may find it helpful to select a subset of treatments, for example a group that created similar wildfire interaction, then monitor them in the Monitoring tab and returning to the Treatments tab to select add another subset.</p>
+    </body>
+</html>

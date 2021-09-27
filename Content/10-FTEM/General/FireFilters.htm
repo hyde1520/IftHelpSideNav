@@ -5,38 +5,26 @@
     <body>
         <h1>
             <MadCap:keyword term="FTEM" />
-            <MadCap:keyword term="Filter" />Working with Fires in FTEM</h1>
-        <p>By default, the wildfire list in FTEM&#160;is sorted by number of fires. Clicking on a heading title, such as "Acres" or "Control Date" reorders the wildfire list according to that feature. If "Control Date"&#160;is null for a fire "Out Date" will be used, or "Contain Date" if "Out Date" is null. If all three features and null, the column will be blank.</p>
-        <p>Below we list additional ways to sort and find fires:</p>
+            <MadCap:keyword term="Filter" />Filtering and Viewing Fire Information in&#160;FTEM</h1>
+        <p>In addition to the search field, there are two methods to filter wildfires and view additional fire information:</p>
         <ul>
-            <li><a href="#Selectin">Selecting a Fire</a>
-            </li>
             <li><a href="#Filter">Filter or Get More Information from the Fire List</a>
             </li>
             <li><a href="#Filter2">Filter or Get More Information from the Map</a>
             </li>
-            <li><a href="#Add">Add Missing Fires or Correct Fire Data</a>
-            </li>
         </ul>
-        <h2><a name="Selectin"></a>Selecting a Fire</h2>
-        <p>Constrain the list of wildfires by using one or a combination of the following:</p>
-        <ol style="list-style-type: upper-alpha;">
-            <li>Zooming into a specific area of the map.</li>
-            <li>Pick a wildfire based on year, or agency if you are a monitor for more than one agency.</li>
-            <li>Use the search box and enter the wildfire name.</li>
-            <li>If you need to zoom to a fire on the map, click the <span class="UIcomponent">Zoom To</span> button under the fire name.</li>
-            <div class="notificationImportant">
-                <p>To de-select a fire, move the mouse cursor to the <span class="UIcomponent">Wildfire</span> tab and click the black X to the left of the wildfire name.</p>
-            </div>
-        </ol>
-        <p>
-            <img src="../../Resources/Images/FTEM/monitoring/FTEM_PickWildfire.png" alt="choose a fire by agency, year, zooming, or search for a fire name." class="border" />
-        </p>
         <h2><a name="Filter"></a>Filter or Get More Information from the Fire List</h2>
-        <p>To filter fires by status or to see the full metadata for a fire, view the wildfires tab in full screen view. This is done by clicking the <span class="UIcomponent">Hide map</span> button in the top center of the screen. Note that you can also filter the columns within the fire in descending or ascending order by single left-clicking the column title.</p>
-        <p>
-            <img src="../../Resources/Images/FTEM/monitoring/FTEM_WildfiresRHPData.png" alt="use the full list view to see more data about your fire" />
-        </p>
+        <p>To filter fires by status or to see the full metadata for a fire, view the wildfires tab in full screen view:</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Use the <span class="UIcomponent">split screen button</span> to view the fire list in full screen model.</li>
+            <li>Use the filter on the left to selected between All, Not Started, In Progress, Completed, and No Status fires.</li>
+            <li>
+                <p>Clicking on a fire will show fire metadata in the right hand panel.</p>
+                <p>
+                    <img src="../../Resources/Images/FTEM/monitoring/FTEM_RHPDetails.png" alt="Right Hand Panel showing fire metadata" class="borderlist" />
+                </p>
+            </li>
+        </ol>
         <h2><a name="Filter2"></a>Filter or Get More Information from the Map</h2>
         <p>Once you have zoomed into your area, you may want to further constrain the results with a specific filter term, or use some of the available FTEM&#160;Reference layers to aid in your monitoring. We'll cover these option here:</p>
         <div class="notificationImportant">
@@ -68,22 +56,16 @@
                 </p>
             </li>
         </ol>
-        <h3>Viewing Fires using Add Layers</h3>
-        <p>Using the <span class="UIcomponent">Add Layers</span> widget, you can turn on Active or Inactive fire perimeters from GeoMac. This adds them to the <span class="UIcomponent">Layer List</span> and make the easier to see on the map. In the example below "Inactive Fire Perimeters from GeoMac" is selected in <span class="UIcomponent">Add Layers</span>, and is displayed in <span class="UIcomponent">Layer List</span>. You can see the purple polygon outlined on the map. Note that you may have to turn off the other layers in <span class="UIcomponent">Layer List </span>to more clearly see the selected polygons.</p>
-        <p>
-            <img src="../../Resources/Images/FTEM/monitoring/FTEM_AddInactiveFirePoly.png" alt="added polygons showing in purple against the rest of the map." class="border" />
-        </p>
-        <h2><a name="Add"></a>Add a Missing Fire or Correct Fire Data</h2>
-        <h3>Add a Missing Fire</h3>
-        <p> Wildfire data is pulled into the FTEM&#160;system nightly from IRWIN and NIFS.</p>
-        <p>If you have verified fire activity is visible in the system of record longer than 24 hours and is still not appearing in FTEM, visit the <a href="../FAQs.htm#wfperimeter" target="_blank">FAQ section addressing why fire perimeters may not be displayed</a>, or contact your <a href="../Guidance/AgencyLeads.htm" target="_blank">FTEM&#160;Agency Administrator</a> to let them know the fire is not appearing.</p>
-        <ol style="list-style-type: upper-alpha;" MadCap:conditions="General.Exclude">
-            <li>If this date remains blank, it is not visible in FTEM&#160;until 45 days after the start date.</li>
-            <li>For those familiar with WFDSS who have the proper permissions, they could update those date fields, and the wildfire would be pulled into FTEM the following day.</li>
-            <li>Alternatively, an FTEM user could visit the <a href="../FAQs.htm#wfperimeter" target="_blank">FAQ section addressing why fire perimeters may not be displayed</a>. Another option would be contact your <a href="../Guidance/AgencyLeads.htm" target="_blank">FTEM&#160;Agency Administrator</a> to let them know the fire is not appearing and to check for this issue in the system of record.</li>
+        <h3><a name="Viewing"></a>Viewing Fire Information with Identify</h3>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Locate your fire.</li>
+            <li>Click the <span class="UIcomponent">Identify <img src="../../Resources/Images/MapStudio/widget_icons/button_identify.png" class="iftbutton"></img> widget</span>.</li>
+            <li>
+                <p>Click the fire to display the information.</p>
+                <p>
+                    <img src="../../Resources/Images/FTEM/monitoring/FTEM_Id_FireDetails.png" class="borderlist" alt="identify tool displaying fire information" />
+                </p>
+            </li>
         </ol>
-        <p>For more detail see the <a href="../DataTechnical/Wildfires.htm" target="_blank">FTEM Wildfire Technical Documentation</a>.</p>
-        <h3>Correct&#160;Treatment Data</h3>
-        <p>Wildfire data is pulled into the FTEM&#160;system nightly from IRWIN and NIFS. If fire data is incorrect, please work with your <a href="../Guidance/AgencyLeads.htm" target="_blank">FTEM&#160;Agency Administrator</a> to have the data corrected in the appropriate system.</p>
     </body>
 </html>

@@ -7,7 +7,7 @@
   GlossaryTermConversion="marked"
   MasterPage="/Content/Resources/MasterPages/OtherTopics.flmsp"
   MasterToc="/Project/TOCs/IFTDSS Online.fltoc"
-  ConditionTagExpression="exclude[General.Exclude or General.LaterRelease or &quot;General.Prod ONLY&quot;] "
+  ConditionTagExpression="exclude[General.DeveloperNotes or General.Exclude or General.LaterRelease or &quot;General.Prod ONLY&quot;]"
   PreCompileScaledImages="false"
   MakeFileLowerCase="true"
   TopNavTocPath="true"
@@ -17,9 +17,9 @@
   TabletBreakpoint="1024"
   OutputFile="index"
   DefaultUrl="/Content/Home.htm"
-  Skin="/Project/Skins/QA HTML5 - Side Navigation.flskn"
   EnableSitemap="true"
-  SitemapWebUrl="http://192.255.42.9/firenetHelp/">
+  SitemapWebUrl="http://192.255.42.9/firenetHelp/"
+  Skin="/Project/Skins/QA HTML5 - Side Navigation.flskn">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"

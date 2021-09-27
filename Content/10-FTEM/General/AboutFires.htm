@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>About Selecting Fires from the Wildfire List</h1>
+        <p>Selecting a fire with the first step in FTEM monitoring. This will populate the Treatments tab so you may be begin monitoring treatments for that fire.&#160;The basic steps of selecting a fire are:</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>
+                <MadCap:snippetBlock src="../../Resources/Snippets/FTEM/TutorialSteps/SelectFire_A.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../Resources/Snippets/FTEM/TutorialSteps/SelectFire_B.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../Resources/Snippets/FTEM/TutorialSteps/SelectFire_C.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../../Resources/Snippets/FTEM/TutorialSteps/SelectFire_D.flsnp" />
+            </li>
+        </ol>
+        <h2>Wildfire List Tips</h2>
+        <ul>
+            <li>
+                <p>By default, the wildfire list in FTEM&#160;is sorted by number of fires. Clicking on a heading title, such as "Acres" or "Control Date" reorders the wildfire list according to that feature. If "Control Date"&#160;is null for a fire "Out Date" will be used, or "Contain Date" if "Out Date" is null. If all three features and null, the column will be blank.</p>
+            </li>
+            <li>
+                <p class="comment" MadCap:conditions="General.DeveloperNotes">These two notices are from the straight from tutorial section 1. Make them snippets if we want to keep these on this page too.</p>
+            </li>
+            <li>
+                <p>In addition to the search field, you may also <a href="FireFilters.htm#Filter" target="_blank">filter the fire list</a> to locate and view additional fire information, or <a href="FireFilters.htm#Filter2" target="_blank">filter in the map view</a>.</p>
+            </li>
+            <li>
+                <p>Need to de-select your fire? Move the mouse cursor to the <span class="UIcomponent">Wildfire</span> tab and click the black X to the left of the wildfire name.</p>
+            </li>
+        </ul>
+        <h2>Where Fire Data Comes From and How Often it Updates</h2>
+        <p class="comment" MadCap:conditions="General.DeveloperNotes">From our wildfire data page</p>
+        <h3>Source</h3>
+        <p>Wildfire data is pulled into the FTEM from:&#160;</p>
+        <ul>
+            <li>The <a href="https://www.nwcg.gov/publications/pms936/nifs" target="_blank">National Incident Feature Services (NIFS) <i class="fa fa-external-link" aria-hidden="true"></i></a>. This service provides fire perimeter (polygon) data, where it exists.</li>
+            <li>The <a href="https://www.forestsandrangelands.gov/WFIT/applications/IRWIN/index.shtml" target="_blank">Integrated Reporting of Wildland Fire Information (IRWIN) <i class="fa fa-external-link" aria-hidden="true"></i></a> data exchange service. This service provides point locations and fire-related data for fires across the United States.</li>
+        </ul>
+        <h3>Timing</h3>
+        <p>Wildfire data is pulled into FTEM nightly.</p>
+        <h2>Incorrect Fire Data</h2>
+        <p class="comment" MadCap:conditions="General.DeveloperNotes">From new incorrect fire page</p>
+        <p>Incorrect fires in FTEM are usually caused by error in the data sources FTEM&#160;pulls from. </p>
+        <p>Fires <span class="Emphasis">cannot</span> be corrected in FTEM but must be corrected in the systems FTEM pulls from, either IRWIN or NIFS. </p>
+        <div class="notificationImportant">
+            <p>To correct a fire, contact your GIS&#160;Specialist to update the information in IRWIN or NIFS. The correction will then be pulled into FTEM&#160;with 24 hours of the update.</p>
+        </div>
+    </body>
+</html>
