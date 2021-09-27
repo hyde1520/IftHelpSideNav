@@ -1112,7 +1112,19 @@
       <TocEntry
         Title="Monitoring Interface"
         Link="/Content/10-FTEM/General/MonitoringInterface.htm"
-        conditions="General.QA ONLY" />
+        conditions="General.QA ONLY"></TocEntry>
+      <TocEntry
+        Title="Filtering Fires and Treatments"
+        conditions="General.QA ONLY">
+        <TocEntry
+          Title="Filter to Find Fire Info"
+          Link="/Content/10-FTEM/General/FireFilters.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Filter to Find Treatment Info"
+          Link="/Content/10-FTEM/General/TreatmentFilters.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          conditions="General.QA ONLY"
+          StartSection="false" />
+      </TocEntry>
       <TocEntry
         Title="Step 1: Select a Wildfire">
         <TocEntry
