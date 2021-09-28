@@ -3,11 +3,6 @@
     <head>
     </head>
     <body>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>What if I don't see my wildfire?</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
                 <p>Wildfire data is pulled into the FTEM system nightly from IRWIN and <a href="https://www.nwcg.gov/publications/pms936/nifs" target="_blank">National Incident Feature Service (NIFS) <i class="fa fa-external-link" aria-hidden="true"></i></a>. FTEM contains current active fires and fires that have been declared contained, controlled, or out.</p>
                 <p>
 
@@ -36,7 +31,5 @@ When missing perimeters for currently active fires, please contact the Situation
                     <p>Some perimeters may not be approved by an incident or agency for public distribution (<code>FeatureAccess &lt;&gt; Public or FeatureStatus &lt;&gt; Approved</code>). </p>
                 </div>
                 <p>For more detail see <a href="../../../10-FTEM/DataTechnical/Wildfires.htm" target="_blank">FTEM Wildfire Technical Documentation</a>.</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
     </body>
 </html>

@@ -372,7 +372,7 @@
     <Map Name="SubmitEA_hh" Link="/Content/50-Hover/ExposureAnalysis/SubmitEA_hh.htm" />
     <Map Name="Ignitions_hh" Link="/Content/50-Hover/Models/LBP/5.5_Ignitions_hh.htm" />
     <Map Name="doiunifiedregion" Link="/Content/10-MapStudio/RefLayerMetadata/Boundary/DOIUnifiedRgns.htm" />
-    <Map Name="FindingFireInfoFTEM" Link="/Content/10-FTEM/General/FindingFireInfoFTEM.htm" />
+    <Map />
     <Map Name="RepTreatmentStatus" Link="/Content/10-FTEM/Reports/RepTreatmentStatus.htm" />
     <Map Name="RepWildfireStatus" Link="/Content/10-FTEM/Reports/RepWildfireStatus.htm" />
     <Map Name="MtbsAk_m" Link="/Content/10-MapStudio/RefLayerMetadata/DistHistory/MtbsAk_m.htm" />

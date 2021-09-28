@@ -4,36 +4,33 @@
     </head>
     <body>
         <h1>About Selecting Treatments</h1>
-        <p>The treatment list for a fire lists all the interactions for that fire.  You can think of this treatment selection step as the "shopping cart" where you place the treatments that require monitoring, and remove the ones that don't.</p>
-        <p>&#160;The basic steps of selecting populating the treatment list include:</p>
-        <ol style="list-style-type: upper-alpha;">
-            <li>
-                <MadCap:snippetBlock src="../../Resources/Snippets/FTEM/TutorialSteps/SelectTreatment_A.flsnp" />
-            </li>
-            <li>
-                <MadCap:snippetBlock src="../../Resources/Snippets/FTEM/TutorialSteps/SelectTreatment_B.flsnp" />
-            </li>
-            <li>
-                <MadCap:snippetBlock src="../../Resources/Snippets/FTEM/TutorialSteps/SelectTreatment_C.flsnp" />
-            </li>
-            <li>
-                <MadCap:snippetBlock src="../../Resources/Snippets/FTEM/TutorialSteps/SelectTreatment_D.flsnp" />
-            </li>
-        </ol>
-        <h2>Select Treatment Tips</h2>
-        <p class="comment" MadCap:conditions="General.DeveloperNotes">The first two were red notices, the last was a green notice</p>
+        <p>This topic summarizes:</p>
         <ul>
             <li>
-                <p>The Treatment list for a fire is shared by all agency personnel monitoring the fire, you may need to collaborate with monitors from adjacent units to make sure you do not remove treatments others will need to monitor.</p>
+                <p><a href="#Selectin">Selecting Treatments</a>
+                </p>
             </li>
             <li>
-                <p>Active Fires - <MadCap:snippetText src="../../Resources/Snippets/FTEM/FAQ_OngoingFires.flsnp" /></p>
+                <p><a href="#Where">Where Fire Data Comes From and How Often it Updates</a>
+                </p>
             </li>
             <li>
-                <p>Note the colored icons to the left of the treatment names. In this example the polygon icons <img src="../../Resources/Images/FTEM/symbology/wildfire_poly.png" alt="polgygon" /> indicate these treatments are polygons, and their red color indicates monitoring/data entry for them has not been started. Learn more about these symbols by visiting <a href="SymbologyFires.htm" target="_blank">FTEM&#160;Symbology</a>.</p>
+                <p><a href="#Incorrec">Incorrect Treatment Data</a>
+                </p>
             </li>
         </ul>
-        <h2>Where Treatment Data Comes From and How Often it Updates</h2>
+        <h2><a name="Selectin"></a>Selecting Treatments</h2>
+        <div class="notificationImportant">
+            <p>The Treatment list for a fire is shared by all agency personnel monitoring the fire, you may need to collaborate with monitors from adjacent units to make sure you do not remove treatments others will need to monitor.</p>
+        </div>
+        <div class="notificationImportant">
+            <p>Active Fires - <MadCap:snippetText src="../../Resources/Snippets/FTEM/FAQ_OngoingFires.flsnp" /></p>
+        </div>
+        <p class="comment" MadCap:conditions="General.DeveloperNotes">These top two should be snippets</p>
+        <p>The treatment list for a fire lists all the interactions for that fire.  You can think of this treatment selection step as the "shopping cart" where you place the treatments that require monitoring, and remove the ones that don't.</p>
+        <p>&#160;The steps of selecting populating the treatment list include:</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/FTEM/MonitoringStep2.flsnp" />
+        <h2><a name="Where"></a>Where Treatment Data Comes From and How Often it Updates</h2>
         <p class="comment" MadCap:conditions="General.DeveloperNotes">From our treatment data page, the &lt;p&gt; and &lt;ul&gt; were a blue notice</p>
         <p>Treatment dates contained within FTEM vary by their source and include:</p>
         <ul>
@@ -55,12 +52,13 @@
         </ul>
         <h3>Timing</h3>
         <p>Treatment data is pulled into FTEM nightly.</p>
-        <h2>Incorrect Treatment Data</h2>
+        <h2><a name="Incorrec"></a>Incorrect Treatment Data</h2>
         <p class="comment" MadCap:conditions="General.DeveloperNotes">From new incorrect treatment page</p>
         <p>Incorrect treatments in FTEM are usually caused by error in the data sources FTEM&#160;pulls from. </p>
         <p>Treatments <span class="Emphasis">cannot </span> be corrected in FTEM but must be corrected in the systems FTEM pulls from, either IRWIN or NIFS. </p>
         <div class="notificationImportant">
             <p>To correct a treatment, contact your GIS&#160;Specialist to update the information in FACTS or NFPORS. The correction will then be pulled into FTEM&#160;with 24 hours of the update.</p>
         </div>
+        <p>See the <a href="../DataTechnical/Treatments.htm" target="_blank">Treatment Data technical documentation topic</a> for more information on treatment data.</p>
     </body>
 </html>

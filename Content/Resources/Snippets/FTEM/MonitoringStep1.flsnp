@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol style="list-style-type: upper-alpha;">
+            <li>
+                <p>Select a wildfire year, the year the wildfire was declared under control, contained, or extinguished.</p>
+            </li>
+            <li>
+                <p>(Optional) If you are affiliated with multiple agencies, filter your results by agency. If you are not an administrator or dual agency editor, this option may not be visible.</p>
+            </li>
+            <li>
+                <p>(Optional) Use the wildfire search field to further constrain your results by entering the fire name. Note the search field turns yellow when you begin typing.</p>
+                <div class="notificationTip">
+                    <p>In addition to the search field, you may also <a href="../../../10-FTEM/General/FireFilters.htm#Filter" target="_blank">filter the fire list</a> to locate and view additional fire information, or <a href="../../../10-FTEM/General/FireFilters.htm#Filter2" target="_blank">filter in the map view</a>.<br /></p>
+                </div>
+            </li>
+            <li>
+                <p>Click the necessary wildfire name on the list to select it.</p>
+                <p> This auto-populates the next tab, <span class="UIcomponent">Treatments</span>, with a list of all treatments that overlapped selected fire. See the <a href="../../../10-FTEM/DataTechnical/Buffering.htm" target="_blank">Buffering Rules documentation</a> for more information on how treatments are auto-populated.</p>
+            </li>
+            <div class="notificationTip">
+                <p>Need to de-select your fire? Move the mouse cursor to the <span class="UIcomponent">Wildfire</span> tab and click the black X to the left of the wildfire name.</p>
+            </div>
+            <li>
+                <p>(Optional)&#160;Click the <span class="UIcomponent">Zoom To</span> button to zoom to the fire on the map, or the <span class="UIcomponent">Table Summary</span> button to see a summary of the interactions for that fire.</p>
+                <p>
+                    <img src="../../Images/FTEM/monitoring/FTEM_PickWildfireSteps.png" alt="use the table to pick a wildfire" class="borderlist" />
+                </p>
+            </li>
+            <li>Proceed to the <span class="UIcomponent">Treatments</span> tab by clicking the tab. You may also proceed to Treatments by clicking the<span class="UIcomponent">Treatments</span> button located under the wildfire name you've selected.</li>
+            <div class="notificationNote">
+                <p>Attached files can be viewed, added, or downloaded at anytime if needed (see <a href="../../../10-FTEM/General/Attachments.htm" target="_blank">Attachments</a>). Notice that each wildfire listed is followed by information, left to right, describing the number of acres, control date, monitor status, and the number of interactions.</p>
+            </div>
+            <div class="notificationTip">
+                <p>Need to find a fire discovery date? That information can be <a href="../../../10-FTEM/General/FireFilters.htm#Viewing" target="_blank">found using the Identify widget</a>, or moving the fire list to show up <a href="../../../10-FTEM/General/FireFilters.htm#Filter" target="_blank">full screen to show the right hand panel metadata</a>.</p>
+            </div>
+        </ol>
+    </body>
+</html>

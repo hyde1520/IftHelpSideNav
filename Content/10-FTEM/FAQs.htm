@@ -21,7 +21,14 @@
             </li>
         </ul>
         <h2><a name="Wildfire"></a>Wildfires</h2>
-        <MadCap:snippetBlock src="../Resources/Snippets/FTEM/FAQ_NoFire.flsnp" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Missing Wildfires?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../Resources/Snippets/FTEM/FAQ_NoFire.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Why Do I&#160;Only See a Point to Represent My Wildfire?</MadCap:dropDownHotspot>
@@ -54,11 +61,12 @@ If you have a wildfire location and would like to analyze polygon data from your
                 <p>The list of fires and interactions you see in FTEM&#160;is determined by the map area you are zoomed into. It includes all agency fires so that fires which burn onto and through your agency lands are accounted for.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
-        <MadCap:dropDown>
+        <MadCap:dropDown MadCap:conditions="General.Exclude">
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Can I <MadCap:keyword term="filter" />filter my fires to <MadCap:keyword term="narrow" />narrow down the list?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
+                <p class="comment">DELETE IN FALL 2021 FTEM UPDATES We made this its own section.</p>
                 <p>Yes! You can expand the wildfire list, use the filters in the left side of the expanded list, and then return to split screen view to see only the fires you have selected for. This is shown in the <a href="General/FireFilters.htm#Filter" target="_blank">Working with Fires in FTEM</a>&#160;topic.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
@@ -171,14 +179,6 @@ If you have a wildfire location and would like to analyze polygon data from your
         </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Some of the treatments listed in the treatments Tab belong to a different unit or subunit, should I remove them?</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>Consult with the other unit or subunit before removing their treatments from the treatment list. When monitoring has been completed on all the treatments in the treatment list, FTEM will notify system administrators that upward reporting can now occur. A wildfire where FTEM has been completed can be amended, but any treatments removed would have to be manually added back in one at a time using the <span class="UIcomponent">Add treatments</span> button.</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>How is the treatments list automatically populated once I select a wildfire?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
@@ -252,7 +252,14 @@ If you have a wildfire location and would like to analyze polygon data from your
                 </ul>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
-        <MadCap:snippetBlock src="../Resources/Snippets/FTEM/FAQ_FireLocationChange.flsnp" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>My wildfire location had to be corrected, what happens to the treatment list?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../Resources/Snippets/FTEM/FAQ_FireLocationChange.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
         <h2><a name="Policy"></a>Policy and Data Questions</h2>
         <MadCap:dropDown>
             <MadCap:dropDownHead>

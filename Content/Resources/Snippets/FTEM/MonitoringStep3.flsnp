@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <div class="notificationImportant">
+            <p> Active Fires - If you are monitoring a fire that is currently in progress, <MadCap:variable name="General.ProductName" /> will retain  your  interaction data entry as the fire continues to grow.</p>
+        </div>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Select a treatment to monitor using the checkbox next to it.</li>
+            <li>
+                <p> Click the <span class="UIcomponent">Enter Data</span> button to start monitoring the treatment.</p>
+                <div class="notificationTip">
+                    <p>By using the check box for one or more treatment, you may choose to enter data for treatments individually, or in batches. Note that when running batches, some fields will still need to be revisited and filled individually for each treatment such as time of burn and acres burned.</p>
+                </div>
+            </li>
+            <li>
+                <p>A series of questions for the treatment(s) interaction  appears as a series of drop-down headings addressing specific monitoring questions. The first header, "Interaction Details and Treatment Effects" is required. Enter data into each field. Guidance for monitoring each required field is described in the <a href="../../../10-FTEM/Guidance/MonitoringGuidance.htm" target="_blank">FTEM Monitoring Guidance Topic</a>.</p>
+                <p>When both the wildfire and treatments are polygons, you will notice a <span class="UIcomponent">Calculate</span> button next to the treatment acres field. This can be used to auto-populate that field if it is blank.</p>
+                <p>
+                    <img src="../../Images/FTEM/monitoring/FTEM_CalculateArea.png" alt="The calculate button appears to the rigth of the &quot;treatment acres&quot; field" class="borderlist" />
+                </p>
+            </li>
+            <li>Proceed to any optional fields and enter data. Guidance for monitoring each optional field is described in the <a href="../../../10-FTEM/Guidance/MonitoringGuidance.htm" target="_blank">FTEM Monitoring Guidance Topic</a>.</li>
+            <li>Once your data is entered, click <span class="UIcomponent">Save and Close</span> to proceed. If you want to save your partially completed work and resume the rest of the process later, click <span class="UIcomponent">Save</span>. You may also choose to click <span class="UIcomponent">Close and Discard Changes</span>.</li>
+            <div class="notificationTip">
+                <p>Note that in the image below two of three treatments are selected for data entry. You can choose to "batch" enter the same data for a selected set of treatments, but some fields such as time and acreage still need to be revisited and filled individually. You may find this approach useful if multiple treatments were involved in the same interaction.</p>
+            </div>
+            <li>
+                <p>While your treatment is still selected, you may also click the <span class="UIcomponent">Attachments</span> button to add any relevant maps, images, or supporting materials (for more detail, see the <a href="../../../10-FTEM/General/Attachments.htm" target="_blank">Attachments topic</a>).</p>
+                <p>Attachments can include:</p>
+                <MadCap:snippetBlock src="AttachmentSizeType.flsnp" />
+            </li>
+            <li>
+                <p>Proceed to the <span class="UIcomponent">Complete</span> tab, to finalize your monitoring.</p>
+                <p>
+                    <img src="../../Images/FTEM/monitoring/FTEM_MonitoringSteps.png" alt="answer the required fields in the monitoring section" class="borderlist" />
+                </p>
+                <div class="notificationImportant">
+                    <p><a name="completionnote"></a>Note that even when monitored treatments appear completed, indicated by a green point <img src="../../Images/FTEM/symbology/trt_point_int_nointeraction.png" alt="point" class="iftbutton" /> or polygon <img src="../../Images/FTEM/symbology/trt_poly_int_nointeraction.png" alt="polygon" class="iftbutton" /> symbol, the wildfire is not  completed until are interactions for a given agency are monitored and submitted by clicking the <span class="UIcomponent">Complete Wildfire Monitoring</span> button in the <span class="UIcomponent">Complete</span> tab. </p>
+                </div>
+            </li>
+        </ol>
+    </body>
+</html>

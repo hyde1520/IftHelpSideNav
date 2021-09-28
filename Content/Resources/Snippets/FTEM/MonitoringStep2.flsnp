@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <ol style="list-style-type: upper-alpha;">
+            <li>
+                <p>Briefly review the auto-populated treatment list and perform steps B and C as needed.</p>
+            </li>
+            <li>
+                <p>If you know interacted treatments are missing, click the <span class="UIcomponent">Add Treatment(s)</span><a href="../../../10-FTEM/General/SearchBuffer.htm" target="_blank">button to add a treatment</a>, you may also <a href="../../../10-FTEM/General/AddTreatmentwMap.htm" target="_blank">add a treatment using the map interface</a>. There are <a href="../../../10-FTEM/General/TreatmentFilters.htm" target="_blank">methods to filter and view treatment information in FTEM</a>&#160;as well.</p>
+            </li>
+            <li>
+                <p>If you know treatments on this list did not interact, use the checkbox to select them and click the <span class="UIcomponent">Remove Treatment(s)</span> button. Removed treatments may be added back to the list by clicking the <span class="UIcomponent">Add Treatments(s)</span> button if needed.</p>
+            </li>
+            <li>
+                <p>Use the individual checkboxes, or the <span class="UIcomponent">Select All</span> button to select the treatments you want to monitor in the monitoring tab. You may find it helpful to select a subset of treatments, for example a group that created similar wildfire interaction, then monitor them in the Monitoring tab and returning to the Treatments tab to select add another subset.</p>
+                <div class="notificationTip">
+                    <p>Note the colored icons to the left of the treatment names. In this example the polygon icons <img src="../../Images/FTEM/symbology/wildfire_poly.png" alt="polgygon" /> indicate these treatments are polygons, and their red color indicates monitoring/data entry for them has not been started. Learn more about these symbols by visiting <a href="../../../10-FTEM/General/SymbologyFires.htm" target="_blank">FTEM&#160;Symbology</a>.</p>
+                </div>
+            </li>
+            <li>
+                <p>Proceed to Monitor by clicking the  <span class="UIcomponent">Monitor </span> tab, or by clicking one of the  <span class="UIcomponent">Monitor Treatment(s)</span> buttons at the top or bottom of the treatment list.</p>
+                <p>
+                    <img src="../../Images/FTEM/monitoring/FTEM_Treatments.png" alt="use the table to select your treatment" class="borderlist" />
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>

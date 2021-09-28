@@ -1100,37 +1100,22 @@
         Title="Buffering"
         Link="/Content/10-FTEM/DataTechnical/Buffering.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/10-FTEM/DataTechnical/Utilities.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        Title="[%=System.LinkedTitle%]" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
         conditions="General.Exclude" />
     </TocEntry>
     <TocEntry
       Title="Monitoring">
       <TocEntry
+        Title="Monitoring Interface"
+        Link="/Content/10-FTEM/General/MonitoringInterface.htm"></TocEntry>
+      <TocEntry
         Title="Monitoring Tutorial"
         Link="/Content/10-FTEM/General/UsingFtem.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Monitoring Interface"
-        Link="/Content/10-FTEM/General/MonitoringInterface.htm"
-        conditions="General.QA ONLY"></TocEntry>
-      <TocEntry
-        Title="Filtering Fires and Treatments"
-        conditions="General.QA ONLY">
-        <TocEntry
-          Title="Filter to Find Fire Info"
-          Link="/Content/10-FTEM/General/FireFilters.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="Filter to Find Treatment Info"
-          Link="/Content/10-FTEM/General/TreatmentFilters.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-          conditions="General.QA ONLY"
-          StartSection="false" />
-      </TocEntry>
       <TocEntry
         Title="Step 1: Select a Wildfire">
         <TocEntry
           Title="About Selecting Fires"
-          Link="/Content/10-FTEM/General/AboutFires.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-          conditions="General.QA ONLY" />
+          Link="/Content/10-FTEM/General/AboutFires.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Filter to Find Fire Info"
           Link="/Content/10-FTEM/General/FireFilters.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -1142,23 +1127,13 @@
           Link="/Content/10-FTEM/General/AddShapefile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Incorrect Fires"
-          Link="/Content/10-FTEM/General/FTEMIncorrectFire.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-          conditions="General.QA ONLY" />
-        <TocEntry
-          Title="Missing Data?"
-          Link="/Content/10-FTEM/General/Missing Data.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-          conditions="General.Prod ONLY" />
+          Link="/Content/10-FTEM/General/FTEMIncorrectFire.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
       <TocEntry
         Title="Step 2: Select Treatments">
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/10-FTEM/General/AboutTreatments.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-          conditions="General.QA ONLY" />
-        <TocEntry
-          Title="Add &amp; Remove Treatments"
-          Link="/Content/10-FTEM/General/TreatmentFilters.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-          conditions="General.Prod ONLY" />
+          Link="/Content/10-FTEM/General/AboutTreatments.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Add Treatment Using List"
           Link="/Content/10-FTEM/General/SearchBuffer.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -1168,24 +1143,17 @@
         <TocEntry
           Title="Filter to Find Treatment Info"
           Link="/Content/10-FTEM/General/TreatmentFilters.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-          conditions="General.QA ONLY"
           StartSection="false" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/10-FTEM/General/RemoveTreatment.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-          conditions="General.QA ONLY" />
+          Link="/Content/10-FTEM/General/RemoveTreatment.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Symbology for Treatments"
           Link="/Content/10-FTEM/General/SymbologyTrtmnts.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
           Link="/Content/10-FTEM/General/FTEMIncorrectTreatment.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-          conditions="General.QA ONLY"
           StartSection="false" />
-        <TocEntry
-          Title="Missing Data?"
-          Link="/Content/10-FTEM/General/Missing Data.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-          conditions="General.Prod ONLY" />
       </TocEntry>
       <TocEntry
         Title="Step 3: Monitor Treatments">
@@ -1215,17 +1183,17 @@
           Link="/Content/10-FTEM/General/AboutCompletion.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
       <TocEntry
-        Title="Answering Monitoring Questions"
-        conditions="General.Prod ONLY">
+        Title="Add or View Attachments"
+        Link="/Content/10-FTEM/General/Attachments.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Filtering Fires and Treatments">
         <TocEntry
-          Title="Agency Specific Policies"
-          Link="/Content/10-FTEM/Guidance/Policy.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Title="Filter to Find Fire Info"
+          Link="/Content/10-FTEM/General/FireFilters.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
-          Title="Monitoring Guidance"
-          Link="/Content/10-FTEM/Guidance/MonitoringGuidance.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="Contact Administrators"
-          Link="/Content/10-FTEM/Guidance/AgencyLeads.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Title="Filter to Find Treatment Info"
+          Link="/Content/10-FTEM/General/TreatmentFilters.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          StartSection="false" />
       </TocEntry>
     </TocEntry>
     <TocEntry
