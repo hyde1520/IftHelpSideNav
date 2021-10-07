@@ -19,7 +19,11 @@
   DefaultUrl="/Content/Home.htm"
   EnableSitemap="true"
   SitemapWebUrl="http://192.255.42.9/firenetHelp/"
-  Skin="/Project/Skins/QA HTML5 - Side Navigation.flskn">
+  Skin="/Project/Skins/QA HTML5 - Side Navigation.flskn"
+  OutputAnalyticsServer="https://api.madcapcentral.com/"
+  OutputAnalyticsLicenseId="17811"
+  LiveHelpType="Central"
+  OutputAnalyticsKey="7a47b608-f1c2-4fbc-95b9-113edde0e5d2">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"

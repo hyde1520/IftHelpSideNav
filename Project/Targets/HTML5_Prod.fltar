@@ -15,7 +15,11 @@
   MasterToc="/Project/TOCs/IFTDSS Online.fltoc"
   TabletBreakpoint="1024"
   MobileBreakpoint="667"
-  UseDeviceWidth="false">
+  UseDeviceWidth="false"
+  OutputAnalyticsServer="https://api.madcapcentral.com/"
+  OutputAnalyticsLicenseId="17811"
+  LiveHelpType="Central"
+  OutputAnalyticsKey="fe7eb2b0-3c9d-4a17-873f-61f7e86f127b">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
