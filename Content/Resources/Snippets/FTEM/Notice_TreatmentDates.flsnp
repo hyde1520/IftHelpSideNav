@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="notificationNote">
+            <p>Treatment dates contained within FTEM vary by their source and include:</p>
+            <ul>
+                <li>
+                    <p>FACTS treatments completed after Jan. 1 2005.</p>
+                </li>
+                <li>
+                    <p>NFPORS treatments completed during or after 2008.</p>
+                </li>
+                <li>
+                    <p>All other treatments completed less than ten years ago.</p>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>

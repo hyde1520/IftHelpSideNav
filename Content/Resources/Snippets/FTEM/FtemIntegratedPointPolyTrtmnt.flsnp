@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Treatments in FTEM&#160;come from the FTEM Integrated Point and Polygon Fuels Treatment Layers which is derived from data stored  in:</p>
+        <ul>
+            <li>The National Fire Plan Operations and Reporting System (NFPORS) Hazardous Fuels Reduction (HFR) Module. NFPORS is the national system for tracking combined fuels accomplishments for all agencies in the Department of Interior.</li>
+            <li>The Forest Service Activity Tracking System (FACTS). FACTS is the official system for tracking USDA Forest Service fuels accomplishments. FACTS data is shared with NFPORS to facilitate interagency reporting needs.</li>
+        </ul>
+    </body>
+</html>
