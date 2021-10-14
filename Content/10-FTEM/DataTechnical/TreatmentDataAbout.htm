@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>About Fuel Treatment Data Sources</h1>
+        <p>Fuel treatments are loaded into FTEM from the Interagency Fuels Data Service. This service updates nightly and is fed data from the Forest Service Activity Tracking System (FACTS) and the National Fire Plan Operations &amp; Reporting System (NFPORS).</p>
+        <p>
+            <img src="../../Resources/Images/FTEM/monitoring/FTEM_fig_TreatmentDataflow.png" alt="Images of computers with arrows indicating fuel treatments are loaded into FTEM from the Interagency Fuels Data Service and that service loads data from FACTS and NFPORS." class="border" />
+        </p>
+        <p>This topic covers:</p>
+        <ul>
+            <li>
+                <p><a href="#How">How treatment data is loaded into FTEM</a>
+                </p>
+            </li>
+            <li>
+                <p><a href="#How2">How often treatment data updates</a>
+                </p>
+            </li>
+            <li>
+                <p><a href="#Where">Where to find detailed technical documentation</a>
+                </p>
+            </li>
+        </ul>
+        <h2><a name="How"></a>How Treatment Data is loaded into FTEM</h2>
+        <div class="notificationNote">
+            <p>Basic criteria for including treatment data in FTEM are:</p>
+            <ul>
+                <li>
+                    <p>FACTS treatments completed after Jan. 1 2005.</p>
+                </li>
+                <li>
+                    <p>NFPORS treatments completed during or after 2008.</p>
+                </li>
+                <li>
+                    <p>Only “Hazardous Fuels Reduction” (Key Point 3) and “Non-NFP” (Key Point 6) labeled treatments.</p>
+                </li>
+                <li>
+                    <p>FACTS data is updated nightly, NFPORS updates vary depending upon agency (some agencies update more frequently to NFPORS than others).</p>
+                </li>
+            </ul>
+        </div>
+        <p>The text box above breaks out the basic criteria for treatment data to be pulled from the systems of record into the Interagency Fuels Treatment Data Service. In short, there are specific date ranges and types of treatments that are pulled and this data updates at different times depending on where its coming from. In most cases where you do not see a treatment in FTEM, its because the treatment does not conform to the bulleted criteria above or has not yet been uploaded by the individual agency.</p>
+        <p>Further data filtering rules for points and polygons is outlined below for your reference.</p>
+        <h3>USFS Treatments</h3>
+        <div class="notificationImportant">
+            <p>USFS users should not expect to see a one to one match of all treatments visible in FACTS.</p>
+            <p>FTEM filters FACTS treatment data to minimize duplicates and to display only treatments eligible for monitoring based on USFS FTEM <a href="../Guidance/Policy.htm" target="_blank">monitoring policy</a>.</p>
+        </div>
+        <p>USFS treatment data is loaded the Interagency Fuels Data Service differently depending on whether it is point data or polygon data.</p>
+        <h4>USFS Point Treatments</h4>
+        <p>USFS treatment data was required to be reported as polygons starting in 2018. Historic treatment points from 2018 and before were manually added to the Interagency Fuels Data Service from FACTS or NFPORS if they met the following criteria:</p>
+        <ul>
+            <li>
+                <p>Completed between January 2005 and May 2018.</p>
+            </li>
+            <li>
+                <p>Have no polygon data available (points were replaced with polygon data if polygon data for the treatment became available between 2005 and 2018).</p>
+            </li>
+        </ul>
+        <h4>USFS Polygon Treatments</h4>
+        <p>USFS polygon treatment data is loaded from the FACTS Enterprise Data Warehouse (EDW) nightly.</p>
+        <p>The following criteria are used to filter treatment polygons in order to minimize duplicates and display only treatments eligible for monitoring based on USFS FTEM monitoring policy:</p>
+        <ol>
+            <li>
+                <p><b>IF</b> the “F_SUID” is the same <b>THEN</b> select the treatment with the most recent “ActualCompletionDate”</p>
+            </li>
+            <li>
+                <p><b>IF</b> the “F_SUID” AND “ActualCompletionDate” are the same <b>THEN</b> select the treatment with “TreatmentCategory” matching one of the following, prioritized in this order 1) “Fire,” 2) “Mechanical,” 3) “Other,” or 4) “Preparation for Treatment.”</p>
+            </li>
+            <li>
+                <p><b>IF</b> the “F_SUID” AND “ActualCompletionDate” AND “TreatmentCategory” are the same <b>THEN</b> select the treatment with the smallest numerical “F_Activity_Code.”</p>
+            </li>
+            <li>
+                <p><b>IF</b> the “F_SUID” AND “ActualCompletionDate” AND “TreatmentCategory” AND “F_ACTIVITY_Code” are the same <b>THEN</b> all treatment data will be loaded into FTEM.</p>
+            </li>
+        </ol>
+        <h3>DOI Treatments</h3>
+        <p>DOI point and polygon treatments are loaded from NFPROS if they met the following criteria:</p>
+        <ul>
+            <li>
+                <p>Completed in or after 2008.</p>
+            </li>
+            <li>
+                <p>Treatment status is “accomplished.”</p>
+            </li>
+            <li>
+                <p>The “Modified on” date is newer than the last time data was read from the service.</p>
+            </li>
+        </ul>
+        <p>For Bureaus that do not enter data directly into NFPORS, the frequency of updates into FTEM is dependent upon how frequently your Bureau loads treatment data into NFPORS.</p>
+        <div class="notificationImportant">
+            <p>Contact your Bureau fuels treatment data manager to determine the date of most recent NFPORS upload if you do not see recently entered fuels treatment data</p>
+        </div>
+        <h2><a name="How2"></a>How often treatment data updates</h2>
+        <p>FTEM pulls nightly from the Interagency Fuels Data Service. The Interagency Fuels Data Service pulls data nightly from the systems of record. Each system of record has its own update schedule:</p>
+        <ul>
+            <li>
+                <p>FACTS updates nightly.</p>
+            </li>
+            <li>
+                <p>NFPORS updates when the bureaus enter information directly in to the system. For bureaus that do not enter data directly into NFPORS, the frequency of updates depends upon how frequently each bureau’s system pushes data to NFPORS.</p>
+            </li>
+        </ul>
+        <h2><a name="Where"></a>Where to find detailed technical documentation</h2>
+        <p>See the <a href="Treatments.htm" target="_blank">Treatment Technical Documentation topic</a> for additional details on the Interagency Fuels Data Service, NWCG Standards, and criteria used to pull data into the system.</p>
+    </body>
+</html>
