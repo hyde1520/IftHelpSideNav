@@ -10,7 +10,7 @@
                 <p>Treatment may not have been automatically detected as having interacted with the fire.</p>
                 <ul>
                     <li>
-                        <p><b>Solution:</b> Briefly search for the treatment using a wider buffer area. See the <a href="../../../10-FTEM/General/SearchBuffer.htm" target="_blank">Search Buffer Topic</a> for a step by step walk-through of how to do this. You can also <a href="../../../10-FTEM/General/AddTreatmentwMap.htm" target="_blank">add a using the Map</a>, which is especially useful if the treatment is outside of the maximum buffer area.</p>
+                        <p><b>Solution:</b> Briefly search for the treatment using a wider buffer area. See the <a href="../../../10-FTEM/General/SearchBuffer.htm" target="_blank">Search Buffer Topic</a> for a step by step walk-through of how to do this. You can also <a href="../../../10-FTEM/General/AddTreatmentwMap.htm" target="_blank">add a treatment using the map</a>, which is especially useful if the treatment is outside of the maximum buffer area.</p>
                     </li>
                 </ul>
             </li>

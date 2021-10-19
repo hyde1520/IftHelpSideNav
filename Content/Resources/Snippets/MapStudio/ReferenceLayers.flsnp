@@ -40,7 +40,7 @@
         </ul>
         <h3>Infrastructure - Facilities</h3>
         <ul>
-            <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=18e782a07542443787413ebbd79ce80f" target="_blank">BLM Buildings <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            <li MadCap:conditions="General.Exclude"><a href="https://doildt.maps.arcgis.com/home/item.html?id=18e782a07542443787413ebbd79ce80f" target="_blank">BLM Buildings <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
             <li><a href="https://doildt.maps.arcgis.com/home/item.html?id=c27fb9c9d60c4a2c8bdcb50a06994bd7" target="_blank">NPS Buildings <i class="fa fa-external-link" aria-hidden="true"></i></a>
             </li>
