@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <div class="notificationNote">
+            <p>Basic criteria for including treatment data in FTEM are:</p>
+            <ul>
+                <li>
+                    <p>FACTS treatments completed after Jan. 1 2005.</p>
+                </li>
+                <li>
+                    <p>NFPORS treatments completed during or after 2008.</p>
+                </li>
+                <li>
+                    <p>Only “Hazardous Fuels Reduction” (Key Point 3) and “Non-NFP” (Key Point 6) labeled treatments.</p>
+                </li>
+                <li>
+                    <p>FACTS data is updated nightly, NFPORS updates vary depending upon agency (some agencies update more frequently to NFPORS than others).</p>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>

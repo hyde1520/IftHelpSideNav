@@ -7,7 +7,7 @@
   GlossaryTermConversion="marked"
   MasterPage="/Content/Resources/MasterPages/OtherTopics.flmsp"
   MasterToc="/Project/TOCs/IFTDSS Online.fltoc"
-  ConditionTagExpression="exclude[General.DeveloperNotes or General.Exclude or General.LaterRelease or &quot;General.Prod ONLY&quot;]"
+  ConditionTagExpression="include[&quot;General.QA ONLY&quot;], exclude[General.DeveloperNotes or General.Exclude or General.LaterRelease or &quot;General.Prod ONLY&quot;]"
   PreCompileScaledImages="false"
   MakeFileLowerCase="true"
   TopNavTocPath="true"

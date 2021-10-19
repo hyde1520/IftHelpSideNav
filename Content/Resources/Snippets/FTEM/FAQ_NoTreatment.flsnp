@@ -3,23 +3,42 @@
     <head>
     </head>
     <body>
-        <p>Treatments are pulled into FTEM&#160;nightly from FACTS and NFPORS and must have the following attributes in the system of record:</p>
+        <MadCap:snippetBlock src="TreatmentBasicCriteria.flsnp" />
+        <p>If the above criteria are met, treatments may be incorrect or missing due to the following issues, each is followed by the solution:</p>
         <ul>
-            <li>For NFPORS data, the treatment must be NFP&#160;(National Fire Plan), or non-NFP.</li>
-            <li>For FACTS data:</li>
-            <ul>
-                <li>A treatment must be KP 3 or KP 6.</li>
-                <li>Where duplicate SUIDs (Sub Unit ID) exist, the SUID with the most recent completion date (ActualCompletionDate) will be chosen.</li>
-                <li>If completion date (ActualCompletionDate) is also duplicated, treatments will be filtered by the the Treatment Category (treatment_category) in this order: 1-Fire, 2-Mechanical, 3-Other, 4-Preparation for Treatment.</li>
-                <li>If Treatment Category is also duplicated, treatments will be filtered by FACTS Activity Code by choosing the smallest numerical code in the remaining duplicate SUIDS.</li>
-                <li>If FACTS Activity Code is duplicated, no further filtering will be applied and remaining treatments will be brought in to FTEM.</li>
-            </ul>
+            <li>
+                <p>Treatment may not have been automatically detected as having interacted with the fire.</p>
+                <ul>
+                    <li>
+                        <p><b>Solution:</b> Briefly search for the treatment using a wider buffer area. See the <a href="../../../10-FTEM/General/SearchBuffer.htm" target="_blank">Search Buffer Topic</a> for a step by step walk-through of how to do this. You can also <a href="../../../10-FTEM/General/AddTreatmentwMap.htm" target="_blank">add a using the Map</a>, which is especially useful if the treatment is outside of the maximum buffer area.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>Treatment data may have been misidentified. FTEM&#160;<a href="../../../10-FTEM/DataTechnical/TreatmentDataAbout.htm#USFS" target="_blank">updates treatments for FACTS</a> and <a href="../../../10-FTEM/DataTechnical/TreatmentDataAbout.htm#DOI" target="_blank">NFPORS</a> to reflect the most recent treatment data. If a treatment has an incorrect id, the update may have been missed.</p>
+                <ul>
+                    <li>
+                        <p><b>Solution:</b> Contact your agency and ensure they have the treatment entered with the correct identifying information and that it has been uploaded to FACTS and NFPORS within that last 24-48 hours.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>Treatment timing may be the cause. Treatments must be completed before the start date of the interacting wildfire to be included in FTEM monitoring.</p>
+                <ul>
+                    <li>
+                        <p><b>Solution:</b> None necessary, the treatment may be ignored.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>Treatments may have bad geometry preventing them form being pulled into the system.</p>
+                <ul>
+                    <li>
+                        <p><b>Solution:</b> When submitting treatments to agency systems (FACTS / NFPORS / VMAP) use ArcGIS Products to check for geometry errors. " Check Geometry" and "Repair Geometry" are helpful for this and both tools are located in the ArcGIS or ArcPro toolbox under "Data Management Tools," in the "Features" section. It is a good idea to run Check Geometry first and examine the types of errors that may be present (self-intersections, null geometry, duplicate vertices etc.). Then, run the Repair Geometry tool.  Be sure to back up your features before running a repair. <br /><br />When using the Arc tools specified above, it is also wise to use the ESRI and OGC check options in the tools. <br /><br />For very complex polygons with thousands of vertices (like mower tracks), you might consider drawing a simpler polygon around the extent of the treatment.</p>
+                    </li>
+                </ul>
+            </li>
         </ul>
-        <p>If your treatment meets the above criteria but is still not visible in the FTEM Treatment list:</p>
-        <ol style="list-style-type: upper-alpha;">
-            <li>Try increasing your search buffer for interacting treatments. This is done after you select your wildfire, but using the Add Treatments button on the Treatments tab. See the <a href="../../../10-FTEM/General/SearchBuffer.htm" target="_blank">Search Buffer Topic</a> for a step by step walk-through of how to do this. You can also <a href="../../../10-FTEM/General/AddTreatmentwMap.htm" target="_blank">add a using the Map</a>, which is especially useful if the treatment is outside of the maximum buffer area.</li>
-            <li>If the above do not resolve this issue, you may need to follow up with your <a href="../../../10-FTEM/Guidance/AgencyLeads.htm" target="_blank">FTEM&#160;Agency Administrator</a> to have your treatment entered in the system of record. Individual agencies may upload records at different intervals.</li>
-        </ol>
-        <p>For more detail see <a href="../../../10-FTEM/DataTechnical/Treatments.htm" target="_blank">FTEM Treatments Technical Documentation</a>.</p>
+        <p>For full detail on how treatments are included in FTEM, seethe <a href="../../../10-FTEM/DataTechnical/Treatments.htm" target="_blank">FTEM Treatments Technical Documentation</a> topic.</p>
     </body>
 </html>

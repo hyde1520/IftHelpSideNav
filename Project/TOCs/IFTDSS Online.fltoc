@@ -1105,7 +1105,7 @@
           Link="/Content/10-FTEM/DataTechnical/Treatments.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
       <TocEntry
-        Title="Wildfire Data"
+        Title="Wildfire Technical Documentation"
         Link="/Content/10-FTEM/DataTechnical/Wildfires.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
         conditions="General.Prod ONLY" />
       <TocEntry
@@ -1113,14 +1113,12 @@
         conditions="General.QA ONLY"
         ReplaceMergeNode="false">
         <TocEntry
-          Title="Wildfire Data Overview" />
+          Title="Wildfire Data Overview"
+          Link="/Content/10-FTEM/DataTechnical/WildfireDataAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Wildfire Technical Documentation"
           Link="/Content/10-FTEM/DataTechnical/Wildfires.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
-      <TocEntry
-        Title="For Wildfires"
-        Link="/Content/10-FTEM/DataTechnical/Wildfires.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Buffering"
         Link="/Content/10-FTEM/DataTechnical/Buffering.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />

@@ -23,27 +23,11 @@
                 </p>
             </li>
         </ul>
-        <h2><a name="How"></a>How Treatment Data is loaded into FTEM</h2>
-        <div class="notificationNote">
-            <p>Basic criteria for including treatment data in FTEM are:</p>
-            <ul>
-                <li>
-                    <p>FACTS treatments completed after Jan. 1 2005.</p>
-                </li>
-                <li>
-                    <p>NFPORS treatments completed during or after 2008.</p>
-                </li>
-                <li>
-                    <p>Only “Hazardous Fuels Reduction” (Key Point 3) and “Non-NFP” (Key Point 6) labeled treatments.</p>
-                </li>
-                <li>
-                    <p>FACTS data is updated nightly, NFPORS updates vary depending upon agency (some agencies update more frequently to NFPORS than others).</p>
-                </li>
-            </ul>
-        </div>
+        <h2><a name="How"></a>How Treatment Data is Loaded into FTEM</h2>
+        <MadCap:snippetBlock src="../../Resources/Snippets/FTEM/TreatmentBasicCriteria.flsnp" />
         <p>The text box above breaks out the basic criteria for treatment data to be pulled from the systems of record into the Interagency Fuels Treatment Data Service. In short, there are specific date ranges and types of treatments that are pulled and this data updates at different times depending on where its coming from. In most cases where you do not see a treatment in FTEM, its because the treatment does not conform to the bulleted criteria above or has not yet been uploaded by the individual agency.</p>
         <p>Further data filtering rules for points and polygons is outlined below for your reference.</p>
-        <h3>USFS Treatments</h3>
+        <h3><a name="USFS"></a>USFS Treatments</h3>
         <div class="notificationImportant">
             <p>USFS users should not expect to see a one to one match of all treatments visible in FACTS.</p>
             <p>FTEM filters FACTS treatment data to minimize duplicates and to display only treatments eligible for monitoring based on USFS FTEM <a href="../Guidance/Policy.htm" target="_blank">monitoring policy</a>.</p>
@@ -76,7 +60,7 @@
                 <p><b>IF</b> the “F_SUID” AND “ActualCompletionDate” AND “TreatmentCategory” AND “F_ACTIVITY_Code” are the same <b>THEN</b> all treatment data will be loaded into FTEM.</p>
             </li>
         </ol>
-        <h3>DOI Treatments</h3>
+        <h3><a name="DOI"></a>DOI Treatments</h3>
         <p>DOI point and polygon treatments are loaded from NFPROS if they met the following criteria:</p>
         <ul>
             <li>

@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="General.LaterRelease">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="General.QA ONLY">
     <head>
     </head>
     <body>
         <h1>About Wildfire Data Sources</h1>
-        <p>The Fuels Treatment Effectiveness Monitoring (FTEM) process relies on geospatial datasets to depict wildfire locations from participating NWCG agencies, including four land management Agencies within the Department of Interior (National Park Service, Bureau of Land Management, US Fish and Wildlife Service, and Bureau of Indian Affairs) and the Department of Agriculture (USDA Forest Service). These geospatial datasets consist of both point and polygon features. The FTEM wildfire locations datasets are derived from data stored in:</p>
+        <p>The Fuels Treatment Effectiveness Monitoring (FTEM) process relies on geospatial datasets to depict wildfire locations from participating NWCG agencies, including four land management Agencies within the Department of Interior (National Park Service, Bureau of Land Management, US Fish and Wildlife Service, and Bureau of Indian Affairs) and the Department of Agriculture (USDA Forest Service). Polygon and point locations are come in from: </p>
         <ul>
             <li>The <a href="https://www.nwcg.gov/publications/pms936/nifs" target="_blank">National Incident Feature Services (NIFS) <i class="fa fa-external-link" aria-hidden="true"></i></a>. This service provides fire perimeter (polygon) data, where it exists.</li>
             <li>The <a href="https://www.forestsandrangelands.gov/WFIT/applications/IRWIN/index.shtml" target="_blank">Integrated Reporting of Wildland Fire Information (IRWIN) <i class="fa fa-external-link" aria-hidden="true"></i></a> data exchange service. This service provides point locations and fire-related data for fires across the United States.</li>
@@ -12,8 +12,34 @@
         <p>
             <img src="../../Resources/Images/FTEM/monitoring/FTEM_fig_Wildfire.png" alt="data as described in text" class="border" />
         </p>
-        <p>Wildland fire data is drawn from IRWIN and from NIFS. Next, the data is filtered before being displayed in the application. Details of each process are outlined below.</p>
-        <h2><a name="Loading"></a>Loading IRWIN Wildfire Point Data into FTEM</h2>
+        <p>This topic covers:</p>
+        <ul>
+            <li>
+                <p><a href="#How">How wildfire data is loaded into FTEM</a>
+                </p>
+            </li>
+            <li>
+                <p><a href="#How2">How often wildfire data updates</a>
+                </p>
+            </li>
+            <li>
+                <p><a href="#Where">Where to find detailed technical documentation</a>
+                </p>
+            </li>
+        </ul>
+        <h2><a name="How"></a>How Wildfire Data is loaded into FTEM</h2>
+        <div class="notificationNote">
+            <p>Basic criteria for including wildfire data in FTEM&#160;include:</p>
+            <ul>
+                <li>
+                    <p>Marked as Wildfire ("WF" code) in IRWIN</p>
+                </li>
+                <li>
+                    <p>Has a valid IRWIN ID</p>
+                </li>
+            </ul>
+        </div>
+        <h3><a name="Loading"></a>Loading IRWIN Wildfire Point Data into FTEM</h3>
         <p>Point data is taken from IRWIN which can be thought of as a central hub orchestrating data between the various applications. IRWIN has interfaces with several systems:</p>
         <ul>
             <li><a href="https://in-form-nifc.hub.arcgis.com/" target="_blank">INFORM <i class="fa fa-external-link" aria-hidden="true"></i></a> – Interagency Fire Occurrence Reporting Modules, used for reporting of wildland fire information integrated with IRWIN.</li>
@@ -24,53 +50,10 @@
             <li>The Sit/209 application used to track the status of large or significant fires.</li>
         </ul>
         <p>All data for an incident is linked to a single unique identification code (ID) associated with that unique wildland fire incident. By linking all data for an incident to a single ID, IRWIN is a convenient “one-stop shop” for information on specific fires from many wildland fire computer systems.</p>
-        <p>The location for a wildfire in FTEM is based on the fire’s Point of Origin (Origin). The Origin location for a wildfire is part of the IRWIN dataset. As the Origin location is refined over the life span of an incident, it may change within IRWIN, but each incident only has one Origin value defined at any point in time. IRWIN maintains control over which systems in the data exchange network are “authoritative” for the data that they exchange. Over the life span of a fire, INFORM, IROC, WFDSS, CAD, FireCode, and Sit/209systems may all update Origin location data. In the event of a data conflict, IRWIN prioritizes the most authoritative system.</p>
-        <p>The Fire Management Information System (FMIS), used by US Fish and Wildlife Service (FWS), is currently not writing data to IRWIN. As a result, corrections such as “final” size, locations, and in some cases control and out dates, may not be available for FWS fires via the IRWIN service.</p>
-        <h3>How IRWIN Point Data is pulled into FTEM</h3>
-        <p>Point data is pulled into the FTEM system nightly from IRWIN to add information that had been entered into the system since the previous pull. Criteria for the information pulled includes:</p>
-        <ul>
-            <li><![CDATA[	]]><code>incidenttypecategory ='WF'</code> (Marked as wildfires)</li>
-            <li><code>isValid = True</code> (a valid IRWINID)</li>
-            <li><code>IsQuarantined = False</code> (not a possible duplicate)</li>
-        </ul>
-        <p>Once data has been loaded to the FTEM system:</p>
-        <ul>
-            <li>New fires are added.</li>
-            <li>Existing fires in FTEM are updated if a change was made.</li>
-        </ul>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Additional IRWIN Data Retrieval Technical Details</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <ul>
-                    <li>
-                        <p>The URL&#160;for IRWIN&#160;data retrieval is outlined below: </p>
-                        <p><code><a href="https://geoplatform.maps.arcgis.com/home/item.html?id=a171c958440b458b8293ea9528e86a7b&amp;view=list" target="_blank">https://geoplatform.maps.arcgis.com/home/item.html?id=a171c958440b458b829<br />3ea9528e86a7b&amp;view=list <i class="fa fa-external-link" aria-hidden="true"></i></a></code>
-                        </p>
-                        <div class="notificationNote">
-                            <p> Viewing the above URL&#160;requires a <a href="https://www.geoplatform.gov/" target="_blank">GeoPlatform <i class="fa fa-external-link" aria-hidden="true"></i></a> account.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <p>The following clause is used to select data to pull:&#160;</p>
-                        <p><code>"ModifiedOnDateTime &gt; &lt;&lt;date of last pull&gt;&gt; AND incidenttypecategory ='WF' AND isValid = True AND IsQuarantined = False"</code>
-                        </p>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <p>The following fields are used in this process (abbreviated list):</p>
-                        <p><code>ContainmentDateTime, ControlDateTime, DailyAcres, FireDiscoveryDateTime, FireCause, FireOutDateTime, IncidentName, IncidentTypeCategory, IrwinID, IsMultiJurisdictional, isValid, ModifiedOnDateTime, POOJurisdictionalUnit, POOLandownerCategory, POOProtectingAgency, UniqueFireIdentifier</code>
-                        </p>
-                    </li>
-                </ul>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
         <div class="notificationImportant">
             <p>If you do not see a wildfire or fuel treatment in FTEM, it is likely because it has not been included in one of the above systems. Please follow <a href="../FAQs.htm" target="_blank">FAQ</a> on Wildfires and up with your FTEM Agency Administrator if necessary to have the information added to the system.</p>
         </div>
-        <h2><a name="Loading2"></a>Loading NIFS Wildfire Perimeters into FTEM</h2>
+        <h3><a name="Loading2"></a>Loading NIFS Wildfire Perimeters into FTEM</h3>
         <p>Wildfire perimeters, represented as polygon features, are collected and made available using the NIFS. The wildfire dataset contains current, active wildfires. Perimeter data comes from a variety of sources:</p>
         <ul>
             <li>Trained incident GISS specialists</li>
@@ -79,64 +62,12 @@
             <li>Incident operations resources</li>
             <li>Agency staff</li>
         </ul>
-        <p>NIFS data is uploaded to FTEM nightly. Updates by the GISS to NIFS occur in near real-time via the Hosted National Incident Feature Edit services if the incident has a reliable internet connection. In cases where a reliable internet connection is unavailable, local edits are synced nightly and it is possible NIFS may not always reflect current conditions on the ground. For a better understanding of the workflows involved in mapping and sharing fire perimeter data, please see the <a href="https://www.nwcg.gov/publications/pms936" target="_blank">NWCG Standards for Geospatial Operations, PMS 936 <i class="fa fa-external-link" aria-hidden="true"></i></a>.</p>
-        <h3>How NIFS Polygon Data is Pulled into FTEM</h3>
-        <p>Data from NIFS is pulled into an update service maintained by the National Interagency Fire Center (NIFC), called Wildfire Perimeters read-only, every 5 minutes, and in turn is pulled into FTEM system nightly. Criteria for the data pull includes:</p>
-        <ul>
-            <li><code>FeatureType</code> (alias FC Polygon Type) <code>= ‘Wildfire Daily Perimeter’</code></li>
-            <li><code>IsVisible = ‘Yes’</code>
-            </li>
-            <li><code>IRWINID &lt;&gt; NULL</code>
-            </li>
-        </ul>
         <div class="notificationNote">
             <p>Note: Some perimeters may not be approved by an incident or agency for public distribution (FeatureAccess &lt;&gt; Public or FeatureStatus &lt;&gt; Approved or FeatureStatus &lt;&gt; Proposed).</p>
         </div>
-        <p>On a weekly basis, fires meeting specific criteria are removed from the source service. After removal, those perimeters can be found in the associated Archived Wildfire Perimeters service. Criteria include:</p>
-        <ul>
-            <li>Perimeters are identified with an IRWINID that has non-null values in IRWIN for <code>ContainmentDateTime,  ControlDateTime, or FireOutDateTime</code></li>
-            <li>The most recent controlled/contained/fire out date is greater than 14 days old</li>
-            <li>No <code>IRWINID</code></li>
-            <li>Last edit (based on <code>DateCurrent</code>) is greater than 30 days old</li>
-        </ul>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Additional NIFS Data Retrieval Technical Details</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <ul>
-                    <li>
-                        <p>The URL&#160;for IRWIN&#160;data retrieval is outlined below: </p>
-                        <p><a href="https://nifc.maps.arcgis.com/home/item.html?id=f07c0b4459cd424e93b45840a819fb3a" target="_blank"><code>https://nifc.maps.arcgis.com/home/item.html?id=f07c0b4459cd424e93b45840a819fb3a <i class="fa fa-external-link" aria-hidden="true"></i></code></a>
-                        </p>
-                        <div class="notificationNote">
-                            <p>Viewing the above URL requires a <a href="https://www.nwcg.gov/committees/fire-danger-subcommittee/nfdrs/gis-nifc-agol" target="_blank">NIFC AGOL <i class="fa fa-external-link" aria-hidden="true"></i></a> account.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <p>The following clause is used to select data to pull:&#160;</p>
-                        <p><code>IsVisible = ‘Yes’ and FeatureCategory = ‘Wildfire Daily Fire Perimeter’ and FeatureStatus = ‘Approved’ OR FeatureStatus = "Proposed"</code>
-                        </p>
-                    </li>
-                    <li>
-                        <p>The following clause is used to select data to archive:&#160;</p>
-                        <p><code>ContainmentDateTime&lt;&gt;NULL OR ControlDateTime &lt;&gt; NULL OR FireOutDateTime&lt;&gt; NULL</code>
-                        </p>
-                        <p><code>ContainmentDateTime &lt;&lt;14 days&gt;&gt; OR ControlDateTime &gt; &lt;&lt;14 days&gt;&gt; OR FireOutDateTime &lt;&lt;14 days&gt;&gt;</code>
-                        </p>
-                        <p><code>IRWINID = NULL</code>
-                        </p>
-                        <p><code>AGOL_DateCurrent &gt; &lt;&lt;30 days&gt;&gt;</code>
-                        </p>
-                    </li>
-                    <li>
-                        <p>The following fields are used in this process (abbreviated list):</p>
-                        <p><code>IncidentName, FeatureCategory, MapMethod, GISAcres, FeatureAccess, FeatureStatus, IsVisible, DateCurrent, PolygonDateTime, LocalIncidentID, IRWINDID</code>
-                        </p>
-                    </li>
-                </ul>
-                <p MadCap:conditions="General.LaterRelease">For a full history of NIFS data, visit <a href="https://nifc.maps.arcgis.com/home/item.html?id=6cab6761025444f08a1e171e3b844c30" target="_blank">https://nifc.maps.arcgis.com/home/item.html?id=6cab6761025444f08a1e171e3b844c30  <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
+        <h2><a name="How2"></a>How often wildfire data updates</h2>
+        <p>NIFS data is uploaded to FTEM nightly. Updates by the GISS to NIFS occur in near real-time via the Hosted National Incident Feature Edit services if the incident has a reliable internet connection. In cases where a reliable internet connection is unavailable, local edits are synced nightly and it is possible NIFS may not always reflect current conditions on the ground. For a better understanding of the workflows involved in mapping and sharing fire perimeter data, please see the <a href="https://www.nwcg.gov/publications/pms936" target="_blank">NWCG Standards for Geospatial Operations, PMS 936 <i class="fa fa-external-link" aria-hidden="true"></i></a>.</p>
+        <h2><a name="Where"></a>Where to find detailed technical documentation</h2>
+        <p>See the <a href="Wildfires.htm" target="_blank">Wildfire Technical Documentation topic</a> for additional details on the criteria used to pull data into the system.</p>
     </body>
 </html>
