@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Shapes and shapefiles in My Workspace that display a <span class="UIcomponent">Download</span> button in the file options may be downloaded to your local computer. </p>
+        <p>
+            <img src="../../Images/MyWorkspace/Ws_ShapeDownloadBtn.png" alt="A shape in My Workspace with the Download button visible." class="border" />
+        </p>
+    </body>
+</html>

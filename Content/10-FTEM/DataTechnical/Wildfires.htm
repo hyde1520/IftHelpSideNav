@@ -47,35 +47,29 @@
             <li>New fires are added.</li>
             <li>Existing fires in FTEM are updated if a change was made.</li>
         </ul>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Additional IRWIN Data Retrieval Technical Details</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <ul>
-                    <li>
-                        <p>The URL&#160;for IRWIN&#160;data retrieval is outlined below: </p>
-                        <p><code><a href="https://geoplatform.maps.arcgis.com/home/item.html?id=a171c958440b458b8293ea9528e86a7b&amp;view=list" target="_blank">https://geoplatform.maps.arcgis.com/home/item.html?id=a171c958440b458b829<br />3ea9528e86a7b&amp;view=list <i class="fa fa-external-link" aria-hidden="true"></i></a></code>
-                        </p>
-                        <div class="notificationNote">
-                            <p> Viewing the above URL&#160;requires a <a href="https://www.geoplatform.gov/" target="_blank">GeoPlatform <i class="fa fa-external-link" aria-hidden="true"></i></a> account.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <p>The following clause is used to select data to pull:&#160;</p>
-                        <p><code>"ModifiedOnDateTime &gt; &lt;&lt;date of last pull&gt;&gt; AND incidenttypecategory ='WF' AND isValid = True AND IsQuarantined = False"</code>
-                        </p>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <p>The following fields are used in this process (abbreviated list):</p>
-                        <p><code>ContainmentDateTime, ControlDateTime, DailyAcres, FireDiscoveryDateTime, FireCause, FireOutDateTime, IncidentName, IncidentTypeCategory, IrwinID, IsMultiJurisdictional, isValid, ModifiedOnDateTime, POOJurisdictionalUnit, POOLandownerCategory, POOProtectingAgency, UniqueFireIdentifier</code>
-                        </p>
-                    </li>
-                </ul>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
+        <h3>Additional IRWIN&#160;Data Retrieval Technical Details </h3>
+        <ul>
+            <li>
+                <p>The URL&#160;for IRWIN&#160;data retrieval is outlined below: </p>
+                <p><code><a href="https://geoplatform.maps.arcgis.com/home/item.html?id=a171c958440b458b8293ea9528e86a7b&amp;view=list" target="_blank">https://geoplatform.maps.arcgis.com/home/item.html?id=a171c958440b458b829<br />3ea9528e86a7b&amp;view=list <i class="fa fa-external-link" aria-hidden="true"></i></a></code>
+                </p>
+                <div class="notificationNote">
+                    <p> Viewing the above URL&#160;requires a <a href="https://www.geoplatform.gov/" target="_blank">GeoPlatform <i class="fa fa-external-link" aria-hidden="true"></i></a> account.</p>
+                </div>
+            </li>
+            <li>
+                <p>The following clause is used to select data to pull:&#160;</p>
+                <p><code>"ModifiedOnDateTime &gt; &lt;&lt;date of last pull&gt;&gt; AND incidenttypecategory ='WF' AND isValid = True AND IsQuarantined = False"</code>
+                </p>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <p>The following fields are used in this process (abbreviated list):</p>
+                <p><code>ContainmentDateTime, ControlDateTime, DailyAcres, FireDiscoveryDateTime, FireCause, FireOutDateTime, IncidentName, IncidentTypeCategory, IrwinID, IsMultiJurisdictional, isValid, ModifiedOnDateTime, POOJurisdictionalUnit, POOLandownerCategory, POOProtectingAgency, UniqueFireIdentifier</code>
+                </p>
+            </li>
+        </ul>
         <div class="notificationImportant">
             <p>If you do not see a wildfire or fuel treatment in FTEM, it is likely because it has not been included in one of the above systems. Please follow <a href="../FAQs.htm" target="_blank">FAQ</a> on Wildfires and up with your FTEM Agency Administrator if necessary to have the information added to the system.</p>
         </div>
@@ -108,44 +102,37 @@
             <li>No <code>IRWINID</code></li>
             <li>Last edit (based on <code>DateCurrent</code>) is greater than 30 days old</li>
         </ul>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Additional NIFS Data Retrieval Technical Details</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <ul>
-                    <li>
-                        <p>The URL&#160;for IRWIN&#160;data retrieval is outlined below: </p>
-                        <p><a href="https://nifc.maps.arcgis.com/home/item.html?id=f07c0b4459cd424e93b45840a819fb3a" target="_blank"><code>https://nifc.maps.arcgis.com/home/item.html?id=f07c0b4459cd424e93b45840a819fb3a <i class="fa fa-external-link" aria-hidden="true"></i></code></a>
-                        </p>
-                        <div class="notificationNote">
-                            <p>Viewing the above URL requires a <a href="https://www.nwcg.gov/committees/fire-danger-subcommittee/nfdrs/gis-nifc-agol" target="_blank">NIFC AGOL <i class="fa fa-external-link" aria-hidden="true"></i></a> account.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <p>The following clause is used to select data to pull:&#160;</p>
-                        <p><code>IsVisible = ‘Yes’ and FeatureCategory = ‘Wildfire Daily Fire Perimeter’ and FeatureStatus = ‘Approved’ OR FeatureStatus = "Proposed"</code>
-                        </p>
-                    </li>
-                    <li>
-                        <p>The following clause is used to select data to archive:&#160;</p>
-                        <p><code>ContainmentDateTime&lt;&gt;NULL OR ControlDateTime &lt;&gt; NULL OR FireOutDateTime&lt;&gt; NULL</code>
-                        </p>
-                        <p><code>ContainmentDateTime &lt;&lt;14 days&gt;&gt; OR ControlDateTime &gt; &lt;&lt;14 days&gt;&gt; OR FireOutDateTime &lt;&lt;14 days&gt;&gt;</code>
-                        </p>
-                        <p><code>IRWINID = NULL</code>
-                        </p>
-                        <p><code>AGOL_DateCurrent &gt; &lt;&lt;30 days&gt;&gt;</code>
-                        </p>
-                    </li>
-                    <li>
-                        <p>The following fields are used in this process (abbreviated list):</p>
-                        <p><code>IncidentName, FeatureCategory, MapMethod, GISAcres, FeatureAccess, FeatureStatus, IsVisible, DateCurrent, PolygonDateTime, LocalIncidentID, IRWINDID</code>
-                        </p>
-                    </li>
-                </ul>
-                <p MadCap:conditions="General.LaterRelease">For a full history of NIFS data, visit <a href="https://nifc.maps.arcgis.com/home/item.html?id=6cab6761025444f08a1e171e3b844c30" target="_blank">https://nifc.maps.arcgis.com/home/item.html?id=6cab6761025444f08a1e171e3b844c30  <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
+        <h3>Additional NIFS&#160;Data Retrieval Technical Details</h3>
+        <ul>
+            <li>
+                <p>The URL&#160;for IRWIN&#160;data retrieval is outlined below: </p>
+                <p><a href="https://nifc.maps.arcgis.com/home/item.html?id=f07c0b4459cd424e93b45840a819fb3a" target="_blank"><code>https://nifc.maps.arcgis.com/home/item.html?id=f07c0b4459cd424e93b45840a819fb3a <i class="fa fa-external-link" aria-hidden="true"></i></code></a>
+                </p>
+                <div class="notificationNote">
+                    <p>Viewing the above URL requires a <a href="https://www.nwcg.gov/committees/fire-danger-subcommittee/nfdrs/gis-nifc-agol" target="_blank">NIFC AGOL <i class="fa fa-external-link" aria-hidden="true"></i></a> account.</p>
+                </div>
+            </li>
+            <li>
+                <p>The following clause is used to select data to pull:&#160;</p>
+                <p><code>IsVisible = ‘Yes’ and FeatureCategory = ‘Wildfire Daily Fire Perimeter’ and FeatureStatus = ‘Approved’ OR FeatureStatus = "Proposed"</code>
+                </p>
+            </li>
+            <li>
+                <p>The following clause is used to select data to archive:&#160;</p>
+                <p><code>ContainmentDateTime&lt;&gt;NULL OR ControlDateTime &lt;&gt; NULL OR FireOutDateTime&lt;&gt; NULL</code>
+                </p>
+                <p><code>ContainmentDateTime &lt;&lt;14 days&gt;&gt; OR ControlDateTime &gt; &lt;&lt;14 days&gt;&gt; OR FireOutDateTime &lt;&lt;14 days&gt;&gt;</code>
+                </p>
+                <p><code>IRWINID = NULL</code>
+                </p>
+                <p><code>AGOL_DateCurrent &gt; &lt;&lt;30 days&gt;&gt;</code>
+                </p>
+            </li>
+            <li>
+                <p>The following fields are used in this process (abbreviated list):</p>
+                <p><code>IncidentName, FeatureCategory, MapMethod, GISAcres, FeatureAccess, FeatureStatus, IsVisible, DateCurrent, PolygonDateTime, LocalIncidentID, IRWINDID</code>
+                </p>
+            </li>
+        </ul>
     </body>
 </html>

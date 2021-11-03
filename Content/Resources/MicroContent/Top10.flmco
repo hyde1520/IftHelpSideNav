@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MicroContentSet Comment="Default micro content set." MadCap:conditions="General.QA ONLY" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <MicroContent id="google-chrom">
+        <MicroContentPhrase>google chrome</MicroContentPhrase>
+        <MicroContentPhrase>chrome</MicroContentPhrase>
+        <MicroContentResponse>
+            <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                <xhtml:body>
+                    <xhtml:p><MadCap:variable xhtml:name="General.ProductName" /> is tested with and optimized for Google Chrome.</xhtml:p>
+                    <xhtml:p>For USDA&#160;users, the <xhtml:a xhtml:href="../../00-Concepts/UseGoogleChrome.htm">Google Chrome topic</xhtml:a> has tips for adding Chrome to your Forest Service computer.</xhtml:p>
+                </xhtml:body>
+            </xhtml:html>
+        </MicroContentResponse>
+    </MicroContent>
+    <MicroContent id="flammap6">
+        <MicroContentPhrase>FlamMap6</MicroContentPhrase>
+        <MicroContentResponse>
+            <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                <xhtml:body>
+                    <xhtml:p>FlamMap 6 calculations drive the following models in <MadCap:variable xhtml:name="General.ProductName" />: </xhtml:p>
+                    <xhtml:ul>
+                        <xhtml:li>
+                            <xhtml:p><xhtml:a xhtml:href="../../20-Models/LFB/About.htm">Landscape Fire Behavior</xhtml:a>
+                            </xhtml:p>
+                            <xhtml:ul>
+                                <xhtml:li>
+                                    <xhtml:p><xhtml:a xhtml:href="../../20-Models/LFB/TechDoc.htm">Landscape Fire Behavior Technical Documentation</xhtml:a>
+                                    </xhtml:p>
+                                </xhtml:li>
+                            </xhtml:ul>
+                        </xhtml:li>
+                        <xhtml:li>
+                            <xhtml:p><xhtml:a xhtml:href="../../20-Models/LBP/About.htm">Landscape Burn Probability</xhtml:a>
+                            </xhtml:p>
+                            <xhtml:ul>
+                                <xhtml:li>
+                                    <xhtml:p><xhtml:a xhtml:href="../../20-Models/LBP/TechDoc.htm">Landscape Burn Probability Technical Documentation </xhtml:a>
+                                    </xhtml:p>
+                                </xhtml:li>
+                            </xhtml:ul>
+                        </xhtml:li>
+                        <xhtml:li>
+                            <xhtml:p><xhtml:a xhtml:href="../../20-Models/MTT/About.htm">Minimum Travel Time (MTT) Fire Spread</xhtml:a>
+                            </xhtml:p>
+                            <xhtml:ul>
+                                <xhtml:li>
+                                    <xhtml:p><xhtml:a xhtml:href="../../20-Models/MTT/TechDoc.htm">Minimum Travel Time (MTT) Fire Spread Technical Documentation</xhtml:a>
+                                    </xhtml:p>
+                                </xhtml:li>
+                            </xhtml:ul>
+                        </xhtml:li>
+                    </xhtml:ul>
+                </xhtml:body>
+            </xhtml:html>
+        </MicroContentResponse>
+    </MicroContent>
+    <MicroContent id="integrated-hazard" MadCap:conditionTagExpression="exclude[General.MicroContentExclude]">
+        <MicroContentPhrase>integrated hazard</MicroContentPhrase>
+        <MicroContentResponse href="../../20-Models/LBP/Out/IntHazard.htm" />
+    </MicroContent>
+    <MicroContent id="download-shapefile">
+        <MicroContentPhrase>download shapefile</MicroContentPhrase>
+        <MicroContentResponse>
+            <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                <xhtml:body>
+                    <MadCap:snippetBlock xhtml:src="../Snippets/Workspace/DownloadShapes.flsnp" />
+                    <xhtml:p>See the <xhtml:a xhtml:href="../../10-Workspace/downloads/DownloadShapefile.htm">Download Shapes topic</xhtml:a> for more information.</xhtml:p>
+                </xhtml:body>
+            </xhtml:html>
+        </MicroContentResponse>
+    </MicroContent>
+    <MicroContent id="hvra">
+        <MicroContentPhrase>hvra</MicroContentPhrase>
+        <MicroContentResponse href="../../30-Tasks/QWRA/MapValues/HVRAAbout.htm" />
+    </MicroContent>
+</MicroContentSet>

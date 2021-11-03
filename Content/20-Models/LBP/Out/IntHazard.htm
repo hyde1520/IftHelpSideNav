@@ -17,79 +17,79 @@
             <p>Like Burn Probability, Integrated Hazard in <MadCap:variable name="General.ProductName" /> is dynamic based on the extent at which it is mapped or reported. Extent options include full landscape, unbuffered landscape, and area of interest. See <a href="DynamicMask.htm" target="_blank">Masks and Map Extent (Dynamic)</a> for an example.</p>
         </div>
         <p>
-            <img src="../../../Resources/Images/Conceptuals/Fig_IntegratedHazardDiagram.png" class="border" alt="conceptual box-and-arrow figure showing landscape, weather, and ignition inputs feeding into fire simulation. Fire simulation produces burn probability and conditional flame length outputs which are both used for the integrated hazard output." />
+            <img src="../../../Resources/Images/Conceptuals/Fig_IntegratedHazardDiagram.png" class="border" alt="conceptual box-and-arrow figure showing landscape, weather, and ignition inputs feeding into fire simulation. Fire simulation produces burn probability and conditional flame length outputs which are both used for the integrated hazard output." MadCap:conditions="General.MicroContentExclude" />
         </p>
         <p>For each pixel, an Integrated Hazard value is assigned based on the Burn Probability and Conditional Flame Length Class using the following table:</p>
         <p>
             <img src="../../../Resources/Images/Models/LBP/LBP_Out_IntegratedHazardTable.png" class="border" alt="integrated hazard matrix with color scale that goes from cool to warm as burn probability and conditional flame length increase." />
         </p>
-        <p>For example, a pixel with a burn probability of “Highest”, and conditional flame length of &gt;8-12-ft would have an integrated hazard of “Highest”.</p>
-        <p>
+        <p MadCap:conditions="General.MicroContentExclude">For example, a pixel with a burn probability of “Highest”, and conditional flame length of &gt;8-12-ft would have an integrated hazard of “Highest”.</p>
+        <p MadCap:conditions="General.MicroContentExclude">
             <img src="../../../Resources/Images/Conceptuals/Fig_IHTableDemo.png" class="border" alt="crosswalking on the integrated hazard matrix. A conditional flame length of &gt;8-12 feet and a burn probability of 80-100% corresponds to red on the color scale." />
         </p>
-        <p><MadCap:variable name="General.ProductName" /> Integrated Hazard is categorized with seven distinct classes. The first two are for pixels that did not burn and the remaining five classes are dynamic based on the integrated hazard matrix above. They include:</p>
+        <p MadCap:conditions="General.MicroContentExclude"><MadCap:variable name="General.ProductName" /> Integrated Hazard is categorized with seven distinct classes. The first two are for pixels that did not burn and the remaining five classes are dynamic based on the integrated hazard matrix above. They include:</p>
         <ul>
-            <li>Non-burnable</li>
-            <li>Burnable but not burned</li>
-            <li>Lowest hazard</li>
-            <li>Lower hazard</li>
-            <li>Middle Hazard</li>
-            <li>Higher Hazard</li>
-            <li>Highest Hazard</li>
+            <li MadCap:conditions="General.MicroContentExclude">Non-burnable</li>
+            <li MadCap:conditions="General.MicroContentExclude">Burnable but not burned</li>
+            <li MadCap:conditions="General.MicroContentExclude">Lowest hazard</li>
+            <li MadCap:conditions="General.MicroContentExclude">Lower hazard</li>
+            <li MadCap:conditions="General.MicroContentExclude">Middle Hazard</li>
+            <li MadCap:conditions="General.MicroContentExclude">Higher Hazard</li>
+            <li MadCap:conditions="General.MicroContentExclude">Highest Hazard</li>
         </ul>
-        <h2><a name="Display"></a>Display</h2>
-        <p>Landscape Burn Probability model outputs in the Map Studio for each specific analysis include a layer for Integrated Hazard in the outputs legend, as well as for Burn Probability and Conditional Flame Length. Integrated Hazard outputs can be viewed on the Map in the Layers List and using the Identify <img src="../../../Resources/Images/MapStudio/widget_icons/button_identify.png" alt="identify" /> widget.</p>
-        <p>
+        <h2 MadCap:conditions="General.MicroContentExclude"><a name="Display"></a>Display</h2>
+        <p MadCap:conditions="General.MicroContentExclude">Landscape Burn Probability model outputs in the Map Studio for each specific analysis include a layer for Integrated Hazard in the outputs legend, as well as for Burn Probability and Conditional Flame Length. Integrated Hazard outputs can be viewed on the Map in the Layers List and using the Identify <img src="../../../Resources/Images/MapStudio/widget_icons/button_identify.png" alt="identify" /> widget.</p>
+        <p MadCap:conditions="General.MicroContentExclude">
             <img src="../../../Resources/Images/MapStudio/Map_LyrList_Id.png" class="border" alt="information shown in the identify widget" />
         </p>
-        <p>
+        <p MadCap:conditions="General.MicroContentExclude">
             <img src="../../../Resources/Images/Conceptuals/Fig_BP_CFL_HazardCompare.png" class="border" alt="comparison of burn probability, conditional flame length, and integrated hazard" />
         </p>
-        <p>In Map Studio, you can view the Integrated Hazard matrix table by clicking the <span class="UIcomponent">More Options <img src="../../../Resources/Images/ButtonsGeneral/Btn_MoreOptions.png" alt="more options" class="iftbutton" /> button</span> next to the “Integrated Hazard” feature in the  <span class="UIcomponent">Layer List</span> and select the Integrated Hazard Matrix option. You may click and the drag table to relocate it if needed.</p>
-        <img src="../../../Resources/Images/MapStudio/Map_lbp_hazard_view_table.png" alt="Map studio with Layer List and Integrated Hazard Matrix table both visible." class="border" />
+        <p MadCap:conditions="General.MicroContentExclude">In Map Studio, you can view the Integrated Hazard matrix table by clicking the <span class="UIcomponent">More Options <img src="../../../Resources/Images/ButtonsGeneral/Btn_MoreOptions.png" alt="more options" class="iftbutton" /> button</span> next to the “Integrated Hazard” feature in the  <span class="UIcomponent">Layer List</span> and select the Integrated Hazard Matrix option. You may click and the drag table to relocate it if needed.</p>
+        <img src="../../../Resources/Images/MapStudio/Map_lbp_hazard_view_table.png" alt="Map studio with Layer List and Integrated Hazard Matrix table both visible." class="border" MadCap:conditions="General.MicroContentExclude" />
         <div class="notificationImportant">
-            <p>Places on the landscape can be unburned for three reasons: 1) the location has a non-burnable fuel model,  2) a modeled fire never reached that location, or 3) an ignition started but did not burn out of the current pixel.</p>
+            <p MadCap:conditions="General.MicroContentExclude">Places on the landscape can be unburned for three reasons: 1) the location has a non-burnable fuel model,  2) a modeled fire never reached that location, or 3) an ignition started but did not burn out of the current pixel.</p>
         </div>
-        <h3>Viewing Integrated Hazard from the download package</h3>
-        <p>In the download package, Integrated Hazard is classified numerically. Where non-burnable pixels exist, the value is -1. Where pixels were burnable but did not burn the value is 0. The remaining values 1 through 5 represent increasing levels of integrated hazard.</p>
-        <table style="width: 100%;mc-table-style: url('../../../Resources/TableStylesheets/Copy of Standard.css');caption-side: top;" class="TableStyle-Standard" cellspacing="3">
-            <caption>Values for each Integrated Hazard class.</caption>
+        <h3 MadCap:conditions="General.MicroContentExclude">Viewing Integrated Hazard from the download package</h3>
+        <p MadCap:conditions="General.MicroContentExclude">In the download package, Integrated Hazard is classified numerically. Where non-burnable pixels exist, the value is -1. Where pixels were burnable but did not burn the value is 0. The remaining values 1 through 5 represent increasing levels of integrated hazard.</p>
+        <table style="width: 100%;mc-table-style: url('../../../Resources/TableStylesheets/Copy of Standard.css');caption-side: top;" class="TableStyle-Standard" cellspacing="3" MadCap:conditions="General.MicroContentExclude">
+            <caption MadCap:conditions="General.MicroContentExclude">Values for each Integrated Hazard class.</caption>
             <col class="TableStyle-Standard-Column-Column1" />
             <col class="TableStyle-Standard-Column-Column1" />
             <thead>
                 <tr class="TableStyle-Standard-Head-Header1">
-                    <th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;">Value</th>
-                    <th class="TableStyle-Standard-HeadD-Column1-Header1" style="font-weight: bold;">Integrated Hazard Class</th>
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1" style="font-weight: bold;" MadCap:conditions="General.MicroContentExclude">Value</th>
+                    <th class="TableStyle-Standard-HeadD-Column1-Header1" style="font-weight: bold;" MadCap:conditions="General.MicroContentExclude">Integrated Hazard Class</th>
                 </tr>
             </thead>
             <tbody>
                 <tr class="TableStyle-Standard-Body-Body1">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">-1</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Non-burnable</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1" MadCap:conditions="General.MicroContentExclude">-1</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1" MadCap:conditions="General.MicroContentExclude">Non-burnable</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">0</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Burnable but did not burn</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2" MadCap:conditions="General.MicroContentExclude">0</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2" MadCap:conditions="General.MicroContentExclude">Burnable but did not burn</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">1</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Lowest Hazard</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1" MadCap:conditions="General.MicroContentExclude">1</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1" MadCap:conditions="General.MicroContentExclude">Lowest Hazard</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">2</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Low Hazard</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2" MadCap:conditions="General.MicroContentExclude">2</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2" MadCap:conditions="General.MicroContentExclude">Low Hazard</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body1">3</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body1">Middle Hazard</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1" MadCap:conditions="General.MicroContentExclude">3</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body1" MadCap:conditions="General.MicroContentExclude">Middle Hazard</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body2">
-                    <td class="TableStyle-Standard-BodyE-Column1-Body2">4</td>
-                    <td class="TableStyle-Standard-BodyD-Column1-Body2">Higher Hazard</td>
+                    <td class="TableStyle-Standard-BodyE-Column1-Body2" MadCap:conditions="General.MicroContentExclude">4</td>
+                    <td class="TableStyle-Standard-BodyD-Column1-Body2" MadCap:conditions="General.MicroContentExclude">Higher Hazard</td>
                 </tr>
                 <tr class="TableStyle-Standard-Body-Body1">
-                    <td class="TableStyle-Standard-BodyB-Column1-Body1">5</td>
-                    <td class="TableStyle-Standard-BodyA-Column1-Body1">Highest Hazard</td>
+                    <td class="TableStyle-Standard-BodyB-Column1-Body1" MadCap:conditions="General.MicroContentExclude">5</td>
+                    <td class="TableStyle-Standard-BodyA-Column1-Body1" MadCap:conditions="General.MicroContentExclude">Highest Hazard</td>
                 </tr>
             </tbody>
         </table>

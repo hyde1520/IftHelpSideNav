@@ -1093,10 +1093,9 @@
       <TocEntry
         Title="Treatment Technical Documentation"
         Link="/Content/10-FTEM/DataTechnical/Treatments.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-        conditions="General.Prod ONLY" />
+        conditions="General.Exclude" />
       <TocEntry
-        Title="Treatment Data"
-        conditions="General.QA ONLY">
+        Title="Treatment Data">
         <TocEntry
           Title="Treatment Data Overview"
           Link="/Content/10-FTEM/DataTechnical/TreatmentDataAbout.htm" />
@@ -1107,10 +1106,9 @@
       <TocEntry
         Title="Wildfire Technical Documentation"
         Link="/Content/10-FTEM/DataTechnical/Wildfires.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-        conditions="General.Prod ONLY" />
+        conditions="General.Exclude" />
       <TocEntry
         Title="Wildfire Data"
-        conditions="General.QA ONLY"
         ReplaceMergeNode="false">
         <TocEntry
           Title="Wildfire Data Overview"
@@ -1341,48 +1339,48 @@
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/00-AboutIFTDSS/tab_test.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      conditions="General.QA ONLY" />
-  </TocEntry>
-  <TocEntry
-    Title="Administrator Info"
-    conditions="General.QA ONLY">
+      conditions="General.QA ONLY"></TocEntry>
     <TocEntry
-      Title="Admin Overview"
-      Link="/Content/00-AdminTasks/AdminGeneral.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    <TocEntry
-      Title="Manage User Accounts">
+      Title="Administrator Info"
+      conditions="General.QA ONLY">
+      <TocEntry
+        Title="Admin Overview"
+        Link="/Content/00-AdminTasks/AdminGeneral.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Manage User Accounts">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/00-AdminTasks/ManageUsers/AboutUserAdmin.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/00-AdminTasks/ManageUsers/UserMgtCheatsheet.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/00-AdminTasks/ManageUsers/AboutUserAdmin.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/00-AdminTasks/UserList/UserList.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/00-AdminTasks/ManageUsers/UserMgtCheatsheet.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    </TocEntry>
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/00-AdminTasks/UserList/UserList.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    <TocEntry
-      Title="System Administration">
-      <TocEntry
-        Title="Help Content Management"
-        Link="/Content/00-AdminTasks/SystemAdmin/HelpContentMgt.htm"
-        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="IFTDSS Services"
-        Link="/Content/00-AdminTasks/SystemAdmin/IFTDSSServices.htm"
-        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Server Logs"
-        Link="/Content/00-AdminTasks/SystemAdmin/ServerLogs.htm"
-        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="User Notifier"
-        Link="/Content/00-AdminTasks/SystemAdmin/UserNotifier.htm"
-        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Work Requests"
-        Link="/Content/00-AdminTasks/SystemAdmin/WorkRequests.htm"
-        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Title="System Administration">
+        <TocEntry
+          Title="Help Content Management"
+          Link="/Content/00-AdminTasks/SystemAdmin/HelpContentMgt.htm"
+          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="IFTDSS Services"
+          Link="/Content/00-AdminTasks/SystemAdmin/IFTDSSServices.htm"
+          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Server Logs"
+          Link="/Content/00-AdminTasks/SystemAdmin/ServerLogs.htm"
+          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="User Notifier"
+          Link="/Content/00-AdminTasks/SystemAdmin/UserNotifier.htm"
+          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Work Requests"
+          Link="/Content/00-AdminTasks/SystemAdmin/WorkRequests.htm"
+          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
     </TocEntry>
   </TocEntry>
 </CatapultToc>

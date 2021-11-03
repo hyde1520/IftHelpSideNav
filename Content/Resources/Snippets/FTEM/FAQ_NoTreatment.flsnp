@@ -22,7 +22,7 @@
                     </li>
                 </ul>
             </li>
-            <li>
+            <li MadCap:conditions="General.LaterRelease">
                 <p>Treatment timing may be the cause. Treatments must be completed before the start date of the interacting wildfire to be included in FTEM monitoring.</p>
                 <ul>
                     <li>

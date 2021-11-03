@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<MicroContentSet Comment="Default micro content set." MadCap:conditions="General.QA ONLY" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-    <MicroContent id="editing-landscape">
-        <MicroContentPhrase>editing landscape</MicroContentPhrase>
-        <MicroContentResponse href="../../00-Concepts/Cheatsheet_Editing.htm#microcontent1" />
-    </MicroContent>
-</MicroContentSet>

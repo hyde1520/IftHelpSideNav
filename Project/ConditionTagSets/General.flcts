@@ -28,4 +28,9 @@
     BackgroundColor="#00bfff"
     Name="Prod ONLY"
     Comment="" />
+  <ConditionTag
+    BackgroundColor="#00ff00"
+    Name="MicroContentExclude"
+    Comment="exclude in microcontent"
+    OriginalName="MicroContentExclude" />
 </CatapultConditionTagSet>
