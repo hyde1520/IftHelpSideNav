@@ -3,6 +3,7 @@
     <MicroContent id="google-chrom">
         <MicroContentPhrase>google chrome</MicroContentPhrase>
         <MicroContentPhrase>chrome</MicroContentPhrase>
+        <MicroContentPhrase>browser</MicroContentPhrase>
         <MicroContentResponse>
             <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
                 <xhtml:body>
@@ -71,6 +72,35 @@
     </MicroContent>
     <MicroContent id="hvra">
         <MicroContentPhrase>hvra</MicroContentPhrase>
+        <MicroContentPhrase>hvra set</MicroContentPhrase>
+        <MicroContentPhrase>highly valued resources and assetts</MicroContentPhrase>
         <MicroContentResponse href="../../30-Tasks/QWRA/MapValues/HVRAAbout.htm" />
+    </MicroContent>
+    <MicroContent id="burn-probability">
+        <MicroContentPhrase>burn probability</MicroContentPhrase>
+        <MicroContentPhrase>LBP</MicroContentPhrase>
+        <MicroContentPhrase>landscape burn probability</MicroContentPhrase>
+        <MicroContentResponse href="../../20-Models/LBP/About.htm" />
+    </MicroContent>
+    <MicroContent id="edit">
+        <MicroContentPhrase>Edit</MicroContentPhrase>
+        <MicroContentPhrase>landscape editing</MicroContentPhrase>
+        <MicroContentPhrase>how can I edit a landscape</MicroContentPhrase>
+        <MicroContentPhrase>can i edit the landscape</MicroContentPhrase>
+        <MicroContentResponse href="../../00-Concepts/Cheatsheet_Editing.htm" />
+    </MicroContent>
+    <MicroContent id="relative-importance-per-pixel">
+        <MicroContentPhrase>relative importance per pixel</MicroContentPhrase>
+        <MicroContentPhrase>ripp</MicroContentPhrase>
+        <MicroContentResponse href="../../30-Tasks/QWRA/Risk/QWRATechDoc.htm" />
+    </MicroContent>
+    <MicroContent id="ftem">
+        <MicroContentPhrase>FTEM</MicroContentPhrase>
+        <MicroContentPhrase>Fuel Treatment Effectiveness Monitoring</MicroContentPhrase>
+        <MicroContentResponse href="../../10-FTEM/FTEMAbout.htm" />
+    </MicroContent>
+    <MicroContent id="ecosystem-function">
+        <MicroContentPhrase>Ecosystem Function</MicroContentPhrase>
+        <MicroContentResponse href="../../10-MapStudio/RefLayerMetadata/HVRAs/EcoFun_m.htm" />
     </MicroContent>
 </MicroContentSet>

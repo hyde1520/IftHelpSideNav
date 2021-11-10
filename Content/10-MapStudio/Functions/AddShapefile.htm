@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
@@ -13,7 +13,18 @@
         </p>
         <p>Use the <span class="UIcomponent">Upload Shapefile</span> <img src="../../Resources/Images/MapStudio/widget_icons/button_addshapefile.png" alt="orange upload shapefile button" class="iftbutton" /> widget to upload a shapefile to the <MadCap:variable name="General.ProductName" /> Map Studio and save it to <MadCap:variable name="General.ProductName" />.</p>
         <div class="notificationImportant">
-            <p><a name="zipshapefiles"></a>Shapefiles are added to Map Studio as .zip files. The .zip file must contain the .shp, .shx, .dbf, and .prj files that comprise the shapefile.</p>
+            <p><a name="zipshapefiles"></a>Shapefiles added to Map Studio must:</p>
+            <ul>
+                <li>
+                    <p>Be zipped as a .zip file.</p>
+                </li>
+                <li>
+                    <p>Not have nested folders within the zipfile.</p>
+                </li>
+                <li>
+                    <p>Contain the .shp, .shx, .dbf, and .prj files.</p>
+                </li>
+            </ul>
         </div>
         <MadCap:snippetBlock src="../../Resources/Snippets/MapStudio/UploadShapefile.flsnp" />
         <MadCap:dropDown>
